@@ -1,0 +1,10 @@
+# Normalize all text files to LF on commit (safe for Vercel / Linux deploys)
+* text=auto eol=lf
+
+# Explicitly binary — never touch line endings
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ico binary
+*.woff binary
+*.woff2 binary

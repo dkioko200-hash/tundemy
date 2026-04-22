@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Background -->
+  <rect width="32" height="32" rx="6" fill="#0f1f3d"/>
+  <!-- Kenyan flag stripes: black / red / green — three vertical bands -->
+  <rect x="4" y="8" width="5" height="16" rx="1" fill="#111111"/>
+  <rect x="10" y="8" width="5" height="16" rx="1" fill="#bb0000"/>
+  <rect x="16" y="8" width="5" height="16" rx="1" fill="#2d8a4e"/>
+  <!-- "S" letterform hint — small white dot top-right for polish -->
+  <circle cx="26" cy="8" r="2.5" fill="#2d8a4e"/>
+</svg>
