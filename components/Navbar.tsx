@@ -41,10 +41,10 @@ export default function Navbar() {
               Talent Portal
             </Link>
             <Link
-              href="#about"
+              href="#employers"
               className="text-sm font-medium text-gray-600 hover:text-[#0f1f3d] transition-colors"
             >
-              About
+              For Employers
             </Link>
           </div>
 
@@ -105,8 +105,8 @@ export default function Navbar() {
           <Link href="#talent" className="block text-sm font-medium text-gray-700 py-2" onClick={() => setMenuOpen(false)}>
             Talent Portal
           </Link>
-          <Link href="#about" className="block text-sm font-medium text-gray-700 py-2" onClick={() => setMenuOpen(false)}>
-            About
+          <Link href="#employers" className="block text-sm font-medium text-gray-700 py-2" onClick={() => setMenuOpen(false)}>
+            For Employers
           </Link>
           <div className="flex flex-col gap-2 pt-2">
             <Link

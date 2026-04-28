@@ -10,68 +10,89 @@ export default function HomePage() {
       <HeroSection />
       <CoursesSection />
 
-      {/* Talent Portal teaser section */}
+      {/* Talent Pool section */}
       <section
         id="talent"
         className="py-24"
-        style={{
-          background: "linear-gradient(135deg, #0f1f3d 0%, #1a3260 100%)",
-        }}
+        style={{ background: "linear-gradient(135deg, #0f1f3d 0%, #1a3260 100%)" }}
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6 text-white">
-              <span
-                className="inline-block text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full"
-                style={{ backgroundColor: "rgba(45,138,78,0.2)", color: "#2d8a4e" }}
-              >
-                Talent Portal
-              </span>
-              <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight leading-tight">
-                Employers, find{" "}
-                <span style={{ color: "#2d8a4e" }}>AI-ready talent</span>{" "}
-                in Kenya
-              </h2>
-              <p className="text-white/60 text-lg leading-relaxed">
-                Browse verified profiles of Skilara graduates. Each candidate comes
-                with a skills portfolio, project work, and a certificate you can
-                trust. No recruiter fees.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <button
-                  className="px-7 py-3.5 text-sm font-bold text-white rounded-xl transition-all hover:opacity-90"
-                  style={{ backgroundColor: "#2d8a4e" }}
-                >
-                  Browse Talent
-                </button>
-                <button
-                  className="px-7 py-3.5 text-sm font-bold rounded-xl border-2 border-white/20 text-white transition-all hover:border-white/40"
-                >
-                  Post a Job
-                </button>
-              </div>
-            </div>
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 
-            {/* Stats grid */}
-            <div className="grid grid-cols-2 gap-4">
-              {[
-                { value: "2,400+", label: "Verified graduates", icon: "🎓" },
-                { value: "18", label: "Course certifications", icon: "📜" },
-                { value: "94%", label: "Employer satisfaction", icon: "⭐" },
-                { value: "Free", label: "Posting for employers", icon: "🆓" },
-              ].map((stat) => (
-                <div
-                  key={stat.label}
-                  className="rounded-2xl p-6 space-y-2"
-                  style={{ backgroundColor: "rgba(255,255,255,0.06)" }}
-                >
-                  <div className="text-2xl">{stat.icon}</div>
-                  <div className="text-2xl font-extrabold text-white">{stat.value}</div>
-                  <div className="text-sm text-white/50">{stat.label}</div>
-                </div>
-              ))}
-            </div>
+          {/* Eyebrow */}
+          <span
+            className="inline-block text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-6"
+            style={{ backgroundColor: "rgba(45,138,78,0.2)", color: "#2d8a4e" }}
+          >
+            Talent Pool
+          </span>
+
+          {/* Headline */}
+          <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight leading-tight text-white mb-5">
+            Where employers find{" "}
+            <span style={{ color: "#2d8a4e" }}>verified AI talent</span>
+          </h2>
+
+          {/* Subtext */}
+          <p className="text-white/60 text-lg leading-relaxed mb-10">
+            Every graduate on Skilara has completed hands-on projects, passed
+            graded assessments, and earned verified badges. Global and local
+            employers post jobs and hire directly from our talent pool.
+          </p>
+
+          {/* Stats row */}
+          <div className="flex justify-center gap-6 mb-10">
+            {[
+              { value: "2,400+", label: "Verified graduates" },
+              { value: "47", label: "Employers hiring now" },
+            ].map((stat) => (
+              <div
+                key={stat.label}
+                className="flex-1 max-w-[180px] rounded-2xl py-5 px-4"
+                style={{ backgroundColor: "rgba(255,255,255,0.07)" }}
+              >
+                <div className="text-3xl font-extrabold text-white">{stat.value}</div>
+                <div className="text-sm text-white/50 mt-1">{stat.label}</div>
+              </div>
+            ))}
           </div>
+
+          {/* Employer benefit points */}
+          <ul className="text-left max-w-sm mx-auto space-y-3 mb-10">
+            {[
+              "Filter candidates by course and skill level",
+              "View completed projects and sandbox scores",
+              "Post a job from KSh 5,000 per listing",
+            ].map((point) => (
+              <li key={point} className="flex items-start gap-3">
+                <span
+                  className="w-5 h-5 rounded-full flex items-center justify-center text-xs font-bold shrink-0 mt-0.5"
+                  style={{ backgroundColor: "rgba(45,138,78,0.2)", color: "#2d8a4e" }}
+                >
+                  ✓
+                </span>
+                <span className="text-sm text-white/70 leading-relaxed">{point}</span>
+              </li>
+            ))}
+          </ul>
+
+          {/* Primary CTA */}
+          <button
+            className="w-full sm:w-auto px-8 py-4 text-sm font-bold text-white rounded-xl transition-all hover:opacity-90 active:scale-95 mb-4"
+            style={{ backgroundColor: "#0f1f3d", border: "2px solid rgba(255,255,255,0.15)" }}
+          >
+            Post a Job — Hire AI Talent
+          </button>
+
+          {/* Secondary link */}
+          <div>
+            <button
+              className="text-sm font-semibold transition-opacity hover:opacity-70"
+              style={{ color: "#2d8a4e" }}
+            >
+              Browse the talent pool →
+            </button>
+          </div>
+
         </div>
       </section>
 
@@ -85,20 +106,20 @@ export default function HomePage() {
             Why Skilara
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight mb-4" style={{ color: "#0f1f3d" }}>
-            AI education built for{" "}
-            <span style={{ color: "#2d8a4e" }}>Kenya&apos;s reality</span>
+            Why thousands of professionals{" "}
+            <span style={{ color: "#2d8a4e" }}>choose Skilara</span>
           </h2>
           <p className="text-gray-500 text-lg max-w-2xl mx-auto mb-14">
-            Not generic global content — real Kenyan use cases with M-Pesa, local
-            telcos, Swahili context, and the APIs that actually matter here.
+            Production-ready skills, real projects, and direct access to employers
+            hiring AI talent right now.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
               {
-                icon: "🇰🇪",
-                title: "Kenya-First Curriculum",
-                body: "Built around Safaricom Daraja, MPESA, local businesses, and East African market dynamics.",
+                icon: "🌍",
+                title: "Africa-First Curriculum",
+                body: "Built around Safaricom Daraja, M-Pesa, real business workflows, and East African market dynamics.",
               },
               {
                 icon: "🛠️",
@@ -108,7 +129,7 @@ export default function HomePage() {
               {
                 icon: "🏅",
                 title: "Employer-Recognized Certificates",
-                body: "Our certificates are accepted by tech companies and NGOs across Kenya and the broader East Africa region.",
+                body: "Our certificates are accepted by tech companies, startups, and NGOs across Africa and beyond.",
               },
             ].map((feature) => (
               <div
@@ -133,7 +154,7 @@ export default function HomePage() {
             Ready to build your AI skills?
           </h2>
           <p className="text-gray-500 text-lg">
-            Join 2,400+ Kenyans already learning on Skilara. Start for free today.
+            Join 2,400+ learners already building AI skills on Skilara. Join Africa&apos;s most verified AI talent pool.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button
@@ -143,7 +164,7 @@ export default function HomePage() {
                 boxShadow: "0 4px 24px rgba(45,138,78,0.35)",
               }}
             >
-              Create Free Account
+              Get Started
             </button>
             <button
               className="px-8 py-4 text-base font-bold rounded-xl border-2 transition-all hover:bg-[#0f1f3d] hover:text-white"

@@ -8,7 +8,7 @@ const courses: PreviewCourse[] = [
   {
     title: "Introduction to AI",
     description:
-      "The perfect starting point if you're new to artificial intelligence. Understand how AI works, explore the tools shaping Kenya's digital economy, and use AI confidently in your everyday work — no coding required.",
+      "The fastest way to go from zero to productive with AI. Understand how AI works, which tools matter, and how to apply them to real business problems — no coding required.",
     level: "Beginner",
     lessons: 8,
     price: 1500,
@@ -27,7 +27,7 @@ const courses: PreviewCourse[] = [
   {
     title: "Prompt Engineering Mastery",
     description:
-      "Go beyond basic prompts. Learn advanced techniques for structuring, chaining, and refining prompts that deliver consistent, high-quality results from any AI model. Build reusable systems your whole team can rely on.",
+      "The most in-demand AI skill right now. Learn to write prompts that get professional results from any AI tool — for marketing, operations, customer service, coding, and more.",
     level: "Intermediate",
     lessons: 12,
     price: 2500,
@@ -47,7 +47,7 @@ const courses: PreviewCourse[] = [
   {
     title: "AI for Data Analysis",
     description:
-      "Harness AI to turn raw data into clear business intelligence — no data science degree required. Work with real Kenyan business datasets to generate charts, automated reports, and actionable insights using natural language.",
+      "Turn raw data into decisions using AI. Learn to clean, analyze, and visualize business data without a data science degree. Skills valued by companies across every industry.",
     level: "Intermediate",
     lessons: 10,
     price: 2800,
@@ -59,14 +59,14 @@ const courses: PreviewCourse[] = [
       "Clean and structure messy real-world datasets using AI assistance",
       "Generate professional dashboards and charts with natural language",
       "Write and debug SQL queries using AI code generation",
-      "Build automated weekly reports tailored to Kenyan business metrics",
+      "Build automated reports that surface actionable business insights",
       "Present AI-generated insights clearly to non-technical decision-makers",
     ],
   },
   {
     title: "WhatsApp Business AI Integration",
     description:
-      "Build production-ready WhatsApp bots using the Meta Cloud API. Automate customer support, order updates, and full conversational flows for Kenyan businesses — without enterprise-level budgets or teams.",
+      "Build production-ready WhatsApp bots using the Meta Cloud API. Automate customer support, order updates, and lead qualification. Deployable from day one.",
     level: "Advanced",
     lessons: 14,
     price: 3500,
@@ -80,13 +80,13 @@ const courses: PreviewCourse[] = [
       "Build a bot that resolves customer FAQs without human intervention",
       "Send automated transactional alerts and order updates via WhatsApp",
       "Design multi-step conversational flows using NLP techniques",
-      "Deploy and monitor a live WhatsApp AI bot for a real Kenyan business",
+      "Deploy and monitor a production WhatsApp AI bot from day one",
     ],
   },
   {
     title: "M-Pesa Daraja API Integration",
     description:
-      "Build fully functional payment systems with Safaricom's Daraja API. From sandbox setup through to production — covering STK Push, C2B, B2C, callbacks, and robust error handling at every step.",
+      "Build fully functional payment systems using Safaricom's Daraja API. From sandbox setup through to production deployment — skills that fintech companies globally are hiring for.",
     level: "Advanced",
     lessons: 16,
     price: 4500,
@@ -100,13 +100,42 @@ const courses: PreviewCourse[] = [
       "Implement STK Push for seamless mobile payment initiation",
       "Handle C2B and B2C payment callbacks securely with full validation",
       "Build a payment confirmation, logging, and receipt system",
-      "Ship a production-ready M-Pesa integration with error handling and retries",
+      "Ship a production-ready payment integration with error handling and retries",
+    ],
+  },
+  {
+    title: "AI for Agriculture and Agritech",
+    description:
+      "Apply AI to crop prediction, supply chain optimization, market pricing, and agricultural data analysis. Skills valued by agritech startups, NGOs, and food tech companies worldwide.",
+    level: "Intermediate",
+    lessons: 10,
+    price: 3000,
+    duration: "4 weeks",
+    tag: "Agritech AI Specialist",
+    tagColor: "#2d8a4e",
+    icon: "🌱",
+    badge: "🌱 High Demand",
+    badgeBg: "#2d8a4e",
+    bannerGradient: "linear-gradient(135deg, #0d3320 0%, #2d8a4e 100%)",
+    accomplishments: [
+      "Apply machine learning models to crop yield prediction and weather analysis",
+      "Build supply chain optimization tools using AI and historical datasets",
+      "Analyze agricultural market pricing data to surface trends and opportunities",
+      "Create AI-powered dashboards for farm management and resource planning",
+      "Deploy practical agritech solutions ready for startups, NGOs, and food companies",
     ],
   },
 ];
 
 export default function CoursesSection() {
   const [selectedCourse, setSelectedCourse] = useState<PreviewCourse | null>(null);
+  const [activeFilter, setActiveFilter] = useState("All Courses");
+
+  const filteredCourses = courses.filter((c) => {
+    if (activeFilter === "All Courses") return true;
+    if (activeFilter === "Most Popular") return c.badge?.includes("Popular");
+    return c.level === activeFilter;
+  });
 
   return (
     <>
@@ -121,41 +150,46 @@ export default function CoursesSection() {
                 color: "#2d8a4e",
               }}
             >
-              What You&apos;ll Learn
+              In-Demand AI Courses
             </span>
             <h2
               className="text-3xl sm:text-4xl font-extrabold tracking-tight"
               style={{ color: "#0f1f3d" }}
             >
-              Courses built for the{" "}
-              <span style={{ color: "#2d8a4e" }}>Kenyan market</span>
+              Skills global employers{" "}
+              <span style={{ color: "#2d8a4e" }}>hire for</span>
             </h2>
             <p className="text-gray-500 text-lg max-w-2xl mx-auto">
-              Every course uses real Kenyan business cases, local APIs, and
-              projects you can actually deploy — not just theory.
+              Every course includes video lessons, a hands-on sandbox, graded
+              quizzes, and a portfolio project. Built with real business
+              scenarios. Recognised by employers worldwide.
             </p>
           </div>
 
           {/* Filter pills */}
           <div className="flex flex-wrap justify-center gap-2 mb-10">
-            {["All Courses", "Beginner", "Intermediate", "Advanced"].map((filter) => (
-              <button
-                key={filter}
-                className="px-4 py-1.5 text-sm font-medium rounded-full border transition-all duration-200"
-                style={
-                  filter === "All Courses"
-                    ? { backgroundColor: "#0f1f3d", borderColor: "#0f1f3d", color: "#ffffff" }
-                    : { backgroundColor: "transparent", borderColor: "#e5e7eb", color: "#6b7280" }
-                }
-              >
-                {filter}
-              </button>
-            ))}
+            {["All Courses", "Beginner", "Intermediate", "Advanced", "Most Popular"].map((filter) => {
+              const isActive = activeFilter === filter;
+              return (
+                <button
+                  key={filter}
+                  onClick={() => setActiveFilter(filter)}
+                  className="px-4 py-1.5 text-sm font-semibold rounded-full border-2 transition-all duration-200"
+                  style={
+                    isActive
+                      ? { backgroundColor: "#2d8a4e", borderColor: "#2d8a4e", color: "#ffffff" }
+                      : { backgroundColor: "#ffffff", borderColor: "#0f1f3d", color: "#0f1f3d" }
+                  }
+                >
+                  {filter}
+                </button>
+              );
+            })}
           </div>
 
           {/* Single flex layout — 2 columns, last odd card centres itself */}
           <div className="flex flex-wrap justify-center gap-6">
-            {courses.map((course) => (
+            {filteredCourses.map((course) => (
               <div key={course.title} className="w-full sm:w-[calc(50%-12px)]">
                 <CourseCard
                   title={course.title}
@@ -167,6 +201,8 @@ export default function CoursesSection() {
                   tag={course.tag}
                   tagColor={course.tagColor}
                   badge={course.badge}
+                  badgeBg={course.badgeBg}
+                  bannerGradient={course.bannerGradient}
                   onPreview={() => setSelectedCourse(course)}
                 />
               </div>

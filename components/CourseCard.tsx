@@ -10,6 +10,8 @@ interface CourseCardProps {
   tag: string;
   tagColor: string;
   badge?: string;
+  badgeBg?: string;
+  bannerGradient?: string;
   onPreview: () => void;
 }
 
@@ -23,6 +25,8 @@ export default function CourseCard({
   tag,
   tagColor,
   badge,
+  badgeBg,
+  bannerGradient,
   onPreview,
 }: CourseCardProps) {
   const levelColor =
@@ -39,40 +43,39 @@ export default function CourseCard({
       ? "rgba(37,99,235,0.1)"
       : "rgba(187,0,0,0.1)";
 
-  return (
-    <div className="group relative bg-white rounded-2xl border border-gray-100 overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:border-gray-200 flex flex-col">
-      {/* Top accent bar */}
-      <div className="h-1 w-full" style={{ backgroundColor: tagColor }} />
+  const bannerStyle = bannerGradient
+    ? { background: bannerGradient }
+    : { backgroundColor: `${tagColor}20` };
 
-      {/* Special badge — absolute top-right */}
-      {badge && (
-        <div
-          className="absolute top-4 right-4 text-xs font-bold px-2.5 py-1 rounded-full shadow-sm z-10"
-          style={{
-            backgroundColor: "#0f1f3d",
-            color: "#ffffff",
-          }}
-        >
-          {badge}
-        </div>
-      )}
+  return (
+    <div className="group bg-white rounded-2xl border border-gray-100 overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:border-gray-200 flex flex-col">
+      {/* Banner — same height on every card; contains the course icon */}
+      <div
+        className="h-16 flex items-center justify-center shrink-0"
+        style={bannerStyle}
+      >
+        <span className="text-4xl leading-none">{icon}</span>
+      </div>
 
       <div className="p-6 flex flex-col flex-1">
-        {/* Icon + category tag row */}
-        <div className="flex items-start justify-between mb-4">
-          <div
-            className="w-12 h-12 rounded-xl flex items-center justify-center text-2xl shrink-0"
-            style={{ backgroundColor: `${tagColor}15` }}
-          >
-            {icon}
+
+        {/* Badge row — label badge LEFT, category tag RIGHT, in normal flow so they never overlap */}
+        <div className="flex items-start justify-between gap-2 mb-4">
+          {/* Left: special label (Most Popular, High Demand, etc.) */}
+          <div className="shrink-0">
+            {badge && (
+              <span
+                className="inline-block text-xs font-bold px-2.5 py-1 rounded-full"
+                style={{ backgroundColor: badgeBg ?? "#0f1f3d", color: "#ffffff" }}
+              >
+                {badge}
+              </span>
+            )}
           </div>
-          {/* Push tag left when badge is present so they don't overlap */}
+          {/* Right: category / certification tag */}
           <span
-            className={`text-xs font-semibold px-2.5 py-1 rounded-full ${badge ? "mr-24" : ""}`}
-            style={{
-              backgroundColor: `${tagColor}15`,
-              color: tagColor,
-            }}
+            className="text-xs font-semibold px-2.5 py-1 rounded-full text-right shrink-0"
+            style={{ backgroundColor: `${tagColor}15`, color: tagColor }}
           >
             {tag}
           </span>
@@ -83,22 +86,19 @@ export default function CourseCard({
           {title}
         </h3>
 
-        {/* Description */}
+        {/* Description — flex-1 equalises card heights within each row */}
         <p className="text-sm text-gray-500 leading-relaxed mb-5 flex-1">
           {description}
         </p>
 
         {/* Meta row: difficulty | lessons | price */}
         <div className="flex items-center gap-3 mb-5 flex-wrap">
-          {/* Difficulty badge */}
           <span
             className="text-xs font-bold px-2.5 py-1 rounded-full"
             style={{ color: levelColor, backgroundColor: levelBg }}
           >
             {level}
           </span>
-
-          {/* Lesson count */}
           <span className="flex items-center gap-1 text-xs text-gray-400">
             <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
@@ -106,12 +106,7 @@ export default function CourseCard({
             </svg>
             {lessons} lessons
           </span>
-
-          {/* Price */}
-          <span
-            className="ml-auto text-sm font-extrabold"
-            style={{ color: "#0f1f3d" }}
-          >
+          <span className="ml-auto text-sm font-extrabold" style={{ color: "#0f1f3d" }}>
             KSh {price.toLocaleString()}
           </span>
         </div>

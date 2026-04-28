@@ -13,6 +13,8 @@ export interface PreviewCourse {
   tagColor: string;
   icon: string;
   badge?: string;
+  badgeBg?: string;
+  bannerGradient?: string;
   accomplishments: string[];
 }
 
@@ -124,7 +126,7 @@ export default function PreviewModal({ course, onClose }: PreviewModalProps) {
                   {displayCourse.badge && (
                     <span
                       className="text-xs font-bold px-2.5 py-0.5 rounded-full"
-                      style={{ backgroundColor: "#0f1f3d", color: "#fff" }}
+                      style={{ backgroundColor: displayCourse.badgeBg ?? "#0f1f3d", color: "#fff" }}
                     >
                       {displayCourse.badge}
                     </span>
