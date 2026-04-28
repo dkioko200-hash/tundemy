@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import CoursesSection from "@/components/CoursesSection";
@@ -76,12 +77,13 @@ export default function HomePage() {
           </ul>
 
           {/* Primary CTA */}
-          <button
-            className="w-full sm:w-auto px-8 py-4 text-sm font-bold text-white rounded-xl transition-all hover:opacity-90 active:scale-95 mb-4"
+          <Link
+            href="/auth/signup?type=employer"
+            className="w-full sm:w-auto inline-block text-center px-8 py-4 text-sm font-bold text-white rounded-xl transition-all hover:opacity-90 active:scale-95 mb-4"
             style={{ backgroundColor: "#0f1f3d", border: "2px solid rgba(255,255,255,0.15)" }}
           >
             Post a Job — Hire AI Talent
-          </button>
+          </Link>
 
           {/* Secondary link */}
           <div>
