@@ -12,8 +12,6 @@
 import axios, { AxiosError } from "axios";
 import * as fs from "fs";
 import * as path from "path";
-import { createWriteStream } from "fs";
-import { pipeline } from "stream/promises";
 
 // ── Load .env.local ───────────────────────────────────────────────────────────
 
@@ -264,12 +262,13 @@ async function pollUntilDone(videoId: string): Promise<{ url: string; duration: 
   throw new Error(`Timed out after ${(MAX_POLLS * POLL_MS) / 60_000} minutes`);
 }
 
-async function downloadTo(url: string, destPath: string): Promise<void> {
-  const response = await axios.get<NodeJS.ReadableStream>(url, {
-    responseType: "stream",
-  });
-  const writer = createWriteStream(destPath);
-  await pipeline(response.data, writer);
+async function downloadTo(url: string, dest: string): Promise<void> {
+  const response = await fetch(url);
+  if (!response.ok) throw new Error(`Download failed: ${response.status} ${response.statusText}`);
+  const arrayBuffer = await response.arrayBuffer();
+  const buffer = Buffer.from(arrayBuffer);
+  fs.writeFileSync(dest, buffer);
+  console.log(`  ✓ Saved ${(buffer.length / 1024 / 1024).toFixed(1)} MB to ${dest}`);
 }
 
 // ── Main ───────────────────────────────────────────────────────────────────────
