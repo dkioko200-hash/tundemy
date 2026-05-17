@@ -35,7 +35,7 @@ export default function HomePage() {
 
           {/* Subtext */}
           <p className="text-white/60 text-lg leading-relaxed mb-10">
-            Every graduate on Skilara has completed hands-on projects, passed
+            Every graduate on Tundemy has completed hands-on projects, passed
             graded assessments, and earned verified badges. Global and local
             employers post jobs and hire directly from our talent pool.
           </p>
@@ -98,18 +98,18 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* About / Why Skilara */}
+      {/* About / Why Tundemy */}
       <section id="about" className="py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span
             className="inline-block text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-4"
             style={{ backgroundColor: "rgba(45,138,78,0.1)", color: "#2d8a4e" }}
           >
-            Why Skilara
+            Why Tundemy
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight mb-4" style={{ color: "#0f1f3d" }}>
             Why thousands of professionals{" "}
-            <span style={{ color: "#2d8a4e" }}>choose Skilara</span>
+            <span style={{ color: "#2d8a4e" }}>choose Tundemy</span>
           </h2>
           <p className="text-gray-500 text-lg max-w-2xl mx-auto mb-14">
             Production-ready skills, real projects, and direct access to employers
@@ -156,7 +156,7 @@ export default function HomePage() {
             Ready to build your AI skills?
           </h2>
           <p className="text-gray-500 text-lg">
-            Join 2,400+ learners already building AI skills on Skilara. Join Africa&apos;s most verified AI talent pool.
+            Join 2,400+ learners already building AI skills on Tundemy. Join Africa&apos;s most verified AI talent pool.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button

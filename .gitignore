@@ -34,3 +34,13 @@ Thumbs.db
 # TypeScript
 *.tsbuildinfo
 next-env.d.ts
+
+# Claude Code memory
+.claude/
+
+# Generated video files (large binaries — add manually after generation)
+public/videos/
+
+# Dev logs
+dev-output.log
+*.log

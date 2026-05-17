@@ -5,18 +5,18 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Skilara — Africa's AI Skills Platform",
+  title: "Tundemy — Africa's AI Skills Platform",
   description:
-    "Learn practical AI skills and build real-world ability. Africa's leading AI training platform for professionals and students.",
+    "Learn production-ready AI skills, complete real projects, and get hired through Africa's most verified AI talent pool.",
   keywords: ["AI training", "Africa", "skills", "machine learning", "prompt engineering"],
-  authors: [{ name: "Skilara" }],
+  authors: [{ name: "Tundemy" }],
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
   },
   openGraph: {
-    title: "Skilara — Africa's AI Skills Platform",
-    description: "Learn practical AI skills and build real-world ability.",
+    title: "Tundemy — Africa's AI Skills Platform",
+    description: "Learn production-ready AI skills, complete real projects, and get hired through Africa's most verified AI talent pool.",
     type: "website",
   },
 };

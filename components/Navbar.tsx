@@ -22,7 +22,7 @@ export default function Navbar() {
               className="text-xl font-bold tracking-tight"
               style={{ color: "#0f1f3d" }}
             >
-              Skil<span style={{ color: "#2d8a4e" }}>ara</span>
+              Tund<span style={{ color: "#2d8a4e" }}>emy</span>
             </span>
           </Link>
 

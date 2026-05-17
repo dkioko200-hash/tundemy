@@ -26,7 +26,7 @@ export default function HeroSection() {
             style={{ backgroundColor: "#2d8a4e", color: "#ffffff" }}
           >
             <span className="w-1.5 h-1.5 rounded-full bg-white/70 animate-pulse" />
-            Africa&apos;s AI Talent Hub
+            Your skills bear fruit.
           </div>
         </div>
 

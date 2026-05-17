@@ -14,11 +14,11 @@ export default function Footer() {
                 <div className="w-1 bg-[#2d8a4e]" />
               </div>
               <span className="text-xl font-bold">
-                Skil<span style={{ color: "#2d8a4e" }}>ara</span>
+                Tund<span style={{ color: "#2d8a4e" }}>emy</span>
               </span>
             </div>
             <p className="text-sm text-white/60 leading-relaxed">
-              Skilara.ai — Africa&apos;s AI Talent Hub
+              Tundemy — Your skills bear fruit.
             </p>
           </div>
 
@@ -86,7 +86,7 @@ export default function Footer() {
             <h4 className="text-sm font-bold uppercase tracking-wider text-white/40 mb-4">Company</h4>
             <ul className="space-y-2.5">
               {[
-                "About Skilara",
+                "About Tundemy",
                 "Contact Us",
                 "Privacy Policy",
                 "Terms of Service",
@@ -107,7 +107,7 @@ export default function Footer() {
           style={{ borderColor: "rgba(255,255,255,0.08)" }}
         >
           <p className="text-xs text-white/40">
-            © 2026 Skilara.ai — All rights reserved
+            © 2026 Tundemy — All rights reserved
           </p>
           <div className="flex items-center gap-3">
             {/* LinkedIn */}

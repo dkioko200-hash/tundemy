@@ -25,6 +25,7 @@ const accountTypes = [
 
 function SignupForm() {
   const searchParams = useSearchParams();
+  const courseSlug = searchParams.get("course");
   const [accountType, setAccountType] = useState<AccountType>(
     searchParams.get("type") === "employer" ? "employer" : "student"
   );
@@ -35,6 +36,10 @@ function SignupForm() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState(false);
+
+  const loginHref = courseSlug
+    ? `/auth/login?next=/courses/${courseSlug}/enroll`
+    : "/auth/login";
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -52,11 +57,13 @@ function SignupForm() {
     setLoading(true);
     try {
       const supabase = createClient();
+      const next = courseSlug ? `/courses/${courseSlug}/enroll` : "/dashboard";
       const { error: signUpError } = await supabase.auth.signUp({
         email,
         password,
         options: {
           data: { full_name: fullName, role: accountType },
+          emailRedirectTo: `${window.location.origin}/auth/callback?next=${encodeURIComponent(next)}`,
         },
       });
       if (signUpError) throw signUpError;
@@ -79,11 +86,11 @@ function SignupForm() {
         </h2>
         <p className="text-sm text-gray-500 max-w-xs mx-auto leading-relaxed">
           We sent a confirmation link to{" "}
-          <span className="font-semibold text-gray-700">{email}</span>. Click
-          the link to activate your account.
+          <span className="font-semibold text-gray-700">{email}</span>. Click the link to
+          activate your account.
         </p>
         <Link
-          href="/auth/login"
+          href={loginHref}
           className="inline-block mt-6 text-sm font-semibold transition-opacity hover:opacity-70"
           style={{ color: "#2d8a4e" }}
         >
@@ -103,21 +110,17 @@ function SignupForm() {
           <div className="w-1 bg-[#2d8a4e]" />
         </div>
         <span className="text-lg font-bold" style={{ color: "#0f1f3d" }}>
-          Skil<span style={{ color: "#2d8a4e" }}>ara</span>
+          Tund<span style={{ color: "#2d8a4e" }}>emy</span>
         </span>
       </div>
 
       <h1 className="text-2xl font-extrabold mb-1" style={{ color: "#0f1f3d" }}>
-        Join Skilara
+        Join Tundemy
       </h1>
-      <p className="text-sm text-gray-500 mb-7">
-        Create your account to get started.
-      </p>
+      <p className="text-sm text-gray-500 mb-7">Create your account to get started.</p>
 
       {/* Account type picker */}
-      <p className="text-xs font-bold uppercase tracking-wider text-gray-400 mb-3">
-        I am a...
-      </p>
+      <p className="text-xs font-bold uppercase tracking-wider text-gray-400 mb-3">I am a...</p>
       <div className="grid grid-cols-2 gap-3 mb-7">
         {accountTypes.map(({ type, icon, label, sub }) => {
           const active = accountType === type;
@@ -148,9 +151,7 @@ function SignupForm() {
 
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
-          <label className="block text-sm font-semibold text-gray-700 mb-1.5">
-            Full Name
-          </label>
+          <label className="block text-sm font-semibold text-gray-700 mb-1.5">Full Name</label>
           <input
             type="text"
             value={fullName}
@@ -176,9 +177,7 @@ function SignupForm() {
         </div>
 
         <div>
-          <label className="block text-sm font-semibold text-gray-700 mb-1.5">
-            Password
-          </label>
+          <label className="block text-sm font-semibold text-gray-700 mb-1.5">Password</label>
           <input
             type="password"
             value={password}
@@ -234,7 +233,7 @@ function SignupForm() {
       <p className="text-center text-sm text-gray-500">
         Already have an account?{" "}
         <Link
-          href="/auth/login"
+          href={loginHref}
           className="font-semibold transition-opacity hover:opacity-70"
           style={{ color: "#0f1f3d" }}
         >

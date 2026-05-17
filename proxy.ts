@@ -29,21 +29,38 @@ export async function proxy(request: NextRequest) {
     data: { user },
   } = await supabase.auth.getUser()
 
-  if (!user) {
-    return NextResponse.redirect(new URL('/auth/login', request.url))
-  }
-
-  const userRole = user.user_metadata?.role as string | undefined
   const path = request.nextUrl.pathname
+  const isAuthPage = path === '/auth/login' || path === '/auth/signup'
+  const isProtectedRoute =
+    path.startsWith('/dashboard') || path.startsWith('/employer/dashboard')
 
-  // Employers trying to access the student dashboard → redirect to employer dashboard
-  if (path.startsWith('/dashboard') && !path.startsWith('/employer/dashboard') && userRole === 'employer') {
-    return NextResponse.redirect(new URL('/employer/dashboard', request.url))
+  // Logged-in users on auth pages → send to their dashboard
+  if (user && isAuthPage) {
+    const role = user.user_metadata?.role as string | undefined
+    const destination = role === 'employer' ? '/employer/dashboard' : '/dashboard'
+    return NextResponse.redirect(new URL(destination, request.url))
   }
 
-  // Non-employers trying to access the employer dashboard → redirect to student dashboard
-  if (path.startsWith('/employer/dashboard') && userRole !== 'employer') {
-    return NextResponse.redirect(new URL('/dashboard', request.url))
+  // Unauthenticated users on protected routes → send to login with return path
+  if (!user && isProtectedRoute) {
+    const url = request.nextUrl.clone()
+    url.pathname = '/auth/login'
+    url.searchParams.set('next', path)
+    return NextResponse.redirect(url)
+  }
+
+  if (user) {
+    const role = user.user_metadata?.role as string | undefined
+
+    // Employers hitting the student dashboard → send to employer dashboard
+    if (path.startsWith('/dashboard') && role === 'employer') {
+      return NextResponse.redirect(new URL('/employer/dashboard', request.url))
+    }
+
+    // Non-employers hitting the employer dashboard → send to student dashboard
+    if (path.startsWith('/employer/dashboard') && role !== 'employer') {
+      return NextResponse.redirect(new URL('/dashboard', request.url))
+    }
   }
 
   return supabaseResponse
@@ -53,6 +70,7 @@ export const config = {
   matcher: [
     '/dashboard/:path*',
     '/employer/dashboard/:path*',
-    '/courses/:slug/learn/:path*',
+    '/auth/login',
+    '/auth/signup',
   ],
 }
