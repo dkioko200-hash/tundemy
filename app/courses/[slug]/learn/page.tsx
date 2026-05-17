@@ -323,64 +323,310 @@ function QuizComponent({ quizQuestions, onComplete }: { quizQuestions: QuizQuest
 
 // ── Sandbox ───────────────────────────────────────────────────────────────────
 
-const SANDBOX_RESPONSES = [
-  "Great prompt! You've provided clear context and a well-defined task. The output is focused and actionable — exactly what good prompt engineering achieves.",
-  "Your prompt demonstrates strong structure. By specifying the role, context, and desired format, you've guided the AI to produce a precise, relevant response with minimal ambiguity.",
-  "Excellent work! This prompt uses a clear task definition with appropriate context. The AI can infer tone, depth, and format from your instructions — a hallmark of expert prompt engineering.",
-];
+// ─── SANDBOX GRADING ENGINE ───────────────────────────────────────────────────
 
-function SandboxComponent({ sandboxTask, onComplete }: { sandboxTask?: string; onComplete: () => void }) {
-  const [prompt, setPrompt] = useState("");
-  const [response, setResponse] = useState("");
-  const [running, setRunning] = useState(false);
+interface GradingResult {
+  score: number;
+  grade: "A" | "B" | "C" | "F";
+  feedback: string;
+  strengths: string[];
+  improvements: string[];
+  rubricScores: { criterion: string; score: number; max: number; comment: string }[];
+}
 
-  const handleRun = async () => {
-    if (!prompt.trim()) return;
-    setRunning(true);
-    setResponse("");
-    await new Promise((r) => setTimeout(r, 1300));
-    setResponse(SANDBOX_RESPONSES[Math.floor(Math.random() * SANDBOX_RESPONSES.length)]);
-    setRunning(false);
+function gradeSubmission(submission: string, sandboxTask: string, lessonNumber: number, _courseSlug: string): GradingResult {
+  const text = submission.trim();
+  const wordCount = text.split(/\s+/).filter(Boolean).length;
+  const sentences = text.split(/[.!?]+/).filter(s => s.trim().length > 10);
+  const hasStructure = /\n/.test(text) || text.includes("1.") || text.includes("-") || text.includes("•");
+  const hasSpecifics = /\d/.test(text) || text.match(/ksh|nairobi|kenya|business|customer|workflow|system|process/i);
+  const hasContext = wordCount > 40;
+  const hasActionableItems = text.match(/will|should|must|need to|plan to|going to|step|action|implement/i);
+  const isVague = wordCount < 20;
+  const isTooShort = wordCount < 15;
+
+  const rubrics: Record<number, { criterion: string; max: number; evaluate: () => { score: number; comment: string } }[]> = {
+    3: [
+      {
+        criterion: "System Context",
+        max: 25,
+        evaluate: () => {
+          const hasRole = /you are|act as|as a|role:|context:/i.test(text);
+          const hasIndustry = /restaurant|shop|business|company|agency|school|clinic|farm|hotel/i.test(text);
+          if (hasRole && hasIndustry) return { score: 25, comment: "Clear system context with role and industry defined" };
+          if (hasRole || hasIndustry) return { score: 15, comment: "Partial context — add both role and specific industry" };
+          return { score: 5, comment: "No system context defined — who is the AI advising?" };
+        },
+      },
+      {
+        criterion: "Task Specificity",
+        max: 25,
+        evaluate: () => {
+          const hasSpecificTask = /summarise|write|draft|analyse|create|generate|respond|translate|classify/i.test(text);
+          const isSpecific = wordCount > 30 && hasSpecificTask;
+          if (isSpecific) return { score: 25, comment: "Task is clearly and specifically defined" };
+          if (hasSpecificTask) return { score: 15, comment: "Task identified but could be more specific" };
+          return { score: 5, comment: "Task is too vague — what exactly should the AI do?" };
+        },
+      },
+      {
+        criterion: "Output Format",
+        max: 25,
+        evaluate: () => {
+          const hasFormat = /bullet|list|table|paragraph|words|format|structure|numbered|summary|report/i.test(text);
+          const hasLength = /\d+\s*(word|sentence|point|item|line)/i.test(text);
+          if (hasFormat && hasLength) return { score: 25, comment: "Output format and length both specified" };
+          if (hasFormat || hasLength) return { score: 15, comment: "Format partially specified — add length constraint" };
+          return { score: 5, comment: "No output format specified — how should the AI respond?" };
+        },
+      },
+      {
+        criterion: "Real-World Relevance",
+        max: 25,
+        evaluate: () => {
+          if (hasSpecifics && hasContext) return { score: 25, comment: "Grounded in a real, specific business context" };
+          if (hasSpecifics || hasContext) return { score: 15, comment: "Some real-world context present" };
+          return { score: 5, comment: "Too generic — apply this to a real business situation" };
+        },
+      },
+    ],
+    7: [
+      {
+        criterion: "Specific Task Identified",
+        max: 25,
+        evaluate: () => {
+          const hasTask = /email|report|summary|data|customer|meeting|social|content|invoice|schedule/i.test(text);
+          if (hasTask && wordCount > 20) return { score: 25, comment: "Concrete task clearly identified" };
+          if (hasTask) return { score: 15, comment: "Task mentioned but needs more detail" };
+          return { score: 5, comment: "No specific task identified" };
+        },
+      },
+      {
+        criterion: "Tool Selection with Reasoning",
+        max: 25,
+        evaluate: () => {
+          const hasTool = /claude|chatgpt|gemini|gpt|ai tool|midjourney|zapier|make|n8n/i.test(text);
+          const hasReason = /because|since|as it|which|that|for|to help/i.test(text);
+          if (hasTool && hasReason) return { score: 25, comment: "Tool chosen with clear reasoning" };
+          if (hasTool) return { score: 15, comment: "Tool named but reasoning not explained" };
+          return { score: 5, comment: "No specific AI tool identified" };
+        },
+      },
+      {
+        criterion: "Measurable Success Criteria",
+        max: 25,
+        evaluate: () => {
+          const hasMeasure = /minute|hour|time|faster|less|more|save|reduce|increase|\d+%|\d+ (hour|min|day)/i.test(text);
+          if (hasMeasure) return { score: 25, comment: "Clear measurable outcome defined" };
+          return { score: 10, comment: "Add a specific measurable goal — e.g. save 30 minutes per day" };
+        },
+      },
+      {
+        criterion: "Concrete Next Action",
+        max: 25,
+        evaluate: () => {
+          const hasAction = /tomorrow|today|this week|will|going to|first step|start by|begin/i.test(text);
+          const isSpecific = wordCount > 30;
+          if (hasAction && isSpecific) return { score: 25, comment: "Specific next action clearly stated" };
+          if (hasAction) return { score: 15, comment: "Next action mentioned but vague" };
+          return { score: 5, comment: "No concrete next action defined" };
+        },
+      },
+    ],
   };
 
-  const placeholder = sandboxTask
-    ? sandboxTask
-    : `You are a helpful senior marketing manager at a Nairobi tech startup.\n\nWrite a WhatsApp message to send to our 500 customers announcing our new AI feature.\n\nKeep it under 160 characters, use a friendly tone, and include a clear call-to-action.`;
+  const defaultRubric = [
+    {
+      criterion: "Depth and Completeness",
+      max: 30,
+      evaluate: () => {
+        if (isTooShort) return { score: 3, comment: "Response is too short to demonstrate understanding" };
+        if (wordCount > 80) return { score: 30, comment: "Thorough and complete response" };
+        if (wordCount > 40) return { score: 20, comment: "Good depth — could expand further" };
+        return { score: 10, comment: "Needs more depth and detail" };
+      },
+    },
+    {
+      criterion: "Specificity and Context",
+      max: 30,
+      evaluate: () => {
+        if (hasSpecifics && hasContext) return { score: 30, comment: "Well-grounded with specific details and context" };
+        if (hasSpecifics || hasContext) return { score: 18, comment: "Some specifics present — add more real-world context" };
+        return { score: 6, comment: "Too generic — add specific examples and context" };
+      },
+    },
+    {
+      criterion: "Structure and Clarity",
+      max: 20,
+      evaluate: () => {
+        if (hasStructure && sentences.length >= 3) return { score: 20, comment: "Well-structured and clearly written" };
+        if (hasStructure || sentences.length >= 2) return { score: 12, comment: "Reasonably clear — improve structure with bullet points or numbered steps" };
+        return { score: 4, comment: "Improve structure — use numbered steps or bullet points" };
+      },
+    },
+    {
+      criterion: "Actionability",
+      max: 20,
+      evaluate: () => {
+        if (hasActionableItems && !isVague) return { score: 20, comment: "Response is practical and actionable" };
+        if (hasActionableItems) return { score: 12, comment: "Some actionable elements — be more concrete" };
+        return { score: 4, comment: "Add specific actions — what would someone actually do?" };
+      },
+    },
+  ];
+
+  const activeRubric = rubrics[lessonNumber] || defaultRubric;
+  const rubricScores = activeRubric.map(r => {
+    const result = r.evaluate();
+    return { criterion: r.criterion, score: result.score, max: r.max, comment: result.comment };
+  });
+
+  const totalScore = Math.min(100, rubricScores.reduce((sum, r) => sum + r.score, 0));
+  let finalScore = totalScore;
+  if (isTooShort) finalScore = Math.min(finalScore, 25);
+  if (isVague && wordCount < 30) finalScore = Math.min(finalScore, 45);
+
+  const grade = finalScore >= 85 ? "A" : finalScore >= 70 ? "B" : finalScore >= 50 ? "C" : "F";
+  const strengths = rubricScores.filter(r => r.score >= r.max * 0.8).map(r => r.comment);
+  const improvements = rubricScores.filter(r => r.score < r.max * 0.6).map(r => r.comment);
+
+  const feedbackMap: Record<string, string> = {
+    A: "Excellent work. Your response demonstrates a strong grasp of the concept and applies it with specificity and structure. This is the standard of thinking employers look for.",
+    B: "Good response. You have understood the core task and applied it reasonably well. A few refinements would make this professional-grade.",
+    C: "Partial credit. You have made a start but the response lacks the depth, specificity, or structure needed to demonstrate real competence. Review the lesson notes and try again.",
+    F: "This response needs significant improvement. It is either too short, too vague, or does not address the task. Re-read the task carefully and write a more complete response.",
+  };
+
+  return {
+    score: Math.round(finalScore),
+    grade,
+    feedback: feedbackMap[grade],
+    strengths: strengths.length > 0 ? strengths : ["You attempted the task"],
+    improvements: improvements.length > 0 ? improvements : ["Keep refining your response"],
+    rubricScores,
+  };
+}
+
+function SandboxComponent({ sandboxTask, lessonNumber, courseSlug, onComplete }: {
+  sandboxTask: string;
+  lessonNumber: number;
+  courseSlug: string;
+  onComplete: () => void;
+}) {
+  const [submission, setSubmission] = useState("");
+  const [result, setResult] = useState<GradingResult | null>(null);
+  const [grading, setGrading] = useState(false);
+
+  const handleSubmit = () => {
+    if (!submission.trim() || grading) return;
+    setGrading(true);
+    setTimeout(() => {
+      const gradingResult = gradeSubmission(submission, sandboxTask, lessonNumber, courseSlug);
+      setResult(gradingResult);
+      setGrading(false);
+      if (gradingResult.score >= 70) {
+        setTimeout(() => onComplete(), 2000);
+      }
+    }, 1800);
+  };
+
+  const handleRetry = () => {
+    setResult(null);
+    setSubmission("");
+  };
+
+  if (result) {
+    return (
+      <div className="space-y-4">
+        <div className={`rounded-2xl p-6 text-center ${result.score >= 70 ? "bg-green-50 border-2 border-[#2d8a4e]" : result.score >= 50 ? "bg-orange-50 border-2 border-orange-400" : "bg-red-50 border-2 border-red-400"}`}>
+          <div className={`text-6xl font-black ${result.score >= 70 ? "text-[#2d8a4e]" : result.score >= 50 ? "text-orange-500" : "text-red-500"}`}>
+            {result.score}
+          </div>
+          <div className="text-gray-500 text-sm mt-1">out of 100 · Grade {result.grade}</div>
+          <div className={`mt-3 font-bold text-sm ${result.score >= 70 ? "text-[#2d8a4e]" : "text-red-500"}`}>
+            {result.score >= 70 ? "✓ Passed — well done" : "✗ Score 70 or above to continue"}
+          </div>
+        </div>
+
+        <div className="bg-white border border-gray-200 rounded-xl p-4">
+          <p className="font-semibold text-[#0f1f3d] mb-2 text-sm">Overall Feedback</p>
+          <p className="text-gray-600 text-sm leading-relaxed">{result.feedback}</p>
+        </div>
+
+        <div className="bg-white border border-gray-200 rounded-xl p-4">
+          <p className="font-semibold text-[#0f1f3d] mb-3 text-sm">Rubric Breakdown</p>
+          <div className="space-y-3">
+            {result.rubricScores.map((r, i) => (
+              <div key={i}>
+                <div className="flex justify-between items-center mb-1">
+                  <span className="text-xs font-semibold text-gray-700">{r.criterion}</span>
+                  <span className="text-xs font-bold text-[#0f1f3d]">{r.score}/{r.max}</span>
+                </div>
+                <div className="h-2 bg-gray-100 rounded-full overflow-hidden">
+                  <div className={`h-full rounded-full ${r.score >= r.max * 0.8 ? "bg-[#2d8a4e]" : r.score >= r.max * 0.5 ? "bg-orange-400" : "bg-red-400"}`} style={{ width: `${(r.score / r.max) * 100}%` }} />
+                </div>
+                <p className="text-xs text-gray-500 mt-1">{r.comment}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {result.strengths.length > 0 && (
+          <div className="bg-green-50 rounded-xl p-4">
+            <p className="font-semibold text-[#2d8a4e] text-sm mb-2">What you did well</p>
+            {result.strengths.map((s, i) => (
+              <p key={i} className="text-sm text-gray-700 flex gap-2 mb-1"><span className="text-[#2d8a4e] font-bold">✓</span>{s}</p>
+            ))}
+          </div>
+        )}
+
+        {result.improvements.length > 0 && (
+          <div className="bg-orange-50 rounded-xl p-4">
+            <p className="font-semibold text-orange-700 text-sm mb-2">Areas to improve</p>
+            {result.improvements.map((imp, i) => (
+              <p key={i} className="text-sm text-gray-700 flex gap-2 mb-1"><span className="text-orange-500 font-bold">→</span>{imp}</p>
+            ))}
+          </div>
+        )}
+
+        {result.score < 70 && (
+          <button onClick={handleRetry} className="w-full border-2 border-[#0f1f3d] text-[#0f1f3d] py-3 rounded-xl font-semibold text-sm hover:bg-gray-50 transition-colors">
+            Revise and Resubmit
+          </button>
+        )}
+      </div>
+    );
+  }
 
   return (
     <div className="space-y-4">
-      <div className="rounded-2xl border overflow-hidden" style={{ borderColor: "#e5e7eb" }}>
-        <div className="flex items-center justify-between px-4 py-3 border-b" style={{ backgroundColor: "#f8fafc", borderColor: "#e5e7eb" }}>
-          <div className="flex items-center gap-2">
-            <SandboxIcon color="#2d8a4e" size={15} />
-            <span className="text-xs font-bold" style={{ color: "#0f1f3d" }}>Prompt Sandbox</span>
-          </div>
-          <span className="text-xs text-gray-400">Write your prompt and click Test</span>
-        </div>
-        <textarea value={prompt} onChange={(e) => setPrompt(e.target.value)}
-          placeholder={placeholder}
-          rows={8} className="w-full p-4 text-sm text-gray-700 bg-white outline-none resize-none font-mono" style={{ lineHeight: "1.65" }} />
+      <div className="bg-[#0f1f3d] rounded-xl p-5">
+        <p className="text-blue-300 text-xs font-bold uppercase tracking-wider mb-2">Your Task</p>
+        <p className="text-white text-sm leading-relaxed">{sandboxTask}</p>
       </div>
-      <button onClick={handleRun} disabled={!prompt.trim() || running}
-        className="flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-bold text-white transition-all hover:opacity-90 disabled:opacity-50"
-        style={{ backgroundColor: "#2d8a4e" }}>
-        {running ? (<><div className="w-4 h-4 rounded-full border-2 animate-spin" style={{ borderColor: "rgba(255,255,255,0.35)", borderTopColor: "#fff" }} />Running…</>) : (<><svg width="13" height="13" viewBox="0 0 24 24" fill="white"><polygon points="5 3 19 12 5 21 5 3" /></svg>Test Prompt</>)}
+      <div className="bg-amber-50 border border-amber-200 rounded-xl p-3">
+        <p className="text-amber-800 text-xs">Your response will be graded on depth, specificity, structure, and actionability. Aim for at least 70 to pass.</p>
+      </div>
+      <textarea
+        value={submission}
+        onChange={(e) => setSubmission(e.target.value)}
+        placeholder="Write your response here. Be specific — generic answers score low."
+        rows={10}
+        className="w-full border border-gray-200 rounded-xl p-4 text-sm resize-none focus:outline-none focus:ring-2 focus:ring-[#2d8a4e] focus:border-transparent"
+      />
+      <div className="flex justify-between items-center">
+        <span className="text-xs text-gray-400">{submission.trim().split(/\s+/).filter(Boolean).length} words</span>
+        <span className="text-xs text-gray-400">Minimum 40 words recommended</span>
+      </div>
+      <button
+        onClick={handleSubmit}
+        disabled={!submission.trim() || grading || submission.trim().split(/\s+/).length < 5}
+        className="w-full bg-[#0f1f3d] text-white py-3 rounded-xl font-semibold text-sm disabled:opacity-40 disabled:cursor-not-allowed hover:bg-[#162d54] transition-colors flex items-center justify-center gap-2"
+      >
+        {grading ? (
+          <><svg className="animate-spin h-4 w-4" viewBox="0 0 24 24" fill="none"><circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"/><path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"/></svg>Grading your response...</>
+        ) : "Submit for Grading"}
       </button>
-      {response && (
-        <div className="rounded-2xl border p-5" style={{ backgroundColor: "#f8fafc", borderColor: "#e5e7eb" }}>
-          <div className="flex items-center gap-2 mb-3">
-            <div className="w-6 h-6 rounded-full flex items-center justify-center text-white text-xs font-bold" style={{ backgroundColor: "#2d8a4e" }}>AI</div>
-            <span className="text-xs font-semibold text-gray-500">AI Response</span>
-          </div>
-          <p className="text-sm text-gray-700 leading-relaxed">{response}</p>
-          <div className="mt-4 pt-4 border-t flex items-center justify-between" style={{ borderColor: "#e5e7eb" }}>
-            <span className="text-xs text-gray-400">Happy with the result? Continue to the next lesson.</span>
-            <button onClick={onComplete} className="flex items-center gap-1 text-xs font-bold transition-opacity hover:opacity-70" style={{ color: "#2d8a4e" }}>
-              Continue <ChevronRight />
-            </button>
-          </div>
-        </div>
-      )}
     </div>
   );
 }
@@ -1031,7 +1277,7 @@ export default function LearnPage() {
                     )}
                     {currentLesson.type === "sandbox" && (
                       <div className="mt-6">
-                        <SandboxComponent sandboxTask={currentLesson.sandboxTask} onComplete={handleMarkComplete} />
+                        <SandboxComponent sandboxTask={currentLesson.sandboxTask ?? ""} lessonNumber={currentLesson.lessonNumber} courseSlug={slug} onComplete={handleMarkComplete} />
                       </div>
                     )}
                     {currentLesson.type === "project" && (

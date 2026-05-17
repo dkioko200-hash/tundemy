@@ -67,10 +67,10 @@ interface HeyGenCreateResponse {
 
 interface HeyGenStatusResponse {
   data: {
-    status:       "pending" | "processing" | "waiting" | "completed" | "failed";
-    download_url: string | null;
-    duration:     number | null;
-    error:        string | null;
+    status:    "pending" | "processing" | "waiting" | "completed" | "failed";
+    video_url: string | null;
+    duration:  number | null;
+    error:     string | null;
   };
   error: string | null;
 }
@@ -242,11 +242,14 @@ async function pollUntilDone(videoId: string): Promise<{ url: string; duration: 
 
     if (data.error) throw new Error(`HeyGen status error: ${data.error}`);
 
-    const { status, download_url, duration, error } = data.data;
+    const statusData = data.data;
+    console.log("HeyGen response:", JSON.stringify(statusData, null, 2));
+
+    const { status, video_url, duration, error } = statusData;
 
     if (status === "completed") {
-      if (!download_url) throw new Error("Completed but no download_url");
-      return { url: download_url, duration: duration ?? 0 };
+      if (!video_url) throw new Error("Completed but no video_url");
+      return { url: video_url, duration: duration ?? 0 };
     }
 
     if (status === "failed") {
