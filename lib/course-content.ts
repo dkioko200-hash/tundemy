@@ -665,6 +665,53 @@ export const courseContent: CourseContent[] = [
           "Controlling output: length, tone, format, reading level, and audience. How to get bullet points vs. paragraphs, formal vs. casual, 100 words vs. 1000 words — every time.",
         sandboxTask:
           "Write 4 versions of a prompt for the same task (summarizing a business meeting) that each produce a different format: a formal executive memo, a casual Slack message, a structured bullet list, and a three-sentence WhatsApp update. Submit all 4 outputs.",
+        theory: {
+          concept: "Constraints are the professional prompt engineer's most powerful tool. Without constraints, AI defaults to the most statistically average response — medium length, generic format, moderate detail. Adding constraints forces precision. Every constraint you add removes a degree of freedom from the model and pushes output toward exactly what you need.",
+          badExample: "Write a report on our Q3 sales performance.",
+          badBreakdown: [
+            { element: "Length", present: "Not specified", problem: "Could be 200 words or 2000 words" },
+            { element: "Format", present: "Not specified", problem: "Paragraphs? Tables? Bullet points?" },
+            { element: "Audience", present: "Not specified", problem: "Board level or operational team?" },
+            { element: "Sections", present: "Not specified", problem: "What must be covered?" },
+            { element: "Tone", present: "Not specified", problem: "Formal report or internal memo?" },
+          ],
+          badOutput: "Q3 Sales Performance Report. Our sales performance in Q3 showed mixed results across different product categories and regions. The team worked hard to achieve targets despite challenging market conditions...",
+          goodExample: "Write a Q3 sales performance report for the board of directors. Format: (1) Executive Summary — 3 sentences maximum, (2) Key Metrics — table with: revenue, units sold, growth vs Q2, growth vs Q3 last year, (3) Top 3 wins with one sentence each, (4) Top 2 risks with one sentence each, (5) Single recommended action. Total length: under 300 words. Tone: direct, data-led, no filler.",
+          goodBreakdown: [
+            { element: "Length", present: "Under 300 words", improvement: "Hard ceiling prevents padding" },
+            { element: "Format", present: "5 explicit sections", improvement: "AI follows your structure exactly" },
+            { element: "Audience", present: "Board of directors", improvement: "Calibrates register and density" },
+            { element: "Data format", present: "Table specified", improvement: "Metrics in scannable format" },
+            { element: "Tone", present: "Direct, data-led", improvement: "Eliminates corporate filler language" },
+          ],
+          goodOutput: "Executive Summary: Q3 revenue reached KSh 4.2M, up 18% on Q2 and 31% year-on-year, driven by digital channel growth. Unit sales of 1,840 exceeded target by 12%. Operating margin compressed by 2 points due to logistics cost increases. Key Metrics: [table]. Top Wins: (1) Digital channel hit 44% of revenue... Top Risks: (1) Logistics costs rising... Recommended Action: Approve logistics partnership review before Q4 planning.",
+          keyInsight: "The specificity of your constraints determines the usefulness of the output. Vague prompts produce average outputs. Constrained prompts produce professional ones.",
+          ruleToRemember: "Every unconstrained dimension in your prompt is a dimension where AI makes its own decision. Constrain everything that matters.",
+          checkYourUnderstanding: [
+            {
+              question: "What happens when you do not specify output length in a prompt?",
+              options: ["AI produces the shortest possible response", "AI defaults to a medium-length statistically average response", "AI asks you how long you want it", "AI produces the most comprehensive response possible"],
+              correctAnswer: 1,
+              explanation: "Without length constraints, AI produces whatever length is most statistically average for that type of request — which is rarely what you need.",
+            },
+            {
+              question: "Which constraint has the highest impact on making an AI report useful for executives?",
+              options: ["Specifying the font style", "Specifying the audience and required sections", "Asking the AI to be professional", "Telling AI to avoid repetition"],
+              correctAnswer: 1,
+              explanation: "Audience and structure constraints do the most work — they calibrate register, density, and ensure all required content is present.",
+            },
+            {
+              question: "A prompt produces a 1500-word response when you needed 200 words. What is the fastest fix?",
+              options: ["Rewrite the entire prompt", "Add a new prompt asking AI to shorten it", "Add a hard word count constraint to the original prompt", "Use a different AI model"],
+              correctAnswer: 2,
+              explanation: "Adding an explicit length constraint directly to the prompt prevents the issue rather than fixing it after the fact.",
+            },
+          ],
+        },
+        quizQuestions: [
+          { question: "What does adding a format constraint to a prompt do?", options: ["Makes the AI slower to respond", "Removes a degree of freedom — forces output into a specific structure", "Increases the chance of hallucination", "Only works with premium AI models"], correctAnswer: 1 },
+          { question: "You need a table of competitor prices. Which prompt produces better output?", options: ["List competitor prices", "Create a table of our top 5 competitors with: name, product, price in KSh, and one differentiator. Sort by price ascending.", "Ask the AI what format it prefers", "Give the AI the data with no format instructions"], correctAnswer: 1 },
+        ],
       },
       {
         lessonNumber: 5,
@@ -677,6 +724,51 @@ export const courseContent: CourseContent[] = [
           "Building multi-step prompt chains where output from step 1 becomes input for step 2. Design patterns for research → analysis → writing chains, and how to handle errors between steps.",
         sandboxTask:
           "Build a 3-prompt chain for a full research and writing task: (1) generate a structured outline for 'AI adoption in Kenyan SMEs', (2) expand each section using the outline as input, (3) edit the full draft into a polished 500-word article. Submit the chain and final output.",
+        theory: {
+          concept: "A single prompt can only do so much reliably. Complex tasks — research synthesis, multi-step analysis, document creation — produce inconsistent results when attempted in one shot. Prompt chaining breaks complex tasks into a sequence of focused prompts where the output of each step becomes the input of the next. Each step is simpler, more reliable, and easier to verify.",
+          badExample: "Research the Kenyan fintech market, identify the top 5 opportunities, analyse the competitive landscape for each, assess regulatory risks, and write a 10-page investment brief.",
+          badBreakdown: [
+            { element: "Scope", present: "Enormous", problem: "Too many distinct tasks for one reliable prompt" },
+            { element: "Quality control", present: "None", problem: "No way to verify each step before proceeding" },
+            { element: "Structure", present: "Implied", problem: "AI decides the structure of a 10-page document" },
+            { element: "Research depth", present: "Uncontrolled", problem: "AI will generate plausible-sounding but unverified market data" },
+          ],
+          badOutput: "Kenyan Fintech Market Investment Brief. The Kenyan fintech market represents one of Africa's most dynamic investment opportunities, with M-Pesa processing over $314 billion annually...",
+          goodExample: "STEP 1: List the 5 largest segments of the Kenyan fintech market with one sentence describing each. STEP 2 (use Step 1 output): For each segment, identify the 2 largest existing players and their main product. STEP 3 (use Step 2 output): For each segment, identify one regulatory risk and one market gap. STEP 4 (use Step 3 output): Write an executive summary of the top 2 investment opportunities based on the analysis above.",
+          goodBreakdown: [
+            { element: "Task size", present: "One focused task per step", improvement: "Each step is reliable and verifiable" },
+            { element: "Quality control", present: "Built in", improvement: "You review Step 1 before running Step 2" },
+            { element: "Structure", present: "Explicit at each stage", improvement: "Output of each step is predictable" },
+            { element: "Traceability", present: "Each step references the previous", improvement: "Conclusions are grounded in earlier verified outputs" },
+          ],
+          goodOutput: "Step 1 output: Five segments identified — mobile payments, digital lending, insurance tech, investment platforms, B2B payments infrastructure. [Verified, proceed to Step 2...]",
+          keyInsight: "Prompt chaining turns AI from a one-shot tool into a systematic analytical process. The quality of each step determines the quality of the final output — which is why verification between steps is essential.",
+          ruleToRemember: "For any task with more than three distinct subtasks, break it into a chain. Verify each output before using it as input for the next step.",
+          checkYourUnderstanding: [
+            {
+              question: "What is the main advantage of prompt chaining over a single complex prompt?",
+              options: ["It is faster", "Each step is simpler and the output of each step can be verified before proceeding", "It uses fewer AI credits", "It works without an internet connection"],
+              correctAnswer: 1,
+              explanation: "Chaining allows quality control at each step — you can verify and correct before using the output as input for the next stage.",
+            },
+            {
+              question: "When should you use prompt chaining?",
+              options: ["For simple one-step tasks", "For tasks with more than three distinct subtasks or analysis stages", "Only for coding tasks", "When you want to save tokens"],
+              correctAnswer: 1,
+              explanation: "Chaining is most valuable for complex, multi-stage tasks where a single prompt would produce unreliable or unverifiable results.",
+            },
+            {
+              question: "You are using a chain and Step 2 produces an error. What is the correct response?",
+              options: ["Continue to Step 3 and fix it at the end", "Start the entire chain again from Step 1", "Fix Step 2 before proceeding — do not use bad output as input for subsequent steps", "Use a different AI model for Step 2"],
+              correctAnswer: 2,
+              explanation: "Errors in a chain compound — bad output from Step 2 will corrupt Step 3 and beyond. Fix each step before proceeding.",
+            },
+          ],
+        },
+        quizQuestions: [
+          { question: "What is prompt chaining?", options: ["Connecting multiple AI tools together", "Breaking a complex task into a sequence of focused prompts where each output feeds the next", "Repeating the same prompt multiple times", "Using chain-of-thought reasoning in a single prompt"], correctAnswer: 1 },
+          { question: "What is the most important discipline in prompt chaining?", options: ["Making all prompts the same length", "Verifying each step output before using it as input for the next step", "Using the same AI model for every step", "Writing all steps before running any of them"], correctAnswer: 1 },
+        ],
       },
       {
         lessonNumber: 6,
@@ -689,6 +781,51 @@ export const courseContent: CourseContent[] = [
           "Using examples to guide AI output. Few-shot prompting tells the AI exactly what you want by showing it 2–5 worked examples before the real task. Works for tone, format, structure, and style consistency.",
         sandboxTask:
           "Use few-shot prompting to generate consistent branded social media captions for a fictional Kenyan food delivery startup called Chapati Express. Provide 3 example captions as part of the prompt, then generate 5 new ones. All 5 must match the brand voice of the examples.",
+        theory: {
+          concept: "Few-shot prompting gives the AI examples of the input-output pattern you want before asking it to complete your actual task. Instead of describing the format in words, you demonstrate it. Language models are trained to continue patterns — when you provide examples, you are not just giving instructions, you are showing the model exactly what you mean. One well-chosen example is worth a paragraph of format description.",
+          badExample: "Write product descriptions for our items in a professional tone.",
+          badBreakdown: [
+            { element: "Format demonstration", present: "None", problem: "AI invents its own format" },
+            { element: "Length guidance", present: "None", problem: "Could be one sentence or ten" },
+            { element: "Tone calibration", present: "Vague", problem: "Professional covers a wide range" },
+            { element: "Content elements", present: "Not shown", problem: "AI decides what to include" },
+          ],
+          badOutput: "Premium Leather Wallet: This high-quality leather wallet is perfect for the modern professional. Crafted from genuine leather, it features multiple card slots and a bill compartment...",
+          goodExample: "Write product descriptions in this exact format. Example: INPUT: Blue ceramic coffee mug, 350ml, microwave safe, handmade OUTPUT: For mornings that deserve better. A 350ml ceramic mug, handmade and microwave-safe — built to hold your coffee and your composure. Now write descriptions for: (1) Black leather notebook, A5, 200 pages, elastic closure (2) Bamboo phone stand, adjustable angle, fits all phones",
+          goodBreakdown: [
+            { element: "Format", present: "Shown by example", improvement: "AI replicates exact structure without description" },
+            { element: "Tone", present: "Demonstrated", improvement: "The example shows the voice more precisely than words" },
+            { element: "Length", present: "Implied by example", improvement: "AI matches the example length naturally" },
+            { element: "Content elements", present: "Shown", improvement: "AI knows to lead with emotion then specs" },
+          ],
+          goodOutput: "(1) Black leather notebook, A5: For ideas that deserve permanence. A5 in hand-stitched black leather, 200 pages with elastic closure — the notebook for work worth keeping. (2) Bamboo phone stand: Your screen, at the angle you actually want. Adjustable bamboo stand, built for every phone — because your desk should work as hard as you do.",
+          keyInsight: "Examples communicate format, tone, and structure more precisely than instructions. When you struggle to describe the output you want in words, show it instead.",
+          ruleToRemember: "When you need consistent format across multiple outputs, use 1-3 examples. More than 5 examples rarely improves quality and consumes context unnecessarily.",
+          checkYourUnderstanding: [
+            {
+              question: "What does few-shot prompting demonstrate to the AI?",
+              options: ["How fast to respond", "The exact input-output pattern — format, tone, length, and structure — through examples", "Which data sources to use", "How many tokens to generate"],
+              correctAnswer: 1,
+              explanation: "Few-shot examples show the model what you want more precisely than instructions — the model continues the demonstrated pattern.",
+            },
+            {
+              question: "When is few-shot prompting most valuable?",
+              options: ["For simple factual questions", "When you need consistent format across many outputs and format description in words is inadequate", "Only for image generation", "When you want shorter responses"],
+              correctAnswer: 1,
+              explanation: "Few-shot is most valuable for format-sensitive tasks where you need consistent structure across multiple outputs.",
+            },
+            {
+              question: "How many examples is typically optimal for few-shot prompting?",
+              options: ["10-20 for best results", "1-3 well-chosen examples", "As many as possible", "Exactly 5 every time"],
+              correctAnswer: 1,
+              explanation: "1-3 well-chosen examples is the effective range for most tasks. More examples consume context without proportional quality improvement.",
+            },
+          ],
+        },
+        quizQuestions: [
+          { question: "What is the core mechanism of few-shot prompting?", options: ["Providing multiple prompts simultaneously", "Giving examples of the input-output pattern so the AI continues it", "Asking the AI to generate multiple versions", "Using a few words instead of many"], correctAnswer: 1 },
+          { question: "You need 50 product descriptions in the same style. What is the most efficient approach?", options: ["Write detailed format instructions for each batch", "Provide 2 example descriptions then list all 50 products", "Generate each one with a separate prompt", "Ask AI to invent its own format"], correctAnswer: 1 },
+        ],
       },
       {
         lessonNumber: 7,
@@ -701,6 +838,51 @@ export const courseContent: CourseContent[] = [
           "Chain-of-thought prompting, self-critique loops, persona stacking, and iterative refinement. How to get AI to check its own work, reason step by step, and produce consistently high-quality output.",
         sandboxTask:
           "Use chain-of-thought prompting to solve a complex business problem: a Kenyan e-commerce company has declining repeat purchase rates. Prompt AI to reason through the problem step by step, identify 5 root causes, rank them by impact, and propose solutions for the top 2. Then prompt it to critique its own recommendations.",
+        theory: {
+          concept: "Three advanced techniques separate professional prompt engineers from everyday users: Chain-of-Thought reasoning, temperature control awareness, and meta-prompting. Each addresses a specific failure mode in complex AI tasks.",
+          badExample: "Is this business idea viable: selling solar phone chargers in rural Kenya?",
+          badBreakdown: [
+            { element: "Reasoning instruction", present: "None", problem: "AI jumps to conclusion without visible reasoning" },
+            { element: "Analysis framework", present: "None", problem: "AI decides what dimensions to consider" },
+            { element: "Evidence requirement", present: "None", problem: "AI produces confident assertions without grounding" },
+            { element: "Uncertainty handling", present: "None", problem: "AI will not flag what it does not know" },
+          ],
+          badOutput: "Yes, this is a viable business idea. Rural Kenya has significant demand for phone charging solutions, and solar technology is increasingly affordable. The market opportunity is substantial...",
+          goodExample: "Assess the viability of selling solar phone chargers in rural Kenya. Think through this step by step: (1) What is the actual demand signal — what evidence would confirm people need this? (2) What are the three biggest operational challenges for this specific market? (3) Who are the likely competitors and what is their current reach? (4) What would make this fail? (5) Overall verdict with confidence level. Flag any assumption you are making that you cannot verify.",
+          goodBreakdown: [
+            { element: "Reasoning instruction", present: "Step by step explicit", improvement: "Forces visible reasoning before conclusion" },
+            { element: "Framework", present: "5 specific dimensions", improvement: "Covers demand, operations, competition, risk" },
+            { element: "Uncertainty handling", present: "Flag assumptions", improvement: "AI signals what it does not know" },
+            { element: "Verdict format", present: "With confidence level", improvement: "You know how much to trust the conclusion" },
+          ],
+          goodOutput: "Step 1 — Demand signal: M-Pesa data shows over 60% of rural Kenyan adults own smartphones but grid access is under 30% in rural areas — this is a real gap. Assumption: charging behaviour data is from 2022 KNBS survey. Step 2 — Operational challenges: (1) last-mile distribution cost in low-density areas, (2) price sensitivity — target customer likely earns under KSh 5,000/month, (3) aftersales service in areas without technical support. Step 3 — Competitors: d.light and M-KOPA have significant rural reach through agent networks...",
+          keyInsight: "Chain-of-thought reasoning does not just produce better answers — it produces auditable reasoning you can verify. When AI shows its work, you can catch errors before they reach your conclusion.",
+          ruleToRemember: "For any complex analysis or decision, add 'think through this step by step' and specify the reasoning dimensions. The reasoning chain is often more valuable than the conclusion.",
+          checkYourUnderstanding: [
+            {
+              question: "What does chain-of-thought prompting instruct the AI to do?",
+              options: ["Generate multiple responses simultaneously", "Reason through a problem step by step before stating a conclusion", "Connect to external knowledge bases", "Use a chain of different AI models"],
+              correctAnswer: 1,
+              explanation: "Chain-of-thought prompting forces visible step-by-step reasoning before the conclusion — making the analysis auditable and more reliable.",
+            },
+            {
+              question: "Why is it valuable when AI flags its assumptions?",
+              options: ["It makes responses longer", "It allows you to identify which parts of the analysis require independent verification", "It proves the AI is being honest", "It reduces hallucination completely"],
+              correctAnswer: 1,
+              explanation: "When AI flags assumptions, you know exactly which claims need verification — allowing targeted fact-checking rather than reviewing the entire output.",
+            },
+            {
+              question: "What is meta-prompting?",
+              options: ["Asking AI to generate prompts for other tasks", "Using multiple AI models at once", "Writing prompts in multiple languages", "Prompting about AI ethics"],
+              correctAnswer: 0,
+              explanation: "Meta-prompting is asking AI to generate or improve prompts for specific tasks — leveraging AI to build better prompt templates.",
+            },
+          ],
+        },
+        quizQuestions: [
+          { question: "What is the primary benefit of chain-of-thought prompting for analytical tasks?", options: ["Faster responses", "Visible auditable reasoning that you can verify before accepting the conclusion", "Shorter outputs", "Better grammar"], correctAnswer: 1 },
+          { question: "You ask AI to assess a business decision and it gives a confident answer with no reasoning shown. What should you add to the prompt?", options: ["Please be more confident", "Think through this step by step, specify the dimensions to consider, and flag any assumptions", "Use simpler language", "Make it shorter"], correctAnswer: 1 },
+        ],
       },
       {
         lessonNumber: 8,
@@ -713,6 +895,51 @@ export const courseContent: CourseContent[] = [
           "How to structure a reusable prompt library: categories, variables, version control, and team access. We build a template system with placeholders that works for any team size.",
         sandboxTask:
           "Build a personal prompt library with 10 entries across 3 categories (communication, research, content). Each entry must include: the prompt template with variables in [BRACKETS], a one-line description of when to use it, and a sample output. Format it as a shareable document.",
+        theory: {
+          concept: "A prompt library is a structured collection of tested, reusable prompts organised by use case. The difference between a prompt library and a folder of text files is versioning, testing, and organisation. A professional prompt library treats prompts like code — each has a purpose, a version history, performance notes, and is stored where your team can access and improve it.",
+          badExample: "I just save good prompts in my notes app when I remember to.",
+          badBreakdown: [
+            { element: "Organisation", present: "None", problem: "Cannot find prompts when needed" },
+            { element: "Versioning", present: "None", problem: "Cannot track what changed and why" },
+            { element: "Testing notes", present: "None", problem: "No record of where prompts fail" },
+            { element: "Accessibility", present: "Personal only", problem: "Team cannot benefit from individual improvements" },
+          ],
+          badOutput: "Notes app with: 'good email prompt', 'the AI thing I used for the report', 'try this one for summaries' — no context, no version, no performance record.",
+          goodExample: "Prompt Library Entry Template: USE CASE: [One sentence — what problem does this solve?] PROMPT: [Full prompt text including role, task, context, constraints, and format] VERSION: [e.g. v2.1 — 14 May 2025] PERFORMANCE NOTES: [Where it works well / where it fails / what was tried] TESTED WITH: [Claude 3.5 / GPT-4o / etc.] LAST UPDATED: [Date and what changed]",
+          goodBreakdown: [
+            { element: "Use case", present: "One sentence", improvement: "Findable by problem, not by memory" },
+            { element: "Full prompt", present: "Complete text", improvement: "Copy-paste ready, no reconstruction needed" },
+            { element: "Version", present: "Numbered with date", improvement: "Track improvements over time" },
+            { element: "Performance notes", present: "Where it works and fails", improvement: "Team learns from individual experience" },
+          ],
+          goodOutput: "USE CASE: Draft a professional follow-up email after a meeting where next steps were agreed. PROMPT: You are a senior professional writing a follow-up email. Recipient: [NAME/ROLE]. Meeting date: [DATE]. Next steps agreed: [LIST]. Tone: warm and direct. Format: (1) Thank you — 1 sentence, (2) Summary of agreed actions — bullet list, (3) Your next action — 1 sentence, (4) Call to action — 1 sentence. Maximum 150 words. VERSION: v1.2 — 20 April 2025. PERFORMANCE NOTES: Works excellently for internal meetings. For client meetings, add 'formal' to tone.",
+          keyInsight: "A prompt library compounds in value over time. Every tested prompt is institutional knowledge. Every performance note prevents a colleague from making the same mistake.",
+          ruleToRemember: "Every time you develop a prompt that works reliably, add it to the library immediately. The effort of capture is trivial compared to the effort of rediscovering it.",
+          checkYourUnderstanding: [
+            {
+              question: "What distinguishes a prompt library from a folder of saved prompts?",
+              options: ["A library uses better software", "A library has versioning, testing notes, and is organised by use case", "A library only contains short prompts", "A library is only for large companies"],
+              correctAnswer: 1,
+              explanation: "A prompt library treats prompts as managed assets — versioned, documented, and organised by the problem they solve.",
+            },
+            {
+              question: "Why should prompt library entries include performance notes?",
+              options: ["To make them look more professional", "To record where prompts work and fail so others avoid the same mistakes", "Because AI requires this format", "To make prompts longer"],
+              correctAnswer: 1,
+              explanation: "Performance notes convert individual experience into team knowledge — preventing others from rediscovering failures.",
+            },
+            {
+              question: "What is the best trigger for adding a prompt to your library?",
+              options: ["After using it 100 times", "Immediately when you find a prompt that works reliably", "Only after testing it on 5 different AI models", "At the end of each month"],
+              correctAnswer: 1,
+              explanation: "Capture reliable prompts immediately — the effort is trivial and the cost of forgetting a good prompt is high.",
+            },
+          ],
+        },
+        quizQuestions: [
+          { question: "What is the most important element of a prompt library entry?", options: ["The date it was created", "Clear use case description plus full prompt text plus performance notes", "The name of the person who wrote it", "The number of times it has been used"], correctAnswer: 1 },
+          { question: "Your team uses AI but everyone builds their own prompts independently. What would a shared prompt library solve?", options: ["Nothing — individual prompts are always better", "Duplication of effort, inconsistent outputs, and loss of institutional knowledge when people leave", "It would slow everyone down", "Privacy concerns about AI usage"], correctAnswer: 1 },
+        ],
       },
       {
         lessonNumber: 9,
@@ -724,7 +951,11 @@ export const courseContent: CourseContent[] = [
         content:
           "Adapting prompt techniques for specific industries: finance, healthcare, logistics, education, and tech. Understanding the vocabulary, regulatory constraints, and output formats each industry expects.",
         sandboxTask:
-          "Choose one industry: banking, agriculture, healthcare, or logistics. Write 5 specialized prompts for common tasks in that industry. Each prompt must include role, context, task, constraints, and format. Submit with sample outputs.",
+          "Choose your specific industry or role (e.g. finance, healthcare, education, retail, agriculture, legal, HR). Build 3 complete prompt templates tailored to the most time-consuming repetitive tasks in that industry. For each prompt: (1) State the use case in one sentence, (2) Write the full prompt with role, task, context, constraints, and output format, (3) Write one example input and the expected output quality. Your prompts must be specific enough that someone in your industry could use them tomorrow.",
+        quizQuestions: [
+          { question: "What makes an industry-specific prompt more effective than a generic one?", options: ["It is longer", "It uses domain vocabulary, realistic constraints, and audience-appropriate output format", "It mentions the industry name", "It is more polite"], correctAnswer: 1 },
+          { question: "You work in HR and need to use AI for performance reviews. What is the most important element to include in your prompt?", options: ["The employee salary", "The specific evaluation criteria and rating scale used in your organisation", "The employee age", "The review length"], correctAnswer: 1 },
+        ],
       },
       {
         lessonNumber: 10,
@@ -736,7 +967,11 @@ export const courseContent: CourseContent[] = [
         content:
           "Systematic debugging framework: identifying the failure mode (vague output, wrong format, missed requirements, hallucinations), applying targeted fixes, and testing iteratively.",
         sandboxTask:
-          "You are given 5 broken prompts that produce poor output. Diagnose the failure mode of each, apply the appropriate fix, and submit the improved prompt with before/after output comparison.",
+          "Here are 3 real bad prompts that produce poor outputs. For each one: (1) Diagnose exactly what is wrong using the four-component framework (role, task, context, output format), (2) Rewrite it as a professional prompt, (3) Explain what specific improvement each change makes. Bad Prompt A: 'Help me with my presentation.' Bad Prompt B: 'Analyse this data and tell me what it means.' Bad Prompt C: 'Write something for our website about our new product.'",
+        quizQuestions: [
+          { question: "When an AI response is off-topic or misses your intent, what is the most likely root cause?", options: ["The AI model is malfunctioning", "The task instruction is ambiguous — the AI resolved ambiguity in the most probable direction", "You need a premium subscription", "AI cannot understand your industry"], correctAnswer: 1 },
+          { question: "What is the correct diagnostic process when a prompt produces poor output?", options: ["Rewrite the entire prompt from scratch", "Identify which component failed (role/task/context/format), change only that component, and test again", "Switch to a different AI model", "Make the prompt shorter"], correctAnswer: 1 },
+        ],
       },
       {
         lessonNumber: 11,
