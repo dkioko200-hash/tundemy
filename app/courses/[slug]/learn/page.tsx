@@ -390,6 +390,63 @@ function gradeSubmission(submission: string, sandboxTask: string, lessonNumber: 
         },
       },
     ],
+    99: [
+      {
+        criterion: "Business Context Accuracy",
+        max: 25,
+        evaluate: () => {
+          const hasIndustry = /logistics|healthcare|retail|agriculture|banking|education|hospitality|clinic|hospital|school|farm|shop|hotel|transport|supermarket/i.test(text);
+          const hasKenya = /kenya|nairobi|mombasa|kisumu|nakuru|ksh|kes|mpesa|m-pesa|safaricom/i.test(text);
+          if (hasIndustry && hasKenya) return { score: 25, comment: "Response is grounded in a specific Kenyan business context" };
+          if (hasIndustry || hasKenya) return { score: 15, comment: "Partial context — add specific Kenyan business details" };
+          return { score: 5, comment: "Too generic — choose a specific Kenyan business type and ground your response in how it actually operates" };
+        },
+      },
+      {
+        criterion: "Specificity and Actionability",
+        max: 25,
+        evaluate: () => {
+          const hasTools = /claude|chatgpt|gpt|gemini|whatsapp|excel|google|zapier|notion|slack/i.test(text);
+          const hasNumbers = /ksh|kes|\d+,\d+|\d+\s*(hour|minute|day|week|month)|%/i.test(text);
+          if (hasTools && hasNumbers) return { score: 25, comment: "Specific tools named with realistic KSh values and time estimates" };
+          if (hasTools || hasNumbers) return { score: 15, comment: "Add both specific tool names and realistic KSh or time values" };
+          return { score: 5, comment: "Too vague — name specific AI tools and provide realistic cost or time savings in KSh" };
+        },
+      },
+      {
+        criterion: "Implementation Realism",
+        max: 20,
+        evaluate: () => {
+          const hasRoadmap = /week 1|month 1|month 3|90.day|first step|day one|roadmap|phase/i.test(text);
+          const hasConstraints = /budget|cost|staff|team|training|internet|connectivity|data|resource/i.test(text);
+          if (hasRoadmap && hasConstraints) return { score: 20, comment: "Roadmap is structured and accounts for real Kenyan business constraints" };
+          if (hasRoadmap || hasConstraints) return { score: 12, comment: "Roadmap present but add real implementation constraints" };
+          return { score: 4, comment: "Add a concrete 90-day roadmap with specific actions accounting for Kenyan business realities" };
+        },
+      },
+      {
+        criterion: "Risk Identification",
+        max: 15,
+        evaluate: () => {
+          const hasRisk = /risk|challenge|concern|privacy|bias|error|hallucin|data|compliance|trust|accuracy/i.test(text);
+          const hasMitigation = /mitigat|address|prevent|reduce|manage|handle|ensure|monitor|verify/i.test(text);
+          if (hasRisk && hasMitigation) return { score: 15, comment: "Risks identified with practical mitigations" };
+          if (hasRisk) return { score: 9, comment: "Risks identified — add specific mitigation strategies" };
+          return { score: 3, comment: "No risks identified — add at least 2 specific risks with mitigations" };
+        },
+      },
+      {
+        criterion: "Professional Quality",
+        max: 15,
+        evaluate: () => {
+          const hasStructure = /executive summary|current state|opportunities|roadmap|risk|section|\d\.|•|-\s/i.test(text);
+          const isSubstantial = wordCount > 150;
+          if (hasStructure && isSubstantial) return { score: 15, comment: "Professional document structure and substance — ready for a CEO" };
+          if (hasStructure || isSubstantial) return { score: 9, comment: "Add clear section headings and ensure sufficient depth" };
+          return { score: 3, comment: "Structure and length need significant improvement before this could go to a CEO" };
+        },
+      },
+    ],
     7: [
       {
         criterion: "Specific Task Identified",

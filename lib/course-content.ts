@@ -45,6 +45,20 @@ export interface Lesson {
   introFirstTask?: string;
 }
 
+export interface CourseCapstone {
+  title: string;
+  description: string;
+  task: string;
+  rubric: {
+    specificity: { weight: number; description: string };
+    businessAccuracy: { weight: number; description: string };
+    implementationRealism: { weight: number; description: string };
+    ethicsQuality: { weight: number; description: string };
+    professionalQuality: { weight: number; description: string };
+  };
+  passingScore: number;
+}
+
 export interface CourseContent {
   slug: string;
   title: string;
@@ -56,6 +70,7 @@ export interface CourseContent {
   badge_name: string;
   what_you_will_learn: [string, string, string, string, string];
   lessons: Lesson[];
+  capstone?: CourseCapstone;
 }
 
 export const courseContent: CourseContent[] = [
@@ -368,19 +383,18 @@ export const courseContent: CourseContent[] = [
       },
       {
         lessonNumber: 6,
-        title: "AI Ethics and Professional Responsibility",
+        title: "AI Ethics and Your Professional Responsibility",
         type: "quiz",
-        hook: "An AI hiring tool in the US rejected 76% of qualified female candidates for a technical role. The company did not programme discrimination. The training data did.",
+        hook: "An AI hiring tool used by a major company rejected 76% of qualified female candidates for technical roles. The company did not programme discrimination. The training data did. Someone built that system. Someone deployed it. Someone is responsible. This lesson is about making sure that someone is never you.",
         duration_mins: 6,
-        videoUrl: "/videos/course1/C1_L6_AI_Ethics_and_Professional_Responsibility.mp4",
         isAvailable: true,
-        content: "Bias, accountability, privacy, and the professional standards every AI practitioner must understand.",
+        content: "Bias accountability privacy and the professional standards every AI practitioner must understand before deploying AI in any professional context.",
         quizQuestions: [
-          { question: "Where does AI bias most commonly originate?", options: ["Deliberate programming by developers", "Historical training data that reflects real-world inequalities", "Random mathematical errors in the model", "Interference from internet noise"], correctAnswer: 1 },
-          { question: "An AI tool systematically ranks candidates from a specific region lower despite equal qualifications. This is:", options: ["A technical malfunction", "AI bias — a systematic discriminatory pattern from biased training data", "Correct behaviour", "User error"], correctAnswer: 1 },
-          { question: "A lawyer uses AI to draft a contract clause containing a legal error that harms the client. Who bears professional responsibility?", options: ["The AI model provider", "The lawyer — they published and are responsible for the output", "The client for not reviewing independently", "Shared equally"], correctAnswer: 1 },
-          { question: "What is the data privacy risk of pasting client information into a commercial AI tool?", options: ["Data may be encrypted incorrectly", "Client will be notified automatically", "Data leaves your organisation and is processed by a third party", "AI will refuse to process personal information"], correctAnswer: 2 },
-          { question: "Why does AI increase the importance of professional discipline rather than reducing it?", options: ["AI tools are expensive so errors cost more", "AI scales output — a flawed workflow deployed at scale creates systemic harm much faster than individual error", "AI requires more technical expertise", "Professional bodies require AI certification"], correctAnswer: 1 },
+          { question: "Where does AI bias most commonly originate?", options: ["Deliberate programming by developers who want to discriminate", "Historical training data that reflects real-world inequalities and past discrimination", "Random mathematical errors in the model architecture", "Interference from external data sources during the training process"], correctAnswer: 1 },
+          { question: "An AI screening tool systematically scores job candidates from certain Kenyan counties lower despite equivalent qualifications and experience. This is best described as:", options: ["A technical malfunction that needs a software update to fix", "AI bias — a discriminatory pattern arising from biased historical hiring data used in training", "Correct behaviour if historical data shows lower success rates from those counties", "User error — the HR team should have excluded county location data from the inputs"], correctAnswer: 1 },
+          { question: "A lawyer uses AI to draft a contract clause. The clause contains a legal error that costs the client KSh 2 million in a dispute. Who bears professional responsibility?", options: ["The AI company that built and sold the tool", "The lawyer — they signed off on the document and are professionally responsible for all content in it", "The client for not reviewing the contract independently before signing", "Shared equally between the lawyer and the AI company"], correctAnswer: 1 },
+          { question: "What is the specific data privacy risk of pasting client information into a commercial AI tool like ChatGPT?", options: ["The data may be incorrectly encrypted while in transit to the server", "The client will receive an automatic notification that their data was processed", "The data leaves your organisation and is processed by a third party under their own data retention and usage policies", "The AI will automatically refuse to process any personal information"], correctAnswer: 2 },
+          { question: "Why does using AI at scale increase the importance of professional oversight rather than reducing it?", options: ["AI tools are expensive so any errors become proportionally more costly", "AI scales output — a flawed AI-powered decision made 10000 times creates systemic harm that individual human error could never produce at that scale", "Professional certification bodies now require additional AI-specific qualifications", "AI tools are fundamentally less reliable than human judgment in all professional contexts"], correctAnswer: 1 },
         ],
       },
       {
@@ -400,6 +414,19 @@ export const courseContent: CourseContent[] = [
         ],
       },
     ],
+    capstone: {
+      title: "AI Adoption Strategy for a Kenyan Business",
+      description: "You are an AI consultant hired by a Kenyan business. Your job is to produce a professional AI adoption strategy document that the leadership team can act on immediately.",
+      task: "Choose a specific real type of Kenyan business — logistics healthcare retail agriculture banking education or hospitality. Produce a complete AI adoption strategy document with these five sections: (1) Executive Summary — three sentences covering what AI can do for this business the biggest single opportunity and the recommended first step. (2) Current State Assessment — which tasks in this business consume the most time and are most repetitive and therefore most suitable for AI. (3) Three AI Opportunities — for each opportunity provide the specific task the specific AI tool to use the expected time saving per week the implementation difficulty rated easy medium or hard and the estimated monthly value in KSh. (4) Implementation Roadmap — a 90-day plan with specific actions in Week 1 Month 1 and Month 3. (5) Risk and Ethics Assessment — two specific risks of AI adoption for this type of business and how to mitigate each one. The document must be specific enough that the CEO of that business could read it on Monday morning and start implementing.",
+      rubric: {
+        specificity: { weight: 25, description: "How specific and actionable the recommendations are — generic advice scores 0 to 10 specific named tools with realistic KSh values scores 20 to 25" },
+        businessAccuracy: { weight: 25, description: "How accurately the document reflects how that type of business actually operates in Kenya including realistic constraints and opportunities" },
+        implementationRealism: { weight: 20, description: "Whether the 90-day roadmap is actually achievable for a Kenyan business of that type given real resource and infrastructure constraints" },
+        ethicsQuality: { weight: 15, description: "How thoughtfully the risks are identified and how practical and specific the mitigations are" },
+        professionalQuality: { weight: 15, description: "Whether this document could be handed to a real Kenyan CEO without embarrassment — professional language clear structure no filler" },
+      },
+      passingScore: 70,
+    },
   },
 
   // ─────────────────────────────────────────────────────────────────────────────
