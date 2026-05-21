@@ -4,12 +4,21 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase";
+import { courses } from "@/lib/courses";
+
+interface EnrollmentRow {
+  id: string;
+  course_slug: string;
+  payment_status: string;
+  enrolled_at: string;
+}
 
 interface EnrolledCourse {
   id: string;
+  course_slug: string;
   course_title: string;
+  icon: string;
   progress: number;
-  next_lesson: string;
 }
 
 interface Badge {
@@ -111,7 +120,23 @@ export default function DashboardPage() {
         supabase.from("profiles").select("*").eq("id", user.id).single(),
       ]);
       const [enrollRes, badgeRes, activityRes, profileRes] = results;
-      if (enrollRes.status === "fulfilled" && enrollRes.value.data) { setEnrolledCourses(enrollRes.value.data as EnrolledCourse[]); setStats((s) => ({ ...s, coursesEnrolled: enrollRes.value.data!.length })); }
+      if (enrollRes.status === "fulfilled" && enrollRes.value.data) {
+        const rows = (enrollRes.value.data as EnrollmentRow[]).filter(
+          (r) => r.payment_status === "paid"
+        );
+        const mapped: EnrolledCourse[] = rows.map((r) => {
+          const c = courses.find((x) => x.slug === r.course_slug);
+          return {
+            id: r.id,
+            course_slug: r.course_slug,
+            course_title: c?.title ?? r.course_slug,
+            icon: c?.icon ?? "📚",
+            progress: 0,
+          };
+        });
+        setEnrolledCourses(mapped);
+        setStats((s) => ({ ...s, coursesEnrolled: mapped.length }));
+      }
       if (badgeRes.status === "fulfilled" && badgeRes.value.data) { setBadges(badgeRes.value.data as Badge[]); setStats((s) => ({ ...s, badgesEarned: badgeRes.value.data!.length })); }
       if (activityRes.status === "fulfilled" && activityRes.value.data) {
         setActivity(activityRes.value.data as ActivityItem[]);
@@ -171,14 +196,14 @@ export default function DashboardPage() {
             </div>
           ) : (
             <div className="grid gap-4 sm:grid-cols-2">
-              {enrolledCourses.map((course) => (
-                <div key={course.id} className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5">
-                  <div className="flex items-start justify-between mb-3">
-                    <h3 className="text-sm font-bold pr-2" style={{ color: "#0f1f3d" }}>{course.course_title}</h3>
-                    <span className="text-xs font-bold flex-shrink-0" style={{ color: "#2d8a4e" }}>{course.progress}%</span>
+              {enrolledCourses.map((ec) => (
+                <div key={ec.id} className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5">
+                  <div className="flex items-start gap-3 mb-3">
+                    <span className="text-2xl flex-shrink-0">{ec.icon}</span>
+                    <h3 className="text-sm font-bold" style={{ color: "#0f1f3d" }}>{ec.course_title}</h3>
                   </div>
-                  <div className="w-full bg-gray-100 rounded-full h-1.5 mb-4"><div className="h-1.5 rounded-full" style={{ width: `${course.progress}%`, backgroundColor: "#2d8a4e" }} /></div>
-                  <Link href="/dashboard/courses" className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg text-xs font-bold text-white hover:opacity-90" style={{ backgroundColor: "#2d8a4e" }}>Continue →</Link>
+                  <div className="w-full bg-gray-100 rounded-full h-1.5 mb-4"><div className="h-1.5 rounded-full" style={{ width: `${ec.progress}%`, backgroundColor: "#2d8a4e" }} /></div>
+                  <Link href={`/courses/${ec.course_slug}/learn`} className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg text-xs font-bold text-white hover:opacity-90" style={{ backgroundColor: "#2d8a4e" }}>Continue Learning →</Link>
                 </div>
               ))}
             </div>
@@ -217,10 +242,10 @@ export default function DashboardPage() {
             <div className="w-12 h-12 rounded-2xl flex items-center justify-center flex-shrink-0 text-2xl" style={{ backgroundColor: "rgba(45,138,78,0.25)" }}>🤖</div>
             <div className="flex-1">
               <p className="text-xs font-semibold mb-1" style={{ color: "rgba(255,255,255,0.5)" }}>{enrolledCourses.length > 0 ? "Continue where you left off" : "Great place to start"}</p>
-              <h3 className="text-base font-extrabold text-white mb-1">{enrolledCourses.length > 0 ? enrolledCourses[0].course_title : "Introduction to AI"}</h3>
-              <p className="text-xs" style={{ color: "rgba(255,255,255,0.55)" }}>{enrolledCourses.length > 0 ? `Pick up from: ${enrolledCourses[0].next_lesson || "your next lesson"}` : "8 lessons · Beginner · KSh 1,500 — Africa's AI foundation course."}</p>
+              <h3 className="text-base font-extrabold text-white mb-1">{enrolledCourses.length > 0 ? enrolledCourses[0].course_title : "AI Foundations"}</h3>
+              <p className="text-xs" style={{ color: "rgba(255,255,255,0.55)" }}>{enrolledCourses.length > 0 ? "Pick up from your next lesson" : "7 lessons · Beginner · KSh 1,500 — Built for the Kenyan job market."}</p>
             </div>
-            <Link href={enrolledCourses.length > 0 ? "/dashboard/courses" : "/#courses"} className="flex-shrink-0 px-5 py-2.5 rounded-xl text-sm font-bold text-white hover:opacity-90" style={{ backgroundColor: "#2d8a4e" }}>
+            <Link href={enrolledCourses.length > 0 ? `/courses/${enrolledCourses[0].course_slug}/learn` : "/#courses"} className="flex-shrink-0 px-5 py-2.5 rounded-xl text-sm font-bold text-white hover:opacity-90" style={{ backgroundColor: "#2d8a4e" }}>
               {enrolledCourses.length > 0 ? "Continue" : "Start Learning"}
             </Link>
           </div>

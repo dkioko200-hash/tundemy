@@ -7,67 +7,6 @@ import Navbar from "@/components/Navbar";
 import { getCourseBySlug } from "@/lib/courses";
 import { createClient } from "@/lib/supabase";
 
-// ── Success modal ────────────────────────────────────────────────────────────
-
-function SuccessModal({
-  courseTitle,
-  slug,
-}: {
-  courseTitle: string;
-  slug: string;
-}) {
-  return (
-    <div
-      className="fixed inset-0 z-50 flex items-center justify-center px-4"
-      style={{ backgroundColor: "rgba(0,0,0,0.55)" }}
-    >
-      <div className="bg-white rounded-2xl shadow-2xl p-8 max-w-sm w-full text-center animate-in fade-in zoom-in duration-200">
-        {/* Checkmark */}
-        <div
-          className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-5"
-          style={{ backgroundColor: "rgba(45,138,78,0.12)" }}
-        >
-          <svg
-            width="32"
-            height="32"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="#2d8a4e"
-            strokeWidth="2.5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <polyline points="20 6 9 17 4 12" />
-          </svg>
-        </div>
-
-        <h2 className="text-xl font-extrabold mb-2" style={{ color: "#0f1f3d" }}>
-          Payment Successful!
-        </h2>
-        <p className="text-sm text-gray-500 mb-6 leading-relaxed">
-          You are now enrolled in{" "}
-          <span className="font-semibold text-gray-700">{courseTitle}</span>
-        </p>
-
-        <button
-          onClick={() => { window.location.href = `/courses/${slug}/learn`; }}
-          className="block w-full py-3 text-sm font-bold text-white rounded-xl transition-all hover:opacity-90 mb-3"
-          style={{ backgroundColor: "#2d8a4e" }}
-        >
-          Access your course
-        </button>
-        <button
-          onClick={() => { window.location.href = "/dashboard"; }}
-          className="block w-full text-sm font-semibold transition-opacity hover:opacity-70"
-          style={{ color: "#0f1f3d" }}
-        >
-          Go to Dashboard
-        </button>
-      </div>
-    </div>
-  );
-}
-
 // ── Trust badge item ─────────────────────────────────────────────────────────
 
 function TrustBadge({ icon, text }: { icon: React.ReactNode; text: string }) {
@@ -88,8 +27,8 @@ export default function EnrollPage() {
   const course = getCourseBySlug(slug);
 
   const [loading, setLoading] = useState(true);
-  const [paying, setPaying] = useState<"mpesa" | "card" | null>(null);
-  const [showSuccess, setShowSuccess] = useState(false);
+  const [paying, setPaying] = useState(false);
+  const [payError, setPayError] = useState<string | null>(null);
 
   useEffect(() => {
     if (!course) {
@@ -126,24 +65,24 @@ export default function EnrollPage() {
     checkAuth();
   }, [slug, course, router]);
 
-  const handlePayment = async (method: "mpesa" | "card") => {
-    setPaying(method);
-    await new Promise((r) => setTimeout(r, 1500));
-
-    const supabase = createClient();
-    const { data: { user } } = await supabase.auth.getUser();
-    if (user && course) {
-      await supabase.from("enrollments").insert({
-        user_id: user.id,
-        course_slug: slug,
-        paid: true,
-        amount_paid: course.price_kes,
-        enrolled_at: new Date().toISOString(),
+  const handlePayment = async () => {
+    setPaying(true);
+    setPayError(null);
+    try {
+      const res = await fetch("/api/pesapal/initiate", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ slug }),
       });
+      const data = await res.json();
+      if (!res.ok || !data.redirect_url) {
+        throw new Error(data.error ?? "Payment initiation failed");
+      }
+      window.location.href = data.redirect_url;
+    } catch (err) {
+      setPayError(err instanceof Error ? err.message : "Something went wrong");
+      setPaying(false);
     }
-
-    setPaying(null);
-    setShowSuccess(true);
   };
 
   if (!course) return null;
@@ -179,7 +118,6 @@ export default function EnrollPage() {
     <>
       <Navbar />
 
-      {showSuccess && <SuccessModal courseTitle={course.title} slug={slug} />}
 
       <main className="min-h-screen bg-gray-50 py-12 px-4">
         <div className="max-w-5xl mx-auto">
@@ -330,61 +268,35 @@ export default function EnrollPage() {
               </div>
               <p className="text-xs text-gray-400 mb-6">VAT included</p>
 
-              {/* Payment options */}
+              {/* Pay Now */}
               <div className="space-y-3">
                 <button
-                  onClick={() => handlePayment("mpesa")}
-                  disabled={paying !== null}
+                  onClick={handlePayment}
+                  disabled={paying}
                   className="w-full py-3.5 rounded-xl text-sm font-bold text-white transition-all hover:opacity-90 active:scale-[0.99] disabled:opacity-60 flex items-center justify-center gap-2"
                   style={{ backgroundColor: "#2d8a4e" }}
                 >
-                  {paying === "mpesa" ? (
+                  {paying ? (
                     <>
                       <div
                         className="w-4 h-4 rounded-full border-2 animate-spin"
                         style={{ borderColor: "rgba(255,255,255,0.4)", borderTopColor: "#fff" }}
                       />
-                      Processing…
-                    </>
-                  ) : (
-                    <>
-                      <span>📱</span>
-                      Pay with M-Pesa — KSh {course.price_kes.toLocaleString()}
-                    </>
-                  )}
-                </button>
-
-                {/* Divider */}
-                <div className="relative">
-                  <div className="absolute inset-0 flex items-center">
-                    <div className="w-full border-t border-gray-100" />
-                  </div>
-                  <div className="relative flex justify-center">
-                    <span className="bg-white px-3 text-xs text-gray-400">or</span>
-                  </div>
-                </div>
-
-                <button
-                  onClick={() => handlePayment("card")}
-                  disabled={paying !== null}
-                  className="w-full py-3.5 rounded-xl text-sm font-bold border-2 transition-all hover:bg-gray-50 active:scale-[0.99] disabled:opacity-60 flex items-center justify-center gap-2"
-                  style={{ borderColor: "#0f1f3d", color: "#0f1f3d" }}
-                >
-                  {paying === "card" ? (
-                    <>
-                      <div
-                        className="w-4 h-4 rounded-full border-2 animate-spin"
-                        style={{ borderColor: "rgba(15,31,61,0.3)", borderTopColor: "#0f1f3d" }}
-                      />
-                      Processing…
+                      Redirecting to checkout…
                     </>
                   ) : (
                     <>
                       <span>💳</span>
-                      Pay with Card — KSh {course.price_kes.toLocaleString()}
+                      Pay Now — KSh {course.price_kes.toLocaleString()}
                     </>
                   )}
                 </button>
+
+                {payError && (
+                  <p className="text-xs text-center font-semibold" style={{ color: "#bb0000" }}>
+                    {payError}
+                  </p>
+                )}
               </div>
 
               {/* Security note */}
