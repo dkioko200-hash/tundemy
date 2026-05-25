@@ -20,7 +20,7 @@ Repo: https://github.com/dkioko200-hash/tundemy.git
 - [DONE] whatsapp-ai-integration: write all 8 lessons with real Meta Cloud API code examples
 - [DONE] mpesa-daraja-api: write all 9 lessons with real Daraja API code
 - [DONE] ai-agriculture: write all 6 lessons with Kenyan agricultural context
-- [ ] ai-evaluation-engineering: write all 7 lessons red-teaming RLHF evaluation
+- [DONE] ai-evaluation-engineering: write all 7 lessons red-teaming RLHF evaluation
 - [ ] rag-ai-engineering: write all 7 lessons vector databases RAG pipelines
 - [ ] freelancing-with-ai: write all 6 lessons Upwork proposals pricing
 - [ ] selling-to-western-clients: write all 6 lessons Western client positioning
