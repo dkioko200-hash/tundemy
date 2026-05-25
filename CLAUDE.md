@@ -16,10 +16,10 @@ Repo: https://github.com/dkioko200-hash/tundemy.git
 ## Build queue — work through in order
 
 ### BLOCK 1 — Course content
-- [ ] ai-data-analysis: write all 7 lessons full theory quizzes sandboxes Kenyan data context
-- [ ] whatsapp-ai-integration: write all 8 lessons with real Meta Cloud API code examples
-- [ ] mpesa-daraja-api: write all 9 lessons with real Daraja API code
-- [ ] ai-agriculture: write all 6 lessons with Kenyan agricultural context
+- [DONE] ai-data-analysis: write all 7 lessons full theory quizzes sandboxes Kenyan data context
+- [DONE] whatsapp-ai-integration: write all 8 lessons with real Meta Cloud API code examples
+- [DONE] mpesa-daraja-api: write all 9 lessons with real Daraja API code
+- [DONE] ai-agriculture: write all 6 lessons with Kenyan agricultural context
 - [ ] ai-evaluation-engineering: write all 7 lessons red-teaming RLHF evaluation
 - [ ] rag-ai-engineering: write all 7 lessons vector databases RAG pipelines
 - [ ] freelancing-with-ai: write all 6 lessons Upwork proposals pricing
