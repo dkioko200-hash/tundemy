@@ -22,8 +22,8 @@ Repo: https://github.com/dkioko200-hash/tundemy.git
 - [DONE] ai-agriculture: write all 6 lessons with Kenyan agricultural context
 - [DONE] ai-evaluation-engineering: write all 7 lessons red-teaming RLHF evaluation
 - [DONE] rag-ai-engineering: write all 7 lessons vector databases RAG pipelines
-- [ ] freelancing-with-ai: write all 6 lessons Upwork proposals pricing
-- [ ] selling-to-western-clients: write all 6 lessons Western client positioning
+- [DONE] freelancing-with-ai: write all 6 lessons Upwork proposals pricing
+- [DONE] selling-to-western-clients: write all 6 lessons Western client positioning
 
 ### BLOCK 2 — Talent pool and assessments
 - [ ] Build app/talent/page.tsx public talent pool with filters
