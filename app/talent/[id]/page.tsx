@@ -199,14 +199,20 @@ export default async function TalentProfilePage({ params }: { params: Promise<{ 
               <p className="text-xs text-gray-500 mb-4 leading-relaxed">
                 Post a job on Tundemy or reach out directly through their linked profiles above.
               </p>
-              <Link href="/employer/post-job"
+              <Link
+                href={`/contact-request?candidate=${profile.user_id}&name=${encodeURIComponent(profile.full_name)}`}
                 className="w-full py-3 rounded-xl text-sm font-bold text-white text-center block transition-all hover:opacity-90"
                 style={{ backgroundColor: "#2d8a4e" }}>
-                Post a Job
+                Send Contact Request →
               </Link>
-              <Link href="/talent"
+              <Link href="/employer/post-job"
                 className="w-full py-3 rounded-xl text-sm font-bold text-center block mt-2 border-2 transition-all hover:bg-gray-50"
                 style={{ borderColor: "#0f1f3d", color: "#0f1f3d" }}>
+                Post a Job Instead
+              </Link>
+              <Link href="/talent"
+                className="w-full py-2 rounded-xl text-xs font-semibold text-center block mt-1 text-gray-400 hover:text-gray-600"
+                style={{}}>
                 Browse All Talent
               </Link>
             </div>

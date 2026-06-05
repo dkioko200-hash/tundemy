@@ -116,9 +116,11 @@ export default function CertificatesPage() {
                     <div className="flex-1 min-w-0">
                       <p className="font-bold text-sm" style={{ color: "#0f1f3d" }}>{course.title}</p>
                       <p className="text-xs text-gray-400 mt-0.5">Certificate of Completion</p>
-                      <button className="mt-3 px-4 py-1.5 rounded-xl text-xs font-bold border-2 transition-all hover:bg-gray-50" style={{ borderColor: "#d97706", color: "#d97706" }}>
-                        Download PDF
-                      </button>
+                      <a href={`/dashboard/certificates/${slug}`}
+                        className="mt-3 inline-block px-4 py-1.5 rounded-xl text-xs font-bold border-2 transition-all hover:bg-gray-50"
+                        style={{ borderColor: "#d97706", color: "#d97706" }}>
+                        View &amp; Download PDF
+                      </a>
                     </div>
                   </div>
                 </div>

@@ -26,12 +26,12 @@ Repo: https://github.com/dkioko200-hash/tundemy.git
 - [DONE] selling-to-western-clients: write all 6 lessons Western client positioning
 
 ### BLOCK 2 — Talent pool and assessments
-- [ ] Build app/talent/page.tsx public talent pool with filters
-- [ ] Build app/talent/[userId]/page.tsx individual candidate profile
-- [ ] Build app/assessment/[track]/page.tsx certification assessment with 15 questions per track
-- [ ] Build employer dashboard at app/employer/dashboard/page.tsx
-- [ ] Build contact request system between employers and candidates
-- [ ] Build certificate PDF generation on course completion
+- [DONE] Build app/talent/page.tsx public talent pool with filters
+- [DONE] Build app/talent/[userId]/page.tsx individual candidate profile
+- [DONE] Build app/assessment/[track]/page.tsx certification assessment with 15 questions per track
+- [DONE] Build employer dashboard at app/employer/dashboard/page.tsx
+- [DONE] Build contact request system between employers and candidates
+- [DONE] Build certificate PDF generation on course completion
 
 ### BLOCK 3 — Platform fixes
 - [ ] Fix homepage to show all 10 courses with correct slugs and track badges
