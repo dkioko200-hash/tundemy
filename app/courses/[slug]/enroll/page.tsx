@@ -85,6 +85,24 @@ export default function EnrollPage() {
     }
   };
 
+  const handleDevEnroll = async () => {
+    setPaying(true);
+    setPayError(null);
+    try {
+      const res = await fetch("/api/dev/enroll", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ slug }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error ?? "Dev enroll failed");
+      window.location.href = `/courses/${slug}/learn`;
+    } catch (err) {
+      setPayError(err instanceof Error ? err.message : "Dev enroll failed");
+      setPaying(false);
+    }
+  };
+
   if (!course) return null;
 
   if (loading) {
@@ -296,6 +314,17 @@ export default function EnrollPage() {
                   <p className="text-xs text-center font-semibold" style={{ color: "#bb0000" }}>
                     {payError}
                   </p>
+                )}
+
+                {process.env.NODE_ENV === "development" && (
+                  <button
+                    onClick={handleDevEnroll}
+                    disabled={paying}
+                    className="w-full py-2.5 rounded-xl text-xs font-bold border-2 border-dashed transition-all hover:bg-yellow-50 disabled:opacity-50"
+                    style={{ borderColor: "#d97706", color: "#92400e" }}
+                  >
+                    ⚡ Access Free (Dev Mode)
+                  </button>
                 )}
               </div>
 

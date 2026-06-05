@@ -38,6 +38,13 @@ async function registerIPN(token: string, ipnUrl: string): Promise<string> {
 
 export async function POST(req: NextRequest) {
   try {
+    if (!process.env.PESAPAL_CONSUMER_KEY || !process.env.PESAPAL_CONSUMER_SECRET) {
+      return NextResponse.json(
+        { error: "Payment not configured. Please add Pesapal credentials to .env.local" },
+        { status: 503 }
+      );
+    }
+
     const { slug } = await req.json();
     if (!slug) {
       return NextResponse.json({ error: "slug required" }, { status: 400 });
