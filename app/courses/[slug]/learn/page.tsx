@@ -1147,26 +1147,44 @@ export default function LearnPage() {
   useEffect(() => {
     if (!courseData) { router.replace("/#courses"); return; }
     async function checkAuth() {
-      const supabase = createClient();
-      const { data: { user } } = await supabase.auth.getUser();
-      if (!user) { router.replace(`/auth/login?next=/courses/${slug}/learn`); return; }
-      const { data: enrollment } = await supabase
-        .from("enrollments")
-        .select("id")
-        .eq("user_id", user.id)
-        .eq("course_slug", slug)
-        .eq("payment_status", "paid")
-        .maybeSingle();
-      if (!enrollment) { router.replace(`/courses/${slug}/enroll`); return; }
-      setUserId(user.id);
-      const { data: progressRows } = await supabase
-        .from("progress")
-        .select("lesson_id")
-        .eq("user_id", user.id)
-        .eq("course_slug", slug)
-        .eq("completed", true);
-      if (progressRows) {
-        setCompletedSet(new Set(progressRows.map((r: { lesson_id: number }) => r.lesson_id)));
+      try {
+        const supabase = createClient();
+        const { data: { user }, error: authError } = await supabase.auth.getUser();
+
+        // If Supabase is reachable but no user → redirect to login
+        // If Supabase is unreachable (network error) → skip auth and show course
+        if (authError) {
+          // Network/service error — show course in guest mode (no progress tracking)
+          setLoading(false);
+          return;
+        }
+
+        if (!user) { router.replace(`/auth/login?next=/courses/${slug}/learn`); return; }
+
+        // Check enrollment — redirect to enroll page if not paid
+        const { data: enrollment } = await supabase
+          .from("enrollments")
+          .select("id")
+          .eq("user_id", user.id)
+          .eq("course_slug", slug)
+          .eq("payment_status", "paid")
+          .maybeSingle();
+        if (!enrollment) { router.replace(`/courses/${slug}/enroll`); return; }
+
+        setUserId(user.id);
+
+        // Load saved progress — non-blocking
+        const { data: progressRows } = await supabase
+          .from("progress")
+          .select("lesson_id")
+          .eq("user_id", user.id)
+          .eq("course_slug", slug)
+          .eq("completed", true);
+        if (progressRows) {
+          setCompletedSet(new Set(progressRows.map((r: { lesson_id: number }) => r.lesson_id)));
+        }
+      } catch {
+        // Supabase threw (network down) — show course in guest mode
       }
       setLoading(false);
     }
