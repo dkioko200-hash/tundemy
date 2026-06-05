@@ -1150,7 +1150,24 @@ export default function LearnPage() {
       const supabase = createClient();
       const { data: { user } } = await supabase.auth.getUser();
       if (!user) { router.replace(`/auth/login?next=/courses/${slug}/learn`); return; }
+      const { data: enrollment } = await supabase
+        .from("enrollments")
+        .select("id")
+        .eq("user_id", user.id)
+        .eq("course_slug", slug)
+        .eq("payment_status", "paid")
+        .maybeSingle();
+      if (!enrollment) { router.replace(`/courses/${slug}/enroll`); return; }
       setUserId(user.id);
+      const { data: progressRows } = await supabase
+        .from("progress")
+        .select("lesson_id")
+        .eq("user_id", user.id)
+        .eq("course_slug", slug)
+        .eq("completed", true);
+      if (progressRows) {
+        setCompletedSet(new Set(progressRows.map((r: { lesson_id: number }) => r.lesson_id)));
+      }
       setLoading(false);
     }
     checkAuth();
@@ -1175,7 +1192,8 @@ export default function LearnPage() {
           lesson_id: lesson.lessonNumber,
           completed: true,
           completed_at: new Date().toISOString(),
-        }, { onConflict: "user_id,lesson_id" });
+          updated_at: new Date().toISOString(),
+        }, { onConflict: "user_id,course_slug,lesson_id" });
       } catch {
         // progress save is best-effort
       }
