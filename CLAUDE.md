@@ -34,7 +34,7 @@ Repo: https://github.com/dkioko200-hash/tundemy.git
 - [DONE] Build certificate PDF generation on course completion
 
 ### BLOCK 3 — Platform fixes
-- [ ] Fix homepage to show all 10 courses with correct slugs and track badges
+- [DONE] Fix homepage to show all 10 courses with correct slugs and track badges
 - [ ] Fix enrollment flow end to end — payment to course access to dashboard
 - [ ] Fix mobile responsiveness on all pages
 - [ ] Build 404 and error pages

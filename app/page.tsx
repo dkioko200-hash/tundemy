@@ -87,12 +87,13 @@ export default function HomePage() {
 
           {/* Secondary link */}
           <div>
-            <button
+            <Link
+              href="/talent"
               className="text-sm font-semibold transition-opacity hover:opacity-70"
               style={{ color: "#2d8a4e" }}
             >
               Browse the talent pool →
-            </button>
+            </Link>
           </div>
 
         </div>
@@ -159,21 +160,23 @@ export default function HomePage() {
             Join 2,400+ learners already building AI skills on Tundemy. Join Africa&apos;s most verified AI talent pool.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button
-              className="px-8 py-4 text-base font-bold text-white rounded-xl transition-all hover:opacity-90 shadow-lg"
+            <Link
+              href="/auth/signup"
+              className="px-8 py-4 text-base font-bold text-white rounded-xl transition-all hover:opacity-90 shadow-lg text-center"
               style={{
                 backgroundColor: "#2d8a4e",
                 boxShadow: "0 4px 24px rgba(45,138,78,0.35)",
               }}
             >
               Get Started
-            </button>
-            <button
-              className="px-8 py-4 text-base font-bold rounded-xl border-2 transition-all hover:bg-[#0f1f3d] hover:text-white"
+            </Link>
+            <Link
+              href="/#courses"
+              className="px-8 py-4 text-base font-bold rounded-xl border-2 transition-all hover:bg-[#0f1f3d] hover:text-white text-center"
               style={{ borderColor: "#0f1f3d", color: "#0f1f3d" }}
             >
               Browse Courses
-            </button>
+            </Link>
           </div>
         </div>
       </section>
