@@ -36,8 +36,8 @@ Repo: https://github.com/dkioko200-hash/tundemy.git
 ### BLOCK 3 — Platform fixes
 - [DONE] Fix homepage to show all 10 courses with correct slugs and track badges
 - [DONE] Fix enrollment flow end to end — payment to course access to dashboard
-- [ ] Fix mobile responsiveness on all pages
-- [ ] Build 404 and error pages
+- [DONE] Fix mobile responsiveness on all pages
+- [DONE] Build 404 and error pages
 
 ## How to work
 1. Read this file
