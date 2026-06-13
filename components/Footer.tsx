@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { courses } from "@/lib/courses";
 
 export default function Footer() {
   return (
@@ -26,17 +27,10 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-bold uppercase tracking-wider text-white/40 mb-4">Courses</h4>
             <ul className="space-y-2.5">
-              {[
-                "Intro to AI",
-                "Prompt Engineering",
-                "AI for Data Analysis",
-                "WhatsApp Integration",
-                "M-Pesa Daraja API",
-                "AI for Agriculture",
-              ].map((item) => (
-                <li key={item}>
-                  <Link href="#courses" className="text-sm font-normal text-white/60 hover:text-white transition-colors">
-                    {item}
+              {courses.slice(0, 6).map((course) => (
+                <li key={course.slug}>
+                  <Link href={`/courses/${course.slug}/enroll`} className="text-sm font-normal text-white/60 hover:text-white transition-colors">
+                    {course.title}
                   </Link>
                 </li>
               ))}
@@ -48,14 +42,14 @@ export default function Footer() {
             <h4 className="text-sm font-bold uppercase tracking-wider text-white/40 mb-4">For Employers</h4>
             <ul className="space-y-2.5">
               {[
-                "Browse Talent",
-                "Post a Job",
-                "Employer Pricing",
-                "Partner With Us",
+                { label: "Browse Talent", href: "/talent" },
+                { label: "Post a Job", href: "/employer/post-job" },
+                { label: "Employer Dashboard", href: "/employer/dashboard" },
+                { label: "Partner With Us", href: "mailto:hello@tundemy.com" },
               ].map((item) => (
-                <li key={item}>
-                  <Link href="#" className="text-sm font-normal text-white/60 hover:text-white transition-colors">
-                    {item}
+                <li key={item.label}>
+                  <Link href={item.href} className="text-sm font-normal text-white/60 hover:text-white transition-colors">
+                    {item.label}
                   </Link>
                 </li>
               ))}
@@ -67,14 +61,14 @@ export default function Footer() {
             <h4 className="text-sm font-bold uppercase tracking-wider text-white/40 mb-4">Platform</h4>
             <ul className="space-y-2.5">
               {[
-                "How It Works",
-                "Sandbox Preview",
-                "Certificates",
-                "Success Stories",
+                { label: "How It Works", href: "/#about" },
+                { label: "Sandbox Preview", href: "/#courses" },
+                { label: "Certificates", href: "/dashboard/certificates" },
+                { label: "Success Stories", href: "/talent" },
               ].map((item) => (
-                <li key={item}>
-                  <Link href="#" className="text-sm font-normal text-white/60 hover:text-white transition-colors">
-                    {item}
+                <li key={item.label}>
+                  <Link href={item.href} className="text-sm font-normal text-white/60 hover:text-white transition-colors">
+                    {item.label}
                   </Link>
                 </li>
               ))}
@@ -86,14 +80,14 @@ export default function Footer() {
             <h4 className="text-sm font-bold uppercase tracking-wider text-white/40 mb-4">Company</h4>
             <ul className="space-y-2.5">
               {[
-                "About Tundemy",
-                "Contact Us",
-                "Privacy Policy",
-                "Terms of Service",
+                { label: "About Tundemy", href: "/#about" },
+                { label: "Contact Us", href: "mailto:hello@tundemy.com" },
+                { label: "Privacy Policy", href: "/privacy" },
+                { label: "Terms of Service", href: "/terms" },
               ].map((item) => (
-                <li key={item}>
-                  <Link href="#" className="text-sm font-normal text-white/60 hover:text-white transition-colors">
-                    {item}
+                <li key={item.label}>
+                  <Link href={item.href} className="text-sm font-normal text-white/60 hover:text-white transition-colors">
+                    {item.label}
                   </Link>
                 </li>
               ))}
