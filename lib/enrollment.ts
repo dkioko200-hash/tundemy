@@ -1,4 +1,6 @@
 import { createClient } from "@supabase/supabase-js";
+import { getCourseBySlug } from "@/lib/courses";
+import { sendEnrollmentEmail } from "@/lib/email";
 
 const getServiceClient = () =>
   createClient(
@@ -25,6 +27,14 @@ export async function enrollUserInCourse(
     { onConflict: "user_id,course_slug" }
   );
   if (error) throw error;
+
+  const course = getCourseBySlug(courseSlug);
+  if (course) {
+    const { data } = await supabase.auth.admin.getUserById(userId);
+    if (data.user?.email) {
+      await sendEnrollmentEmail(data.user.email, course.title, courseSlug);
+    }
+  }
 }
 
 export async function getUserEnrollments(userId: string) {

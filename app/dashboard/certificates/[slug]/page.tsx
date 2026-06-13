@@ -65,12 +65,12 @@ export default function CertificatePage() {
           setCompletedAt(new Date().toLocaleDateString("en-KE", { day: "numeric", month: "long", year: "numeric" }));
         }
 
-        // Record the certificate so it can be publicly verified
-        const certNumber = `TND-${slug.toUpperCase().replace(/-/g, "").slice(0, 6)}-${authUser.id.slice(0, 6).toUpperCase()}`;
-        await supabase.from("certificates").upsert(
-          { cert_id: certNumber, user_id: authUser.id, course_slug: slug, full_name: fullName },
-          { onConflict: "user_id,course_slug", ignoreDuplicates: true }
-        );
+        // Issue the certificate (records it for public verification and emails it on first issue)
+        await fetch("/api/certificates/issue", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ slug }),
+        });
       }
       setLoading(false);
     }
