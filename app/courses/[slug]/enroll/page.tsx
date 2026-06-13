@@ -316,14 +316,14 @@ export default function EnrollPage() {
                   </p>
                 )}
 
-                {process.env.NODE_ENV === "development" && (
+                {process.env.NEXT_PUBLIC_APP_ENV === "development" && (
                   <button
                     onClick={handleDevEnroll}
                     disabled={paying}
                     className="w-full py-2.5 rounded-xl text-xs font-bold border-2 border-dashed transition-all hover:bg-yellow-50 disabled:opacity-50"
                     style={{ borderColor: "#d97706", color: "#92400e" }}
                   >
-                    ⚡ Access Free (Dev Mode)
+                    ⚡ Enroll Free (Dev Mode)
                   </button>
                 )}
               </div>

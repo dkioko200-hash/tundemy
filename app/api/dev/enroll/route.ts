@@ -4,7 +4,7 @@ import { createServerClient } from "@supabase/ssr";
 import { getCourseBySlug } from "@/lib/courses";
 
 export async function POST(req: NextRequest) {
-  if (process.env.NODE_ENV !== "development") {
+  if (process.env.NODE_ENV !== "development" || process.env.NEXT_PUBLIC_APP_ENV !== "development") {
     return NextResponse.json({ error: "Not available in production" }, { status: 403 });
   }
 
