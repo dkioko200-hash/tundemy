@@ -23,6 +23,7 @@ export default function CertificatePage() {
   const [completedAt, setCompletedAt] = useState<string>("");
   const [loading, setLoading] = useState(true);
   const [authorized, setAuthorized] = useState(false);
+  const [downloading, setDownloading] = useState(false);
 
   const course = courseContent.find((c) => c.slug === slug);
   const courseMeta = courses.find((c) => c.slug === slug);
@@ -63,14 +64,35 @@ export default function CertificatePage() {
         } else {
           setCompletedAt(new Date().toLocaleDateString("en-KE", { day: "numeric", month: "long", year: "numeric" }));
         }
+
+        // Record the certificate so it can be publicly verified
+        const certNumber = `TND-${slug.toUpperCase().replace(/-/g, "").slice(0, 6)}-${authUser.id.slice(0, 6).toUpperCase()}`;
+        await supabase.from("certificates").upsert(
+          { cert_id: certNumber, user_id: authUser.id, course_slug: slug, full_name: fullName },
+          { onConflict: "user_id,course_slug", ignoreDuplicates: true }
+        );
       }
       setLoading(false);
     }
     load();
   }, [slug, router, course]);
 
-  const handlePrint = () => {
-    window.print();
+  const handleDownload = async () => {
+    if (!certRef.current || downloading) return;
+    setDownloading(true);
+    try {
+      const [{ default: html2canvas }, { jsPDF }] = await Promise.all([
+        import("html2canvas-pro"),
+        import("jspdf"),
+      ]);
+      const canvas = await html2canvas(certRef.current, { scale: 2, backgroundColor: "#ffffff" });
+      const imgData = canvas.toDataURL("image/png");
+      const pdf = new jsPDF({ orientation: "landscape", unit: "px", format: [canvas.width, canvas.height] });
+      pdf.addImage(imgData, "PNG", 0, 0, canvas.width, canvas.height);
+      pdf.save(`tundemy-certificate-${slug}.pdf`);
+    } finally {
+      setDownloading(false);
+    }
   };
 
   if (loading) {
@@ -122,13 +144,13 @@ export default function CertificatePage() {
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="15 18 9 12 15 6" /></svg>
             Certificates
           </Link>
-          <button onClick={handlePrint}
-            className="flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-bold text-white hover:opacity-90"
+          <button onClick={handleDownload} disabled={downloading}
+            className="flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-bold text-white hover:opacity-90 disabled:opacity-60"
             style={{ backgroundColor: "#2d8a4e" }}>
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <polyline points="6 9 6 2 18 2 18 9" /><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2" /><rect x="6" y="14" width="12" height="8" />
             </svg>
-            Download PDF
+            {downloading ? "Preparing..." : "Download PDF"}
           </button>
         </div>
       </div>
@@ -239,7 +261,7 @@ export default function CertificatePage() {
               </div>
             </div>
 
-            <p className="text-xs text-gray-300 mt-2">Verify at tundemy.com/verify · Africa&apos;s AI Skills Platform</p>
+            <p className="text-xs text-gray-300 mt-2">Verify at tundemy.com/verify/{certNumber} · Africa&apos;s AI Skills Platform</p>
           </div>
         </div>
       </div>
