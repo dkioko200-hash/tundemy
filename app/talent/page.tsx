@@ -30,6 +30,7 @@ const TOP_SKILLS = [
 
 export default function TalentPage() {
   const [talent, setTalent] = useState<TalentProfile[]>([]);
+  const [verified, setVerified] = useState<Set<string>>(new Set());
   const [loading, setLoading] = useState(true);
   const [track, setTrack] = useState("");
   const [skill, setSkill] = useState("");
@@ -38,14 +39,17 @@ export default function TalentPage() {
   useEffect(() => {
     async function load() {
       const supabase = createClient();
-      const query = supabase
-        .from("talent_profiles")
-        .select("user_id, full_name, headline, location, skills, years_experience, track")
-        .eq("is_visible", true)
-        .order("years_experience", { ascending: false })
-        .limit(100);
-      const { data } = await query;
-      setTalent(data ?? []);
+      const [{ data: profiles }, { data: passed }] = await Promise.all([
+        supabase
+          .from("talent_profiles")
+          .select("user_id, full_name, headline, location, skills, years_experience, track")
+          .eq("is_visible", true)
+          .order("years_experience", { ascending: false })
+          .limit(100),
+        supabase.from("assessments").select("user_id").eq("passed", true),
+      ]);
+      setTalent(profiles ?? []);
+      setVerified(new Set((passed ?? []).map((p: { user_id: string }) => p.user_id)));
       setLoading(false);
     }
     load();
@@ -223,7 +227,14 @@ export default function TalentPage() {
                       </span>
                     )}
                   </div>
-                  <p className="font-bold text-sm mt-2" style={{ color: "#0f1f3d" }}>{t.full_name}</p>
+                  <div className="flex items-center gap-1.5 mt-2 flex-wrap">
+                    <p className="font-bold text-sm" style={{ color: "#0f1f3d" }}>{t.full_name}</p>
+                    {verified.has(t.user_id) && (
+                      <span className="text-xs font-bold px-1.5 py-0.5 rounded-full flex items-center gap-1" style={{ backgroundColor: "rgba(45,138,78,0.1)", color: "#2d8a4e" }}>
+                        ✓ Verified
+                      </span>
+                    )}
+                  </div>
                   {t.headline && <p className="text-xs text-gray-500 mt-0.5 leading-snug line-clamp-2">{t.headline}</p>}
                   <div className="flex items-center gap-2 mt-1 flex-wrap">
                     {t.location && <p className="text-xs text-gray-400">{t.location}</p>}

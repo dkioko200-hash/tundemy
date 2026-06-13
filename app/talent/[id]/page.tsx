@@ -2,6 +2,21 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { createServerClient } from "@supabase/ssr";
 import { cookies } from "next/headers";
+import { courses } from "@/lib/courses";
+
+interface VerifiedTrack {
+  track: string;
+  score: number;
+  taken_at: string;
+}
+
+interface CourseCompletion {
+  slug: string;
+  title: string;
+  lessonsCompleted: number;
+  lessonsTotal: number;
+  completed: boolean;
+}
 
 interface TalentDetail {
   user_id: string;
@@ -34,6 +49,64 @@ async function getProfile(id: string): Promise<TalentDetail | null> {
   return data;
 }
 
+async function getVerifiedTracks(userId: string): Promise<VerifiedTrack[]> {
+  const cookieStore = await cookies();
+  const supabase = createServerClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+    { cookies: { getAll: () => cookieStore.getAll(), setAll: () => {} } }
+  );
+
+  const { data } = await supabase
+    .from("assessments")
+    .select("track, score, taken_at")
+    .eq("user_id", userId)
+    .eq("passed", true)
+    .order("taken_at", { ascending: false });
+
+  return data ?? [];
+}
+
+async function getCourseCompletions(userId: string): Promise<CourseCompletion[]> {
+  const cookieStore = await cookies();
+  const supabase = createServerClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+    { cookies: { getAll: () => cookieStore.getAll(), setAll: () => {} } }
+  );
+
+  const { data: enrollments } = await supabase
+    .from("enrollments")
+    .select("course_slug")
+    .eq("user_id", userId)
+    .eq("payment_status", "paid");
+
+  if (!enrollments || enrollments.length === 0) return [];
+
+  const results: CourseCompletion[] = [];
+  for (const { course_slug } of enrollments) {
+    const course = courses.find((c) => c.slug === course_slug);
+    if (!course) continue;
+
+    const { count } = await supabase
+      .from("progress")
+      .select("id", { count: "exact", head: true })
+      .eq("user_id", userId)
+      .eq("course_slug", course_slug)
+      .eq("completed", true);
+
+    const lessonsCompleted = count ?? 0;
+    results.push({
+      slug: course_slug,
+      title: course.title,
+      lessonsCompleted,
+      lessonsTotal: course.lessons_count,
+      completed: lessonsCompleted >= course.lessons_count,
+    });
+  }
+  return results;
+}
+
 async function getBadges(userId: string) {
   const cookieStore = await cookies();
   const supabase = createServerClient(
@@ -53,7 +126,12 @@ async function getBadges(userId: string) {
 
 export default async function TalentProfilePage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
-  const [profile, badges] = await Promise.all([getProfile(id), getBadges(id)]);
+  const [profile, badges, verifiedTracks, courseCompletions] = await Promise.all([
+    getProfile(id),
+    getBadges(id),
+    getVerifiedTracks(id),
+    getCourseCompletions(id),
+  ]);
 
   if (!profile) notFound();
 
@@ -100,7 +178,14 @@ export default async function TalentProfilePage({ params }: { params: Promise<{ 
                   {initials}
                 </div>
                 <div className="flex-1 min-w-0">
-                  <h1 className="text-xl font-extrabold" style={{ color: "#0f1f3d" }}>{profile.full_name}</h1>
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <h1 className="text-xl font-extrabold" style={{ color: "#0f1f3d" }}>{profile.full_name}</h1>
+                    {verifiedTracks.length > 0 && (
+                      <span className="text-xs font-bold px-2 py-0.5 rounded-full flex items-center gap-1" style={{ backgroundColor: "rgba(45,138,78,0.1)", color: "#2d8a4e" }}>
+                        ✓ Verified
+                      </span>
+                    )}
+                  </div>
                   {profile.headline && <p className="text-sm text-gray-600 mt-0.5">{profile.headline}</p>}
                   <div className="flex items-center gap-3 mt-2 flex-wrap">
                     {profile.location && (
@@ -161,6 +246,52 @@ export default async function TalentProfilePage({ params }: { params: Promise<{ 
                     <span key={skill} className="text-xs px-3 py-1.5 rounded-full font-semibold" style={{ backgroundColor: "rgba(45,138,78,0.08)", color: "#166534" }}>
                       {skill}
                     </span>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Verified Tracks */}
+            {verifiedTracks.length > 0 && (
+              <div className="rounded-2xl border bg-white p-6" style={{ borderColor: "#e5e7eb" }}>
+                <h2 className="text-sm font-bold mb-4" style={{ color: "#0f1f3d" }}>Verified Tracks</h2>
+                <div className="space-y-3">
+                  {verifiedTracks.map((vt) => (
+                    <div key={vt.track} className="rounded-xl border p-4 flex items-center justify-between gap-3" style={{ borderColor: "#e5e7eb" }}>
+                      <div className="flex items-center gap-3">
+                        <span className="w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0" style={{ backgroundColor: "rgba(45,138,78,0.1)", color: "#2d8a4e" }}>
+                          ✓
+                        </span>
+                        <div>
+                          <p className="text-sm font-bold" style={{ color: "#0f1f3d" }}>{vt.track}</p>
+                          <p className="text-xs text-gray-400">
+                            Assessed {new Date(vt.taken_at).toLocaleDateString("en-KE", { month: "short", day: "numeric", year: "numeric" })}
+                          </p>
+                        </div>
+                      </div>
+                      <span className="text-sm font-extrabold flex-shrink-0" style={{ color: "#2d8a4e" }}>{vt.score}%</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Course Completions */}
+            {courseCompletions.length > 0 && (
+              <div className="rounded-2xl border bg-white p-6" style={{ borderColor: "#e5e7eb" }}>
+                <h2 className="text-sm font-bold mb-4" style={{ color: "#0f1f3d" }}>Course Completions</h2>
+                <div className="space-y-3">
+                  {courseCompletions.map((c) => (
+                    <div key={c.slug} className="flex items-center justify-between gap-3">
+                      <p className="text-sm font-semibold" style={{ color: "#0f1f3d" }}>{c.title}</p>
+                      <span className="text-xs font-bold px-2 py-0.5 rounded-full flex-shrink-0"
+                        style={{
+                          backgroundColor: c.completed ? "rgba(45,138,78,0.1)" : "rgba(107,114,128,0.1)",
+                          color: c.completed ? "#166534" : "#6b7280",
+                        }}>
+                        {c.completed ? "Completed" : `${c.lessonsCompleted}/${c.lessonsTotal} lessons`}
+                      </span>
+                    </div>
                   ))}
                 </div>
               </div>
