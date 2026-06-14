@@ -45,7 +45,7 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    const { slug } = await req.json();
+    const { slug, phone } = await req.json();
     if (!slug) {
       return NextResponse.json({ error: "slug required" }, { status: 400 });
     }
@@ -94,6 +94,7 @@ export async function POST(req: NextRequest) {
       notification_id: ipnId,
       billing_address: {
         email_address: user.email ?? "",
+        phone_number: typeof phone === "string" ? phone.replace(/\s/g, "") : undefined,
         first_name: (user.user_metadata?.full_name ?? user.email ?? "").split(" ")[0],
         last_name: (user.user_metadata?.full_name ?? "").split(" ").slice(1).join(" ") || ".",
       },

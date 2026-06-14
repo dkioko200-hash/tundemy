@@ -26,6 +26,7 @@ const accountTypes = [
 function SignupForm() {
   const searchParams = useSearchParams();
   const courseSlug = searchParams.get("course");
+  const redirectParam = searchParams.get("redirect");
   const [accountType, setAccountType] = useState<AccountType>(
     searchParams.get("type") === "employer" ? "employer" : "student"
   );
@@ -37,7 +38,9 @@ function SignupForm() {
   const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState(false);
 
-  const loginHref = courseSlug
+  const loginHref = redirectParam
+    ? `/auth/login?next=${encodeURIComponent(redirectParam)}`
+    : courseSlug
     ? `/auth/login?next=/courses/${courseSlug}/enroll`
     : "/auth/login";
 
@@ -57,7 +60,7 @@ function SignupForm() {
     setLoading(true);
     try {
       const supabase = createClient();
-      const next = courseSlug ? `/courses/${courseSlug}/enroll` : "/dashboard";
+      const next = redirectParam || (courseSlug ? `/courses/${courseSlug}/enroll` : "/dashboard");
       const { error: signUpError } = await supabase.auth.signUp({
         email,
         password,

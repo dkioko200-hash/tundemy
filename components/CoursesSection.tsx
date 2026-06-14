@@ -25,7 +25,7 @@ export default function CoursesSection() {
     } = await supabase.auth.getUser();
 
     if (!user) {
-      router.push(`/auth/signup?course=${slug}`);
+      router.push(`/auth/signup?redirect=${encodeURIComponent(`/courses/${slug}/enroll`)}`);
       return;
     }
 
