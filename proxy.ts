@@ -31,8 +31,11 @@ export async function proxy(request: NextRequest) {
 
   const path = request.nextUrl.pathname
   const isAuthPage = path === '/auth/login' || path === '/auth/signup'
+  const isCourseLearnRoute = /^\/courses\/[^/]+\/learn(\/.*)?$/.test(path)
   const isProtectedRoute =
-    path.startsWith('/dashboard') || path.startsWith('/employer/dashboard')
+    path.startsWith('/dashboard') ||
+    path.startsWith('/employer/dashboard') ||
+    isCourseLearnRoute
 
   // Logged-in users on auth pages → send to their dashboard
   if (user && isAuthPage) {
@@ -44,8 +47,10 @@ export async function proxy(request: NextRequest) {
   // Unauthenticated users on protected routes → send to login with return path
   if (!user && isProtectedRoute) {
     const url = request.nextUrl.clone()
+    const next = path + (url.search || '')
     url.pathname = '/auth/login'
-    url.searchParams.set('next', path)
+    url.search = ''
+    url.searchParams.set('next', next)
     return NextResponse.redirect(url)
   }
 
@@ -70,6 +75,8 @@ export const config = {
   matcher: [
     '/dashboard/:path*',
     '/employer/dashboard/:path*',
+    '/courses/:slug/learn',
+    '/courses/:slug/learn/:path*',
     '/auth/login',
     '/auth/signup',
   ],
