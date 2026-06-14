@@ -33,28 +33,35 @@ export default function CheckoutPage() {
 
     async function checkAuth() {
       const supabase = createClient();
-      const {
-        data: { user },
-      } = await supabase.auth.getUser();
 
-      if (!user) {
+      try {
+        const {
+          data: { session },
+        } = await supabase.auth.getSession();
+        const user = session?.user;
+
+        if (!user) {
+          router.replace(`/auth/signup?redirect=${encodeURIComponent(`/courses/${slug}/checkout`)}`);
+          return;
+        }
+
+        const { data: enrollment } = await supabase
+          .from("enrollments")
+          .select("id")
+          .eq("user_id", user.id)
+          .eq("course_slug", slug)
+          .maybeSingle();
+
+        if (enrollment) {
+          router.replace(`/courses/${slug}/learn`);
+          return;
+        }
+
+        setLoading(false);
+      } catch (err) {
+        console.error("[checkout] auth check failed:", err);
         router.replace(`/auth/signup?redirect=${encodeURIComponent(`/courses/${slug}/checkout`)}`);
-        return;
       }
-
-      const { data: enrollment } = await supabase
-        .from("enrollments")
-        .select("id")
-        .eq("user_id", user.id)
-        .eq("course_slug", slug)
-        .maybeSingle();
-
-      if (enrollment) {
-        router.replace(`/courses/${slug}/learn`);
-        return;
-      }
-
-      setLoading(false);
     }
 
     checkAuth();
