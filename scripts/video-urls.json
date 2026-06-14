@@ -166,5 +166,77 @@
     "filePath": "public/videos/prompt-engineering/prompt-engineering_L12_Final_Project_Team_Prompt_Playbook.mp4",
     "presenter": "Jabari",
     "generatedAt": "2026-06-13T23:13:52.125Z"
+  },
+  "ai-data-analysis_0": {
+    "videoId": "d65fb5d5509f49479fa344cdcd033b09",
+    "videoUrl": "https://files2.heygen.ai/aws_pacific/avatar_tmp/118f87e4429e4f0b89c2f6c2a150797f/d65fb5d5509f49479fa344cdcd033b09.mp4?Expires=1782026202&Signature=gkzgxgmj0GW8nGhnmx-jI7WNR2Db2nuZdNtVnzojcyResR5tQhq5-ce7Ew-xjHiaiqOoClQtcvm-a3PNphYp0ZFyc6UjKdCkDr1HuDLP7Wdg2erO5UtLnlhK3lVLQSEeTXqFQ3eRHtP81jVAuq1C-SGjbcY8Ft9-JOR~yUas7tbBUkyaUjp5iwMGlmvz-LgPU5RU92cZCQ0yueB2euJsiXg4jawwqOcjYozz71LHf~PSjYq51DLWrbiQyiEyoT-nSHncRvimo0CnKj9hBLpzx3fOmdhHw0rGD~xtkhE2egOOXaJ36jgAKACFXrqDtSdDT2cvHqJrd2m1-qKGBwsifw__&Key-Pair-Id=K38HBHX5LX3X2H",
+    "duration": 43.2327,
+    "filePath": "public/videos/ai-data-analysis/ai-data-analysis_L0_Welcome_to_AI_for_Data_and_Decisions.mp4",
+    "presenter": "Amara",
+    "generatedAt": "2026-06-14T07:16:51.326Z"
+  },
+  "ai-data-analysis_1": {
+    "videoId": "03d696f61fec42848004b08be2fd1c6e",
+    "videoUrl": "https://files2.heygen.ai/aws_pacific/avatar_tmp/118f87e4429e4f0b89c2f6c2a150797f/03d696f61fec42848004b08be2fd1c6e.mp4?Expires=1782026378&Signature=QoXYr29dP96tqSS3k1r~-QDXoNINTdR4rKrg~SzFl~SoX~-YgUDHilgWjcfly0L5~1SWuTjm4KSeabpYCdKCcd0pg2y4r-0eJUlxG2TXQXPQVo8KS1SYr8FgfVKyP1owioGJzDroolqMcjhiNBYBAqjyQ7tn0vWQntpPb0t2ZUvwXjSOFmIgBdl4lbWMHaNTht3bYXqoGSEUjfBQOTjlejQ5GhYN2mQpcHMYMOUH3lSiTWhyYk8o5hmVCcEhL-wPHavBNLivcbQo9KM6a~be9zFjLZy2piXubePPaylbJhiik8CxdjL~w2LtTFoUbreCxlksXMBYDuYuk8xrHCMQzw__&Key-Pair-Id=K38HBHX5LX3X2H",
+    "duration": 79.3078,
+    "filePath": "public/videos/ai-data-analysis/ai-data-analysis_L1_Thinking_in_Questions_The_Analyst_Mindset.mp4",
+    "presenter": "Amara",
+    "generatedAt": "2026-06-14T07:19:54.515Z"
+  },
+  "ai-data-analysis_2": {
+    "videoId": "e2602dba95094cc9bffdc938aaf07685",
+    "videoUrl": "https://files2.heygen.ai/aws_pacific/avatar_tmp/118f87e4429e4f0b89c2f6c2a150797f/e2602dba95094cc9bffdc938aaf07685.mp4?Expires=1782026996&Signature=ZUn7DlZC9QxefwUneQ2RDh90yjhYMs9K0MmWST9Xr3rHMEhHnnHfyoRnQbj1U6sNd7qrKTL1D5nGVQWgfWOoiE8HDS85~jAjQlDJQyd-6NP864fnxtcaDgRfcuD7JOCdRKb3AVCtgMJY8ajoHms3yFmCOKAkU47yGwdTKmQsY41-tpe11PQLrDWgHC7pr32A4AYucOMun~JIBfeV~ZeKOKst0OB9iGgmFEXMZ7G61nuHwXnfrHzZ8Z~pmx40-LCWgcKhlF6V6x4yM3BMVhkJsAHN9gI99PAmQBWZZxDq4Wl0rQArZfaBq9T27cuXF2A50Ex~CHW0gPCI9m5vfgtcRw__&Key-Pair-Id=K38HBHX5LX3X2H",
+    "duration": 137.953,
+    "filePath": "public/videos/ai-data-analysis/ai-data-analysis_L2_Data_Quality_and_Cleaning_with_AI.mp4",
+    "presenter": "Amara",
+    "generatedAt": "2026-06-14T07:30:00.858Z"
+  },
+  "ai-data-analysis_3": {
+    "videoId": "9e11aabd3ecf45b991bc7ddb4ad534af",
+    "videoUrl": "https://files2.heygen.ai/aws_pacific/avatar_tmp/118f87e4429e4f0b89c2f6c2a150797f/9e11aabd3ecf45b991bc7ddb4ad534af.mp4?Expires=1782027101&Signature=qLI6EIPpWTBhxrHlviXNKYhm2~uutHX1qnCjjZMso91uAH-7SXcVxbMM90bFC6euRl0W7ez2EeN6ZvZ6WCjkXIL3XKLBhuZ17Kpk~jl9p0WVu81~Z7oSeCLltq8rK-tnm6k3szquB-cUgTmuwHfYIbDuC-O-ht-ig9VJv4E5QJPCTu2Sq7MR6ywwJtL6s8mcMiAcvRfTfnBcTIKvIy53VpIllIssiYgUsKQs2DFHBsuzJ9ag6hs3~BYBtA2aGyGJpkTrOvIY1pcuboPKC45lL0RGUnkdp-bN4XzpnQtebe20wSXWvC6IxXivqEm~gFbm4bF1JzYXFE1ff8yafHtoeg__&Key-Pair-Id=K38HBHX5LX3X2H",
+    "duration": 38.6873,
+    "filePath": "public/videos/ai-data-analysis/ai-data-analysis_L3_Descriptive_Analysis_Finding_What_the_Data_Says.mp4",
+    "presenter": "Amara",
+    "generatedAt": "2026-06-14T07:32:03.196Z"
+  },
+  "ai-data-analysis_4": {
+    "videoId": "79a6fd86c1504e1684705a175c187264",
+    "videoUrl": "https://files2.heygen.ai/aws_pacific/avatar_tmp/118f87e4429e4f0b89c2f6c2a150797f/79a6fd86c1504e1684705a175c187264.mp4?Expires=1782027393&Signature=GwGeZz8-x9IsGdzJQHxiZtW3E~Dxi-8rG37kfvudUXGJfIgrYS-n0SX-E5F3kZacOd0al0b3T~3K8TXVtD-xjxNu3liw1yH09mtGURB9CkDfxCIM3~16eYHY9-2etBq0Kw2S1ObVI15GQX4qV1FrPYGQDswMqcbZPdHIowrFyea93-V~-d-kWGlR2FpBtxtpTDLSJVDaRyZuo2ZnODtUiuy~gb6M43rUhWPW82g1181uSivXwgW~cxNQIs74Unq8iK1iWr6N4KZmCbUFoTu7-T0WGPrKgQCwxH~YG93L0jEgN6xBhDQfAP-9PGCY98kZL34049G~zNa2LEUWYFSVnQ__&Key-Pair-Id=K38HBHX5LX3X2H",
+    "duration": 132.519,
+    "filePath": "public/videos/ai-data-analysis/ai-data-analysis_L4_Pattern_Finding_and_Anomaly_Detection.mp4",
+    "presenter": "Amara",
+    "generatedAt": "2026-06-14T07:36:37.506Z"
+  },
+  "ai-data-analysis_5": {
+    "videoId": "3b50ef429b614fa0a912788578839d83",
+    "videoUrl": "https://files2.heygen.ai/aws_pacific/avatar_tmp/118f87e4429e4f0b89c2f6c2a150797f/3b50ef429b614fa0a912788578839d83.mp4?Expires=1782027510&Signature=Wlnmg4QlDT12SM9Uj8GwiYkYBmZdvzOQ~nNPrWqO~0Fl2c1z5CQZPXXbmah5zpYI7XqLhQsdyz~cqeJMgrPESS~MKEK0VAxp8ycEQQ4744OLu9dJlUq9WKXjc-fDrVs1i6t65kyzjiP2NM-KOWy6K0dvPL5btTIy1Ftt7XNnhe0ztOlwsKv73o9mLB-T52~~ik0adVhZves46RaR5T0mtCMwFKiXv6DzAEvEHmVQeBi~7p6I2eUP1PlH5x8pkeGQ0l7zdQs3gRm3HoCuKn0UMo-zyfX9LDpyzXXbDI4~-Xqqtay9AETBaiRcxjHPmBQU~FSLL0QFGmeOMjMYgtaD1A__&Key-Pair-Id=K38HBHX5LX3X2H",
+    "duration": 40.1241,
+    "filePath": "public/videos/ai-data-analysis/ai-data-analysis_L5_Visualisation_and_Executive_Storytelling.mp4",
+    "presenter": "Amara",
+    "generatedAt": "2026-06-14T07:38:40.588Z"
+  },
+  "ai-data-analysis_6": {
+    "videoId": "8531a8540a7848f4ac6404e4014e7259",
+    "videoUrl": "https://files2.heygen.ai/aws_pacific/avatar_tmp/118f87e4429e4f0b89c2f6c2a150797f/8531a8540a7848f4ac6404e4014e7259.mp4?Expires=1782027735&Signature=kSCPATbKKtX7-1AyxcR1Ekp2PP-BelbPIO0GiSEPU32qAxWa9BTU9OZiyqoiNuHy9bE8Wq2dD6S5wc5793dCUdJ4-6Veob1OxBBlTAX9FpVC-51vqNLfxFKf3qH15N8TI60egzubcIoYQRtLOyzR9cBU8ccBhgETHvB-jEFGHDZ6ksykVoNCZzcyrwHpXRGnfNYrvrJ81ylZHwdWMoRrLMZbSoQuewF4kRgVj39upa6ypLU4kceH3WMWW4jZz6XX7hdxpvIOXODwSbtIbTfhElaqgr7Hi-Km~W0G7Go3Kmk0zKg6pmHCVpQRxLpnGHDlhVL6xvkpXjqyLlYBIbL8eg__&Key-Pair-Id=K38HBHX5LX3X2H",
+    "duration": 85.551,
+    "filePath": "public/videos/ai-data-analysis/ai-data-analysis_L6_Automated_Reporting_Build_It_Once_Run_It_Every_Week.mp4",
+    "presenter": "Amara",
+    "generatedAt": "2026-06-14T07:42:44.006Z"
+  },
+  "ai-data-analysis_7": {
+    "videoId": "fa92f8fe8e904642a4d9cf5ca90dd610",
+    "videoUrl": "https://files2.heygen.ai/aws_pacific/avatar_tmp/118f87e4429e4f0b89c2f6c2a150797f/fa92f8fe8e904642a4d9cf5ca90dd610.mp4?Expires=1782027887&Signature=UW9x3Tws9mNd6vpOmSUE5PEBxrqU3f-mXDCBoFJqIQB1aTInOrmb2FWAaQghy9vYJ-fiuufnSbvNoD8mxuzGE~PKhZFumkQ5CbCSxnIqjqwl35LQKQ92ZloNlKu9d9kq5vvp~QIJOAC1KrZhsRLi~dO72ZiAkC~ODUMdiG63KNTD~JT6EgXD6wPqQTizBKLrj1otMMl28AcEmF3-WNqcQYs4h8kNUjLgtkFUDNSDtTJpOuaHVWklExlrEpble8VVrWVzz0xxrFFrsuCSwIBvfmIBKvyaHGkx9j6o1UWwAWvnPHim9bsmFBZgUES~KrzFomcZiGOHEB5ZffnX-g2ATQ__&Key-Pair-Id=K38HBHX5LX3X2H",
+    "duration": 30.4327,
+    "filePath": "public/videos/ai-data-analysis/ai-data-analysis_L7_Final_Project_Business_Intelligence_Report_Savannah_Foods.mp4",
+    "presenter": "Amara",
+    "generatedAt": "2026-06-14T07:45:16.423Z"
+  },
+  "whatsapp-ai-integration_0": {
+    "videoId": "13a01077866040feb83a16f33c64017c",
+    "videoUrl": "https://files2.heygen.ai/aws_pacific/avatar_tmp/118f87e4429e4f0b89c2f6c2a150797f/13a01077866040feb83a16f33c64017c.mp4?Expires=1782028120&Signature=YsBX84F34DftnhgAphvdIndQxykMUwtUtUEHoGApr-CCEDYrzNZP4qiLYFFQQT-Wh9NHRw2NZB95hHgqj4tFR3AkwAKqFdYBqtbhQUPZx-CGPxcSuQ35uR4jVlUU1s84N4000QIiaakyRglcDX2bkQQfwGyPYB8-LJD0AyJovlFzeXc6JNfIWHs9WmOgfu5FHlqkmVZ2zR-q1s2W4XZ-E2-YDweFxJQnBDSGcF~vrBZ5jJ32GFZguPbjXVBO05o7tVov9hbMH30sIo6ocbLZF2JmIgEfvWqMdz27pwMPfGrBg46LIcwe2~tDZhrZrU3MzRASHioFaiFmN772zsQIiw__&Key-Pair-Id=K38HBHX5LX3X2H",
+    "duration": 45.0873,
+    "filePath": "public/videos/whatsapp-ai-integration/whatsapp-ai-integration_L0_Welcome_to_WhatsApp_Business_AI.mp4",
+    "presenter": "Jabari",
+    "generatedAt": "2026-06-14T07:48:49.131Z"
   }
 }
