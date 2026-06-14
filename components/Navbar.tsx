@@ -29,7 +29,7 @@ export default function Navbar() {
           {/* Desktop nav links */}
           <div className="hidden md:flex items-center gap-8">
             <Link
-              href="#courses"
+              href="/courses"
               className="text-sm font-medium text-gray-600 hover:text-[#0f1f3d] transition-colors"
             >
               Courses
@@ -99,7 +99,7 @@ export default function Navbar() {
       {/* Mobile menu */}
       {menuOpen && (
         <div className="md:hidden border-t border-gray-100 bg-white px-4 py-4 space-y-3">
-          <Link href="#courses" className="block text-sm font-medium text-gray-700 py-2" onClick={() => setMenuOpen(false)}>
+          <Link href="/courses" className="block text-sm font-medium text-gray-700 py-2" onClick={() => setMenuOpen(false)}>
             Courses
           </Link>
           <Link href="#talent" className="block text-sm font-medium text-gray-700 py-2" onClick={() => setMenuOpen(false)}>
