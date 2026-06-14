@@ -1149,15 +1149,8 @@ export default function LearnPage() {
     async function checkAuth() {
       try {
         const supabase = createClient();
-        const { data: { user }, error: authError } = await supabase.auth.getUser();
-
-        // If Supabase is reachable but no user → redirect to login
-        // If Supabase is unreachable (network error) → skip auth and show course
-        if (authError) {
-          // Network/service error — show course in guest mode (no progress tracking)
-          setLoading(false);
-          return;
-        }
+        const { data: { session } } = await supabase.auth.getSession();
+        const user = session?.user;
 
         if (!user) { router.replace(`/auth/login?next=/courses/${slug}/learn`); return; }
 
@@ -1183,8 +1176,10 @@ export default function LearnPage() {
         if (progressRows) {
           setCompletedSet(new Set(progressRows.map((r: { lesson_id: number }) => r.lesson_id)));
         }
-      } catch {
-        // Supabase threw (network down) — show course in guest mode
+      } catch (err) {
+        console.error("[learn] auth check failed:", err);
+        router.replace(`/auth/login?next=/courses/${slug}/learn`);
+        return;
       }
       setLoading(false);
     }

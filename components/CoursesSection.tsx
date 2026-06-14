@@ -25,25 +25,15 @@ export default function CoursesSection() {
       const {
         data: { session },
       } = await supabase.auth.getSession();
-      const user = session?.user;
 
-      if (!user) {
+      if (!session?.user) {
         router.push(`/auth/signup?redirect=${encodeURIComponent(`/courses/${slug}/enroll`)}`);
         return;
       }
 
-      const { data: enrollment } = await supabase
-        .from("enrollments")
-        .select("id")
-        .eq("user_id", user.id)
-        .eq("course_slug", slug)
-        .maybeSingle();
-
-      if (enrollment) {
-        router.push(`/courses/${slug}/learn`);
-      } else {
-        router.push(`/courses/${slug}/enroll`);
-      }
+      // Auth confirmed — the enroll page itself checks enrollment status
+      // and redirects to /learn if already paid.
+      router.push(`/courses/${slug}/enroll`);
     } catch (err) {
       console.error("[enroll] auth check failed:", err);
       router.push(`/auth/signup?redirect=${encodeURIComponent(`/courses/${slug}/enroll`)}`);
