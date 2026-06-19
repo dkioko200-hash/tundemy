@@ -101,6 +101,7 @@ export const courseContent: CourseContent[] = [
         type: "intro" as const,
         hook: "In 2023 a Kenyan bank replaced three junior analysts with one person who knew how to use AI. That person now earns more than all three combined. This course is how you become that person.",
         duration_mins: 5,
+        videoUrl: "/videos/ai-foundations/ai-foundations_L0_Welcome_to_AI_Foundations.mp4",
         isAvailable: true,
         content: "What AI is why it matters in Kenya right now and exactly what you will be able to do by the end of this course.",
         introWhoFor: [
@@ -130,6 +131,7 @@ export const courseContent: CourseContent[] = [
         type: "video",
         hook: "In 2024 a Nairobi marketing agency replaced 3 content writers with 1 person who knew how to use AI. That person was not a programmer. They were a 24-year-old who spent 2 weeks learning exactly what this lesson teaches.",
         duration_mins: 8,
+        videoUrl: "/videos/ai-foundations/ai-foundations_L1_What_AI_Actually_Is.mp4",
         isAvailable: true,
         content: "What AI is what it is not and why understanding the difference determines whether you use it well or embarrass yourself professionally.",
         theory: {
@@ -187,6 +189,7 @@ export const courseContent: CourseContent[] = [
         type: "reading",
         hook: "A lawyer in the US submitted AI-generated court cases to a judge. None of them existed. He nearly lost his licence. The AI did not lie. It did exactly what it was designed to do. This lesson explains why and how to make sure it never happens to you.",
         duration_mins: 6,
+        videoUrl: "/videos/ai-foundations/ai-foundations_L2_How_AI_Thinks_and_Why_It_Gets_Things_Wrong.mp4",
         isAvailable: true,
         content: "Tokens hallucination and the verification habit that separates professionals from people who embarrass themselves with AI.",
         readingTopics: [
@@ -251,6 +254,7 @@ export const courseContent: CourseContent[] = [
         type: "sandbox",
         hook: "The people who get the most from AI are not the ones with the best individual prompts. They are the ones with the best systems. A workflow is a system. A system produces consistent results. This lesson is where you build your first one.",
         duration_mins: 10,
+        videoUrl: "/videos/ai-foundations/ai-foundations_L3_Your_First_Professional_AI_Workflow.mp4",
         isAvailable: true,
         content: "Build a complete reusable AI workflow using the three-part structure that professional AI practitioners use every single day.",
         sandboxTask: "You work for or run a business in Kenya — use your actual industry or one that interests you most. Build a complete AI workflow for ONE of these tasks: responding professionally to customer complaints, writing a weekly progress report for your manager, or summarising long documents into a one-page brief for busy executives. Your workflow must include all three components with full detail: SYSTEM CONTEXT — who the AI is what organisation it works for what constraints it operates under and what tone it must maintain. USER INPUT TEMPLATE — the exact template someone fills in each time they use this workflow with placeholder fields for variable information. OUTPUT FORMAT — exactly how the response should be structured including all sections headings length limits and format type. After defining the workflow test it with a real example — show the actual input you used and honestly evaluate whether the output was professional enough to use without editing.",
@@ -266,6 +270,7 @@ export const courseContent: CourseContent[] = [
         type: "video",
         hook: "A sales manager at a Nairobi distributor was spending 3 hours per day writing emails reports and proposals. After building one AI workflow she now spends 40 minutes on the same work. The extra 2 hours and 20 minutes go to things that actually require her judgment.",
         duration_mins: 8,
+        videoUrl: "/videos/ai-foundations/ai-foundations_L4_AI_for_Writing_and_Communication.mp4",
         isAvailable: true,
         content: "How to use AI for professional writing tasks — emails reports proposals and content — without losing your voice or your professional accountability.",
         theory: {
@@ -323,6 +328,7 @@ export const courseContent: CourseContent[] = [
         type: "reading",
         hook: "A management consultant at a Nairobi firm used to spend 6 hours preparing competitor research for a client pitch. After building one AI research workflow she now does the same quality work in 45 minutes. The client cannot tell the difference. Her profitability certainly can.",
         duration_mins: 7,
+        videoUrl: "/videos/ai-foundations/ai-foundations_L5_Research_and_Analysis_with_AI.mp4",
         isAvailable: true,
         content: "How to use AI to read summarise compare and extract insight from documents faster and more systematically than any manual process.",
         readingTopics: [
@@ -387,6 +393,7 @@ export const courseContent: CourseContent[] = [
         type: "quiz",
         hook: "An AI hiring tool used by a major company rejected 76% of qualified female candidates for technical roles. The company did not programme discrimination. The training data did. Someone built that system. Someone deployed it. Someone is responsible. This lesson is about making sure that someone is never you.",
         duration_mins: 6,
+        videoUrl: "/videos/ai-foundations/ai-foundations_L6_AI_Ethics_and_Your_Professional_Responsibility.mp4",
         isAvailable: true,
         content: "Bias accountability privacy and the professional standards every AI practitioner must understand before deploying AI in any professional context.",
         quizQuestions: [
@@ -403,7 +410,7 @@ export const courseContent: CourseContent[] = [
         type: "project",
         hook: "You now know more about using AI professionally than 90% of the workforce in Kenya. The question is what you do with it in the next 7 days.",
         duration_mins: 10,
-        videoUrl: "/videos/course1/C1_L7_Your_AI_Toolkit_and_Next_Steps.mp4",
+        videoUrl: "/videos/ai-foundations/ai-foundations_L7_Your_AI_Toolkit_and_Next_Steps.mp4",
         isAvailable: true,
         content: "The complete AI tools landscape, how to choose the right tool for each task, and your personal action plan.",
         sandboxTask: "Build your personal AI adoption plan. Answer these four questions: (1) Which ONE task in your current role will you automate or accelerate with AI this week? (2) Which AI tool will you use and why? (3) How will you measure whether it is working? (4) What is the first thing you will do in the next 24 hours after finishing this course?",
@@ -456,6 +463,7 @@ export const courseContent: CourseContent[] = [
         type: "intro" as const,
         hook: "Two people. Same AI tool. Same subscription. One produces work that gets them promoted. The other produces work their manager edits for an hour before it is usable. The difference is not the tool. It is the system.",
         duration_mins: 5,
+        videoUrl: "/videos/prompt-engineering/prompt-engineering_L0_Why_Most_People_Use_AI_Wrong.mp4",
         isAvailable: true,
         content: "What prompt engineering actually is why it matters and exactly what you will be able to do consistently by the end of this course.",
         introWhoFor: [
@@ -485,6 +493,7 @@ export const courseContent: CourseContent[] = [
         type: "video",
         hook: "A procurement officer at a Nairobi manufacturing company was spending 3 hours per day processing supplier quotes into comparison reports. One prompt template reduced that to 20 minutes. She did not learn to code. She learned the four components every professional prompt must have.",
         duration_mins: 8,
+        videoUrl: "/videos/prompt-engineering/prompt-engineering_L1_The_Anatomy_of_a_Professional_Prompt.mp4",
         isAvailable: true,
         content: "The four-component structure that every effective professional prompt must contain and why missing even one component degrades the output.",
         theory: {
@@ -582,6 +591,7 @@ export const courseContent: CourseContent[] = [
         type: "reading",
         hook: "The same task briefed two different ways to the same AI model produces outputs so different they look like they came from different tools. The only variable is context and role. This lesson shows you exactly how to use both.",
         duration_mins: 6,
+        videoUrl: "/videos/prompt-engineering/prompt-engineering_L2_Context_and_Role_The_Two_Highest_Leverage_Elements.mp4",
         isAvailable: true,
         content: "How role calibrates vocabulary expertise and perspective and how context eliminates the assumptions that produce generic useless output.",
         readingTopics: [
@@ -688,6 +698,7 @@ export const courseContent: CourseContent[] = [
         type: "video",
         hook: "A financial analyst spent 45 minutes reformatting an AI-generated report before it was usable. She had not specified the output format. After adding one format specification to her prompt she never reformatted an AI output again.",
         duration_mins: 8,
+        videoUrl: "/videos/prompt-engineering/prompt-engineering_L3_Output_Formatting_Getting_Exactly_What_You_Need.mp4",
         isAvailable: true,
         content: "The five output formats professionals use and exactly how to specify each one so the response is immediately usable without any restructuring.",
         theory: {
@@ -787,6 +798,7 @@ export const courseContent: CourseContent[] = [
         type: "sandbox",
         hook: "A prompt without constraints is like a job description with no requirements — you get whatever the AI feels like giving you.",
         duration_mins: 15,
+        videoUrl: "/videos/prompt-engineering/prompt-engineering_L4_Constraints_and_Format_Control.mp4",
         isAvailable: false,
         content:
           "Controlling output: length, tone, format, reading level, and audience. How to get bullet points vs. paragraphs, formal vs. casual, 100 words vs. 1000 words — every time.",
@@ -846,6 +858,7 @@ export const courseContent: CourseContent[] = [
         type: "sandbox",
         hook: "Complex tasks are not one prompt. They are a conversation where each response feeds the next. Master this and you can automate entire workflows.",
         duration_mins: 20,
+        videoUrl: "/videos/prompt-engineering/prompt-engineering_L5_Prompt_Chaining.mp4",
         isAvailable: false,
         content:
           "Building multi-step prompt chains where output from step 1 becomes input for step 2. Design patterns for research → analysis → writing chains, and how to handle errors between steps.",
@@ -903,6 +916,7 @@ export const courseContent: CourseContent[] = [
         type: "sandbox",
         hook: "Show, do not tell. Providing examples is the most powerful prompting technique that most people never use — and it works every time.",
         duration_mins: 15,
+        videoUrl: "/videos/prompt-engineering/prompt-engineering_L6_Few_Shot_Prompting.mp4",
         isAvailable: false,
         content:
           "Using examples to guide AI output. Few-shot prompting tells the AI exactly what you want by showing it 2–5 worked examples before the real task. Works for tone, format, structure, and style consistency.",
@@ -960,6 +974,7 @@ export const courseContent: CourseContent[] = [
         type: "sandbox",
         hook: "The techniques that separate a KSh 80,000 prompt engineer from a KSh 250,000 one are not secret — they just require deliberate practice.",
         duration_mins: 20,
+        videoUrl: "/videos/prompt-engineering/prompt-engineering_L7_Advanced_Techniques.mp4",
         isAvailable: false,
         content:
           "Chain-of-thought prompting, self-critique loops, persona stacking, and iterative refinement. How to get AI to check its own work, reason step by step, and produce consistently high-quality output.",
@@ -1017,6 +1032,7 @@ export const courseContent: CourseContent[] = [
         type: "sandbox",
         hook: "Every hour you spend building a prompt library saves 10 hours in the future. The best professionals do not start from scratch — they remix.",
         duration_mins: 20,
+        videoUrl: "/videos/prompt-engineering/prompt-engineering_L8_Building_a_Prompt_Library.mp4",
         isAvailable: false,
         content:
           "How to structure a reusable prompt library: categories, variables, version control, and team access. We build a template system with placeholders that works for any team size.",
@@ -1074,6 +1090,7 @@ export const courseContent: CourseContent[] = [
         type: "sandbox",
         hook: "Generic prompts get generic results. Industry-specific prompting is what companies are actually paying for.",
         duration_mins: 20,
+        videoUrl: "/videos/prompt-engineering/prompt-engineering_L9_Prompts_for_Your_Industry.mp4",
         isAvailable: false,
         content:
           "Adapting prompt techniques for specific industries: finance, healthcare, logistics, education, and tech. Understanding the vocabulary, regulatory constraints, and output formats each industry expects.",
@@ -1090,6 +1107,7 @@ export const courseContent: CourseContent[] = [
         type: "sandbox",
         hook: "When AI gives you bad output, 90% of the time the problem is your prompt — not the AI. Diagnosing and fixing it is a professional skill.",
         duration_mins: 15,
+        videoUrl: "/videos/prompt-engineering/prompt-engineering_L10_Debugging_Bad_Prompts.mp4",
         isAvailable: false,
         content:
           "Systematic debugging framework: identifying the failure mode (vague output, wrong format, missed requirements, hallucinations), applying targeted fixes, and testing iteratively.",
@@ -1106,6 +1124,7 @@ export const courseContent: CourseContent[] = [
         type: "quiz",
         hook: "Certification-level knowledge check. If you can answer all 4 correctly, you are ready for your badge.",
         duration_mins: 15,
+        videoUrl: "/videos/prompt-engineering/prompt-engineering_L11_Quiz_Prompt_Engineering_Mastery.mp4",
         isAvailable: false,
         content:
           "Comprehensive quiz covering all core prompt engineering techniques from this course.",
@@ -1161,6 +1180,7 @@ export const courseContent: CourseContent[] = [
         type: "project",
         hook: "This is the deliverable that gets you hired. Companies are actively looking for people who can build systems — not just use AI themselves.",
         duration_mins: 60,
+        videoUrl: "/videos/prompt-engineering/prompt-engineering_L12_Final_Project_Team_Prompt_Playbook.mp4",
         isAvailable: false,
         content:
           "Build a complete Prompt Engineering Playbook for a fictional Nairobi-based marketing agency (15 staff, B2B clients). The playbook must include: 15 reusable prompt templates covering client proposals, social media, reporting, and research; a style guide for prompt writing; a quick-reference cheat sheet; and onboarding instructions for a new staff member. Submit as a professionally formatted document.",
