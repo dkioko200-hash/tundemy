@@ -1,10 +1,45 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { createClient } from "@/lib/supabase";
+import type { User } from "@supabase/supabase-js";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [user, setUser] = useState<User | null>(null);
+  const router = useRouter();
+
+  useEffect(() => {
+    const supabase = createClient();
+
+    const getUser = async () => {
+      try {
+        const { data: { session } } = await supabase.auth.getSession();
+        setUser(session?.user ?? null);
+      } catch {
+        setUser(null);
+      }
+    };
+
+    getUser();
+
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
+      setUser(session?.user ?? null);
+    });
+
+    return () => subscription.unsubscribe();
+  }, []);
+
+  const handleLogout = async () => {
+    const supabase = createClient();
+    await supabase.auth.signOut();
+    router.push("/");
+  };
+
+  const dashboardHref =
+    user?.user_metadata?.role === "employer" ? "/employer/dashboard" : "/dashboard";
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100 shadow-sm">
@@ -12,7 +47,6 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2.5 group">
-            {/* Kenyan flag — three thin vertical stripes */}
             <div className="flex flex-row gap-px h-5 overflow-hidden rounded-sm shadow-sm">
               <div className="w-1 bg-black" />
               <div className="w-1 bg-[#bb0000]" />
@@ -48,33 +82,59 @@ export default function Navbar() {
             </Link>
           </div>
 
-          {/* CTA Buttons */}
+          {/* CTA Buttons — desktop */}
           <div className="hidden md:flex items-center gap-3">
-            <Link
-              href="/auth/login"
-              className="px-4 py-2 text-sm font-semibold rounded-lg border-2 transition-all duration-200"
-              style={{
-                borderColor: "#0f1f3d",
-                color: "#0f1f3d",
-              }}
-              onMouseEnter={(e) => {
-                (e.target as HTMLElement).style.backgroundColor = "#0f1f3d";
-                (e.target as HTMLElement).style.color = "#ffffff";
-              }}
-              onMouseLeave={(e) => {
-                (e.target as HTMLElement).style.backgroundColor = "transparent";
-                (e.target as HTMLElement).style.color = "#0f1f3d";
-              }}
-            >
-              Login
-            </Link>
-            <Link
-              href="/auth/signup"
-              className="px-4 py-2 text-sm font-semibold text-white rounded-lg transition-all duration-200 hover:opacity-90 active:scale-95"
-              style={{ backgroundColor: "#2d8a4e" }}
-            >
-              Get Started
-            </Link>
+            {user ? (
+              <>
+                <Link
+                  href={dashboardHref}
+                  className="px-4 py-2 text-sm font-semibold rounded-lg border-2 transition-all duration-200"
+                  style={{ borderColor: "#0f1f3d", color: "#0f1f3d" }}
+                  onMouseEnter={(e) => {
+                    (e.currentTarget as HTMLElement).style.backgroundColor = "#0f1f3d";
+                    (e.currentTarget as HTMLElement).style.color = "#ffffff";
+                  }}
+                  onMouseLeave={(e) => {
+                    (e.currentTarget as HTMLElement).style.backgroundColor = "transparent";
+                    (e.currentTarget as HTMLElement).style.color = "#0f1f3d";
+                  }}
+                >
+                  Dashboard
+                </Link>
+                <button
+                  onClick={handleLogout}
+                  className="px-4 py-2 text-sm font-semibold text-white rounded-lg transition-all duration-200 hover:opacity-90 active:scale-95"
+                  style={{ backgroundColor: "#2d8a4e" }}
+                >
+                  Log Out
+                </button>
+              </>
+            ) : (
+              <>
+                <Link
+                  href="/auth/login"
+                  className="px-4 py-2 text-sm font-semibold rounded-lg border-2 transition-all duration-200"
+                  style={{ borderColor: "#0f1f3d", color: "#0f1f3d" }}
+                  onMouseEnter={(e) => {
+                    (e.currentTarget as HTMLElement).style.backgroundColor = "#0f1f3d";
+                    (e.currentTarget as HTMLElement).style.color = "#ffffff";
+                  }}
+                  onMouseLeave={(e) => {
+                    (e.currentTarget as HTMLElement).style.backgroundColor = "transparent";
+                    (e.currentTarget as HTMLElement).style.color = "#0f1f3d";
+                  }}
+                >
+                  Login
+                </Link>
+                <Link
+                  href="/auth/signup"
+                  className="px-4 py-2 text-sm font-semibold text-white rounded-lg transition-all duration-200 hover:opacity-90 active:scale-95"
+                  style={{ backgroundColor: "#2d8a4e" }}
+                >
+                  Get Started
+                </Link>
+              </>
+            )}
           </div>
 
           {/* Mobile hamburger */}
@@ -109,18 +169,38 @@ export default function Navbar() {
             For Employers
           </Link>
           <div className="flex flex-col gap-2 pt-2">
-            <Link
-              href="/auth/login"
-              className="text-center px-4 py-2 text-sm font-semibold rounded-lg border-2 border-[#0f1f3d] text-[#0f1f3d]"
-            >
-              Login
-            </Link>
-            <Link
-              href="/auth/signup"
-              className="text-center px-4 py-2 text-sm font-semibold text-white rounded-lg bg-[#2d8a4e]"
-            >
-              Get Started
-            </Link>
+            {user ? (
+              <>
+                <Link
+                  href={dashboardHref}
+                  className="text-center px-4 py-2 text-sm font-semibold rounded-lg border-2 border-[#0f1f3d] text-[#0f1f3d]"
+                  onClick={() => setMenuOpen(false)}
+                >
+                  Dashboard
+                </Link>
+                <button
+                  onClick={() => { setMenuOpen(false); handleLogout(); }}
+                  className="text-center px-4 py-2 text-sm font-semibold text-white rounded-lg bg-[#2d8a4e]"
+                >
+                  Log Out
+                </button>
+              </>
+            ) : (
+              <>
+                <Link
+                  href="/auth/login"
+                  className="text-center px-4 py-2 text-sm font-semibold rounded-lg border-2 border-[#0f1f3d] text-[#0f1f3d]"
+                >
+                  Login
+                </Link>
+                <Link
+                  href="/auth/signup"
+                  className="text-center px-4 py-2 text-sm font-semibold text-white rounded-lg bg-[#2d8a4e]"
+                >
+                  Get Started
+                </Link>
+              </>
+            )}
           </div>
         </div>
       )}
