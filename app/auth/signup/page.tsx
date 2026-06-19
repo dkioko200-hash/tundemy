@@ -37,6 +37,7 @@ function SignupForm() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState(false);
+  const [existingUser, setExistingUser] = useState(false);
 
   const loginHref = redirectParam
     ? `/auth/login?next=${encodeURIComponent(redirectParam)}`
@@ -58,10 +59,11 @@ function SignupForm() {
     }
 
     setLoading(true);
+    setExistingUser(false);
     try {
       const supabase = createClient();
       const next = redirectParam || (courseSlug ? `/courses/${courseSlug}/enroll` : "/dashboard");
-      const { error: signUpError } = await supabase.auth.signUp({
+      const { data, error: signUpError } = await supabase.auth.signUp({
         email,
         password,
         options: {
@@ -69,6 +71,19 @@ function SignupForm() {
           emailRedirectTo: `${window.location.origin}/auth/callback?next=${encodeURIComponent(next)}`,
         },
       });
+
+      // Duplicate detection:
+      // 1. Error path (email confirmation disabled): status 422 "User already registered"
+      // 2. Silent path (email confirmation enabled): no error, but identities array is empty
+      const isDuplicate =
+        (signUpError && /already registered|user already/i.test(signUpError.message)) ||
+        (data?.user != null && (!data.user.identities || data.user.identities.length === 0));
+
+      if (isDuplicate) {
+        setExistingUser(true);
+        return;
+      }
+
       if (signUpError) throw signUpError;
       setSuccess(true);
     } catch (err: unknown) {
@@ -79,6 +94,70 @@ function SignupForm() {
       setLoading(false);
     }
   };
+
+  const loginWithEmailHref =
+    (redirectParam
+      ? `/auth/login?next=${encodeURIComponent(redirectParam)}`
+      : courseSlug
+      ? `/auth/login?next=/courses/${courseSlug}/enroll`
+      : "/auth/login") + `&email=${encodeURIComponent(email)}`;
+
+  if (existingUser) {
+    return (
+      <div className="py-4">
+        {/* Logo */}
+        <div className="flex items-center gap-2 mb-8">
+          <div className="flex flex-row gap-px h-5 overflow-hidden rounded-sm">
+            <div className="w-1 bg-black" />
+            <div className="w-1 bg-[#bb0000]" />
+            <div className="w-1 bg-[#2d8a4e]" />
+          </div>
+          <span className="text-lg font-bold" style={{ color: "#0f1f3d" }}>
+            Tund<span style={{ color: "#2d8a4e" }}>emy</span>
+          </span>
+        </div>
+
+        <div
+          className="rounded-2xl p-6 mb-5"
+          style={{ backgroundColor: "rgba(15,31,61,0.04)", border: "1px solid rgba(15,31,61,0.1)" }}
+        >
+          <div
+            className="w-12 h-12 rounded-full flex items-center justify-center mb-4"
+            style={{ backgroundColor: "rgba(45,138,78,0.1)" }}
+          >
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2d8a4e" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+              <circle cx="12" cy="7" r="4" />
+            </svg>
+          </div>
+          <h2 className="text-lg font-extrabold mb-2" style={{ color: "#0f1f3d" }}>
+            You already have an account
+          </h2>
+          <p className="text-sm text-gray-500 leading-relaxed">
+            An account with{" "}
+            <span className="font-semibold" style={{ color: "#0f1f3d" }}>{email}</span>{" "}
+            already exists. Log in to continue.
+          </p>
+        </div>
+
+        <Link
+          href={loginWithEmailHref}
+          className="w-full py-3.5 rounded-xl text-sm font-bold text-white flex items-center justify-center gap-2 transition-all hover:opacity-90"
+          style={{ backgroundColor: "#2d8a4e" }}
+        >
+          Log in to Tundemy
+        </Link>
+
+        <button
+          onClick={() => { setExistingUser(false); setError(null); }}
+          className="w-full mt-3 py-3 rounded-xl text-sm font-semibold border-2 transition-all hover:bg-gray-50"
+          style={{ borderColor: "#e5e7eb", color: "#6b7280" }}
+        >
+          Try a different email
+        </button>
+      </div>
+    );
+  }
 
   if (success) {
     return (
