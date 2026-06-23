@@ -3,8 +3,6 @@ import { renderMedia, selectComposition } from "@remotion/renderer";
 import * as fs from "fs";
 import * as path from "path";
 
-// ── Load .env.local ───────────────────────────────────────────────────────────
-
 function loadEnvLocal(): void {
   const envPath = path.join(process.cwd(), ".env.local");
   if (!fs.existsSync(envPath)) return;
@@ -22,51 +20,39 @@ function loadEnvLocal(): void {
 
 loadEnvLocal();
 
-// ── Types ──────────────────────────────────────────────────────────────────────
-
-interface ManifestEntry {
-  courseSlug: string;
-  lessonIndex: number;
-  lessonTitle: string;
-  videoScript: string;
-  keyPoints: string[];
-}
-
-// ── Main ───────────────────────────────────────────────────────────────────────
+const inputProps = {
+  lessonTitle: "Welcome to AI Foundations",
+  subtitle: "From Zero to Dangerous in 7 Lessons",
+  hook: "In 2024 a Nairobi marketing agency replaced three content writers with one person who knew how to use AI. That person now earns three times what the writers did. This course is your path to becoming that person.",
+  concept: "5 Career-Changing Skills",
+  conceptDefinition: "Master AI tools that will transform your professional output and earning potential — no coding required.",
+  keyPoints: [
+    "Use AI for any professional task better than someone with 3 years experience",
+    "Build AI workflows that save you 2 hours every single working day",
+    "Write, research and analyse at professional standard using AI tools",
+    "Understand exactly what AI can and cannot do",
+    "Graduate to the Tundemy talent pool with a verified AI credential",
+  ],
+  audioSrc: "audio/ai-foundations/lesson-0.mp3",
+};
 
 async function main(): Promise<void> {
-  const manifestPath = path.join(process.cwd(), "scripts", "video-manifest.json");
-  const manifest: ManifestEntry[] = JSON.parse(fs.readFileSync(manifestPath, "utf-8"));
-  const entry = manifest[0];
-
-  const outDir = path.join(process.cwd(), "public", "videos", entry.courseSlug);
+  const outDir = path.join(process.cwd(), "public", "videos", "ai-foundations");
   fs.mkdirSync(outDir, { recursive: true });
-  const outputLocation = path.join(outDir, "lesson-0-new.mp4");
+  const outputLocation = path.join(outDir, "lesson-0-janet.mp4");
 
   console.log("Bundling Remotion composition...");
-  const entryPoint = path.join(process.cwd(), "remotion", "Root.tsx");
-  const publicPath = path.join(process.cwd(), "public");
-
   const serveUrl = await bundle({
-    entryPoint,
-    publicDir: publicPath,
+    entryPoint: path.join(process.cwd(), "remotion", "Root.tsx"),
+    publicDir: path.join(process.cwd(), "public"),
     webpackOverride: (config) => config,
   });
 
-  console.log("Selecting composition LessonVideo...");
-  const inputProps = {
-    lessonTitle: entry.lessonTitle,
-    keyPoints: entry.keyPoints,
-    audioSrc: `audio/${entry.courseSlug}/lesson-${entry.lessonIndex}.mp3`,
-  };
+  console.log("Selecting composition (calculateMetadata will detect audio duration)...");
+  const composition = await selectComposition({ serveUrl, id: "LessonVideo", inputProps });
 
-  const composition = await selectComposition({
-    serveUrl,
-    id: "LessonVideo",
-    inputProps,
-  });
-
-  console.log(`Rendering ${composition.durationInFrames} frames at ${composition.fps}fps...`);
+  const totalSecs = (composition.durationInFrames / composition.fps).toFixed(1);
+  console.log(`Rendering ${composition.durationInFrames} frames at ${composition.fps}fps (${totalSecs}s)...`);
 
   await renderMedia({
     composition,
@@ -75,17 +61,13 @@ async function main(): Promise<void> {
     outputLocation,
     inputProps,
     onProgress: ({ progress }) => {
-      process.stdout.write(`\r  Encoding: ${(progress * 100).toFixed(1)}%`);
+      process.stdout.write(`\r  Encoding: ${(progress * 100).toFixed(1)}%  `);
     },
   });
 
   process.stdout.write("\n");
-
   const sizeMB = (fs.statSync(outputLocation).size / 1_048_576).toFixed(1);
-  console.log(`\nDone! Output: ${path.relative(process.cwd(), outputLocation)} (${sizeMB} MB)`);
+  console.log(`\nOutput: ${path.relative(process.cwd(), outputLocation)} (${sizeMB} MB)`);
 }
 
-main().catch((err) => {
-  console.error("\nFatal:", err instanceof Error ? err.message : err);
-  process.exit(1);
-});
+main().catch((err) => { console.error("\nFatal:", err instanceof Error ? err.message : err); process.exit(1); });
