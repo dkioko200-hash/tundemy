@@ -20,23 +20,35 @@ function loadEnvLocal(): void {
 
 loadEnvLocal();
 
-const inputProps = {
-  lessonTitle: "Welcome to AI Foundations",
-  subtitle: "From Zero to Dangerous in 7 Lessons",
-  hook: "In 2024 a Nairobi marketing agency replaced three content writers with one person who knew how to use AI. That person now earns three times what the writers did. This course is your path to becoming that person.",
-  concept: "5 Career-Changing Skills",
-  conceptDefinition: "Master AI tools that will transform your professional output and earning potential — no coding required.",
-  keyPoints: [
-    "Use AI for any professional task better than someone with 3 years experience",
-    "Build AI workflows that save you 2 hours every single working day",
-    "Write, research and analyse at professional standard using AI tools",
-    "Understand exactly what AI can and cannot do",
-    "Graduate to the Tundemy talent pool with a verified AI credential",
-  ],
-  audioSrc: "audio/ai-foundations/lesson-0.mp3",
-};
+interface SlideCue {
+  text: string;
+  startTime: number;
+  endTime: number;
+  slideType: "title" | "concept" | "point" | "summary";
+}
+
+interface InputProps extends Record<string, unknown> {
+  lessonTitle: string;
+  audioSrc: string;
+  cues: SlideCue[];
+}
 
 async function main(): Promise<void> {
+  const cuesPath = path.join(process.cwd(), "public", "audio", "ai-foundations", "lesson-0-cues.json");
+
+  if (!fs.existsSync(cuesPath)) {
+    throw new Error(`Cues file not found: ${cuesPath}\nRun "npm run generate:audio" first.`);
+  }
+
+  const cues: SlideCue[] = JSON.parse(fs.readFileSync(cuesPath, "utf-8"));
+  console.log(`Loaded ${cues.length} slide cues from ${path.relative(process.cwd(), cuesPath)}`);
+
+  const inputProps: InputProps = {
+    lessonTitle: "Welcome to AI Foundations",
+    audioSrc: "audio/ai-foundations/lesson-0.mp3",
+    cues,
+  };
+
   const outDir = path.join(process.cwd(), "public", "videos", "ai-foundations");
   fs.mkdirSync(outDir, { recursive: true });
   const outputLocation = path.join(outDir, "lesson-0-janet.mp4");
@@ -48,8 +60,12 @@ async function main(): Promise<void> {
     webpackOverride: (config) => config,
   });
 
-  console.log("Selecting composition (calculateMetadata will detect audio duration)...");
-  const composition = await selectComposition({ serveUrl, id: "LessonVideo", inputProps });
+  console.log("Selecting composition (calculateMetadata detects audio duration)...");
+  const composition = await selectComposition({
+    serveUrl,
+    id: "LessonVideo",
+    inputProps,
+  });
 
   const totalSecs = (composition.durationInFrames / composition.fps).toFixed(1);
   console.log(`Rendering ${composition.durationInFrames} frames at ${composition.fps}fps (${totalSecs}s)...`);
@@ -70,4 +86,7 @@ async function main(): Promise<void> {
   console.log(`\nOutput: ${path.relative(process.cwd(), outputLocation)} (${sizeMB} MB)`);
 }
 
-main().catch((err) => { console.error("\nFatal:", err instanceof Error ? err.message : err); process.exit(1); });
+main().catch((err) => {
+  console.error("\nFatal:", err instanceof Error ? err.message : err);
+  process.exit(1);
+});
