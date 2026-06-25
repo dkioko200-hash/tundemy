@@ -252,8 +252,9 @@ async function main(): Promise<void> {
           console.log(`${mb} MB saved`);
           job.outputPath = outPath;
         } else if (status === "failed") {
-          console.log(`  FAILED: ${job.courseSlug} L${job.lessonIndex} — ${error ?? "unknown"}`);
-          job.error = error;
+          const errStr = typeof error === "string" ? error : JSON.stringify(error);
+          console.log(`  FAILED: ${job.courseSlug} L${job.lessonIndex} — ${errStr ?? "unknown"}`);
+          job.error = errStr;
           job.attempts++;
 
           // Re-submit if under retry limit

@@ -183,17 +183,17 @@ async function main(): Promise<void> {
     execSync(`"${python}" -m pip install openai-whisper --quiet`, { stdio: "inherit", timeout: 300_000 });
   }
 
-  // Check all avatar videos exist
-  const missing: string[] = [];
+  // Identify which avatar videos are ready
+  const readySet = new Set<string>();
+  const missingAvatars: string[] = [];
   for (const e of manifest) {
     const p = path.join(process.cwd(), "public", "avatars", e.courseSlug, `lesson-${e.lessonIndex}-${e.avatarName}.mp4`);
-    if (!fs.existsSync(p)) missing.push(p);
+    if (fs.existsSync(p)) readySet.add(`${e.courseSlug}::${e.lessonIndex}`);
+    else missingAvatars.push(`${e.courseSlug} L${e.lessonIndex}`);
   }
-  if (missing.length > 0) {
-    console.error(`\nMissing ${missing.length} avatar videos. Run npm run generate:all-avatars first.`);
-    console.error("Missing:\n" + missing.slice(0, 5).map((p) => "  " + path.relative(process.cwd(), p)).join("\n"));
-    if (missing.length > 5) console.error(`  ...and ${missing.length - 5} more`);
-    process.exit(1);
+  console.log(`Avatar videos ready: ${readySet.size}/${manifest.length}`);
+  if (missingAvatars.length > 0) {
+    console.log(`Skipping ${missingAvatars.length} lessons with missing avatars (run generate:all-avatars to get them).`);
   }
 
   console.log(`\nBundling Remotion...`);
@@ -210,6 +210,12 @@ async function main(): Promise<void> {
   for (const entry of manifest) {
     const outPath = path.join(process.cwd(), "public", "videos", entry.courseSlug, `lesson-${entry.lessonIndex}.mp4`);
     const label = `${entry.courseSlug} L${entry.lessonIndex} (${entry.avatarName})`;
+
+    if (!readySet.has(`${entry.courseSlug}::${entry.lessonIndex}`)) {
+      console.log(`  [WAIT] ${label} — avatar not yet downloaded`);
+      skipped++;
+      continue;
+    }
 
     if (fs.existsSync(outPath)) {
       console.log(`  [SKIP] ${label} — already rendered`);
