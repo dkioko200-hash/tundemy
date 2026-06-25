@@ -33,6 +33,7 @@ interface ManifestEntry {
   lessonTitle: string;
   avatarId: string;
   avatarName: string;
+  voiceId: string;
   videoScript: string;
 }
 

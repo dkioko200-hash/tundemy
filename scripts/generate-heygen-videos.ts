@@ -24,6 +24,7 @@ interface ManifestEntry {
   lessonTitle: string;
   avatarId: string;
   avatarName: string;
+  voiceId: string;
   videoScript: string;
 }
 
@@ -58,7 +59,7 @@ async function generateVideo(entry: ManifestEntry, apiKey: string): Promise<stri
       video_inputs: [
         {
           character: { type: "avatar", avatar_id: entry.avatarId, avatar_style: "normal" },
-          voice: { type: "text", input_text: entry.videoScript, speed: 0.9 },
+          voice: { type: "text", voice_id: entry.voiceId, input_text: entry.videoScript, speed: 0.9 },
           background: { type: "color", value: "#0f1f3d" },
         },
       ],
