@@ -10,7 +10,11 @@
     "generate:audio": "npx tsx scripts/generate-voiceovers.ts",
     "generate:videos": "npx tsx scripts/generate-videos-remotion.ts",
     "generate:heygen": "npx tsx scripts/generate-heygen-videos.ts",
-    "generate:test-videos": "npx tsx scripts/generate-test-videos.ts"
+    "generate:test-videos": "npx tsx scripts/generate-test-videos.ts",
+    "build:manifest": "npx tsx scripts/build-full-manifest.ts",
+    "generate:all-avatars": "npx tsx scripts/generate-all-avatars.ts",
+    "generate:all-videos": "npx tsx scripts/generate-all-videos.ts",
+    "update:video-urls": "npx tsx scripts/update-video-urls.ts"
   },
   "dependencies": {
     "@remotion/bundler": "^4.0.482",
