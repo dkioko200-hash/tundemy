@@ -93,6 +93,32 @@ function ChevronRight() {
   );
 }
 
+// ── Quiz randomization ────────────────────────────────────────────────────────
+
+function shuffleArray<T>(arr: T[]): T[] {
+  const result = [...arr];
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+  return result;
+}
+
+function randomizeQuestions(questions: QuizQuestion[], maxCount = 10): QuizQuestion[] {
+  const shuffled = shuffleArray(questions);
+  const selected = shuffled.slice(0, Math.min(maxCount, shuffled.length));
+  return selected.map((q) => {
+    const correctOption = q.options[q.correctAnswer];
+    const shuffledOpts = shuffleArray([...q.options]);
+    const newIdx = shuffledOpts.indexOf(correctOption);
+    return {
+      ...q,
+      options: shuffledOpts as [string, string, string, string],
+      correctAnswer: newIdx as 0 | 1 | 2 | 3,
+    };
+  });
+}
+
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
 function lessonTypeColor(type: Lesson["type"]): string {
@@ -211,11 +237,10 @@ function VideoPlayer({ title, duration_mins, videoUrl }: { title: string; durati
 
 // ── Reading ───────────────────────────────────────────────────────────────────
 
-function ReadingComponent({ content, readingTopics, duration_mins, onComplete }: {
+function ReadingComponent({ content, readingTopics, duration_mins }: {
   content: string;
   readingTopics?: string[];
   duration_mins: number;
-  onComplete: () => void;
 }) {
   return (
     <div className="space-y-6">
@@ -239,36 +264,30 @@ function ReadingComponent({ content, readingTopics, duration_mins, onComplete }:
           </div>
         )}
       </div>
-      <button onClick={onComplete}
-        className="w-full py-3.5 rounded-xl text-sm font-bold text-white transition-all hover:opacity-90"
-        style={{ backgroundColor: "#0ea5e9" }}>
-        Mark as Read &amp; Continue
-      </button>
     </div>
   );
 }
 
 // ── Quiz ──────────────────────────────────────────────────────────────────────
 
-function QuizComponent({ quizQuestions, onComplete }: { quizQuestions: QuizQuestion[]; onComplete: () => void }) {
-  const [answers, setAnswers] = useState<(number | null)[]>(quizQuestions.map(() => null));
+function QuizComponent({ quizQuestions, onComplete, onFail }: {
+  quizQuestions: QuizQuestion[];
+  onComplete: () => void;
+  onFail: () => void;
+}) {
+  // Randomize once on mount (key prop in parent forces remount on retry)
+  const [activeQuestions] = useState(() => randomizeQuestions(quizQuestions));
+  const [answers, setAnswers] = useState<(number | null)[]>(activeQuestions.map(() => null));
   const [submitted, setSubmitted] = useState(false);
-  const [tried, setTried] = useState(false);
 
   const allAnswered = answers.every((a) => a !== null);
-  const score = answers.filter((a, i) => a === quizQuestions[i]?.correctAnswer).length;
-  const passed = score >= Math.ceil(quizQuestions.length * 0.7);
-
-  const reset = () => { setAnswers(quizQuestions.map(() => null)); setSubmitted(false); };
+  const score = answers.filter((a, i) => a === activeQuestions[i]?.correctAnswer).length;
+  const pct = activeQuestions.length > 0 ? Math.round((score / activeQuestions.length) * 100) : 0;
+  const passed = pct >= 80;
 
   return (
     <div className="space-y-5">
-      {tried && !submitted && (
-        <div className="rounded-xl px-4 py-3 text-xs font-medium" style={{ backgroundColor: "rgba(245,158,11,0.08)", color: "#b45309" }}>
-          Review your answers and try again. You need 70% or above to pass.
-        </div>
-      )}
-      {quizQuestions.map((q, qi) => {
+      {activeQuestions.map((q, qi) => {
         const selected = answers[qi];
         const isCorrect = submitted && selected === q.correctAnswer;
         const isWrong = submitted && selected !== null && selected !== q.correctAnswer;
@@ -298,7 +317,7 @@ function QuizComponent({ quizQuestions, onComplete }: { quizQuestions: QuizQuest
         );
       })}
       {!submitted ? (
-        <button disabled={!allAnswered} onClick={() => { setSubmitted(true); setTried(true); }}
+        <button disabled={!allAnswered} onClick={() => setSubmitted(true)}
           className="w-full py-3.5 rounded-xl text-sm font-bold text-white transition-all hover:opacity-90 disabled:opacity-50"
           style={{ backgroundColor: "#2d8a4e" }}>
           Submit Quiz
@@ -307,13 +326,15 @@ function QuizComponent({ quizQuestions, onComplete }: { quizQuestions: QuizQuest
         <div className="rounded-2xl p-5 flex flex-col sm:flex-row sm:items-center gap-4"
           style={{ backgroundColor: passed ? "rgba(45,138,78,0.07)" : "rgba(187,0,0,0.05)", border: `1px solid ${passed ? "rgba(45,138,78,0.25)" : "rgba(187,0,0,0.2)"}` }}>
           <div className="flex-1">
-            <p className="font-bold text-sm" style={{ color: passed ? "#166534" : "#991b1b" }}>{passed ? "Quiz passed! Well done." : "Not quite — review the material and try again."}</p>
-            <p className="text-xs text-gray-500 mt-0.5">{score} / {quizQuestions.length} correct · {Math.round((score / quizQuestions.length) * 100)}%{!passed && " (need 70% to pass)"}</p>
+            <p className="font-bold text-sm" style={{ color: passed ? "#166534" : "#991b1b" }}>
+              {passed ? "Quiz passed! Well done." : "You need 80% or above to continue. Try again with new questions."}
+            </p>
+            <p className="text-xs text-gray-500 mt-0.5">{score} / {activeQuestions.length} correct · {pct}%{!passed && " (need 80% to pass)"}</p>
           </div>
           {passed ? (
             <button onClick={onComplete} className="flex-shrink-0 px-5 py-2.5 rounded-xl text-sm font-bold text-white transition-all hover:opacity-90" style={{ backgroundColor: "#2d8a4e" }}>Continue →</button>
           ) : (
-            <button onClick={reset} className="flex-shrink-0 px-5 py-2.5 rounded-xl text-sm font-bold border-2 transition-all hover:bg-gray-50" style={{ borderColor: "#bb0000", color: "#bb0000" }}>Try again</button>
+            <button onClick={onFail} className="flex-shrink-0 px-5 py-2.5 rounded-xl text-sm font-bold border-2 transition-all hover:bg-gray-50" style={{ borderColor: "#bb0000", color: "#bb0000" }}>New Questions</button>
           )}
         </div>
       )}
@@ -1049,11 +1070,12 @@ interface SidebarProps {
   currentIndex: number;
   completedCount: number;
   completedSet: Set<number>;
+  isTester: boolean;
   onSelect: (i: number) => void;
   onClose?: () => void;
 }
 
-function Sidebar({ courseTitle, courseSlug, lessons, currentIndex, completedCount, completedSet, onSelect, onClose }: SidebarProps) {
+function Sidebar({ courseTitle, courseSlug, lessons, currentIndex, completedCount, completedSet, isTester, onSelect, onClose }: SidebarProps) {
   const pct = lessons.length > 0 ? Math.round((completedCount / lessons.length) * 100) : 0;
 
   return (
@@ -1080,20 +1102,20 @@ function Sidebar({ courseTitle, courseSlug, lessons, currentIndex, completedCoun
         {lessons.map((lesson, i) => {
           const completed = completedSet.has(i);
           const active = i === currentIndex;
+          const accessible = isTester || i === 0 || completedSet.has(i - 1);
           const color = lessonTypeColor(lesson.type);
           return (
             <button key={lesson.lessonNumber} onClick={() => onSelect(i)}
               className="w-full flex items-center gap-3 px-4 py-2.5 text-left transition-all duration-150"
-              style={{ backgroundColor: active ? "rgba(45,138,78,0.2)" : "transparent", borderLeft: active ? "3px solid #2d8a4e" : "3px solid transparent" }}>
-              <span className="text-xs font-bold w-5 text-center flex-shrink-0" style={{ color: active ? "#f59e0b" : "rgba(255,255,255,0.3)" , ...(lesson.lessonNumber !== 0 && { color: active ? "#2d8a4e" : "rgba(255,255,255,0.3)" }) }}>
+              style={{ backgroundColor: active ? "rgba(45,138,78,0.2)" : "transparent", borderLeft: active ? "3px solid #2d8a4e" : "3px solid transparent", opacity: accessible ? 1 : 0.55 }}>
+              <span className="text-xs font-bold w-5 text-center flex-shrink-0" style={{ color: active ? "#f59e0b" : "rgba(255,255,255,0.3)", ...(lesson.lessonNumber !== 0 && { color: active ? "#2d8a4e" : "rgba(255,255,255,0.3)" }) }}>
                 {lesson.lessonNumber === 0 ? "★" : lesson.lessonNumber}
               </span>
-              <span className="flex-shrink-0" style={{ color: active ? color : completed ? "rgba(45,138,78,0.8)" : color }}>
-                <LessonIcon type={lesson.type} size={13} color="currentColor" />
+              <span className="flex-shrink-0" style={{ color: active ? color : completed ? "rgba(45,138,78,0.8)" : accessible ? color : "rgba(255,255,255,0.3)" }}>
+                {accessible ? <LessonIcon type={lesson.type} size={13} color="currentColor" /> : <LockIcon size={13} />}
               </span>
-              <span className="flex-1 text-xs leading-snug" style={{ color: active ? "#ffffff" : completed ? "rgba(255,255,255,0.55)" : lesson.isAvailable ? "rgba(255,255,255,0.7)" : "rgba(255,255,255,0.35)", fontWeight: active ? 600 : 400 }}>
+              <span className="flex-1 text-xs leading-snug" style={{ color: active ? "#ffffff" : completed ? "rgba(255,255,255,0.55)" : accessible ? "rgba(255,255,255,0.7)" : "rgba(255,255,255,0.3)", fontWeight: active ? 600 : 400 }}>
                 {lesson.title}
-                {!lesson.isAvailable && <span className="ml-1 opacity-60">🔒</span>}
               </span>
               {completed && <span className="flex-shrink-0"><CheckIcon size={12} /></span>}
             </button>
@@ -1125,12 +1147,17 @@ export default function LearnPage() {
 
   const [loading, setLoading] = useState(true);
   const [userId, setUserId] = useState<string | null>(null);
+  const [userEmail, setUserEmail] = useState<string | null>(null);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [completedSet, setCompletedSet] = useState<Set<number>>(new Set());
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [notes, setNotes] = useState("");
   const [notesSaved, setNotesSaved] = useState(false);
   const [saving, setSaving] = useState(false);
+  const [quizAttempt, setQuizAttempt] = useState(0);
+  const [lockedMsg, setLockedMsg] = useState(false);
+
+  const isTester = userEmail === "d.kioko200@gmail.com";
 
   useEffect(() => {
     if (!courseData) { router.replace("/#courses"); return; }
@@ -1153,6 +1180,7 @@ export default function LearnPage() {
         if (!enrollment) { router.replace(`/courses/${slug}/enroll`); return; }
 
         setUserId(user.id);
+        setUserEmail(user.email ?? null);
 
         // Load saved progress — non-blocking
         const { data: progressRows } = await supabase
@@ -1177,6 +1205,12 @@ export default function LearnPage() {
   const markCompleteLocal = useCallback((index: number) => {
     setCompletedSet((prev) => { const next = new Set(prev); next.add(index); return next; });
   }, []);
+
+  // Reset quiz attempt counter when switching lessons
+  useEffect(() => {
+    setQuizAttempt(0);
+    setLockedMsg(false);
+  }, [currentIndex]);
 
   const handleMarkComplete = useCallback(async () => {
     const lesson = lessons[currentIndex];
@@ -1203,6 +1237,38 @@ export default function LearnPage() {
     setSaving(false);
     if (currentIndex < lessons.length - 1) setCurrentIndex((i) => i + 1);
   }, [currentIndex, lessons, markCompleteLocal, userId, slug]);
+
+  // For self-completing types (video, reading, intro): clicking Next marks complete + advances
+  const handleNext = useCallback(async () => {
+    const lesson = lessons[currentIndex];
+    if (!lesson) return;
+    const selfCompleting = lesson.type === "video" || lesson.type === "reading" || lesson.type === "intro";
+    if (selfCompleting && !completedSet.has(currentIndex)) {
+      markCompleteLocal(currentIndex);
+      if (userId) {
+        try {
+          const supabase = createClient();
+          await supabase.from("progress").upsert({
+            user_id: userId, course_slug: slug, lesson_id: lesson.lessonNumber,
+            completed: true, completed_at: new Date().toISOString(), updated_at: new Date().toISOString(),
+          }, { onConflict: "user_id,course_slug,lesson_id" });
+        } catch {}
+      }
+    }
+    if (currentIndex < lessons.length - 1) setCurrentIndex((i) => i + 1);
+  }, [currentIndex, lessons, completedSet, markCompleteLocal, userId, slug]);
+
+  // Lesson select with progression lock enforcement
+  const handleLessonSelect = useCallback((i: number) => {
+    const accessible = isTester || i === 0 || completedSet.has(i - 1);
+    if (accessible) {
+      setCurrentIndex(i);
+    } else {
+      setLockedMsg(true);
+      setTimeout(() => setLockedMsg(false), 4000);
+    }
+    setSidebarOpen(false);
+  }, [isTester, completedSet]);
 
   const goNext = () => {
     if (currentIndex < lessons.length - 1) setCurrentIndex((i) => i + 1);
@@ -1245,7 +1311,8 @@ export default function LearnPage() {
               courseTitle={courseData.title} courseSlug={slug}
               lessons={lessons} currentIndex={currentIndex}
               completedCount={completedCount} completedSet={completedSet}
-              onSelect={(i) => { setCurrentIndex(i); setSidebarOpen(false); }}
+              isTester={isTester}
+              onSelect={handleLessonSelect}
               onClose={() => setSidebarOpen(false)}
             />
           </div>
@@ -1258,13 +1325,21 @@ export default function LearnPage() {
           courseTitle={courseData.title} courseSlug={slug}
           lessons={lessons} currentIndex={currentIndex}
           completedCount={completedCount} completedSet={completedSet}
-          onSelect={setCurrentIndex}
+          isTester={isTester}
+          onSelect={handleLessonSelect}
         />
       </aside>
 
       <div className="h-full flex flex-col lg:ml-[240px]">
 
-        {/* Mobile top bar */}
+        {/* Tester mode badge */}
+        {isTester && (
+          <div className="fixed top-3 right-3 z-50 px-2.5 py-1 rounded-full text-xs font-bold select-none pointer-events-none" style={{ backgroundColor: "#0f1f3d", color: "#f59e0b", boxShadow: "0 2px 8px rgba(0,0,0,0.25)" }}>
+            Tester Mode
+          </div>
+        )}
+
+      {/* Mobile top bar */}
         <header className="lg:hidden flex-shrink-0 flex items-center gap-3 px-4 bg-white border-b" style={{ height: "52px", borderColor: "#e5e7eb" }}>
           <button onClick={() => setSidebarOpen(true)} className="p-1 rounded-lg hover:bg-gray-100 transition-colors" style={{ color: "#0f1f3d" }} aria-label="Lessons">
             <MenuIcon />
@@ -1342,13 +1417,17 @@ export default function LearnPage() {
                           content={currentLesson.content}
                           readingTopics={currentLesson.readingTopics}
                           duration_mins={currentLesson.duration_mins}
-                          onComplete={handleMarkComplete}
                         />
                       </div>
                     )}
                     {currentLesson.type === "quiz" && currentLesson.quizQuestions && (
                       <div className="mt-6">
-                        <QuizComponent quizQuestions={currentLesson.quizQuestions} onComplete={handleMarkComplete} />
+                        <QuizComponent
+                          key={quizAttempt}
+                          quizQuestions={currentLesson.quizQuestions}
+                          onComplete={handleMarkComplete}
+                          onFail={() => setQuizAttempt((a) => a + 1)}
+                        />
                       </div>
                     )}
                     {currentLesson.type === "sandbox" && (
@@ -1369,6 +1448,13 @@ export default function LearnPage() {
                 )}
               </div>
 
+              {/* Locked lesson message */}
+              {lockedMsg && (
+                <div className="mb-4 rounded-xl px-4 py-3 text-sm font-medium" style={{ backgroundColor: "rgba(15,31,61,0.07)", color: "#0f1f3d", border: "1px solid rgba(15,31,61,0.12)" }}>
+                  Complete the previous lesson quiz to unlock this lesson.
+                </div>
+              )}
+
               {/* Navigation */}
               {currentLesson.isAvailable && (
                 <div className="flex items-center justify-between gap-3 pt-6 border-t" style={{ borderColor: "#e5e7eb" }}>
@@ -1380,18 +1466,27 @@ export default function LearnPage() {
                   </button>
 
                   <div className="flex items-center gap-2.5">
-                    {!completedSet.has(currentIndex) && currentLesson.type !== "quiz" && currentLesson.type !== "reading" && currentLesson.type !== "sandbox" && currentLesson.type !== "project" && (
+                    {/* Tester skip — bypasses quiz/sandbox gate */}
+                    {isTester && !completedSet.has(currentIndex) && (
                       <button onClick={handleMarkComplete} disabled={saving}
-                        className="px-4 py-2.5 rounded-xl text-sm font-bold border-2 transition-all hover:opacity-80 disabled:opacity-60"
-                        style={{ borderColor: "#2d8a4e", color: "#2d8a4e" }}>
-                        {saving ? "Saving…" : "Mark as Complete"}
+                        className="px-4 py-2.5 rounded-xl text-xs font-bold border-2 transition-all hover:opacity-80"
+                        style={{ borderColor: "#f59e0b", color: "#f59e0b" }}>
+                        Skip →
                       </button>
                     )}
-                    <button onClick={goNext} disabled={currentIndex === lessons.length - 1}
-                      className="flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-bold text-white transition-all hover:opacity-90 disabled:opacity-40 disabled:cursor-not-allowed"
-                      style={{ backgroundColor: "#2d8a4e" }}>
-                      Next <ChevronRight />
-                    </button>
+                    {(() => {
+                      const isBlocking = currentLesson.type === "quiz" || currentLesson.type === "sandbox" || currentLesson.type === "project";
+                      const blocked = isBlocking && !completedSet.has(currentIndex) && !isTester;
+                      return (
+                        <button
+                          onClick={blocked ? undefined : handleNext}
+                          disabled={currentIndex === lessons.length - 1 || blocked}
+                          className="flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-bold text-white transition-all hover:opacity-90 disabled:opacity-40 disabled:cursor-not-allowed"
+                          style={{ backgroundColor: "#2d8a4e" }}>
+                          Next <ChevronRight />
+                        </button>
+                      );
+                    })()}
                   </div>
                 </div>
               )}
