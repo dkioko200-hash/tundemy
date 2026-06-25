@@ -134,7 +134,7 @@ function extractAudio(ffmpeg: string, videoPath: string, wavPath: string): void 
   console.log(`  WAV saved: ${wavPath}`);
 }
 
-function runWhisper(python: string, wavPath: string, outDir: string): WhisperResult {
+function runWhisper(python: string, ffmpegBin: string, wavPath: string, outDir: string): WhisperResult {
   const baseName = path.basename(wavPath, ".wav");
   const jsonOut = path.join(outDir, `${baseName}.json`);
 
@@ -142,6 +142,12 @@ function runWhisper(python: string, wavPath: string, outDir: string): WhisperRes
     console.log(`  Whisper JSON already exists: ${path.basename(jsonOut)}`);
     return JSON.parse(fs.readFileSync(jsonOut, "utf-8")) as WhisperResult;
   }
+
+  // Whisper calls ffmpeg internally — ensure its directory is in PATH
+  const whisperEnv = {
+    ...process.env,
+    PATH: `${ffmpegBin};${process.env.PATH ?? ""}`,
+  };
 
   console.log(`  Running Whisper on ${path.basename(wavPath)} (this may take 30-90s)...`);
   const args = [
@@ -152,13 +158,21 @@ function runWhisper(python: string, wavPath: string, outDir: string): WhisperRes
     "--model", "base",
     "--output_dir", outDir,
   ];
-  const res = spawnSync(python, args, { encoding: "utf-8", timeout: 300_000 });
+  const res = spawnSync(python, args, { encoding: "utf-8", timeout: 300_000, env: whisperEnv });
   if (res.status !== 0) {
     throw new Error(`Whisper failed:\n${res.stderr || res.stdout}`);
   }
 
   if (!fs.existsSync(jsonOut)) {
-    throw new Error(`Whisper ran but output JSON not found at: ${jsonOut}`);
+    // Whisper may have saved to the input file's directory instead
+    const altPath = path.join(path.dirname(wavPath), `${baseName}.json`);
+    if (fs.existsSync(altPath)) {
+      fs.renameSync(altPath, jsonOut);
+    } else {
+      throw new Error(
+        `Whisper ran but JSON not found.\nstdout: ${res.stdout}\nstderr: ${res.stderr}`
+      );
+    }
   }
 
   return JSON.parse(fs.readFileSync(jsonOut, "utf-8")) as WhisperResult;
@@ -268,6 +282,7 @@ async function main(): Promise<void> {
 
   const python = findPython();
   const ffmpeg = findFfmpeg();
+  const ffmpegBin = path.dirname(ffmpeg);
 
   // Install openai-whisper if not already installed
   const whisperCheck = spawnSync(python, ["-c", "import whisper"], { encoding: "utf-8", timeout: 10_000 });
@@ -311,18 +326,21 @@ async function main(): Promise<void> {
     const wavPath = path.join(audioDir, `lesson-${entry.lessonIndex}.wav`);
     extractAudio(ffmpeg, avatarPath, wavPath);
 
-    const whisperResult = runWhisper(python, wavPath, audioDir);
+    const whisperResult = runWhisper(python, ffmpegBin, wavPath, audioDir);
     const cues = parseCuesFromWhisper(whisperResult);
     console.log(`  Parsed ${cues.length} slide cues`);
 
     // Save cues for inspection
-    const cuesPath = path.join(audioDir, `lesson-${entry.lessonIndex}-cues-whisper.json`);
+    const cuesPath = path.join(
+      process.cwd(), "public", "avatars", entry.courseSlug,
+      `lesson-${entry.lessonIndex}-${entry.avatarName}-cues.json`
+    );
     fs.writeFileSync(cuesPath, JSON.stringify(cues, null, 2));
     console.log(`  Cues saved: ${path.relative(process.cwd(), cuesPath)}`);
 
     const outPath = path.join(
       process.cwd(), "public", "videos", "test",
-      `${entry.courseSlug}-lesson-${entry.lessonIndex}-${entry.avatarName}.mp4`
+      `lesson-${entry.lessonIndex}-${entry.avatarName}-test.mp4`
     );
 
     if (fs.existsSync(outPath)) {
@@ -339,7 +357,7 @@ async function main(): Promise<void> {
   for (const entry of manifest) {
     const outPath = path.join(
       process.cwd(), "public", "videos", "test",
-      `${entry.courseSlug}-lesson-${entry.lessonIndex}-${entry.avatarName}.mp4`
+      `lesson-${entry.lessonIndex}-${entry.avatarName}-test.mp4`
     );
     if (fs.existsSync(outPath)) {
       const mb = (fs.statSync(outPath).size / 1_048_576).toFixed(1);
