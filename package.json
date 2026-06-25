@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "generate:audio": "npx tsx scripts/generate-voiceovers.ts",
-    "generate:videos": "npx tsx scripts/generate-videos-remotion.ts"
+    "generate:videos": "npx tsx scripts/generate-videos-remotion.ts",
+    "generate:heygen": "npx tsx scripts/generate-heygen-videos.ts",
+    "generate:test-videos": "npx tsx scripts/generate-test-videos.ts"
   },
   "dependencies": {
     "@remotion/bundler": "^4.0.482",

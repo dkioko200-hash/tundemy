@@ -6,13 +6,17 @@ import { LessonVideo, type LessonVideoProps } from "./compositions/LessonVideo";
 const FPS = 30;
 
 const calculateMetadata = async ({ props }: { props: LessonVideoProps }) => {
-  const duration = await getAudioDurationInSeconds(staticFile(props.audioSrc));
+  if (!props.avatarSrc || props.cues.length === 0) {
+    return { durationInFrames: 2700 }; // 90s fallback
+  }
+  const duration = await getAudioDurationInSeconds(staticFile(props.avatarSrc));
   return { durationInFrames: Math.ceil(duration * FPS) };
 };
 
 const defaultProps: LessonVideoProps = {
   lessonTitle: "Welcome to AI Foundations",
-  audioSrc: "audio/ai-foundations/lesson-0.mp3",
+  courseName: "AI Foundations",
+  avatarSrc: "avatars/ai-foundations/lesson-0-janet.mp4",
   cues: [],
 };
 

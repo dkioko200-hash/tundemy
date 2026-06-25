@@ -38,9 +38,11 @@ next-env.d.ts
 # Claude Code memory
 .claude/
 
-# Generated media (large binaries — regenerate locally via npm run generate:audio / generate:videos)
+# Generated media (large binaries — regenerate locally via npm run generate:audio / generate:videos / generate:heygen)
 public/videos/
 public/audio/**/*.mp3
+public/audio/**/*.wav
+public/avatars/
 
 # Dev logs
 dev-output.log

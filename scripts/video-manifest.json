@@ -3,6 +3,8 @@
     "courseSlug": "ai-foundations",
     "lessonIndex": 0,
     "lessonTitle": "Welcome to AI Foundations",
+    "avatarId": "cc7bbd72d9a847a6a522e65e979eb59d",
+    "avatarName": "janet",
     "videoScript": "Welcome to AI Foundations. I am so glad you are here. In 2023 a Kenyan bank replaced three junior analysts with one person who knew how to use AI. That person now earns more than all three combined. This course is how you become that person. By the end of this course you will use AI for any professional task better than someone with three years of experience who has never touched it. You will build AI workflows that save you two full hours every single working day. You will write, research, and analyse at professional standard using AI tools. You will understand exactly what AI can and cannot do so you never make expensive mistakes. And you will join the Tundemy talent pool with a verified credential that employers trust. This course has seven lessons, five hours of content, two hands-on sandboxes, and a final project. Your final project is an AI adoption strategy for a real Kenyan business. You do not need to code. You do not need a technology background. All you need is the willingness to learn and I will guide you every step of the way. Your first task is waiting below. I will see you in Lesson One. Your skills bear fruit.",
     "keyPoints": [
       "Use AI for any professional task better than someone with 3 years experience",
@@ -10,6 +12,21 @@
       "Write, research and analyse at professional standard using AI tools",
       "Understand exactly what AI can and cannot do",
       "Graduate to the Tundemy talent pool with a verified AI credential"
+    ]
+  },
+  {
+    "courseSlug": "prompt-engineering",
+    "lessonIndex": 0,
+    "lessonTitle": "Why Most People Use AI Wrong",
+    "avatarId": "7d32ed9a5aa143569dd42fb2ba01eaa4",
+    "avatarName": "bernard",
+    "videoScript": "Welcome to Prompt Engineering Mastery. I am so glad you are here. This is the skill that makes every other AI skill better. Consider this: two people with the same AI tool on the same subscription. One produces work that gets them promoted. The other produces work their manager edits for an hour before it is usable. The difference is not the tool. It is the system, and that is exactly what you are about to learn. By the end of this course you will write prompts that produce professional-grade output every single time. You will diagnose exactly why any prompt is failing and fix it immediately. You will build a personal prompt library that makes you permanently more productive. You will use few-shot and chain-of-thought techniques that most AI users never even discover. And you will be hireable specifically for prompt engineering skills in high demand across East Africa and globally. This course has eight lessons and six hours of content, built around a final project that produces a complete professional prompt library for a specific job role. Your first task is waiting below. Take the last three things you asked any AI to help with and write them down exactly as you typed them. I will see you in Lesson One. Your skills bear fruit.",
+    "keyPoints": [
+      "Write prompts that produce professional results every single time",
+      "Diagnose and fix any underperforming prompt systematically",
+      "Build a personal prompt library for permanent productivity",
+      "Use few-shot and chain-of-thought techniques experts use",
+      "Get hired for prompt engineering skills in high demand"
     ]
   }
 ]
