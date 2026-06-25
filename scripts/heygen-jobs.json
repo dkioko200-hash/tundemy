@@ -524,20 +524,10 @@
     "lessonIndex": 4,
     "lessonTitle": "Post-Harvest Loss Reduction — Where Kenya Loses KSh 100 Billion Every Year",
     "avatarName": "janet",
-    "videoId": "69b476564fb841aab4ac88ec54a38138",
-    "status": "failed",
-    "attempts": 3,
-    "error": {
-      "activity_name": "TemporalCoreActivity.DEDUCT_QUOTA",
-      "code": "MOVIO_PAYMENT_INSUFFICIENT_CREDIT",
-      "current_workflow_type": "HeygenVideoWorkflow",
-      "detail": "Insufficient credit",
-      "exception_class": "MovioException",
-      "from_api": true,
-      "message": "Insufficient credit. This operation requires 'plan_credit' or 'api' credits.",
-      "reason": null,
-      "template_vars": null
-    }
+    "videoId": "18c33673aa3343ed82e79efe4a99ded3",
+    "status": "completed",
+    "attempts": 0,
+    "outputPath": "C:\\Users\\kioko\\skilara\\public\\avatars\\ai-agriculture\\lesson-4-janet.mp4"
   },
   {
     "courseSlug": "ai-agriculture",
@@ -554,539 +544,269 @@
     "lessonIndex": 6,
     "lessonTitle": "Final Project — Smart Farm Proposal for Ndege Mbili Cooperative",
     "avatarName": "janet",
-    "videoId": "25151e96e2a4449599a4b0c62443f32d",
-    "status": "failed",
-    "attempts": 3,
-    "error": {
-      "activity_name": "TemporalCoreActivity.DEDUCT_QUOTA",
-      "code": "MOVIO_PAYMENT_INSUFFICIENT_CREDIT",
-      "current_workflow_type": "HeygenVideoWorkflow",
-      "detail": "Insufficient credit",
-      "exception_class": "MovioException",
-      "from_api": true,
-      "message": "Insufficient credit. This operation requires 'plan_credit' or 'api' credits.",
-      "reason": null,
-      "template_vars": null
-    }
+    "videoId": "d1757992161a4ca3b6b3848f6ac95f6d",
+    "status": "completed",
+    "attempts": 0,
+    "outputPath": "C:\\Users\\kioko\\skilara\\public\\avatars\\ai-agriculture\\lesson-6-janet.mp4"
   },
   {
     "courseSlug": "ai-evaluation-engineering",
     "lessonIndex": 0,
     "lessonTitle": "Introduction — The Hidden AI Job Market Paying $30–80/Hour",
     "avatarName": "janet",
-    "videoId": "09516f4e2bbd4de08ea6bf36182e4bef",
-    "status": "failed",
-    "attempts": 3,
-    "error": {
-      "activity_name": "TemporalCoreActivity.DEDUCT_QUOTA",
-      "code": "MOVIO_PAYMENT_INSUFFICIENT_CREDIT",
-      "current_workflow_type": "HeygenVideoWorkflow",
-      "detail": "Insufficient credit",
-      "exception_class": "MovioException",
-      "from_api": true,
-      "message": "Insufficient credit. This operation requires 'plan_credit' or 'api' credits.",
-      "reason": null,
-      "template_vars": null
-    }
+    "videoId": "0f30781f4d5940dcb64d22beffc1ca73",
+    "status": "completed",
+    "attempts": 0,
+    "outputPath": "C:\\Users\\kioko\\skilara\\public\\avatars\\ai-evaluation-engineering\\lesson-0-janet.mp4"
   },
   {
     "courseSlug": "ai-evaluation-engineering",
     "lessonIndex": 1,
     "lessonTitle": "What Western AI Companies Actually Pay For",
     "avatarName": "bernard",
-    "videoId": "8d733ab34c8643d898911db3d4afcb84",
-    "status": "failed",
-    "attempts": 3,
-    "error": {
-      "activity_name": "TemporalCoreActivity.DEDUCT_QUOTA",
-      "code": "MOVIO_PAYMENT_INSUFFICIENT_CREDIT",
-      "current_workflow_type": "HeygenVideoWorkflow",
-      "detail": "Insufficient credit",
-      "exception_class": "MovioException",
-      "from_api": true,
-      "message": "Insufficient credit. This operation requires 'plan_credit' or 'api' credits.",
-      "reason": null,
-      "template_vars": null
-    }
+    "videoId": "6e67ee3b27e34bc8b819b5ab4a4f05e5",
+    "status": "completed",
+    "attempts": 0,
+    "outputPath": "C:\\Users\\kioko\\skilara\\public\\avatars\\ai-evaluation-engineering\\lesson-1-bernard.mp4"
   },
   {
     "courseSlug": "ai-evaluation-engineering",
     "lessonIndex": 2,
     "lessonTitle": "Writing Training Data That Passes Quality Review",
     "avatarName": "janet",
-    "videoId": "8d45cbec4f1a4abc8c3ba52596c9e74a",
-    "status": "failed",
-    "attempts": 3,
-    "error": {
-      "activity_name": "TemporalCoreActivity.DEDUCT_QUOTA",
-      "code": "MOVIO_PAYMENT_INSUFFICIENT_CREDIT",
-      "current_workflow_type": "HeygenVideoWorkflow",
-      "detail": "Insufficient credit",
-      "exception_class": "MovioException",
-      "from_api": true,
-      "message": "Insufficient credit. This operation requires 'plan_credit' or 'api' credits.",
-      "reason": null,
-      "template_vars": null
-    }
+    "videoId": "dcd0ed4153534fe290587203cb4f1e2d",
+    "status": "completed",
+    "attempts": 0,
+    "outputPath": "C:\\Users\\kioko\\skilara\\public\\avatars\\ai-evaluation-engineering\\lesson-2-janet.mp4"
   },
   {
     "courseSlug": "ai-evaluation-engineering",
     "lessonIndex": 3,
     "lessonTitle": "Building Evaluation Frameworks",
     "avatarName": "bernard",
-    "videoId": "fdb4a51a88044356896d3f37bdd11c8d",
-    "status": "failed",
-    "attempts": 3,
-    "error": {
-      "activity_name": "TemporalCoreActivity.DEDUCT_QUOTA",
-      "code": "MOVIO_PAYMENT_INSUFFICIENT_CREDIT",
-      "current_workflow_type": "HeygenVideoWorkflow",
-      "detail": "Insufficient credit",
-      "exception_class": "MovioException",
-      "from_api": true,
-      "message": "Insufficient credit. This operation requires 'plan_credit' or 'api' credits.",
-      "reason": null,
-      "template_vars": null
-    }
+    "videoId": "44507c5f2b2a441cbb08ec8e7cf45b0e",
+    "status": "completed",
+    "attempts": 0,
+    "outputPath": "C:\\Users\\kioko\\skilara\\public\\avatars\\ai-evaluation-engineering\\lesson-3-bernard.mp4"
   },
   {
     "courseSlug": "ai-evaluation-engineering",
     "lessonIndex": 4,
     "lessonTitle": "Red-Teaming AI Systems",
     "avatarName": "janet",
-    "videoId": "8aab230850b34a4eb596d66138f16d15",
-    "status": "failed",
-    "attempts": 3,
-    "error": {
-      "activity_name": "TemporalCoreActivity.DEDUCT_QUOTA",
-      "code": "MOVIO_PAYMENT_INSUFFICIENT_CREDIT",
-      "current_workflow_type": "HeygenVideoWorkflow",
-      "detail": "Insufficient credit",
-      "exception_class": "MovioException",
-      "from_api": true,
-      "message": "Insufficient credit. This operation requires 'plan_credit' or 'api' credits.",
-      "reason": null,
-      "template_vars": null
-    }
+    "videoId": "91b913a9fb7b4e49b708a652958c034e",
+    "status": "completed",
+    "attempts": 0,
+    "outputPath": "C:\\Users\\kioko\\skilara\\public\\avatars\\ai-evaluation-engineering\\lesson-4-janet.mp4"
   },
   {
     "courseSlug": "ai-evaluation-engineering",
     "lessonIndex": 5,
     "lessonTitle": "RLHF and Preference Data Collection",
     "avatarName": "bernard",
-    "videoId": "dc0614af8ef34693903d8ec4fb0b49aa",
-    "status": "failed",
-    "attempts": 3,
-    "error": {
-      "activity_name": "TemporalCoreActivity.DEDUCT_QUOTA",
-      "code": "MOVIO_PAYMENT_INSUFFICIENT_CREDIT",
-      "current_workflow_type": "HeygenVideoWorkflow",
-      "detail": "Insufficient credit",
-      "exception_class": "MovioException",
-      "from_api": true,
-      "message": "Insufficient credit. This operation requires 'plan_credit' or 'api' credits.",
-      "reason": null,
-      "template_vars": null
-    }
+    "videoId": "c9ea9db3fa0c48ccb66046ee2d5d03ec",
+    "status": "completed",
+    "attempts": 0,
+    "outputPath": "C:\\Users\\kioko\\skilara\\public\\avatars\\ai-evaluation-engineering\\lesson-5-bernard.mp4"
   },
   {
     "courseSlug": "ai-evaluation-engineering",
     "lessonIndex": 6,
     "lessonTitle": "Building Python Evaluation Pipelines",
     "avatarName": "janet",
-    "videoId": "037b8cde6cd4481ab1dea301cd95f84a",
-    "status": "failed",
-    "attempts": 3,
-    "error": {
-      "activity_name": "TemporalCoreActivity.DEDUCT_QUOTA",
-      "code": "MOVIO_PAYMENT_INSUFFICIENT_CREDIT",
-      "current_workflow_type": "HeygenVideoWorkflow",
-      "detail": "Insufficient credit",
-      "exception_class": "MovioException",
-      "from_api": true,
-      "message": "Insufficient credit. This operation requires 'plan_credit' or 'api' credits.",
-      "reason": null,
-      "template_vars": null
-    }
+    "videoId": "ce3f7acbec0546f8ad54d0d6f966fef6",
+    "status": "completed",
+    "attempts": 0,
+    "outputPath": "C:\\Users\\kioko\\skilara\\public\\avatars\\ai-evaluation-engineering\\lesson-6-janet.mp4"
   },
   {
     "courseSlug": "rag-ai-engineering",
     "lessonIndex": 0,
     "lessonTitle": "Introduction — Why RAG Is the Most Hireable AI Engineering Skill Right Now",
     "avatarName": "janet",
-    "videoId": "a92f26bb050642fdb736e7de8cb21e1c",
-    "status": "failed",
-    "attempts": 3,
-    "error": {
-      "activity_name": "TemporalCoreActivity.DEDUCT_QUOTA",
-      "code": "MOVIO_PAYMENT_INSUFFICIENT_CREDIT",
-      "current_workflow_type": "HeygenVideoWorkflow",
-      "detail": "Insufficient credit",
-      "exception_class": "MovioException",
-      "from_api": true,
-      "message": "Insufficient credit. This operation requires 'plan_credit' or 'api' credits.",
-      "reason": null,
-      "template_vars": null
-    }
+    "videoId": "85ef1cec40f64e3083c3cca7a341e7c3",
+    "status": "completed",
+    "attempts": 0,
+    "outputPath": "C:\\Users\\kioko\\skilara\\public\\avatars\\rag-ai-engineering\\lesson-0-janet.mp4"
   },
   {
     "courseSlug": "rag-ai-engineering",
     "lessonIndex": 1,
     "lessonTitle": "How RAG Works — The Architecture Every AI Engineer Needs",
     "avatarName": "bernard",
-    "videoId": "98ba61a59437458a9e72db859edac5c4",
-    "status": "failed",
-    "attempts": 3,
-    "error": {
-      "activity_name": "TemporalCoreActivity.DEDUCT_QUOTA",
-      "code": "MOVIO_PAYMENT_INSUFFICIENT_CREDIT",
-      "current_workflow_type": "HeygenVideoWorkflow",
-      "detail": "Insufficient credit",
-      "exception_class": "MovioException",
-      "from_api": true,
-      "message": "Insufficient credit. This operation requires 'plan_credit' or 'api' credits.",
-      "reason": null,
-      "template_vars": null
-    }
+    "videoId": "ab2cfaf55b7e4e5fa7d0760b34b79106",
+    "status": "completed",
+    "attempts": 0,
+    "outputPath": "C:\\Users\\kioko\\skilara\\public\\avatars\\rag-ai-engineering\\lesson-1-bernard.mp4"
   },
   {
     "courseSlug": "rag-ai-engineering",
     "lessonIndex": 2,
     "lessonTitle": "Building Your First RAG Pipeline",
     "avatarName": "janet",
-    "videoId": "aa656e10a8b0418fb247ad55865d3819",
-    "status": "failed",
-    "attempts": 3,
-    "error": {
-      "activity_name": "TemporalCoreActivity.DEDUCT_QUOTA",
-      "code": "MOVIO_PAYMENT_INSUFFICIENT_CREDIT",
-      "current_workflow_type": "HeygenVideoWorkflow",
-      "detail": "Insufficient credit",
-      "exception_class": "MovioException",
-      "from_api": true,
-      "message": "Insufficient credit. This operation requires 'plan_credit' or 'api' credits.",
-      "reason": null,
-      "template_vars": null
-    }
+    "videoId": "54bda593f6314f15ab7be969efc03bd2",
+    "status": "completed",
+    "attempts": 0,
+    "outputPath": "C:\\Users\\kioko\\skilara\\public\\avatars\\rag-ai-engineering\\lesson-2-janet.mp4"
   },
   {
     "courseSlug": "rag-ai-engineering",
     "lessonIndex": 3,
     "lessonTitle": "Vector Databases — Pinecone, Chroma, and Supabase pgvector",
     "avatarName": "bernard",
-    "videoId": "c06d51caf45f411d9ece34b6c09383f6",
-    "status": "failed",
-    "attempts": 3,
-    "error": {
-      "activity_name": "TemporalCoreActivity.DEDUCT_QUOTA",
-      "code": "MOVIO_PAYMENT_INSUFFICIENT_CREDIT",
-      "current_workflow_type": "HeygenVideoWorkflow",
-      "detail": "Insufficient credit",
-      "exception_class": "MovioException",
-      "from_api": true,
-      "message": "Insufficient credit. This operation requires 'plan_credit' or 'api' credits.",
-      "reason": null,
-      "template_vars": null
-    }
+    "videoId": "7b1685fed27a4776b51e13876025359f",
+    "status": "completed",
+    "attempts": 0,
+    "outputPath": "C:\\Users\\kioko\\skilara\\public\\avatars\\rag-ai-engineering\\lesson-3-bernard.mp4"
   },
   {
     "courseSlug": "rag-ai-engineering",
     "lessonIndex": 4,
     "lessonTitle": "RAG on African Language Datasets",
     "avatarName": "janet",
-    "videoId": "7ebdf5a51097469e92460acc347c8584",
-    "status": "failed",
-    "attempts": 3,
-    "error": {
-      "activity_name": "TemporalCoreActivity.DEDUCT_QUOTA",
-      "code": "MOVIO_PAYMENT_INSUFFICIENT_CREDIT",
-      "current_workflow_type": "HeygenVideoWorkflow",
-      "detail": "Insufficient credit",
-      "exception_class": "MovioException",
-      "from_api": true,
-      "message": "Insufficient credit. This operation requires 'plan_credit' or 'api' credits.",
-      "reason": null,
-      "template_vars": null
-    }
+    "videoId": "fb8e99ba8f2c437a87a4ca485c46217c",
+    "status": "completed",
+    "attempts": 0,
+    "outputPath": "C:\\Users\\kioko\\skilara\\public\\avatars\\rag-ai-engineering\\lesson-4-janet.mp4"
   },
   {
     "courseSlug": "rag-ai-engineering",
     "lessonIndex": 5,
     "lessonTitle": "Evaluating and Improving RAG Quality",
     "avatarName": "bernard",
-    "videoId": "5384240b5d9c4d25b63ed5898b4b48d3",
-    "status": "failed",
-    "attempts": 3,
-    "error": {
-      "activity_name": "TemporalCoreActivity.DEDUCT_QUOTA",
-      "code": "MOVIO_PAYMENT_INSUFFICIENT_CREDIT",
-      "current_workflow_type": "HeygenVideoWorkflow",
-      "detail": "Insufficient credit",
-      "exception_class": "MovioException",
-      "from_api": true,
-      "message": "Insufficient credit. This operation requires 'plan_credit' or 'api' credits.",
-      "reason": null,
-      "template_vars": null
-    }
+    "videoId": "4b6d73b732bb4329851485eb0bf79e2b",
+    "status": "completed",
+    "attempts": 0,
+    "outputPath": "C:\\Users\\kioko\\skilara\\public\\avatars\\rag-ai-engineering\\lesson-5-bernard.mp4"
   },
   {
     "courseSlug": "rag-ai-engineering",
     "lessonIndex": 6,
     "lessonTitle": "Deploying a Production RAG Application",
     "avatarName": "janet",
-    "videoId": "04d973dd1e9a46439aff6c0585a20bdf",
-    "status": "failed",
-    "attempts": 3,
-    "error": {
-      "activity_name": "TemporalCoreActivity.DEDUCT_QUOTA",
-      "code": "MOVIO_PAYMENT_INSUFFICIENT_CREDIT",
-      "current_workflow_type": "HeygenVideoWorkflow",
-      "detail": "Insufficient credit",
-      "exception_class": "MovioException",
-      "from_api": true,
-      "message": "Insufficient credit. This operation requires 'plan_credit' or 'api' credits.",
-      "reason": null,
-      "template_vars": null
-    }
+    "videoId": "9e7b93f871ea4be499546854efeca259",
+    "status": "completed",
+    "attempts": 0,
+    "outputPath": "C:\\Users\\kioko\\skilara\\public\\avatars\\rag-ai-engineering\\lesson-6-janet.mp4"
   },
   {
     "courseSlug": "freelancing-with-ai",
     "lessonIndex": 0,
     "lessonTitle": "Introduction — Your AI Skills Are Worth More Than You Think",
     "avatarName": "janet",
-    "videoId": "8a99d9ecbf7c4c69b912d90276e7e641",
-    "status": "failed",
-    "attempts": 3,
-    "error": {
-      "activity_name": "TemporalCoreActivity.DEDUCT_QUOTA",
-      "code": "MOVIO_PAYMENT_INSUFFICIENT_CREDIT",
-      "current_workflow_type": "HeygenVideoWorkflow",
-      "detail": "Insufficient credit",
-      "exception_class": "MovioException",
-      "from_api": true,
-      "message": "Insufficient credit. This operation requires 'plan_credit' or 'api' credits.",
-      "reason": null,
-      "template_vars": null
-    }
+    "videoId": "9596245c5b2e4f59ac201e1b60572681",
+    "status": "completed",
+    "attempts": 0,
+    "outputPath": "C:\\Users\\kioko\\skilara\\public\\avatars\\freelancing-with-ai\\lesson-0-janet.mp4"
   },
   {
     "courseSlug": "freelancing-with-ai",
     "lessonIndex": 1,
     "lessonTitle": "Choosing Your Freelance Niche",
     "avatarName": "bernard",
-    "videoId": "5bb2864d4f644bff856c62df4cbc7d31",
-    "status": "failed",
-    "attempts": 3,
-    "error": {
-      "activity_name": "TemporalCoreActivity.DEDUCT_QUOTA",
-      "code": "MOVIO_PAYMENT_INSUFFICIENT_CREDIT",
-      "current_workflow_type": "HeygenVideoWorkflow",
-      "detail": "Insufficient credit",
-      "exception_class": "MovioException",
-      "from_api": true,
-      "message": "Insufficient credit. This operation requires 'plan_credit' or 'api' credits.",
-      "reason": null,
-      "template_vars": null
-    }
+    "videoId": "e81e92eb0f4046938adfb6e1822ef303",
+    "status": "completed",
+    "attempts": 0,
+    "outputPath": "C:\\Users\\kioko\\skilara\\public\\avatars\\freelancing-with-ai\\lesson-1-bernard.mp4"
   },
   {
     "courseSlug": "freelancing-with-ai",
     "lessonIndex": 2,
     "lessonTitle": "Building a Profile That Gets Hired",
     "avatarName": "janet",
-    "videoId": "93f70a9aa179452eb84ba3b3acfa7b53",
-    "status": "failed",
-    "attempts": 3,
-    "error": {
-      "activity_name": "TemporalCoreActivity.DEDUCT_QUOTA",
-      "code": "MOVIO_PAYMENT_INSUFFICIENT_CREDIT",
-      "current_workflow_type": "HeygenVideoWorkflow",
-      "detail": "Insufficient credit",
-      "exception_class": "MovioException",
-      "from_api": true,
-      "message": "Insufficient credit. This operation requires 'plan_credit' or 'api' credits.",
-      "reason": null,
-      "template_vars": null
-    }
+    "videoId": "1878bc60cd8e4183999fd3777afaceca",
+    "status": "completed",
+    "attempts": 0,
+    "outputPath": "C:\\Users\\kioko\\skilara\\public\\avatars\\freelancing-with-ai\\lesson-2-janet.mp4"
   },
   {
     "courseSlug": "freelancing-with-ai",
     "lessonIndex": 3,
     "lessonTitle": "Writing Proposals That Win",
     "avatarName": "bernard",
-    "videoId": "724a2b9de8734de883f11f8340f4f416",
-    "status": "failed",
-    "attempts": 3,
-    "error": {
-      "activity_name": "TemporalCoreActivity.DEDUCT_QUOTA",
-      "code": "MOVIO_PAYMENT_INSUFFICIENT_CREDIT",
-      "current_workflow_type": "HeygenVideoWorkflow",
-      "detail": "Insufficient credit",
-      "exception_class": "MovioException",
-      "from_api": true,
-      "message": "Insufficient credit. This operation requires 'plan_credit' or 'api' credits.",
-      "reason": null,
-      "template_vars": null
-    }
+    "videoId": "ce1c10a0b32e4fd1bad2036399037f51",
+    "status": "completed",
+    "attempts": 0,
+    "outputPath": "C:\\Users\\kioko\\skilara\\public\\avatars\\freelancing-with-ai\\lesson-3-bernard.mp4"
   },
   {
     "courseSlug": "freelancing-with-ai",
     "lessonIndex": 4,
     "lessonTitle": "Pricing, Contracts, and Getting Paid",
     "avatarName": "janet",
-    "videoId": "506efa32bf7646e4a7b67aa676a95028",
-    "status": "failed",
-    "attempts": 3,
-    "error": {
-      "activity_name": "TemporalCoreActivity.DEDUCT_QUOTA",
-      "code": "MOVIO_PAYMENT_INSUFFICIENT_CREDIT",
-      "current_workflow_type": "HeygenVideoWorkflow",
-      "detail": "Insufficient credit",
-      "exception_class": "MovioException",
-      "from_api": true,
-      "message": "Insufficient credit. This operation requires 'plan_credit' or 'api' credits.",
-      "reason": null,
-      "template_vars": null
-    }
+    "videoId": "266450c9c0d14ce2bab5a6b69057d1d4",
+    "status": "completed",
+    "attempts": 0,
+    "outputPath": "C:\\Users\\kioko\\skilara\\public\\avatars\\freelancing-with-ai\\lesson-4-janet.mp4"
   },
   {
     "courseSlug": "freelancing-with-ai",
     "lessonIndex": 5,
     "lessonTitle": "Final Project — Your Freelance Business in 30 Days",
     "avatarName": "bernard",
-    "videoId": "08e4129673f647f29ef6454b41d74e73",
-    "status": "failed",
-    "attempts": 3,
-    "error": {
-      "activity_name": "TemporalCoreActivity.DEDUCT_QUOTA",
-      "code": "MOVIO_PAYMENT_INSUFFICIENT_CREDIT",
-      "current_workflow_type": "HeygenVideoWorkflow",
-      "detail": "Insufficient credit",
-      "exception_class": "MovioException",
-      "from_api": true,
-      "message": "Insufficient credit. This operation requires 'plan_credit' or 'api' credits.",
-      "reason": null,
-      "template_vars": null
-    }
+    "videoId": "35ca7eb69d544424b9a50147833e42a9",
+    "status": "completed",
+    "attempts": 0,
+    "outputPath": "C:\\Users\\kioko\\skilara\\public\\avatars\\freelancing-with-ai\\lesson-5-bernard.mp4"
   },
   {
     "courseSlug": "selling-to-western-clients",
     "lessonIndex": 0,
     "lessonTitle": "Introduction — The Western Client Opportunity",
     "avatarName": "janet",
-    "videoId": "6784e25d708e4015954b1d50f1114518",
-    "status": "failed",
-    "attempts": 3,
-    "error": {
-      "activity_name": "TemporalCoreActivity.DEDUCT_QUOTA",
-      "code": "MOVIO_PAYMENT_INSUFFICIENT_CREDIT",
-      "current_workflow_type": "HeygenVideoWorkflow",
-      "detail": "Insufficient credit",
-      "exception_class": "MovioException",
-      "from_api": true,
-      "message": "Insufficient credit. This operation requires 'plan_credit' or 'api' credits.",
-      "reason": null,
-      "template_vars": null
-    }
+    "videoId": "1bde636c070b4d64a65d8d86aa193338",
+    "status": "completed",
+    "attempts": 0,
+    "outputPath": "C:\\Users\\kioko\\skilara\\public\\avatars\\selling-to-western-clients\\lesson-0-janet.mp4"
   },
   {
     "courseSlug": "selling-to-western-clients",
     "lessonIndex": 1,
     "lessonTitle": "How Western Buyers Think About AI Vendors",
     "avatarName": "bernard",
-    "videoId": "4b400648ce4147ffa3a3a6d8d56bc439",
-    "status": "failed",
-    "attempts": 3,
-    "error": {
-      "activity_name": "TemporalCoreActivity.DEDUCT_QUOTA",
-      "code": "MOVIO_PAYMENT_INSUFFICIENT_CREDIT",
-      "current_workflow_type": "HeygenVideoWorkflow",
-      "detail": "Insufficient credit",
-      "exception_class": "MovioException",
-      "from_api": true,
-      "message": "Insufficient credit. This operation requires 'plan_credit' or 'api' credits.",
-      "reason": null,
-      "template_vars": null
-    }
+    "videoId": "a9a9ca3fcb924d5d99320bbb8bc37f41",
+    "status": "completed",
+    "attempts": 0,
+    "outputPath": "C:\\Users\\kioko\\skilara\\public\\avatars\\selling-to-western-clients\\lesson-1-bernard.mp4"
   },
   {
     "courseSlug": "selling-to-western-clients",
     "lessonIndex": 2,
     "lessonTitle": "International Proposals, Contracts, and NDAs",
     "avatarName": "janet",
-    "videoId": "d7058b1f87ae4e328a34f3651986ec95",
-    "status": "failed",
-    "attempts": 3,
-    "error": {
-      "activity_name": "TemporalCoreActivity.DEDUCT_QUOTA",
-      "code": "MOVIO_PAYMENT_INSUFFICIENT_CREDIT",
-      "current_workflow_type": "HeygenVideoWorkflow",
-      "detail": "Insufficient credit",
-      "exception_class": "MovioException",
-      "from_api": true,
-      "message": "Insufficient credit. This operation requires 'plan_credit' or 'api' credits.",
-      "reason": null,
-      "template_vars": null
-    }
+    "videoId": "1ce2eb8daf0940f89d4b074b34625373",
+    "status": "completed",
+    "attempts": 0,
+    "outputPath": "C:\\Users\\kioko\\skilara\\public\\avatars\\selling-to-western-clients\\lesson-2-janet.mp4"
   },
   {
     "courseSlug": "selling-to-western-clients",
     "lessonIndex": 3,
     "lessonTitle": "International Payment Infrastructure",
     "avatarName": "bernard",
-    "videoId": "57f8c7ae19884217b97e2e910cba1bc4",
-    "status": "failed",
-    "attempts": 3,
-    "error": {
-      "activity_name": "TemporalCoreActivity.DEDUCT_QUOTA",
-      "code": "MOVIO_PAYMENT_INSUFFICIENT_CREDIT",
-      "current_workflow_type": "HeygenVideoWorkflow",
-      "detail": "Insufficient credit",
-      "exception_class": "MovioException",
-      "from_api": true,
-      "message": "Insufficient credit. This operation requires 'plan_credit' or 'api' credits.",
-      "reason": null,
-      "template_vars": null
-    }
+    "videoId": "0c40e059dbd845b88aafba19e2b5b1f8",
+    "status": "completed",
+    "attempts": 0,
+    "outputPath": "C:\\Users\\kioko\\skilara\\public\\avatars\\selling-to-western-clients\\lesson-3-bernard.mp4"
   },
   {
     "courseSlug": "selling-to-western-clients",
     "lessonIndex": 4,
     "lessonTitle": "Building Long-Term Western Client Relationships",
     "avatarName": "janet",
-    "videoId": "ce5e10ae9f3242e0bbb90de7edf9bd5c",
-    "status": "failed",
-    "attempts": 3,
-    "error": {
-      "activity_name": "TemporalCoreActivity.DEDUCT_QUOTA",
-      "code": "MOVIO_PAYMENT_INSUFFICIENT_CREDIT",
-      "current_workflow_type": "HeygenVideoWorkflow",
-      "detail": "Insufficient credit",
-      "exception_class": "MovioException",
-      "from_api": true,
-      "message": "Insufficient credit. This operation requires 'plan_credit' or 'api' credits.",
-      "reason": null,
-      "template_vars": null
-    }
+    "videoId": "e43b166acc7a4faa81aba56ef2bdee69",
+    "status": "completed",
+    "attempts": 0,
+    "outputPath": "C:\\Users\\kioko\\skilara\\public\\avatars\\selling-to-western-clients\\lesson-4-janet.mp4"
   },
   {
     "courseSlug": "selling-to-western-clients",
     "lessonIndex": 5,
     "lessonTitle": "Final Project — Your International Client Strategy",
     "avatarName": "bernard",
-    "videoId": "c143faecdc6d46c28512642bfed3153d",
-    "status": "failed",
-    "attempts": 3,
-    "error": {
-      "activity_name": "TemporalCoreActivity.DEDUCT_QUOTA",
-      "code": "MOVIO_PAYMENT_INSUFFICIENT_CREDIT",
-      "current_workflow_type": "HeygenVideoWorkflow",
-      "detail": "Insufficient credit",
-      "exception_class": "MovioException",
-      "from_api": true,
-      "message": "Insufficient credit. This operation requires 'plan_credit' or 'api' credits.",
-      "reason": null,
-      "template_vars": null
-    }
+    "videoId": "d0cd56c9a8a546ad8a643926e10e87e6",
+    "status": "completed",
+    "attempts": 0,
+    "outputPath": "C:\\Users\\kioko\\skilara\\public\\avatars\\selling-to-western-clients\\lesson-5-bernard.mp4"
   }
 ]

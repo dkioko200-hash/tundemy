@@ -5,7 +5,10 @@ interface ManifestEntry {
   courseSlug: string;
   lessonIndex: number;
   lessonTitle: string;
-  avatarName: string;
+}
+
+function escapeRegex(s: string): string {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
 function main(): void {
@@ -16,57 +19,56 @@ function main(): void {
   const courseContentPath = path.join(process.cwd(), "lib", "course-content.ts");
   let src = fs.readFileSync(courseContentPath, "utf-8");
 
-  let updated = 0;
-  let added = 0;
+  let alreadyCorrect = 0;
+  let inserted = 0;
+  let replaced = 0;
+  const failures: string[] = [];
 
   for (const entry of manifest) {
     const newUrl = `/videos/${entry.courseSlug}/lesson-${entry.lessonIndex}.mp4`;
+    const escapedTitle = escapeRegex(entry.lessonTitle);
 
-    // Check if a videoUrl line already exists near this lesson
-    // Pattern: match existing videoUrl within the context of this lesson block
-    // We'll use the lesson title as an anchor since lessonNumber is unique within a course
-    const titlePattern = new RegExp(
-      `(lessonNumber:\\s*${entry.lessonIndex},[\\s\\S]{0,600}?)(videoUrl:\\s*"[^"]*")`,
-      "g"
-    );
+    // 1. If the exact correct URL is already in the file, nothing to do.
+    if (src.includes(`videoUrl: "${newUrl}"`)) {
+      alreadyCorrect++;
+      continue;
+    }
 
-    const titlePatternNoUrl = new RegExp(
-      `(lessonNumber:\\s*${entry.lessonIndex},[\\s\\S]{0,200}?title:\\s*"${entry.lessonTitle.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}"[\\s\\S]{0,200}?)(isAvailable:\\s*(?:true|false),)`,
-      "g"
-    );
+    // 2. Look for the title line in the file.
+    const titleRe = new RegExp(`([ \\t]+title:\\s*"${escapedTitle}",)`);
+    const titleMatch = titleRe.exec(src);
+    if (!titleMatch) {
+      failures.push(`${entry.courseSlug} L${entry.lessonIndex}: title not found`);
+      continue;
+    }
 
-    if (titlePattern.test(src)) {
-      // Replace existing videoUrl for this lesson number
-      // More targeted: find the lesson block and replace its videoUrl
-      const blockPattern = new RegExp(
-        `(lessonNumber:\\s*${entry.lessonIndex},[\\s\\S]{0,800}?)(videoUrl:\\s*"[^"]*")(,?)`,
-      );
-      const newSrc = src.replace(blockPattern, (match, before, _urlPart, comma) => {
-        const alreadyNew = _urlPart.includes(newUrl);
-        if (alreadyNew) return match;
-        updated++;
-        return `${before}videoUrl: "${newUrl}"${comma}`;
-      });
-      if (newSrc !== src) src = newSrc;
+    // 3. Within 300 chars after the title, check if there's a wrong videoUrl to replace.
+    const afterTitle = src.slice(titleMatch.index + titleMatch[0].length, titleMatch.index + titleMatch[0].length + 300);
+    const wrongUrlRe = /videoUrl:\s*"[^"]*"/;
+    if (wrongUrlRe.test(afterTitle)) {
+      // Replace the wrong URL that's close to this title
+      const absStart = titleMatch.index + titleMatch[0].length;
+      const wrongMatch = wrongUrlRe.exec(src.slice(absStart, absStart + 300))!;
+      const urlStart = absStart + wrongMatch.index;
+      src = src.slice(0, urlStart) + `videoUrl: "${newUrl}"` + src.slice(urlStart + wrongMatch[0].length);
+      replaced++;
     } else {
-      // Need to insert videoUrl — add after isAvailable line in this lesson block
-      src = src.replace(titlePatternNoUrl, (match, before, isAvailLine) => {
-        // Check if videoUrl already present in this match
-        if (match.includes("videoUrl:")) return match;
-        added++;
-        return `${before}videoUrl: "${newUrl}",\n        ${isAvailLine}`;
-      });
+      // 4. Insert a new videoUrl line immediately after the title line.
+      const indent = titleMatch[1].match(/^[ \t]+/)![0];
+      const insertPos = titleMatch.index + titleMatch[0].length;
+      src = src.slice(0, insertPos) + `\n${indent}videoUrl: "${newUrl}",` + src.slice(insertPos);
+      inserted++;
     }
   }
 
   fs.writeFileSync(courseContentPath, src);
-  console.log(`\nUpdated ${updated} existing videoUrl fields`);
-  console.log(`Added   ${added} new videoUrl fields`);
-  console.log(`Total   ${manifest.length} lessons processed`);
 
-  // Verify: count videoUrl fields
-  const matches = (src.match(/videoUrl:\s*"/g) ?? []).length;
-  console.log(`\nTotal videoUrl fields in file: ${matches}`);
+  const total = (src.match(/videoUrl:\s*"/g) ?? []).length;
+  console.log(`Already correct: ${alreadyCorrect} | Replaced: ${replaced} | Inserted: ${inserted} | Total videoUrl in file: ${total}/${manifest.length}`);
+  if (failures.length > 0) {
+    console.log(`\nFailed to patch ${failures.length} lessons:`);
+    failures.forEach((f) => console.log(`  ${f}`));
+  }
 }
 
 main();

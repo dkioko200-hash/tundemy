@@ -42,6 +42,7 @@ next-env.d.ts
 public/videos/
 public/audio/**/*.mp3
 public/audio/**/*.wav
+public/audio/**/*.json
 public/avatars/
 
 # Dev logs
