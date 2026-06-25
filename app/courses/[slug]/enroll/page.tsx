@@ -49,6 +49,18 @@ export default function EnrollPage() {
           return;
         }
 
+        // Tester: auto-create paid enrollment and go straight to the course player
+        if (user.email === "d.kioko200@gmail.com") {
+          try {
+            await supabase.from("enrollments").upsert(
+              { user_id: user.id, course_slug: slug, payment_status: "paid", enrolled_at: new Date().toISOString() },
+              { onConflict: "user_id,course_slug" }
+            );
+          } catch { /* non-fatal */ }
+          router.replace(`/courses/${slug}/learn`);
+          return;
+        }
+
         const { data: enrollment } = await supabase
           .from("enrollments")
           .select("id")

@@ -1169,8 +1169,15 @@ export default function LearnPage() {
 
         if (!user) { router.replace(`/auth/login?next=/courses/${slug}/learn`); return; }
 
-        // Tester bypasses enrollment check entirely
-        if (user.email !== "d.kioko200@gmail.com") {
+        if (user.email === "d.kioko200@gmail.com") {
+          // Silently upsert a paid enrollment so tester always has full access
+          try {
+            await supabase.from("enrollments").upsert(
+              { user_id: user.id, course_slug: slug, payment_status: "paid", enrolled_at: new Date().toISOString() },
+              { onConflict: "user_id,course_slug" }
+            );
+          } catch { /* non-fatal */ }
+        } else {
           const { data: enrollment } = await supabase
             .from("enrollments")
             .select("id")
