@@ -1052,7 +1052,7 @@ function LockedLesson({ courseSlug }: { courseSlug: string }) {
       </div>
       <h3 className="text-lg font-bold mb-2" style={{ color: "#0f1f3d" }}>This lesson is locked</h3>
       <p className="text-sm text-gray-500 max-w-sm mb-6">Enroll in this course to unlock all lessons and start learning.</p>
-      <Link href={`/courses/${courseSlug}`}
+      <Link href={`/courses/${courseSlug}/enroll`}
         className="px-6 py-3 rounded-xl text-sm font-bold text-white transition-all hover:opacity-90"
         style={{ backgroundColor: "#2d8a4e" }}>
         Enroll Now
@@ -1169,15 +1169,17 @@ export default function LearnPage() {
 
         if (!user) { router.replace(`/auth/login?next=/courses/${slug}/learn`); return; }
 
-        // Check enrollment — redirect to enroll page if not paid
-        const { data: enrollment } = await supabase
-          .from("enrollments")
-          .select("id")
-          .eq("user_id", user.id)
-          .eq("course_slug", slug)
-          .eq("payment_status", "paid")
-          .maybeSingle();
-        if (!enrollment) { router.replace(`/courses/${slug}/enroll`); return; }
+        // Tester bypasses enrollment check entirely
+        if (user.email !== "d.kioko200@gmail.com") {
+          const { data: enrollment } = await supabase
+            .from("enrollments")
+            .select("id")
+            .eq("user_id", user.id)
+            .eq("course_slug", slug)
+            .eq("payment_status", "paid")
+            .maybeSingle();
+          if (!enrollment) { router.replace(`/courses/${slug}/enroll`); return; }
+        }
 
         setUserId(user.id);
         setUserEmail(user.email ?? null);
@@ -1388,7 +1390,7 @@ export default function LearnPage() {
 
               {/* Lesson content */}
               <div className="mb-8">
-                {!currentLesson.isAvailable ? (
+                {!currentLesson.isAvailable && !isTester ? (
                   <LockedLesson courseSlug={slug} />
                 ) : (
                   <>
@@ -1456,7 +1458,7 @@ export default function LearnPage() {
               )}
 
               {/* Navigation */}
-              {currentLesson.isAvailable && (
+              {(currentLesson.isAvailable || isTester) && (
                 <div className="flex items-center justify-between gap-3 pt-6 border-t" style={{ borderColor: "#e5e7eb" }}>
                   <button onClick={goPrev} disabled={currentIndex === 0}
                     className="flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-bold border-2 transition-all hover:bg-gray-100 disabled:opacity-40 disabled:cursor-not-allowed"
