@@ -83,12 +83,18 @@ function runWhisper(python: string, ffmpegBin: string, wavPath: string, outDir: 
   const jsonOut = path.join(outDir, `${base}.json`);
   if (fs.existsSync(jsonOut)) return JSON.parse(fs.readFileSync(jsonOut, "utf-8")) as WhisperResult;
 
-  const env = { ...process.env, PATH: `${ffmpegBin};${process.env.PATH ?? ""}` };
+  const env = {
+    ...process.env,
+    PATH: `${ffmpegBin};${process.env.PATH ?? ""}`,
+    PYTHONIOENCODING: "utf-8",  // prevent UnicodeEncodeError on Windows for non-Latin transcripts
+  };
   const r = spawnSync(python,
-    ["-m", "whisper", wavPath, "--output_format", "json", "--word_timestamps", "True", "--model", "base", "--output_dir", outDir],
+    ["-m", "whisper", wavPath, "--output_format", "json", "--word_timestamps", "True",
+     "--model", "base", "--language", "en", "--output_dir", outDir],
     { encoding: "utf-8", timeout: 300_000, env });
 
-  if (r.status !== 0) throw new Error(`Whisper failed:\n${r.stderr || r.stdout}`);
+  const output = [r.stderr, r.stdout].filter(Boolean).join("\n");
+  if (r.status !== 0) throw new Error(`Whisper failed:\n${output}`);
 
   if (!fs.existsSync(jsonOut)) {
     const alt = path.join(path.dirname(wavPath), `${base}.json`);

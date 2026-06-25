@@ -147,6 +147,7 @@ function runWhisper(python: string, ffmpegBin: string, wavPath: string, outDir: 
   const whisperEnv = {
     ...process.env,
     PATH: `${ffmpegBin};${process.env.PATH ?? ""}`,
+    PYTHONIOENCODING: "utf-8",
   };
 
   console.log(`  Running Whisper on ${path.basename(wavPath)} (this may take 30-90s)...`);
@@ -156,11 +157,13 @@ function runWhisper(python: string, ffmpegBin: string, wavPath: string, outDir: 
     "--output_format", "json",
     "--word_timestamps", "True",
     "--model", "base",
+    "--language", "en",
     "--output_dir", outDir,
   ];
   const res = spawnSync(python, args, { encoding: "utf-8", timeout: 300_000, env: whisperEnv });
   if (res.status !== 0) {
-    throw new Error(`Whisper failed:\n${res.stderr || res.stdout}`);
+    const output = [res.stderr, res.stdout].filter(Boolean).join("\n");
+    throw new Error(`Whisper failed:\n${output}`);
   }
 
   if (!fs.existsSync(jsonOut)) {
