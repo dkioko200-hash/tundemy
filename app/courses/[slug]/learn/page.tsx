@@ -755,20 +755,8 @@ function IntroComponent({ lesson, courseTitle, onComplete }: {
   return (
     <div className="space-y-6">
 
-      {/* Section 1 — Welcome video placeholder */}
-      <div className="w-full rounded-2xl overflow-hidden relative flex items-center justify-center select-none"
-        style={{ backgroundColor: "#0f1f3d", aspectRatio: "16/9" }}>
-        <div className="absolute inset-0" style={{ backgroundImage: "radial-gradient(circle at 25% 35%, rgba(255,255,255,0.06) 0%, transparent 55%), radial-gradient(circle at 75% 70%, rgba(245,158,11,0.12) 0%, transparent 50%)" }} />
-        <div className="relative w-16 h-16 rounded-full flex items-center justify-center" style={{ backgroundColor: "rgba(255,255,255,0.15)", backdropFilter: "blur(4px)" }}>
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="white" style={{ marginLeft: "2px" }}>
-            <polygon points="5 3 19 12 5 21 5 3" />
-          </svg>
-        </div>
-        <div className="absolute bottom-5 left-6 right-6">
-          <p className="text-white font-bold text-base">Welcome to {courseTitle}</p>
-          <p className="text-white/50 text-sm mt-0.5">Watch this first — 4 mins</p>
-        </div>
-      </div>
+      {/* Section 1 — Welcome video */}
+      <VideoPlayer title={lesson.title} duration_mins={lesson.duration_mins} videoUrl={lesson.videoUrl} />
 
       {/* Section 2 — About */}
       <div className="rounded-2xl border p-6 bg-white" style={{ borderColor: "#e5e7eb" }}>
