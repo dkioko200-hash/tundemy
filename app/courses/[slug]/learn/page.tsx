@@ -1410,7 +1410,7 @@ function Sidebar({ courseTitle, courseSlug, lessons, currentIndex, completedCoun
             <span className="text-sm font-bold text-white tracking-tight">Tund<span style={{ color: "#2d8a4e" }}>emy</span></span>
           </Link>
           {onClose && (
-            <button onClick={onClose} className="p-1 rounded-lg" style={{ color: "rgba(255,255,255,0.5)" }} aria-label="Close">
+            <button onClick={onClose} className="p-1 rounded-lg" style={{ color: "rgba(255,255,255,0.5)" }} aria-label="Close" title="Close">
               <CloseIcon />
             </button>
           )}
@@ -1671,7 +1671,7 @@ export default function LearnPage() {
 
       {/* Mobile top bar */}
         <header className="lg:hidden flex-shrink-0 flex items-center gap-3 px-4 bg-white border-b" style={{ height: "52px", borderColor: "#e5e7eb" }}>
-          <button onClick={() => setSidebarOpen(true)} className="p-1 rounded-lg hover:bg-gray-100 transition-colors" style={{ color: "#0f1f3d" }} aria-label="Lessons">
+          <button onClick={() => setSidebarOpen(true)} className="p-1 rounded-lg hover:bg-gray-100 transition-colors" style={{ color: "#0f1f3d" }} aria-label="Open lessons menu" title="Open lessons menu">
             <MenuIcon />
           </button>
           <p className="text-sm font-semibold truncate flex-1" style={{ color: "#0f1f3d" }}>{currentLesson.title}</p>
