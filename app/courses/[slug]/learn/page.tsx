@@ -361,26 +361,76 @@ interface ParsedTask {
 }
 
 function parseTasks(sandboxTask: string): ParsedTask[] {
+  // Split text by heading positions; returns null if fewer than 2 headings found
+  function splitByHeadings(
+    text: string,
+    re: RegExp,
+    labelFn: (id: number, heading: string) => string
+  ): ParsedTask[] | null {
+    const positions: { matchStart: number; bodyStart: number; id: number; heading: string }[] = [];
+    let m: RegExpExecArray | null;
+    re.lastIndex = 0;
+    while ((m = re.exec(text)) !== null) {
+      positions.push({
+        matchStart: m.index,
+        bodyStart: m.index + m[0].length,
+        id: parseInt(m[1] ?? "1"),
+        heading: (m[2] ?? "").trim(),
+      });
+    }
+    if (positions.length < 2) return null;
+    return positions.map((pos, i) => {
+      const bodyEnd = i + 1 < positions.length ? positions[i + 1].matchStart : text.length;
+      const bodyText = text.slice(pos.bodyStart, bodyEnd).trim();
+      const displayBody =
+        pos.heading && bodyText ? `${pos.heading}\n\n${bodyText}` : pos.heading || bodyText;
+      return { id: pos.id, label: labelFn(pos.id, pos.heading), body: displayBody };
+    });
+  }
+
+  // 1. TASK N — / TASK N:
+  const taskResult = splitByHeadings(
+    sandboxTask,
+    /(?:^|\n)TASK\s+(\d+)\s*[^\S\n]*[—\-:]+\s*([^\n]*)/gi,
+    (id) => `Task ${id}`
+  );
+  if (taskResult) return taskResult;
+
+  // 2. SECTION N — / SECTION N:
+  const sectionResult = splitByHeadings(
+    sandboxTask,
+    /(?:^|\n)SECTION\s+(\d+)\s*[^\S\n]*[—\-:]+\s*([^\n]*)/gi,
+    (id, heading) => {
+      const title = heading.replace(/:$/, "").split(":")[0].trim();
+      return title ? `Section ${id}: ${title}` : `Section ${id}`;
+    }
+  );
+  if (sectionResult) return sectionResult;
+
+  // 3. DELIVERABLE N — / DELIVERABLE N:
+  const delivResult = splitByHeadings(
+    sandboxTask,
+    /(?:^|\n)DELIVERABLE\s+(\d+)\s*[^\S\n]*[—\-:]+\s*([^\n]*)/gi,
+    (id, heading) => {
+      const title = heading.replace(/:$/, "").split(":")[0].trim();
+      return title ? `Deliverable ${id}: ${title}` : `Deliverable ${id}`;
+    }
+  );
+  if (delivResult) return delivResult;
+
+  // 4. Inline (1) (2) (3) numbering — captures text until next (N) or end
   const parenRe = /\((\d+)\)\s*([\s\S]*?)(?=\s*\(\d+\)|$)/g;
   const parenMatches = [...sandboxTask.matchAll(parenRe)];
   if (parenMatches.length >= 2) {
-    return parenMatches.map((m) => {
-      const body = m[2].trim().replace(/,\s*$/, "");
-      const colonIdx = body.indexOf(":");
-      const rawLabel = colonIdx > 0 && colonIdx < 50 ? body.slice(0, colonIdx).trim() : body.split(/\s+/).slice(0, 5).join(" ");
-      return { id: parseInt(m[1]), label: `Task ${m[1]}: ${rawLabel}`, body };
-    });
+    const tasks = parenMatches.map((pm) => ({
+      id: parseInt(pm[1]),
+      label: `Task ${pm[1]}`,
+      body: pm[2].trim().replace(/,\s*$/, "").trim(),
+    }));
+    if (tasks.filter((t) => t.body.length > 10).length >= 2) return tasks;
   }
-  const delivRe = /DELIVERABLE\s+(\d+)\s*[--]\s*([\s\S]*?)(?=DELIVERABLE\s+\d|$)/gi;
-  const delivMatches = [...sandboxTask.matchAll(delivRe)];
-  if (delivMatches.length >= 2) {
-    return delivMatches.map((m) => {
-      const body = m[2].trim();
-      const colonIdx = body.indexOf(":");
-      const rawLabel = colonIdx > 0 && colonIdx < 50 ? body.slice(0, colonIdx).trim() : body.split(/\s+/).slice(0, 5).join(" ");
-      return { id: parseInt(m[1]), label: `Deliverable ${m[1]}: ${rawLabel}`, body };
-    });
-  }
+
+  // Single task fallback
   return [{ id: 1, label: "Your Response", body: sandboxTask }];
 }
 
@@ -396,7 +446,7 @@ function GradingResultDisplay({ result, onRetry }: { result: SandboxGradingResul
         <div className={`text-6xl font-black ${scoreColor}`}>{score}</div>
         <div className="text-gray-500 text-sm mt-1">out of 100</div>
         <div className={`mt-3 font-bold text-sm ${passed ? "text-[#2d8a4e]" : "text-red-500"}`}>
-          {passed ? "Passed - well done" : "Score 70 or above to continue"}
+          {passed ? "Passed — well done" : "Score 70 or above to continue"}
         </div>
         {result.cached && <div className="text-xs text-gray-400 mt-1">Cached result</div>}
       </div>
@@ -435,6 +485,97 @@ function GradingResultDisplay({ result, onRetry }: { result: SandboxGradingResul
   );
 }
 
+// Shared spinner SVG
+function Spinner() {
+  return (
+    <svg className="animate-spin h-4 w-4" viewBox="0 0 24 24" fill="none">
+      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+    </svg>
+  );
+}
+
+// Shared submit logic for both sandbox and project
+async function submitForGrading(opts: {
+  courseSlug: string;
+  lessonNumber: number;
+  sandboxTask: string;
+  tasks: ParsedTask[];
+  answers: string[];
+}): Promise<SandboxGradingResult> {
+  const combined = opts.tasks
+    .map((t, i) => `Task ${t.id}:\n${opts.answers[i]}`)
+    .join("\n\n---\n\n");
+  const res = await fetch("/api/grade-sandbox", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      courseSlug: opts.courseSlug,
+      lessonNumber: opts.lessonNumber,
+      sandboxTask: opts.sandboxTask,
+      submission: combined,
+    }),
+  });
+  const data = await res.json();
+  if (!res.ok) throw new Error((data as { error?: string }).error || "Grading failed");
+  return data as SandboxGradingResult;
+}
+
+// Shared per-task cards (used by both SandboxComponent and ProjectComponent)
+function TaskCards({
+  tasks,
+  answers,
+  wordCounts,
+  isMulti,
+  onChange,
+  accentColor = "#2d8a4e",
+}: {
+  tasks: ParsedTask[];
+  answers: string[];
+  wordCounts: number[];
+  isMulti: boolean;
+  onChange: (i: number, value: string) => void;
+  accentColor?: string;
+}) {
+  return (
+    <>
+      {tasks.map((task, i) => (
+        <div key={task.id} className="space-y-3">
+          {/* Green task label — only shown for multi-task lessons */}
+          {isMulti && (
+            <p className="text-sm font-semibold" style={{ color: accentColor }}>
+              {task.label}
+            </p>
+          )}
+          {/* Navy task description box for each task */}
+          <div className="bg-[#0f1f3d] rounded-xl p-5">
+            {!isMulti && (
+              <p className="text-blue-300 text-xs font-bold uppercase tracking-wider mb-2">Your Task</p>
+            )}
+            <p className="text-white text-sm leading-relaxed whitespace-pre-wrap">{task.body}</p>
+          </div>
+          {/* Answer textarea */}
+          <textarea
+            value={answers[i]}
+            onChange={(e) => onChange(i, e.target.value)}
+            placeholder="Write your response here. Be specific — generic answers score low."
+            rows={isMulti ? 7 : 10}
+            className="w-full border border-gray-200 rounded-xl p-4 text-sm resize-none focus:outline-none focus:ring-2 focus:border-transparent"
+            style={{ ["--tw-ring-color" as string]: accentColor }}
+            onFocus={(e) => (e.currentTarget.style.borderColor = accentColor)}
+            onBlur={(e) => (e.currentTarget.style.borderColor = "#e5e7eb")}
+          />
+          {/* Per-task word count */}
+          <p className={`text-xs font-medium ${wordCounts[i] >= 40 ? "" : "text-gray-400"}`}
+            style={wordCounts[i] >= 40 ? { color: accentColor } : undefined}>
+            {wordCounts[i]} words {wordCounts[i] >= 40 ? "✓" : "(min 40)"}
+          </p>
+        </div>
+      ))}
+    </>
+  );
+}
+
 function SandboxComponent({ sandboxTask, lessonNumber, courseSlug, onComplete }: {
   sandboxTask: string;
   lessonNumber: number;
@@ -442,6 +583,7 @@ function SandboxComponent({ sandboxTask, lessonNumber, courseSlug, onComplete }:
   onComplete: () => void;
 }) {
   const tasks = parseTasks(sandboxTask);
+  const isMulti = tasks.length > 1;
   const [answers, setAnswers] = useState<string[]>(() => tasks.map(() => ""));
   const [result, setResult] = useState<SandboxGradingResult | null>(null);
   const [grading, setGrading] = useState(false);
@@ -455,17 +597,10 @@ function SandboxComponent({ sandboxTask, lessonNumber, courseSlug, onComplete }:
     if (grading) return;
     setGrading(true);
     setApiError(null);
-    const combined = tasks.map((t, i) => `Task ${t.id}:\n${answers[i]}`).join("\n\n---\n\n");
     try {
-      const res = await fetch("/api/grade-sandbox", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ courseSlug, lessonNumber, sandboxTask, submission: combined }),
-      });
-      const data = await res.json();
-      if (!res.ok) throw new Error((data as { error?: string }).error || "Grading failed");
-      setResult(data as SandboxGradingResult);
-      if ((data as SandboxGradingResult).passed) setTimeout(() => onComplete(), 2000);
+      const data = await submitForGrading({ courseSlug, lessonNumber, sandboxTask, tasks, answers });
+      setResult(data);
+      if (data.passed) setTimeout(() => onComplete(), 2000);
     } catch (err) {
       setApiError(err instanceof Error ? err.message : "Grading failed. Please try again.");
     } finally {
@@ -479,38 +614,29 @@ function SandboxComponent({ sandboxTask, lessonNumber, courseSlug, onComplete }:
     return <GradingResultDisplay result={result} onRetry={result.passed ? undefined : handleRetry} />;
   }
 
+  const handleChange = (i: number, value: string) => {
+    const next = [...answers]; next[i] = value; setAnswers(next);
+  };
+
   return (
-    <div className="space-y-4">
-      <div className="bg-[#0f1f3d] rounded-xl p-5">
-        <p className="text-blue-300 text-xs font-bold uppercase tracking-wider mb-2">Your Task</p>
-        <p className="text-white text-sm leading-relaxed">{sandboxTask}</p>
-      </div>
+    <div className="space-y-6">
       {apiError && (
         <div className="bg-red-50 border border-red-200 rounded-xl p-3">
           <p className="text-red-700 text-sm">{apiError}</p>
         </div>
       )}
-      {tasks.map((task, i) => (
-        <div key={task.id} className="space-y-2">
-          {tasks.length > 1 && (
-            <label className="block text-sm font-bold text-[#0f1f3d]">{task.label}</label>
-          )}
-          <textarea
-            value={answers[i]}
-            onChange={(e) => { const next = [...answers]; next[i] = e.target.value; setAnswers(next); }}
-            placeholder="Write your response here. Be specific - generic answers score low."
-            rows={tasks.length === 1 ? 10 : 7}
-            className="w-full border border-gray-200 rounded-xl p-4 text-sm resize-none focus:outline-none focus:ring-2 focus:ring-[#2d8a4e] focus:border-transparent"
-          />
-          <div className="flex justify-between items-center">
-            <span className={`text-xs font-medium ${wordCounts[i] >= 40 ? "text-[#2d8a4e]" : "text-gray-400"}`}>
-              {wordCounts[i]} words {wordCounts[i] >= 40 ? "checked" : "(min 40)"}
-            </span>
-          </div>
-        </div>
-      ))}
+      <TaskCards
+        tasks={tasks}
+        answers={answers}
+        wordCounts={wordCounts}
+        isMulti={isMulti}
+        onChange={handleChange}
+        accentColor="#2d8a4e"
+      />
       <div className="bg-amber-50 border border-amber-200 rounded-xl p-3">
-        <p className="text-amber-800 text-xs">Graded by Claude AI on depth, specificity, structure, and actionability. Score 70+ to pass. Max 3 attempts per 24 hours.</p>
+        <p className="text-amber-800 text-xs">
+          Graded by Claude AI on depth, specificity, structure, and actionability. Score 70+ to pass. Max 3 attempts per 24 hours.
+        </p>
       </div>
       <button
         onClick={handleSubmit}
@@ -518,23 +644,22 @@ function SandboxComponent({ sandboxTask, lessonNumber, courseSlug, onComplete }:
         className="w-full bg-[#0f1f3d] text-white py-3 rounded-xl font-semibold text-sm disabled:opacity-40 disabled:cursor-not-allowed hover:bg-[#162d54] transition-colors flex items-center justify-center gap-2"
       >
         {grading ? (
-          <>
-            <svg className="animate-spin h-4 w-4" viewBox="0 0 24 24" fill="none">
-              <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
-              <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
-            </svg>
-            Grading with Claude AI...
-          </>
-        ) : tasks.length > 1 ? `Submit All ${tasks.length} Tasks for Grading` : "Submit for Grading"}
+          <><Spinner />Grading with Claude AI...</>
+        ) : isMulti ? `Submit All ${tasks.length} Tasks for Grading` : "Submit for Grading"}
       </button>
     </div>
   );
 }
 
-function ProjectComponent({ content, sandboxTask, onComplete }: { content: string; sandboxTask?: string; onComplete: () => void }) {
-  const tasks = sandboxTask ? parseTasks(sandboxTask) : [];
-  const effectiveTasks = tasks.length > 0 ? tasks : [{ id: 1, label: "Your Response", body: content }];
-  const [answers, setAnswers] = useState<string[]>(() => effectiveTasks.map(() => ""));
+function ProjectComponent({ content, sandboxTask, onComplete }: {
+  content: string;
+  sandboxTask?: string;
+  onComplete: () => void;
+}) {
+  const rawTask = sandboxTask || content;
+  const tasks = parseTasks(rawTask);
+  const isMulti = tasks.length > 1;
+  const [answers, setAnswers] = useState<string[]>(() => tasks.map(() => ""));
   const [result, setResult] = useState<SandboxGradingResult | null>(null);
   const [grading, setGrading] = useState(false);
   const [apiError, setApiError] = useState<string | null>(null);
@@ -547,18 +672,16 @@ function ProjectComponent({ content, sandboxTask, onComplete }: { content: strin
     if (grading) return;
     setGrading(true);
     setApiError(null);
-    const combined = effectiveTasks.map((t, i) => `Task ${t.id}:\n${answers[i]}`).join("\n\n---\n\n");
-    const taskContext = sandboxTask || content;
     try {
-      const res = await fetch("/api/grade-sandbox", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ courseSlug: "project", lessonNumber: 99, sandboxTask: taskContext, submission: combined }),
+      const data = await submitForGrading({
+        courseSlug: "project",
+        lessonNumber: 99,
+        sandboxTask: rawTask,
+        tasks,
+        answers,
       });
-      const data = await res.json();
-      if (!res.ok) throw new Error((data as { error?: string }).error || "Grading failed");
-      setResult(data as SandboxGradingResult);
-      if ((data as SandboxGradingResult).passed) setTimeout(() => onComplete(), 2000);
+      setResult(data);
+      if (data.passed) setTimeout(() => onComplete(), 2000);
     } catch (err) {
       setApiError(err instanceof Error ? err.message : "Grading failed. Please try again.");
     } finally {
@@ -566,23 +689,29 @@ function ProjectComponent({ content, sandboxTask, onComplete }: { content: strin
     }
   };
 
-  const handleRetry = () => { setResult(null); setAnswers(effectiveTasks.map(() => "")); setApiError(null); };
+  const handleRetry = () => { setResult(null); setAnswers(tasks.map(() => "")); setApiError(null); };
+  const handleChange = (i: number, value: string) => {
+    const next = [...answers]; next[i] = value; setAnswers(next);
+  };
 
   return (
     <div className="space-y-5">
+      {/* Project header — always shows content description */}
       <div className="rounded-2xl border p-6" style={{ borderColor: "#e5e7eb", backgroundColor: "#fff" }}>
         <div className="flex items-center gap-2 mb-4">
           <ProjectIcon color="#9333ea" size={16} />
           <span className="text-xs font-bold" style={{ color: "#9333ea" }}>Final Project</span>
         </div>
-        <p className="text-sm text-gray-700 leading-relaxed mb-5">{content}</p>
-        {sandboxTask && (
-          <div className="rounded-xl p-4" style={{ backgroundColor: "rgba(147,51,234,0.05)", border: "1px solid rgba(147,51,234,0.15)" }}>
-            <p className="text-xs font-bold mb-2" style={{ color: "#9333ea" }}>Your tasks:</p>
+        <p className="text-sm text-gray-700 leading-relaxed">{content}</p>
+        {/* For single-task projects, show sandboxTask overview in the header card */}
+        {!isMulti && sandboxTask && (
+          <div className="mt-4 rounded-xl p-4" style={{ backgroundColor: "rgba(147,51,234,0.05)", border: "1px solid rgba(147,51,234,0.15)" }}>
+            <p className="text-xs font-bold mb-2" style={{ color: "#9333ea" }}>Your task:</p>
             <p className="text-sm text-gray-700 leading-relaxed">{sandboxTask}</p>
           </div>
         )}
       </div>
+
       {result ? (
         <GradingResultDisplay result={result} onRetry={result.passed ? undefined : handleRetry} />
       ) : (
@@ -592,24 +721,14 @@ function ProjectComponent({ content, sandboxTask, onComplete }: { content: strin
               <p className="text-red-700 text-sm">{apiError}</p>
             </div>
           )}
-          {effectiveTasks.map((task, i) => (
-            <div key={task.id} className="space-y-2">
-              {effectiveTasks.length > 1 && (
-                <label className="block text-sm font-bold" style={{ color: "#9333ea" }}>{task.label}</label>
-              )}
-              <textarea
-                value={answers[i]}
-                onChange={(e) => { const next = [...answers]; next[i] = e.target.value; setAnswers(next); }}
-                placeholder="Paste your work, describe what you built, or write your response here..."
-                rows={7}
-                className="w-full px-4 py-3 text-sm border rounded-2xl outline-none resize-none text-gray-700"
-                style={{ borderColor: "#e5e7eb", lineHeight: "1.65" }}
-              />
-              <span className={`text-xs font-medium ${wordCounts[i] >= 40 ? "text-[#2d8a4e]" : "text-gray-400"}`}>
-                {wordCounts[i]} words {wordCounts[i] >= 40 ? "checked" : "(min 40)"}
-              </span>
-            </div>
-          ))}
+          <TaskCards
+            tasks={tasks}
+            answers={answers}
+            wordCounts={wordCounts}
+            isMulti={isMulti}
+            onChange={handleChange}
+            accentColor="#9333ea"
+          />
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-3">
             <p className="text-amber-800 text-xs">Graded by Claude AI. Score 70+ to pass. Max 3 attempts per 24 hours.</p>
           </div>
@@ -620,14 +739,8 @@ function ProjectComponent({ content, sandboxTask, onComplete }: { content: strin
             style={{ backgroundColor: "#9333ea" }}
           >
             {grading ? (
-              <>
-                <svg className="animate-spin h-4 w-4" viewBox="0 0 24 24" fill="none">
-                  <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
-                  <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
-                </svg>
-                Grading with Claude AI...
-              </>
-            ) : effectiveTasks.length > 1 ? `Submit All ${effectiveTasks.length} Deliverables` : "Submit for Grading"}
+              <><Spinner />Grading with Claude AI...</>
+            ) : isMulti ? `Submit All ${tasks.length} Deliverables` : "Submit for Grading"}
           </button>
         </div>
       )}
