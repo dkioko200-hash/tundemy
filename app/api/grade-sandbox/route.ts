@@ -54,25 +54,44 @@ export async function POST(req: NextRequest) {
 Exercise task:
 ${sandboxTask}
 
-Grade the submission on these four criteria:
-- Depth and Completeness (30 points): Addresses all parts of the task thoroughly; demonstrates genuine understanding
-- Specificity and Context (30 points): Uses specific Kenyan/African business examples, real numbers, named tools — not vague generalities
-- Structure and Clarity (20 points): Well-organized with clear structure (numbered steps, bullet points, or logical paragraphs)
-- Actionability (20 points): Contains concrete, implementable actions — not just abstract descriptions
+Grade the submission on four criteria:
+- Depth and Completeness (30 pts): Addresses every part of the task; demonstrates real understanding, not surface-level awareness
+- Specificity and Context (30 pts): Uses specific Kenyan/African business names, real KSh amounts, named tools/APIs — not vague generalities like "a Kenyan company"
+- Structure and Clarity (20 pts): Well-organised with numbered steps, bullet points, or clear logical paragraphs
+- Actionability (20 pts): Concrete, immediately implementable actions — not abstract descriptions
 
-Total 0-100. PASSES if total >= 70.
-Be strict: reward depth and specificity, penalize vague or generic responses.
+Total 0-100. PASSES if total >= 80.
+Be strict: reward depth and specificity; penalise vague, generic, or incomplete answers.
 
-Respond with ONLY this JSON (no markdown fences, no extra text):
+CRITICAL INSTRUCTION: Your feedback must directly reference the student's actual words. Quote or paraphrase their specific phrases. Never say "add more detail" without naming the exact missing detail. Never say "be more specific" without giving a concrete example of the specificity required.
+
+Respond with ONLY this JSON object (no markdown fences, no extra text):
 {
   "score": <number 0-100>,
-  "passed": <boolean>,
-  "feedback": "<2-3 sentences: what was done well and one specific improvement>",
+  "passed": <true if score >= 80, false otherwise>,
+  "feedback": "<1-2 sentence overall verdict referencing their specific submission>",
   "rubricScores": [
-    {"criterion": "Depth and Completeness", "score": <0-30>, "max": 30, "comment": "<one sentence>"},
-    {"criterion": "Specificity and Context", "score": <0-30>, "max": 30, "comment": "<one sentence>"},
+    {"criterion": "Depth and Completeness", "score": <0-30>, "max": 30, "comment": "<one sentence quoting or referencing their actual answer>"},
+    {"criterion": "Specificity and Context", "score": <0-30>, "max": 30, "comment": "<one sentence naming what specific details were present or missing>"},
     {"criterion": "Structure and Clarity", "score": <0-20>, "max": 20, "comment": "<one sentence>"},
     {"criterion": "Actionability", "score": <0-20>, "max": 20, "comment": "<one sentence>"}
+  ],
+  "didWell": [
+    "<specific strength — quote or paraphrase their actual words, explain why it is good>",
+    "<second specific strength>"
+  ],
+  "improvements": [
+    {
+      "area": "<criterion name>",
+      "missing": "<exactly what is absent or wrong in their answer — be direct>",
+      "whyMatters": "<why this gap matters in a real Kenyan business context>",
+      "betterExample": "<a concrete example of what a stronger answer looks like — give real names, numbers, or steps>"
+    }
+  ],
+  "specificFixes": [
+    "<actionable fix 1 — tell them exactly what to write, not just what category to improve>",
+    "<actionable fix 2>",
+    "<actionable fix 3 if needed>"
   ]
 }`;
 
@@ -80,7 +99,7 @@ Respond with ONLY this JSON (no markdown fences, no extra text):
 
     let result: Record<string, unknown>;
     try {
-      const raw = await callClaude(SONNET_MODEL, systemPrompt, userPrompt, 1024);
+      const raw = await callClaude(SONNET_MODEL, systemPrompt, userPrompt, 2048);
       result = extractJson(raw);
     } catch (err) {
       console.error("[grade-sandbox] Claude call failed:", err);

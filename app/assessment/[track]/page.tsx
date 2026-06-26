@@ -8,12 +8,22 @@ import { getAssessmentTrack } from "@/lib/assessment-tracks";
 
 type AssessmentState = "intro" | "writing" | "grading" | "result";
 
+interface GradeImprovement {
+  area: string;
+  missing: string;
+  whyMatters: string;
+  betterExample: string;
+}
+
 interface GradeResult {
   overallScore: number;
   passed: boolean;
   dimensionScores: Record<string, number>;
   feedback: string;
   cached?: boolean;
+  didWell?: string[];
+  improvements?: GradeImprovement[];
+  specificFixes?: string[];
 }
 
 function formatTime(totalSeconds: number): string {
@@ -274,68 +284,145 @@ export default function AssessmentPage() {
 
   // result state
   const passed = !!result?.passed && (result?.overallScore ?? 0) >= meta.passingScore;
+  const score = result?.overallScore ?? 0;
 
   return (
     <div style={{ fontFamily: "Inter, sans-serif", minHeight: "100vh", backgroundColor: "#f9fafb" }}>
       <Nav />
-      <div className="max-w-2xl mx-auto px-5 py-12">
-        <div className="bg-white rounded-2xl border p-8 text-center" style={{ borderColor: "#e5e7eb" }}>
-          <div className="text-5xl mb-4">{passed ? "🏆" : "📚"}</div>
-          <h1 className="text-2xl font-extrabold mb-2" style={{ color: "#0f1f3d" }}>
-            {passed ? "Assessment Passed!" : "Not Quite Yet"}
-          </h1>
-          <p className="text-sm text-gray-500 mb-6">
-            {passed
-              ? `You scored ${result?.overallScore}% — your ${meta.badge} has been awarded and you're now in the verified talent pool.`
-              : `You scored ${result?.overallScore ?? 0}%. You need ${meta.passingScore}% to pass. Review the course material and try again.`}
-          </p>
+      <div className="max-w-2xl mx-auto px-5 py-12 space-y-4">
 
-          <div className="w-24 h-24 rounded-full border-4 flex items-center justify-center mx-auto mb-6"
-            style={{ borderColor: passed ? "#2d8a4e" : "#e5e7eb" }}>
-            <div>
-              <p className="text-2xl font-extrabold" style={{ color: passed ? "#2d8a4e" : "#6b7280" }}>{result?.overallScore ?? 0}%</p>
-            </div>
+        {/* Score hero */}
+        <div
+          className="rounded-2xl p-8 text-center border-2"
+          style={
+            passed
+              ? { backgroundColor: "rgba(45,138,78,0.06)", borderColor: "#2d8a4e" }
+              : { backgroundColor: "rgba(187,0,0,0.04)", borderColor: "#e5383b" }
+          }
+        >
+          <div className="text-6xl font-black mb-1" style={{ color: passed ? "#2d8a4e" : "#e5383b" }}>
+            {score}%
           </div>
+          <p className="text-sm font-bold mb-3" style={{ color: passed ? "#2d8a4e" : "#e5383b" }}>
+            {passed ? "Assessment Passed!" : `Need ${meta.passingScore}% to pass — try again`}
+          </p>
+          <p className="text-sm text-gray-500">
+            {passed
+              ? `Your ${meta.badge} has been awarded and you're now in the verified talent pool.`
+              : `Review the feedback below, revise your answer, and resubmit.`}
+          </p>
+        </div>
 
-          {result?.feedback && (
-            <div className="rounded-xl border p-4 mb-6 text-left" style={{ borderColor: "#e5e7eb", backgroundColor: "#f9fafb" }}>
-              <p className="text-xs font-bold mb-1" style={{ color: "#0f1f3d" }}>Feedback</p>
-              <p className="text-sm text-gray-600 leading-relaxed">{result.feedback}</p>
-            </div>
-          )}
+        {/* Overall feedback */}
+        {result?.feedback && (
+          <div className="bg-white rounded-xl border border-gray-200 p-4">
+            <p className="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2">Overall</p>
+            <p className="text-sm text-gray-700 leading-relaxed">{result.feedback}</p>
+          </div>
+        )}
 
-          {result?.dimensionScores && (
-            <div className="grid grid-cols-2 gap-3 mb-6 text-left">
-              {Object.entries(result.dimensionScores).map(([key, score]) => (
-                <div key={key} className="rounded-xl border p-3" style={{ borderColor: "#f3f4f6" }}>
-                  <p className="text-xs text-gray-400 capitalize">{key.replace(/([A-Z])/g, " $1")}</p>
-                  <p className="text-sm font-extrabold" style={{ color: "#0f1f3d" }}>{score}%</p>
+        {/* Badge awarded (pass only) */}
+        {passed && (
+          <div className="rounded-xl border p-4" style={{ borderColor: "rgba(45,138,78,0.2)", backgroundColor: "rgba(45,138,78,0.04)" }}>
+            <p className="text-xs font-bold mb-1" style={{ color: "#2d8a4e" }}>Badge Awarded</p>
+            <p className="text-sm font-bold" style={{ color: "#0f1f3d" }}>{meta.badge}</p>
+          </div>
+        )}
+
+        {/* What you did well */}
+        {result?.didWell && result.didWell.length > 0 && (
+          <div className="rounded-xl p-4" style={{ backgroundColor: "rgba(45,138,78,0.06)", border: "1px solid rgba(45,138,78,0.2)" }}>
+            <p className="text-xs font-bold uppercase tracking-wider mb-3" style={{ color: "#2d8a4e" }}>
+              What You Did Well
+            </p>
+            <ul className="space-y-2">
+              {result.didWell.map((item, i) => (
+                <li key={i} className="flex items-start gap-2.5">
+                  <span className="mt-0.5 text-xs font-bold flex-shrink-0" style={{ color: "#2d8a4e" }}>✓</span>
+                  <span className="text-sm text-gray-700 leading-relaxed">{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {/* What needs improvement (fail only) */}
+        {!passed && result?.improvements && result.improvements.length > 0 && (
+          <div className="rounded-xl p-4 border border-orange-200" style={{ backgroundColor: "rgba(251,146,60,0.05)" }}>
+            <p className="text-xs font-bold uppercase tracking-wider mb-3 text-orange-600">
+              What Needs Improvement
+            </p>
+            <div className="space-y-4">
+              {result.improvements.map((imp, i) => (
+                <div key={i} className="border-l-2 border-orange-300 pl-3">
+                  <p className="text-xs font-bold text-orange-700 mb-1">{imp.area}</p>
+                  <p className="text-sm text-gray-800 mb-1.5">
+                    <span className="font-semibold">What was missing: </span>{imp.missing}
+                  </p>
+                  <p className="text-sm text-gray-600 mb-1.5">
+                    <span className="font-semibold">Why it matters: </span>{imp.whyMatters}
+                  </p>
+                  <div className="rounded-lg p-3 mt-2" style={{ backgroundColor: "rgba(15,31,61,0.04)", border: "1px solid rgba(15,31,61,0.08)" }}>
+                    <p className="text-xs font-bold text-gray-500 mb-1">A stronger answer looks like:</p>
+                    <p className="text-sm text-gray-700 leading-relaxed italic">{imp.betterExample}</p>
+                  </div>
                 </div>
               ))}
             </div>
-          )}
-
-          {passed && (
-            <div className="rounded-xl border p-4 mb-6" style={{ borderColor: "rgba(45,138,78,0.2)", backgroundColor: "rgba(45,138,78,0.04)" }}>
-              <p className="text-xs font-bold mb-1" style={{ color: "#2d8a4e" }}>✓ Badge Awarded</p>
-              <p className="text-sm font-bold" style={{ color: "#0f1f3d" }}>{meta.badge}</p>
-            </div>
-          )}
-
-          <div className="flex flex-col sm:flex-row gap-3">
-            <Link href="/dashboard"
-              className="flex-1 py-3 rounded-xl text-sm font-bold text-white text-center transition-all hover:opacity-90"
-              style={{ backgroundColor: "#2d8a4e" }}>
-              Go to Dashboard
-            </Link>
-            {!passed && (
-              <button onClick={() => { setState("intro"); setSubmission(""); setSecondsLeft(meta.durationMinutes * 60); setResult(null); }}
-                className="flex-1 py-3 rounded-xl text-sm font-bold text-center border-2 transition-all hover:bg-gray-50"
-                style={{ borderColor: "#0f1f3d", color: "#0f1f3d" }}>
-                Try Again
-              </button>
-            )}
           </div>
+        )}
+
+        {/* Specific fixes (fail only) */}
+        {!passed && result?.specificFixes && result.specificFixes.length > 0 && (
+          <div className="rounded-xl p-4" style={{ backgroundColor: "rgba(15,31,61,0.04)", border: "1px solid rgba(15,31,61,0.1)" }}>
+            <p className="text-xs font-bold uppercase tracking-wider mb-3" style={{ color: "#0f1f3d" }}>
+              Fix These Before Resubmitting
+            </p>
+            <ol className="space-y-2">
+              {result.specificFixes.map((fix, i) => (
+                <li key={i} className="flex items-start gap-2.5">
+                  <span className="mt-0.5 w-5 h-5 rounded-full flex-shrink-0 flex items-center justify-center text-xs font-bold text-white" style={{ backgroundColor: "#0f1f3d" }}>
+                    {i + 1}
+                  </span>
+                  <span className="text-sm text-gray-700 leading-relaxed">{fix}</span>
+                </li>
+              ))}
+            </ol>
+          </div>
+        )}
+
+        {/* Dimension scores */}
+        {result?.dimensionScores && (
+          <div className="bg-white rounded-xl border border-gray-200 p-4">
+            <p className="text-xs font-bold uppercase tracking-wider text-gray-400 mb-3">Score Breakdown</p>
+            <div className="grid grid-cols-2 gap-3">
+              {Object.entries(result.dimensionScores).map(([key, dimScore]) => (
+                <div key={key} className="rounded-xl border p-3" style={{ borderColor: "#f3f4f6" }}>
+                  <p className="text-xs text-gray-400 capitalize mb-0.5">{key.replace(/([A-Z])/g, " $1")}</p>
+                  <p className="text-sm font-extrabold" style={{ color: dimScore >= meta.passingScore ? "#2d8a4e" : "#e5383b" }}>
+                    {dimScore}%
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Action buttons */}
+        <div className="flex flex-col sm:flex-row gap-3">
+          <Link href="/dashboard"
+            className="flex-1 py-3 rounded-xl text-sm font-bold text-white text-center transition-all hover:opacity-90"
+            style={{ backgroundColor: "#2d8a4e" }}>
+            Go to Dashboard
+          </Link>
+          {!passed && (
+            <button
+              onClick={() => { setState("intro"); setSubmission(""); setSecondsLeft(meta.durationMinutes * 60); setResult(null); }}
+              className="flex-1 py-3 rounded-xl text-sm font-bold text-center border-2 transition-all hover:bg-gray-50"
+              style={{ borderColor: "#0f1f3d", color: "#0f1f3d" }}>
+              Try Again
+            </button>
+          )}
         </div>
       </div>
     </div>

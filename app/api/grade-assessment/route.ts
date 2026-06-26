@@ -70,7 +70,7 @@ export async function POST(req: NextRequest) {
       .map(([key, dim]) => `- ${key} (weight ${dim.weight}): ${dim.description}`)
       .join("\n");
 
-    const systemPrompt = `You are grading a practical assessment submission for the Tundemy "${trackMeta.label}" certification track.
+    const systemPrompt = `You are grading a practical assessment submission for the Tundemy "${trackMeta.label}" certification track. Tundemy is an AI skills platform for African professionals.
 
 Assessment task:
 ${trackMeta.task}
@@ -81,19 +81,38 @@ ${rubricLines}
 Score each rubric dimension from 0-100, then compute a weighted overall score (0-100) using the given weights.
 A submission passes if the overall score is at least ${trackMeta.passingScore}.
 
-Respond with ONLY a JSON object in exactly this format:
+CRITICAL INSTRUCTION: Your feedback must directly reference the student's actual words. Quote or paraphrase their specific phrases. Never say "add more detail" without naming the exact missing detail. Give concrete examples of what stronger answers look like with real Kenyan business names, KSh amounts, and specific tool/API names.
+
+Respond with ONLY a JSON object (no markdown fences, no extra text) in exactly this format:
 {
-  "overallScore": number,
-  "passed": boolean,
-  "dimensionScores": { "<rubricKey>": number, ... },
-  "feedback": "2-4 sentence summary of strengths and what to improve"
+  "overallScore": <number 0-100>,
+  "passed": <true if overallScore >= ${trackMeta.passingScore}, false otherwise>,
+  "dimensionScores": { "<rubricKey>": <0-100>, ... },
+  "feedback": "<1-2 sentence overall verdict referencing their specific submission>",
+  "didWell": [
+    "<specific strength — quote or paraphrase their actual words, explain why it is good>",
+    "<second specific strength>"
+  ],
+  "improvements": [
+    {
+      "area": "<rubric dimension name>",
+      "missing": "<exactly what is absent or wrong — be direct and reference their actual answer>",
+      "whyMatters": "<why this gap matters in a real Kenyan business context>",
+      "betterExample": "<concrete example of what a stronger answer looks like — real names, amounts, steps>"
+    }
+  ],
+  "specificFixes": [
+    "<actionable fix 1 — tell them exactly what to write, not just what category to improve>",
+    "<actionable fix 2>",
+    "<actionable fix 3 if needed>"
+  ]
 }`;
 
     const userPrompt = `Submission (${wordCount} words):\n\n${truncated}`;
 
     let result: Record<string, unknown>;
     try {
-      const raw = await callClaude(HAIKU_MODEL, systemPrompt, userPrompt, 1024);
+      const raw = await callClaude(HAIKU_MODEL, systemPrompt, userPrompt, 2048);
       result = extractJson(raw);
     } catch (err) {
       console.error("[grade-assessment] Claude call failed:", err);

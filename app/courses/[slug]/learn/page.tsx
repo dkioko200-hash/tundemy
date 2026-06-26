@@ -346,12 +346,22 @@ function QuizComponent({ quizQuestions, onComplete, onFail }: {
 
 // ── Sandbox + Project ─────────────────────────────────────────────────────────
 
+interface SandboxImprovement {
+  area: string;
+  missing: string;
+  whyMatters: string;
+  betterExample: string;
+}
+
 interface SandboxGradingResult {
   score: number;
   passed: boolean;
   feedback: string;
   rubricScores: { criterion: string; score: number; max: number; comment: string }[];
   cached?: boolean;
+  didWell?: string[];
+  improvements?: SandboxImprovement[];
+  specificFixes?: string[];
 }
 
 interface ParsedTask {
@@ -434,53 +444,183 @@ function parseTasks(sandboxTask: string): ParsedTask[] {
   return [{ id: 1, label: "Your Response", body: sandboxTask }];
 }
 
-function GradingResultDisplay({ result, onRetry }: { result: SandboxGradingResult; onRetry?: () => void }) {
+function GradingResultDisplay({
+  result,
+  onRetry,
+  onNext,
+}: {
+  result: SandboxGradingResult;
+  onRetry?: () => void;
+  onNext?: () => void;
+}) {
   const score = result.score;
-  const passed = result.passed ?? score >= 70;
-  const border = passed ? "border-[#2d8a4e]" : score >= 50 ? "border-orange-400" : "border-red-400";
-  const bg = passed ? "bg-green-50" : score >= 50 ? "bg-orange-50" : "bg-red-50";
-  const scoreColor = passed ? "text-[#2d8a4e]" : score >= 50 ? "text-orange-500" : "text-red-500";
+  const passed = result.passed ?? score >= 80;
+
   return (
     <div className="space-y-4">
-      <div className={`rounded-2xl p-6 text-center border-2 ${bg} ${border}`}>
-        <div className={`text-6xl font-black ${scoreColor}`}>{score}</div>
-        <div className="text-gray-500 text-sm mt-1">out of 100</div>
-        <div className={`mt-3 font-bold text-sm ${passed ? "text-[#2d8a4e]" : "text-red-500"}`}>
-          {passed ? "Passed — well done" : "Score 70 or above to continue"}
+
+      {/* ── Score hero ─────────────────────────────────────────── */}
+      <div
+        className="rounded-2xl p-6 text-center border-2"
+        style={
+          passed
+            ? { backgroundColor: "rgba(45,138,78,0.06)", borderColor: "#2d8a4e" }
+            : { backgroundColor: "rgba(187,0,0,0.04)", borderColor: "#e5383b" }
+        }
+      >
+        <div
+          className="text-6xl font-black"
+          style={{ color: passed ? "#2d8a4e" : "#e5383b" }}
+        >
+          {score}
         </div>
-        {result.cached && <div className="text-xs text-gray-400 mt-1">Cached result</div>}
+        <div className="text-gray-400 text-sm mt-1">out of 100</div>
+        <div
+          className="mt-3 font-bold text-sm"
+          style={{ color: passed ? "#2d8a4e" : "#e5383b" }}
+        >
+          {passed ? "Passed — great work!" : "Score 80+ to continue"}
+        </div>
+        {result.cached && (
+          <div className="text-xs text-gray-400 mt-1">Cached result</div>
+        )}
       </div>
-      <div className="bg-white border border-gray-200 rounded-xl p-4">
-        <p className="font-semibold text-[#0f1f3d] mb-2 text-sm">Feedback</p>
-        <p className="text-gray-600 text-sm leading-relaxed">{result.feedback}</p>
-      </div>
-      {result.rubricScores && result.rubricScores.length > 0 && (
+
+      {/* ── Overall verdict ─────────────────────────────────────── */}
+      {result.feedback && (
         <div className="bg-white border border-gray-200 rounded-xl p-4">
-          <p className="font-semibold text-[#0f1f3d] mb-3 text-sm">Rubric Breakdown</p>
-          <div className="space-y-3">
-            {result.rubricScores.map((r, i) => (
-              <div key={i}>
-                <div className="flex justify-between items-center mb-1">
-                  <span className="text-xs font-semibold text-gray-700">{r.criterion}</span>
-                  <span className="text-xs font-bold text-[#0f1f3d]">{r.score}/{r.max}</span>
+          <p className="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2">Overall</p>
+          <p className="text-sm text-gray-700 leading-relaxed">{result.feedback}</p>
+        </div>
+      )}
+
+      {/* ── What you did well (always show) ─────────────────────── */}
+      {result.didWell && result.didWell.length > 0 && (
+        <div
+          className="rounded-xl p-4"
+          style={{ backgroundColor: "rgba(45,138,78,0.06)", border: "1px solid rgba(45,138,78,0.2)" }}
+        >
+          <p className="text-xs font-bold uppercase tracking-wider mb-3" style={{ color: "#2d8a4e" }}>
+            What You Did Well
+          </p>
+          <ul className="space-y-2">
+            {result.didWell.map((item, i) => (
+              <li key={i} className="flex items-start gap-2.5">
+                <span className="mt-0.5 text-xs font-bold flex-shrink-0" style={{ color: "#2d8a4e" }}>✓</span>
+                <span className="text-sm text-gray-700 leading-relaxed">{item}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {/* ── What needs improvement (only on fail) ─────────────── */}
+      {!passed && result.improvements && result.improvements.length > 0 && (
+        <div className="rounded-xl p-4 border border-orange-200" style={{ backgroundColor: "rgba(251,146,60,0.05)" }}>
+          <p className="text-xs font-bold uppercase tracking-wider mb-3 text-orange-600">
+            What Needs Improvement
+          </p>
+          <div className="space-y-4">
+            {result.improvements.map((imp, i) => (
+              <div key={i} className="border-l-2 border-orange-300 pl-3">
+                <p className="text-xs font-bold text-orange-700 mb-1">{imp.area}</p>
+                <p className="text-sm text-gray-800 mb-1.5">
+                  <span className="font-semibold">What was missing: </span>
+                  {imp.missing}
+                </p>
+                <p className="text-sm text-gray-600 mb-1.5">
+                  <span className="font-semibold">Why it matters: </span>
+                  {imp.whyMatters}
+                </p>
+                <div
+                  className="rounded-lg p-3 mt-2"
+                  style={{ backgroundColor: "rgba(15,31,61,0.04)", border: "1px solid rgba(15,31,61,0.08)" }}
+                >
+                  <p className="text-xs font-bold text-gray-500 mb-1">A stronger answer looks like:</p>
+                  <p className="text-sm text-gray-700 leading-relaxed italic">{imp.betterExample}</p>
                 </div>
-                <div className="h-2 bg-gray-100 rounded-full overflow-hidden">
-                  <div
-                    className={r.score >= r.max * 0.8 ? "h-full rounded-full bg-[#2d8a4e]" : r.score >= r.max * 0.5 ? "h-full rounded-full bg-orange-400" : "h-full rounded-full bg-red-400"}
-                    style={{ width: `${(r.score / r.max) * 100}%` }}
-                  />
-                </div>
-                <p className="text-xs text-gray-500 mt-1">{r.comment}</p>
               </div>
             ))}
           </div>
         </div>
       )}
-      {onRetry && (
-        <button onClick={onRetry} className="w-full border-2 border-[#0f1f3d] text-[#0f1f3d] py-3 rounded-xl font-semibold text-sm hover:bg-gray-50 transition-colors">
-          Revise and Resubmit
-        </button>
+
+      {/* ── Specific fixes (only on fail) ───────────────────────── */}
+      {!passed && result.specificFixes && result.specificFixes.length > 0 && (
+        <div
+          className="rounded-xl p-4"
+          style={{ backgroundColor: "rgba(15,31,61,0.04)", border: "1px solid rgba(15,31,61,0.1)" }}
+        >
+          <p className="text-xs font-bold uppercase tracking-wider mb-3" style={{ color: "#0f1f3d" }}>
+            Fix These Before Resubmitting
+          </p>
+          <ol className="space-y-2">
+            {result.specificFixes.map((fix, i) => (
+              <li key={i} className="flex items-start gap-2.5">
+                <span
+                  className="mt-0.5 w-5 h-5 rounded-full flex-shrink-0 flex items-center justify-center text-xs font-bold text-white"
+                  style={{ backgroundColor: "#0f1f3d" }}
+                >
+                  {i + 1}
+                </span>
+                <span className="text-sm text-gray-700 leading-relaxed">{fix}</span>
+              </li>
+            ))}
+          </ol>
+        </div>
       )}
+
+      {/* ── Rubric breakdown (always show) ──────────────────────── */}
+      {result.rubricScores && result.rubricScores.length > 0 && (
+        <div className="bg-white border border-gray-200 rounded-xl p-4">
+          <p className="text-xs font-bold uppercase tracking-wider text-gray-400 mb-3">Score Breakdown</p>
+          <div className="space-y-3">
+            {result.rubricScores.map((r, i) => (
+              <div key={i}>
+                <div className="flex justify-between items-center mb-1">
+                  <span className="text-xs font-semibold text-gray-700">{r.criterion}</span>
+                  <span className="text-xs font-bold" style={{ color: "#0f1f3d" }}>
+                    {r.score}/{r.max}
+                  </span>
+                </div>
+                <div className="h-1.5 bg-gray-100 rounded-full overflow-hidden">
+                  <div
+                    className="h-full rounded-full transition-all"
+                    style={{
+                      width: `${(r.score / r.max) * 100}%`,
+                      backgroundColor:
+                        r.score >= r.max * 0.8 ? "#2d8a4e" : r.score >= r.max * 0.5 ? "#f97316" : "#e5383b",
+                    }}
+                  />
+                </div>
+                <p className="text-xs text-gray-500 mt-1 leading-relaxed">{r.comment}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* ── Action buttons ───────────────────────────────────────── */}
+      <div className="flex gap-3">
+        {passed && onNext && (
+          <button
+            onClick={onNext}
+            className="flex-1 py-3 rounded-xl text-sm font-bold text-white hover:opacity-90 transition-all"
+            style={{ backgroundColor: "#2d8a4e" }}
+          >
+            Next Lesson →
+          </button>
+        )}
+        {!passed && onRetry && (
+          <button
+            onClick={onRetry}
+            className="flex-1 py-3 rounded-xl text-sm font-bold border-2 hover:bg-gray-50 transition-colors"
+            style={{ borderColor: "#0f1f3d", color: "#0f1f3d" }}
+          >
+            Revise and Resubmit
+          </button>
+        )}
+      </div>
     </div>
   );
 }
@@ -600,7 +740,6 @@ function SandboxComponent({ sandboxTask, lessonNumber, courseSlug, onComplete }:
     try {
       const data = await submitForGrading({ courseSlug, lessonNumber, sandboxTask, tasks, answers });
       setResult(data);
-      if (data.passed) setTimeout(() => onComplete(), 2000);
     } catch (err) {
       setApiError(err instanceof Error ? err.message : "Grading failed. Please try again.");
     } finally {
@@ -611,7 +750,13 @@ function SandboxComponent({ sandboxTask, lessonNumber, courseSlug, onComplete }:
   const handleRetry = () => { setResult(null); setAnswers(tasks.map(() => "")); setApiError(null); };
 
   if (result) {
-    return <GradingResultDisplay result={result} onRetry={result.passed ? undefined : handleRetry} />;
+    return (
+      <GradingResultDisplay
+        result={result}
+        onRetry={result.passed ? undefined : handleRetry}
+        onNext={result.passed ? onComplete : undefined}
+      />
+    );
   }
 
   const handleChange = (i: number, value: string) => {
@@ -635,7 +780,7 @@ function SandboxComponent({ sandboxTask, lessonNumber, courseSlug, onComplete }:
       />
       <div className="bg-amber-50 border border-amber-200 rounded-xl p-3">
         <p className="text-amber-800 text-xs">
-          Graded by Claude AI on depth, specificity, structure, and actionability. Score 70+ to pass. Max 3 attempts per 24 hours.
+          Graded by Claude AI on depth, specificity, structure, and actionability. Score 80+ to pass. Max 3 attempts per 24 hours.
         </p>
       </div>
       <button
@@ -681,7 +826,6 @@ function ProjectComponent({ content, sandboxTask, onComplete }: {
         answers,
       });
       setResult(data);
-      if (data.passed) setTimeout(() => onComplete(), 2000);
     } catch (err) {
       setApiError(err instanceof Error ? err.message : "Grading failed. Please try again.");
     } finally {
@@ -703,7 +847,6 @@ function ProjectComponent({ content, sandboxTask, onComplete }: {
           <span className="text-xs font-bold" style={{ color: "#9333ea" }}>Final Project</span>
         </div>
         <p className="text-sm text-gray-700 leading-relaxed">{content}</p>
-        {/* For single-task projects, show sandboxTask overview in the header card */}
         {!isMulti && sandboxTask && (
           <div className="mt-4 rounded-xl p-4" style={{ backgroundColor: "rgba(147,51,234,0.05)", border: "1px solid rgba(147,51,234,0.15)" }}>
             <p className="text-xs font-bold mb-2" style={{ color: "#9333ea" }}>Your task:</p>
@@ -713,7 +856,11 @@ function ProjectComponent({ content, sandboxTask, onComplete }: {
       </div>
 
       {result ? (
-        <GradingResultDisplay result={result} onRetry={result.passed ? undefined : handleRetry} />
+        <GradingResultDisplay
+          result={result}
+          onRetry={result.passed ? undefined : handleRetry}
+          onNext={result.passed ? onComplete : undefined}
+        />
       ) : (
         <div className="space-y-4">
           {apiError && (
@@ -730,7 +877,7 @@ function ProjectComponent({ content, sandboxTask, onComplete }: {
             accentColor="#9333ea"
           />
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-3">
-            <p className="text-amber-800 text-xs">Graded by Claude AI. Score 70+ to pass. Max 3 attempts per 24 hours.</p>
+            <p className="text-amber-800 text-xs">Graded by Claude AI. Score 80+ to pass. Max 3 attempts per 24 hours.</p>
           </div>
           <button
             disabled={!hasContent || !allMeetMin || grading}
