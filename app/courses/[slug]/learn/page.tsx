@@ -3,7 +3,7 @@
 import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
 import { useRouter, useParams } from "next/navigation";
-import { getCourseContentBySlug, type Lesson, type QuizQuestion, type LessonTheory } from "@/lib/course-content";
+import { getCourseContentBySlug, type Lesson, type QuizQuestion, type LessonTheory, type CourseCapstone } from "@/lib/course-content";
 import { createClient } from "@/lib/supabase";
 
 // ── Icons ─────────────────────────────────────────────────────────────────────
@@ -895,6 +895,187 @@ function ProjectComponent({ content, sandboxTask, onComplete }: {
   );
 }
 
+// ── Capstone component ────────────────────────────────────────────────────────
+
+interface CapstoneApiResult {
+  overallScore: number;
+  passed: boolean;
+  dimensionScores: Record<string, number>;
+  feedback: string;
+  cached?: boolean;
+  didWell?: string[];
+  improvements?: SandboxImprovement[];
+  specificFixes?: string[];
+}
+
+function CapstoneComponent({
+  courseSlug,
+  capstone,
+  onComplete,
+}: {
+  courseSlug: string;
+  capstone: CourseCapstone;
+  onComplete: () => void;
+}) {
+  const [submission, setSubmission] = useState("");
+  const [normalized, setNormalized] = useState<SandboxGradingResult | null>(null);
+  const [grading, setGrading] = useState(false);
+  const [apiError, setApiError] = useState<string | null>(null);
+  const [certId, setCertId] = useState<string | null>(null);
+
+  const wordCount = submission.trim().split(/\s+/).filter(Boolean).length;
+  const minWords = 100;
+
+  const handleSubmit = async () => {
+    if (grading) return;
+    setGrading(true);
+    setApiError(null);
+    try {
+      const res = await fetch("/api/grade-capstone", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ courseSlug, submission }),
+      });
+      const raw = (await res.json()) as CapstoneApiResult & { error?: string };
+      if (!res.ok) throw new Error(raw.error || "Grading failed");
+
+      const norm: SandboxGradingResult = {
+        score: raw.overallScore,
+        passed: raw.passed,
+        feedback: raw.feedback,
+        rubricScores: Object.entries(raw.dimensionScores ?? {}).map(([key, val]) => ({
+          criterion: key.replace(/([A-Z])/g, " $1").replace(/^./, (c) => c.toUpperCase()).trim(),
+          score: val,
+          max: 100,
+          comment: "",
+        })),
+        cached: raw.cached,
+        didWell: raw.didWell,
+        improvements: raw.improvements,
+        specificFixes: raw.specificFixes,
+      };
+      setNormalized(norm);
+
+      if (raw.passed) {
+        onComplete();
+        try {
+          const certRes = await fetch("/api/certificates/issue", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ slug: courseSlug }),
+          });
+          if (certRes.ok) {
+            const certData = (await certRes.json()) as { certId: string };
+            setCertId(certData.certId);
+          }
+        } catch {
+          // certificate generation is non-fatal
+        }
+      }
+    } catch (err) {
+      setApiError(err instanceof Error ? err.message : "Grading failed. Please try again.");
+    } finally {
+      setGrading(false);
+    }
+  };
+
+  const handleRetry = () => {
+    setNormalized(null);
+    setSubmission("");
+    setApiError(null);
+  };
+
+  if (normalized) {
+    return (
+      <div className="space-y-4">
+        {normalized.passed && (
+          <div
+            className="rounded-2xl p-5 text-center"
+            style={{ background: "linear-gradient(135deg, #0f1f3d 0%, #1a3260 100%)", border: "2px solid #2d8a4e" }}
+          >
+            <div className="text-3xl mb-2">🎓</div>
+            <p className="font-bold text-white text-sm mb-1">Course Complete!</p>
+            <p className="text-sm text-blue-200 mb-3">
+              Your certificate is ready.
+              {certId && <> Certificate ID: <span className="font-mono font-bold">{certId}</span></>}
+            </p>
+            <Link
+              href="/dashboard"
+              className="inline-block px-5 py-2.5 rounded-xl text-xs font-bold text-white transition-all hover:opacity-90"
+              style={{ backgroundColor: "#2d8a4e" }}
+            >
+              View Certificate in Dashboard →
+            </Link>
+          </div>
+        )}
+        <GradingResultDisplay
+          result={normalized}
+          onRetry={normalized.passed ? undefined : handleRetry}
+          onNext={undefined}
+        />
+      </div>
+    );
+  }
+
+  return (
+    <div className="space-y-5">
+      {/* Task card */}
+      <div className="rounded-2xl overflow-hidden" style={{ backgroundColor: "#0f1f3d" }}>
+        <div className="px-5 pt-5 pb-4 border-b border-white/10">
+          <div className="flex items-center gap-2 mb-1">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <circle cx="12" cy="8" r="6" /><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11" />
+            </svg>
+            <span className="text-xs font-bold text-yellow-400 uppercase tracking-wider">Final Capstone Project</span>
+          </div>
+          <p className="text-xs text-white/50">Score {capstone.passingScore}% or above to earn your certificate</p>
+        </div>
+        <div className="p-5">
+          <p className="text-white text-sm leading-relaxed whitespace-pre-wrap">{capstone.task}</p>
+        </div>
+      </div>
+
+      {/* Submission textarea */}
+      <textarea
+        value={submission}
+        onChange={(e) => setSubmission(e.target.value)}
+        placeholder="Write your complete capstone submission here. Be thorough and specific — generic answers score low."
+        rows={16}
+        className="w-full border border-gray-200 rounded-xl p-4 text-sm resize-none focus:outline-none"
+        onFocus={(e) => (e.currentTarget.style.borderColor = "#0f1f3d")}
+        onBlur={(e) => (e.currentTarget.style.borderColor = "#e5e7eb")}
+      />
+
+      <div className="flex items-center justify-between">
+        <p className={`text-xs font-medium ${wordCount >= minWords ? "text-[#2d8a4e]" : "text-gray-400"}`}>
+          {wordCount} words {wordCount >= minWords ? "✓" : `(min ${minWords})`}
+        </p>
+        <p className="text-xs text-gray-400">Claude AI grading · max 3 attempts / 24 h</p>
+      </div>
+
+      {apiError && (
+        <div className="bg-red-50 border border-red-200 rounded-xl p-3">
+          <p className="text-red-700 text-sm">{apiError}</p>
+        </div>
+      )}
+
+      <div className="bg-amber-50 border border-amber-200 rounded-xl p-3">
+        <p className="text-amber-800 text-xs">
+          This is your final capstone project. Graded by Claude AI on specificity, business accuracy, implementation realism, ethics, and professional quality. Score {capstone.passingScore}+ to earn your certificate.
+        </p>
+      </div>
+
+      <button
+        onClick={handleSubmit}
+        disabled={wordCount < minWords || grading}
+        className="w-full bg-[#0f1f3d] text-white py-3.5 rounded-xl font-semibold text-sm disabled:opacity-40 disabled:cursor-not-allowed hover:bg-[#162d54] transition-colors flex items-center justify-center gap-2"
+      >
+        {grading ? <><Spinner />Grading your capstone...</> : "Submit Capstone for Grading"}
+      </button>
+    </div>
+  );
+}
+
 // ── Intro component ───────────────────────────────────────────────────────────
 
 function IntroComponent({ lesson, courseTitle, onComplete }: {
@@ -1586,11 +1767,19 @@ export default function LearnPage() {
                     )}
                     {currentLesson.type === "project" && (
                       <div className="mt-6">
-                        <ProjectComponent
-                          content={currentLesson.content}
-                          sandboxTask={currentLesson.sandboxTask}
-                          onComplete={handleMarkComplete}
-                        />
+                        {courseData?.capstone ? (
+                          <CapstoneComponent
+                            courseSlug={slug}
+                            capstone={courseData.capstone}
+                            onComplete={handleMarkComplete}
+                          />
+                        ) : (
+                          <ProjectComponent
+                            content={currentLesson.content}
+                            sandboxTask={currentLesson.sandboxTask}
+                            onComplete={handleMarkComplete}
+                          />
+                        )}
                       </div>
                     )}
                   </>
