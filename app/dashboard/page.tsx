@@ -5,20 +5,26 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase";
 import { courses } from "@/lib/courses";
+import { courseContent } from "@/lib/course-content";
 
-interface EnrollmentRow {
-  id: string;
-  course_slug: string;
-  payment_status: string;
-  enrolled_at: string;
-}
+// ── Types ─────────────────────────────────────────────────────────────────────
 
 interface EnrolledCourse {
   id: string;
   course_slug: string;
   course_title: string;
   icon: string;
-  progress: number;
+  level: string;
+  totalLessons: number;
+  completedLessons: number;
+  progressPct: number;
+  isCompleted: boolean;
+}
+
+interface CertRow {
+  cert_id: string;
+  course_slug: string;
+  created_at: string;
 }
 
 interface Badge {
@@ -38,8 +44,10 @@ interface Stats {
   coursesEnrolled: number;
   lessonsCompleted: number;
   badgesEarned: number;
-  profileViews: number;
+  certificatesEarned: number;
 }
+
+// ── Icons ─────────────────────────────────────────────────────────────────────
 
 function CheckIcon({ size = 16 }: { size?: number }) {
   return <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12" /></svg>;
@@ -58,6 +66,9 @@ function EyeIcon({ size = 20 }: { size?: number }) {
 }
 function BriefcaseIcon() {
   return <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2" /><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" /></svg>;
+}
+function CertIcon({ size = 20 }: { size?: number }) {
+  return <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="4" width="18" height="14" rx="2" /><path d="M8 10h8M8 14h4" /><circle cx="17" cy="18" r="3" /><path d="M17 21v3l-1.5-1-1.5 1v-3" /></svg>;
 }
 
 function CircularProgress({ percentage }: { percentage: number }) {
@@ -89,12 +100,15 @@ function StatCard({ label, value, icon, iconBg, iconColor }: { label: string; va
   );
 }
 
+// ── Page ──────────────────────────────────────────────────────────────────────
+
 export default function DashboardPage() {
   const router = useRouter();
   const [loading, setLoading] = useState(true);
   const [userName, setUserName] = useState("Student");
-  const [stats, setStats] = useState<Stats>({ coursesEnrolled: 0, lessonsCompleted: 0, badgesEarned: 0, profileViews: 0 });
+  const [stats, setStats] = useState<Stats>({ coursesEnrolled: 0, lessonsCompleted: 0, badgesEarned: 0, certificatesEarned: 0 });
   const [enrolledCourses, setEnrolledCourses] = useState<EnrolledCourse[]>([]);
+  const [certificates, setCertificates] = useState<CertRow[]>([]);
   const [badges, setBadges] = useState<Badge[]>([]);
   const [activity, setActivity] = useState<ActivityItem[]>([]);
   const [profileCompletion, setProfileCompletion] = useState(35);
@@ -113,40 +127,77 @@ export default function DashboardPage() {
       const user = session.user;
       const fullName: string = user.user_metadata?.full_name || user.email?.split("@")[0] || "Student";
       setUserName(fullName);
-      const results = await Promise.allSettled([
-        supabase.from("enrollments").select("*").eq("user_id", user.id),
+
+      // Parallel fetches — one progress query covers all courses (avoids N+1)
+      const [enrollRes, progressRes, certsRes, badgeRes, activityRes, profileRes] = await Promise.allSettled([
+        supabase.from("enrollments").select("id, course_slug, payment_status, enrolled_at").eq("user_id", user.id),
+        supabase.from("progress").select("course_slug").eq("user_id", user.id).eq("completed", true),
+        supabase.from("certificates").select("cert_id, course_slug, created_at").eq("user_id", user.id).order("created_at", { ascending: false }),
         supabase.from("user_badges").select("*").eq("user_id", user.id),
         supabase.from("activity_log").select("*").eq("user_id", user.id).order("created_at", { ascending: false }).limit(6),
-        supabase.from("profiles").select("*").eq("id", user.id).single(),
+        supabase.from("profiles").select("completion_percentage, profile_views").eq("id", user.id).single(),
       ]);
-      const [enrollRes, badgeRes, activityRes, profileRes] = results;
+
+      // Build progress count map from a single query result
+      const progressCountByCourse: Record<string, number> = {};
+      if (progressRes.status === "fulfilled") {
+        for (const row of (progressRes.value.data ?? []) as { course_slug: string }[]) {
+          progressCountByCourse[row.course_slug] = (progressCountByCourse[row.course_slug] ?? 0) + 1;
+        }
+      }
+
+      // Certificates
+      const certRows: CertRow[] = certsRes.status === "fulfilled" ? (certsRes.value.data ?? []) as CertRow[] : [];
+      setCertificates(certRows);
+      const certSlugs = new Set(certRows.map((c) => c.course_slug));
+
+      // Enrolled courses
       if (enrollRes.status === "fulfilled" && enrollRes.value.data) {
-        const rows = (enrollRes.value.data as EnrollmentRow[]).filter(
+        const rows = (enrollRes.value.data as { id: string; course_slug: string; payment_status: string }[]).filter(
           (r) => r.payment_status === "paid"
         );
         const mapped: EnrolledCourse[] = rows.map((r) => {
-          const c = courses.find((x) => x.slug === r.course_slug);
+          const courseLib = courses.find((x) => x.slug === r.course_slug);
+          const contentLib = courseContent.find((x) => x.slug === r.course_slug);
+          const totalLessons = contentLib?.lessons_count ?? 0;
+          const completedLessons = progressCountByCourse[r.course_slug] ?? 0;
+          const progressPct = totalLessons > 0 ? Math.min(100, Math.round((completedLessons / totalLessons) * 100)) : 0;
+          const isCompleted = (completedLessons >= totalLessons && totalLessons > 0) || certSlugs.has(r.course_slug);
           return {
             id: r.id,
             course_slug: r.course_slug,
-            course_title: c?.title ?? r.course_slug,
-            icon: c?.icon ?? "📚",
-            progress: 0,
+            course_title: contentLib?.title ?? courseLib?.title ?? r.course_slug,
+            icon: courseLib?.icon ?? "📚",
+            level: courseLib?.level ?? contentLib?.level ?? "Beginner",
+            totalLessons,
+            completedLessons,
+            progressPct,
+            isCompleted,
           };
         });
         setEnrolledCourses(mapped);
-        setStats((s) => ({ ...s, coursesEnrolled: mapped.length }));
+        const totalCompleted = mapped.reduce((sum, c) => sum + c.completedLessons, 0);
+        setStats((s) => ({ ...s, coursesEnrolled: mapped.length, lessonsCompleted: totalCompleted }));
       }
-      if (badgeRes.status === "fulfilled" && badgeRes.value.data) { setBadges(badgeRes.value.data as Badge[]); setStats((s) => ({ ...s, badgesEarned: badgeRes.value.data!.length })); }
+
+      if (certsRes.status === "fulfilled") {
+        setStats((s) => ({ ...s, certificatesEarned: certRows.length }));
+      }
+
+      if (badgeRes.status === "fulfilled" && badgeRes.value.data) {
+        setBadges(badgeRes.value.data as Badge[]);
+        setStats((s) => ({ ...s, badgesEarned: badgeRes.value.data!.length }));
+      }
+
       if (activityRes.status === "fulfilled" && activityRes.value.data) {
         setActivity(activityRes.value.data as ActivityItem[]);
-        setStats((s) => ({ ...s, lessonsCompleted: (activityRes.value.data as ActivityItem[]).filter((a) => a.type === "lesson").length }));
       }
+
       if (profileRes.status === "fulfilled" && profileRes.value.data) {
         const p = profileRes.value.data as { completion_percentage?: number; profile_views?: number };
         if (p.completion_percentage) setProfileCompletion(p.completion_percentage);
-        if (p.profile_views) setStats((s) => ({ ...s, profileViews: p.profile_views! }));
       }
+
       setLoading(false);
     }
     load();
@@ -164,6 +215,8 @@ export default function DashboardPage() {
   }
 
   const firstName = userName.split(" ")[0];
+  const inProgressCourses = enrolledCourses.filter((c) => !c.isCompleted && c.progressPct > 0);
+  const firstActive = inProgressCourses[0] ?? enrolledCourses[0];
 
   return (
     <div className="flex min-h-full">
@@ -175,18 +228,21 @@ export default function DashboardPage() {
           <p className="text-sm text-gray-500 mt-1 font-medium">Keep building. Employers are watching.</p>
         </div>
 
+        {/* Stats */}
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
           <StatCard label="Courses Enrolled" value={stats.coursesEnrolled} icon={<BookIcon />} iconBg="rgba(15,31,61,0.08)" iconColor="#0f1f3d" />
           <StatCard label="Lessons Completed" value={stats.lessonsCompleted} icon={<CheckIcon size={20} />} iconBg="rgba(45,138,78,0.1)" iconColor="#2d8a4e" />
           <StatCard label="Badges Earned" value={stats.badgesEarned} icon={<StarIcon size={18} />} iconBg="rgba(234,179,8,0.12)" iconColor="#ca8a04" />
-          <StatCard label="Profile Views" value={stats.profileViews} icon={<EyeIcon />} iconBg="rgba(139,92,246,0.1)" iconColor="#7c3aed" />
+          <StatCard label="Certificates" value={stats.certificatesEarned} icon={<CertIcon />} iconBg="rgba(217,119,6,0.1)" iconColor="#d97706" />
         </div>
 
+        {/* My Courses */}
         <div className="mb-8">
           <div className="flex items-center justify-between mb-4">
             <h2 className="text-lg font-bold" style={{ color: "#0f1f3d" }}>My Courses</h2>
             <Link href="/dashboard/courses" className="text-xs font-semibold hover:opacity-70" style={{ color: "#2d8a4e" }}>View all →</Link>
           </div>
+
           {enrolledCourses.length === 0 ? (
             <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-8 text-center">
               <div className="w-12 h-12 rounded-2xl flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: "rgba(15,31,61,0.06)", color: "#0f1f3d" }}><BookIcon size={24} /></div>
@@ -196,20 +252,107 @@ export default function DashboardPage() {
             </div>
           ) : (
             <div className="grid gap-4 sm:grid-cols-2">
-              {enrolledCourses.map((ec) => (
-                <div key={ec.id} className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5">
-                  <div className="flex items-start gap-3 mb-3">
-                    <span className="text-2xl flex-shrink-0">{ec.icon}</span>
-                    <h3 className="text-sm font-bold" style={{ color: "#0f1f3d" }}>{ec.course_title}</h3>
+              {enrolledCourses.slice(0, 4).map((ec) => {
+                const levelColor = ec.level === "Beginner" ? "#2d8a4e" : ec.level === "Intermediate" ? "#d97706" : "#9333ea";
+                return (
+                  <div key={ec.id} className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5 flex flex-col gap-3">
+                    {/* Header */}
+                    <div className="flex items-start justify-between gap-2">
+                      <div className="flex items-start gap-3">
+                        <span className="text-2xl flex-shrink-0">{ec.icon}</span>
+                        <div>
+                          <h3 className="text-sm font-bold leading-snug" style={{ color: "#0f1f3d" }}>{ec.course_title}</h3>
+                          <span className="text-xs font-semibold mt-0.5 block" style={{ color: levelColor }}>{ec.level}</span>
+                        </div>
+                      </div>
+                      {ec.isCompleted && (
+                        <span className="flex-shrink-0 flex items-center gap-1 text-xs font-bold px-2 py-1 rounded-full"
+                          style={{ backgroundColor: "rgba(45,138,78,0.1)", color: "#2d8a4e" }}>
+                          <CheckIcon size={11} /> Completed
+                        </span>
+                      )}
+                    </div>
+
+                    {/* Progress bar */}
+                    <div>
+                      <div className="flex justify-between items-center mb-1.5">
+                        <span className="text-xs text-gray-500">
+                          {ec.completedLessons} of {ec.totalLessons} lessons
+                        </span>
+                        <span className="text-xs font-bold" style={{ color: ec.isCompleted ? "#2d8a4e" : "#0f1f3d" }}>
+                          {ec.progressPct}%
+                        </span>
+                      </div>
+                      <div className="w-full bg-gray-100 rounded-full h-1.5">
+                        <div className="h-1.5 rounded-full transition-all duration-500"
+                          style={{ width: `${ec.progressPct}%`, backgroundColor: ec.isCompleted ? "#2d8a4e" : "#0f1f3d" }} />
+                      </div>
+                    </div>
+
+                    {/* Action button */}
+                    <Link href={`/courses/${ec.course_slug}/learn`}
+                      className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg text-xs font-bold text-white hover:opacity-90 self-start"
+                      style={{ backgroundColor: ec.isCompleted ? "#0f1f3d" : "#2d8a4e" }}>
+                      {ec.isCompleted ? "View Course" : ec.progressPct === 0 ? "Start Learning →" : "Continue Learning →"}
+                    </Link>
                   </div>
-                  <div className="w-full bg-gray-100 rounded-full h-1.5 mb-4"><div className="h-1.5 rounded-full" style={{ width: `${ec.progress}%`, backgroundColor: "#2d8a4e" }} /></div>
-                  <Link href={`/courses/${ec.course_slug}/learn`} className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg text-xs font-bold text-white hover:opacity-90" style={{ backgroundColor: "#2d8a4e" }}>Continue Learning →</Link>
-                </div>
-              ))}
+                );
+              })}
             </div>
           )}
         </div>
 
+        {/* Certificates */}
+        <div className="mb-8">
+          <div className="flex items-center justify-between mb-4">
+            <h2 className="text-lg font-bold" style={{ color: "#0f1f3d" }}>Certificates</h2>
+            <Link href="/dashboard/certificates" className="text-xs font-semibold hover:opacity-70" style={{ color: "#2d8a4e" }}>View all →</Link>
+          </div>
+
+          {certificates.length === 0 ? (
+            <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-6 text-center">
+              <div className="w-12 h-12 rounded-2xl flex items-center justify-center mx-auto mb-3" style={{ backgroundColor: "rgba(217,119,6,0.08)", color: "#d97706" }}>
+                <CertIcon size={22} />
+              </div>
+              <p className="text-sm font-semibold text-gray-700 mb-1">No certificates yet</p>
+              <p className="text-xs text-gray-400">Complete a course capstone to earn your certificate.</p>
+            </div>
+          ) : (
+            <div className="grid gap-4 sm:grid-cols-2">
+              {certificates.map((cert) => {
+                const contentLib = courseContent.find((c) => c.slug === cert.course_slug);
+                const courseLib = courses.find((c) => c.slug === cert.course_slug);
+                const title = contentLib?.title ?? courseLib?.title ?? cert.course_slug;
+                const issuedDate = cert.created_at
+                  ? new Date(cert.created_at).toLocaleDateString("en-KE", { day: "numeric", month: "short", year: "numeric" })
+                  : "";
+                return (
+                  <div key={cert.cert_id} className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5">
+                    <div className="flex items-start gap-4">
+                      <div className="w-11 h-11 rounded-xl flex items-center justify-center flex-shrink-0" style={{ backgroundColor: "rgba(217,119,6,0.08)", color: "#d97706" }}>
+                        <CertIcon size={20} />
+                      </div>
+                      <div className="flex-1 min-w-0">
+                        <p className="text-sm font-bold" style={{ color: "#0f1f3d" }}>{title}</p>
+                        <p className="text-xs text-gray-400 mt-0.5">Certificate of Completion{issuedDate ? ` · ${issuedDate}` : ""}</p>
+                        <p className="text-xs font-mono text-gray-400 mt-0.5">{cert.cert_id}</p>
+                        <div className="flex gap-2 mt-3">
+                          <Link href={`/dashboard/certificates/${cert.course_slug}`}
+                            className="px-3 py-1.5 rounded-lg text-xs font-bold border-2 transition-all hover:bg-amber-50"
+                            style={{ borderColor: "#d97706", color: "#d97706" }}>
+                            View &amp; Download PDF
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          )}
+        </div>
+
+        {/* Recent Activity */}
         <div className="mb-8">
           <h2 className="text-lg font-bold mb-4" style={{ color: "#0f1f3d" }}>Recent Activity</h2>
           <div className="bg-white rounded-2xl border border-gray-100 shadow-sm divide-y divide-gray-50">
@@ -236,17 +379,31 @@ export default function DashboardPage() {
           </div>
         </div>
 
+        {/* Recommended next step */}
         <div className="mb-8">
           <h2 className="text-lg font-bold mb-4" style={{ color: "#0f1f3d" }}>Recommended Next Step</h2>
           <div className="rounded-2xl p-6 flex flex-col sm:flex-row items-start sm:items-center gap-5" style={{ backgroundColor: "#0f1f3d" }}>
-            <div className="w-12 h-12 rounded-2xl flex items-center justify-center flex-shrink-0 text-2xl" style={{ backgroundColor: "rgba(45,138,78,0.25)" }}>🤖</div>
-            <div className="flex-1">
-              <p className="text-xs font-semibold mb-1" style={{ color: "rgba(255,255,255,0.5)" }}>{enrolledCourses.length > 0 ? "Continue where you left off" : "Great place to start"}</p>
-              <h3 className="text-base font-extrabold text-white mb-1">{enrolledCourses.length > 0 ? enrolledCourses[0].course_title : "AI Foundations"}</h3>
-              <p className="text-xs" style={{ color: "rgba(255,255,255,0.55)" }}>{enrolledCourses.length > 0 ? "Pick up from your next lesson" : "7 lessons · Beginner · KSh 1,500 — Built for the Kenyan job market."}</p>
+            <div className="w-12 h-12 rounded-2xl flex items-center justify-center flex-shrink-0 text-2xl" style={{ backgroundColor: "rgba(45,138,78,0.25)" }}>
+              {firstActive ? firstActive.icon : "🤖"}
             </div>
-            <Link href={enrolledCourses.length > 0 ? `/courses/${enrolledCourses[0].course_slug}/learn` : "/#courses"} className="flex-shrink-0 px-5 py-2.5 rounded-xl text-sm font-bold text-white hover:opacity-90" style={{ backgroundColor: "#2d8a4e" }}>
-              {enrolledCourses.length > 0 ? "Continue" : "Start Learning"}
+            <div className="flex-1">
+              <p className="text-xs font-semibold mb-1" style={{ color: "rgba(255,255,255,0.5)" }}>
+                {firstActive ? (firstActive.progressPct > 0 ? "Continue where you left off" : "Start your first lesson") : "Great place to start"}
+              </p>
+              <h3 className="text-base font-extrabold text-white mb-1">
+                {firstActive ? firstActive.course_title : "AI Foundations"}
+              </h3>
+              <p className="text-xs" style={{ color: "rgba(255,255,255,0.55)" }}>
+                {firstActive
+                  ? `${firstActive.completedLessons} of ${firstActive.totalLessons} lessons complete`
+                  : "7 lessons · Beginner · KSh 1,500 — Built for the Kenyan job market."}
+              </p>
+            </div>
+            <Link
+              href={firstActive ? `/courses/${firstActive.course_slug}/learn` : "/#courses"}
+              className="flex-shrink-0 px-5 py-2.5 rounded-xl text-sm font-bold text-white hover:opacity-90"
+              style={{ backgroundColor: "#2d8a4e" }}>
+              {firstActive ? "Continue" : "Start Learning"}
             </Link>
           </div>
         </div>
@@ -256,6 +413,7 @@ export default function DashboardPage() {
       {/* Right sidebar (xl screens only) */}
       <aside className="hidden xl:block w-72 flex-shrink-0 border-l overflow-y-auto" style={{ borderColor: "#e5e7eb", backgroundColor: "#ffffff" }}>
         <div className="p-5 flex flex-col gap-7">
+
           <div>
             <h3 className="text-sm font-bold mb-4" style={{ color: "#0f1f3d" }}>Talent Profile</h3>
             <div className="flex flex-col items-center gap-3">
@@ -306,6 +464,7 @@ export default function DashboardPage() {
               ))}
             </div>
           </div>
+
         </div>
       </aside>
     </div>
