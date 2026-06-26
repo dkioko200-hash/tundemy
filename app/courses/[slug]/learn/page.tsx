@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
@@ -344,293 +344,67 @@ function QuizComponent({ quizQuestions, onComplete, onFail }: {
 
 // ── Sandbox ───────────────────────────────────────────────────────────────────
 
-// ─── SANDBOX GRADING ENGINE ───────────────────────────────────────────────────
+// ── Sandbox + Project ─────────────────────────────────────────────────────────
 
-interface GradingResult {
+interface SandboxGradingResult {
   score: number;
-  grade: "A" | "B" | "C" | "F";
+  passed: boolean;
   feedback: string;
-  strengths: string[];
-  improvements: string[];
   rubricScores: { criterion: string; score: number; max: number; comment: string }[];
+  cached?: boolean;
 }
 
-function gradeSubmission(submission: string, sandboxTask: string, lessonNumber: number, _courseSlug: string): GradingResult {
-  const text = submission.trim();
-  const wordCount = text.split(/\s+/).filter(Boolean).length;
-  const sentences = text.split(/[.!?]+/).filter(s => s.trim().length > 10);
-  const hasStructure = /\n/.test(text) || text.includes("1.") || text.includes("-") || text.includes("•");
-  const hasSpecifics = /\d/.test(text) || text.match(/ksh|nairobi|kenya|business|customer|workflow|system|process/i);
-  const hasContext = wordCount > 40;
-  const hasActionableItems = text.match(/will|should|must|need to|plan to|going to|step|action|implement/i);
-  const isVague = wordCount < 20;
-  const isTooShort = wordCount < 15;
-
-  const rubrics: Record<number, { criterion: string; max: number; evaluate: () => { score: number; comment: string } }[]> = {
-    3: [
-      {
-        criterion: "System Context",
-        max: 25,
-        evaluate: () => {
-          const hasRole = /you are|act as|as a|role:|context:/i.test(text);
-          const hasIndustry = /restaurant|shop|business|company|agency|school|clinic|farm|hotel/i.test(text);
-          if (hasRole && hasIndustry) return { score: 25, comment: "Clear system context with role and industry defined" };
-          if (hasRole || hasIndustry) return { score: 15, comment: "Partial context — add both role and specific industry" };
-          return { score: 5, comment: "No system context defined — who is the AI advising?" };
-        },
-      },
-      {
-        criterion: "Task Specificity",
-        max: 25,
-        evaluate: () => {
-          const hasSpecificTask = /summarise|write|draft|analyse|create|generate|respond|translate|classify/i.test(text);
-          const isSpecific = wordCount > 30 && hasSpecificTask;
-          if (isSpecific) return { score: 25, comment: "Task is clearly and specifically defined" };
-          if (hasSpecificTask) return { score: 15, comment: "Task identified but could be more specific" };
-          return { score: 5, comment: "Task is too vague — what exactly should the AI do?" };
-        },
-      },
-      {
-        criterion: "Output Format",
-        max: 25,
-        evaluate: () => {
-          const hasFormat = /bullet|list|table|paragraph|words|format|structure|numbered|summary|report/i.test(text);
-          const hasLength = /\d+\s*(word|sentence|point|item|line)/i.test(text);
-          if (hasFormat && hasLength) return { score: 25, comment: "Output format and length both specified" };
-          if (hasFormat || hasLength) return { score: 15, comment: "Format partially specified — add length constraint" };
-          return { score: 5, comment: "No output format specified — how should the AI respond?" };
-        },
-      },
-      {
-        criterion: "Real-World Relevance",
-        max: 25,
-        evaluate: () => {
-          if (hasSpecifics && hasContext) return { score: 25, comment: "Grounded in a real, specific business context" };
-          if (hasSpecifics || hasContext) return { score: 15, comment: "Some real-world context present" };
-          return { score: 5, comment: "Too generic — apply this to a real business situation" };
-        },
-      },
-    ],
-    99: [
-      {
-        criterion: "Business Context Accuracy",
-        max: 25,
-        evaluate: () => {
-          const hasIndustry = /logistics|healthcare|retail|agriculture|banking|education|hospitality|clinic|hospital|school|farm|shop|hotel|transport|supermarket/i.test(text);
-          const hasKenya = /kenya|nairobi|mombasa|kisumu|nakuru|ksh|kes|mpesa|m-pesa|safaricom/i.test(text);
-          if (hasIndustry && hasKenya) return { score: 25, comment: "Response is grounded in a specific Kenyan business context" };
-          if (hasIndustry || hasKenya) return { score: 15, comment: "Partial context — add specific Kenyan business details" };
-          return { score: 5, comment: "Too generic — choose a specific Kenyan business type and ground your response in how it actually operates" };
-        },
-      },
-      {
-        criterion: "Specificity and Actionability",
-        max: 25,
-        evaluate: () => {
-          const hasTools = /claude|chatgpt|gpt|gemini|whatsapp|excel|google|zapier|notion|slack/i.test(text);
-          const hasNumbers = /ksh|kes|\d+,\d+|\d+\s*(hour|minute|day|week|month)|%/i.test(text);
-          if (hasTools && hasNumbers) return { score: 25, comment: "Specific tools named with realistic KSh values and time estimates" };
-          if (hasTools || hasNumbers) return { score: 15, comment: "Add both specific tool names and realistic KSh or time values" };
-          return { score: 5, comment: "Too vague — name specific AI tools and provide realistic cost or time savings in KSh" };
-        },
-      },
-      {
-        criterion: "Implementation Realism",
-        max: 20,
-        evaluate: () => {
-          const hasRoadmap = /week 1|month 1|month 3|90.day|first step|day one|roadmap|phase/i.test(text);
-          const hasConstraints = /budget|cost|staff|team|training|internet|connectivity|data|resource/i.test(text);
-          if (hasRoadmap && hasConstraints) return { score: 20, comment: "Roadmap is structured and accounts for real Kenyan business constraints" };
-          if (hasRoadmap || hasConstraints) return { score: 12, comment: "Roadmap present but add real implementation constraints" };
-          return { score: 4, comment: "Add a concrete 90-day roadmap with specific actions accounting for Kenyan business realities" };
-        },
-      },
-      {
-        criterion: "Risk Identification",
-        max: 15,
-        evaluate: () => {
-          const hasRisk = /risk|challenge|concern|privacy|bias|error|hallucin|data|compliance|trust|accuracy/i.test(text);
-          const hasMitigation = /mitigat|address|prevent|reduce|manage|handle|ensure|monitor|verify/i.test(text);
-          if (hasRisk && hasMitigation) return { score: 15, comment: "Risks identified with practical mitigations" };
-          if (hasRisk) return { score: 9, comment: "Risks identified — add specific mitigation strategies" };
-          return { score: 3, comment: "No risks identified — add at least 2 specific risks with mitigations" };
-        },
-      },
-      {
-        criterion: "Professional Quality",
-        max: 15,
-        evaluate: () => {
-          const hasStructure = /executive summary|current state|opportunities|roadmap|risk|section|\d\.|•|-\s/i.test(text);
-          const isSubstantial = wordCount > 150;
-          if (hasStructure && isSubstantial) return { score: 15, comment: "Professional document structure and substance — ready for a CEO" };
-          if (hasStructure || isSubstantial) return { score: 9, comment: "Add clear section headings and ensure sufficient depth" };
-          return { score: 3, comment: "Structure and length need significant improvement before this could go to a CEO" };
-        },
-      },
-    ],
-    7: [
-      {
-        criterion: "Specific Task Identified",
-        max: 25,
-        evaluate: () => {
-          const hasTask = /email|report|summary|data|customer|meeting|social|content|invoice|schedule/i.test(text);
-          if (hasTask && wordCount > 20) return { score: 25, comment: "Concrete task clearly identified" };
-          if (hasTask) return { score: 15, comment: "Task mentioned but needs more detail" };
-          return { score: 5, comment: "No specific task identified" };
-        },
-      },
-      {
-        criterion: "Tool Selection with Reasoning",
-        max: 25,
-        evaluate: () => {
-          const hasTool = /claude|chatgpt|gemini|gpt|ai tool|midjourney|zapier|make|n8n/i.test(text);
-          const hasReason = /because|since|as it|which|that|for|to help/i.test(text);
-          if (hasTool && hasReason) return { score: 25, comment: "Tool chosen with clear reasoning" };
-          if (hasTool) return { score: 15, comment: "Tool named but reasoning not explained" };
-          return { score: 5, comment: "No specific AI tool identified" };
-        },
-      },
-      {
-        criterion: "Measurable Success Criteria",
-        max: 25,
-        evaluate: () => {
-          const hasMeasure = /minute|hour|time|faster|less|more|save|reduce|increase|\d+%|\d+ (hour|min|day)/i.test(text);
-          if (hasMeasure) return { score: 25, comment: "Clear measurable outcome defined" };
-          return { score: 10, comment: "Add a specific measurable goal — e.g. save 30 minutes per day" };
-        },
-      },
-      {
-        criterion: "Concrete Next Action",
-        max: 25,
-        evaluate: () => {
-          const hasAction = /tomorrow|today|this week|will|going to|first step|start by|begin/i.test(text);
-          const isSpecific = wordCount > 30;
-          if (hasAction && isSpecific) return { score: 25, comment: "Specific next action clearly stated" };
-          if (hasAction) return { score: 15, comment: "Next action mentioned but vague" };
-          return { score: 5, comment: "No concrete next action defined" };
-        },
-      },
-    ],
-  };
-
-  const defaultRubric = [
-    {
-      criterion: "Depth and Completeness",
-      max: 30,
-      evaluate: () => {
-        if (isTooShort) return { score: 3, comment: "Response is too short to demonstrate understanding" };
-        if (wordCount > 80) return { score: 30, comment: "Thorough and complete response" };
-        if (wordCount > 40) return { score: 20, comment: "Good depth — could expand further" };
-        return { score: 10, comment: "Needs more depth and detail" };
-      },
-    },
-    {
-      criterion: "Specificity and Context",
-      max: 30,
-      evaluate: () => {
-        if (hasSpecifics && hasContext) return { score: 30, comment: "Well-grounded with specific details and context" };
-        if (hasSpecifics || hasContext) return { score: 18, comment: "Some specifics present — add more real-world context" };
-        return { score: 6, comment: "Too generic — add specific examples and context" };
-      },
-    },
-    {
-      criterion: "Structure and Clarity",
-      max: 20,
-      evaluate: () => {
-        if (hasStructure && sentences.length >= 3) return { score: 20, comment: "Well-structured and clearly written" };
-        if (hasStructure || sentences.length >= 2) return { score: 12, comment: "Reasonably clear — improve structure with bullet points or numbered steps" };
-        return { score: 4, comment: "Improve structure — use numbered steps or bullet points" };
-      },
-    },
-    {
-      criterion: "Actionability",
-      max: 20,
-      evaluate: () => {
-        if (hasActionableItems && !isVague) return { score: 20, comment: "Response is practical and actionable" };
-        if (hasActionableItems) return { score: 12, comment: "Some actionable elements — be more concrete" };
-        return { score: 4, comment: "Add specific actions — what would someone actually do?" };
-      },
-    },
-  ];
-
-  const activeRubric = rubrics[lessonNumber] || defaultRubric;
-  const rubricScores = activeRubric.map(r => {
-    const result = r.evaluate();
-    return { criterion: r.criterion, score: result.score, max: r.max, comment: result.comment };
-  });
-
-  const totalScore = Math.min(100, rubricScores.reduce((sum, r) => sum + r.score, 0));
-  let finalScore = totalScore;
-  if (isTooShort) finalScore = Math.min(finalScore, 25);
-  if (isVague && wordCount < 30) finalScore = Math.min(finalScore, 45);
-
-  const grade = finalScore >= 85 ? "A" : finalScore >= 70 ? "B" : finalScore >= 50 ? "C" : "F";
-  const strengths = rubricScores.filter(r => r.score >= r.max * 0.8).map(r => r.comment);
-  const improvements = rubricScores.filter(r => r.score < r.max * 0.6).map(r => r.comment);
-
-  const feedbackMap: Record<string, string> = {
-    A: "Excellent work. Your response demonstrates a strong grasp of the concept and applies it with specificity and structure. This is the standard of thinking employers look for.",
-    B: "Good response. You have understood the core task and applied it reasonably well. A few refinements would make this professional-grade.",
-    C: "Partial credit. You have made a start but the response lacks the depth, specificity, or structure needed to demonstrate real competence. Review the lesson notes and try again.",
-    F: "This response needs significant improvement. It is either too short, too vague, or does not address the task. Re-read the task carefully and write a more complete response.",
-  };
-
-  return {
-    score: Math.round(finalScore),
-    grade,
-    feedback: feedbackMap[grade],
-    strengths: strengths.length > 0 ? strengths : ["You attempted the task"],
-    improvements: improvements.length > 0 ? improvements : ["Keep refining your response"],
-    rubricScores,
-  };
+interface ParsedTask {
+  id: number;
+  label: string;
+  body: string;
 }
 
-function SandboxComponent({ sandboxTask, lessonNumber, courseSlug, onComplete }: {
-  sandboxTask: string;
-  lessonNumber: number;
-  courseSlug: string;
-  onComplete: () => void;
-}) {
-  const [submission, setSubmission] = useState("");
-  const [result, setResult] = useState<GradingResult | null>(null);
-  const [grading, setGrading] = useState(false);
+function parseTasks(sandboxTask: string): ParsedTask[] {
+  const parenRe = /\((\d+)\)\s*([\s\S]*?)(?=\s*\(\d+\)|$)/g;
+  const parenMatches = [...sandboxTask.matchAll(parenRe)];
+  if (parenMatches.length >= 2) {
+    return parenMatches.map((m) => {
+      const body = m[2].trim().replace(/,\s*$/, "");
+      const colonIdx = body.indexOf(":");
+      const rawLabel = colonIdx > 0 && colonIdx < 50 ? body.slice(0, colonIdx).trim() : body.split(/\s+/).slice(0, 5).join(" ");
+      return { id: parseInt(m[1]), label: `Task ${m[1]}: ${rawLabel}`, body };
+    });
+  }
+  const delivRe = /DELIVERABLE\s+(\d+)\s*[--]\s*([\s\S]*?)(?=DELIVERABLE\s+\d|$)/gi;
+  const delivMatches = [...sandboxTask.matchAll(delivRe)];
+  if (delivMatches.length >= 2) {
+    return delivMatches.map((m) => {
+      const body = m[2].trim();
+      const colonIdx = body.indexOf(":");
+      const rawLabel = colonIdx > 0 && colonIdx < 50 ? body.slice(0, colonIdx).trim() : body.split(/\s+/).slice(0, 5).join(" ");
+      return { id: parseInt(m[1]), label: `Deliverable ${m[1]}: ${rawLabel}`, body };
+    });
+  }
+  return [{ id: 1, label: "Your Response", body: sandboxTask }];
+}
 
-  const handleSubmit = () => {
-    if (!submission.trim() || grading) return;
-    setGrading(true);
-    setTimeout(() => {
-      const gradingResult = gradeSubmission(submission, sandboxTask, lessonNumber, courseSlug);
-      setResult(gradingResult);
-      setGrading(false);
-      if (gradingResult.score >= 70) {
-        setTimeout(() => onComplete(), 2000);
-      }
-    }, 1800);
-  };
-
-  const handleRetry = () => {
-    setResult(null);
-    setSubmission("");
-  };
-
-  if (result) {
-    return (
-      <div className="space-y-4">
-        <div className={`rounded-2xl p-6 text-center ${result.score >= 70 ? "bg-green-50 border-2 border-[#2d8a4e]" : result.score >= 50 ? "bg-orange-50 border-2 border-orange-400" : "bg-red-50 border-2 border-red-400"}`}>
-          <div className={`text-6xl font-black ${result.score >= 70 ? "text-[#2d8a4e]" : result.score >= 50 ? "text-orange-500" : "text-red-500"}`}>
-            {result.score}
-          </div>
-          <div className="text-gray-500 text-sm mt-1">out of 100 · Grade {result.grade}</div>
-          <div className={`mt-3 font-bold text-sm ${result.score >= 70 ? "text-[#2d8a4e]" : "text-red-500"}`}>
-            {result.score >= 70 ? "✓ Passed — well done" : "✗ Score 70 or above to continue"}
-          </div>
+function GradingResultDisplay({ result, onRetry }: { result: SandboxGradingResult; onRetry?: () => void }) {
+  const score = result.score;
+  const passed = result.passed ?? score >= 70;
+  const border = passed ? "border-[#2d8a4e]" : score >= 50 ? "border-orange-400" : "border-red-400";
+  const bg = passed ? "bg-green-50" : score >= 50 ? "bg-orange-50" : "bg-red-50";
+  const scoreColor = passed ? "text-[#2d8a4e]" : score >= 50 ? "text-orange-500" : "text-red-500";
+  return (
+    <div className="space-y-4">
+      <div className={`rounded-2xl p-6 text-center border-2 ${bg} ${border}`}>
+        <div className={`text-6xl font-black ${scoreColor}`}>{score}</div>
+        <div className="text-gray-500 text-sm mt-1">out of 100</div>
+        <div className={`mt-3 font-bold text-sm ${passed ? "text-[#2d8a4e]" : "text-red-500"}`}>
+          {passed ? "Passed - well done" : "Score 70 or above to continue"}
         </div>
-
-        <div className="bg-white border border-gray-200 rounded-xl p-4">
-          <p className="font-semibold text-[#0f1f3d] mb-2 text-sm">Overall Feedback</p>
-          <p className="text-gray-600 text-sm leading-relaxed">{result.feedback}</p>
-        </div>
-
+        {result.cached && <div className="text-xs text-gray-400 mt-1">Cached result</div>}
+      </div>
+      <div className="bg-white border border-gray-200 rounded-xl p-4">
+        <p className="font-semibold text-[#0f1f3d] mb-2 text-sm">Feedback</p>
+        <p className="text-gray-600 text-sm leading-relaxed">{result.feedback}</p>
+      </div>
+      {result.rubricScores && result.rubricScores.length > 0 && (
         <div className="bg-white border border-gray-200 rounded-xl p-4">
           <p className="font-semibold text-[#0f1f3d] mb-3 text-sm">Rubric Breakdown</p>
           <div className="space-y-3">
@@ -641,39 +415,68 @@ function SandboxComponent({ sandboxTask, lessonNumber, courseSlug, onComplete }:
                   <span className="text-xs font-bold text-[#0f1f3d]">{r.score}/{r.max}</span>
                 </div>
                 <div className="h-2 bg-gray-100 rounded-full overflow-hidden">
-                  <div className={`h-full rounded-full ${r.score >= r.max * 0.8 ? "bg-[#2d8a4e]" : r.score >= r.max * 0.5 ? "bg-orange-400" : "bg-red-400"}`} style={{ width: `${(r.score / r.max) * 100}%` }} />
+                  <div
+                    className={r.score >= r.max * 0.8 ? "h-full rounded-full bg-[#2d8a4e]" : r.score >= r.max * 0.5 ? "h-full rounded-full bg-orange-400" : "h-full rounded-full bg-red-400"}
+                    style={{ width: `${(r.score / r.max) * 100}%` }}
+                  />
                 </div>
                 <p className="text-xs text-gray-500 mt-1">{r.comment}</p>
               </div>
             ))}
           </div>
         </div>
+      )}
+      {onRetry && (
+        <button onClick={onRetry} className="w-full border-2 border-[#0f1f3d] text-[#0f1f3d] py-3 rounded-xl font-semibold text-sm hover:bg-gray-50 transition-colors">
+          Revise and Resubmit
+        </button>
+      )}
+    </div>
+  );
+}
 
-        {result.strengths.length > 0 && (
-          <div className="bg-green-50 rounded-xl p-4">
-            <p className="font-semibold text-[#2d8a4e] text-sm mb-2">What you did well</p>
-            {result.strengths.map((s, i) => (
-              <p key={i} className="text-sm text-gray-700 flex gap-2 mb-1"><span className="text-[#2d8a4e] font-bold">✓</span>{s}</p>
-            ))}
-          </div>
-        )}
+function SandboxComponent({ sandboxTask, lessonNumber, courseSlug, onComplete }: {
+  sandboxTask: string;
+  lessonNumber: number;
+  courseSlug: string;
+  onComplete: () => void;
+}) {
+  const tasks = parseTasks(sandboxTask);
+  const [answers, setAnswers] = useState<string[]>(() => tasks.map(() => ""));
+  const [result, setResult] = useState<SandboxGradingResult | null>(null);
+  const [grading, setGrading] = useState(false);
+  const [apiError, setApiError] = useState<string | null>(null);
 
-        {result.improvements.length > 0 && (
-          <div className="bg-orange-50 rounded-xl p-4">
-            <p className="font-semibold text-orange-700 text-sm mb-2">Areas to improve</p>
-            {result.improvements.map((imp, i) => (
-              <p key={i} className="text-sm text-gray-700 flex gap-2 mb-1"><span className="text-orange-500 font-bold">→</span>{imp}</p>
-            ))}
-          </div>
-        )}
+  const wordCounts = answers.map((a) => a.trim().split(/\s+/).filter(Boolean).length);
+  const allMeetMin = wordCounts.every((wc) => wc >= 40);
+  const hasContent = answers.every((a) => a.trim().length > 0);
 
-        {result.score < 70 && (
-          <button onClick={handleRetry} className="w-full border-2 border-[#0f1f3d] text-[#0f1f3d] py-3 rounded-xl font-semibold text-sm hover:bg-gray-50 transition-colors">
-            Revise and Resubmit
-          </button>
-        )}
-      </div>
-    );
+  const handleSubmit = async () => {
+    if (grading) return;
+    setGrading(true);
+    setApiError(null);
+    const combined = tasks.map((t, i) => `Task ${t.id}:\n${answers[i]}`).join("\n\n---\n\n");
+    try {
+      const res = await fetch("/api/grade-sandbox", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ courseSlug, lessonNumber, sandboxTask, submission: combined }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error((data as { error?: string }).error || "Grading failed");
+      setResult(data as SandboxGradingResult);
+      if ((data as SandboxGradingResult).passed) setTimeout(() => onComplete(), 2000);
+    } catch (err) {
+      setApiError(err instanceof Error ? err.message : "Grading failed. Please try again.");
+    } finally {
+      setGrading(false);
+    }
+  };
+
+  const handleRetry = () => { setResult(null); setAnswers(tasks.map(() => "")); setApiError(null); };
+
+  if (result) {
+    return <GradingResultDisplay result={result} onRetry={result.passed ? undefined : handleRetry} />;
   }
 
   return (
@@ -682,38 +485,88 @@ function SandboxComponent({ sandboxTask, lessonNumber, courseSlug, onComplete }:
         <p className="text-blue-300 text-xs font-bold uppercase tracking-wider mb-2">Your Task</p>
         <p className="text-white text-sm leading-relaxed">{sandboxTask}</p>
       </div>
+      {apiError && (
+        <div className="bg-red-50 border border-red-200 rounded-xl p-3">
+          <p className="text-red-700 text-sm">{apiError}</p>
+        </div>
+      )}
+      {tasks.map((task, i) => (
+        <div key={task.id} className="space-y-2">
+          {tasks.length > 1 && (
+            <label className="block text-sm font-bold text-[#0f1f3d]">{task.label}</label>
+          )}
+          <textarea
+            value={answers[i]}
+            onChange={(e) => { const next = [...answers]; next[i] = e.target.value; setAnswers(next); }}
+            placeholder="Write your response here. Be specific - generic answers score low."
+            rows={tasks.length === 1 ? 10 : 7}
+            className="w-full border border-gray-200 rounded-xl p-4 text-sm resize-none focus:outline-none focus:ring-2 focus:ring-[#2d8a4e] focus:border-transparent"
+          />
+          <div className="flex justify-between items-center">
+            <span className={`text-xs font-medium ${wordCounts[i] >= 40 ? "text-[#2d8a4e]" : "text-gray-400"}`}>
+              {wordCounts[i]} words {wordCounts[i] >= 40 ? "checked" : "(min 40)"}
+            </span>
+          </div>
+        </div>
+      ))}
       <div className="bg-amber-50 border border-amber-200 rounded-xl p-3">
-        <p className="text-amber-800 text-xs">Your response will be graded on depth, specificity, structure, and actionability. Aim for at least 70 to pass.</p>
-      </div>
-      <textarea
-        value={submission}
-        onChange={(e) => setSubmission(e.target.value)}
-        placeholder="Write your response here. Be specific — generic answers score low."
-        rows={10}
-        className="w-full border border-gray-200 rounded-xl p-4 text-sm resize-none focus:outline-none focus:ring-2 focus:ring-[#2d8a4e] focus:border-transparent"
-      />
-      <div className="flex justify-between items-center">
-        <span className="text-xs text-gray-400">{submission.trim().split(/\s+/).filter(Boolean).length} words</span>
-        <span className="text-xs text-gray-400">Minimum 40 words recommended</span>
+        <p className="text-amber-800 text-xs">Graded by Claude AI on depth, specificity, structure, and actionability. Score 70+ to pass. Max 3 attempts per 24 hours.</p>
       </div>
       <button
         onClick={handleSubmit}
-        disabled={!submission.trim() || grading || submission.trim().split(/\s+/).length < 5}
+        disabled={!hasContent || !allMeetMin || grading}
         className="w-full bg-[#0f1f3d] text-white py-3 rounded-xl font-semibold text-sm disabled:opacity-40 disabled:cursor-not-allowed hover:bg-[#162d54] transition-colors flex items-center justify-center gap-2"
       >
         {grading ? (
-          <><svg className="animate-spin h-4 w-4" viewBox="0 0 24 24" fill="none"><circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"/><path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"/></svg>Grading your response...</>
-        ) : "Submit for Grading"}
+          <>
+            <svg className="animate-spin h-4 w-4" viewBox="0 0 24 24" fill="none">
+              <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+              <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+            </svg>
+            Grading with Claude AI...
+          </>
+        ) : tasks.length > 1 ? `Submit All ${tasks.length} Tasks for Grading` : "Submit for Grading"}
       </button>
     </div>
   );
 }
 
-// ── Project ───────────────────────────────────────────────────────────────────
-
 function ProjectComponent({ content, sandboxTask, onComplete }: { content: string; sandboxTask?: string; onComplete: () => void }) {
-  const [submitted, setSubmitted] = useState(false);
-  const [work, setWork] = useState("");
+  const tasks = sandboxTask ? parseTasks(sandboxTask) : [];
+  const effectiveTasks = tasks.length > 0 ? tasks : [{ id: 1, label: "Your Response", body: content }];
+  const [answers, setAnswers] = useState<string[]>(() => effectiveTasks.map(() => ""));
+  const [result, setResult] = useState<SandboxGradingResult | null>(null);
+  const [grading, setGrading] = useState(false);
+  const [apiError, setApiError] = useState<string | null>(null);
+
+  const wordCounts = answers.map((a) => a.trim().split(/\s+/).filter(Boolean).length);
+  const allMeetMin = wordCounts.every((wc) => wc >= 40);
+  const hasContent = answers.every((a) => a.trim().length > 0);
+
+  const handleSubmit = async () => {
+    if (grading) return;
+    setGrading(true);
+    setApiError(null);
+    const combined = effectiveTasks.map((t, i) => `Task ${t.id}:\n${answers[i]}`).join("\n\n---\n\n");
+    const taskContext = sandboxTask || content;
+    try {
+      const res = await fetch("/api/grade-sandbox", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ courseSlug: "project", lessonNumber: 99, sandboxTask: taskContext, submission: combined }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error((data as { error?: string }).error || "Grading failed");
+      setResult(data as SandboxGradingResult);
+      if ((data as SandboxGradingResult).passed) setTimeout(() => onComplete(), 2000);
+    } catch (err) {
+      setApiError(err instanceof Error ? err.message : "Grading failed. Please try again.");
+    } finally {
+      setGrading(false);
+    }
+  };
+
+  const handleRetry = () => { setResult(null); setAnswers(effectiveTasks.map(() => "")); setApiError(null); };
 
   return (
     <div className="space-y-5">
@@ -725,29 +578,56 @@ function ProjectComponent({ content, sandboxTask, onComplete }: { content: strin
         <p className="text-sm text-gray-700 leading-relaxed mb-5">{content}</p>
         {sandboxTask && (
           <div className="rounded-xl p-4" style={{ backgroundColor: "rgba(147,51,234,0.05)", border: "1px solid rgba(147,51,234,0.15)" }}>
-            <p className="text-xs font-bold mb-2" style={{ color: "#9333ea" }}>Your task:</p>
+            <p className="text-xs font-bold mb-2" style={{ color: "#9333ea" }}>Your tasks:</p>
             <p className="text-sm text-gray-700 leading-relaxed">{sandboxTask}</p>
           </div>
         )}
       </div>
-      {!submitted ? (
-        <div className="space-y-3">
-          <textarea value={work} onChange={(e) => setWork(e.target.value)}
-            placeholder="Paste your project work, a link to your output, or describe what you built…"
-            rows={6} className="w-full px-4 py-3 text-sm border rounded-2xl outline-none resize-none text-gray-700 font-mono"
-            style={{ borderColor: "#e5e7eb", lineHeight: "1.65" }} />
-          <button disabled={!work.trim()} onClick={() => setSubmitted(true)}
-            className="w-full py-3.5 rounded-xl text-sm font-bold text-white transition-all hover:opacity-90 disabled:opacity-50"
-            style={{ backgroundColor: "#9333ea" }}>
-            Submit Project
-          </button>
-        </div>
+      {result ? (
+        <GradingResultDisplay result={result} onRetry={result.passed ? undefined : handleRetry} />
       ) : (
-        <div className="rounded-2xl p-5" style={{ backgroundColor: "rgba(147,51,234,0.07)", border: "1px solid rgba(147,51,234,0.2)" }}>
-          <p className="font-bold text-sm" style={{ color: "#9333ea" }}>Project submitted! Great work.</p>
-          <p className="text-xs text-gray-500 mt-1">Your work has been recorded. Instructors review submissions weekly.</p>
-          <button onClick={onComplete} className="mt-4 px-5 py-2.5 rounded-xl text-sm font-bold text-white transition-all hover:opacity-90" style={{ backgroundColor: "#9333ea" }}>
-            Continue →
+        <div className="space-y-4">
+          {apiError && (
+            <div className="bg-red-50 border border-red-200 rounded-xl p-3">
+              <p className="text-red-700 text-sm">{apiError}</p>
+            </div>
+          )}
+          {effectiveTasks.map((task, i) => (
+            <div key={task.id} className="space-y-2">
+              {effectiveTasks.length > 1 && (
+                <label className="block text-sm font-bold" style={{ color: "#9333ea" }}>{task.label}</label>
+              )}
+              <textarea
+                value={answers[i]}
+                onChange={(e) => { const next = [...answers]; next[i] = e.target.value; setAnswers(next); }}
+                placeholder="Paste your work, describe what you built, or write your response here..."
+                rows={7}
+                className="w-full px-4 py-3 text-sm border rounded-2xl outline-none resize-none text-gray-700"
+                style={{ borderColor: "#e5e7eb", lineHeight: "1.65" }}
+              />
+              <span className={`text-xs font-medium ${wordCounts[i] >= 40 ? "text-[#2d8a4e]" : "text-gray-400"}`}>
+                {wordCounts[i]} words {wordCounts[i] >= 40 ? "checked" : "(min 40)"}
+              </span>
+            </div>
+          ))}
+          <div className="bg-amber-50 border border-amber-200 rounded-xl p-3">
+            <p className="text-amber-800 text-xs">Graded by Claude AI. Score 70+ to pass. Max 3 attempts per 24 hours.</p>
+          </div>
+          <button
+            disabled={!hasContent || !allMeetMin || grading}
+            onClick={handleSubmit}
+            className="w-full py-3.5 rounded-xl text-sm font-bold text-white transition-all hover:opacity-90 disabled:opacity-50 flex items-center justify-center gap-2"
+            style={{ backgroundColor: "#9333ea" }}
+          >
+            {grading ? (
+              <>
+                <svg className="animate-spin h-4 w-4" viewBox="0 0 24 24" fill="none">
+                  <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                  <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+                </svg>
+                Grading with Claude AI...
+              </>
+            ) : effectiveTasks.length > 1 ? `Submit All ${effectiveTasks.length} Deliverables` : "Submit for Grading"}
           </button>
         </div>
       )}
