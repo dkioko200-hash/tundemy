@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
 import { useRouter, useParams } from "next/navigation";
 import { getCourseContentBySlug, type Lesson, type QuizQuestion, type LessonTheory, type CourseCapstone } from "@/lib/course-content";
+import { WhatsAppSimulatorSandbox } from "@/components/simulators/WhatsAppSimulator";
 import { createClient } from "@/lib/supabase";
 
 // ── Icons ─────────────────────────────────────────────────────────────────────
@@ -1762,7 +1763,17 @@ export default function LearnPage() {
                     )}
                     {currentLesson.type === "sandbox" && (
                       <div className="mt-6">
-                        <SandboxComponent sandboxTask={currentLesson.sandboxTask ?? ""} lessonNumber={currentLesson.lessonNumber} courseSlug={slug} onComplete={handleMarkComplete} />
+                        {currentLesson.simulatorType?.startsWith("whatsapp") ? (
+                          <WhatsAppSimulatorSandbox
+                            variant={currentLesson.simulatorType.replace("whatsapp-", "") as "setup" | "types" | "webhook"}
+                            sandboxTask={currentLesson.sandboxTask ?? ""}
+                            lessonNumber={currentLesson.lessonNumber}
+                            courseSlug={slug}
+                            onComplete={handleMarkComplete}
+                          />
+                        ) : (
+                          <SandboxComponent sandboxTask={currentLesson.sandboxTask ?? ""} lessonNumber={currentLesson.lessonNumber} courseSlug={slug} onComplete={handleMarkComplete} />
+                        )}
                       </div>
                     )}
                     {currentLesson.type === "project" && (
