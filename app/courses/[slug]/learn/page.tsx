@@ -731,10 +731,14 @@ function SandboxComponent({ sandboxTask, lessonNumber, courseSlug, onComplete }:
   const [result, setResult] = useState<SandboxGradingResult | null>(null);
   const [grading, setGrading] = useState(false);
   const [apiError, setApiError] = useState<string | null>(null);
+  const [howOpen, setHowOpen] = useState(true);
+  const [confirmed, setConfirmed] = useState(false);
 
   const wordCounts = answers.map((a) => a.trim().split(/\s+/).filter(Boolean).length);
+  const totalWords = wordCounts.reduce((s, c) => s + c, 0);
   const allMeetMin = wordCounts.every((wc) => wc >= 40);
   const hasContent = answers.every((a) => a.trim().length > 0);
+  const canSubmit = hasContent && allMeetMin && confirmed;
 
   const handleSubmit = async () => {
     if (grading) return;
@@ -750,7 +754,17 @@ function SandboxComponent({ sandboxTask, lessonNumber, courseSlug, onComplete }:
     }
   };
 
-  const handleRetry = () => { setResult(null); setAnswers(tasks.map(() => "")); setApiError(null); };
+  const handleRetry = () => {
+    setResult(null);
+    setAnswers(tasks.map(() => ""));
+    setApiError(null);
+    setConfirmed(false);
+    setHowOpen(true);
+  };
+
+  const handleChange = (i: number, value: string) => {
+    const next = [...answers]; next[i] = value; setAnswers(next);
+  };
 
   if (result) {
     return (
@@ -762,39 +776,268 @@ function SandboxComponent({ sandboxTask, lessonNumber, courseSlug, onComplete }:
     );
   }
 
-  const handleChange = (i: number, value: string) => {
-    const next = [...answers]; next[i] = value; setAnswers(next);
-  };
+  const submitReady = hasContent && allMeetMin;
 
   return (
-    <div className="space-y-6">
-      {apiError && (
-        <div className="bg-red-50 border border-red-200 rounded-xl p-3">
-          <p className="text-red-700 text-sm">{apiError}</p>
-        </div>
-      )}
-      <TaskCards
-        tasks={tasks}
-        answers={answers}
-        wordCounts={wordCounts}
-        isMulti={isMulti}
-        onChange={handleChange}
-        accentColor="#2d8a4e"
-      />
-      <div className="bg-amber-50 border border-amber-200 rounded-xl p-3">
-        <p className="text-amber-800 text-xs">
-          Graded by Claude AI on depth, specificity, structure, and actionability. Score 80+ to pass. Max 3 attempts per 24 hours.
-        </p>
+    <div className="space-y-4">
+
+      {/* ── PANEL 1: HOW THIS WORKS ───────────────────────────────── */}
+      <div className="rounded-2xl overflow-hidden" style={{ border: "2px solid #0f1f3d" }}>
+        <button
+          onClick={() => setHowOpen(!howOpen)}
+          className="w-full flex items-center justify-between px-5 py-4 text-left transition-opacity hover:opacity-90"
+          style={{ backgroundColor: "#0f1f3d" }}
+        >
+          <div className="flex items-center gap-3">
+            <span className="text-lg">📋</span>
+            <div>
+              <p className="text-white font-bold text-sm">How This Works</p>
+              <p className="text-blue-300 text-xs">
+                {tasks.length} task{tasks.length > 1 ? "s" : ""} to complete · read this before you start
+              </p>
+            </div>
+          </div>
+          <span
+            className="text-white text-lg leading-none transition-transform duration-200"
+            style={{ display: "inline-block", transform: howOpen ? "rotate(180deg)" : "rotate(0deg)" }}
+          >
+            ▾
+          </span>
+        </button>
+
+        {howOpen && (
+          <div className="p-5 space-y-5 bg-white">
+
+            {/* Steps */}
+            <div>
+              <p className="text-[10px] font-bold uppercase tracking-widest text-gray-400 mb-3">Your tasks</p>
+              <div className="space-y-3">
+                {tasks.map((task, i) => (
+                  <div key={task.id} className="flex items-start gap-3">
+                    <div
+                      className="w-6 h-6 rounded-full flex-shrink-0 flex items-center justify-center text-white text-xs font-bold mt-0.5"
+                      style={{ backgroundColor: "#0f1f3d" }}
+                    >
+                      {i + 1}
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <p className="text-sm font-semibold text-gray-800 mb-0.5">
+                        {isMulti ? task.label : "Your Task"}
+                      </p>
+                      <p className="text-xs text-gray-500 leading-relaxed">
+                        {task.body.slice(0, 220)}{task.body.length > 220 ? "…" : ""}
+                      </p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* What good looks like */}
+            <div className="border-t border-gray-100 pt-4">
+              <p className="text-[10px] font-bold uppercase tracking-widest text-gray-400 mb-3">What a correct submission looks like</p>
+              <ul className="space-y-2">
+                {[
+                  "Specific numbers, names, or examples — not just general statements",
+                  "Your reasoning — explain WHY, not just WHAT",
+                  isMulti ? "Every task answered separately, in order" : "The full task answered, not just part of it",
+                  "Minimum 40 words per task — depth is rewarded, padding is not",
+                ].map((tip, i) => (
+                  <li key={i} className="flex items-start gap-2 text-xs text-gray-600">
+                    <span className="font-bold flex-shrink-0" style={{ color: "#2d8a4e" }}>✓</span>
+                    <span>{tip}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Common mistakes */}
+            <div
+              className="rounded-xl p-4"
+              style={{ backgroundColor: "rgba(187,0,0,0.03)", border: "1px solid rgba(187,0,0,0.12)" }}
+            >
+              <p className="text-[10px] font-bold uppercase tracking-widest mb-3" style={{ color: "#bb0000" }}>
+                3 common mistakes that cause low scores
+              </p>
+              <div className="space-y-3">
+                {[
+                  {
+                    mistake: "Being too vague",
+                    fix: `"AI can help with data" scores low. "AI can group 3,200 records by county and flag spoilage above 5% in under a minute" scores high.`,
+                  },
+                  {
+                    mistake: "Skipping part of a task",
+                    fix: `If a task asks for two things (a rate AND a recommendation), both must be answered. Half answers earn half points.`,
+                  },
+                  {
+                    mistake: "Restating the question instead of answering it",
+                    fix: `Copying the task text back without answering earns zero. Claude AI grades the substance of your answer, not its length.`,
+                  },
+                ].map((item, i) => (
+                  <div key={i} className="flex items-start gap-2.5">
+                    <span className="text-xs font-bold flex-shrink-0 mt-0.5" style={{ color: "#bb0000" }}>✕</span>
+                    <div>
+                      <p className="text-xs font-semibold text-gray-700">{item.mistake}</p>
+                      <p className="text-xs text-gray-500 leading-relaxed mt-0.5">{item.fix}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+          </div>
+        )}
       </div>
-      <button
-        onClick={handleSubmit}
-        disabled={!hasContent || !allMeetMin || grading}
-        className="w-full bg-[#0f1f3d] text-white py-3 rounded-xl font-semibold text-sm disabled:opacity-40 disabled:cursor-not-allowed hover:bg-[#162d54] transition-colors flex items-center justify-center gap-2"
+
+      {/* ── PANEL 2: TRY IT ──────────────────────────────────────── */}
+      <div className="rounded-2xl overflow-hidden" style={{ border: "2px solid #2d8a4e" }}>
+        <div className="px-5 py-4 flex items-center gap-3" style={{ backgroundColor: "#2d8a4e" }}>
+          <span className="text-lg">✍️</span>
+          <div>
+            <p className="text-white font-bold text-sm">Try It — Write Your Answers</p>
+            <p className="text-green-100 text-xs">
+              {isMulti ? `${tasks.length} tasks below — answer each one in its own box` : "Write your full answer in the box below"}
+            </p>
+          </div>
+        </div>
+
+        <div className="p-5 space-y-7 bg-white">
+          {tasks.map((task, i) => (
+            <div key={task.id} className="space-y-3">
+              {isMulti && (
+                <p className="text-sm font-bold" style={{ color: "#2d8a4e" }}>{task.label}</p>
+              )}
+
+              {/* Task description */}
+              <div className="rounded-xl p-4" style={{ backgroundColor: "#0f1f3d" }}>
+                {!isMulti && (
+                  <p className="text-blue-300 text-[10px] font-bold uppercase tracking-widest mb-2">Your Task</p>
+                )}
+                <p className="text-white text-sm leading-relaxed whitespace-pre-wrap">{task.body}</p>
+              </div>
+
+              {/* Answer textarea */}
+              <textarea
+                value={answers[i]}
+                onChange={(e) => handleChange(i, e.target.value)}
+                placeholder={
+                  isMulti
+                    ? `Answer for ${task.label}. Be specific — quote numbers, name tools, show your reasoning.`
+                    : "Write your answer here. Reference specific examples, include numbers where relevant, and explain your reasoning — not just your conclusions."
+                }
+                rows={isMulti ? 8 : 12}
+                className="w-full rounded-xl p-4 text-sm resize-none focus:outline-none focus:ring-2 transition-colors"
+                style={{
+                  border: `1.5px solid ${wordCounts[i] >= 40 ? "#2d8a4e" : "#e5e7eb"}`,
+                  ["--tw-ring-color" as string]: "#2d8a4e",
+                }}
+                onFocus={(e) => (e.currentTarget.style.borderColor = "#2d8a4e")}
+                onBlur={(e) => (e.currentTarget.style.borderColor = wordCounts[i] >= 40 ? "#2d8a4e" : "#e5e7eb")}
+              />
+
+              {/* Per-task word count */}
+              <div className="flex items-center justify-between">
+                <p
+                  className="text-xs font-semibold"
+                  style={{ color: wordCounts[i] >= 40 ? "#2d8a4e" : "#9ca3af" }}
+                >
+                  {wordCounts[i]} / 40 words {wordCounts[i] >= 40 ? "✓" : "minimum"}
+                </p>
+                {wordCounts[i] > 0 && wordCounts[i] < 40 && (
+                  <p className="text-xs text-gray-400">{40 - wordCounts[i]} more needed</p>
+                )}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* ── PANEL 3: SUBMIT ──────────────────────────────────────── */}
+      <div
+        className="rounded-2xl overflow-hidden transition-all duration-300"
+        style={{ border: `2px solid ${submitReady ? "#0f1f3d" : "#e5e7eb"}` }}
       >
-        {grading ? (
-          <><Spinner />Grading with Claude AI...</>
-        ) : isMulti ? `Submit All ${tasks.length} Tasks for Grading` : "Submit for Grading"}
-      </button>
+        <div
+          className="px-5 py-4 flex items-center gap-3 transition-colors duration-300"
+          style={{ backgroundColor: submitReady ? "#0f1f3d" : "#f9fafb" }}
+        >
+          <span className="text-lg">🚀</span>
+          <div>
+            <p className={`font-bold text-sm ${submitReady ? "text-white" : "text-gray-400"}`}>
+              Submit for Grading — Lesson {lessonNumber}
+            </p>
+            <p className={`text-xs ${submitReady ? "text-blue-300" : "text-gray-400"}`}>
+              Claude AI · Score 80+ to pass · Max 3 attempts per 24h
+            </p>
+          </div>
+        </div>
+
+        <div className="p-5 space-y-4 bg-white">
+
+          {/* Checklist */}
+          <div className="space-y-3">
+            <p className="text-[10px] font-bold uppercase tracking-widest text-gray-400">Before you submit, confirm:</p>
+
+            {/* Auto-checked items */}
+            {[
+              {
+                label: isMulti ? `All ${tasks.length} tasks answered` : "Task answered",
+                met: hasContent,
+              },
+              {
+                label: `Every answer meets 40-word minimum (${totalWords} total words)`,
+                met: allMeetMin,
+              },
+            ].map((item, i) => (
+              <div key={i} className="flex items-center gap-2.5">
+                <div
+                  className="w-5 h-5 rounded-full flex-shrink-0 flex items-center justify-center text-[11px] font-bold text-white transition-all duration-200"
+                  style={{ backgroundColor: item.met ? "#2d8a4e" : "#e5e7eb" }}
+                >
+                  {item.met ? "✓" : ""}
+                </div>
+                <p className={`text-sm ${item.met ? "font-medium text-gray-800" : "text-gray-400"}`}>
+                  {item.label}
+                </p>
+              </div>
+            ))}
+
+            {/* Manual confirmation */}
+            <label className="flex items-start gap-2.5 cursor-pointer group">
+              <div className="relative mt-0.5 flex-shrink-0">
+                <input
+                  type="checkbox"
+                  checked={confirmed}
+                  onChange={(e) => setConfirmed(e.target.checked)}
+                  className="w-5 h-5 cursor-pointer rounded"
+                  style={{ accentColor: "#2d8a4e" }}
+                />
+              </div>
+              <p className="text-sm text-gray-700 leading-relaxed group-hover:text-gray-900 transition-colors">
+                I included specific numbers, names, or examples — not just general statements
+              </p>
+            </label>
+          </div>
+
+          {apiError && (
+            <div className="bg-red-50 border border-red-200 rounded-xl p-3">
+              <p className="text-red-700 text-sm">{apiError}</p>
+            </div>
+          )}
+
+          <button
+            onClick={handleSubmit}
+            disabled={!canSubmit || grading}
+            className="w-full py-3.5 rounded-xl text-sm font-bold text-white transition-all hover:opacity-90 disabled:opacity-40 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+            style={{ backgroundColor: "#0f1f3d" }}
+          >
+            {grading ? (
+              <><Spinner />Grading with Claude AI…</>
+            ) : isMulti ? `Submit All ${tasks.length} Tasks for Grading` : "Submit for Grading"}
+          </button>
+        </div>
+      </div>
+
     </div>
   );
 }
