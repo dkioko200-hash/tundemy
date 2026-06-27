@@ -86,7 +86,7 @@ export const courseContent: CourseContent[] = [
       "The fastest way to go from zero to productive with AI. Understand how AI works, which tools matter, and how to apply them to real Kenyan business problems — no coding required.",
     level: "Beginner",
     price_kes: 1500,
-    lessons_count: 7,
+    lessons_count: 8,
     badge_name: "AI Foundations Certified",
     what_you_will_learn: [
       "Explain how AI works to any employer or colleague in plain language",
@@ -448,7 +448,7 @@ export const courseContent: CourseContent[] = [
       "The most in-demand AI skill right now. Learn to write prompts that get professional results from any AI tool — for marketing, operations, customer service, coding, and more.",
     level: "Intermediate",
     price_kes: 2500,
-    lessons_count: 12,
+    lessons_count: 13,
     badge_name: "Certified Prompt Engineer",
     what_you_will_learn: [
       "Write prompts that produce professional results first time",
@@ -1192,6 +1192,19 @@ export const courseContent: CourseContent[] = [
         ],
       },
     ],
+    capstone: {
+      title: "Team Prompt Playbook for a Nairobi Marketing Agency",
+      description: "You are the AI lead at a 15-person Nairobi-based B2B marketing agency. Your job is to produce a Prompt Engineering Playbook the whole team can use from day one — without you in the room.",
+      task: "Build a complete Prompt Engineering Playbook for a fictional Nairobi-based marketing agency (15 staff, B2B clients). The playbook must include: (1) 15 reusable prompt templates covering client proposals, social media, reporting, and research — each with clear placeholders for variable details and a fixed structure/constraints section. (2) A style guide for prompt writing that explains the agency's standards for role, context, task, constraints, and format. (3) A quick-reference cheat sheet mapping common tasks to the right template. (4) Onboarding instructions for a new staff member explaining which template to use for which task and how to adapt the placeholders. The playbook must be specific enough that a new hire could produce professional-grade AI output on their first day using only this document.",
+      rubric: {
+        specificity: { weight: 25, description: "Whether templates use real placeholders and concrete agency-specific detail rather than generic instructions — generic templates score 0 to 10, fully specified reusable templates score 20 to 25" },
+        businessAccuracy: { weight: 25, description: "Whether the templates reflect how a real B2B marketing agency in Nairobi actually operates — realistic clients, deliverables, and constraints" },
+        implementationRealism: { weight: 20, description: "Whether a new staff member could realistically pick up this playbook and produce usable output on day one without further training" },
+        ethicsQuality: { weight: 15, description: "Whether the style guide addresses responsible use — verifying AI-drafted claims, client confidentiality, and avoiding generic or misleading content" },
+        professionalQuality: { weight: 15, description: "Whether the playbook reads as a polished internal document — clear structure, consistent formatting, no filler" },
+      },
+      passingScore: 70,
+    },
   },
 
   // â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
@@ -1205,7 +1218,7 @@ export const courseContent: CourseContent[] = [
       "Turn raw data into decisions using AI. Analyst-level insights from any dataset — no coding required. Built around real Kenyan business data from M-Pesa, KNBS, and Nairobi businesses.",
     level: "Intermediate",
     price_kes: 2800,
-    lessons_count: 7,
+    lessons_count: 8,
     badge_name: "AI Data Analyst",
     what_you_will_learn: [
       "Clean and structure messy real-world datasets using AI in under 30 minutes",
@@ -1635,7 +1648,7 @@ QUESTION 4 — YOUR OWN QUERY: Add at least one new pandas analysis that the sta
       "Build production-ready WhatsApp bots using Meta Cloud API and AI. The highest-demand technical skill in East African business right now. Deploy your first bot by lesson 4.",
     level: "Advanced",
     price_kes: 3500,
-    lessons_count: 8,
+    lessons_count: 9,
     badge_name: "WhatsApp AI Developer",
     what_you_will_learn: [
       "Set up Meta Cloud API and send your first WhatsApp message via code in lesson 2",
@@ -1957,7 +1970,7 @@ QUESTION 4 — YOUR OWN QUERY: Add at least one new pandas analysis that the sta
       "Build fully functional M-Pesa payment systems using Safaricom Daraja API. STK Push, C2B, B2C, callbacks, and production deployment. The skill fintech companies across Africa are actively hiring for.",
     level: "Advanced",
     price_kes: 4500,
-    lessons_count: 9,
+    lessons_count: 10,
     badge_name: "Daraja Certified Developer",
     what_you_will_learn: [
       "Set up Daraja sandbox credentials and authenticate with OAuth in under 30 minutes",
@@ -2354,7 +2367,7 @@ QUESTION 4 — YOUR OWN QUERY: Add at least one new pandas analysis that the sta
       "Apply AI to crop prediction, market pricing, supply chain, and farmer advisory systems. Built specifically for East African agricultural context — real Kenyan data, real agritech problems.",
     level: "Intermediate",
     price_kes: 3000,
-    lessons_count: 6,
+    lessons_count: 7,
     badge_name: "Agritech AI Specialist",
     what_you_will_learn: [
       "Apply AI to crop yield prediction using Kenyan weather and soil data from KALRO and KMD",
