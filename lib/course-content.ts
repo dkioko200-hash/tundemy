@@ -35,7 +35,7 @@ export interface Lesson {
   isAvailable: boolean;
   content: string;
   sandboxTask?: string;
-  simulatorType?: "whatsapp-setup" | "whatsapp-types" | "whatsapp-webhook" | "daraja-oauth" | "daraja-stkpush";
+  simulatorType?: "whatsapp-setup" | "whatsapp-types" | "whatsapp-webhook" | "daraja-oauth" | "daraja-stkpush" | "python";
   readingTopics?: string[];
   quizQuestions?: QuizQuestion[];
   theory?: LessonTheory;
@@ -1407,7 +1407,16 @@ export const courseContent: CourseContent[] = [
         videoUrl: "/videos/ai-data-analysis/lesson-3.mp4",
         isAvailable: true,
         content: "Descriptive analysis answers: what happened? It uses counts, averages, medians, distributions, and breakdowns to paint an accurate picture of a period of business activity. Master this layer and every subsequent analysis — patterns, predictions, recommendations — becomes far more reliable.",
-        sandboxTask: "You are the business analyst for Kilima Fresh Ltd., a fictional Nairobi-based fresh produce distributor supplying 45 supermarkets across 4 counties (Nairobi, Kiambu, Machakos, and Nakuru). You receive a dataset description of their last quarter (90 days, January–March 2024). Dataset contents: 3,200 delivery records with columns: Date, Supermarket_Name, County, Product_Category (Vegetables / Fruits / Dairy / Dry Goods), Units_Delivered, Revenue_KES, On_Time_Delivery (Yes/No), Spoilage_Units, Driver_ID. Using AI with this dataset description, complete the following 5 descriptive analysis tasks: (1) REVENUE BREAKDOWN: What was total Q1 revenue? Break it down by county and by product category. Which county generated the most revenue and which product category had the highest average revenue per delivery? (2) DELIVERY PERFORMANCE: What was the overall on-time delivery rate? How does it vary by county? Which county has the worst on-time rate and by how much compared to the best? (3) SPOILAGE ANALYSIS: What was the overall spoilage rate as a percentage of units delivered? Which product category has the highest spoilage rate? Calculate the KSh value of spoilage assuming average revenue per unit. (4) DRIVER PERFORMANCE: Assuming 8 drivers total, what was the average number of deliveries per driver? If the on-time rate varies significantly by driver identify which metric you would need to calculate driver-level performance and write the question you would ask AI. (5) EXECUTIVE SUMMARY: Write a 5-sentence executive summary of Q1 performance covering total revenue, on-time rate, top performing county, biggest risk, and one recommended action. Use realistic Kenyan FMCG numbers in your answers (a delivery to a Nairobi supermarket typically generates KSh 8,000–25,000 in revenue). Show all your AI prompts and the responses you received for each task.",
+        simulatorType: "python" as const,
+        sandboxTask: `You just ran real pandas code on 60 Kilima Fresh delivery records. Answer all four questions using exact numbers from your output — do not estimate.
+
+QUESTION 1 — REVENUE BREAKDOWN: State the total Q1 revenue your code computed. List each county's revenue and its percentage of the total. Which county generated the most? Which product category had the highest average revenue per delivery and what was that average in KSh?
+
+QUESTION 2 — DELIVERY PERFORMANCE: What on-time delivery rate did your code calculate overall? Rank all four counties from worst to best. How many percentage points separates the worst county from the best? Which driver had the lowest on-time rate and what was it?
+
+QUESTION 3 — SPOILAGE RISK: What overall spoilage rate did pandas calculate (as a percentage of units delivered)? Which product category had the highest spoilage rate? Explain in one sentence why that category is riskier than Dry Goods from a business cash-flow perspective.
+
+QUESTION 4 — YOUR OWN QUERY: Add at least one new pandas analysis that the starter code does not already do — for example: which supermarket had the highest average delivery size, or which month had the best on-time rate. Paste the Python code you added and the output it produced. Explain what business decision this finding could inform for Kilima Fresh.`,
         quizQuestions: [
           { question: "What is the purpose of descriptive analysis?", options: ["To predict what will happen next based on historical patterns", "To accurately describe what happened in a given period using counts averages and distributions", "To recommend specific business actions based on data findings", "To identify the root cause of a business problem"], correctAnswer: 1 },
           { question: "A supermarket chain has average monthly revenue of KSh 4.2 million but median monthly revenue of KSh 2.8 million. What does the gap between mean and median tell you?", options: ["There is a calculation error — mean and median should be similar", "A small number of unusually high revenue months are pulling the average up — the typical month is closer to KSh 2.8 million", "The business is growing rapidly which causes the gap", "The data needs to be cleaned before these metrics can be trusted"], correctAnswer: 1 },
