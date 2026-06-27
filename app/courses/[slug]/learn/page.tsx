@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useRouter, useParams } from "next/navigation";
 import { getCourseContentBySlug, type Lesson, type QuizQuestion, type LessonTheory, type CourseCapstone } from "@/lib/course-content";
 import { WhatsAppSimulatorSandbox } from "@/components/simulators/WhatsAppSimulator";
+import { DarajaSimulatorSandbox } from "@/components/simulators/DarajaSimulator";
 import { createClient } from "@/lib/supabase";
 
 // ── Icons ─────────────────────────────────────────────────────────────────────
@@ -1766,6 +1767,14 @@ export default function LearnPage() {
                         {currentLesson.simulatorType?.startsWith("whatsapp") ? (
                           <WhatsAppSimulatorSandbox
                             variant={currentLesson.simulatorType.replace("whatsapp-", "") as "setup" | "types" | "webhook"}
+                            sandboxTask={currentLesson.sandboxTask ?? ""}
+                            lessonNumber={currentLesson.lessonNumber}
+                            courseSlug={slug}
+                            onComplete={handleMarkComplete}
+                          />
+                        ) : currentLesson.simulatorType?.startsWith("daraja") ? (
+                          <DarajaSimulatorSandbox
+                            variant={currentLesson.simulatorType.replace("daraja-", "") as "oauth" | "stkpush"}
                             sandboxTask={currentLesson.sandboxTask ?? ""}
                             lessonNumber={currentLesson.lessonNumber}
                             courseSlug={slug}
