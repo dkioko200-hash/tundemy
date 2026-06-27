@@ -112,6 +112,10 @@ Respond with ONLY this JSON object (no markdown fences, no extra text):
     return NextResponse.json({ ...result, cached: false });
   } catch (err) {
     console.error("[grade-sandbox]", err);
-    return NextResponse.json({ error: "Internal server error" }, { status: 500 });
+    const message =
+      err instanceof Error && err.message.includes("SUPABASE_SERVICE_ROLE_KEY")
+        ? "Grading is misconfigured on the server (missing service role key). Please contact support."
+        : "Internal server error";
+    return NextResponse.json({ error: message }, { status: 500 });
   }
 }

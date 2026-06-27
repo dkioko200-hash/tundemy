@@ -97,7 +97,7 @@ export async function POST(req: NextRequest) {
     const failure = willSucceed ? null : FAILURE_CODES[Math.floor(Math.random() * FAILURE_CODES.length)];
 
     // Persist transaction record
-    supabase
+    const { error: stkInsertError } = await supabase
       .from("sim_daraja_transactions")
       .insert({
         user_id: user.id,
@@ -113,8 +113,10 @@ export async function POST(req: NextRequest) {
           failureCode: failure?.code ?? null,
         },
         response: { CheckoutRequestID: checkoutRequestId, MerchantRequestID: merchantRequestId },
-      })
-      .then(() => {});
+      });
+    if (stkInsertError) {
+      console.error("[daraja/stkpush] failed to insert stkpush record:", stkInsertError);
+    }
 
     // Fire fake callback after 4 seconds into background (fire-and-forget)
     // We use a setTimeout via an edge-compatible pattern: store callback details and let the client poll
@@ -151,8 +153,12 @@ export async function POST(req: NextRequest) {
           },
         };
 
-    // Store the callback payload to be returned when the client polls
-    supabase
+    // Store the callback payload to be returned when the client polls.
+    // This MUST be awaited and confirmed before we respond — the client starts
+    // polling almost immediately, and a fire-and-forget insert here previously
+    // caused the callback to "never arrive" whenever the insert lagged behind
+    // the first poll or silently failed.
+    const { error: callbackInsertError } = await supabase
       .from("sim_daraja_transactions")
       .insert({
         user_id: user.id,
@@ -160,8 +166,15 @@ export async function POST(req: NextRequest) {
         checkout_request_id: checkoutRequestId,
         payload: { willSucceed, scheduleAt: Date.now() + 4000 },
         response: callbackPayload,
-      })
-      .then(() => {});
+      });
+
+    if (callbackInsertError) {
+      console.error("[daraja/stkpush] failed to insert callback record:", callbackInsertError);
+      return NextResponse.json({
+        ok: false,
+        error: "Failed to schedule the simulated callback. Try again.",
+      }, { status: 500 });
+    }
 
     return NextResponse.json({
       ok: true,
