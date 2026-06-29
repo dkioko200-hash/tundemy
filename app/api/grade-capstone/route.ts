@@ -115,6 +115,20 @@ Respond with ONLY a JSON object (no markdown fences, no extra text) in exactly t
     await recordGradingAttempt(user.id, courseSlug, "capstone", submissionHash);
     await saveGradeToCache(user.id, courseSlug, "capstone", submissionHash, result);
 
+    // Fire-and-forget: on a passing capstone, regenerate the AI talent profile
+    // in the background. Never block or fail the grading response on this.
+    if (result.passed === true) {
+      const origin = req.nextUrl.origin;
+      fetch(`${origin}/api/talent/generate-profile`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          cookie: req.headers.get("cookie") ?? "",
+        },
+        body: JSON.stringify({ courseSlug, capstoneResult: result }),
+      }).catch((err) => console.error("[grade-capstone] profile auto-generate trigger failed:", err));
+    }
+
     return NextResponse.json({ ...result, cached: false });
   } catch (err) {
     console.error("[grade-capstone]", err);
