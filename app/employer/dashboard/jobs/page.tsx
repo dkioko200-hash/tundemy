@@ -144,7 +144,7 @@ export default function JobsPage() {
                     </div>
                     <h3 className="font-bold text-sm" style={{ color: "#0f1f3d" }}>{job.title}</h3>
                     <p className="text-xs text-gray-500 mt-0.5">
-                      {JOB_TYPE_LABELS[job.job_type] ?? job.job_type} · {job.location ?? "Remote"} · {EXPERIENCE_LABELS[job.experience_level] ?? job.experience_level}
+                      {JOB_TYPE_LABELS[job.job_type] ?? job.job_type} · {job.location || "Remote"} · {EXPERIENCE_LABELS[job.experience_level] ?? job.experience_level}
                     </p>
                     <p className="text-xs font-semibold mt-1" style={{ color: "#2d8a4e" }}>
                       {job.applicants_count} applicant{job.applicants_count !== 1 ? "s" : ""}

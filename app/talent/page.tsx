@@ -25,6 +25,7 @@ const TOP_SKILLS = [
 export default function TalentPage() {
   const [talent, setTalent] = useState<TalentProfile[]>([]);
   const [loading, setLoading] = useState(true);
+  const [loadError, setLoadError] = useState<string | null>(null);
   const [skill, setSkill] = useState("");
   const [search, setSearch] = useState("");
   const [availableOnly, setAvailableOnly] = useState(false);
@@ -32,13 +33,17 @@ export default function TalentPage() {
   useEffect(() => {
     async function load() {
       const supabase = createClient();
-      const { data: profiles } = await supabase
+      const { data: profiles, error } = await supabase
         .from("talent_profiles")
         .select("user_id, full_name, headline, auto_headline, location, skills, self_reported_skills, years_experience, profile_complete, availability")
         .eq("is_visible", true)
         .eq("profile_complete", true)
         .order("years_experience", { ascending: false })
         .limit(100);
+      if (error) {
+        console.error("[talent] failed to load talent_profiles:", error);
+        setLoadError("Couldn't load the talent pool right now. Please try again shortly.");
+      }
       setTalent(profiles ?? []);
       setLoading(false);
     }
@@ -185,6 +190,11 @@ export default function TalentPage() {
 
       {/* Grid */}
       <div className="max-w-6xl mx-auto px-5 pb-16">
+        {loadError && !loading && (
+          <div className="rounded-xl border p-4 mb-6 text-sm font-semibold text-center" style={{ borderColor: "rgba(187,0,0,0.3)", backgroundColor: "rgba(187,0,0,0.05)", color: "#bb0000" }}>
+            {loadError}
+          </div>
+        )}
         {loading ? (
           <div className="flex justify-center py-16">
             <div className="w-8 h-8 rounded-full border-2 border-green-600 border-t-transparent animate-spin" />
