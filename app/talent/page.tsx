@@ -8,20 +8,14 @@ interface TalentProfile {
   user_id: string;
   full_name: string;
   headline: string;
+  auto_headline: string;
   location: string;
   skills: string[];
+  self_reported_skills: string[];
   years_experience: number;
-  track?: string;
+  profile_complete: boolean;
+  availability: "available" | "open_to_offers" | "not_available";
 }
-
-const TRACKS = [
-  { label: "All Tracks", value: "" },
-  { label: "AI Professional", value: "AI Professional" },
-  { label: "AI Developer", value: "AI Developer" },
-  { label: "African Business Tech", value: "African Business Tech" },
-  { label: "Global AI Talent", value: "Global AI Talent" },
-  { label: "Income Track", value: "Income Track" },
-];
 
 const TOP_SKILLS = [
   "Prompt Engineering", "WhatsApp API", "M-Pesa API", "RAG", "Python",
@@ -30,26 +24,22 @@ const TOP_SKILLS = [
 
 export default function TalentPage() {
   const [talent, setTalent] = useState<TalentProfile[]>([]);
-  const [verified, setVerified] = useState<Set<string>>(new Set());
   const [loading, setLoading] = useState(true);
-  const [track, setTrack] = useState("");
   const [skill, setSkill] = useState("");
   const [search, setSearch] = useState("");
+  const [availableOnly, setAvailableOnly] = useState(false);
 
   useEffect(() => {
     async function load() {
       const supabase = createClient();
-      const [{ data: profiles }, { data: passed }] = await Promise.all([
-        supabase
-          .from("talent_profiles")
-          .select("user_id, full_name, headline, location, skills, years_experience, track")
-          .eq("is_visible", true)
-          .order("years_experience", { ascending: false })
-          .limit(100),
-        supabase.from("assessments").select("user_id").eq("passed", true),
-      ]);
+      const { data: profiles } = await supabase
+        .from("talent_profiles")
+        .select("user_id, full_name, headline, auto_headline, location, skills, self_reported_skills, years_experience, profile_complete, availability")
+        .eq("is_visible", true)
+        .eq("profile_complete", true)
+        .order("years_experience", { ascending: false })
+        .limit(100);
       setTalent(profiles ?? []);
-      setVerified(new Set((passed ?? []).map((p: { user_id: string }) => p.user_id)));
       setLoading(false);
     }
     load();
@@ -57,20 +47,21 @@ export default function TalentPage() {
 
   const filtered = useMemo(() => {
     return talent.filter((t) => {
-      if (track && t.track !== track) return false;
-      if (skill && !(t.skills ?? []).some((s) => s.toLowerCase().includes(skill.toLowerCase()))) return false;
+      if (availableOnly && t.availability !== "available") return false;
+      const allSkills = [...(t.skills ?? []), ...(t.self_reported_skills ?? [])];
+      if (skill && !allSkills.some((s) => s.toLowerCase().includes(skill.toLowerCase()))) return false;
       if (search) {
         const q = search.toLowerCase();
         if (
           !t.full_name.toLowerCase().includes(q) &&
-          !(t.headline ?? "").toLowerCase().includes(q) &&
+          !(t.headline ?? t.auto_headline ?? "").toLowerCase().includes(q) &&
           !(t.location ?? "").toLowerCase().includes(q) &&
-          !(t.skills ?? []).some((s) => s.toLowerCase().includes(q))
+          !allSkills.some((s) => s.toLowerCase().includes(q))
         ) return false;
       }
       return true;
     });
-  }, [talent, track, skill, search]);
+  }, [talent, skill, search, availableOnly]);
 
   return (
     <div style={{ fontFamily: "Inter, sans-serif", backgroundColor: "#f9fafb", minHeight: "100vh" }}>
@@ -106,7 +97,7 @@ export default function TalentPage() {
           Hire AI-Ready Talent<br />from across Africa
         </h1>
         <p className="text-base text-gray-500 max-w-xl mx-auto mb-8">
-          Every profile completed real AI courses, built sandbox projects, and passed skill assessments. No LinkedIn guesswork.
+          Every profile completed real AI courses, built sandbox projects, and passed capstone assessments. No LinkedIn guesswork.
         </p>
         {!loading && (
           <div className="flex items-center justify-center gap-3">
@@ -134,22 +125,17 @@ export default function TalentPage() {
             />
           </div>
 
-          {/* Track filter */}
-          <div>
-            <p className="text-xs font-bold text-gray-400 mb-2 uppercase tracking-wide">Track</p>
-            <div className="flex flex-wrap gap-2">
-              {TRACKS.map((t) => (
-                <button key={t.value} onClick={() => setTrack(t.value)}
-                  className="text-xs font-semibold px-3 py-1.5 rounded-full border transition-all"
-                  style={{
-                    backgroundColor: track === t.value ? "#0f1f3d" : "transparent",
-                    color: track === t.value ? "#fff" : "#0f1f3d",
-                    borderColor: track === t.value ? "#0f1f3d" : "#e5e7eb",
-                  }}>
-                  {t.label}
-                </button>
-              ))}
-            </div>
+          {/* Availability filter */}
+          <div className="flex items-center gap-2">
+            <button onClick={() => setAvailableOnly((v) => !v)}
+              className="text-xs font-semibold px-3 py-1.5 rounded-full border transition-all"
+              style={{
+                backgroundColor: availableOnly ? "#2d8a4e" : "transparent",
+                color: availableOnly ? "#fff" : "#166534",
+                borderColor: availableOnly ? "#2d8a4e" : "rgba(45,138,78,0.3)",
+              }}>
+              Available now only
+            </button>
           </div>
 
           {/* Skill filter */}
@@ -159,9 +145,9 @@ export default function TalentPage() {
               <button onClick={() => setSkill("")}
                 className="text-xs font-semibold px-3 py-1.5 rounded-full border transition-all"
                 style={{
-                  backgroundColor: skill === "" ? "#2d8a4e" : "transparent",
-                  color: skill === "" ? "#fff" : "#166534",
-                  borderColor: skill === "" ? "#2d8a4e" : "rgba(45,138,78,0.3)",
+                  backgroundColor: skill === "" ? "#0f1f3d" : "transparent",
+                  color: skill === "" ? "#fff" : "#0f1f3d",
+                  borderColor: skill === "" ? "#0f1f3d" : "#e5e7eb",
                 }}>
                 All Skills
               </button>
@@ -185,8 +171,8 @@ export default function TalentPage() {
               <p className="text-xs text-gray-400">
                 Showing <span className="font-bold text-gray-700">{filtered.length}</span> of {talent.length} profiles
               </p>
-              {(track || skill || search) && (
-                <button onClick={() => { setTrack(""); setSkill(""); setSearch(""); }}
+              {(skill || search || availableOnly) && (
+                <button onClick={() => { setSkill(""); setSearch(""); setAvailableOnly(false); }}
                   className="text-xs font-semibold hover:opacity-70 transition-opacity"
                   style={{ color: "#bb0000" }}>
                   Clear filters
@@ -206,70 +192,72 @@ export default function TalentPage() {
         ) : filtered.length === 0 ? (
           <div className="text-center py-16">
             <p className="text-gray-400 text-sm mb-2">No talent matching your filters.</p>
-            <button onClick={() => { setTrack(""); setSkill(""); setSearch(""); }}
+            <button onClick={() => { setSkill(""); setSearch(""); setAvailableOnly(false); }}
               className="text-xs font-semibold underline" style={{ color: "#2d8a4e" }}>
               Clear filters
             </button>
           </div>
         ) : (
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {filtered.map((t) => (
-              <div key={t.user_id} className="rounded-2xl border bg-white p-6 flex flex-col gap-4 hover:shadow-md transition-shadow" style={{ borderColor: "#e5e7eb" }}>
-                <div>
-                  <div className="flex items-start justify-between gap-2 mb-1">
-                    <div className="w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold text-white flex-shrink-0" style={{ backgroundColor: "#0f1f3d" }}>
-                      {t.full_name.split(" ").map((n) => n[0]).slice(0, 2).join("")}
+            {filtered.map((t) => {
+              const skills = Array.from(new Set([...(t.skills ?? []), ...(t.self_reported_skills ?? [])]));
+              const headline = t.headline || t.auto_headline;
+              return (
+                <div key={t.user_id} className="rounded-2xl border bg-white p-6 flex flex-col gap-4 hover:shadow-md transition-shadow" style={{ borderColor: "#e5e7eb" }}>
+                  <div>
+                    <div className="flex items-start justify-between gap-2 mb-1">
+                      <div className="w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold text-white flex-shrink-0" style={{ backgroundColor: "#0f1f3d" }}>
+                        {t.full_name.split(" ").map((n) => n[0]).slice(0, 2).join("")}
+                      </div>
+                      {t.years_experience > 0 && (
+                        <span className="text-xs font-bold px-2 py-0.5 rounded-full flex-shrink-0"
+                          style={{ backgroundColor: "rgba(15,31,61,0.07)", color: "#0f1f3d" }}>
+                          {t.years_experience}y exp
+                        </span>
+                      )}
                     </div>
-                    {t.years_experience > 0 && (
-                      <span className="text-xs font-bold px-2 py-0.5 rounded-full flex-shrink-0"
-                        style={{ backgroundColor: "rgba(15,31,61,0.07)", color: "#0f1f3d" }}>
-                        {t.years_experience}y exp
-                      </span>
-                    )}
-                  </div>
-                  <div className="flex items-center gap-1.5 mt-2 flex-wrap">
-                    <p className="font-bold text-sm" style={{ color: "#0f1f3d" }}>{t.full_name}</p>
-                    {verified.has(t.user_id) && (
+                    <div className="flex items-center gap-1.5 mt-2 flex-wrap">
+                      <p className="font-bold text-sm" style={{ color: "#0f1f3d" }}>{t.full_name}</p>
                       <span className="text-xs font-bold px-1.5 py-0.5 rounded-full flex items-center gap-1" style={{ backgroundColor: "rgba(45,138,78,0.1)", color: "#2d8a4e" }}>
-                        ✓ Verified
+                        ✓ Tundemy Verified
                       </span>
-                    )}
+                    </div>
+                    {headline && <p className="text-xs text-gray-500 mt-0.5 leading-snug line-clamp-2">{headline}</p>}
+                    <div className="flex items-center gap-2 mt-1 flex-wrap">
+                      {t.location && <p className="text-xs text-gray-400">{t.location}</p>}
+                      {t.availability === "available" && (
+                        <span className="text-xs font-semibold px-1.5 py-0.5 rounded" style={{ backgroundColor: "rgba(45,138,78,0.08)", color: "#166534" }}>
+                          Available now
+                        </span>
+                      )}
+                    </div>
                   </div>
-                  {t.headline && <p className="text-xs text-gray-500 mt-0.5 leading-snug line-clamp-2">{t.headline}</p>}
-                  <div className="flex items-center gap-2 mt-1 flex-wrap">
-                    {t.location && <p className="text-xs text-gray-400">{t.location}</p>}
-                    {t.track && (
-                      <span className="text-xs font-semibold px-1.5 py-0.5 rounded" style={{ backgroundColor: "rgba(45,138,78,0.08)", color: "#166534" }}>
-                        {t.track}
-                      </span>
-                    )}
-                  </div>
+
+                  {skills.length > 0 && (
+                    <div className="flex flex-wrap gap-1.5">
+                      {skills.slice(0, 4).map((s) => (
+                        <span key={s} className="text-xs px-2 py-0.5 rounded-full font-medium"
+                          style={{ backgroundColor: "rgba(45,138,78,0.08)", color: "#166534" }}>
+                          {s}
+                        </span>
+                      ))}
+                      {skills.length > 4 && (
+                        <span className="text-xs px-2 py-0.5 rounded-full font-medium text-gray-400"
+                          style={{ backgroundColor: "#f3f4f6" }}>
+                          +{skills.length - 4}
+                        </span>
+                      )}
+                    </div>
+                  )}
+
+                  <Link href={`/talent/${t.user_id}`}
+                    className="w-full py-2.5 rounded-xl text-xs font-bold text-center border-2 transition-all hover:bg-gray-50"
+                    style={{ borderColor: "#0f1f3d", color: "#0f1f3d" }}>
+                    View Full Profile →
+                  </Link>
                 </div>
-
-                {t.skills && t.skills.length > 0 && (
-                  <div className="flex flex-wrap gap-1.5">
-                    {t.skills.slice(0, 4).map((s) => (
-                      <span key={s} className="text-xs px-2 py-0.5 rounded-full font-medium"
-                        style={{ backgroundColor: "rgba(45,138,78,0.08)", color: "#166534" }}>
-                        {s}
-                      </span>
-                    ))}
-                    {t.skills.length > 4 && (
-                      <span className="text-xs px-2 py-0.5 rounded-full font-medium text-gray-400"
-                        style={{ backgroundColor: "#f3f4f6" }}>
-                        +{t.skills.length - 4}
-                      </span>
-                    )}
-                  </div>
-                )}
-
-                <Link href={`/talent/${t.user_id}`}
-                  className="w-full py-2.5 rounded-xl text-xs font-bold text-center border-2 transition-all hover:bg-gray-50"
-                  style={{ borderColor: "#0f1f3d", color: "#0f1f3d" }}>
-                  View Full Profile →
-                </Link>
-              </div>
-            ))}
+              );
+            })}
           </div>
         )}
       </div>

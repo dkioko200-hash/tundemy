@@ -7,6 +7,21 @@ import { createClient } from "@/lib/supabase";
 
 const JOB_TYPES = ["Full-time", "Part-time", "Contract", "Internship", "Remote"] as const;
 const EXPERIENCE_LEVELS = ["Entry Level", "Mid Level", "Senior", "Lead / Principal"] as const;
+
+const JOB_TYPE_DB_MAP: Record<typeof JOB_TYPES[number], string> = {
+  "Full-time": "full_time",
+  "Part-time": "part_time",
+  "Contract": "contract",
+  "Internship": "internship",
+  "Remote": "remote",
+};
+
+const EXPERIENCE_LEVEL_DB_MAP: Record<typeof EXPERIENCE_LEVELS[number], string> = {
+  "Entry Level": "entry",
+  "Mid Level": "mid",
+  "Senior": "senior",
+  "Lead / Principal": "lead",
+};
 const AI_SKILLS = [
   "Prompt Engineering", "ChatGPT", "Claude", "Python", "LangChain",
   "RAG", "Fine-tuning", "AI Strategy", "Machine Learning", "Data Analysis",
@@ -67,19 +82,18 @@ export default function PostJobPage() {
     const { data: { user } } = await supabase.auth.getUser();
     if (!user) return;
 
-    await supabase.from("job_posts").insert({
+    await supabase.from("job_postings").insert({
       employer_id: user.id,
       title: form.title,
-      type: form.type,
+      job_type: JOB_TYPE_DB_MAP[form.type],
       location: form.remote ? "Remote" : form.location,
-      experience_level: form.experience_level,
+      experience_level: EXPERIENCE_LEVEL_DB_MAP[form.experience_level],
       salary_min: form.salary_min ? parseInt(form.salary_min) : null,
       salary_max: form.salary_max ? parseInt(form.salary_max) : null,
       description: form.description,
       required_skills: form.required_skills,
       deadline: form.deadline || null,
       status: "active",
-      created_at: new Date().toISOString(),
     });
 
     setSubmitting(false);

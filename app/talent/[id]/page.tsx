@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { createServerClient } from "@supabase/ssr";
+import { createClient as createServiceClient } from "@supabase/supabase-js";
 import { cookies } from "next/headers";
-import { courses } from "@/lib/courses";
+import UnlockGate from "./unlock-gate";
 
 interface VerifiedTrack {
   track: string;
@@ -10,38 +11,66 @@ interface VerifiedTrack {
   taken_at: string;
 }
 
-interface CourseCompletion {
-  slug: string;
+interface CapstoneWork {
+  course_slug: string;
   title: string;
-  lessonsCompleted: number;
-  lessonsTotal: number;
-  completed: boolean;
+  summary: string;
+  score: number | null;
+}
+
+interface Badge {
+  course_slug: string;
+  badge_name: string;
+  icon: string | null;
+  awarded_at: string;
 }
 
 interface TalentDetail {
   user_id: string;
   full_name: string;
   headline: string;
+  auto_headline: string;
   bio: string;
+  auto_bio: string;
   location: string;
   skills: string[];
+  self_reported_skills: string[];
+  self_reported_experience: { title: string; company: string; duration: string; description: string }[];
+  self_reported_projects: { title: string; description: string; link: string }[];
   years_experience: number;
   linkedin_url?: string;
   github_url?: string;
   portfolio_url?: string;
+  contact_email?: string;
+  contact_phone?: string;
+  phone?: string;
+  availability: "available" | "open_to_offers" | "not_available";
+  profile_complete: boolean;
 }
 
-async function getProfile(id: string): Promise<TalentDetail | null> {
+function getServiceClient() {
+  return createServiceClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    process.env.SUPABASE_SERVICE_ROLE_KEY!
+  );
+}
+
+async function getServerSupabase() {
   const cookieStore = await cookies();
-  const supabase = createServerClient(
+  return createServerClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
     { cookies: { getAll: () => cookieStore.getAll(), setAll: () => {} } }
   );
+}
 
+async function getProfile(id: string): Promise<TalentDetail | null> {
+  const supabase = await getServerSupabase();
   const { data } = await supabase
     .from("talent_profiles")
-    .select("user_id, full_name, headline, bio, location, skills, years_experience, linkedin_url, github_url, portfolio_url")
+    .select(
+      "user_id, full_name, headline, auto_headline, bio, auto_bio, location, skills, self_reported_skills, self_reported_experience, self_reported_projects, years_experience, linkedin_url, github_url, portfolio_url, contact_email, contact_phone, phone, availability, profile_complete"
+    )
     .eq("user_id", id)
     .eq("is_visible", true)
     .single();
@@ -50,13 +79,7 @@ async function getProfile(id: string): Promise<TalentDetail | null> {
 }
 
 async function getVerifiedTracks(userId: string): Promise<VerifiedTrack[]> {
-  const cookieStore = await cookies();
-  const supabase = createServerClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
-    { cookies: { getAll: () => cookieStore.getAll(), setAll: () => {} } }
-  );
-
+  const supabase = await getServerSupabase();
   const { data } = await supabase
     .from("assessments")
     .select("track, score, taken_at")
@@ -67,75 +90,68 @@ async function getVerifiedTracks(userId: string): Promise<VerifiedTrack[]> {
   return data ?? [];
 }
 
-async function getCourseCompletions(userId: string): Promise<CourseCompletion[]> {
-  const cookieStore = await cookies();
-  const supabase = createServerClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
-    { cookies: { getAll: () => cookieStore.getAll(), setAll: () => {} } }
-  );
+async function getCapstoneWork(userId: string): Promise<CapstoneWork[]> {
+  const supabase = await getServerSupabase();
+  const { data } = await supabase
+    .from("talent_capstone_work")
+    .select("course_slug, title, summary, score")
+    .eq("user_id", userId);
 
-  const { data: enrollments } = await supabase
-    .from("enrollments")
-    .select("course_slug")
-    .eq("user_id", userId)
-    .eq("payment_status", "paid");
-
-  if (!enrollments || enrollments.length === 0) return [];
-
-  const results: CourseCompletion[] = [];
-  for (const { course_slug } of enrollments) {
-    const course = courses.find((c) => c.slug === course_slug);
-    if (!course) continue;
-
-    const { count } = await supabase
-      .from("progress")
-      .select("id", { count: "exact", head: true })
-      .eq("user_id", userId)
-      .eq("course_slug", course_slug)
-      .eq("completed", true);
-
-    const lessonsCompleted = count ?? 0;
-    results.push({
-      slug: course_slug,
-      title: course.title,
-      lessonsCompleted,
-      lessonsTotal: course.lessons_count,
-      completed: lessonsCompleted >= course.lessons_count,
-    });
-  }
-  return results;
+  return data ?? [];
 }
 
-async function getBadges(userId: string) {
-  const cookieStore = await cookies();
-  const supabase = createServerClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
-    { cookies: { getAll: () => cookieStore.getAll(), setAll: () => {} } }
-  );
-
+async function getBadges(userId: string): Promise<Badge[]> {
+  const supabase = await getServerSupabase();
   const { data } = await supabase
-    .from("user_badges")
-    .select("badge_name, earned_at")
+    .from("talent_badges")
+    .select("course_slug, badge_name, icon, awarded_at")
     .eq("user_id", userId)
-    .order("earned_at", { ascending: false });
+    .order("awarded_at", { ascending: false });
 
   return data ?? [];
 }
 
 export default async function TalentProfilePage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
-  const [profile, badges, verifiedTracks, courseCompletions] = await Promise.all([
+  const supabase = await getServerSupabase();
+  const { data: { user } } = await supabase.auth.getUser();
+
+  const [profile, badges, verifiedTracks, capstones] = await Promise.all([
     getProfile(id),
     getBadges(id),
     getVerifiedTracks(id),
-    getCourseCompletions(id),
+    getCapstoneWork(id),
   ]);
 
   if (!profile) notFound();
 
+  let isEmployer = false;
+  let alreadyUnlocked = false;
+  let bundleRemaining = 0;
+
+  if (user) {
+    isEmployer = user.user_metadata?.role === "employer";
+    const admin = getServiceClient();
+    const [unlockRes, bundleRes] = await Promise.all([
+      admin.from("employer_unlocks").select("candidate_id").eq("employer_id", user.id).eq("candidate_id", id).maybeSingle(),
+      admin.from("employer_bundles").select("profiles_remaining, expires_at").eq("employer_id", user.id).maybeSingle(),
+    ]);
+    alreadyUnlocked = !!unlockRes.data;
+    if (bundleRes.data && new Date(bundleRes.data.expires_at).getTime() > Date.now()) {
+      bundleRemaining = bundleRes.data.profiles_remaining;
+    }
+  }
+
   const initials = profile.full_name.split(" ").map((n) => n[0]).slice(0, 2).join("");
+  const headline = profile.headline || profile.auto_headline;
+  const bio = profile.bio || profile.auto_bio;
+  const allSkills = Array.from(new Set([...(profile.skills ?? []), ...(profile.self_reported_skills ?? [])]));
+
+  const availabilityLabel = {
+    available: { text: "Available now", color: "#2d8a4e" },
+    open_to_offers: { text: "Open to offers", color: "#e3a008" },
+    not_available: { text: "Not available", color: "#6b7280" },
+  }[profile.availability ?? "available"];
 
   return (
     <div style={{ fontFamily: "Inter, sans-serif", backgroundColor: "#f9fafb", minHeight: "100vh" }}>
@@ -180,13 +196,13 @@ export default async function TalentProfilePage({ params }: { params: Promise<{ 
                 <div className="flex-1 min-w-0">
                   <div className="flex items-center gap-2 flex-wrap">
                     <h1 className="text-xl font-extrabold" style={{ color: "#0f1f3d" }}>{profile.full_name}</h1>
-                    {verifiedTracks.length > 0 && (
+                    {profile.profile_complete && (
                       <span className="text-xs font-bold px-2 py-0.5 rounded-full flex items-center gap-1" style={{ backgroundColor: "rgba(45,138,78,0.1)", color: "#2d8a4e" }}>
-                        ✓ Verified
+                        ✓ Tundemy Verified
                       </span>
                     )}
                   </div>
-                  {profile.headline && <p className="text-sm text-gray-600 mt-0.5">{profile.headline}</p>}
+                  {headline && <p className="text-sm text-gray-600 mt-0.5">{headline}</p>}
                   <div className="flex items-center gap-3 mt-2 flex-wrap">
                     {profile.location && (
                       <span className="flex items-center gap-1 text-xs text-gray-400">
@@ -196,6 +212,11 @@ export default async function TalentProfilePage({ params }: { params: Promise<{ 
                     )}
                     {profile.years_experience > 0 && (
                       <span className="text-xs text-gray-400">{profile.years_experience} years experience</span>
+                    )}
+                    {availabilityLabel && (
+                      <span className="text-xs font-semibold px-2 py-0.5 rounded-full" style={{ backgroundColor: `${availabilityLabel.color}14`, color: availabilityLabel.color }}>
+                        {availabilityLabel.text}
+                      </span>
                     )}
                   </div>
                 </div>
@@ -230,22 +251,74 @@ export default async function TalentProfilePage({ params }: { params: Promise<{ 
             </div>
 
             {/* Bio */}
-            {profile.bio && (
+            {bio && (
               <div className="rounded-2xl border bg-white p-6" style={{ borderColor: "#e5e7eb" }}>
                 <h2 className="text-sm font-bold mb-3" style={{ color: "#0f1f3d" }}>About</h2>
-                <p className="text-sm text-gray-700 leading-relaxed">{profile.bio}</p>
+                <p className="text-sm text-gray-700 leading-relaxed">{bio}</p>
               </div>
             )}
 
             {/* Skills */}
-            {profile.skills && profile.skills.length > 0 && (
+            {allSkills.length > 0 && (
               <div className="rounded-2xl border bg-white p-6" style={{ borderColor: "#e5e7eb" }}>
                 <h2 className="text-sm font-bold mb-4" style={{ color: "#0f1f3d" }}>AI Skills</h2>
                 <div className="flex flex-wrap gap-2">
-                  {profile.skills.map((skill) => (
+                  {allSkills.map((skill) => (
                     <span key={skill} className="text-xs px-3 py-1.5 rounded-full font-semibold" style={{ backgroundColor: "rgba(45,138,78,0.08)", color: "#166534" }}>
                       {skill}
                     </span>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Projects Built (AI capstone summaries) */}
+            {capstones.length > 0 && (
+              <div className="rounded-2xl border bg-white p-6" style={{ borderColor: "#e5e7eb" }}>
+                <h2 className="text-sm font-bold mb-4" style={{ color: "#0f1f3d" }}>Projects Built</h2>
+                <div className="space-y-3">
+                  {capstones.map((c) => (
+                    <div key={c.course_slug} className="rounded-xl border p-4" style={{ borderColor: "#e5e7eb" }}>
+                      <div className="flex items-center justify-between gap-2">
+                        <p className="text-sm font-bold" style={{ color: "#0f1f3d" }}>{c.title}</p>
+                        {c.score != null && <span className="text-xs font-bold flex-shrink-0" style={{ color: "#2d8a4e" }}>{c.score}%</span>}
+                      </div>
+                      <p className="text-xs text-gray-600 mt-1.5 leading-relaxed">{c.summary}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Self-reported experience */}
+            {profile.self_reported_experience && profile.self_reported_experience.length > 0 && (
+              <div className="rounded-2xl border bg-white p-6" style={{ borderColor: "#e5e7eb" }}>
+                <h2 className="text-sm font-bold mb-4" style={{ color: "#0f1f3d" }}>Experience</h2>
+                <div className="space-y-3">
+                  {profile.self_reported_experience.map((exp, i) => (
+                    <div key={i} className="rounded-xl border p-4" style={{ borderColor: "#e5e7eb" }}>
+                      <div className="flex items-center justify-between gap-2 flex-wrap">
+                        <p className="text-sm font-bold" style={{ color: "#0f1f3d" }}>{exp.title}{exp.company ? ` · ${exp.company}` : ""}</p>
+                        {exp.duration && <span className="text-xs text-gray-400 flex-shrink-0">{exp.duration}</span>}
+                      </div>
+                      {exp.description && <p className="text-xs text-gray-600 mt-1.5 leading-relaxed">{exp.description}</p>}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Self-reported projects */}
+            {profile.self_reported_projects && profile.self_reported_projects.length > 0 && (
+              <div className="rounded-2xl border bg-white p-6" style={{ borderColor: "#e5e7eb" }}>
+                <h2 className="text-sm font-bold mb-4" style={{ color: "#0f1f3d" }}>Other Projects</h2>
+                <div className="space-y-3">
+                  {profile.self_reported_projects.map((proj, i) => (
+                    <div key={i} className="rounded-xl border p-4" style={{ borderColor: "#e5e7eb" }}>
+                      <p className="text-sm font-bold" style={{ color: "#0f1f3d" }}>{proj.title}</p>
+                      {proj.description && <p className="text-xs text-gray-600 mt-1.5 leading-relaxed">{proj.description}</p>}
+                      {proj.link && <a href={proj.link} target="_blank" rel="noopener noreferrer" className="text-xs font-semibold underline mt-1.5 inline-block" style={{ color: "#2d8a4e" }}>View →</a>}
+                    </div>
                   ))}
                 </div>
               </div>
@@ -276,48 +349,17 @@ export default async function TalentProfilePage({ params }: { params: Promise<{ 
               </div>
             )}
 
-            {/* Course Completions */}
-            {courseCompletions.length > 0 && (
-              <div className="rounded-2xl border bg-white p-6" style={{ borderColor: "#e5e7eb" }}>
-                <h2 className="text-sm font-bold mb-4" style={{ color: "#0f1f3d" }}>Course Completions</h2>
-                <div className="space-y-3">
-                  {courseCompletions.map((c) => (
-                    <div key={c.slug} className="flex items-center justify-between gap-3">
-                      <p className="text-sm font-semibold" style={{ color: "#0f1f3d" }}>{c.title}</p>
-                      <span className="text-xs font-bold px-2 py-0.5 rounded-full flex-shrink-0"
-                        style={{
-                          backgroundColor: c.completed ? "rgba(45,138,78,0.1)" : "rgba(107,114,128,0.1)",
-                          color: c.completed ? "#166534" : "#6b7280",
-                        }}>
-                        {c.completed ? "Completed" : `${c.lessonsCompleted}/${c.lessonsTotal} lessons`}
-                      </span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
-
             {/* Badges */}
             {badges.length > 0 && (
               <div className="rounded-2xl border bg-white p-6" style={{ borderColor: "#e5e7eb" }}>
                 <h2 className="text-sm font-bold mb-4" style={{ color: "#0f1f3d" }}>Tundemy Badges</h2>
                 <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-                  {badges.map((badge, i) => {
-                    const colors = ["#2d8a4e", "#9333ea", "#0ea5e9", "#d97706", "#bb0000", "#6366f1"];
-                    const color = colors[i % colors.length];
-                    const date = new Date(badge.earned_at).toLocaleDateString("en-KE", { month: "short", year: "numeric" });
-                    return (
-                      <div key={i} className="rounded-xl border p-3 text-center" style={{ borderColor: "#e5e7eb" }}>
-                        <div className="w-10 h-10 rounded-full flex items-center justify-center mx-auto mb-2" style={{ backgroundColor: `${color}12` }}>
-                          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" strokeWidth="1.5" stroke={color} strokeLinecap="round" strokeLinejoin="round">
-                            <circle cx="12" cy="8" r="6" /><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11" />
-                          </svg>
-                        </div>
-                        <p className="text-xs font-bold" style={{ color: "#0f1f3d" }}>{badge.badge_name}</p>
-                        <p className="text-xs text-gray-400 mt-0.5">{date}</p>
-                      </div>
-                    );
-                  })}
+                  {badges.map((badge) => (
+                    <div key={badge.course_slug} className="rounded-xl border p-3 text-center" style={{ borderColor: "#e5e7eb" }}>
+                      <p className="text-lg">{badge.icon || "✅"}</p>
+                      <p className="text-xs font-bold mt-1" style={{ color: "#0f1f3d" }}>{badge.badge_name}</p>
+                    </div>
+                  ))}
                 </div>
               </div>
             )}
@@ -325,32 +367,32 @@ export default async function TalentProfilePage({ params }: { params: Promise<{ 
 
           {/* Right: contact card */}
           <div className="space-y-4">
-            <div className="rounded-2xl border bg-white p-6" style={{ borderColor: "#e5e7eb" }}>
-              <p className="text-sm font-bold mb-2" style={{ color: "#0f1f3d" }}>Hire {profile.full_name.split(" ")[0]}</p>
-              <p className="text-xs text-gray-500 mb-4 leading-relaxed">
-                Post a job on Tundemy or reach out directly through their linked profiles above.
-              </p>
-              <Link
-                href={`/contact-request?candidate=${profile.user_id}&name=${encodeURIComponent(profile.full_name)}`}
-                className="w-full py-3 rounded-xl text-sm font-bold text-white text-center block transition-all hover:opacity-90"
-                style={{ backgroundColor: "#2d8a4e" }}>
-                Send Contact Request →
-              </Link>
-              <Link href="/employer/post-job"
-                className="w-full py-3 rounded-xl text-sm font-bold text-center block mt-2 border-2 transition-all hover:bg-gray-50"
-                style={{ borderColor: "#0f1f3d", color: "#0f1f3d" }}>
-                Post a Job Instead
-              </Link>
-              <Link href="/talent"
-                className="w-full py-2 rounded-xl text-xs font-semibold text-center block mt-1 text-gray-400 hover:text-gray-600"
-                style={{}}>
-                Browse All Talent
-              </Link>
-            </div>
+            <UnlockGate
+              candidateId={profile.user_id}
+              candidateName={profile.full_name}
+              bundleRemaining={bundleRemaining}
+              contactEmail={profile.contact_email}
+              contactPhone={profile.contact_phone}
+              phone={profile.phone}
+              linkedinUrl={profile.linkedin_url}
+              portfolioUrl={profile.portfolio_url}
+              initiallyUnlocked={alreadyUnlocked}
+              isEmployer={isEmployer}
+            />
+
+            <Link href="/employer/post-job"
+              className="w-full py-3 rounded-xl text-sm font-bold text-center block transition-all hover:bg-gray-50 border-2"
+              style={{ borderColor: "#0f1f3d", color: "#0f1f3d" }}>
+              Post a Job Instead
+            </Link>
+            <Link href="/talent"
+              className="w-full py-2 rounded-xl text-xs font-semibold text-center block text-gray-400 hover:text-gray-600">
+              Browse All Talent
+            </Link>
 
             <div className="rounded-2xl border p-5" style={{ borderColor: "#e5e7eb", backgroundColor: "rgba(45,138,78,0.03)" }}>
               <p className="text-xs font-bold mb-1" style={{ color: "#2d8a4e" }}>Verified via Tundemy</p>
-              <p className="text-xs text-gray-500 leading-relaxed">This candidate completed structured AI courses with sandbox projects and quiz assessments — not just a certificate.</p>
+              <p className="text-xs text-gray-500 leading-relaxed">This candidate completed structured AI courses with sandbox capstone projects, graded automatically — not just a certificate.</p>
             </div>
           </div>
 
