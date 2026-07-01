@@ -5,7 +5,6 @@ import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import Navbar from "@/components/Navbar";
-import { createClient } from "@/lib/supabase";
 
 function LoginForm() {
   const router = useRouter();
@@ -23,12 +22,13 @@ function LoginForm() {
     setLoading(true);
 
     try {
-      const supabase = createClient();
-      const { error: signInError } = await supabase.auth.signInWithPassword({
-        email,
-        password,
+      const res = await fetch("/api/auth/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, password }),
       });
-      if (signInError) throw signInError;
+      const result = await res.json();
+      if (!res.ok) throw new Error(result?.error || "Invalid email or password.");
       router.push(next);
     } catch (err: unknown) {
       setError(err instanceof Error ? err.message : "Invalid email or password.");

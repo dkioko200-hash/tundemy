@@ -4,7 +4,6 @@ import { useState, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
-import { createClient } from "@/lib/supabase";
 
 type AccountType = "student" | "employer";
 
@@ -38,6 +37,7 @@ function SignupForm() {
   const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState(false);
   const [existingUser, setExistingUser] = useState(false);
+  const [acceptedTerms, setAcceptedTerms] = useState(false);
 
   const loginHref = redirectParam
     ? `/auth/login?next=${encodeURIComponent(redirectParam)}`
@@ -57,34 +57,40 @@ function SignupForm() {
       setError("Password must be at least 8 characters.");
       return;
     }
+    if (!acceptedTerms) {
+      setError("You must agree to the Terms of Service and Privacy Policy to continue.");
+      return;
+    }
 
     setLoading(true);
     setExistingUser(false);
     try {
-      const supabase = createClient();
       const next = redirectParam || (courseSlug ? `/courses/${courseSlug}/enroll` : "/dashboard");
-      const { data, error: signUpError } = await supabase.auth.signUp({
-        email,
-        password,
-        options: {
-          data: { full_name: fullName, role: accountType },
-          emailRedirectTo: `${window.location.origin}/auth/callback?next=${encodeURIComponent(next)}`,
-        },
+
+      // Signup is handled server-side at /api/auth/signup so that terms
+      // acceptance is actually enforced (not just a disabled button) and so
+      // the acceptance timestamp can be recorded against the new profile.
+      const res = await fetch("/api/auth/signup", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          fullName,
+          email,
+          password,
+          role: accountType,
+          acceptedTerms,
+          next,
+        }),
       });
+      const result = await res.json();
 
-      // Duplicate detection:
-      // 1. Error path (email confirmation disabled): status 422 "User already registered"
-      // 2. Silent path (email confirmation enabled): no error, but identities array is empty
-      const isDuplicate =
-        (signUpError && /already registered|user already/i.test(signUpError.message)) ||
-        (data?.user != null && (!data.user.identities || data.user.identities.length === 0));
-
-      if (isDuplicate) {
+      if (!res.ok) {
+        throw new Error(result?.error || "Something went wrong. Please try again.");
+      }
+      if (result.existingUser) {
         setExistingUser(true);
         return;
       }
-
-      if (signUpError) throw signUpError;
       setSuccess(true);
     } catch (err: unknown) {
       setError(
@@ -293,9 +299,42 @@ function SignupForm() {
           </div>
         )}
 
+        <label className="flex items-start gap-2.5 cursor-pointer select-none">
+          <input
+            type="checkbox"
+            checked={acceptedTerms}
+            onChange={(e) => setAcceptedTerms(e.target.checked)}
+            className="mt-0.5 w-4 h-4 rounded border-gray-300 shrink-0"
+            style={{ accentColor: "#2d8a4e" }}
+          />
+          <span className="text-xs text-gray-500 leading-relaxed">
+            I agree to Tundemy&apos;s{" "}
+            <Link
+              href="/terms"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold hover:underline"
+              style={{ color: "#2d8a4e" }}
+            >
+              Terms of Service
+            </Link>{" "}
+            and{" "}
+            <Link
+              href="/privacy"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold hover:underline"
+              style={{ color: "#2d8a4e" }}
+            >
+              Privacy Policy
+            </Link>
+            .
+          </span>
+        </label>
+
         <button
           type="submit"
-          disabled={loading}
+          disabled={loading || !acceptedTerms}
           className="w-full py-3.5 text-sm font-bold text-white rounded-xl transition-all duration-200 hover:opacity-90 active:scale-[0.99] disabled:opacity-60"
           style={{ backgroundColor: "#2d8a4e" }}
         >

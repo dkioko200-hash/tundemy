@@ -3,6 +3,7 @@ import { cookies } from "next/headers";
 import { createServerClient } from "@supabase/ssr";
 import { createClient as createServiceClient } from "@supabase/supabase-js";
 import { callClaude, extractJson, SONNET_MODEL } from "@/lib/grading";
+import { checkRateLimit, getClientIp, rateLimitResponse } from "@/lib/rate-limit";
 
 function getServiceClient() {
   return createServiceClient(
@@ -25,6 +26,11 @@ interface CandidateRow {
 }
 
 export async function POST(req: NextRequest) {
+  // match-talent calls Claude (Sonnet) per request — rate limit harder than
+  // the per-day grading cap since there is no daily-attempt cache for it.
+  const { limited, resetAt } = checkRateLimit(`match-talent:${getClientIp(req)}`, 10);
+  if (limited) return rateLimitResponse(resetAt);
+
   try {
     const cookieStore = await cookies();
     const supabase = createServerClient(

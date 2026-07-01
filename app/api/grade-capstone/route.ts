@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { cookies } from "next/headers";
 import { createServerClient } from "@supabase/ssr";
 import { getCourseContentBySlug } from "@/lib/course-content";
+import { checkRateLimit, getClientIp, rateLimitResponse } from "@/lib/rate-limit";
 import {
   callClaude,
   countWords,
@@ -16,10 +17,16 @@ import {
 } from "@/lib/grading";
 
 export async function POST(req: NextRequest) {
+  const { limited, resetAt } = checkRateLimit(`grade-capstone:${getClientIp(req)}`, 10);
+  if (limited) return rateLimitResponse(resetAt);
+
   try {
     const { courseSlug, submission } = await req.json();
     if (!courseSlug || typeof submission !== "string" || !submission.trim()) {
       return NextResponse.json({ error: "courseSlug and submission are required" }, { status: 400 });
+    }
+    if (submission.length > 20000) {
+      return NextResponse.json({ error: "Submission is too long (max 20,000 characters)." }, { status: 400 });
     }
 
     const course = getCourseContentBySlug(courseSlug);
