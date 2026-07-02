@@ -39,6 +39,21 @@ Repo: https://github.com/dkioko200-hash/tundemy.git
 - [DONE] Fix mobile responsiveness on all pages
 - [DONE] Build 404 and error pages
 
+## Cost Controls
+- **Anthropic spend cap**: Set a monthly limit at https://console.anthropic.com → Settings → Limits to prevent runaway Claude API bills (recommended: KSh 10,000–20,000/month to start).
+- **Pesapal alerts**: Set a transaction volume alert in the Pesapal merchant dashboard for unusual spikes (e.g. > 50 transactions/day).
+- **Supabase database size**: Check monthly at https://supabase.com/dashboard → project → Settings → Usage. Free tier limit is 500 MB.
+- **Vercel function invocations**: Check monthly in Vercel dashboard → Usage. Free tier limit is 100 GB-hours of function execution.
+
+## Required environment variables (must add to Vercel before deploying)
+- `ENCRYPTION_KEY` — 64-character hex string (32 bytes) for AES-256-GCM contact field encryption. Generate with: `node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"`
+- `NEXT_PUBLIC_SUPABASE_URL` — Supabase project URL
+- `NEXT_PUBLIC_SUPABASE_ANON_KEY` — Supabase anon key
+- `SUPABASE_SERVICE_ROLE_KEY` — Supabase service role key (never expose to browser)
+- `ANTHROPIC_API_KEY` — Anthropic Claude API key
+- `RESEND_API_KEY` — Resend email API key
+- `PESAPAL_CONSUMER_KEY` / `PESAPAL_CONSUMER_SECRET` — Pesapal payment credentials
+
 ## How to work
 1. Read this file
 2. Find first unchecked item

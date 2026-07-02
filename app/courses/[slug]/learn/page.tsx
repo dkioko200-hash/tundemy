@@ -1025,6 +1025,11 @@ function SandboxComponent({ sandboxTask, lessonNumber, courseSlug, onComplete }:
             </div>
           )}
 
+          <p className="text-xs text-gray-400 italic leading-relaxed">
+            📋 Your submission will be reviewed by an AI grading system (Claude by Anthropic) to provide feedback and a score. By submitting you consent to this processing as described in our{" "}
+            <a href="/privacy" className="underline hover:text-gray-600">Privacy Policy</a>.
+          </p>
+
           <button
             onClick={handleSubmit}
             disabled={!canSubmit || grading}
@@ -1310,6 +1315,11 @@ function CapstoneComponent({
           This is your final capstone project. Graded by Claude AI on specificity, business accuracy, implementation realism, ethics, and professional quality. Score {capstone.passingScore}+ to earn your certificate.
         </p>
       </div>
+
+      <p className="text-xs text-gray-400 italic leading-relaxed">
+        📋 Your submission will be reviewed by an AI grading system (Claude by Anthropic) to provide feedback and a score. By submitting you consent to this processing as described in our{" "}
+        <a href="/privacy" className="underline hover:text-gray-600">Privacy Policy</a>.
+      </p>
 
       <button
         onClick={handleSubmit}

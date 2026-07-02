@@ -4,6 +4,7 @@ import { createServerClient } from "@supabase/ssr";
 import { createClient as createServiceClient } from "@supabase/supabase-js";
 import { cookies } from "next/headers";
 import UnlockGate from "./unlock-gate";
+import { decrypt } from "@/lib/encryption";
 
 interface VerifiedTrack {
   track: string;
@@ -141,6 +142,17 @@ export default async function TalentProfilePage({ params }: { params: Promise<{ 
       bundleRemaining = bundleRes.data.profiles_remaining;
     }
   }
+
+  // Decrypt contact fields server-side. Only pass decrypted values to
+  // UnlockGate if the employer actually has a valid unlock — otherwise pass
+  // null so the locked UI shows placeholder text, not real data.
+  const decryptSafe = (value: string | undefined | null): string | undefined => {
+    if (!value) return undefined;
+    try { return decrypt(value); } catch { return undefined; }
+  };
+  const contactEmail   = alreadyUnlocked ? decryptSafe(profile.contact_email)  : undefined;
+  const contactPhone   = alreadyUnlocked ? decryptSafe(profile.contact_phone)  : undefined;
+  const contactPhoneAlt = alreadyUnlocked ? decryptSafe(profile.phone)         : undefined;
 
   const initials = profile.full_name.split(" ").map((n) => n[0]).slice(0, 2).join("");
   const headline = profile.headline || profile.auto_headline;
@@ -371,9 +383,9 @@ export default async function TalentProfilePage({ params }: { params: Promise<{ 
               candidateId={profile.user_id}
               candidateName={profile.full_name}
               bundleRemaining={bundleRemaining}
-              contactEmail={profile.contact_email}
-              contactPhone={profile.contact_phone}
-              phone={profile.phone}
+              contactEmail={contactEmail}
+              contactPhone={contactPhone}
+              phone={contactPhoneAlt}
               linkedinUrl={profile.linkedin_url}
               portfolioUrl={profile.portfolio_url}
               initiallyUnlocked={alreadyUnlocked}

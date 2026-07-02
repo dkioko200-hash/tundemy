@@ -85,6 +85,11 @@ export default function ProfilePage() {
   const [badges, setBadges] = useState<Badge[]>([]);
   const [capstones, setCapstones] = useState<CapstoneWork[]>([]);
   const [newSkillTag, setNewSkillTag] = useState("");
+  const [showDeleteModal, setShowDeleteModal] = useState(false);
+  const [deleteConfirmText, setDeleteConfirmText] = useState("");
+  const [deleting, setDeleting] = useState(false);
+  const [deleteError, setDeleteError] = useState<string | null>(null);
+  const [exporting, setExporting] = useState(false);
 
   useEffect(() => {
     async function load() {
@@ -92,12 +97,14 @@ export default function ProfilePage() {
       const { data: { user } } = await supabase.auth.getUser();
       if (!user) { router.replace("/auth/login?next=/dashboard/profile"); return; }
 
-      const [{ data }, { data: badgeRows }, { data: capstoneRows }] = await Promise.all([
-        supabase.from("talent_profiles").select("*").eq("user_id", user.id).maybeSingle(),
+      // Load profile via server API so phone is decrypted before display
+      const [profileRes, { data: badgeRows }, { data: capstoneRows }] = await Promise.all([
+        fetch("/api/talent/my-profile").then((r) => r.json()),
         supabase.from("talent_badges").select("course_slug, badge_name, icon, awarded_at").eq("user_id", user.id),
         supabase.from("talent_capstone_work").select("course_slug, title, summary, score").eq("user_id", user.id),
       ]);
 
+      const data = profileRes?.profile;
       if (data) {
         setProfile({
           full_name: data.full_name ?? "",
@@ -208,13 +215,12 @@ export default function ProfilePage() {
 
   const handleSave = async () => {
     setSaving(true);
-    const supabase = createClient();
-    const { data: { user } } = await supabase.auth.getUser();
-    if (!user) return;
-
-    await supabase.from("talent_profiles").upsert(
-      {
-        user_id: user.id,
+    // Save via server API so phone is encrypted at rest before writing to DB.
+    // The ENCRYPTION_KEY never reaches the browser bundle.
+    await fetch("/api/talent/save-profile", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
         full_name: profile.full_name,
         headline: profile.headline,
         bio: profile.bio,
@@ -230,14 +236,45 @@ export default function ProfilePage() {
         years_experience: profile.years_experience,
         phone: profile.phone,
         availability: profile.availability,
-        updated_at: new Date().toISOString(),
-      },
-      { onConflict: "user_id" }
-    );
-
+      }),
+    });
     setSaving(false);
     setSaved(true);
     setTimeout(() => setSaved(false), 2500);
+  };
+
+  const handleExport = async () => {
+    setExporting(true);
+    try {
+      const res = await fetch("/api/auth/export-data");
+      if (!res.ok) throw new Error("Export failed");
+      const blob = await res.blob();
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "tundemy-my-data.json";
+      a.click();
+      URL.revokeObjectURL(url);
+    } finally {
+      setExporting(false);
+    }
+  };
+
+  const handleDelete = async () => {
+    if (deleteConfirmText !== "DELETE") return;
+    setDeleting(true);
+    setDeleteError(null);
+    try {
+      const res = await fetch("/api/auth/delete-account", { method: "DELETE" });
+      if (!res.ok) {
+        const data = await res.json();
+        throw new Error(data.error ?? "Deletion failed");
+      }
+      window.location.href = "/";
+    } catch (err) {
+      setDeleteError(err instanceof Error ? err.message : "Something went wrong");
+      setDeleting(false);
+    }
   };
 
   if (loading) {
@@ -614,6 +651,75 @@ export default function ProfilePage() {
         style={{ backgroundColor: saved ? "#166534" : "#2d8a4e" }}>
         {saved ? "Saved!" : saving ? "Saving…" : "Save Profile"}
       </button>
+
+      {/* Data rights ──────────────────────────────────────────────────────── */}
+      <div className="rounded-2xl border bg-white p-6 space-y-3" style={{ borderColor: "#e5e7eb" }}>
+        <h2 className="text-sm font-bold" style={{ color: "#0f1f3d" }}>Your Data Rights</h2>
+        <p className="text-xs text-gray-500 leading-relaxed">
+          Under the Kenya Data Protection Act 2019 you have the right to download all data we hold about you, or request permanent deletion of your account.
+        </p>
+        <button
+          onClick={handleExport}
+          disabled={exporting}
+          className="px-4 py-2.5 rounded-xl text-xs font-bold border-2 transition-all hover:bg-gray-50 disabled:opacity-60"
+          style={{ borderColor: "#0f1f3d", color: "#0f1f3d" }}>
+          {exporting ? "Preparing export…" : "Download My Data (JSON)"}
+        </button>
+      </div>
+
+      {/* Danger zone ──────────────────────────────────────────────────────── */}
+      <div className="rounded-2xl border p-6 space-y-3" style={{ borderColor: "rgba(187,0,0,0.25)", backgroundColor: "rgba(187,0,0,0.02)" }}>
+        <h2 className="text-sm font-bold" style={{ color: "#bb0000" }}>Danger Zone</h2>
+        <p className="text-xs text-gray-500 leading-relaxed">
+          Permanently deletes your account, all course progress, certificates, talent profile, and contact data. This cannot be undone.
+        </p>
+        <button
+          onClick={() => { setShowDeleteModal(true); setDeleteConfirmText(""); setDeleteError(null); }}
+          className="px-4 py-2.5 rounded-xl text-xs font-bold border-2 transition-all hover:bg-red-50"
+          style={{ borderColor: "#bb0000", color: "#bb0000" }}>
+          Delete My Account
+        </button>
+      </div>
+
+      {/* Delete confirmation modal */}
+      {showDeleteModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center px-4" style={{ backgroundColor: "rgba(0,0,0,0.5)" }}>
+          <div className="bg-white rounded-2xl shadow-2xl p-7 w-full max-w-md space-y-4">
+            <h3 className="text-lg font-extrabold" style={{ color: "#bb0000" }}>Delete account permanently?</h3>
+            <p className="text-sm text-gray-600 leading-relaxed">
+              This will permanently delete your account, all your progress, certificates, talent profile, and contact data. <strong>This cannot be undone.</strong>
+            </p>
+            <p className="text-sm text-gray-600">Type <strong>DELETE</strong> to confirm:</p>
+            <input
+              value={deleteConfirmText}
+              onChange={(e) => setDeleteConfirmText(e.target.value)}
+              placeholder="DELETE"
+              className="w-full px-4 py-2.5 text-sm border-2 rounded-xl outline-none"
+              style={{ borderColor: deleteConfirmText === "DELETE" ? "#bb0000" : "#e5e7eb" }}
+              autoFocus
+            />
+            {deleteError && (
+              <p className="text-xs font-semibold" style={{ color: "#bb0000" }}>{deleteError}</p>
+            )}
+            <div className="flex gap-3">
+              <button
+                onClick={() => setShowDeleteModal(false)}
+                disabled={deleting}
+                className="flex-1 py-3 rounded-xl text-sm font-bold border-2 transition-all hover:bg-gray-50"
+                style={{ borderColor: "#e5e7eb", color: "#6b7280" }}>
+                Cancel
+              </button>
+              <button
+                onClick={handleDelete}
+                disabled={deleteConfirmText !== "DELETE" || deleting}
+                className="flex-1 py-3 rounded-xl text-sm font-bold text-white transition-all disabled:opacity-50"
+                style={{ backgroundColor: "#bb0000" }}>
+                {deleting ? "Deleting…" : "Delete Forever"}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

@@ -4,6 +4,7 @@ import { createServerClient } from "@supabase/ssr";
 import { createClient as createServiceClient } from "@supabase/supabase-js";
 import { getCourseBySlug } from "@/lib/courses";
 import { callClaude, extractJson, SONNET_MODEL } from "@/lib/grading";
+import { encrypt } from "@/lib/encryption";
 
 function getServiceClient() {
   return createServiceClient(
@@ -87,7 +88,7 @@ export async function POST(req: NextRequest) {
 
     const { data: profileRow } = await admin
       .from("talent_profiles")
-      .select("full_name")
+      .select("full_name, phone")
       .eq("user_id", user.id)
       .maybeSingle();
 
@@ -150,6 +151,10 @@ Respond with ONLY a JSON object (no markdown fences, no extra text) in exactly t
         skills,
         profile_complete: true,
         last_generated_at: new Date().toISOString(),
+        // Encrypt contact fields at rest (phone may already be encrypted if
+        // the student saved their profile via /api/talent/save-profile)
+        contact_email: user.email ? encrypt(user.email) : null,
+        contact_phone: profileRow?.phone ? encrypt(profileRow.phone) : null,
       },
       { onConflict: "user_id" }
     );
