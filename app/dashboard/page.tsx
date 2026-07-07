@@ -112,6 +112,7 @@ export default function DashboardPage() {
   const [badges, setBadges] = useState<Badge[]>([]);
   const [activity, setActivity] = useState<ActivityItem[]>([]);
   const [profileCompletion, setProfileCompletion] = useState(35);
+  const [isAdmin, setIsAdmin] = useState(false);
 
   const jobs = [
     { company: "Safaricom", role: "AI Solutions Analyst", salary: "KSh 80k–120k/mo" },
@@ -127,6 +128,7 @@ export default function DashboardPage() {
       const user = session.user;
       const fullName: string = user.user_metadata?.full_name || user.email?.split("@")[0] || "Student";
       setUserName(fullName);
+      if (user.email === "d.kioko200@gmail.com") setIsAdmin(true);
 
       // Parallel fetches — one progress query covers all courses (avoids N+1)
       const [enrollRes, progressRes, certsRes, badgeRes, activityRes, profileRes] = await Promise.allSettled([
@@ -464,6 +466,20 @@ export default function DashboardPage() {
               ))}
             </div>
           </div>
+
+
+          {isAdmin && (
+            <div>
+              <h3 className="text-sm font-bold mb-3" style={{ color: "#0f1f3d" }}>Admin</h3>
+              <Link
+                href="/dashboard/support"
+                className="flex items-center gap-2 px-3 py-2.5 rounded-xl text-xs font-semibold border transition-all hover:opacity-80"
+                style={{ borderColor: "#0f1f3d", color: "#0f1f3d", background: "rgba(15,31,61,0.04)" }}
+              >
+                <span>🎧</span> Support Inbox
+              </Link>
+            </div>
+          )}
 
         </div>
       </aside>
