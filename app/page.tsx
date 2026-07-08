@@ -40,23 +40,6 @@ export default function HomePage() {
             employers post jobs and hire directly from our talent pool.
           </p>
 
-          {/* Stats row */}
-          <div className="flex justify-center gap-6 mb-10">
-            {[
-              { value: "2,400+", label: "Verified graduates" },
-              { value: "47", label: "Employers hiring now" },
-            ].map((stat) => (
-              <div
-                key={stat.label}
-                className="flex-1 max-w-[180px] rounded-2xl py-5 px-4"
-                style={{ backgroundColor: "rgba(255,255,255,0.07)" }}
-              >
-                <div className="text-3xl font-extrabold text-white">{stat.value}</div>
-                <div className="text-sm text-white/50 mt-1">{stat.label}</div>
-              </div>
-            ))}
-          </div>
-
           {/* Employer benefit points */}
           <ul className="text-left max-w-sm mx-auto space-y-3 mb-10">
             {[

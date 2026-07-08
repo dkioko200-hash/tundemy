@@ -45,7 +45,7 @@ export default function Footer() {
                 { label: "Browse Talent", href: "/talent" },
                 { label: "Post a Job", href: "/employer/post-job" },
                 { label: "Employer Dashboard", href: "/employer/dashboard" },
-                { label: "Partner With Us", href: "mailto:hello@tundemy.com" },
+                { label: "Partner With Us", href: "mailto:support@tundemy.com?subject=Partnership%20Enquiry" },
               ].map((item) => (
                 <li key={item.label}>
                   <Link href={item.href} className="text-sm font-normal text-white/60 hover:text-white transition-colors">
@@ -61,10 +61,9 @@ export default function Footer() {
             <h4 className="text-sm font-bold uppercase tracking-wider text-white/40 mb-4">Platform</h4>
             <ul className="space-y-2.5">
               {[
-                { label: "How It Works", href: "/#about" },
-                { label: "Sandbox Preview", href: "/#courses" },
+                { label: "How It Works", href: "/#how-it-works" },
+                { label: "Sandbox Preview", href: "/courses" },
                 { label: "Certificates", href: "/dashboard/certificates" },
-                { label: "Success Stories", href: "/talent" },
               ].map((item) => (
                 <li key={item.label}>
                   <Link href={item.href} className="text-sm font-normal text-white/60 hover:text-white transition-colors">
@@ -80,8 +79,7 @@ export default function Footer() {
             <h4 className="text-sm font-bold uppercase tracking-wider text-white/40 mb-4">Company</h4>
             <ul className="space-y-2.5">
               {[
-                { label: "About Tundemy", href: "/#about" },
-                { label: "Contact Us", href: "mailto:hello@tundemy.com" },
+                { label: "Contact Us", href: "mailto:support@tundemy.com" },
                 { label: "Privacy Policy", href: "/privacy" },
                 { label: "Terms of Service", href: "/terms" },
               ].map((item) => (
