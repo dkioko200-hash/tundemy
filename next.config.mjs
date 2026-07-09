@@ -5,7 +5,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const CSP = [
   "default-src 'self'",
-  "script-src 'self' 'unsafe-inline' 'unsafe-eval'",
+  "script-src 'self' 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval' https://cdn.jsdelivr.net",
   "style-src 'self' 'unsafe-inline'",
   "img-src 'self' data: https: blob:",
   "font-src 'self' data:",
@@ -17,6 +17,9 @@ const CSP = [
     "https://api.pesapal.com",
     "https://cybqa.pesapal.com",
     "https://pay.pesapal.com",
+    "https://cdn.jsdelivr.net",
+    "https://files.pythonhosted.org",
+    "https://pypi.org",
   ].join(" "),
   "frame-ancestors 'none'",
   "base-uri 'self'",
