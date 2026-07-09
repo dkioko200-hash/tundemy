@@ -31,33 +31,36 @@ export function getGradingServiceClient() {
   if (!url || !serviceKey) {
     throw new Error(
       "SUPABASE_SERVICE_ROLE_KEY (or NEXT_PUBLIC_SUPABASE_URL) is not configured. " +
-      "Grading and rate-limiting cannot run without it — set it in .env.local."
+      "Grading and rate-limiting cannot run without it - set it in .env.local."
     );
   }
   return createServiceClient(url, serviceKey);
 }
 
-/**
- * Returns true if the user has hit the daily grading attempt cap for this
- * course + kind (max 3 per user per course per 24 hours).
- */
 export async function hasExceededDailyLimit(
   userId: string,
   courseSlug: string,
   kind: GradingKind
 ): Promise<boolean> {
-  const supabase = getGradingServiceClient();
-  const since = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
-  const { count, error } = await supabase
-    .from("grading_attempts")
-    .select("id", { count: "exact", head: true })
-    .eq("user_id", userId)
-    .eq("course_slug", courseSlug)
-    .eq("kind", kind)
-    .gte("created_at", since);
-
-  if (error) throw error;
-  return (count ?? 0) >= MAX_GRADING_ATTEMPTS_PER_DAY;
+  try {
+    const supabase = getGradingServiceClient();
+    const since = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
+    const { count, error } = await supabase
+      .from("grading_attempts")
+      .select("id", { count: "exact", head: true })
+      .eq("user_id", userId)
+      .eq("course_slug", courseSlug)
+      .eq("kind", kind)
+      .gte("created_at", since);
+    if (error) {
+      console.warn("[grading] hasExceededDailyLimit DB error (fail-open):", error);
+      return false;
+    }
+    return (count ?? 0) >= MAX_GRADING_ATTEMPTS_PER_DAY;
+  } catch (err) {
+    console.warn("[grading] hasExceededDailyLimit threw (fail-open):", err);
+    return false;
+  }
 }
 
 export async function recordGradingAttempt(
@@ -66,14 +69,20 @@ export async function recordGradingAttempt(
   kind: GradingKind,
   submissionHash: string
 ) {
-  const supabase = getGradingServiceClient();
-  const { error } = await supabase.from("grading_attempts").insert({
-    user_id: userId,
-    course_slug: courseSlug,
-    kind,
-    submission_hash: submissionHash,
-  });
-  if (error) throw error;
+  try {
+    const supabase = getGradingServiceClient();
+    const { error } = await supabase.from("grading_attempts").insert({
+      user_id: userId,
+      course_slug: courseSlug,
+      kind,
+      submission_hash: submissionHash,
+    });
+    if (error) {
+      console.warn("[grading] recordGradingAttempt DB error (ignored):", error);
+    }
+  } catch (err) {
+    console.warn("[grading] recordGradingAttempt threw (ignored):", err);
+  }
 }
 
 export async function getCachedGrade(
@@ -82,18 +91,25 @@ export async function getCachedGrade(
   kind: GradingKind,
   submissionHash: string
 ): Promise<Record<string, unknown> | null> {
-  const supabase = getGradingServiceClient();
-  const { data, error } = await supabase
-    .from("grading_cache")
-    .select("result")
-    .eq("user_id", userId)
-    .eq("course_slug", courseSlug)
-    .eq("kind", kind)
-    .eq("submission_hash", submissionHash)
-    .maybeSingle();
-
-  if (error) throw error;
-  return (data?.result as Record<string, unknown>) ?? null;
+  try {
+    const supabase = getGradingServiceClient();
+    const { data, error } = await supabase
+      .from("grading_cache")
+      .select("result")
+      .eq("user_id", userId)
+      .eq("course_slug", courseSlug)
+      .eq("kind", kind)
+      .eq("submission_hash", submissionHash)
+      .maybeSingle();
+    if (error) {
+      console.warn("[grading] getCachedGrade DB error (fail-open):", error);
+      return null;
+    }
+    return (data?.result as Record<string, unknown>) ?? null;
+  } catch (err) {
+    console.warn("[grading] getCachedGrade threw (fail-open):", err);
+    return null;
+  }
 }
 
 export async function saveGradeToCache(
@@ -103,24 +119,26 @@ export async function saveGradeToCache(
   submissionHash: string,
   result: Record<string, unknown>
 ) {
-  const supabase = getGradingServiceClient();
-  const { error } = await supabase.from("grading_cache").upsert(
-    {
-      user_id: userId,
-      course_slug: courseSlug,
-      kind,
-      submission_hash: submissionHash,
-      result,
-    },
-    { onConflict: "user_id,course_slug,kind,submission_hash" }
-  );
-  if (error) throw error;
+  try {
+    const supabase = getGradingServiceClient();
+    const { error } = await supabase.from("grading_cache").upsert(
+      {
+        user_id: userId,
+        course_slug: courseSlug,
+        kind,
+        submission_hash: submissionHash,
+        result,
+      },
+      { onConflict: "user_id,course_slug,kind,submission_hash" }
+    );
+    if (error) {
+      console.warn("[grading] saveGradeToCache DB error (ignored):", error);
+    }
+  } catch (err) {
+    console.warn("[grading] saveGradeToCache threw (ignored):", err);
+  }
 }
 
-/**
- * Calls the Claude API and returns the text content of the response.
- * Throws if ANTHROPIC_API_KEY is not configured.
- */
 export async function callClaude(
   model: string,
   systemPrompt: string,
@@ -131,7 +149,6 @@ export async function callClaude(
   if (!apiKey) {
     throw new Error("ANTHROPIC_API_KEY is not configured");
   }
-
   const res = await fetch("https://api.anthropic.com/v1/messages", {
     method: "POST",
     headers: {
@@ -140,18 +157,16 @@ export async function callClaude(
       "anthropic-version": "2023-06-01",
     },
     body: JSON.stringify({
-      model,
+      model: model,
       max_tokens: maxTokens,
       system: systemPrompt,
       messages: [{ role: "user", content: userPrompt }],
     }),
   });
-
   if (!res.ok) {
     const detail = await res.text();
-    throw new Error(`Claude API error (${res.status}): ${detail}`);
+    throw new Error("Claude API error (" + res.status + "): " + detail);
   }
-
   const data = await res.json();
   const text = data?.content?.[0]?.text;
   if (typeof text !== "string") {
@@ -160,10 +175,6 @@ export async function callClaude(
   return text;
 }
 
-/**
- * Extracts the first JSON object found in a string (Claude sometimes wraps
- * JSON in markdown code fences or surrounding text).
- */
 export function extractJson(text: string): Record<string, unknown> {
   const fenced = text.match(/```(?:json)?\s*([\s\S]*?)```/i);
   const candidate = fenced ? fenced[1] : text;
