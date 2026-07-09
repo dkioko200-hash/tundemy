@@ -1,11 +1,11 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 
 type VerifyStatus = "verifying" | "paid" | "failed" | "pending";
 
-export default function UnlockConfirmPage() {
+function UnlockConfirmInner() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const orderTrackingId = searchParams.get("OrderTrackingId");
@@ -95,5 +95,17 @@ export default function UnlockConfirmPage() {
         )}
       </div>
     </div>
+  );
+}
+
+export default function UnlockConfirmPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex items-center justify-center" style={{ backgroundColor: "#f9fafb" }}>
+        <div className="w-14 h-14 rounded-full border-[3px] animate-spin" style={{ borderColor: "#2d8a4e", borderTopColor: "transparent" }} />
+      </div>
+    }>
+      <UnlockConfirmInner />
+    </Suspense>
   );
 }
