@@ -5,6 +5,7 @@ import { createClient as createServiceClient } from "@supabase/supabase-js";
 import { getCourseBySlug } from "@/lib/courses";
 import { callClaude, extractJson, SONNET_MODEL } from "@/lib/grading";
 import { encrypt } from "@/lib/encryption";
+import { checkRateLimit, getClientIp, rateLimitResponse } from "@/lib/rate-limit";
 
 function getServiceClient() {
   return createServiceClient(
@@ -32,6 +33,9 @@ interface CapstoneRecord {
  *     capstone's record even before it has its own durable table entry.
  */
 export async function POST(req: NextRequest) {
+  const { limited, resetAt } = checkRateLimit(`gen-profile:${getClientIp(req)}`, 5);
+  if (limited) return rateLimitResponse(resetAt);
+
   try {
     const cookieStore = await cookies();
     const supabase = createServerClient(

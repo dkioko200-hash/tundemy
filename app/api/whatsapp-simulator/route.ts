@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { cookies } from "next/headers";
 import { createServerClient } from "@supabase/ssr";
+import { checkRateLimit, getClientIp, rateLimitResponse } from "@/lib/rate-limit";
 
 type MsgType = "text" | "image" | "buttons" | "list" | "template" | "webhook-verify";
 
@@ -102,6 +103,9 @@ function buildResponse(type: MsgType, p: Record<string, unknown>) {
 }
 
 export async function POST(req: NextRequest) {
+  const { limited, resetAt } = checkRateLimit(`whatsapp-sim:${getClientIp(req)}`, 30);
+  if (limited) return rateLimitResponse(resetAt);
+
   try {
     const body: SimRequest = await req.json();
     const { sessionId, messageType, payload } = body;
