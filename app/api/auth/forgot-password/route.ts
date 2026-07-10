@@ -20,10 +20,9 @@ export async function POST(req: NextRequest) {
       process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
     );
 
-    // Hardcode production URL so the PKCE callback always lands on the right page.
-    // Supabase verifies the token then redirects to /auth/callback?code=...&type=recovery
-    // which exchanges the code for a session and redirects to /auth/reset-password.
-    const redirectTo = "https://tundemy.com/auth/callback?next=/auth/reset-password";
+    // Direct hash-flow link — Supabase appends #access_token=...&type=recovery to this URL.
+    // The reset-password page reads the hash and calls setSession() directly.
+    const redirectTo = "https://tundemy.com/auth/reset-password";
 
     // Always return success to prevent email enumeration
     await supabase.auth.resetPasswordForEmail(email.trim().toLowerCase(), { redirectTo });

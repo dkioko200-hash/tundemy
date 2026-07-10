@@ -17,32 +17,53 @@ function ResetPasswordForm() {
 
   useEffect(() => {
     const supabase = createClient();
+    let subscriptionCleanup: (() => void) | null = null;
 
-    // Listen for PASSWORD_RECOVERY event (implicit/hash flow, also fires after PKCE exchange)
-    const { data: { subscription } } = supabase.auth.onAuthStateChange((event) => {
-      if (event === "PASSWORD_RECOVERY") setSessionReady(true);
-    });
+    const init = async () => {
+      // 1. Primary: hash flow — Supabase appends #access_token=...&type=recovery
+      const hash = window.location.hash.slice(1);
+      const params = new URLSearchParams(hash);
+      const accessToken = params.get("access_token");
+      const refreshToken = params.get("refresh_token");
+      const type = params.get("type");
 
-    // PKCE flow: /auth/callback already exchanged the code and set session cookies.
-    // getSession() will return the session immediately in that case.
-    supabase.auth.getSession().then(({ data: { session } }) => {
+      if (accessToken && type === "recovery") {
+        const { error: sessionError } = await supabase.auth.setSession({
+          access_token: accessToken,
+          refresh_token: refreshToken ?? "",
+        });
+        if (sessionError) {
+          setError("Invalid or expired reset link. Please request a new one.");
+        } else {
+          setSessionReady(true);
+        }
+        return;
+      }
+
+      // 2. Fallback: PKCE flow — session already set by /auth/callback
+      const { data: { session } } = await supabase.auth.getSession();
       if (session) {
         setSessionReady(true);
-      } else {
-        // Give onAuthStateChange a moment to fire (implicit flow with hash).
-        // If still no session after 2.5 s, the link is invalid/expired.
-        setTimeout(() => {
-          setSessionReady((prev) => {
-            if (!prev) {
-              setError("Invalid or expired reset link. Please request a new one.");
-            }
-            return prev;
-          });
-        }, 2500);
+        return;
       }
-    });
 
-    return () => subscription.unsubscribe();
+      // 3. Fallback: listen for PASSWORD_RECOVERY auth event
+      const { data: { subscription } } = supabase.auth.onAuthStateChange((event) => {
+        if (event === "PASSWORD_RECOVERY") setSessionReady(true);
+      });
+      subscriptionCleanup = () => subscription.unsubscribe();
+
+      // Give it 2.5 s then show error if still no session
+      setTimeout(() => {
+        setSessionReady((prev) => {
+          if (!prev) setError("Invalid or expired reset link. Please request a new one.");
+          return prev;
+        });
+      }, 2500);
+    };
+
+    init();
+    return () => { subscriptionCleanup?.(); };
   }, []);
 
   const handleSubmit = async (e: React.FormEvent) => {
