@@ -39,6 +39,10 @@ Repo: https://github.com/dkioko200-hash/tundemy.git
 - [DONE] Fix mobile responsiveness on all pages
 - [DONE] Build 404 and error pages
 
+### BLOCK 4 — Video hosting
+- [DONE] Migrate all course videos (80/81) from public/videos to Vercel Blob Storage — commit 9387a1d — blob store: store_llVJlae5FGbOyqOL — missing video: ai-agriculture/lesson-0.mp4 (set to empty string)
+- [DONE] Fix CSP media-src directive to allow Vercel Blob Storage video playback — commit 586f9a7
+
 ## Cost Controls
 - **Anthropic spend cap**: Set a monthly limit at https://console.anthropic.com → Settings → Limits to prevent runaway Claude API bills (recommended: KSh 10,000–20,000/month to start).
 - **Pesapal alerts**: Set a transaction volume alert in the Pesapal merchant dashboard for unusual spikes (e.g. > 50 transactions/day).
@@ -52,14 +56,4 @@ Repo: https://github.com/dkioko200-hash/tundemy.git
 - `SUPABASE_SERVICE_ROLE_KEY` — Supabase service role key (never expose to browser)
 - `ANTHROPIC_API_KEY` — Anthropic Claude API key
 - `RESEND_API_KEY` — Resend email API key
-- `PESAPAL_CONSUMER_KEY` / `PESAPAL_CONSUMER_SECRET` — Pesapal payment credentials
-
-## How to work
-1. Read this file
-2. Find first unchecked item
-3. Read relevant existing files first
-4. Build it completely
-5. npx tsc --noEmit — fix all errors
-6. git add -A && git commit -m "feat: [task]" && git push
-7. Mark task [DONE] in this file
-8. Move to next task immediately
+- `PESAPAL_CONSUMER_KEY` / `P
