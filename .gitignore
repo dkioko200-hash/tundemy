@@ -17,6 +17,10 @@ dist/
 .env.development.local
 .env.test.local
 .env.production.local
+vercel.env
+
+# Scripts with embedded secrets
+scripts/run-upload.bat
 
 # debug logs
 npm-debug.log*
@@ -42,9 +46,4 @@ next-env.d.ts
 public/videos/
 public/audio/**/*.mp3
 public/audio/**/*.wav
-public/audio/**/*.json
-public/avatars/
-
-# Dev logs
-dev-output.log
-*.log
+publi

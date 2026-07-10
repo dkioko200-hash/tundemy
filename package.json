@@ -32,7 +32,8 @@
     "react": "^19",
     "react-dom": "^19",
     "remotion": "^4.0.482",
-    "resend": "^6.12.4"
+    "resend": "^6.12.4",
+    "@vercel/blob": "^2.6.1"
   },
   "devDependencies": {
     "@types/node": "^20",
