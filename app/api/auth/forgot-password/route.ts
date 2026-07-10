@@ -20,7 +20,12 @@ export async function POST(req: NextRequest) {
       process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
     );
 
-    const redirectTo = `${process.env.NEXT_PUBLIC_APP_URL}/auth/reset-password`;
+    // Derive redirect from request origin so it works on localhost AND production
+    const origin =
+      req.headers.get("origin") ||
+      process.env.NEXT_PUBLIC_APP_URL ||
+      "https://tundemy.com";
+    const redirectTo = `${origin}/auth/reset-password`;
 
     // Always return success to prevent email enumeration
     await supabase.auth.resetPasswordForEmail(email.trim().toLowerCase(), { redirectTo });
