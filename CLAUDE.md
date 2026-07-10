@@ -43,6 +43,9 @@ Repo: https://github.com/dkioko200-hash/tundemy.git
 - [DONE] Migrate all course videos (80/81) from public/videos to Vercel Blob Storage — commit 9387a1d — blob store: store_llVJlae5FGbOyqOL — missing video: ai-agriculture/lesson-0.mp4 (set to empty string)
 - [DONE] Fix CSP media-src directive to allow Vercel Blob Storage video playback — commit 586f9a7
 
+### BLOCK 5 — Auth fixes
+- [DONE] Fix password reset flow — direct hash flow: redirectTo points to /auth/reset-password, page reads access_token from URL hash, calls setSession() — commit 86e0671
+
 ## Cost Controls
 - **Anthropic spend cap**: Set a monthly limit at https://console.anthropic.com → Settings → Limits to prevent runaway Claude API bills (recommended: KSh 10,000–20,000/month to start).
 - **Pesapal alerts**: Set a transaction volume alert in the Pesapal merchant dashboard for unusual spikes (e.g. > 50 transactions/day).
