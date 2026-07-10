@@ -20,12 +20,10 @@ export async function POST(req: NextRequest) {
       process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
     );
 
-    // Derive redirect from request origin so it works on localhost AND production
-    const origin =
-      req.headers.get("origin") ||
-      process.env.NEXT_PUBLIC_APP_URL ||
-      "https://tundemy.com";
-    const redirectTo = `${origin}/auth/reset-password`;
+    // Hardcode production URL so the PKCE callback always lands on the right page.
+    // Supabase verifies the token then redirects to /auth/callback?code=...&type=recovery
+    // which exchanges the code for a session and redirects to /auth/reset-password.
+    const redirectTo = "https://tundemy.com/auth/callback?next=/auth/reset-password";
 
     // Always return success to prevent email enumeration
     await supabase.auth.resetPasswordForEmail(email.trim().toLowerCase(), { redirectTo });

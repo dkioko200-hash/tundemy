@@ -1,14 +1,13 @@
 "use client";
 
 import { useState, useEffect, Suspense } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import { createClient } from "@/lib/supabase";
 
 function ResetPasswordForm() {
   const router = useRouter();
-  const searchParams = useSearchParams();
   const [password, setPassword] = useState("");
   const [confirm, setConfirm] = useState("");
   const [loading, setLoading] = useState(false);
@@ -16,27 +15,34 @@ function ResetPasswordForm() {
   const [error, setError] = useState<string | null>(null);
   const [sessionReady, setSessionReady] = useState(false);
 
-  // Supabase passes the recovery token as a hash fragment — we need to
-  // exchange it for a session before the user can update their password.
   useEffect(() => {
-    const hash = window.location.hash;
-    if (!hash) { setError("Invalid or expired reset link. Please request a new one."); return; }
-
     const supabase = createClient();
-    // Listen for the PASSWORD_RECOVERY event which fires automatically when
-    // Supabase detects the recovery token in the URL hash.
+
+    // Listen for PASSWORD_RECOVERY event (implicit/hash flow, also fires after PKCE exchange)
     const { data: { subscription } } = supabase.auth.onAuthStateChange((event) => {
       if (event === "PASSWORD_RECOVERY") setSessionReady(true);
     });
-    return () => subscription.unsubscribe();
-  }, []);
 
-  // Also check if already has a session (direct navigation after email click)
-  useEffect(() => {
-    const supabase = createClient();
+    // PKCE flow: /auth/callback already exchanged the code and set session cookies.
+    // getSession() will return the session immediately in that case.
     supabase.auth.getSession().then(({ data: { session } }) => {
-      if (session) setSessionReady(true);
+      if (session) {
+        setSessionReady(true);
+      } else {
+        // Give onAuthStateChange a moment to fire (implicit flow with hash).
+        // If still no session after 2.5 s, the link is invalid/expired.
+        setTimeout(() => {
+          setSessionReady((prev) => {
+            if (!prev) {
+              setError("Invalid or expired reset link. Please request a new one.");
+            }
+            return prev;
+          });
+        }, 2500);
+      }
     });
+
+    return () => subscription.unsubscribe();
   }, []);
 
   const handleSubmit = async (e: React.FormEvent) => {
