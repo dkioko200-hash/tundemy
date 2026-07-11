@@ -24,14 +24,24 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  const { count } = await supabase
-    .from("progress")
-    .select("*", { count: "exact", head: true })
+  // Check for a passing capstone result in grading_cache.
+  // The progress table is missing the course_slug column in production schema,
+  // so we use grading_cache as the canonical completion signal instead.
+  const { data: capstoneRows } = await supabase
+    .from("grading_cache")
+    .select("result")
     .eq("user_id", user.id)
     .eq("course_slug", slug)
-    .eq("completed", true);
+    .eq("kind", "capstone")
+    .limit(20);
 
-  if ((count ?? 0) < course.lessons_count) {
+  const passingScore = (course as { capstone?: { passingScore?: number } }).capstone?.passingScore ?? 70;
+  const hasPassed = (capstoneRows ?? []).some((row) => {
+    const r = row.result as Record<string, unknown> | null;
+    return r?.passed === true || (typeof r?.overallScore === "number" && r.overallScore >= passingScore);
+  });
+
+  if (!hasPassed) {
     return NextResponse.json({ error: "Course not yet completed" }, { status: 403 });
   }
 
