@@ -53,6 +53,7 @@ export async function POST(req: NextRequest) {
     process.env.SUPABASE_SERVICE_ROLE_KEY!
   );
 
+  // Check for existing certificate -- re-passing a capstone is idempotent
   const { data: existing } = await adminClient
     .from("certificates")
     .select("cert_id")
@@ -60,15 +61,54 @@ export async function POST(req: NextRequest) {
     .eq("course_slug", slug)
     .maybeSingle();
 
-  if (!existing) {
-    await adminClient.from("certificates").insert({
-      cert_id: certId,
+  if (existing) {
+    return NextResponse.json({ certId: existing.cert_id, alreadyExisted: true });
+  }
+
+  // Insert new certificate row
+  const { error: insertError } = await adminClient.from("certificates").insert({
+    cert_id: certId,
+    user_id: user.id,
+    course_slug: slug,
+    full_name: fullName,
+  });
+
+  if (insertError) {
+    // 23505 = unique_violation: race condition -- another request already inserted it
+    if (insertError.code === "23505") {
+      const { data: raceExisting } = await adminClient
+        .from("certificates")
+        .select("cert_id")
+        .eq("user_id", user.id)
+        .eq("course_slug", slug)
+        .maybeSingle();
+      return NextResponse.json({ certId: raceExisting?.cert_id ?? certId, alreadyExisted: true });
+    }
+
+    // Real error -- log full details server-side for debugging
+    console.error("[certificates/issue] Insert failed", {
+      code: insertError.code,
+      message: insertError.message,
+      details: insertError.details,
       user_id: user.id,
       course_slug: slug,
-      full_name: fullName,
     });
-    if (user.email) {
+    return NextResponse.json(
+      { error: "Failed to issue certificate. Please try again." },
+      { status: 500 }
+    );
+  }
+
+  // Certificate issued -- send email (non-fatal if it fails)
+  if (user.email) {
+    try {
       await sendCertificateEmail(user.email, course.title, slug, certId);
+    } catch (emailErr) {
+      console.error("[certificates/issue] Email send failed", {
+        email: user.email,
+        certId,
+        error: emailErr instanceof Error ? emailErr.message : String(emailErr),
+      });
     }
   }
 

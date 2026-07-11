@@ -1218,9 +1218,18 @@ function CapstoneComponent({
           if (certRes.ok) {
             const certData = (await certRes.json()) as { certId: string };
             setCertId(certData.certId);
+          } else {
+            // Non-fatal: student already passed — log the failure but don't block the UI
+            const errBody = await certRes.json().catch(() => ({})) as Record<string, unknown>;
+            console.error("[capstone] Certificate issuance failed", {
+              status: certRes.status,
+              error: errBody,
+              slug: courseSlug,
+            });
           }
-        } catch {
-          // certificate generation is non-fatal
+        } catch (certErr) {
+          // Network error — certificate generation is non-fatal on this page
+          console.error("[capstone] Certificate fetch error", certErr);
         }
       }
     } catch (err) {

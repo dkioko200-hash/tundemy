@@ -72,11 +72,23 @@ export default function CertificatePage() {
         if (hasPassed) {
           setAuthorized(true);
           setCompletedAt(new Date().toLocaleDateString("en-KE", { day: "numeric", month: "long", year: "numeric" }));
-          await fetch("/api/certificates/issue", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ slug }),
-          });
+          try {
+            const issueRes = await fetch("/api/certificates/issue", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ slug }),
+            });
+            if (!issueRes.ok) {
+              const errBody = await issueRes.json().catch(() => ({})) as Record<string, unknown>;
+              console.error("[certificates/page] Certificate issuance failed", {
+                status: issueRes.status,
+                error: errBody,
+                slug,
+              });
+            }
+          } catch (issueErr) {
+            console.error("[certificates/page] Certificate fetch error", issueErr);
+          }
         }
       }
       setLoading(false);
