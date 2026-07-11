@@ -28,6 +28,7 @@ export default function EnrollPage() {
 
   const [loading, setLoading] = useState(true);
   const [paying, setPaying] = useState(false);
+  const [payError, setPayError] = useState<string | null>(null);
 
   useEffect(() => {
     if (!course) {
@@ -83,9 +84,24 @@ export default function EnrollPage() {
     checkAuth();
   }, [slug, course, router]);
 
-  const handlePayment = () => {
+  const handlePayment = async () => {
     setPaying(true);
-    router.push(`/courses/${slug}/checkout`);
+    setPayError(null);
+    try {
+      const res = await fetch("/api/pesapal/initiate", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ slug }),
+      });
+      const data = await res.json();
+      if (!res.ok || !data.redirect_url) {
+        throw new Error(data.error ?? "Payment initiation failed. Please try again.");
+      }
+      window.location.href = data.redirect_url;
+    } catch (err) {
+      setPayError(err instanceof Error ? err.message : "Something went wrong. Please try again.");
+      setPaying(false);
+    }
   };
 
   if (!course) return null;
@@ -285,7 +301,7 @@ export default function EnrollPage() {
                         className="w-4 h-4 rounded-full border-2 animate-spin"
                         style={{ borderColor: "rgba(255,255,255,0.4)", borderTopColor: "#fff" }}
                       />
-                      Redirecting to checkout…
+                      Redirecting to Pesapal…
                     </>
                   ) : (
                     <>
@@ -294,11 +310,16 @@ export default function EnrollPage() {
                     </>
                   )}
                 </button>
+                {payError && (
+                  <p className="text-xs text-center font-semibold" style={{ color: "#bb0000" }}>
+                    {payError}
+                  </p>
+                )}
               </div>
 
               {/* Security note */}
               <p className="text-xs text-gray-400 text-center mt-4 leading-relaxed">
-                Secure payment. Instant access after payment confirmation.
+                        Secure payment. Instant access after payment confirmation.
               </p>
 
               <div className="flex items-center justify-center gap-1.5 mt-3 text-xs text-gray-400">
