@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { cookies } from "next/headers";
 import { createServerClient } from "@supabase/ssr";
+import { createClient } from "@supabase/supabase-js";
 
 const PESAPAL_ENV = process.env.PESAPAL_ENV ?? "sandbox";
 const PESAPAL_BASE =
@@ -122,9 +123,33 @@ export async function POST(req: NextRequest) {
       );
     }
 
+    const orderTrackingId = orderData.order_tracking_id as string;
+
+    // Write to pending_orders so the IPN webhook can enroll the user
+    // if the browser redirect back never completes (closed tab, session expired, etc.)
+    const adminClient = createClient(
+      process.env.NEXT_PUBLIC_SUPABASE_URL!,
+      process.env.SUPABASE_SERVICE_ROLE_KEY!
+    );
+    const { error: pendingErr } = await adminClient
+      .from("pending_orders")
+      .upsert(
+        {
+          order_tracking_id: orderTrackingId,
+          user_id: user.id,
+          course_slug: slug,
+          amount: course.price_kes,
+        },
+        { onConflict: "order_tracking_id" }
+      );
+    if (pendingErr) {
+      // Non-fatal -- verify path still works as primary enrollment path
+      console.error("[pesapal/initiate] pending_orders upsert failed", pendingErr);
+    }
+
     return NextResponse.json({
       redirect_url: orderData.redirect_url as string,
-      order_tracking_id: orderData.order_tracking_id as string,
+      order_tracking_id: orderTrackingId,
     });
   } catch (err) {
     console.error("[pesapal/initiate]", err);
