@@ -1,0 +1,37 @@
+# Supabase project config for the Tundemy platform.
+# Full reference: https://supabase.com/docs/guides/local-development/cli/config
+#
+# Generated with 'supabase init' and linked to the production project below.
+# project_id is the project ref (dashboard URL: /project/<ref>).
+
+project_id = "hvcmknveplxksufotmmu"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "graphql_public"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[db]
+port = 54322
+shadow_port = 54320
+major_version = 15
+
+[db.migrations]
+# Directory that is the source of truth for schema changes.
+schema_paths = []
+
+[studio]
+enabled = true
+port = 54323
+
+[auth]
+enabled = true
+site_url = "https://www.tundemy.com"
+additional_redirect_urls = ["https://www.tundemy.com", "http://localhost:3000"]
+jwt_expiry = 3600
+enable_signup = true
+
+[storage]
+enabled = true
