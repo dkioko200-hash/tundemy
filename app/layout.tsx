@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import SupportChatWrapper from "@/components/support/SupportChatWrapper";
+import InactivityLogout from "@/components/InactivityLogout";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,6 +32,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         {children}
+                <InactivityLogout />
         <SupportChatWrapper />
       </body>
     </html>
