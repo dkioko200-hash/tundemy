@@ -39,7 +39,7 @@ function ApplicationsInner() {
 
       let query = supabase
         .from("job_applications")
-        .select("id, job_id, cover_note, status, applied_at, profiles(full_name, email), job_posts(title)")
+        .select("id, job_id, cover_note, status, applied_at, profiles(full_name, email), job_postings(title)")
         .eq("employer_id", user.id)
         .order("applied_at", { ascending: false });
 
@@ -50,7 +50,7 @@ function ApplicationsInner() {
       const mapped: Application[] = (data ?? []).map((a: Record<string, unknown>) => ({
         id: a.id as string,
         job_id: a.job_id as string,
-        job_title: (a.job_posts as Record<string, unknown>)?.title as string ?? "Unknown Role",
+        job_title: (a.job_postings as Record<string, unknown>)?.title as string ?? "Unknown Role",
         applicant_name: (a.profiles as Record<string, unknown>)?.full_name as string ?? "Anonymous",
         applicant_email: (a.profiles as Record<string, unknown>)?.email as string ?? "",
         cover_note: a.cover_note as string ?? "",
