@@ -29,9 +29,21 @@ interface CertRow {
 
 interface Badge {
   id: string;
-  name: string;
-  icon: string;
+  badge_name: string;
+  earned_at: string;
 }
+
+// Details for every badge type currently issued (see lib/assessment-tracks.ts).
+// Unknown badge names fall back to a generic entry so new badges never break the UI.
+const BADGE_DETAILS: Record<string, { icon: string; description: string }> = {
+  "AI Professional Badge": { icon: "🚀", description: "Earned by passing the AI Professional track assessment — proving you can use AI for real work tasks (prompt systems, professional outputs) at a hire-ready standard." },
+  "AI Developer Badge": { icon: "🛠️", description: "Earned by passing the AI Developer track assessment — building production integrations like M-Pesa Daraja payment flows and WhatsApp bots." },
+  "African Business Tech Badge": { icon: "🌱", description: "Earned by passing the African Business Tech track assessment — applying AI to agriculture and regional business problems." },
+  "Global AI Talent Badge": { icon: "🎯", description: "Earned by passing the Global AI Talent track assessment — RAG pipelines, AI evaluation and data work at international standards." },
+  "Income Track Badge": { icon: "💼", description: "Earned by passing the Income Track assessment — freelancing with AI skills and closing international clients." },
+};
+
+const FALLBACK_BADGE_DETAIL = { icon: "🏅", description: "Awarded for an achievement on Tundemy." };
 
 interface ActivityItem {
   id: string;
@@ -113,6 +125,7 @@ export default function DashboardPage() {
   const [activity, setActivity] = useState<ActivityItem[]>([]);
   const [profileCompletion, setProfileCompletion] = useState(35);
   const [isAdmin, setIsAdmin] = useState(false);
+  const [selectedBadge, setSelectedBadge] = useState<Badge | null>(null);
 
   const jobs = [
     { company: "Safaricom", role: "AI Solutions Analyst", salary: "KSh 80k–120k/mo" },
@@ -437,10 +450,17 @@ export default function DashboardPage() {
             ) : (
               <div className="flex flex-wrap gap-2">
                 {badges.map((badge) => (
-                  <div key={badge.id} className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold border" style={{ borderColor: "rgba(234,179,8,0.3)", backgroundColor: "rgba(234,179,8,0.08)", color: "#ca8a04" }}>
-                    <span>{badge.icon || "🏅"}</span>
-                    <span className="truncate max-w-[90px]">{badge.name}</span>
-                  </div>
+                  <button
+                    key={badge.id}
+                    type="button"
+                    onClick={() => setSelectedBadge(badge)}
+                    className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold border cursor-pointer hover:opacity-80 transition-opacity"
+                    style={{ borderColor: "rgba(234,179,8,0.3)", backgroundColor: "rgba(234,179,8,0.08)", color: "#ca8a04" }}
+                    aria-label="View badge details"
+                  >
+                    <span>{(BADGE_DETAILS[badge.badge_name] ?? FALLBACK_BADGE_DETAIL).icon}</span>
+                    <span className="truncate max-w-[90px]">{badge.badge_name}</span>
+                  </button>
                 ))}
               </div>
             )}
@@ -483,6 +503,39 @@ export default function DashboardPage() {
 
         </div>
       </aside>
+
+      {selectedBadge && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center p-4"
+          style={{ backgroundColor: "rgba(15,31,61,0.55)" }}
+          onClick={() => setSelectedBadge(null)}
+          role="dialog"
+          aria-modal="true"
+          aria-label="Badge details"
+        >
+          <div
+            className="bg-white rounded-2xl p-6 max-w-sm w-full shadow-xl text-center"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="text-5xl mb-3">{(BADGE_DETAILS[selectedBadge.badge_name] ?? FALLBACK_BADGE_DETAIL).icon}</div>
+            <h3 className="text-lg font-bold mb-2" style={{ color: "#0f1f3d" }}>{selectedBadge.badge_name}</h3>
+            <p className="text-sm text-gray-600 leading-relaxed mb-3">
+              {(BADGE_DETAILS[selectedBadge.badge_name] ?? FALLBACK_BADGE_DETAIL).description}
+            </p>
+            <p className="text-xs font-semibold mb-5" style={{ color: "#ca8a04" }}>
+              Earned on {selectedBadge.earned_at ? new Date(selectedBadge.earned_at).toLocaleDateString("en-KE", { day: "numeric", month: "long", year: "numeric" }) : "—"}
+            </p>
+            <button
+              type="button"
+              onClick={() => setSelectedBadge(null)}
+              className="w-full py-2.5 rounded-xl text-sm font-bold text-white hover:opacity-90"
+              style={{ backgroundColor: "#0f1f3d" }}
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
