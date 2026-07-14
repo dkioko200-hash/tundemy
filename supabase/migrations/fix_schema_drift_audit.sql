@@ -47,6 +47,9 @@ alter table public.assessments add column if not exists track text;
 alter table public.assessments add column if not exists taken_at timestamptz;
 alter table public.assessments alter column feedback type jsonb using feedback::jsonb;
 alter table public.assessments add constraint assessments_user_id_track_key unique (user_id, track);
+-- legacy NOT NULL columns the app never sends -> would still block every insert
+alter table public.assessments alter column track_id drop not null;
+alter table public.assessments alter column submission drop not null;
 create policy "Users can insert own assessments" on public.assessments
   for insert with check (auth.uid() = user_id);
 create policy "Users can update own assessments" on public.assessments
