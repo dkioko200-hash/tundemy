@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient as createServiceClient } from "@supabase/supabase-js";
 import { checkRateLimit, getClientIp, rateLimitResponse } from "@/lib/rate-limit";
+import { runAutoFix, getAutoFixMode } from "@/lib/tunda-autofix";
 
 // ── Types ─────────────────────────────────────────────────────────────────────
 
@@ -187,13 +188,31 @@ export async function POST(req: NextRequest) {
           userId = userData?.user?.id ?? null;
         }
 
-        await supabase.from("support_tickets").insert({
-          user_id: userId,
-          user_email: (userContext?.email as string) ?? null,
-          conversation: fullHistory,
-          issue_summary: issueSummary,
-          status: "escalated",
-        });
+        const { data: ticket } = await supabase
+          .from("support_tickets")
+          .insert({
+            user_id: userId,
+            user_email: (userContext?.email as string) ?? null,
+            conversation: fullHistory,
+            issue_summary: issueSummary,
+            status: "escalated",
+          })
+          .select("id, user_id, user_email, conversation, issue_summary, status")
+          .maybeSingle();
+
+        // Tunda auto-fix: attempt a known-safe repair for allowlisted issues.
+        // Never allowed to affect the chat reply - guarded by try/catch + timeout;
+        // on any error/timeout the ticket simply stays escalated (legacy behaviour).
+        if (ticket && getAutoFixMode() !== "off") {
+          try {
+            await Promise.race([
+              runAutoFix(ticket),
+              new Promise((_, reject) => setTimeout(() => reject(new Error("autofix timeout")), 12000)),
+            ]);
+          } catch (afErr) {
+            console.error("[tunda-autofix]", afErr);
+          }
+        }
       } catch (err) {
         // Don't fail the response if ticket save fails
         console.error("Failed to save support ticket:", err);
