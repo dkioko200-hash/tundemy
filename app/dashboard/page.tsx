@@ -52,6 +52,15 @@ interface ActivityItem {
   created_at: string;
 }
 
+interface JobPosting {
+  id: string;
+  title: string;
+  location: string | null;
+  salary_min: number | null;
+  salary_max: number | null;
+  job_type: string | null;
+}
+
 interface Stats {
   coursesEnrolled: number;
   lessonsCompleted: number;
@@ -126,12 +135,7 @@ export default function DashboardPage() {
   const [profileCompletion, setProfileCompletion] = useState(35);
   const [isAdmin, setIsAdmin] = useState(false);
   const [selectedBadge, setSelectedBadge] = useState<Badge | null>(null);
-
-  const jobs = [
-    { company: "Safaricom", role: "AI Solutions Analyst", salary: "KSh 80k–120k/mo" },
-    { company: "Andela", role: "Prompt Engineer", salary: "KSh 100k–150k/mo" },
-    { company: "NCBA Bank", role: "Data & AI Specialist", salary: "KSh 90k–130k/mo" },
-  ];
+  const [matchingJobs, setMatchingJobs] = useState<JobPosting[]>([]);
 
   useEffect(() => {
     async function load() {
@@ -212,6 +216,15 @@ export default function DashboardPage() {
         const p = profileRes.value.data as { completion_percentage?: number; profile_views?: number };
         if (p.completion_percentage) setProfileCompletion(p.completion_percentage);
       }
+
+      // Fetch real active job postings (no fake/seeded data)
+      const { data: jobRows } = await supabase
+        .from("job_postings")
+        .select("id, title, location, salary_min, salary_max, job_type")
+        .eq("status", "active")
+        .order("created_at", { ascending: false })
+        .limit(5);
+      if (jobRows) setMatchingJobs(jobRows as JobPosting[]);
 
       setLoading(false);
     }
@@ -467,24 +480,35 @@ export default function DashboardPage() {
           </div>
 
           <div>
-            <div className="flex items-center justify-between mb-4">
-              <h3 className="text-sm font-bold" style={{ color: "#0f1f3d" }}>Jobs Matching You</h3>
-              <span className="text-xs font-semibold px-2 py-0.5 rounded-full" style={{ backgroundColor: "rgba(45,138,78,0.1)", color: "#2d8a4e" }}>New</span>
-            </div>
-            <div className="flex flex-col gap-3">
-              {jobs.map((job, i) => (
-                <div key={i} className="rounded-xl border p-3.5 cursor-pointer transition-all hover:shadow-sm" style={{ borderColor: "#e5e7eb" }}
-                  onMouseEnter={(e) => (e.currentTarget.style.borderColor = "#2d8a4e")}
-                  onMouseLeave={(e) => (e.currentTarget.style.borderColor = "#e5e7eb")}>
-                  <div className="flex items-center gap-2 mb-1">
-                    <div className="w-6 h-6 rounded-md flex items-center justify-center" style={{ backgroundColor: "rgba(15,31,61,0.07)", color: "#0f1f3d" }}><BriefcaseIcon /></div>
-                    <span className="text-xs font-semibold" style={{ color: "#0f1f3d" }}>{job.company}</span>
-                  </div>
-                  <p className="text-xs font-bold text-gray-800 mb-0.5">{job.role}</p>
-                  <p className="text-xs" style={{ color: "#2d8a4e" }}>{job.salary}</p>
-                </div>
-              ))}
-            </div>
+            <h3 className="text-sm font-bold mb-4" style={{ color: "#0f1f3d" }}>Jobs Matching You</h3>
+            {matchingJobs.length === 0 ? (
+              <div className="rounded-xl border border-dashed p-4 text-center" style={{ borderColor: "#d1d5db" }}>
+                <p className="text-xs text-gray-400 font-medium">No jobs matching you yet.</p>
+                <p className="text-xs text-gray-400 mt-0.5">Check back as employers post roles.</p>
+              </div>
+            ) : (
+              <div className="flex flex-col gap-3">
+                {matchingJobs.map((job) => {
+                  const salaryStr = job.salary_min && job.salary_max
+                    ? `KSh ${Math.round(job.salary_min / 1000)}k–${Math.round(job.salary_max / 1000)}k/mo`
+                    : job.salary_min
+                    ? `From KSh ${Math.round(job.salary_min / 1000)}k/mo`
+                    : null;
+                  return (
+                    <div key={job.id} className="rounded-xl border p-3.5 transition-all hover:shadow-sm" style={{ borderColor: "#e5e7eb" }}
+                      onMouseEnter={(e) => (e.currentTarget.style.borderColor = "#2d8a4e")}
+                      onMouseLeave={(e) => (e.currentTarget.style.borderColor = "#e5e7eb")}>
+                      <div className="flex items-center gap-2 mb-1">
+                        <div className="w-6 h-6 rounded-md flex items-center justify-center" style={{ backgroundColor: "rgba(15,31,61,0.07)", color: "#0f1f3d" }}><BriefcaseIcon /></div>
+                        <span className="text-xs font-semibold truncate" style={{ color: "#0f1f3d" }}>{job.location ?? "Remote"}</span>
+                                   </div>
+                      <p className="text-xs font-bold text-gray-800 mb-0.5">{job.title}</p>
+                      {salaryStr && <p className="text-xs" style={{ color: "#2d8a4e" }}>{salaryStr}</p>}
+                    </div>
+                  );
+                })}
+              </div>
+            )}
           </div>
 
 

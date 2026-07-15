@@ -186,7 +186,7 @@ function CircularProgress({ completed, total }: { completed: number; total: numb
 
 // ── Video player ──────────────────────────────────────────────────────────────
 
-function VideoPlayer({ title, duration_mins, videoUrl }: { title: string; duration_mins: number; videoUrl?: string }) {
+function VideoPlayer({ title, duration_mins, videoUrl, onWatched }: { title: string; duration_mins: number; videoUrl?: string; onWatched?: () => void }) {
   const [playing, setPlaying] = useState(false);
   return (
     <div>
@@ -199,6 +199,7 @@ function VideoPlayer({ title, duration_mins, videoUrl }: { title: string; durati
             src={videoUrl}
             controls
             className="w-full h-full object-cover"
+            onEnded={onWatched}
           />
         ) : (
           <div
@@ -1742,6 +1743,7 @@ export default function LearnPage() {
   const [saving, setSaving] = useState(false);
   const [quizAttempt, setQuizAttempt] = useState(0);
   const [lockedMsg, setLockedMsg] = useState(false);
+  const [videoWatched, setVideoWatched] = useState(false);
 
   const isTester = userEmail === "d.kioko200@gmail.com";
 
@@ -1801,10 +1803,11 @@ export default function LearnPage() {
     setCompletedSet((prev) => { const next = new Set(prev); next.add(index); return next; });
   }, []);
 
-  // Reset quiz attempt counter when switching lessons
+  // Reset per-lesson state when switching lessons
   useEffect(() => {
     setQuizAttempt(0);
     setLockedMsg(false);
+    setVideoWatched(false);
   }, [currentIndex]);
 
   const handleMarkComplete = useCallback(async () => {
@@ -1998,7 +2001,27 @@ export default function LearnPage() {
 
                     {/* Video always renders first for non-intro lessons */}
                     {currentLesson.type === "video" && (
-                      <VideoPlayer title={currentLesson.title} duration_mins={currentLesson.duration_mins} videoUrl={currentLesson.videoUrl} />
+                      <VideoPlayer
+                        title={currentLesson.title}
+                        duration_mins={currentLesson.duration_mins}
+                        videoUrl={currentLesson.videoUrl}
+                        onWatched={currentLesson.videoUrl ? () => {
+                          setVideoWatched(true);
+                          // Mark lesson complete in state + DB (non-advancing)
+                          if (!completedSet.has(currentIndex)) {
+                            markCompleteLocal(currentIndex);
+                            if (userId) {
+                              const supabase = createClient();
+                              supabase.from("progress").upsert({
+                                user_id: userId, course_slug: slug,
+                                lesson_id: currentLesson.lessonNumber,
+                                completed: true, completed_at: new Date().toISOString(),
+                                updated_at: new Date().toISOString(),
+                              }, { onConflict: "user_id,course_slug,lesson_id" }).then(() => {});
+                            }
+                          }
+                        } : undefined}
+                      />
                     )}
 
                     {/* Theory section — after video, before interactive component */}
@@ -2104,16 +2127,26 @@ export default function LearnPage() {
                       </button>
                     )}
                     {(() => {
-                      const isBlocking = currentLesson.type === "quiz" || currentLesson.type === "sandbox" || currentLesson.type === "project";
-                      const blocked = isBlocking && !completedSet.has(currentIndex) && !isTester;
+                      const isQuizSandbox = currentLesson.type === "quiz" || currentLesson.type === "sandbox" || currentLesson.type === "project";
+                      // Video with a real URL: must watch to completion before advancing
+                      const isVideoGated = currentLesson.type === "video" && !!currentLesson.videoUrl && !videoWatched && !completedSet.has(currentIndex);
+                      const blocked = (isQuizSandbox || isVideoGated) && !isTester;
+                      const isLast = currentIndex === lessons.length - 1;
+                      const tooltipMsg = isVideoGated ? "Watch the video to continue" : "Complete this lesson to continue";
                       return (
-                        <button
-                          onClick={blocked ? undefined : handleNext}
-                          disabled={currentIndex === lessons.length - 1 || blocked}
-                          className="flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-bold text-white transition-all hover:opacity-90 disabled:opacity-40 disabled:cursor-not-allowed"
-                          style={{ backgroundColor: "#2d8a4e" }}>
-                          Next <ChevronRight />
-                        </button>
+                        <div className="flex flex-col items-end gap-1">
+                          <button
+                            onClick={blocked ? undefined : handleNext}
+                            disabled={isLast || blocked}
+                            title={blocked ? tooltipMsg : undefined}
+                            className="flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-bold text-white transition-all hover:opacity-90 disabled:opacity-40 disabled:cursor-not-allowed"
+                            style={{ backgroundColor: "#2d8a4e" }}>
+                            Next <ChevronRight />
+                          </button>
+                          {blocked && !isLast && (
+                            <p className="text-xs text-gray-400">{tooltipMsg}</p>
+                          )}
+                        </div>
                       );
                     })()}
                   </div>
