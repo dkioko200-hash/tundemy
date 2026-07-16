@@ -274,10 +274,11 @@ function ReadingComponent({ content, readingTopics, duration_mins }: {
 
 // ── Quiz ──────────────────────────────────────────────────────────────────────
 
-function QuizComponent({ quizQuestions, onComplete, onFail }: {
+function QuizComponent({ quizQuestions, onComplete, onFail, onPass }: {
   quizQuestions: QuizQuestion[];
   onComplete: () => void;
   onFail: () => void;
+  onPass?: () => void;
 }) {
   // Randomize once on mount (key prop in parent forces remount on retry)
   const [activeQuestions] = useState(() => randomizeQuestions(quizQuestions));
@@ -288,6 +289,10 @@ function QuizComponent({ quizQuestions, onComplete, onFail }: {
   const score = answers.filter((a, i) => a === activeQuestions[i]?.correctAnswer).length;
   const pct = activeQuestions.length > 0 ? Math.round((score / activeQuestions.length) * 100) : 0;
   const passed = pct >= 80;
+
+  useEffect(() => {
+    if (submitted && passed) onPass?.();
+  }, [submitted, passed, onPass]);
 
   return (
     <div className="space-y-5">
@@ -720,11 +725,12 @@ function TaskCards({
   );
 }
 
-function SandboxComponent({ sandboxTask, lessonNumber, courseSlug, onComplete }: {
+function SandboxComponent({ sandboxTask, lessonNumber, courseSlug, onComplete, onPass }: {
   sandboxTask: string;
   lessonNumber: number;
   courseSlug: string;
   onComplete: () => void;
+  onPass?: () => void;
 }) {
   const tasks = parseTasks(sandboxTask);
   const isMulti = tasks.length > 1;
@@ -748,6 +754,7 @@ function SandboxComponent({ sandboxTask, lessonNumber, courseSlug, onComplete }:
     try {
       const data = await submitForGrading({ courseSlug, lessonNumber, sandboxTask, tasks, answers });
       setResult(data);
+      if (data.passed) onPass?.();
     } catch (err) {
       setApiError(err instanceof Error ? err.message : "Grading failed. Please try again.");
     } finally {
@@ -1048,10 +1055,11 @@ function SandboxComponent({ sandboxTask, lessonNumber, courseSlug, onComplete }:
   );
 }
 
-function ProjectComponent({ content, sandboxTask, onComplete }: {
+function ProjectComponent({ content, sandboxTask, onComplete, onPass }: {
   content: string;
   sandboxTask?: string;
   onComplete: () => void;
+  onPass?: () => void;
 }) {
   const rawTask = sandboxTask || content;
   const tasks = parseTasks(rawTask);
@@ -1078,6 +1086,7 @@ function ProjectComponent({ content, sandboxTask, onComplete }: {
         answers,
       });
       setResult(data);
+      if (data.passed) onPass?.();
     } catch (err) {
       setApiError(err instanceof Error ? err.message : "Grading failed. Please try again.");
     } finally {
@@ -1744,6 +1753,7 @@ export default function LearnPage() {
   const [quizAttempt, setQuizAttempt] = useState(0);
   const [lockedMsg, setLockedMsg] = useState(false);
   const [videoWatched, setVideoWatched] = useState(false);
+  const [lessonPassed, setLessonPassed] = useState(false);
 
   const isTester = userEmail === "d.kioko200@gmail.com";
 
@@ -1808,6 +1818,7 @@ export default function LearnPage() {
     setQuizAttempt(0);
     setLockedMsg(false);
     setVideoWatched(false);
+    setLessonPassed(false);
   }, [currentIndex]);
 
   const handleMarkComplete = useCallback(async () => {
@@ -2045,6 +2056,7 @@ export default function LearnPage() {
                           quizQuestions={currentLesson.quizQuestions}
                           onComplete={handleMarkComplete}
                           onFail={() => setQuizAttempt((a) => a + 1)}
+                          onPass={() => setLessonPassed(true)}
                         />
                       </div>
                     )}
@@ -2075,7 +2087,7 @@ export default function LearnPage() {
                             onComplete={handleMarkComplete}
                           />
                         ) : (
-                          <SandboxComponent sandboxTask={currentLesson.sandboxTask ?? ""} lessonNumber={currentLesson.lessonNumber} courseSlug={slug} onComplete={handleMarkComplete} />
+                          <SandboxComponent sandboxTask={currentLesson.sandboxTask ?? ""} lessonNumber={currentLesson.lessonNumber} courseSlug={slug} onComplete={handleMarkComplete} onPass={() => setLessonPassed(true)} />
                         )}
                       </div>
                     )}
@@ -2092,6 +2104,7 @@ export default function LearnPage() {
                             content={currentLesson.content}
                             sandboxTask={currentLesson.sandboxTask}
                             onComplete={handleMarkComplete}
+                            onPass={() => setLessonPassed(true)}
                           />
                         )}
                       </div>
@@ -2143,7 +2156,7 @@ export default function LearnPage() {
                             style={{ backgroundColor: "#2d8a4e" }}>
                             Next <ChevronRight />
                           </button>
-                          {blocked && !isLast && (
+                          {blocked && !isLast && !lessonPassed && (
                             <p className="text-xs text-gray-400">{tooltipMsg}</p>
                           )}
                         </div>
@@ -2201,18 +2214,4 @@ export default function LearnPage() {
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="7 10 12 15 17 10" /><line x1="12" y1="15" x2="12" y2="3" /></svg>
                     Download course materials
                   </a>
-                  <a href="#" className="flex items-center gap-2.5 px-3 py-2.5 rounded-xl border text-xs font-semibold transition-all hover:bg-gray-50" style={{ borderColor: "#e5e7eb", color: "#0f1f3d" }}>
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" /></svg>
-                    Community discussion
-                  </a>
-                </div>
-              </div>
-
-            </div>
-          </aside>
-
-        </div>
-      </div>
-    </div>
-  );
-}
+                  <a href="#" className="flex items-center gap-2.5 px-3 py-2.5 rounded-xl border text-xs font-semib
