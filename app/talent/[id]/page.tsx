@@ -4,6 +4,7 @@ import { createServerClient } from "@supabase/ssr";
 import { createClient as createServiceClient } from "@supabase/supabase-js";
 import { cookies } from "next/headers";
 import UnlockGate from "./unlock-gate";
+import CapstoneCard from "./capstone-card";
 import { decrypt } from "@/lib/encryption";
 
 interface VerifiedTrack {
@@ -12,11 +13,20 @@ interface VerifiedTrack {
   taken_at: string;
 }
 
+interface GradingDetail {
+  rubric_scores?: Array<{ criterion: string; score: number; max: number }>;
+  did_well?: string[];
+  improvements?: Array<{ area: string; missing: string; whyMatters: string; betterExample: string }>;
+  specific_fixes?: string[];
+}
+
 interface CapstoneWork {
   course_slug: string;
   title: string;
   summary: string;
   score: number | null;
+  submission_text?: string | null;
+  grading_detail?: GradingDetail | null;
 }
 
 interface Badge {
@@ -95,7 +105,7 @@ async function getCapstoneWork(userId: string): Promise<CapstoneWork[]> {
   const supabase = await getServerSupabase();
   const { data } = await supabase
     .from("talent_capstone_work")
-    .select("course_slug, title, summary, score")
+    .select("course_slug, title, summary, score, submission_text, grading_detail")
     .eq("user_id", userId);
 
   return data ?? [];
@@ -284,19 +294,21 @@ export default async function TalentProfilePage({ params }: { params: Promise<{ 
               </div>
             )}
 
-            {/* Projects Built (AI capstone summaries) */}
+            {/* Projects Built (AI capstone summaries -- expandable) */}
             {capstones.length > 0 && (
               <div className="rounded-2xl border bg-white p-6" style={{ borderColor: "#e5e7eb" }}>
                 <h2 className="text-sm font-bold mb-4" style={{ color: "#0f1f3d" }}>Projects Built</h2>
                 <div className="space-y-3">
                   {capstones.map((c) => (
-                    <div key={c.course_slug} className="rounded-xl border p-4" style={{ borderColor: "#e5e7eb" }}>
-                      <div className="flex items-center justify-between gap-2">
-                        <p className="text-sm font-bold" style={{ color: "#0f1f3d" }}>{c.title}</p>
-                        {c.score != null && <span className="text-xs font-bold flex-shrink-0" style={{ color: "#2d8a4e" }}>{c.score}%</span>}
-                      </div>
-                      <p className="text-xs text-gray-600 mt-1.5 leading-relaxed">{c.summary}</p>
-                    </div>
+                    <CapstoneCard
+                      key={c.course_slug}
+                      courseSlug={c.course_slug}
+                      title={c.title}
+                      summary={c.summary}
+                      score={c.score}
+                      submissionText={c.submission_text}
+                      gradingDetail={c.grading_detail}
+                    />
                   ))}
                 </div>
               </div>

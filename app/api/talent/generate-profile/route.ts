@@ -56,20 +56,21 @@ export async function POST(req: NextRequest) {
 
     const admin = getServiceClient();
 
-    // If this call came from a fresh capstone pass, persist that capstone's
-    // record first so it's included below — independent of any grading cache.
+    // If this call came from a fresh capstone pass, ensure a row exists.
+    // grade-capstone already upserted the full data (submission_text, grading_detail),
+    // so use ignoreDuplicates:true here to avoid overwriting those richer fields.
     if (courseSlug && capstoneResult?.passed) {
       const course = getCourseBySlug(courseSlug);
       await admin.from("talent_capstone_work").upsert(
         {
           user_id: user.id,
           course_slug: courseSlug,
-          title: course?.title ? `${course.title} — Capstone Project` : `${courseSlug} — Capstone Project`,
+          title: course?.title ? `${course.title} -- Capstone Project` : `${courseSlug} -- Capstone Project`,
           summary: capstoneResult.feedback || `Completed the ${course?.title ?? courseSlug} capstone project.`,
           score: typeof capstoneResult.overallScore === "number" ? Math.round(capstoneResult.overallScore) : null,
           completed_at: new Date().toISOString(),
         },
-        { onConflict: "user_id,course_slug" }
+        { onConflict: "user_id,course_slug", ignoreDuplicates: true }
       );
     }
 

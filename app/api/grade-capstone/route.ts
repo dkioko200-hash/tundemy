@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { cookies } from "next/headers";
 import { createServerClient } from "@supabase/ssr";
+import { createClient as createServiceClient } from "@supabase/supabase-js";
 import { getCourseContentBySlug } from "@/lib/course-content";
 import { checkRateLimit, getClientIp, rateLimitResponse } from "@/lib/rate-limit";
 import {
@@ -90,19 +91,19 @@ Respond with ONLY a JSON object (no markdown fences, no extra text) in exactly t
   "dimensionScores": { "<rubricKey>": <0-100>, ... },
   "feedback": "<1-2 sentence overall verdict referencing their specific submission>",
   "didWell": [
-    "<specific strength — quote or paraphrase their actual words, explain why it is good>",
+    "<specific strength -- quote or paraphrase their actual words, explain why it is good>",
     "<second specific strength>"
   ],
   "improvements": [
     {
       "area": "<rubric dimension name>",
-      "missing": "<exactly what is absent or wrong — be direct and reference their actual answer>",
+      "missing": "<exactly what is absent or wrong -- be direct and reference their actual answer>",
       "whyMatters": "<why this gap matters in a real Kenyan business context>",
-      "betterExample": "<concrete example of what a stronger answer looks like — real names, amounts, steps>"
+      "betterExample": "<concrete example of what a stronger answer looks like -- real names, amounts, steps>"
     }
   ],
   "specificFixes": [
-    "<actionable fix 1 — tell them exactly what to write, not just what category to improve>",
+    "<actionable fix 1 -- tell them exactly what to write, not just what category to improve>",
     "<actionable fix 2>",
     "<actionable fix 3 if needed>"
   ]
@@ -122,9 +123,58 @@ Respond with ONLY a JSON object (no markdown fences, no extra text) in exactly t
     await recordGradingAttempt(user.id, courseSlug, "capstone", submissionHash);
     await saveGradeToCache(user.id, courseSlug, "capstone", submissionHash, result);
 
-    // Fire-and-forget: on a passing capstone, regenerate the AI talent profile
-    // in the background. Never block or fail the grading response on this.
+    // Fire-and-forget: on a passing capstone, persist full data and regenerate profile.
+    // Never block or fail the grading response on this.
     if (result.passed === true) {
+      // 1. Upsert full capstone data immediately (submission text + rubric detail)
+      const admin = createServiceClient(
+        process.env.NEXT_PUBLIC_SUPABASE_URL!,
+        process.env.SUPABASE_SERVICE_ROLE_KEY!
+      );
+      const dimensionScores = (result.dimensionScores ?? {}) as Record<string, number>;
+      admin
+        .from("talent_capstone_work")
+        .upsert(
+          {
+            user_id: user.id,
+            course_slug: courseSlug,
+            title: course?.title
+              ? `${course.title} -- Capstone Project`
+              : `${courseSlug} -- Capstone Project`,
+            summary:
+              typeof result.feedback === "string"
+                ? result.feedback
+                : `Completed the ${course?.title ?? courseSlug} capstone project.`,
+            score:
+              typeof result.overallScore === "number"
+                ? Math.round(result.overallScore as number)
+                : null,
+            submission_text: truncated,
+            grading_detail: {
+              rubric_scores: Object.entries(dimensionScores).map(([key, val]) => ({
+                criterion: key
+                  .replace(/([A-Z])/g, " $1")
+                  .replace(/^./, (c) => c.toUpperCase())
+                  .trim(),
+                score: val,
+                max: 100,
+              })),
+              did_well: Array.isArray(result.didWell) ? result.didWell : [],
+              improvements: Array.isArray(result.improvements) ? result.improvements : [],
+              specific_fixes: Array.isArray(result.specificFixes) ? result.specificFixes : [],
+            },
+            completed_at: new Date().toISOString(),
+          },
+          { onConflict: "user_id,course_slug" }
+        )
+        .then(({ error }: { error: unknown }) => {
+          if (error) console.error("[grade-capstone] talent_capstone_work upsert failed:", error);
+        })
+        .catch((err: unknown) =>
+          console.error("[grade-capstone] talent_capstone_work upsert threw:", err)
+        );
+
+      // 2. Trigger AI profile regeneration in the background
       const origin = req.nextUrl.origin;
       fetch(`${origin}/api/talent/generate-profile`, {
         method: "POST",
@@ -133,7 +183,9 @@ Respond with ONLY a JSON object (no markdown fences, no extra text) in exactly t
           cookie: req.headers.get("cookie") ?? "",
         },
         body: JSON.stringify({ courseSlug, capstoneResult: result }),
-      }).catch((err) => console.error("[grade-capstone] profile auto-generate trigger failed:", err));
+      }).catch((err: unknown) =>
+        console.error("[grade-capstone] profile auto-generate trigger failed:", err)
+      );
     }
 
     return NextResponse.json({ ...result, cached: false });
