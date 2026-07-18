@@ -2827,6 +2827,16 @@ QUESTION 4 — YOUR OWN QUERY: Add at least one new pandas analysis that the sta
           { question: "A safety evaluation pipeline flags 3% of responses as containing policy violations. The product manager wants to set the safety threshold to 0% before deployment. Why is this target potentially unrealistic?", options: ["0% is achievable with a sufficiently strict safety classifier", "Safety classifiers produce false positives — some flagged responses may be false alarms. A 0% violation rate may mean the AI is refusing legitimate queries. The target should be 0% true positive violations as verified by human review of flagged items", "3% is an acceptable safety violation rate for a banking AI", "The product manager does not have authority to set safety thresholds — only engineers do"], correctAnswer: 1 },
         ],
       },
+      {
+        lessonNumber: 7,
+        title: "AI Evaluation Engineer Certification — Capstone Project",
+        type: "project",
+        hook: "You have written training data, built rubrics, red-teamed AI systems, and automated evaluation pipelines. Now put it together as a complete evaluation system for a real East African banking AI deployment.",
+        duration_mins: 90,
+        videoUrl: "",
+        isAvailable: true,
+        content: "Fahari Analytics — a fictional Nairobi-based AI consultancy — has been hired by a consortium of three East African banks to evaluate their shared AI customer service platform before a production rollout to 2 million customers across Kenya, Uganda, and Tanzania. You are the lead evaluation engineer. Build the complete evaluation system.",
+      },
     ],
     capstone: {
       title: "AI Evaluation Engineer Certification",
@@ -3005,6 +3015,16 @@ QUESTION 4 — YOUR OWN QUERY: Add at least one new pandas analysis that the sta
           { question: "At 1,000 queries/day, your RAG system costs $150/month in API fees. You want to reduce cost by 40%. Which approach has the most impact with least quality loss?", options: ["Switch from Claude claude-haiku-4-5-20251001 to a smaller free model — quality will suffer significantly", "Implement query caching: if the same query (or a semantically similar query above 0.95 cosine similarity) was answered in the last 24 hours, return the cached response — this eliminates API calls for repeated queries which often represent 30-50% of production traffic", "Reduce top-k from 3 to 1 — fewer retrieved chunks means shorter prompts and lower generation cost", "Reduce chunk size to 50 characters — smaller chunks mean less context token usage"], correctAnswer: 1 },
           { question: "Your production RAG system's P90 latency is 2.1 seconds on Monday and 4.8 seconds on Friday. Your observability logs show no errors but average retrieved chunk count is the same. What is the most likely cause?", options: ["The embedding model degrades in quality over the week", "External API latency — Claude or your vector database may be experiencing higher load on Friday (common pattern for SaaS APIs serving US-based customers). Check if your latency spikes correlate with US business hours and implement timeout handling with graceful fallback", "Your Chroma collection is growing and larger collections always have higher latency", "User queries on Friday are longer and require more processing"], correctAnswer: 1 },
         ],
+      },
+      {
+        lessonNumber: 7,
+        title: "AI Engineer Certification — Capstone Project",
+        type: "project",
+        hook: "You have built RAG pipelines, worked with vector databases, evaluated retrieval quality, and deployed multi-tenant systems. Now design and prototype a production-grade RAG application for a real Kenyan legal tech use case.",
+        duration_mins: 90,
+        videoUrl: "",
+        isAvailable: true,
+        content: "Ndovu AI — a fictional Nairobi AI consultancy — has won a contract to build a RAG-powered legal document assistant for a consortium of 5 Kenyan law firms. The system will allow advocates to query a shared library of 50,000 Kenyan legal documents — case law, statutes, regulations — using natural language. Design and build the complete system.",
       },
     ],
     capstone: {
