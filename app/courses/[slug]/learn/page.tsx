@@ -288,7 +288,7 @@ function QuizComponent({ quizQuestions, onComplete, onFail, onPass }: {
   const allAnswered = answers.every((a) => a !== null);
   const score = answers.filter((a, i) => a === activeQuestions[i]?.correctAnswer).length;
   const pct = activeQuestions.length > 0 ? Math.round((score / activeQuestions.length) * 100) : 0;
-  const passed = pct >= 80;
+  const passed = pct >= 75;
 
   useEffect(() => {
     if (submitted && passed) onPass?.();
@@ -336,9 +336,9 @@ function QuizComponent({ quizQuestions, onComplete, onFail, onPass }: {
           style={{ backgroundColor: passed ? "rgba(45,138,78,0.07)" : "rgba(187,0,0,0.05)", border: `1px solid ${passed ? "rgba(45,138,78,0.25)" : "rgba(187,0,0,0.2)"}` }}>
           <div className="flex-1">
             <p className="font-bold text-sm" style={{ color: passed ? "#166534" : "#991b1b" }}>
-              {passed ? "Quiz passed! Well done." : "You need 80% or above to continue. Try again with new questions."}
+              {passed ? "Quiz passed! Well done." : "You need 75% or above to continue. Try again with new questions."}
             </p>
-            <p className="text-xs text-gray-500 mt-0.5">{score} / {activeQuestions.length} correct · {pct}%{!passed && " (need 80% to pass)"}</p>
+            <p className="text-xs text-gray-500 mt-0.5">{score} / {activeQuestions.length} correct · {pct}%{!passed && " (need 75% to pass)"}</p>
           </div>
           {passed ? (
             <button onClick={onComplete} className="flex-shrink-0 px-5 py-2.5 rounded-xl text-sm font-bold text-white transition-all hover:opacity-90" style={{ backgroundColor: "#2d8a4e" }}>Continue →</button>
@@ -463,7 +463,7 @@ function GradingResultDisplay({
   onNext?: () => void;
 }) {
   const score = result.score;
-  const passed = result.passed ?? score >= 80;
+  const passed = result.passed ?? score >= 75;
 
   return (
     <div className="space-y-4">
@@ -488,7 +488,7 @@ function GradingResultDisplay({
           className="mt-3 font-bold text-sm"
           style={{ color: passed ? "#2d8a4e" : "#e5383b" }}
         >
-          {passed ? "Passed — great work!" : "Score 80+ to continue"}
+          {passed ? "Passed — great work!" : "Score 75+ to continue"}
         </div>
         {result.cached && (
           <div className="text-xs text-gray-400 mt-1">Cached result</div>
@@ -975,7 +975,7 @@ function SandboxComponent({ sandboxTask, lessonNumber, courseSlug, onComplete, o
               Submit for Grading — Lesson {lessonNumber}
             </p>
             <p className={`text-xs ${submitReady ? "text-blue-300" : "text-gray-400"}`}>
-              Claude AI · Score 80+ to pass · Max 3 attempts per 24h
+              Claude AI · Score 75+ to pass · Max 3 attempts per 24h
             </p>
           </div>
         </div>
@@ -1138,7 +1138,7 @@ function ProjectComponent({ content, sandboxTask, onComplete, onPass }: {
             accentColor="#9333ea"
           />
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-3">
-            <p className="text-amber-800 text-xs">Graded by Claude AI. Score 80+ to pass. Max 3 attempts per 24 hours.</p>
+            <p className="text-amber-800 text-xs">Graded by Claude AI. Score 75+ to pass. Max 3 attempts per 24 hours.</p>
           </div>
           <button
             disabled={!hasContent || !allMeetMin || grading}
@@ -1808,6 +1808,26 @@ export default function LearnPage() {
     }
     checkAuth();
   }, [slug, courseData, router]);
+
+  // Session keepalive — prevent logout from inactivity by refreshing every 4 min
+  // and whenever the tab regains focus (handles waking from sleep/background)
+  useEffect(() => {
+    if (!userId) return;
+    const supabase = createClient();
+
+    const refresh = () => { supabase.auth.getSession().catch(() => {}); };
+
+    const interval = setInterval(refresh, 4 * 60 * 1000);
+
+    const onVisible = () => { if (document.visibilityState === "visible") refresh(); };
+    document.addEventListener("visibilitychange", onVisible);
+
+    return () => {
+      clearInterval(interval);
+      document.removeEventListener("visibilitychange", onVisible);
+    };
+  }, [userId]);
+
 
   const markCompleteLocal = useCallback((index: number) => {
     setCompletedSet((prev) => { const next = new Set(prev); next.add(index); return next; });
