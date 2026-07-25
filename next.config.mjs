@@ -10,7 +10,7 @@ const CSP = [
   "img-src 'self' data: https: blob:",
   "font-src 'self' data:",
   // Allow video/audio from Vercel Blob Storage (migrated from public/videos)
-  "media-src 'self' https://*.public.blob.vercel-storage.com",
+  "media-src 'self' https://*.public.blob.vercel-storage.com https://*.supabase.co",
   [
     "connect-src 'self'",
     "https://*.supabase.co",
