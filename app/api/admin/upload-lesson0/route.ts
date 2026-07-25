@@ -6,6 +6,9 @@ const HEYGEN_API_KEY = process.env.HEYGEN_API_KEY || "sk_V2_hgu_kB9HJ1woeyr_OUNu
 const BLOB_TOKEN = process.env.BLOB_READ_WRITE_TOKEN || "";
 const BLOB_BASE = "https://llvjlae5fgboyqol.public.blob.vercel-storage.com";
 const BLOB_API = "https://blob.vercel-storage.com";
+const SUP_URL = process.env.NEXT_PUBLIC_SUPABASE_URL || "";
+const SUP_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY || "";
+const SUP_BUCKET = "course-videos";
 
 const CORS = {
   "Access-Control-Allow-Origin": "*",
@@ -35,6 +38,20 @@ export async function GET(req: NextRequest) {
   if (auth !== SECRET) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401, headers: CORS });
   }
+  const params = new URL(req.url).searchParams;
+  const action = params.get("action");
+
+  if (action === "create-bucket") {
+    const r = await fetch(SUP_URL + "/storage/v1/bucket", {
+      method: "POST",
+      headers: { Authorization: "Bearer " + SUP_KEY, "Content-Type": "application/json" },
+      body: JSON.stringify({ id: SUP_BUCKET, name: SUP_BUCKET, public: true }),
+    });
+    const txt = await r.text();
+    return NextResponse.json({ ok: r.ok, status: r.status, body: txt }, { headers: CORS });
+  }
+
+  // Default: list blobs
   const blobHeaders = { Authorization: "Bearer " + BLOB_TOKEN };
   const r = await fetch(BLOB_API + "?limit=1000&prefix=videos%2F", { headers: blobHeaders });
   const data = await r.json() as { blobs?: { url: string; size: number; pathname: string }[]; cursor?: string };
@@ -52,11 +69,7 @@ export async function DELETE(req: NextRequest) {
   const params = new URL(req.url).searchParams;
   const action = params.get("action");
   const slug = params.get("slug");
-
-  const blobHeaders = {
-    Authorization: "Bearer " + BLOB_TOKEN,
-    "Content-Type": "application/json",
-  };
+  const blobHeaders = { Authorization: "Bearer " + BLOB_TOKEN, "Content-Type": "application/json" };
 
   if (action === "delete-all-lesson0s") {
     const urls = SLUGS.map((s) => BLOB_BASE + "/videos/" + s + "/lesson-0.mp4");
@@ -89,13 +102,14 @@ export async function POST(req: NextRequest) {
   if (auth !== SECRET) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401, headers: CORS });
   }
-  let body: { heygen_url?: string; video_id?: string; slug?: string };
+  let body: { action?: string; heygen_url?: string; video_id?: string; slug?: string };
   try { body = await req.json(); } catch {
     return NextResponse.json({ error: "Invalid JSON" }, { status: 400, headers: CORS });
   }
   const { slug } = body;
   let { heygen_url } = body;
   if (!slug) return NextResponse.json({ error: "Missing slug" }, { status: 400, headers: CORS });
+
   if (!heygen_url && body.video_id) {
     const videoId = body.video_id;
     const hr = await fetch("https://api.heygen.com/v1/video_status.get?video_id=" + videoId, {
@@ -107,12 +121,41 @@ export async function POST(req: NextRequest) {
     heygen_url = hj.data.video_url;
   }
   if (!heygen_url) return NextResponse.json({ error: "Missing heygen_url or video_id" }, { status: 400, headers: CORS });
+
+  let buf: ArrayBuffer;
   try {
     const vr = await fetch(heygen_url);
     if (!vr.ok) return NextResponse.json({ error: "HeyGen fetch failed: " + vr.status }, { status: 502, headers: CORS });
-    const buf = await vr.arrayBuffer();
+    buf = await vr.arrayBuffer();
+  } catch (err) {
+    return NextResponse.json({ error: "HeyGen download error: " + String(err) }, { status: 502, headers: CORS });
+  }
+
+  if (body.action === "supabase") {
+    const path = "videos/" + slug + "/lesson-0.mp4";
+    const uploadUrl = SUP_URL + "/storage/v1/object/" + SUP_BUCKET + "/" + path;
+    try {
+      const up = await fetch(uploadUrl, {
+        method: "POST",
+        headers: {
+          Authorization: "Bearer " + SUP_KEY,
+          "Content-Type": "video/mp4",
+          "x-upsert": "true",
+        },
+        body: buf,
+      });
+      const upJson = await up.json() as { Key?: string; error?: string; message?: string };
+      if (!up.ok) return NextResponse.json({ error: "Supabase upload error: " + JSON.stringify(upJson) }, { status: 502, headers: CORS });
+      const publicUrl = SUP_URL + "/storage/v1/object/public/" + SUP_BUCKET + "/" + path;
+      return NextResponse.json({ url: publicUrl, slug, size: buf.byteLength, storage: "supabase" }, { headers: CORS });
+    } catch (err) {
+      return NextResponse.json({ error: "Supabase error: " + String(err) }, { status: 500, headers: CORS });
+    }
+  }
+
+  try {
     const blob = await put("videos/" + slug + "/lesson-0.mp4", buf, { access: "public", contentType: "video/mp4", addRandomSuffix: false });
-    return NextResponse.json({ url: blob.url, slug, size: buf.byteLength }, { headers: CORS });
+    return NextResponse.json({ url: blob.url, slug, size: buf.byteLength, storage: "vercel-blob" }, { headers: CORS });
   } catch (err) {
     return NextResponse.json({ error: err instanceof Error ? err.message : String(err) }, { status: 500, headers: CORS });
   }
