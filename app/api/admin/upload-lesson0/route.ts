@@ -9,7 +9,7 @@ const BLOB_API = "https://blob.vercel-storage.com";
 
 const CORS = {
   "Access-Control-Allow-Origin": "*",
-  "Access-Control-Allow-Methods": "POST, DELETE, OPTIONS",
+  "Access-Control-Allow-Methods": "GET, POST, DELETE, OPTIONS",
   "Access-Control-Allow-Headers": "Content-Type, x-admin-secret",
 };
 
@@ -30,6 +30,20 @@ export async function OPTIONS() {
   return new NextResponse(null, { status: 204, headers: CORS });
 }
 
+export async function GET(req: NextRequest) {
+  const auth = req.headers.get("x-admin-secret");
+  if (auth !== SECRET) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401, headers: CORS });
+  }
+  const blobHeaders = { Authorization: "Bearer " + BLOB_TOKEN };
+  const r = await fetch(BLOB_API + "?limit=1000&prefix=videos%2F", { headers: blobHeaders });
+  const data = await r.json() as { blobs?: { url: string; size: number; pathname: string }[]; cursor?: string };
+  const blobs = (data.blobs || []).map((b) => ({ pathname: b.pathname, size: b.size, mb: Math.round(b.size / 1024 / 1024 * 10) / 10 }));
+  const totalMb = Math.round(blobs.reduce((s, b) => s + b.size, 0) / 1024 / 1024 * 10) / 10;
+  blobs.sort((a, b) => b.size - a.size);
+  return NextResponse.json({ count: blobs.length, totalMb, blobs }, { headers: CORS });
+}
+
 export async function DELETE(req: NextRequest) {
   const auth = req.headers.get("x-admin-secret");
   if (auth !== SECRET) {
@@ -46,6 +60,15 @@ export async function DELETE(req: NextRequest) {
 
   if (action === "delete-all-lesson0s") {
     const urls = SLUGS.map((s) => BLOB_BASE + "/videos/" + s + "/lesson-0.mp4");
+    const r = await fetch(BLOB_API + "/delete", { method: "POST", headers: blobHeaders, body: JSON.stringify({ urls }) });
+    const txt = await r.text();
+    return NextResponse.json({ ok: r.ok, status: r.status, body: txt, deleted: urls.length }, { headers: CORS });
+  }
+
+  if (action === "delete-urls") {
+    const urlsParam = params.get("urls");
+    if (!urlsParam) return NextResponse.json({ error: "Missing urls param" }, { status: 400, headers: CORS });
+    const urls = urlsParam.split(",").map((u) => u.trim()).filter(Boolean);
     const r = await fetch(BLOB_API + "/delete", { method: "POST", headers: blobHeaders, body: JSON.stringify({ urls }) });
     const txt = await r.text();
     return NextResponse.json({ ok: r.ok, status: r.status, body: txt, deleted: urls.length }, { headers: CORS });
