@@ -1,108 +1,172 @@
 import { NextRequest, NextResponse } from "next/server";
-import { createClient } from "@/lib/supabase";
-import Anthropic from "@anthropic-ai/sdk";
-
-const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+import { cookies } from "next/headers";
+import { createServerClient } from "@supabase/ssr";
+import { createClient as createServiceClient } from "@supabase/supabase-js";
+import { getCourseContentBySlug } from "@/lib/course-content";
+import { checkRateLimit, getClientIp, rateLimitResponse } from "@/lib/rate-limit";
+import {
+  callClaude,
+  countWords,
+  extractJson,
+  getCachedGrade,
+  hasExceededDailyLimit,
+  hashSubmission,
+  recordGradingAttempt,
+  saveGradeToCache,
+  truncateToWords,
+  SONNET_MODEL,
+} from "@/lib/grading";
 
 export async function POST(req: NextRequest) {
-  const supabase = createClient();
-  const { data: { user } } = await supabase.auth.getUser();
-  if (!user) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  const { limited, resetAt } = checkRateLimit(`grade-capstone:${getClientIp(req)}`, 10);
+  if (limited) return rateLimitResponse(resetAt);
 
-  let body: { courseSlug?: string; lessonIndex?: number; submission?: string };
-  try { body = await req.json(); } catch { return NextResponse.json({ error: "Invalid JSON" }, { status: 400 }); }
+  try {
+    const { courseSlug, submission } = await req.json();
+    if (!courseSlug || typeof submission !== "string" || !submission.trim()) {
+      return NextResponse.json({ error: "courseSlug and submission are required" }, { status: 400 });
+    }
+    if (submission.length > 20000) {
+      return NextResponse.json({ error: "Submission is too long (max 20,000 characters)." }, { status: 400 });
+    }
 
-  const { courseSlug, lessonIndex, submission } = body;
-  if (!courseSlug || lessonIndex === undefined || !submission) {
-    return NextResponse.json({ error: "Missing fields" }, { status: 400 });
-  }
+    const course = getCourseContentBySlug(courseSlug);
+    const capstone = course?.capstone;
+    if (!capstone) {
+      return NextResponse.json({ error: "No capstone found for this course" }, { status: 404 });
+    }
 
-  // Check enrollment
-  const { data: enrollment } = await supabase
-    .from("enrollments")
-    .select("id")
-    .eq("user_id", user.id)
-    .eq("course_slug", courseSlug)
-    .single();
-  if (!enrollment) return NextResponse.json({ error: "Not enrolled" }, { status: 403 });
+    const cookieStore = await cookies();
+    const supabase = createServerClient(
+      process.env.NEXT_PUBLIC_SUPABASE_URL!,
+      process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+      { cookies: { getAll: () => cookieStore.getAll(), setAll: () => {} } }
+    );
 
-  // Check if already passed
-  const { data: existing } = await supabase
-    .from("lesson_progress")
-    .select("passed")
-    .eq("user_id", user.id)
-    .eq("course_slug", courseSlug)
-    .eq("lesson_index", lessonIndex)
-    .single();
-  if (existing?.passed) {
-    return NextResponse.json({ passed: true, cached: true, feedback: "Already passed." });
-  }
+    const { data: { user } } = await supabase.auth.getUser();
+    if (!user) {
+      return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+    }
 
-  // Get course content
-  const { getCourseContentBySlug } = await import("@/lib/course-content");
-  const content = getCourseContentBySlug(courseSlug);
-  if (!content) return NextResponse.json({ error: "Course not found" }, { status: 404 });
-  const lesson = content.lessons[lessonIndex];
-  if (!lesson || lesson.type !== "project") {
-    return NextResponse.json({ error: "Not a capstone lesson" }, { status: 400 });
-  }
+    // (a) truncate to 800 words before sending to the API
+    const truncated = truncateToWords(submission);
+    const submissionHash = hashSubmission(truncated);
 
-  // Grade with Claude
-  const prompt = `You are grading a capstone project submission for the course "${content.title}".
+    // (c) return cached result if user resubmits the same capstone
+    const cached = await getCachedGrade(user.id, courseSlug, "capstone", submissionHash);
+    if (cached) {
+      return NextResponse.json({ ...cached, cached: true });
+    }
 
-Lesson: ${lesson.title}
-Requirements: ${lesson.gradingCriteria || "Demonstrate understanding of the course concepts."}
+    // (b) max 3 grading attempts per user per course per 24hrs
+    if (await hasExceededDailyLimit(user.id, courseSlug, "capstone")) {
+      return NextResponse.json(
+        { error: "You have reached the maximum of 3 grading attempts for this capstone in 24 hours. Please try again later." },
+        { status: 429 }
+      );
+    }
 
-Student submission:
-${submission}
+    const rubric = capstone.rubric;
+    const rubricLines = Object.entries(rubric)
+      .map(([key, dim]) => `- ${key} (weight ${dim.weight}): ${dim.description}`)
+      .join("\n");
 
-Grade this submission. Respond with valid JSON only (no markdown):
+    const systemPrompt = `You are grading a capstone project submission for the Tundemy course "${course?.title}". Tundemy is an AI skills platform for African professionals.
+
+Capstone task:
+${capstone.task}
+
+Grading rubric (weights sum to 100):
+${rubricLines}
+
+Score each rubric dimension from 0-100, then compute a weighted overall score (0-100) using the given weights.
+A submission passes if the overall score is at least ${capstone.passingScore}.
+
+CRITICAL INSTRUCTION: Your feedback must directly reference the student's actual words. Quote or paraphrase their specific phrases. Never say "add more detail" without naming the exact missing detail. Give concrete examples of what stronger answers look like with real Kenyan business names, KSh amounts, and specific tool/API names.
+
+Respond with ONLY a JSON object (no markdown fences, no extra text) in exactly this format:
 {
-  "passed": true/false,
-  "score": 0-100,
-  "feedback": "Detailed feedback paragraph",
-  "strengths": ["strength 1", "strength 2"],
-  "improvements": ["improvement 1", "improvement 2"]
-}
+  "overallScore": <number 0-100>,
+  "passed": <true if overallScore >= ${capstone.passingScore}, false otherwise>,
+  "dimensionScores": { "<rubricKey>": <0-100>, ... },
+  "feedback": "<1-2 sentence overall verdict referencing their specific submission>",
+  "didWell": [
+    "<specific strength -- quote or paraphrase their actual words, explain why it is good>",
+    "<second specific strength>"
+  ],
+  "improvements": [
+    {
+      "area": "<rubric dimension name>",
+      "missing": "<exactly what is absent or wrong -- be direct and reference their actual answer>",
+      "whyMatters": "<why this gap matters in a real Kenyan business context>",
+      "betterExample": "<concrete example of what a stronger answer looks like -- real names, amounts, steps>"
+    }
+  ],
+  "specificFixes": [
+    "<actionable fix 1 -- tell them exactly what to write, not just what category to improve>",
+    "<actionable fix 2>",
+    "<actionable fix 3 if needed>"
+  ]
+}`;
 
-Pass if the submission demonstrates solid understanding and effort (score >= 60).`;
+    const userPrompt = `Submission (max ${countWords(truncated)} words):\n\n${truncated}`;
 
-  const response = await anthropic.messages.create({
-    model: "claude-haiku-4-5-20251001",
-    max_tokens: 1024,
-    messages: [{ role: "user", content: prompt }],
-  });
+    let result: Record<string, unknown>;
+    try {
+      const raw = await callClaude(SONNET_MODEL, systemPrompt, userPrompt, 2048);
+      result = extractJson(raw);
+    } catch (err) {
+      console.error("[grade-capstone] Claude call failed:", err);
+      return NextResponse.json({ error: "Grading is temporarily unavailable. Please try again later." }, { status: 503 });
+    }
 
-  let result: { passed: boolean; score: number; feedback: string; strengths: string[]; improvements: string[] };
-  try {
-    const text = response.content[0].type === "text" ? response.content[0].text : "";
-    result = JSON.parse(text);
-  } catch {
-    return NextResponse.json({ error: "Failed to parse grading response" }, { status: 500 });
-  }
+    await recordGradingAttempt(user.id, courseSlug, "capstone", submissionHash);
+    await saveGradeToCache(user.id, courseSlug, "capstone", submissionHash, result);
 
-  try {
-    // Save progress
-    await supabase.from("lesson_progress").upsert({
-      user_id: user.id,
-      course_slug: courseSlug,
-      lesson_index: lessonIndex,
-      passed: result.passed,
-      completed_at: new Date().toISOString(),
-    }, { onConflict: "user_id,course_slug,lesson_index" });
-
-    if (result.passed) {
-      // Upsert capstone work record with full submission data
-      await supabase.from("talent_capstone_work").upsert({
-        user_id: user.id,
-        course_slug: courseSlug,
-        submission_text: submission,
-        grading_detail: result,
-        passed: true,
-        score: result.score,
-        feedback: result.feedback,
-        submitted_at: new Date().toISOString(),
-      }, { onConflict: "user_id,course_slug" })
+    // Fire-and-forget: on a passing capstone, persist full data and regenerate profile.
+    // Never block or fail the grading response on this.
+    if (result.passed === true) {
+      // 1. Upsert full capstone data immediately (submission text + rubric detail)
+      const admin = createServiceClient(
+        process.env.NEXT_PUBLIC_SUPABASE_URL!,
+        process.env.SUPABASE_SERVICE_ROLE_KEY!
+      );
+      const dimensionScores = (result.dimensionScores ?? {}) as Record<string, number>;
+      admin
+        .from("talent_capstone_work")
+        .upsert(
+          {
+            user_id: user.id,
+            course_slug: courseSlug,
+            title: course?.title
+              ? `${course.title} -- Capstone Project`
+              : `${courseSlug} -- Capstone Project`,
+            summary:
+              typeof result.feedback === "string"
+                ? result.feedback
+                : `Completed the ${course?.title ?? courseSlug} capstone project.`,
+            score:
+              typeof result.overallScore === "number"
+                ? Math.round(result.overallScore as number)
+                : null,
+            submission_text: truncated,
+            grading_detail: {
+              rubric_scores: Object.entries(dimensionScores).map(([key, val]) => ({
+                criterion: key
+                  .replace(/([A-Z])/g, " $1")
+                  .replace(/^./, (c) => c.toUpperCase())
+                  .trim(),
+                score: val,
+                max: 100,
+              })),
+              did_well: Array.isArray(result.didWell) ? result.didWell : [],
+              improvements: Array.isArray(result.improvements) ? result.improvements : [],
+              specific_fixes: Array.isArray(result.specificFixes) ? result.specificFixes : [],
+            },
+            completed_at: new Date().toISOString(),
+          },
+          { onConflict: "user_id,course_slug" }
+        )
         .then(({ error }: { error: unknown }) => {
           if (error) console.error("[grade-capstone] talent_capstone_work upsert failed:", error);
         });
@@ -113,16 +177,14 @@ Pass if the submission demonstrates solid understanding and effort (score >= 60)
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Cookie: req.headers.get("cookie") || "",
+          cookie: req.headers.get("cookie") ?? "",
         },
-        body: JSON.stringify({ user_id: user.id, course_slug: courseSlug }),
-      }).catch(() => {});
+        body: JSON.stringify({ courseSlug, capstoneResult: result }),
+      }).catch((err: unknown) =>
+        console.error("[grade-capstone] profile auto-generate trigger failed:", err)
+      );
     }
-  } catch (err) {
-    console.error("[grade-capstone] db error:", err);
-  }
 
-  try {
     return NextResponse.json({ ...result, cached: false });
   } catch (err) {
     console.error("[grade-capstone]", err);
