@@ -46,14 +46,14 @@ export async function DELETE(req: NextRequest) {
 
   if (action === "delete-all-lesson0s") {
     const urls = SLUGS.map((s) => BLOB_BASE + "/videos/" + s + "/lesson-0.mp4");
-    const r = await fetch(BLOB_API, { method: "DELETE", headers: blobHeaders, body: JSON.stringify({ urls }) });
+    const r = await fetch(BLOB_API + "/delete", { method: "POST", headers: blobHeaders, body: JSON.stringify({ urls }) });
     const txt = await r.text();
     return NextResponse.json({ ok: r.ok, status: r.status, body: txt, deleted: urls.length }, { headers: CORS });
   }
 
   if (slug) {
     const url = BLOB_BASE + "/videos/" + slug + "/lesson-0.mp4";
-    const r = await fetch(BLOB_API, { method: "DELETE", headers: blobHeaders, body: JSON.stringify({ urls: [url] }) });
+    const r = await fetch(BLOB_API + "/delete", { method: "POST", headers: blobHeaders, body: JSON.stringify({ urls: [url] }) });
     const txt = await r.text();
     return NextResponse.json({ ok: r.ok, status: r.status, body: txt, deleted: url }, { headers: CORS });
   }
@@ -78,7 +78,7 @@ export async function POST(req: NextRequest) {
     const hr = await fetch("https://api.heygen.com/v1/video_status.get?video_id=" + videoId, {
       headers: { "X-Api-Key": HEYGEN_API_KEY },
     });
-    const hj = await hr.json();
+    const hj = await hr.json() as { data?: { video_url?: string } };
     if (!hr.ok || !hj?.data?.video_url)
       return NextResponse.json({ error: "HeyGen error: " + JSON.stringify(hj) }, { status: 502, headers: CORS });
     heygen_url = hj.data.video_url;
