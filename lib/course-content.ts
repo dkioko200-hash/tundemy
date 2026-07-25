@@ -102,7 +102,7 @@ export const courseContent: CourseContent[] = [
         type: "intro" as const,
         hook: "In 2023 a Kenyan bank replaced three junior analysts with one person who knew how to use AI. That person now earns more than all three combined. This course is how you become that person.",
         duration_mins: 5,
-        videoUrl: "https://llvjlae5fgboyqol.public.blob.vercel-storage.com/videos/ai-foundations/lesson-0.mp4",
+        videoUrl: "https://hvcmknveplxksufotmmu.supabase.co/storage/v1/object/public/course-videos/videos/ai-foundations/lesson-0.mp4",
         isAvailable: true,
         content: "What AI is why it matters in Kenya right now and exactly what you will be able to do by the end of this course.",
         introWhoFor: [
@@ -464,7 +464,7 @@ export const courseContent: CourseContent[] = [
         type: "intro" as const,
         hook: "Two people. Same AI tool. Same subscription. One produces work that gets them promoted. The other produces work their manager edits for an hour before it is usable. The difference is not the tool. It is the system.",
         duration_mins: 5,
-        videoUrl: "https://llvjlae5fgboyqol.public.blob.vercel-storage.com/videos/prompt-engineering/lesson-0.mp4",
+        videoUrl: "https://hvcmknveplxksufotmmu.supabase.co/storage/v1/object/public/course-videos/videos/prompt-engineering/lesson-0.mp4",
         isAvailable: true,
         content: "What prompt engineering actually is why it matters and exactly what you will be able to do consistently by the end of this course.",
         introWhoFor: [
@@ -1234,7 +1234,7 @@ export const courseContent: CourseContent[] = [
         type: "intro" as const,
         hook: "A finance manager at a Nairobi SACCO was spending every Monday morning building the same weekly report from scratch. After two hours in this course she automated it completely. The report now generates itself. She uses Monday mornings to think about what the numbers mean.",
         duration_mins: 5,
-        videoUrl: "https://llvjlae5fgboyqol.public.blob.vercel-storage.com/videos/ai-data-analysis/lesson-0.mp4",
+        videoUrl: "https://hvcmknveplxksufotmmu.supabase.co/storage/v1/object/public/course-videos/videos/ai-data-analysis/lesson-0.mp4",
         isAvailable: true,
         content: "Every Kenyan business is sitting on data they cannot read. M-Pesa transaction logs, sales records, customer feedback, delivery times — all of it is potential insight trapped in spreadsheets nobody analyses. This course teaches you to use AI to turn that raw data into decisions. No coding degree. No statistics background. Just the right questions and the right prompts.",
         introWhoFor: [
@@ -1661,7 +1661,7 @@ QUESTION 4 — YOUR OWN QUERY: Add at least one new pandas analysis that the sta
       {
         lessonNumber: 0,
         title: "Welcome to WhatsApp Business AI",
-        videoUrl: "https://llvjlae5fgboyqol.public.blob.vercel-storage.com/videos/whatsapp-ai-integration/lesson-0.mp4",
+        videoUrl: "https://hvcmknveplxksufotmmu.supabase.co/storage/v1/object/public/course-videos/videos/whatsapp-ai-integration/lesson-0.mp4",
         type: "intro" as const,
         hook: "A Nairobi property agency was paying 3 customer service agents to answer the same 15 questions on WhatsApp every day — opening hours, property prices, viewing slots. A developer built a bot in a weekend. The bot now handles 340 conversations daily. The three agents moved to closing deals. Revenue went up 40% in 90 days.",
         duration_mins: 5,
@@ -1983,7 +1983,7 @@ QUESTION 4 — YOUR OWN QUERY: Add at least one new pandas analysis that the sta
       {
         lessonNumber: 0,
         title: "Welcome to M-Pesa Daraja API",
-        videoUrl: "https://llvjlae5fgboyqol.public.blob.vercel-storage.com/videos/mpesa-daraja-api/lesson-0.mp4",
+        videoUrl: "https://hvcmknveplxksufotmmu.supabase.co/storage/v1/object/public/course-videos/videos/mpesa-daraja-api/lesson-0.mp4",
         type: "intro" as const,
         hook: "A Nairobi e-commerce startup was losing 35% of sales because customers abandoned checkout when they could not pay with M-Pesa. A developer integrated STK Push in 4 days. Checkout abandonment dropped to 8%. Revenue increased by KSh 2.4 million in the first month. M-Pesa integration is not a nice-to-have for Kenyan businesses — it is the payment system.",
         duration_mins: 5,
@@ -2380,7 +2380,7 @@ QUESTION 4 — YOUR OWN QUERY: Add at least one new pandas analysis that the sta
       {
         lessonNumber: 0,
         title: "Welcome to AI for Agriculture and Agritech",
-        videoUrl: "",
+        videoUrl: "https://hvcmknveplxksufotmmu.supabase.co/storage/v1/object/public/course-videos/videos/ai-agriculture/lesson-0.mp4",
         type: "intro" as const,
         hook: "An agritech startup in Nakuru built an AI tool that tells smallholder maize farmers the optimal day to sell based on market price forecasts and their storage condition data. Farmers using the tool earned on average 23% more per kilogram than those selling without it. The tool was built by a data analyst who knew no agriculture before starting — but who understood how to ask the right AI questions of agricultural data.",
         duration_mins: 5,
@@ -2661,7 +2661,7 @@ QUESTION 4 — YOUR OWN QUERY: Add at least one new pandas analysis that the sta
         type: "intro",
         hook: "Every major AI lab — Anthropic, OpenAI, Google DeepMind — employs hundreds of contractors who never write a single line of model code. They write training data, evaluate AI outputs, and break AI systems on purpose. They work remotely. They earn $30–80 per hour. Most are not based in the US.",
         duration_mins: 8,
-        videoUrl: "https://llvjlae5fgboyqol.public.blob.vercel-storage.com/videos/ai-evaluation-engineering/lesson-0.mp4",
+        videoUrl: "https://hvcmknveplxksufotmmu.supabase.co/storage/v1/object/public/course-videos/videos/ai-evaluation-engineering/lesson-0.mp4",
         isAvailable: true,
         content: "This course teaches the exact skills Western AI companies hire for from Africa. By the end you will have a portfolio of evaluation work, a red-team report, a Python evaluation pipeline, and a profile that positions you for remote contracts. You do not need a computer science degree. You need precision, good judgment, and the ability to think like both the AI and the user.",
       },
@@ -2872,7 +2872,7 @@ QUESTION 4 — YOUR OWN QUERY: Add at least one new pandas analysis that the sta
       {
         lessonNumber: 0,
         title: "Introduction — Why RAG Is the Most Hireable AI Engineering Skill Right Now",
-        videoUrl: "https://llvjlae5fgboyqol.public.blob.vercel-storage.com/videos/rag-ai-engineering/lesson-0.mp4",
+        videoUrl: "https://hvcmknveplxksufotmmu.supabase.co/storage/v1/object/public/course-videos/videos/rag-ai-engineering/lesson-0.mp4",
         type: "intro",
         hook: "Every company that wants to use AI on its own data — its own documents, its own customer records, its own knowledge base — needs RAG. Not fine-tuning. Not prompt engineering alone. RAG. It is the engineering pattern that makes AI actually useful for real business problems, and the engineers who can build it are being hired at $60,000–$150,000 per year worldwide.",
         duration_mins: 8,
@@ -3064,7 +3064,7 @@ QUESTION 4 — YOUR OWN QUERY: Add at least one new pandas analysis that the sta
         type: "intro",
         hook: "A university graduate in Nairobi with strong AI skills can earn more per hour on Upwork than a mid-level manager at a Kenyan bank earns per month. This is not theoretical. It is happening right now. This course shows you exactly how.",
         duration_mins: 7,
-        videoUrl: "https://llvjlae5fgboyqol.public.blob.vercel-storage.com/videos/freelancing-with-ai/lesson-0.mp4",
+        videoUrl: "https://hvcmknveplxksufotmmu.supabase.co/storage/v1/object/public/course-videos/videos/freelancing-with-ai/lesson-0.mp4",
         isAvailable: true,
         content: "The global freelance market for AI skills is growing faster than supply. Clients in the US, UK, EU, and Australia are actively searching for people who can build AI workflows, write prompts, analyse data, and build automation tools. They are paying $25–$100 per hour. They cannot fill the demand from local talent alone. You, working from Kenya with the skills from this programme, can fill that gap. This course is the business and marketing half of that equation.",
       },
@@ -3203,7 +3203,7 @@ QUESTION 4 — YOUR OWN QUERY: Add at least one new pandas analysis that the sta
       {
         lessonNumber: 0,
         title: "Introduction — The Western Client Opportunity",
-        videoUrl: "https://llvjlae5fgboyqol.public.blob.vercel-storage.com/videos/selling-to-western-clients/lesson-0.mp4",
+        videoUrl: "https://hvcmknveplxksufotmmu.supabase.co/storage/v1/object/public/course-videos/videos/selling-to-western-clients/lesson-0.mp4",
         type: "intro",
         hook: "Western companies have two problems you can solve: they need AI skills and they are paying too much for them locally. A Californian AI consultant charges $150/hour. You can deliver the same quality at $60/hour and make more than most Kenyan professionals while they save 60% on their AI budget. This course shows you how to close that deal.",
         duration_mins: 7,
