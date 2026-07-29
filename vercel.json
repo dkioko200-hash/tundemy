@@ -2,6 +2,13 @@
   "functions": {
     "app/api/grade-capstone/route.ts": { "maxDuration": 60 },
     "app/api/grade-sandbox/route.ts": { "maxDuration": 60 },
-    "app/api/grade-assessment/route.ts": { "maxDuration": 60 }
-  }
+    "app/api/grade-assessment/route.ts": { "maxDuration": 60 },
+    "app/api/tunda/agent/route.ts": { "maxDuration": 90 }
+  },
+  "crons": [
+    {
+      "path": "/api/tunda/agent",
+      "schedule": "0 */2 * * *"
+    }
+  ]
 }
