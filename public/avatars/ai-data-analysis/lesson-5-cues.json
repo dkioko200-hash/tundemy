@@ -1,0 +1,621 @@
+[
+  {
+    "text": "A data analyst at a Kenyan Telecoms company spent two weeks building a 47 -slide powerpoint of charts and tables for the quarterly board review.",
+    "startTime": 0,
+    "endTime": 9.1,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 0,
+        "endTime": 0.3
+      },
+      {
+        "word": "data",
+        "startTime": 0.3,
+        "endTime": 0.56
+      },
+      {
+        "word": "analyst",
+        "startTime": 0.56,
+        "endTime": 1.04
+      },
+      {
+        "word": "at",
+        "startTime": 1.04,
+        "endTime": 1.3
+      },
+      {
+        "word": "a",
+        "startTime": 1.3,
+        "endTime": 1.4
+      },
+      {
+        "word": "Kenyan",
+        "startTime": 1.4,
+        "endTime": 1.7
+      },
+      {
+        "word": "Telecoms",
+        "startTime": 1.7,
+        "endTime": 2.32
+      },
+      {
+        "word": "company",
+        "startTime": 2.32,
+        "endTime": 2.74
+      },
+      {
+        "word": "spent",
+        "startTime": 2.74,
+        "endTime": 3.4
+      },
+      {
+        "word": "two",
+        "startTime": 3.4,
+        "endTime": 3.78
+      },
+      {
+        "word": "weeks",
+        "startTime": 3.78,
+        "endTime": 3.98
+      },
+      {
+        "word": "building",
+        "startTime": 3.98,
+        "endTime": 4.42
+      },
+      {
+        "word": "a",
+        "startTime": 4.42,
+        "endTime": 4.58
+      },
+      {
+        "word": "47",
+        "startTime": 4.58,
+        "endTime": 5
+      },
+      {
+        "word": "-slide",
+        "startTime": 5,
+        "endTime": 5.62
+      },
+      {
+        "word": "powerpoint",
+        "startTime": 5.62,
+        "endTime": 6.16
+      },
+      {
+        "word": "of",
+        "startTime": 6.16,
+        "endTime": 6.38
+      },
+      {
+        "word": "charts",
+        "startTime": 6.38,
+        "endTime": 6.64
+      },
+      {
+        "word": "and",
+        "startTime": 6.64,
+        "endTime": 6.9
+      },
+      {
+        "word": "tables",
+        "startTime": 6.9,
+        "endTime": 7.28
+      },
+      {
+        "word": "for",
+        "startTime": 7.28,
+        "endTime": 7.88
+      },
+      {
+        "word": "the",
+        "startTime": 7.88,
+        "endTime": 8.02
+      },
+      {
+        "word": "quarterly",
+        "startTime": 8.02,
+        "endTime": 8.42
+      },
+      {
+        "word": "board",
+        "startTime": 8.42,
+        "endTime": 8.68
+      },
+      {
+        "word": "review.",
+        "startTime": 8.68,
+        "endTime": 9.1
+      }
+    ]
+  },
+  {
+    "text": "The board spent eight minutes on it before asking the CEO to just tell them what was important.",
+    "startTime": 9.66,
+    "endTime": 14.52,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 9.66,
+        "endTime": 9.9
+      },
+      {
+        "word": "board",
+        "startTime": 9.9,
+        "endTime": 10.12
+      },
+      {
+        "word": "spent",
+        "startTime": 10.12,
+        "endTime": 10.42
+      },
+      {
+        "word": "eight",
+        "startTime": 10.42,
+        "endTime": 10.74
+      },
+      {
+        "word": "minutes",
+        "startTime": 10.74,
+        "endTime": 11.04
+      },
+      {
+        "word": "on",
+        "startTime": 11.04,
+        "endTime": 11.26
+      },
+      {
+        "word": "it",
+        "startTime": 11.26,
+        "endTime": 11.42
+      },
+      {
+        "word": "before",
+        "startTime": 11.42,
+        "endTime": 11.68
+      },
+      {
+        "word": "asking",
+        "startTime": 11.68,
+        "endTime": 12.04
+      },
+      {
+        "word": "the",
+        "startTime": 12.04,
+        "endTime": 12.26
+      },
+      {
+        "word": "CEO",
+        "startTime": 12.26,
+        "endTime": 12.68
+      },
+      {
+        "word": "to",
+        "startTime": 12.68,
+        "endTime": 13
+      },
+      {
+        "word": "just",
+        "startTime": 13,
+        "endTime": 13.18
+      },
+      {
+        "word": "tell",
+        "startTime": 13.18,
+        "endTime": 13.44
+      },
+      {
+        "word": "them",
+        "startTime": 13.44,
+        "endTime": 13.66
+      },
+      {
+        "word": "what",
+        "startTime": 13.66,
+        "endTime": 13.84
+      },
+      {
+        "word": "was",
+        "startTime": 13.84,
+        "endTime": 14.06
+      },
+      {
+        "word": "important.",
+        "startTime": 14.06,
+        "endTime": 14.52
+      }
+    ]
+  },
+  {
+    "text": "The analyst had produced data.",
+    "startTime": 15.24,
+    "endTime": 16.86,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 15.24,
+        "endTime": 15.44
+      },
+      {
+        "word": "analyst",
+        "startTime": 15.44,
+        "endTime": 15.78
+      },
+      {
+        "word": "had",
+        "startTime": 15.78,
+        "endTime": 16.06
+      },
+      {
+        "word": "produced",
+        "startTime": 16.06,
+        "endTime": 16.36
+      },
+      {
+        "word": "data.",
+        "startTime": 16.36,
+        "endTime": 16.86
+      }
+    ]
+  },
+  {
+    "text": "She had not produced a story.",
+    "startTime": 17.3,
+    "endTime": 18.78,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "She",
+        "startTime": 17.3,
+        "endTime": 17.48
+      },
+      {
+        "word": "had",
+        "startTime": 17.48,
+        "endTime": 17.62
+      },
+      {
+        "word": "not",
+        "startTime": 17.62,
+        "endTime": 17.78
+      },
+      {
+        "word": "produced",
+        "startTime": 17.78,
+        "endTime": 18.12
+      },
+      {
+        "word": "a",
+        "startTime": 18.12,
+        "endTime": 18.36
+      },
+      {
+        "word": "story.",
+        "startTime": 18.36,
+        "endTime": 18.78
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, the Pyramid Principle, lead with the conclusion, support with evidence is the single most important communication framework for data analysts.",
+    "startTime": 19.5,
+    "endTime": 29.8,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 19.5,
+        "endTime": 19.7
+      },
+      {
+        "word": "this",
+        "startTime": 19.7,
+        "endTime": 19.9
+      },
+      {
+        "word": "lesson,",
+        "startTime": 19.9,
+        "endTime": 20.26
+      },
+      {
+        "word": "the",
+        "startTime": 20.78,
+        "endTime": 20.94
+      },
+      {
+        "word": "Pyramid",
+        "startTime": 20.94,
+        "endTime": 21.34
+      },
+      {
+        "word": "Principle,",
+        "startTime": 21.34,
+        "endTime": 21.98
+      },
+      {
+        "word": "lead",
+        "startTime": 22.38,
+        "endTime": 22.74
+      },
+      {
+        "word": "with",
+        "startTime": 22.74,
+        "endTime": 22.94
+      },
+      {
+        "word": "the",
+        "startTime": 22.94,
+        "endTime": 23.08
+      },
+      {
+        "word": "conclusion,",
+        "startTime": 23.08,
+        "endTime": 23.64
+      },
+      {
+        "word": "support",
+        "startTime": 23.64,
+        "endTime": 24.52
+      },
+      {
+        "word": "with",
+        "startTime": 24.52,
+        "endTime": 24.88
+      },
+      {
+        "word": "evidence",
+        "startTime": 24.88,
+        "endTime": 25.36
+      },
+      {
+        "word": "is",
+        "startTime": 25.36,
+        "endTime": 26.18
+      },
+      {
+        "word": "the",
+        "startTime": 26.18,
+        "endTime": 26.36
+      },
+      {
+        "word": "single",
+        "startTime": 26.36,
+        "endTime": 26.72
+      },
+      {
+        "word": "most",
+        "startTime": 26.72,
+        "endTime": 27.06
+      },
+      {
+        "word": "important",
+        "startTime": 27.06,
+        "endTime": 27.58
+      },
+      {
+        "word": "communication",
+        "startTime": 27.58,
+        "endTime": 28.12
+      },
+      {
+        "word": "framework",
+        "startTime": 28.12,
+        "endTime": 28.76
+      },
+      {
+        "word": "for",
+        "startTime": 28.76,
+        "endTime": 29
+      },
+      {
+        "word": "data",
+        "startTime": 29,
+        "endTime": 29.2
+      },
+      {
+        "word": "analysts.",
+        "startTime": 29.2,
+        "endTime": 29.8
+      }
+    ]
+  },
+  {
+    "text": "Combine it with correct chart selection and you produce presentations that drive decisions instead of generating questions.",
+    "startTime": 30.46,
+    "endTime": 37.58,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Combine",
+        "startTime": 30.46,
+        "endTime": 30.98
+      },
+      {
+        "word": "it",
+        "startTime": 30.98,
+        "endTime": 31.14
+      },
+      {
+        "word": "with",
+        "startTime": 31.14,
+        "endTime": 31.28
+      },
+      {
+        "word": "correct",
+        "startTime": 31.28,
+        "endTime": 31.6
+      },
+      {
+        "word": "chart",
+        "startTime": 31.6,
+        "endTime": 31.96
+      },
+      {
+        "word": "selection",
+        "startTime": 31.96,
+        "endTime": 32.48
+      },
+      {
+        "word": "and",
+        "startTime": 32.48,
+        "endTime": 33.14
+      },
+      {
+        "word": "you",
+        "startTime": 33.14,
+        "endTime": 33.26
+      },
+      {
+        "word": "produce",
+        "startTime": 33.26,
+        "endTime": 33.6
+      },
+      {
+        "word": "presentations",
+        "startTime": 33.6,
+        "endTime": 34.34
+      },
+      {
+        "word": "that",
+        "startTime": 34.34,
+        "endTime": 34.6
+      },
+      {
+        "word": "drive",
+        "startTime": 34.6,
+        "endTime": 34.88
+      },
+      {
+        "word": "decisions",
+        "startTime": 34.88,
+        "endTime": 35.4
+      },
+      {
+        "word": "instead",
+        "startTime": 35.4,
+        "endTime": 36.2
+      },
+      {
+        "word": "of",
+        "startTime": 36.2,
+        "endTime": 36.34
+      },
+      {
+        "word": "generating",
+        "startTime": 36.34,
+        "endTime": 36.8
+      },
+      {
+        "word": "questions.",
+        "startTime": 36.8,
+        "endTime": 37.58
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 38.38,
+    "endTime": 42.36,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 38.38,
+        "endTime": 38.7
+      },
+      {
+        "word": "what",
+        "startTime": 38.7,
+        "endTime": 38.94
+      },
+      {
+        "word": "you",
+        "startTime": 38.94,
+        "endTime": 39.1
+      },
+      {
+        "word": "learn",
+        "startTime": 39.1,
+        "endTime": 39.32
+      },
+      {
+        "word": "in",
+        "startTime": 39.32,
+        "endTime": 39.46
+      },
+      {
+        "word": "this",
+        "startTime": 39.46,
+        "endTime": 39.68
+      },
+      {
+        "word": "lesson",
+        "startTime": 39.68,
+        "endTime": 40.02
+      },
+      {
+        "word": "and",
+        "startTime": 40.02,
+        "endTime": 40.66
+      },
+      {
+        "word": "you",
+        "startTime": 40.66,
+        "endTime": 40.8
+      },
+      {
+        "word": "will",
+        "startTime": 40.8,
+        "endTime": 40.9
+      },
+      {
+        "word": "see",
+        "startTime": 40.9,
+        "endTime": 41.12
+      },
+      {
+        "word": "results",
+        "startTime": 41.12,
+        "endTime": 41.52
+      },
+      {
+        "word": "immediately.",
+        "startTime": 41.52,
+        "endTime": 42.36
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 42.76,
+    "endTime": 44.08,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 42.76,
+        "endTime": 43.1
+      },
+      {
+        "word": "skills",
+        "startTime": 43.1,
+        "endTime": 43.48
+      },
+      {
+        "word": "bear",
+        "startTime": 43.48,
+        "endTime": 43.74
+      },
+      {
+        "word": "fruit.",
+        "startTime": 43.74,
+        "endTime": 44.08
+      }
+    ]
+  }
+]

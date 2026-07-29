@@ -1,0 +1,886 @@
+[
+  {
+    "text": "Most R -A -G systems are built on English data.",
+    "startTime": 0,
+    "endTime": 4.98,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "Most",
+        "startTime": 0,
+        "endTime": 0.6
+      },
+      {
+        "word": "R",
+        "startTime": 0.6,
+        "endTime": 1.02
+      },
+      {
+        "word": "-A",
+        "startTime": 1.02,
+        "endTime": 1.18
+      },
+      {
+        "word": "-G",
+        "startTime": 1.18,
+        "endTime": 1.4
+      },
+      {
+        "word": "systems",
+        "startTime": 1.4,
+        "endTime": 2.06
+      },
+      {
+        "word": "are",
+        "startTime": 2.06,
+        "endTime": 2.68
+      },
+      {
+        "word": "built",
+        "startTime": 2.68,
+        "endTime": 3
+      },
+      {
+        "word": "on",
+        "startTime": 3,
+        "endTime": 3.5
+      },
+      {
+        "word": "English",
+        "startTime": 3.5,
+        "endTime": 4.06
+      },
+      {
+        "word": "data.",
+        "startTime": 4.06,
+        "endTime": 4.98
+      }
+    ]
+  },
+  {
+    "text": "Building a production R -A -G system on Swahili documents or on multilingual African business data requires solving problems that most R -A -G tutorials never address.",
+    "startTime": 6.26,
+    "endTime": 22.08,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Building",
+        "startTime": 6.26,
+        "endTime": 6.82
+      },
+      {
+        "word": "a",
+        "startTime": 6.82,
+        "endTime": 7.1
+      },
+      {
+        "word": "production",
+        "startTime": 7.1,
+        "endTime": 7.66
+      },
+      {
+        "word": "R",
+        "startTime": 7.66,
+        "endTime": 8.18
+      },
+      {
+        "word": "-A",
+        "startTime": 8.18,
+        "endTime": 8.34
+      },
+      {
+        "word": "-G",
+        "startTime": 8.34,
+        "endTime": 8.56
+      },
+      {
+        "word": "system",
+        "startTime": 8.56,
+        "endTime": 9.18
+      },
+      {
+        "word": "on",
+        "startTime": 9.18,
+        "endTime": 9.68
+      },
+      {
+        "word": "Swahili",
+        "startTime": 9.68,
+        "endTime": 10.34
+      },
+      {
+        "word": "documents",
+        "startTime": 10.34,
+        "endTime": 11.18
+      },
+      {
+        "word": "or",
+        "startTime": 11.18,
+        "endTime": 11.9
+      },
+      {
+        "word": "on",
+        "startTime": 11.9,
+        "endTime": 12.18
+      },
+      {
+        "word": "multilingual",
+        "startTime": 12.18,
+        "endTime": 12.98
+      },
+      {
+        "word": "African",
+        "startTime": 12.98,
+        "endTime": 13.58
+      },
+      {
+        "word": "business",
+        "startTime": 13.58,
+        "endTime": 14.12
+      },
+      {
+        "word": "data",
+        "startTime": 14.12,
+        "endTime": 14.82
+      },
+      {
+        "word": "requires",
+        "startTime": 14.82,
+        "endTime": 15.76
+      },
+      {
+        "word": "solving",
+        "startTime": 15.76,
+        "endTime": 16.56
+      },
+      {
+        "word": "problems",
+        "startTime": 16.56,
+        "endTime": 17.26
+      },
+      {
+        "word": "that",
+        "startTime": 17.26,
+        "endTime": 18.02
+      },
+      {
+        "word": "most",
+        "startTime": 18.02,
+        "endTime": 18.6
+      },
+      {
+        "word": "R",
+        "startTime": 18.6,
+        "endTime": 19.08
+      },
+      {
+        "word": "-A",
+        "startTime": 19.08,
+        "endTime": 19.24
+      },
+      {
+        "word": "-G",
+        "startTime": 19.24,
+        "endTime": 19.52
+      },
+      {
+        "word": "tutorials",
+        "startTime": 19.52,
+        "endTime": 20.36
+      },
+      {
+        "word": "never",
+        "startTime": 20.36,
+        "endTime": 21.36
+      },
+      {
+        "word": "address.",
+        "startTime": 21.36,
+        "endTime": 22.08
+      }
+    ]
+  },
+  {
+    "text": "Solving those problems is exactly what makes your portfolio rare.",
+    "startTime": 22.08,
+    "endTime": 28.9,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Solving",
+        "startTime": 22.08,
+        "endTime": 24.02
+      },
+      {
+        "word": "those",
+        "startTime": 24.02,
+        "endTime": 24.28
+      },
+      {
+        "word": "problems",
+        "startTime": 24.28,
+        "endTime": 24.82
+      },
+      {
+        "word": "is",
+        "startTime": 24.82,
+        "endTime": 25.4
+      },
+      {
+        "word": "exactly",
+        "startTime": 25.4,
+        "endTime": 26.1
+      },
+      {
+        "word": "what",
+        "startTime": 26.1,
+        "endTime": 26.42
+      },
+      {
+        "word": "makes",
+        "startTime": 26.42,
+        "endTime": 26.74
+      },
+      {
+        "word": "your",
+        "startTime": 26.74,
+        "endTime": 27.1
+      },
+      {
+        "word": "portfolio",
+        "startTime": 27.1,
+        "endTime": 27.88
+      },
+      {
+        "word": "rare.",
+        "startTime": 27.88,
+        "endTime": 28.9
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, R -A -G systems on African language data sets face three technical challenges that English language systems do not.",
+    "startTime": 30.16,
+    "endTime": 41.42,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 30.16,
+        "endTime": 30.46
+      },
+      {
+        "word": "this",
+        "startTime": 30.46,
+        "endTime": 30.72
+      },
+      {
+        "word": "lesson,",
+        "startTime": 30.72,
+        "endTime": 31.28
+      },
+      {
+        "word": "R",
+        "startTime": 31.96,
+        "endTime": 32.16
+      },
+      {
+        "word": "-A",
+        "startTime": 32.16,
+        "endTime": 32.34
+      },
+      {
+        "word": "-G",
+        "startTime": 32.34,
+        "endTime": 32.6
+      },
+      {
+        "word": "systems",
+        "startTime": 32.6,
+        "endTime": 33.16
+      },
+      {
+        "word": "on",
+        "startTime": 33.16,
+        "endTime": 33.56
+      },
+      {
+        "word": "African",
+        "startTime": 33.56,
+        "endTime": 34.04
+      },
+      {
+        "word": "language",
+        "startTime": 34.04,
+        "endTime": 34.52
+      },
+      {
+        "word": "data",
+        "startTime": 34.52,
+        "endTime": 34.9
+      },
+      {
+        "word": "sets",
+        "startTime": 34.9,
+        "endTime": 35.66
+      },
+      {
+        "word": "face",
+        "startTime": 35.66,
+        "endTime": 36.2
+      },
+      {
+        "word": "three",
+        "startTime": 36.2,
+        "endTime": 36.78
+      },
+      {
+        "word": "technical",
+        "startTime": 36.78,
+        "endTime": 37.52
+      },
+      {
+        "word": "challenges",
+        "startTime": 37.52,
+        "endTime": 38.28
+      },
+      {
+        "word": "that",
+        "startTime": 38.28,
+        "endTime": 38.88
+      },
+      {
+        "word": "English",
+        "startTime": 38.88,
+        "endTime": 39.44
+      },
+      {
+        "word": "language",
+        "startTime": 39.44,
+        "endTime": 40.02
+      },
+      {
+        "word": "systems",
+        "startTime": 40.02,
+        "endTime": 40.6
+      },
+      {
+        "word": "do",
+        "startTime": 40.6,
+        "endTime": 41.08
+      },
+      {
+        "word": "not.",
+        "startTime": 41.08,
+        "endTime": 41.42
+      }
+    ]
+  },
+  {
+    "text": "One, embedding quality.",
+    "startTime": 42.86,
+    "endTime": 45.48,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "One,",
+        "startTime": 42.86,
+        "endTime": 43.12
+      },
+      {
+        "word": "embedding",
+        "startTime": 44.12,
+        "endTime": 44.64
+      },
+      {
+        "word": "quality.",
+        "startTime": 44.64,
+        "endTime": 45.48
+      }
+    ]
+  },
+  {
+    "text": "Most high -performance embedding models are English optimised.",
+    "startTime": 46.74,
+    "endTime": 51.84,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Most",
+        "startTime": 46.74,
+        "endTime": 47.32
+      },
+      {
+        "word": "high",
+        "startTime": 47.32,
+        "endTime": 47.68
+      },
+      {
+        "word": "-performance",
+        "startTime": 47.68,
+        "endTime": 48.26
+      },
+      {
+        "word": "embedding",
+        "startTime": 48.26,
+        "endTime": 48.9
+      },
+      {
+        "word": "models",
+        "startTime": 48.9,
+        "endTime": 49.38
+      },
+      {
+        "word": "are",
+        "startTime": 49.38,
+        "endTime": 50.02
+      },
+      {
+        "word": "English",
+        "startTime": 50.02,
+        "endTime": 50.56
+      },
+      {
+        "word": "optimised.",
+        "startTime": 50.56,
+        "endTime": 51.84
+      }
+    ]
+  },
+  {
+    "text": "Multilingual models trade some English quality for cross -lingual coverage.",
+    "startTime": 52.56,
+    "endTime": 58.92,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Multilingual",
+        "startTime": 52.56,
+        "endTime": 53.38
+      },
+      {
+        "word": "models",
+        "startTime": 53.38,
+        "endTime": 54.12
+      },
+      {
+        "word": "trade",
+        "startTime": 54.12,
+        "endTime": 54.66
+      },
+      {
+        "word": "some",
+        "startTime": 54.66,
+        "endTime": 55.14
+      },
+      {
+        "word": "English",
+        "startTime": 55.14,
+        "endTime": 55.7
+      },
+      {
+        "word": "quality",
+        "startTime": 55.7,
+        "endTime": 56.52
+      },
+      {
+        "word": "for",
+        "startTime": 56.52,
+        "endTime": 57.16
+      },
+      {
+        "word": "cross",
+        "startTime": 57.16,
+        "endTime": 57.64
+      },
+      {
+        "word": "-lingual",
+        "startTime": 57.64,
+        "endTime": 58.2
+      },
+      {
+        "word": "coverage.",
+        "startTime": 58.2,
+        "endTime": 58.92
+      }
+    ]
+  },
+  {
+    "text": "Two, language mixing.",
+    "startTime": 60.58,
+    "endTime": 62.66,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Two,",
+        "startTime": 60.58,
+        "endTime": 60.72
+      },
+      {
+        "word": "language",
+        "startTime": 61.64,
+        "endTime": 61.96
+      },
+      {
+        "word": "mixing.",
+        "startTime": 61.96,
+        "endTime": 62.66
+      }
+    ]
+  },
+  {
+    "text": "Real East African business documents mix Swahili, English, Sheng and local terms within the same paragraph.",
+    "startTime": 64.06,
+    "endTime": 74.08,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Real",
+        "startTime": 64.06,
+        "endTime": 64.26
+      },
+      {
+        "word": "East",
+        "startTime": 64.26,
+        "endTime": 64.84
+      },
+      {
+        "word": "African",
+        "startTime": 64.84,
+        "endTime": 65.18
+      },
+      {
+        "word": "business",
+        "startTime": 65.18,
+        "endTime": 65.68
+      },
+      {
+        "word": "documents",
+        "startTime": 65.68,
+        "endTime": 66.42
+      },
+      {
+        "word": "mix",
+        "startTime": 66.42,
+        "endTime": 67.14
+      },
+      {
+        "word": "Swahili,",
+        "startTime": 67.14,
+        "endTime": 68.04
+      },
+      {
+        "word": "English,",
+        "startTime": 68.64,
+        "endTime": 69.08
+      },
+      {
+        "word": "Sheng",
+        "startTime": 69.84,
+        "endTime": 70.1
+      },
+      {
+        "word": "and",
+        "startTime": 70.1,
+        "endTime": 70.76
+      },
+      {
+        "word": "local",
+        "startTime": 70.76,
+        "endTime": 71.26
+      },
+      {
+        "word": "terms",
+        "startTime": 71.26,
+        "endTime": 71.92
+      },
+      {
+        "word": "within",
+        "startTime": 71.92,
+        "endTime": 72.58
+      },
+      {
+        "word": "the",
+        "startTime": 72.58,
+        "endTime": 72.9
+      },
+      {
+        "word": "same",
+        "startTime": 72.9,
+        "endTime": 73.38
+      },
+      {
+        "word": "paragraph.",
+        "startTime": 73.38,
+        "endTime": 74.08
+      }
+    ]
+  },
+  {
+    "text": "Three, evaluation data scarcity.",
+    "startTime": 75.4,
+    "endTime": 79.64,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Three,",
+        "startTime": 75.4,
+        "endTime": 76.02
+      },
+      {
+        "word": "evaluation",
+        "startTime": 77.24,
+        "endTime": 77.48
+      },
+      {
+        "word": "data",
+        "startTime": 77.48,
+        "endTime": 78.52
+      },
+      {
+        "word": "scarcity.",
+        "startTime": 78.52,
+        "endTime": 79.64
+      }
+    ]
+  },
+  {
+    "text": "Creating gold standard question and repairs for evaluation requires native speakers and domain experts, both of which are less available as contractors than for English evaluation.",
+    "startTime": 80.6,
+    "endTime": 96.64,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Creating",
+        "startTime": 80.6,
+        "endTime": 81.14
+      },
+      {
+        "word": "gold",
+        "startTime": 81.14,
+        "endTime": 81.78
+      },
+      {
+        "word": "standard",
+        "startTime": 81.78,
+        "endTime": 82.4
+      },
+      {
+        "word": "question",
+        "startTime": 82.4,
+        "endTime": 83
+      },
+      {
+        "word": "and",
+        "startTime": 83,
+        "endTime": 83.4
+      },
+      {
+        "word": "repairs",
+        "startTime": 83.4,
+        "endTime": 83.9
+      },
+      {
+        "word": "for",
+        "startTime": 83.9,
+        "endTime": 84.26
+      },
+      {
+        "word": "evaluation",
+        "startTime": 84.26,
+        "endTime": 85.24
+      },
+      {
+        "word": "requires",
+        "startTime": 85.7,
+        "endTime": 86.22
+      },
+      {
+        "word": "native",
+        "startTime": 86.22,
+        "endTime": 86.94
+      },
+      {
+        "word": "speakers",
+        "startTime": 86.94,
+        "endTime": 87.6
+      },
+      {
+        "word": "and",
+        "startTime": 87.6,
+        "endTime": 88.24
+      },
+      {
+        "word": "domain",
+        "startTime": 88.24,
+        "endTime": 88.66
+      },
+      {
+        "word": "experts,",
+        "startTime": 88.66,
+        "endTime": 89.58
+      },
+      {
+        "word": "both",
+        "startTime": 90.1,
+        "endTime": 90.68
+      },
+      {
+        "word": "of",
+        "startTime": 90.68,
+        "endTime": 90.92
+      },
+      {
+        "word": "which",
+        "startTime": 90.92,
+        "endTime": 91.2
+      },
+      {
+        "word": "are",
+        "startTime": 91.2,
+        "endTime": 91.6
+      },
+      {
+        "word": "less",
+        "startTime": 91.6,
+        "endTime": 91.96
+      },
+      {
+        "word": "available",
+        "startTime": 91.96,
+        "endTime": 92.6
+      },
+      {
+        "word": "as",
+        "startTime": 92.6,
+        "endTime": 92.94
+      },
+      {
+        "word": "contractors",
+        "startTime": 92.94,
+        "endTime": 93.76
+      },
+      {
+        "word": "than",
+        "startTime": 93.76,
+        "endTime": 94.5
+      },
+      {
+        "word": "for",
+        "startTime": 94.5,
+        "endTime": 94.76
+      },
+      {
+        "word": "English",
+        "startTime": 94.76,
+        "endTime": 95.28
+      },
+      {
+        "word": "evaluation.",
+        "startTime": 95.28,
+        "endTime": 96.64
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson, and you will see results immediately.",
+    "startTime": 97.92,
+    "endTime": 104.44,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 97.92,
+        "endTime": 98.62
+      },
+      {
+        "word": "what",
+        "startTime": 98.62,
+        "endTime": 99.06
+      },
+      {
+        "word": "you",
+        "startTime": 99.06,
+        "endTime": 99.28
+      },
+      {
+        "word": "learn",
+        "startTime": 99.28,
+        "endTime": 99.68
+      },
+      {
+        "word": "in",
+        "startTime": 99.68,
+        "endTime": 100.06
+      },
+      {
+        "word": "this",
+        "startTime": 100.06,
+        "endTime": 100.34
+      },
+      {
+        "word": "lesson,",
+        "startTime": 100.34,
+        "endTime": 100.94
+      },
+      {
+        "word": "and",
+        "startTime": 101.36,
+        "endTime": 101.74
+      },
+      {
+        "word": "you",
+        "startTime": 101.74,
+        "endTime": 101.98
+      },
+      {
+        "word": "will",
+        "startTime": 101.98,
+        "endTime": 102.16
+      },
+      {
+        "word": "see",
+        "startTime": 102.16,
+        "endTime": 102.48
+      },
+      {
+        "word": "results",
+        "startTime": 102.48,
+        "endTime": 103.16
+      },
+      {
+        "word": "immediately.",
+        "startTime": 103.16,
+        "endTime": 104.44
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 104.44,
+    "endTime": 107.68,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 104.44,
+        "endTime": 105.66
+      },
+      {
+        "word": "skills",
+        "startTime": 105.66,
+        "endTime": 106.3
+      },
+      {
+        "word": "bear",
+        "startTime": 106.3,
+        "endTime": 106.92
+      },
+      {
+        "word": "fruit.",
+        "startTime": 106.92,
+        "endTime": 107.68
+      }
+    ]
+  }
+]

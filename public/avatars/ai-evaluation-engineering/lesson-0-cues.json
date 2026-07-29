@@ -1,0 +1,668 @@
+[
+  {
+    "text": "Welcome to Introduction, the hidden AI job market paying $30 .80 per hour.",
+    "startTime": 0,
+    "endTime": 8.42,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "Welcome",
+        "startTime": 0,
+        "endTime": 0.44
+      },
+      {
+        "word": "to",
+        "startTime": 0.44,
+        "endTime": 0.8
+      },
+      {
+        "word": "Introduction,",
+        "startTime": 0.8,
+        "endTime": 1.76
+      },
+      {
+        "word": "the",
+        "startTime": 2.18,
+        "endTime": 2.58
+      },
+      {
+        "word": "hidden",
+        "startTime": 2.58,
+        "endTime": 2.94
+      },
+      {
+        "word": "AI",
+        "startTime": 2.94,
+        "endTime": 3.3
+      },
+      {
+        "word": "job",
+        "startTime": 3.3,
+        "endTime": 3.88
+      },
+      {
+        "word": "market",
+        "startTime": 3.88,
+        "endTime": 4.44
+      },
+      {
+        "word": "paying",
+        "startTime": 4.44,
+        "endTime": 5.2
+      },
+      {
+        "word": "$30",
+        "startTime": 5.2,
+        "endTime": 5.9
+      },
+      {
+        "word": ".80",
+        "startTime": 5.9,
+        "endTime": 7.26
+      },
+      {
+        "word": "per",
+        "startTime": 7.26,
+        "endTime": 7.96
+      },
+      {
+        "word": "hour.",
+        "startTime": 7.96,
+        "endTime": 8.42
+      }
+    ]
+  },
+  {
+    "text": "I am so glad you are here.",
+    "startTime": 9.479999999999999,
+    "endTime": 11.58,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "I",
+        "startTime": 9.479999999999999,
+        "endTime": 9.92
+      },
+      {
+        "word": "am",
+        "startTime": 9.92,
+        "endTime": 10.04
+      },
+      {
+        "word": "so",
+        "startTime": 10.04,
+        "endTime": 10.48
+      },
+      {
+        "word": "glad",
+        "startTime": 10.48,
+        "endTime": 10.86
+      },
+      {
+        "word": "you",
+        "startTime": 10.86,
+        "endTime": 11.14
+      },
+      {
+        "word": "are",
+        "startTime": 11.14,
+        "endTime": 11.28
+      },
+      {
+        "word": "here.",
+        "startTime": 11.28,
+        "endTime": 11.58
+      }
+    ]
+  },
+  {
+    "text": "Every major AI lab, anthropic, open AI, Google Deep Mind, employs hundreds of contractors who never write a single line of model code.",
+    "startTime": 12.46,
+    "endTime": 25.64,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Every",
+        "startTime": 12.46,
+        "endTime": 12.88
+      },
+      {
+        "word": "major",
+        "startTime": 12.88,
+        "endTime": 13.48
+      },
+      {
+        "word": "AI",
+        "startTime": 13.48,
+        "endTime": 13.88
+      },
+      {
+        "word": "lab,",
+        "startTime": 13.88,
+        "endTime": 14.52
+      },
+      {
+        "word": "anthropic,",
+        "startTime": 14.92,
+        "endTime": 15.94
+      },
+      {
+        "word": "open",
+        "startTime": 16.36,
+        "endTime": 16.68
+      },
+      {
+        "word": "AI,",
+        "startTime": 16.68,
+        "endTime": 17.22
+      },
+      {
+        "word": "Google",
+        "startTime": 17.94,
+        "endTime": 18.18
+      },
+      {
+        "word": "Deep",
+        "startTime": 18.18,
+        "endTime": 18.62
+      },
+      {
+        "word": "Mind,",
+        "startTime": 18.62,
+        "endTime": 19.14
+      },
+      {
+        "word": "employs",
+        "startTime": 19.64,
+        "endTime": 20.08
+      },
+      {
+        "word": "hundreds",
+        "startTime": 20.08,
+        "endTime": 20.84
+      },
+      {
+        "word": "of",
+        "startTime": 20.84,
+        "endTime": 21.06
+      },
+      {
+        "word": "contractors",
+        "startTime": 21.06,
+        "endTime": 21.8
+      },
+      {
+        "word": "who",
+        "startTime": 21.8,
+        "endTime": 22.34
+      },
+      {
+        "word": "never",
+        "startTime": 22.34,
+        "endTime": 22.78
+      },
+      {
+        "word": "write",
+        "startTime": 22.78,
+        "endTime": 23.1
+      },
+      {
+        "word": "a",
+        "startTime": 23.1,
+        "endTime": 23.34
+      },
+      {
+        "word": "single",
+        "startTime": 23.34,
+        "endTime": 23.86
+      },
+      {
+        "word": "line",
+        "startTime": 23.86,
+        "endTime": 24.34
+      },
+      {
+        "word": "of",
+        "startTime": 24.34,
+        "endTime": 24.72
+      },
+      {
+        "word": "model",
+        "startTime": 24.72,
+        "endTime": 25.08
+      },
+      {
+        "word": "code.",
+        "startTime": 25.08,
+        "endTime": 25.64
+      }
+    ]
+  },
+  {
+    "text": "They write training data, evaluate AI outputs and break AI systems on purpose.",
+    "startTime": 26.24,
+    "endTime": 34.44,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "They",
+        "startTime": 26.24,
+        "endTime": 26.74
+      },
+      {
+        "word": "write",
+        "startTime": 26.74,
+        "endTime": 26.98
+      },
+      {
+        "word": "training",
+        "startTime": 26.98,
+        "endTime": 27.64
+      },
+      {
+        "word": "data,",
+        "startTime": 27.64,
+        "endTime": 28.28
+      },
+      {
+        "word": "evaluate",
+        "startTime": 28.86,
+        "endTime": 29.52
+      },
+      {
+        "word": "AI",
+        "startTime": 29.52,
+        "endTime": 30.06
+      },
+      {
+        "word": "outputs",
+        "startTime": 30.06,
+        "endTime": 30.86
+      },
+      {
+        "word": "and",
+        "startTime": 30.86,
+        "endTime": 31.64
+      },
+      {
+        "word": "break",
+        "startTime": 31.64,
+        "endTime": 32.06
+      },
+      {
+        "word": "AI",
+        "startTime": 32.06,
+        "endTime": 32.6
+      },
+      {
+        "word": "systems",
+        "startTime": 32.6,
+        "endTime": 33.32
+      },
+      {
+        "word": "on",
+        "startTime": 33.32,
+        "endTime": 33.82
+      },
+      {
+        "word": "purpose.",
+        "startTime": 33.82,
+        "endTime": 34.44
+      }
+    ]
+  },
+  {
+    "text": "They work remotely.",
+    "startTime": 35.48,
+    "endTime": 37.02,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "They",
+        "startTime": 35.48,
+        "endTime": 35.78
+      },
+      {
+        "word": "work",
+        "startTime": 35.78,
+        "endTime": 36.18
+      },
+      {
+        "word": "remotely.",
+        "startTime": 36.18,
+        "endTime": 37.02
+      }
+    ]
+  },
+  {
+    "text": "They earn $30 .80 per hour.",
+    "startTime": 37.86,
+    "endTime": 41.62,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "They",
+        "startTime": 37.86,
+        "endTime": 38.02
+      },
+      {
+        "word": "earn",
+        "startTime": 38.02,
+        "endTime": 38.3
+      },
+      {
+        "word": "$30",
+        "startTime": 38.3,
+        "endTime": 39.3
+      },
+      {
+        "word": ".80",
+        "startTime": 39.3,
+        "endTime": 40.44
+      },
+      {
+        "word": "per",
+        "startTime": 40.44,
+        "endTime": 41.16
+      },
+      {
+        "word": "hour.",
+        "startTime": 41.16,
+        "endTime": 41.62
+      }
+    ]
+  },
+  {
+    "text": "Most are not based in the US.",
+    "startTime": 42.52,
+    "endTime": 44.7,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Most",
+        "startTime": 42.52,
+        "endTime": 43.04
+      },
+      {
+        "word": "are",
+        "startTime": 43.04,
+        "endTime": 43.32
+      },
+      {
+        "word": "not",
+        "startTime": 43.32,
+        "endTime": 43.5
+      },
+      {
+        "word": "based",
+        "startTime": 43.5,
+        "endTime": 43.96
+      },
+      {
+        "word": "in",
+        "startTime": 43.96,
+        "endTime": 44.14
+      },
+      {
+        "word": "the",
+        "startTime": 44.14,
+        "endTime": 44.28
+      },
+      {
+        "word": "US.",
+        "startTime": 44.28,
+        "endTime": 44.7
+      }
+    ]
+  },
+  {
+    "text": "You do not need to code.",
+    "startTime": 45.68,
+    "endTime": 47.32,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 45.68,
+        "endTime": 45.86
+      },
+      {
+        "word": "do",
+        "startTime": 45.86,
+        "endTime": 46.02
+      },
+      {
+        "word": "not",
+        "startTime": 46.02,
+        "endTime": 46.26
+      },
+      {
+        "word": "need",
+        "startTime": 46.26,
+        "endTime": 46.6
+      },
+      {
+        "word": "to",
+        "startTime": 46.6,
+        "endTime": 46.86
+      },
+      {
+        "word": "code.",
+        "startTime": 46.86,
+        "endTime": 47.32
+      }
+    ]
+  },
+  {
+    "text": "You do not need a technology background.",
+    "startTime": 47.98,
+    "endTime": 50.54,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 47.98,
+        "endTime": 48.1
+      },
+      {
+        "word": "do",
+        "startTime": 48.1,
+        "endTime": 48.26
+      },
+      {
+        "word": "not",
+        "startTime": 48.26,
+        "endTime": 48.52
+      },
+      {
+        "word": "need",
+        "startTime": 48.52,
+        "endTime": 48.96
+      },
+      {
+        "word": "a",
+        "startTime": 48.96,
+        "endTime": 49.22
+      },
+      {
+        "word": "technology",
+        "startTime": 49.22,
+        "endTime": 49.82
+      },
+      {
+        "word": "background.",
+        "startTime": 49.82,
+        "endTime": 50.54
+      }
+    ]
+  },
+  {
+    "text": "All you need is the willingness to learn and I will guide you every step of the way.",
+    "startTime": 51.22,
+    "endTime": 58.26,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "All",
+        "startTime": 51.22,
+        "endTime": 51.62
+      },
+      {
+        "word": "you",
+        "startTime": 51.62,
+        "endTime": 51.94
+      },
+      {
+        "word": "need",
+        "startTime": 51.94,
+        "endTime": 52.32
+      },
+      {
+        "word": "is",
+        "startTime": 52.32,
+        "endTime": 52.72
+      },
+      {
+        "word": "the",
+        "startTime": 52.72,
+        "endTime": 52.94
+      },
+      {
+        "word": "willingness",
+        "startTime": 52.94,
+        "endTime": 53.34
+      },
+      {
+        "word": "to",
+        "startTime": 53.34,
+        "endTime": 53.88
+      },
+      {
+        "word": "learn",
+        "startTime": 53.88,
+        "endTime": 54.3
+      },
+      {
+        "word": "and",
+        "startTime": 54.3,
+        "endTime": 54.98
+      },
+      {
+        "word": "I",
+        "startTime": 54.98,
+        "endTime": 55.18
+      },
+      {
+        "word": "will",
+        "startTime": 55.18,
+        "endTime": 55.38
+      },
+      {
+        "word": "guide",
+        "startTime": 55.38,
+        "endTime": 55.8
+      },
+      {
+        "word": "you",
+        "startTime": 55.8,
+        "endTime": 56.2
+      },
+      {
+        "word": "every",
+        "startTime": 56.2,
+        "endTime": 56.82
+      },
+      {
+        "word": "step",
+        "startTime": 56.82,
+        "endTime": 57.3
+      },
+      {
+        "word": "of",
+        "startTime": 57.3,
+        "endTime": 57.74
+      },
+      {
+        "word": "the",
+        "startTime": 57.74,
+        "endTime": 57.94
+      },
+      {
+        "word": "way.",
+        "startTime": 57.94,
+        "endTime": 58.26
+      }
+    ]
+  },
+  {
+    "text": "I will see you in lesson one.",
+    "startTime": 59.34,
+    "endTime": 62.06,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "I",
+        "startTime": 59.34,
+        "endTime": 59.74
+      },
+      {
+        "word": "will",
+        "startTime": 59.74,
+        "endTime": 59.9
+      },
+      {
+        "word": "see",
+        "startTime": 59.9,
+        "endTime": 60.28
+      },
+      {
+        "word": "you",
+        "startTime": 60.28,
+        "endTime": 60.66
+      },
+      {
+        "word": "in",
+        "startTime": 60.66,
+        "endTime": 61.06
+      },
+      {
+        "word": "lesson",
+        "startTime": 61.06,
+        "endTime": 61.44
+      },
+      {
+        "word": "one.",
+        "startTime": 61.44,
+        "endTime": 62.06
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 63.12,
+    "endTime": 65.34,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 63.12,
+        "endTime": 63.36
+      },
+      {
+        "word": "skills",
+        "startTime": 63.36,
+        "endTime": 64.08
+      },
+      {
+        "word": "bear",
+        "startTime": 64.08,
+        "endTime": 64.8
+      },
+      {
+        "word": "fruit.",
+        "startTime": 64.8,
+        "endTime": 65.34
+      }
+    ]
+  }
+]

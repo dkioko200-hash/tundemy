@@ -1,0 +1,3440 @@
+[
+  {
+    "text": "RLHF reinforcement learning from Human Feedback is the technique that transformed GPT -3, a mediocre text predictor, into chat GPT, a useful assistant.",
+    "startTime": 0,
+    "endTime": 13.54,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "RLHF",
+        "startTime": 0,
+        "endTime": 1.64
+      },
+      {
+        "word": "reinforcement",
+        "startTime": 1.64,
+        "endTime": 2.54
+      },
+      {
+        "word": "learning",
+        "startTime": 2.54,
+        "endTime": 3.06
+      },
+      {
+        "word": "from",
+        "startTime": 3.06,
+        "endTime": 3.34
+      },
+      {
+        "word": "Human",
+        "startTime": 3.34,
+        "endTime": 3.64
+      },
+      {
+        "word": "Feedback",
+        "startTime": 3.64,
+        "endTime": 4.24
+      },
+      {
+        "word": "is",
+        "startTime": 4.24,
+        "endTime": 4.82
+      },
+      {
+        "word": "the",
+        "startTime": 4.82,
+        "endTime": 5
+      },
+      {
+        "word": "technique",
+        "startTime": 5,
+        "endTime": 5.46
+      },
+      {
+        "word": "that",
+        "startTime": 5.46,
+        "endTime": 5.72
+      },
+      {
+        "word": "transformed",
+        "startTime": 5.72,
+        "endTime": 6.34
+      },
+      {
+        "word": "GPT",
+        "startTime": 6.34,
+        "endTime": 7.16
+      },
+      {
+        "word": "-3,",
+        "startTime": 7.16,
+        "endTime": 7.52
+      },
+      {
+        "word": "a",
+        "startTime": 8.06,
+        "endTime": 8.18
+      },
+      {
+        "word": "mediocre",
+        "startTime": 8.18,
+        "endTime": 8.6
+      },
+      {
+        "word": "text",
+        "startTime": 8.6,
+        "endTime": 9.2
+      },
+      {
+        "word": "predictor,",
+        "startTime": 9.2,
+        "endTime": 9.94
+      },
+      {
+        "word": "into",
+        "startTime": 10.24,
+        "endTime": 10.46
+      },
+      {
+        "word": "chat",
+        "startTime": 10.46,
+        "endTime": 10.9
+      },
+      {
+        "word": "GPT,",
+        "startTime": 10.9,
+        "endTime": 11.8
+      },
+      {
+        "word": "a",
+        "startTime": 12.22,
+        "endTime": 12.3
+      },
+      {
+        "word": "useful",
+        "startTime": 12.3,
+        "endTime": 12.78
+      },
+      {
+        "word": "assistant.",
+        "startTime": 12.78,
+        "endTime": 13.54
+      }
+    ]
+  },
+  {
+    "text": "The human feedback in that process was collected by contractors who chose between two AI responses.",
+    "startTime": 14.28,
+    "endTime": 20.4,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 14.28,
+        "endTime": 14.46
+      },
+      {
+        "word": "human",
+        "startTime": 14.46,
+        "endTime": 14.72
+      },
+      {
+        "word": "feedback",
+        "startTime": 14.72,
+        "endTime": 15.18
+      },
+      {
+        "word": "in",
+        "startTime": 15.18,
+        "endTime": 15.48
+      },
+      {
+        "word": "that",
+        "startTime": 15.48,
+        "endTime": 15.64
+      },
+      {
+        "word": "process",
+        "startTime": 15.64,
+        "endTime": 16.14
+      },
+      {
+        "word": "was",
+        "startTime": 16.14,
+        "endTime": 16.42
+      },
+      {
+        "word": "collected",
+        "startTime": 16.42,
+        "endTime": 16.86
+      },
+      {
+        "word": "by",
+        "startTime": 16.86,
+        "endTime": 17.14
+      },
+      {
+        "word": "contractors",
+        "startTime": 17.14,
+        "endTime": 17.78
+      },
+      {
+        "word": "who",
+        "startTime": 17.78,
+        "endTime": 18.06
+      },
+      {
+        "word": "chose",
+        "startTime": 18.06,
+        "endTime": 18.4
+      },
+      {
+        "word": "between",
+        "startTime": 18.4,
+        "endTime": 18.78
+      },
+      {
+        "word": "two",
+        "startTime": 18.78,
+        "endTime": 19.2
+      },
+      {
+        "word": "AI",
+        "startTime": 19.2,
+        "endTime": 19.6
+      },
+      {
+        "word": "responses.",
+        "startTime": 19.6,
+        "endTime": 20.4
+      }
+    ]
+  },
+  {
+    "text": "That work is still happening right now, at scale, and contractors who understand what they are doing, and significantly more than those who do not.",
+    "startTime": 20.96,
+    "endTime": 31.32,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "That",
+        "startTime": 20.96,
+        "endTime": 21.18
+      },
+      {
+        "word": "work",
+        "startTime": 21.18,
+        "endTime": 21.52
+      },
+      {
+        "word": "is",
+        "startTime": 21.52,
+        "endTime": 21.74
+      },
+      {
+        "word": "still",
+        "startTime": 21.74,
+        "endTime": 21.98
+      },
+      {
+        "word": "happening",
+        "startTime": 21.98,
+        "endTime": 22.46
+      },
+      {
+        "word": "right",
+        "startTime": 22.46,
+        "endTime": 22.9
+      },
+      {
+        "word": "now,",
+        "startTime": 22.9,
+        "endTime": 23.32
+      },
+      {
+        "word": "at",
+        "startTime": 23.74,
+        "endTime": 23.9
+      },
+      {
+        "word": "scale,",
+        "startTime": 23.9,
+        "endTime": 24.34
+      },
+      {
+        "word": "and",
+        "startTime": 24.34,
+        "endTime": 25.02
+      },
+      {
+        "word": "contractors",
+        "startTime": 25.02,
+        "endTime": 25.62
+      },
+      {
+        "word": "who",
+        "startTime": 25.62,
+        "endTime": 25.9
+      },
+      {
+        "word": "understand",
+        "startTime": 25.9,
+        "endTime": 26.54
+      },
+      {
+        "word": "what",
+        "startTime": 26.54,
+        "endTime": 26.9
+      },
+      {
+        "word": "they",
+        "startTime": 26.9,
+        "endTime": 27.12
+      },
+      {
+        "word": "are",
+        "startTime": 27.12,
+        "endTime": 27.24
+      },
+      {
+        "word": "doing,",
+        "startTime": 27.24,
+        "endTime": 27.68
+      },
+      {
+        "word": "and",
+        "startTime": 28.18,
+        "endTime": 28.24
+      },
+      {
+        "word": "significantly",
+        "startTime": 28.24,
+        "endTime": 28.98
+      },
+      {
+        "word": "more",
+        "startTime": 28.98,
+        "endTime": 29.72
+      },
+      {
+        "word": "than",
+        "startTime": 29.72,
+        "endTime": 30.32
+      },
+      {
+        "word": "those",
+        "startTime": 30.32,
+        "endTime": 30.72
+      },
+      {
+        "word": "who",
+        "startTime": 30.72,
+        "endTime": 30.9
+      },
+      {
+        "word": "do",
+        "startTime": 30.9,
+        "endTime": 31.04
+      },
+      {
+        "word": "not.",
+        "startTime": 31.04,
+        "endTime": 31.32
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, reinforcement learning from Human Feedback works in three stages.",
+    "startTime": 31.98,
+    "endTime": 37.66,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 31.98,
+        "endTime": 32.16
+      },
+      {
+        "word": "this",
+        "startTime": 32.16,
+        "endTime": 32.46
+      },
+      {
+        "word": "lesson,",
+        "startTime": 32.46,
+        "endTime": 32.9
+      },
+      {
+        "word": "reinforcement",
+        "startTime": 33.58,
+        "endTime": 34.3
+      },
+      {
+        "word": "learning",
+        "startTime": 34.3,
+        "endTime": 34.94
+      },
+      {
+        "word": "from",
+        "startTime": 34.94,
+        "endTime": 35.22
+      },
+      {
+        "word": "Human",
+        "startTime": 35.22,
+        "endTime": 35.6
+      },
+      {
+        "word": "Feedback",
+        "startTime": 35.6,
+        "endTime": 36.2
+      },
+      {
+        "word": "works",
+        "startTime": 36.2,
+        "endTime": 36.62
+      },
+      {
+        "word": "in",
+        "startTime": 36.62,
+        "endTime": 36.92
+      },
+      {
+        "word": "three",
+        "startTime": 36.92,
+        "endTime": 37.18
+      },
+      {
+        "word": "stages.",
+        "startTime": 37.18,
+        "endTime": 37.66
+      }
+    ]
+  },
+  {
+    "text": "Stage 1 supervised fine tuning.",
+    "startTime": 38.6,
+    "endTime": 41.44,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Stage",
+        "startTime": 38.6,
+        "endTime": 38.96
+      },
+      {
+        "word": "1",
+        "startTime": 38.96,
+        "endTime": 39.28
+      },
+      {
+        "word": "supervised",
+        "startTime": 39.28,
+        "endTime": 40.4
+      },
+      {
+        "word": "fine",
+        "startTime": 40.4,
+        "endTime": 41.02
+      },
+      {
+        "word": "tuning.",
+        "startTime": 41.02,
+        "endTime": 41.44
+      }
+    ]
+  },
+  {
+    "text": "The base model is trained on high quality instruction response pairs, the work from lesson 2.",
+    "startTime": 42.04,
+    "endTime": 48.36,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 42.04,
+        "endTime": 42.2
+      },
+      {
+        "word": "base",
+        "startTime": 42.2,
+        "endTime": 42.5
+      },
+      {
+        "word": "model",
+        "startTime": 42.5,
+        "endTime": 42.94
+      },
+      {
+        "word": "is",
+        "startTime": 42.94,
+        "endTime": 43.28
+      },
+      {
+        "word": "trained",
+        "startTime": 43.28,
+        "endTime": 43.64
+      },
+      {
+        "word": "on",
+        "startTime": 43.64,
+        "endTime": 43.84
+      },
+      {
+        "word": "high",
+        "startTime": 43.84,
+        "endTime": 44.16
+      },
+      {
+        "word": "quality",
+        "startTime": 44.16,
+        "endTime": 44.68
+      },
+      {
+        "word": "instruction",
+        "startTime": 44.68,
+        "endTime": 45.34
+      },
+      {
+        "word": "response",
+        "startTime": 45.34,
+        "endTime": 45.96
+      },
+      {
+        "word": "pairs,",
+        "startTime": 45.96,
+        "endTime": 46.38
+      },
+      {
+        "word": "the",
+        "startTime": 46.92,
+        "endTime": 47.02
+      },
+      {
+        "word": "work",
+        "startTime": 47.02,
+        "endTime": 47.26
+      },
+      {
+        "word": "from",
+        "startTime": 47.26,
+        "endTime": 47.54
+      },
+      {
+        "word": "lesson",
+        "startTime": 47.54,
+        "endTime": 47.84
+      },
+      {
+        "word": "2.",
+        "startTime": 47.84,
+        "endTime": 48.36
+      }
+    ]
+  },
+  {
+    "text": "Stage 2 reward model training.",
+    "startTime": 49.42,
+    "endTime": 51.98,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Stage",
+        "startTime": 49.42,
+        "endTime": 49.64
+      },
+      {
+        "word": "2",
+        "startTime": 49.64,
+        "endTime": 50.14
+      },
+      {
+        "word": "reward",
+        "startTime": 50.14,
+        "endTime": 50.9
+      },
+      {
+        "word": "model",
+        "startTime": 50.9,
+        "endTime": 51.44
+      },
+      {
+        "word": "training.",
+        "startTime": 51.44,
+        "endTime": 51.98
+      }
+    ]
+  },
+  {
+    "text": "Human contractors compare pairs of AI responses and choose the better one.",
+    "startTime": 52.54,
+    "endTime": 57.92,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Human",
+        "startTime": 52.54,
+        "endTime": 52.92
+      },
+      {
+        "word": "contractors",
+        "startTime": 52.92,
+        "endTime": 53.74
+      },
+      {
+        "word": "compare",
+        "startTime": 53.74,
+        "endTime": 54.36
+      },
+      {
+        "word": "pairs",
+        "startTime": 54.36,
+        "endTime": 54.88
+      },
+      {
+        "word": "of",
+        "startTime": 54.88,
+        "endTime": 55.22
+      },
+      {
+        "word": "AI",
+        "startTime": 55.22,
+        "endTime": 55.46
+      },
+      {
+        "word": "responses",
+        "startTime": 55.46,
+        "endTime": 56.04
+      },
+      {
+        "word": "and",
+        "startTime": 56.04,
+        "endTime": 56.7
+      },
+      {
+        "word": "choose",
+        "startTime": 56.7,
+        "endTime": 57
+      },
+      {
+        "word": "the",
+        "startTime": 57,
+        "endTime": 57.24
+      },
+      {
+        "word": "better",
+        "startTime": 57.24,
+        "endTime": 57.54
+      },
+      {
+        "word": "one.",
+        "startTime": 57.54,
+        "endTime": 57.92
+      }
+    ]
+  },
+  {
+    "text": "A reward model learns to predict human preferences.",
+    "startTime": 58.38,
+    "endTime": 61.7,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 58.38,
+        "endTime": 58.56
+      },
+      {
+        "word": "reward",
+        "startTime": 58.56,
+        "endTime": 58.92
+      },
+      {
+        "word": "model",
+        "startTime": 58.92,
+        "endTime": 59.44
+      },
+      {
+        "word": "learns",
+        "startTime": 59.44,
+        "endTime": 59.74
+      },
+      {
+        "word": "to",
+        "startTime": 59.74,
+        "endTime": 60.06
+      },
+      {
+        "word": "predict",
+        "startTime": 60.06,
+        "endTime": 60.38
+      },
+      {
+        "word": "human",
+        "startTime": 60.38,
+        "endTime": 60.9
+      },
+      {
+        "word": "preferences.",
+        "startTime": 60.9,
+        "endTime": 61.7
+      }
+    ]
+  },
+  {
+    "text": "Stage 3 RL fine tuning.",
+    "startTime": 62.44,
+    "endTime": 64.88,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Stage",
+        "startTime": 62.44,
+        "endTime": 62.7
+      },
+      {
+        "word": "3",
+        "startTime": 62.7,
+        "endTime": 63.16
+      },
+      {
+        "word": "RL",
+        "startTime": 63.16,
+        "endTime": 64.08
+      },
+      {
+        "word": "fine",
+        "startTime": 64.08,
+        "endTime": 64.4
+      },
+      {
+        "word": "tuning.",
+        "startTime": 64.4,
+        "endTime": 64.88
+      }
+    ]
+  },
+  {
+    "text": "The AI is trained using the reward model as a signal, learning to produce outputs, the reward model predicts humans will prefer.",
+    "startTime": 65.44,
+    "endTime": 74.42,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 65.44,
+        "endTime": 65.64
+      },
+      {
+        "word": "AI",
+        "startTime": 65.64,
+        "endTime": 66.04
+      },
+      {
+        "word": "is",
+        "startTime": 66.04,
+        "endTime": 66.36
+      },
+      {
+        "word": "trained",
+        "startTime": 66.36,
+        "endTime": 66.64
+      },
+      {
+        "word": "using",
+        "startTime": 66.64,
+        "endTime": 67.06
+      },
+      {
+        "word": "the",
+        "startTime": 67.06,
+        "endTime": 67.32
+      },
+      {
+        "word": "reward",
+        "startTime": 67.32,
+        "endTime": 67.62
+      },
+      {
+        "word": "model",
+        "startTime": 67.62,
+        "endTime": 68.16
+      },
+      {
+        "word": "as",
+        "startTime": 68.16,
+        "endTime": 68.48
+      },
+      {
+        "word": "a",
+        "startTime": 68.48,
+        "endTime": 68.62
+      },
+      {
+        "word": "signal,",
+        "startTime": 68.62,
+        "endTime": 69.04
+      },
+      {
+        "word": "learning",
+        "startTime": 69.04,
+        "endTime": 69.82
+      },
+      {
+        "word": "to",
+        "startTime": 69.82,
+        "endTime": 70.1
+      },
+      {
+        "word": "produce",
+        "startTime": 70.1,
+        "endTime": 70.58
+      },
+      {
+        "word": "outputs,",
+        "startTime": 70.58,
+        "endTime": 71.2
+      },
+      {
+        "word": "the",
+        "startTime": 71.6,
+        "endTime": 71.68
+      },
+      {
+        "word": "reward",
+        "startTime": 71.68,
+        "endTime": 72.02
+      },
+      {
+        "word": "model",
+        "startTime": 72.02,
+        "endTime": 72.5
+      },
+      {
+        "word": "predicts",
+        "startTime": 72.5,
+        "endTime": 73.18
+      },
+      {
+        "word": "humans",
+        "startTime": 73.18,
+        "endTime": 73.6
+      },
+      {
+        "word": "will",
+        "startTime": 73.6,
+        "endTime": 73.94
+      },
+      {
+        "word": "prefer.",
+        "startTime": 73.94,
+        "endTime": 74.42
+      }
+    ]
+  },
+  {
+    "text": "Your role as a preference data collector is Stage 2.",
+    "startTime": 75.18,
+    "endTime": 78.74,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 75.18,
+        "endTime": 75.38
+      },
+      {
+        "word": "role",
+        "startTime": 75.38,
+        "endTime": 75.66
+      },
+      {
+        "word": "as",
+        "startTime": 75.66,
+        "endTime": 76
+      },
+      {
+        "word": "a",
+        "startTime": 76,
+        "endTime": 76.12
+      },
+      {
+        "word": "preference",
+        "startTime": 76.12,
+        "endTime": 76.52
+      },
+      {
+        "word": "data",
+        "startTime": 76.52,
+        "endTime": 76.94
+      },
+      {
+        "word": "collector",
+        "startTime": 76.94,
+        "endTime": 77.52
+      },
+      {
+        "word": "is",
+        "startTime": 77.52,
+        "endTime": 77.96
+      },
+      {
+        "word": "Stage",
+        "startTime": 77.96,
+        "endTime": 78.28
+      },
+      {
+        "word": "2.",
+        "startTime": 78.28,
+        "endTime": 78.74
+      }
+    ]
+  },
+  {
+    "text": "You are presented with an instruction and two responses, A and B.",
+    "startTime": 79.36,
+    "endTime": 84.28,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 79.36,
+        "endTime": 79.68
+      },
+      {
+        "word": "are",
+        "startTime": 79.68,
+        "endTime": 79.74
+      },
+      {
+        "word": "presented",
+        "startTime": 79.74,
+        "endTime": 80.26
+      },
+      {
+        "word": "with",
+        "startTime": 80.26,
+        "endTime": 80.52
+      },
+      {
+        "word": "an",
+        "startTime": 80.52,
+        "endTime": 80.68
+      },
+      {
+        "word": "instruction",
+        "startTime": 80.68,
+        "endTime": 81.38
+      },
+      {
+        "word": "and",
+        "startTime": 81.38,
+        "endTime": 81.74
+      },
+      {
+        "word": "two",
+        "startTime": 81.74,
+        "endTime": 82.02
+      },
+      {
+        "word": "responses,",
+        "startTime": 82.02,
+        "endTime": 82.72
+      },
+      {
+        "word": "A",
+        "startTime": 83.42,
+        "endTime": 83.58
+      },
+      {
+        "word": "and",
+        "startTime": 83.58,
+        "endTime": 83.94
+      },
+      {
+        "word": "B.",
+        "startTime": 83.94,
+        "endTime": 84.28
+      }
+    ]
+  },
+  {
+    "text": "You choose the one that better satisfies the annotation criteria, then write an explanation.",
+    "startTime": 84.96,
+    "endTime": 91.06,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 84.96,
+        "endTime": 85.16
+      },
+      {
+        "word": "choose",
+        "startTime": 85.16,
+        "endTime": 85.44
+      },
+      {
+        "word": "the",
+        "startTime": 85.44,
+        "endTime": 85.7
+      },
+      {
+        "word": "one",
+        "startTime": 85.7,
+        "endTime": 85.88
+      },
+      {
+        "word": "that",
+        "startTime": 85.88,
+        "endTime": 86.14
+      },
+      {
+        "word": "better",
+        "startTime": 86.14,
+        "endTime": 86.48
+      },
+      {
+        "word": "satisfies",
+        "startTime": 86.48,
+        "endTime": 87.14
+      },
+      {
+        "word": "the",
+        "startTime": 87.14,
+        "endTime": 87.5
+      },
+      {
+        "word": "annotation",
+        "startTime": 87.5,
+        "endTime": 88.02
+      },
+      {
+        "word": "criteria,",
+        "startTime": 88.02,
+        "endTime": 88.84
+      },
+      {
+        "word": "then",
+        "startTime": 89.36,
+        "endTime": 89.6
+      },
+      {
+        "word": "write",
+        "startTime": 89.6,
+        "endTime": 89.9
+      },
+      {
+        "word": "an",
+        "startTime": 89.9,
+        "endTime": 90.24
+      },
+      {
+        "word": "explanation.",
+        "startTime": 90.24,
+        "endTime": 91.06
+      }
+    ]
+  },
+  {
+    "text": "Your choice trains the reward model.",
+    "startTime": 91.68,
+    "endTime": 93.96,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 91.68,
+        "endTime": 91.92
+      },
+      {
+        "word": "choice",
+        "startTime": 91.92,
+        "endTime": 92.32
+      },
+      {
+        "word": "trains",
+        "startTime": 92.32,
+        "endTime": 92.72
+      },
+      {
+        "word": "the",
+        "startTime": 92.72,
+        "endTime": 93
+      },
+      {
+        "word": "reward",
+        "startTime": 93,
+        "endTime": 93.34
+      },
+      {
+        "word": "model.",
+        "startTime": 93.34,
+        "endTime": 93.96
+      }
+    ]
+  },
+  {
+    "text": "If thousands of contractors like you consistently choose responses with specific properties, the AI learns to produce those properties.",
+    "startTime": 94.46,
+    "endTime": 103.86,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "If",
+        "startTime": 94.46,
+        "endTime": 94.72
+      },
+      {
+        "word": "thousands",
+        "startTime": 94.72,
+        "endTime": 95.2
+      },
+      {
+        "word": "of",
+        "startTime": 95.2,
+        "endTime": 95.5
+      },
+      {
+        "word": "contractors",
+        "startTime": 95.5,
+        "endTime": 96.12
+      },
+      {
+        "word": "like",
+        "startTime": 96.12,
+        "endTime": 96.46
+      },
+      {
+        "word": "you",
+        "startTime": 96.46,
+        "endTime": 96.84
+      },
+      {
+        "word": "consistently",
+        "startTime": 96.84,
+        "endTime": 97.6
+      },
+      {
+        "word": "choose",
+        "startTime": 97.6,
+        "endTime": 98.2
+      },
+      {
+        "word": "responses",
+        "startTime": 98.2,
+        "endTime": 98.88
+      },
+      {
+        "word": "with",
+        "startTime": 98.88,
+        "endTime": 99.18
+      },
+      {
+        "word": "specific",
+        "startTime": 99.18,
+        "endTime": 99.74
+      },
+      {
+        "word": "properties,",
+        "startTime": 99.74,
+        "endTime": 100.38
+      },
+      {
+        "word": "the",
+        "startTime": 101.02,
+        "endTime": 101.18
+      },
+      {
+        "word": "AI",
+        "startTime": 101.18,
+        "endTime": 101.6
+      },
+      {
+        "word": "learns",
+        "startTime": 101.6,
+        "endTime": 102.12
+      },
+      {
+        "word": "to",
+        "startTime": 102.12,
+        "endTime": 102.38
+      },
+      {
+        "word": "produce",
+        "startTime": 102.38,
+        "endTime": 102.84
+      },
+      {
+        "word": "those",
+        "startTime": 102.84,
+        "endTime": 103.24
+      },
+      {
+        "word": "properties.",
+        "startTime": 103.24,
+        "endTime": 103.86
+      }
+    ]
+  },
+  {
+    "text": "This means your judgment has real consequences.",
+    "startTime": 104.54,
+    "endTime": 107.58,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "This",
+        "startTime": 104.54,
+        "endTime": 104.82
+      },
+      {
+        "word": "means",
+        "startTime": 104.82,
+        "endTime": 105.1
+      },
+      {
+        "word": "your",
+        "startTime": 105.1,
+        "endTime": 105.38
+      },
+      {
+        "word": "judgment",
+        "startTime": 105.38,
+        "endTime": 105.88
+      },
+      {
+        "word": "has",
+        "startTime": 105.88,
+        "endTime": 106.28
+      },
+      {
+        "word": "real",
+        "startTime": 106.28,
+        "endTime": 106.66
+      },
+      {
+        "word": "consequences.",
+        "startTime": 106.66,
+        "endTime": 107.58
+      }
+    ]
+  },
+  {
+    "text": "A systematic bias in your preference selections, consistently choosing longer responses, or responses that sound more confident, or responses that use bullet points, will cause the AI to systematically overproduce that property across billions of future interactions.",
+    "startTime": 108.24,
+    "endTime": 128.64,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 108.24,
+        "endTime": 108.44
+      },
+      {
+        "word": "systematic",
+        "startTime": 108.44,
+        "endTime": 109.1
+      },
+      {
+        "word": "bias",
+        "startTime": 109.1,
+        "endTime": 109.62
+      },
+      {
+        "word": "in",
+        "startTime": 109.62,
+        "endTime": 109.92
+      },
+      {
+        "word": "your",
+        "startTime": 109.92,
+        "endTime": 110.1
+      },
+      {
+        "word": "preference",
+        "startTime": 110.1,
+        "endTime": 110.58
+      },
+      {
+        "word": "selections,",
+        "startTime": 110.58,
+        "endTime": 111.48
+      },
+      {
+        "word": "consistently",
+        "startTime": 112.16,
+        "endTime": 112.72
+      },
+      {
+        "word": "choosing",
+        "startTime": 112.72,
+        "endTime": 113.44
+      },
+      {
+        "word": "longer",
+        "startTime": 113.44,
+        "endTime": 113.74
+      },
+      {
+        "word": "responses,",
+        "startTime": 113.74,
+        "endTime": 114.72
+      },
+      {
+        "word": "or",
+        "startTime": 115.4,
+        "endTime": 115.6
+      },
+      {
+        "word": "responses",
+        "startTime": 115.6,
+        "endTime": 116.3
+      },
+      {
+        "word": "that",
+        "startTime": 116.3,
+        "endTime": 116.56
+      },
+      {
+        "word": "sound",
+        "startTime": 116.56,
+        "endTime": 116.92
+      },
+      {
+        "word": "more",
+        "startTime": 116.92,
+        "endTime": 117.22
+      },
+      {
+        "word": "confident,",
+        "startTime": 117.22,
+        "endTime": 117.86
+      },
+      {
+        "word": "or",
+        "startTime": 118.48,
+        "endTime": 118.6
+      },
+      {
+        "word": "responses",
+        "startTime": 118.6,
+        "endTime": 119.26
+      },
+      {
+        "word": "that",
+        "startTime": 119.26,
+        "endTime": 119.54
+      },
+      {
+        "word": "use",
+        "startTime": 119.54,
+        "endTime": 119.98
+      },
+      {
+        "word": "bullet",
+        "startTime": 119.98,
+        "endTime": 120.28
+      },
+      {
+        "word": "points,",
+        "startTime": 120.28,
+        "endTime": 120.84
+      },
+      {
+        "word": "will",
+        "startTime": 121.32,
+        "endTime": 121.58
+      },
+      {
+        "word": "cause",
+        "startTime": 121.58,
+        "endTime": 121.86
+      },
+      {
+        "word": "the",
+        "startTime": 121.86,
+        "endTime": 122.12
+      },
+      {
+        "word": "AI",
+        "startTime": 122.12,
+        "endTime": 122.46
+      },
+      {
+        "word": "to",
+        "startTime": 122.46,
+        "endTime": 122.7
+      },
+      {
+        "word": "systematically",
+        "startTime": 122.7,
+        "endTime": 123.48
+      },
+      {
+        "word": "overproduce",
+        "startTime": 123.48,
+        "endTime": 124.76
+      },
+      {
+        "word": "that",
+        "startTime": 124.76,
+        "endTime": 124.9
+      },
+      {
+        "word": "property",
+        "startTime": 124.9,
+        "endTime": 125.5
+      },
+      {
+        "word": "across",
+        "startTime": 125.5,
+        "endTime": 126.32
+      },
+      {
+        "word": "billions",
+        "startTime": 126.32,
+        "endTime": 126.96
+      },
+      {
+        "word": "of",
+        "startTime": 126.96,
+        "endTime": 127.22
+      },
+      {
+        "word": "future",
+        "startTime": 127.22,
+        "endTime": 127.62
+      },
+      {
+        "word": "interactions.",
+        "startTime": 127.62,
+        "endTime": 128.64
+      }
+    ]
+  },
+  {
+    "text": "Preference data collectors who understand this produce better calibrated data and pass quality reviews at higher rates.",
+    "startTime": 129.34,
+    "endTime": 138.62,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Preference",
+        "startTime": 129.34,
+        "endTime": 129.8
+      },
+      {
+        "word": "data",
+        "startTime": 129.8,
+        "endTime": 130.2
+      },
+      {
+        "word": "collectors",
+        "startTime": 130.2,
+        "endTime": 130.84
+      },
+      {
+        "word": "who",
+        "startTime": 130.84,
+        "endTime": 131.2
+      },
+      {
+        "word": "understand",
+        "startTime": 131.2,
+        "endTime": 131.84
+      },
+      {
+        "word": "this",
+        "startTime": 131.84,
+        "endTime": 132.42
+      },
+      {
+        "word": "produce",
+        "startTime": 132.42,
+        "endTime": 133.1
+      },
+      {
+        "word": "better",
+        "startTime": 133.1,
+        "endTime": 133.72
+      },
+      {
+        "word": "calibrated",
+        "startTime": 133.72,
+        "endTime": 134.44
+      },
+      {
+        "word": "data",
+        "startTime": 134.44,
+        "endTime": 134.98
+      },
+      {
+        "word": "and",
+        "startTime": 134.98,
+        "endTime": 135.6
+      },
+      {
+        "word": "pass",
+        "startTime": 135.6,
+        "endTime": 135.86
+      },
+      {
+        "word": "quality",
+        "startTime": 135.86,
+        "endTime": 136.38
+      },
+      {
+        "word": "reviews",
+        "startTime": 136.38,
+        "endTime": 136.98
+      },
+      {
+        "word": "at",
+        "startTime": 136.98,
+        "endTime": 137.62
+      },
+      {
+        "word": "higher",
+        "startTime": 137.62,
+        "endTime": 138.04
+      },
+      {
+        "word": "rates.",
+        "startTime": 138.04,
+        "endTime": 138.62
+      }
+    ]
+  },
+  {
+    "text": "The most common preference data errors.",
+    "startTime": 139.24,
+    "endTime": 141.5,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 139.24,
+        "endTime": 139.32
+      },
+      {
+        "word": "most",
+        "startTime": 139.32,
+        "endTime": 139.62
+      },
+      {
+        "word": "common",
+        "startTime": 139.62,
+        "endTime": 140
+      },
+      {
+        "word": "preference",
+        "startTime": 140,
+        "endTime": 140.5
+      },
+      {
+        "word": "data",
+        "startTime": 140.5,
+        "endTime": 141.02
+      },
+      {
+        "word": "errors.",
+        "startTime": 141.02,
+        "endTime": 141.5
+      }
+    ]
+  },
+  {
+    "text": "1.",
+    "startTime": 142.26,
+    "endTime": 142.6,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "1.",
+        "startTime": 142.26,
+        "endTime": 142.6
+      }
+    ]
+  },
+  {
+    "text": "Length bias.",
+    "startTime": 143.6,
+    "endTime": 144.28,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Length",
+        "startTime": 143.6,
+        "endTime": 143.88
+      },
+      {
+        "word": "bias.",
+        "startTime": 143.88,
+        "endTime": 144.28
+      }
+    ]
+  },
+  {
+    "text": "Choosing longer responses because they see more thorough, even when the shorter response is more accurate.",
+    "startTime": 145.04,
+    "endTime": 151.82,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Choosing",
+        "startTime": 145.04,
+        "endTime": 145.54
+      },
+      {
+        "word": "longer",
+        "startTime": 145.54,
+        "endTime": 145.96
+      },
+      {
+        "word": "responses",
+        "startTime": 145.96,
+        "endTime": 146.68
+      },
+      {
+        "word": "because",
+        "startTime": 146.68,
+        "endTime": 147.24
+      },
+      {
+        "word": "they",
+        "startTime": 147.24,
+        "endTime": 147.52
+      },
+      {
+        "word": "see",
+        "startTime": 147.52,
+        "endTime": 147.82
+      },
+      {
+        "word": "more",
+        "startTime": 147.82,
+        "endTime": 148.12
+      },
+      {
+        "word": "thorough,",
+        "startTime": 148.12,
+        "endTime": 148.56
+      },
+      {
+        "word": "even",
+        "startTime": 148.96,
+        "endTime": 149.24
+      },
+      {
+        "word": "when",
+        "startTime": 149.24,
+        "endTime": 149.54
+      },
+      {
+        "word": "the",
+        "startTime": 149.54,
+        "endTime": 149.7
+      },
+      {
+        "word": "shorter",
+        "startTime": 149.7,
+        "endTime": 150
+      },
+      {
+        "word": "response",
+        "startTime": 150,
+        "endTime": 150.5
+      },
+      {
+        "word": "is",
+        "startTime": 150.5,
+        "endTime": 150.98
+      },
+      {
+        "word": "more",
+        "startTime": 150.98,
+        "endTime": 151.24
+      },
+      {
+        "word": "accurate.",
+        "startTime": 151.24,
+        "endTime": 151.82
+      }
+    ]
+  },
+  {
+    "text": "2.",
+    "startTime": 152.78,
+    "endTime": 153.12,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "2.",
+        "startTime": 152.78,
+        "endTime": 153.12
+      }
+    ]
+  },
+  {
+    "text": "Confidence bias.",
+    "startTime": 153.82,
+    "endTime": 154.8,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Confidence",
+        "startTime": 153.82,
+        "endTime": 154.32
+      },
+      {
+        "word": "bias.",
+        "startTime": 154.32,
+        "endTime": 154.8
+      }
+    ]
+  },
+  {
+    "text": "Choosing responses that state things more definitively, even when the uncertainty is real and should be expressed.",
+    "startTime": 155.6,
+    "endTime": 163.2,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Choosing",
+        "startTime": 155.6,
+        "endTime": 155.94
+      },
+      {
+        "word": "responses",
+        "startTime": 155.94,
+        "endTime": 156.48
+      },
+      {
+        "word": "that",
+        "startTime": 156.48,
+        "endTime": 156.96
+      },
+      {
+        "word": "state",
+        "startTime": 156.96,
+        "endTime": 157.34
+      },
+      {
+        "word": "things",
+        "startTime": 157.34,
+        "endTime": 157.8
+      },
+      {
+        "word": "more",
+        "startTime": 157.8,
+        "endTime": 158.1
+      },
+      {
+        "word": "definitively,",
+        "startTime": 158.1,
+        "endTime": 159.08
+      },
+      {
+        "word": "even",
+        "startTime": 159.56,
+        "endTime": 159.8
+      },
+      {
+        "word": "when",
+        "startTime": 159.8,
+        "endTime": 160.08
+      },
+      {
+        "word": "the",
+        "startTime": 160.08,
+        "endTime": 160.28
+      },
+      {
+        "word": "uncertainty",
+        "startTime": 160.28,
+        "endTime": 160.82
+      },
+      {
+        "word": "is",
+        "startTime": 160.82,
+        "endTime": 161.34
+      },
+      {
+        "word": "real",
+        "startTime": 161.34,
+        "endTime": 161.68
+      },
+      {
+        "word": "and",
+        "startTime": 161.68,
+        "endTime": 162.24
+      },
+      {
+        "word": "should",
+        "startTime": 162.24,
+        "endTime": 162.48
+      },
+      {
+        "word": "be",
+        "startTime": 162.48,
+        "endTime": 162.68
+      },
+      {
+        "word": "expressed.",
+        "startTime": 162.68,
+        "endTime": 163.2
+      }
+    ]
+  },
+  {
+    "text": "3.",
+    "startTime": 163.96,
+    "endTime": 164.34,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "3.",
+        "startTime": 163.96,
+        "endTime": 164.34
+      }
+    ]
+  },
+  {
+    "text": "Format bias.",
+    "startTime": 165.02,
+    "endTime": 165.98,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Format",
+        "startTime": 165.02,
+        "endTime": 165.56
+      },
+      {
+        "word": "bias.",
+        "startTime": 165.56,
+        "endTime": 165.98
+      }
+    ]
+  },
+  {
+    "text": "Choosing responses with more formatting, headers, bullets, even when the question was conversational.",
+    "startTime": 166.6,
+    "endTime": 173.02,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Choosing",
+        "startTime": 166.6,
+        "endTime": 166.92
+      },
+      {
+        "word": "responses",
+        "startTime": 166.92,
+        "endTime": 167.58
+      },
+      {
+        "word": "with",
+        "startTime": 167.58,
+        "endTime": 167.96
+      },
+      {
+        "word": "more",
+        "startTime": 167.96,
+        "endTime": 168.2
+      },
+      {
+        "word": "formatting,",
+        "startTime": 168.2,
+        "endTime": 168.76
+      },
+      {
+        "word": "headers,",
+        "startTime": 169.38,
+        "endTime": 169.6
+      },
+      {
+        "word": "bullets,",
+        "startTime": 169.92,
+        "endTime": 170.12
+      },
+      {
+        "word": "even",
+        "startTime": 170.8,
+        "endTime": 171.02
+      },
+      {
+        "word": "when",
+        "startTime": 171.02,
+        "endTime": 171.26
+      },
+      {
+        "word": "the",
+        "startTime": 171.26,
+        "endTime": 171.38
+      },
+      {
+        "word": "question",
+        "startTime": 171.38,
+        "endTime": 171.82
+      },
+      {
+        "word": "was",
+        "startTime": 171.82,
+        "endTime": 172.08
+      },
+      {
+        "word": "conversational.",
+        "startTime": 172.08,
+        "endTime": 173.02
+      }
+    ]
+  },
+  {
+    "text": "4.",
+    "startTime": 173.76,
+    "endTime": 174.1,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "4.",
+        "startTime": 173.76,
+        "endTime": 174.1
+      }
+    ]
+  },
+  {
+    "text": "Sikofancy Blindness.",
+    "startTime": 174.7,
+    "endTime": 176.12,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Sikofancy",
+        "startTime": 174.7,
+        "endTime": 175.38
+      },
+      {
+        "word": "Blindness.",
+        "startTime": 175.38,
+        "endTime": 176.12
+      }
+    ]
+  },
+  {
+    "text": "Not penalizing responses that agree with incorrect premises stated in the instruction.",
+    "startTime": 176.46,
+    "endTime": 182.6,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Not",
+        "startTime": 176.46,
+        "endTime": 176.94
+      },
+      {
+        "word": "penalizing",
+        "startTime": 176.94,
+        "endTime": 177.72
+      },
+      {
+        "word": "responses",
+        "startTime": 177.72,
+        "endTime": 178.46
+      },
+      {
+        "word": "that",
+        "startTime": 178.46,
+        "endTime": 178.94
+      },
+      {
+        "word": "agree",
+        "startTime": 178.94,
+        "endTime": 179.32
+      },
+      {
+        "word": "with",
+        "startTime": 179.32,
+        "endTime": 179.68
+      },
+      {
+        "word": "incorrect",
+        "startTime": 179.68,
+        "endTime": 180.14
+      },
+      {
+        "word": "premises",
+        "startTime": 180.14,
+        "endTime": 180.7
+      },
+      {
+        "word": "stated",
+        "startTime": 180.7,
+        "endTime": 181.6
+      },
+      {
+        "word": "in",
+        "startTime": 181.6,
+        "endTime": 181.88
+      },
+      {
+        "word": "the",
+        "startTime": 181.88,
+        "endTime": 182
+      },
+      {
+        "word": "instruction.",
+        "startTime": 182,
+        "endTime": 182.6
+      }
+    ]
+  },
+  {
+    "text": "5.",
+    "startTime": 183.6,
+    "endTime": 183.84,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "5.",
+        "startTime": 183.6,
+        "endTime": 183.84
+      }
+    ]
+  },
+  {
+    "text": "Western Cultural Default.",
+    "startTime": 184.56,
+    "endTime": 186.22,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Western",
+        "startTime": 184.56,
+        "endTime": 184.92
+      },
+      {
+        "word": "Cultural",
+        "startTime": 184.92,
+        "endTime": 185.54
+      },
+      {
+        "word": "Default.",
+        "startTime": 185.54,
+        "endTime": 186.22
+      }
+    ]
+  },
+  {
+    "text": "Applying evaluation standards based on Western cultural norms when the AI is serving African users.",
+    "startTime": 186.78,
+    "endTime": 193.48,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Applying",
+        "startTime": 186.78,
+        "endTime": 187.14
+      },
+      {
+        "word": "evaluation",
+        "startTime": 187.14,
+        "endTime": 187.9
+      },
+      {
+        "word": "standards",
+        "startTime": 187.9,
+        "endTime": 188.6
+      },
+      {
+        "word": "based",
+        "startTime": 188.6,
+        "endTime": 189
+      },
+      {
+        "word": "on",
+        "startTime": 189,
+        "endTime": 189.34
+      },
+      {
+        "word": "Western",
+        "startTime": 189.34,
+        "endTime": 189.76
+      },
+      {
+        "word": "cultural",
+        "startTime": 189.76,
+        "endTime": 190.36
+      },
+      {
+        "word": "norms",
+        "startTime": 190.36,
+        "endTime": 190.9
+      },
+      {
+        "word": "when",
+        "startTime": 190.9,
+        "endTime": 191.3
+      },
+      {
+        "word": "the",
+        "startTime": 191.3,
+        "endTime": 191.46
+      },
+      {
+        "word": "AI",
+        "startTime": 191.46,
+        "endTime": 191.74
+      },
+      {
+        "word": "is",
+        "startTime": 191.74,
+        "endTime": 192.12
+      },
+      {
+        "word": "serving",
+        "startTime": 192.12,
+        "endTime": 192.48
+      },
+      {
+        "word": "African",
+        "startTime": 192.48,
+        "endTime": 193
+      },
+      {
+        "word": "users.",
+        "startTime": 193,
+        "endTime": 193.48
+      }
+    ]
+  },
+  {
+    "text": "The Sikofancy problem deserves special attention.",
+    "startTime": 194.24,
+    "endTime": 197.14,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 194.24,
+        "endTime": 194.46
+      },
+      {
+        "word": "Sikofancy",
+        "startTime": 194.46,
+        "endTime": 195.1
+      },
+      {
+        "word": "problem",
+        "startTime": 195.1,
+        "endTime": 195.6
+      },
+      {
+        "word": "deserves",
+        "startTime": 195.6,
+        "endTime": 196
+      },
+      {
+        "word": "special",
+        "startTime": 196,
+        "endTime": 196.56
+      },
+      {
+        "word": "attention.",
+        "startTime": 196.56,
+        "endTime": 197.14
+      }
+    ]
+  },
+  {
+    "text": "If a user says, I heard that Kenya's GDP is $1 trillion.",
+    "startTime": 197.74,
+    "endTime": 202.14,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "If",
+        "startTime": 197.74,
+        "endTime": 198
+      },
+      {
+        "word": "a",
+        "startTime": 198,
+        "endTime": 198.12
+      },
+      {
+        "word": "user",
+        "startTime": 198.12,
+        "endTime": 198.42
+      },
+      {
+        "word": "says,",
+        "startTime": 198.42,
+        "endTime": 199
+      },
+      {
+        "word": "I",
+        "startTime": 199,
+        "endTime": 199.48
+      },
+      {
+        "word": "heard",
+        "startTime": 199.48,
+        "endTime": 199.78
+      },
+      {
+        "word": "that",
+        "startTime": 199.78,
+        "endTime": 200.02
+      },
+      {
+        "word": "Kenya's",
+        "startTime": 200.02,
+        "endTime": 200.54
+      },
+      {
+        "word": "GDP",
+        "startTime": 200.54,
+        "endTime": 200.88
+      },
+      {
+        "word": "is",
+        "startTime": 200.88,
+        "endTime": 201.52
+      },
+      {
+        "word": "$1",
+        "startTime": 201.52,
+        "endTime": 201.86
+      },
+      {
+        "word": "trillion.",
+        "startTime": 201.86,
+        "endTime": 202.14
+      }
+    ]
+  },
+  {
+    "text": "Can you explain what this means for East African trade?",
+    "startTime": 203.1,
+    "endTime": 206.08,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Can",
+        "startTime": 203.1,
+        "endTime": 203.28
+      },
+      {
+        "word": "you",
+        "startTime": 203.28,
+        "endTime": 203.46
+      },
+      {
+        "word": "explain",
+        "startTime": 203.46,
+        "endTime": 203.86
+      },
+      {
+        "word": "what",
+        "startTime": 203.86,
+        "endTime": 204.16
+      },
+      {
+        "word": "this",
+        "startTime": 204.16,
+        "endTime": 204.4
+      },
+      {
+        "word": "means",
+        "startTime": 204.4,
+        "endTime": 204.62
+      },
+      {
+        "word": "for",
+        "startTime": 204.62,
+        "endTime": 204.9
+      },
+      {
+        "word": "East",
+        "startTime": 204.9,
+        "endTime": 205.2
+      },
+      {
+        "word": "African",
+        "startTime": 205.2,
+        "endTime": 205.58
+      },
+      {
+        "word": "trade?",
+        "startTime": 205.58,
+        "endTime": 206.08
+      }
+    ]
+  },
+  {
+    "text": "And the AI responds by accepting the false premise and explaining trade implications that response fails.",
+    "startTime": 206.8,
+    "endTime": 214.06,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "And",
+        "startTime": 206.8,
+        "endTime": 206.92
+      },
+      {
+        "word": "the",
+        "startTime": 206.92,
+        "endTime": 207.08
+      },
+      {
+        "word": "AI",
+        "startTime": 207.08,
+        "endTime": 207.38
+      },
+      {
+        "word": "responds",
+        "startTime": 207.38,
+        "endTime": 207.86
+      },
+      {
+        "word": "by",
+        "startTime": 207.86,
+        "endTime": 208.2
+      },
+      {
+        "word": "accepting",
+        "startTime": 208.2,
+        "endTime": 208.74
+      },
+      {
+        "word": "the",
+        "startTime": 208.74,
+        "endTime": 208.98
+      },
+      {
+        "word": "false",
+        "startTime": 208.98,
+        "endTime": 209.3
+      },
+      {
+        "word": "premise",
+        "startTime": 209.3,
+        "endTime": 209.7
+      },
+      {
+        "word": "and",
+        "startTime": 209.7,
+        "endTime": 210.14
+      },
+      {
+        "word": "explaining",
+        "startTime": 210.14,
+        "endTime": 210.68
+      },
+      {
+        "word": "trade",
+        "startTime": 210.68,
+        "endTime": 211.12
+      },
+      {
+        "word": "implications",
+        "startTime": 211.12,
+        "endTime": 211.9
+      },
+      {
+        "word": "that",
+        "startTime": 212.32,
+        "endTime": 212.7
+      },
+      {
+        "word": "response",
+        "startTime": 212.7,
+        "endTime": 213.3
+      },
+      {
+        "word": "fails.",
+        "startTime": 213.3,
+        "endTime": 214.06
+      }
+    ]
+  },
+  {
+    "text": "Regardless of how well it explains trade.",
+    "startTime": 214.52,
+    "endTime": 217.24,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Regardless",
+        "startTime": 214.52,
+        "endTime": 215.14
+      },
+      {
+        "word": "of",
+        "startTime": 215.14,
+        "endTime": 215.52
+      },
+      {
+        "word": "how",
+        "startTime": 215.52,
+        "endTime": 215.76
+      },
+      {
+        "word": "well",
+        "startTime": 215.76,
+        "endTime": 216.08
+      },
+      {
+        "word": "it",
+        "startTime": 216.08,
+        "endTime": 216.22
+      },
+      {
+        "word": "explains",
+        "startTime": 216.22,
+        "endTime": 216.66
+      },
+      {
+        "word": "trade.",
+        "startTime": 216.66,
+        "endTime": 217.24
+      }
+    ]
+  },
+  {
+    "text": "The correct response acknowledges the factual error.",
+    "startTime": 217.88,
+    "endTime": 221.26,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 217.88,
+        "endTime": 218.1
+      },
+      {
+        "word": "correct",
+        "startTime": 218.1,
+        "endTime": 218.4
+      },
+      {
+        "word": "response",
+        "startTime": 218.4,
+        "endTime": 218.98
+      },
+      {
+        "word": "acknowledges",
+        "startTime": 218.98,
+        "endTime": 219.8
+      },
+      {
+        "word": "the",
+        "startTime": 219.8,
+        "endTime": 220.08
+      },
+      {
+        "word": "factual",
+        "startTime": 220.08,
+        "endTime": 220.64
+      },
+      {
+        "word": "error.",
+        "startTime": 220.64,
+        "endTime": 221.26
+      }
+    ]
+  },
+  {
+    "text": "Kenya's GDP is approximately $110 ,120 billion, not $1 trillion, and then addresses the underlying question.",
+    "startTime": 221.8,
+    "endTime": 234.16,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Kenya's",
+        "startTime": 221.8,
+        "endTime": 222.42
+      },
+      {
+        "word": "GDP",
+        "startTime": 222.42,
+        "endTime": 222.84
+      },
+      {
+        "word": "is",
+        "startTime": 222.84,
+        "endTime": 223.44
+      },
+      {
+        "word": "approximately",
+        "startTime": 223.44,
+        "endTime": 224.3
+      },
+      {
+        "word": "$110",
+        "startTime": 224.3,
+        "endTime": 225.52
+      },
+      {
+        "word": ",120",
+        "startTime": 225.52,
+        "endTime": 227.56
+      },
+      {
+        "word": "billion,",
+        "startTime": 227.56,
+        "endTime": 228.26
+      },
+      {
+        "word": "not",
+        "startTime": 229.04,
+        "endTime": 229.42
+      },
+      {
+        "word": "$1",
+        "startTime": 229.42,
+        "endTime": 229.84
+      },
+      {
+        "word": "trillion,",
+        "startTime": 229.84,
+        "endTime": 230.2
+      },
+      {
+        "word": "and",
+        "startTime": 231.18,
+        "endTime": 231.54
+      },
+      {
+        "word": "then",
+        "startTime": 231.54,
+        "endTime": 231.84
+      },
+      {
+        "word": "addresses",
+        "startTime": 231.84,
+        "endTime": 232.5
+      },
+      {
+        "word": "the",
+        "startTime": 232.5,
+        "endTime": 232.82
+      },
+      {
+        "word": "underlying",
+        "startTime": 232.82,
+        "endTime": 233.38
+      },
+      {
+        "word": "question.",
+        "startTime": 233.38,
+        "endTime": 234.16
+      }
+    ]
+  },
+  {
+    "text": "Many preference data collectors choose the Sikofantic response because it is longer and more helpful sounding.",
+    "startTime": 234.9,
+    "endTime": 242.72,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Many",
+        "startTime": 234.9,
+        "endTime": 235.28
+      },
+      {
+        "word": "preference",
+        "startTime": 235.28,
+        "endTime": 235.76
+      },
+      {
+        "word": "data",
+        "startTime": 235.76,
+        "endTime": 236.12
+      },
+      {
+        "word": "collectors",
+        "startTime": 236.12,
+        "endTime": 236.8
+      },
+      {
+        "word": "choose",
+        "startTime": 236.8,
+        "endTime": 237.3
+      },
+      {
+        "word": "the",
+        "startTime": 237.3,
+        "endTime": 237.56
+      },
+      {
+        "word": "Sikofantic",
+        "startTime": 237.56,
+        "endTime": 238.28
+      },
+      {
+        "word": "response",
+        "startTime": 238.28,
+        "endTime": 238.92
+      },
+      {
+        "word": "because",
+        "startTime": 238.92,
+        "endTime": 239.84
+      },
+      {
+        "word": "it",
+        "startTime": 239.84,
+        "endTime": 240.14
+      },
+      {
+        "word": "is",
+        "startTime": 240.14,
+        "endTime": 240.32
+      },
+      {
+        "word": "longer",
+        "startTime": 240.32,
+        "endTime": 240.78
+      },
+      {
+        "word": "and",
+        "startTime": 240.78,
+        "endTime": 241.26
+      },
+      {
+        "word": "more",
+        "startTime": 241.26,
+        "endTime": 241.5
+      },
+      {
+        "word": "helpful",
+        "startTime": 241.5,
+        "endTime": 241.98
+      },
+      {
+        "word": "sounding.",
+        "startTime": 241.98,
+        "endTime": 242.72
+      }
+    ]
+  },
+  {
+    "text": "This trains the AI to be confidently wrong.",
+    "startTime": 243.36,
+    "endTime": 246.26,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "This",
+        "startTime": 243.36,
+        "endTime": 243.64
+      },
+      {
+        "word": "trains",
+        "startTime": 243.64,
+        "endTime": 244
+      },
+      {
+        "word": "the",
+        "startTime": 244,
+        "endTime": 244.3
+      },
+      {
+        "word": "AI",
+        "startTime": 244.3,
+        "endTime": 244.64
+      },
+      {
+        "word": "to",
+        "startTime": 244.64,
+        "endTime": 244.94
+      },
+      {
+        "word": "be",
+        "startTime": 244.94,
+        "endTime": 245.08
+      },
+      {
+        "word": "confidently",
+        "startTime": 245.08,
+        "endTime": 245.66
+      },
+      {
+        "word": "wrong.",
+        "startTime": 245.66,
+        "endTime": 246.26
+      }
+    ]
+  },
+  {
+    "text": "Preference data quality is measured by calibration against gold standard pairs when an annotation lead tells you your calibration score is 82%.",
+    "startTime": 246.96,
+    "endTime": 259,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Preference",
+        "startTime": 246.96,
+        "endTime": 247.36
+      },
+      {
+        "word": "data",
+        "startTime": 247.36,
+        "endTime": 247.8
+      },
+      {
+        "word": "quality",
+        "startTime": 247.8,
+        "endTime": 248.52
+      },
+      {
+        "word": "is",
+        "startTime": 248.52,
+        "endTime": 249.12
+      },
+      {
+        "word": "measured",
+        "startTime": 249.12,
+        "endTime": 249.54
+      },
+      {
+        "word": "by",
+        "startTime": 249.54,
+        "endTime": 249.8
+      },
+      {
+        "word": "calibration",
+        "startTime": 249.8,
+        "endTime": 250.54
+      },
+      {
+        "word": "against",
+        "startTime": 250.54,
+        "endTime": 251.24
+      },
+      {
+        "word": "gold",
+        "startTime": 251.24,
+        "endTime": 251.52
+      },
+      {
+        "word": "standard",
+        "startTime": 251.52,
+        "endTime": 252.12
+      },
+      {
+        "word": "pairs",
+        "startTime": 252.12,
+        "endTime": 252.6
+      },
+      {
+        "word": "when",
+        "startTime": 252.88,
+        "endTime": 253.44
+      },
+      {
+        "word": "an",
+        "startTime": 253.44,
+        "endTime": 253.82
+      },
+      {
+        "word": "annotation",
+        "startTime": 253.82,
+        "endTime": 254.46
+      },
+      {
+        "word": "lead",
+        "startTime": 254.46,
+        "endTime": 255
+      },
+      {
+        "word": "tells",
+        "startTime": 255,
+        "endTime": 255.56
+      },
+      {
+        "word": "you",
+        "startTime": 255.56,
+        "endTime": 255.8
+      },
+      {
+        "word": "your",
+        "startTime": 255.8,
+        "endTime": 256.04
+      },
+      {
+        "word": "calibration",
+        "startTime": 256.04,
+        "endTime": 256.58
+      },
+      {
+        "word": "score",
+        "startTime": 256.58,
+        "endTime": 257.2
+      },
+      {
+        "word": "is",
+        "startTime": 257.2,
+        "endTime": 257.66
+      },
+      {
+        "word": "82%.",
+        "startTime": 257.66,
+        "endTime": 259
+      }
+    ]
+  },
+  {
+    "text": "They mean on 100 gold standard pairs where the correct preference is known.",
+    "startTime": 259,
+    "endTime": 265.32,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "They",
+        "startTime": 259,
+        "endTime": 259.58
+      },
+      {
+        "word": "mean",
+        "startTime": 259.58,
+        "endTime": 260.08
+      },
+      {
+        "word": "on",
+        "startTime": 260.08,
+        "endTime": 260.7
+      },
+      {
+        "word": "100",
+        "startTime": 260.7,
+        "endTime": 261.54
+      },
+      {
+        "word": "gold",
+        "startTime": 261.54,
+        "endTime": 261.92
+      },
+      {
+        "word": "standard",
+        "startTime": 261.92,
+        "endTime": 262.42
+      },
+      {
+        "word": "pairs",
+        "startTime": 262.42,
+        "endTime": 262.98
+      },
+      {
+        "word": "where",
+        "startTime": 262.98,
+        "endTime": 263.6
+      },
+      {
+        "word": "the",
+        "startTime": 263.6,
+        "endTime": 263.76
+      },
+      {
+        "word": "correct",
+        "startTime": 263.76,
+        "endTime": 264.1
+      },
+      {
+        "word": "preference",
+        "startTime": 264.1,
+        "endTime": 264.68
+      },
+      {
+        "word": "is",
+        "startTime": 264.68,
+        "endTime": 265
+      },
+      {
+        "word": "known.",
+        "startTime": 265,
+        "endTime": 265.32
+      }
+    ]
+  },
+  {
+    "text": "You agreed with expert judgment 82 times.",
+    "startTime": 265.88,
+    "endTime": 269.6,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 265.88,
+        "endTime": 266.12
+      },
+      {
+        "word": "agreed",
+        "startTime": 266.12,
+        "endTime": 266.46
+      },
+      {
+        "word": "with",
+        "startTime": 266.46,
+        "endTime": 266.78
+      },
+      {
+        "word": "expert",
+        "startTime": 266.78,
+        "endTime": 267.32
+      },
+      {
+        "word": "judgment",
+        "startTime": 267.32,
+        "endTime": 267.98
+      },
+      {
+        "word": "82",
+        "startTime": 267.98,
+        "endTime": 268.7
+      },
+      {
+        "word": "times.",
+        "startTime": 268.7,
+        "endTime": 269.6
+      }
+    ]
+  },
+  {
+    "text": "Sustainable contract work requires 85 % plus calibration.",
+    "startTime": 270.38,
+    "endTime": 275.56,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Sustainable",
+        "startTime": 270.38,
+        "endTime": 271.06
+      },
+      {
+        "word": "contract",
+        "startTime": 271.06,
+        "endTime": 271.58
+      },
+      {
+        "word": "work",
+        "startTime": 271.58,
+        "endTime": 272.08
+      },
+      {
+        "word": "requires",
+        "startTime": 272.08,
+        "endTime": 272.7
+      },
+      {
+        "word": "85",
+        "startTime": 272.7,
+        "endTime": 273.4
+      },
+      {
+        "word": "%",
+        "startTime": 273.4,
+        "endTime": 274.18
+      },
+      {
+        "word": "plus",
+        "startTime": 274.18,
+        "endTime": 274.72
+      },
+      {
+        "word": "calibration.",
+        "startTime": 274.72,
+        "endTime": 275.56
+      }
+    ]
+  },
+  {
+    "text": "The question for preference data is never which response is better in general.",
+    "startTime": 276.3,
+    "endTime": 281.84,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 276.3,
+        "endTime": 276.5
+      },
+      {
+        "word": "question",
+        "startTime": 276.5,
+        "endTime": 276.96
+      },
+      {
+        "word": "for",
+        "startTime": 276.96,
+        "endTime": 277.24
+      },
+      {
+        "word": "preference",
+        "startTime": 277.24,
+        "endTime": 277.7
+      },
+      {
+        "word": "data",
+        "startTime": 277.7,
+        "endTime": 278.26
+      },
+      {
+        "word": "is",
+        "startTime": 278.26,
+        "endTime": 278.7
+      },
+      {
+        "word": "never",
+        "startTime": 278.7,
+        "endTime": 279.08
+      },
+      {
+        "word": "which",
+        "startTime": 279.08,
+        "endTime": 279.9
+      },
+      {
+        "word": "response",
+        "startTime": 279.9,
+        "endTime": 280.48
+      },
+      {
+        "word": "is",
+        "startTime": 280.48,
+        "endTime": 280.76
+      },
+      {
+        "word": "better",
+        "startTime": 280.76,
+        "endTime": 281.14
+      },
+      {
+        "word": "in",
+        "startTime": 281.14,
+        "endTime": 281.36
+      },
+      {
+        "word": "general.",
+        "startTime": 281.36,
+        "endTime": 281.84
+      }
+    ]
+  },
+  {
+    "text": "It is always which response better serves this specific instruction.",
+    "startTime": 282.6,
+    "endTime": 287.16,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "It",
+        "startTime": 282.6,
+        "endTime": 282.76
+      },
+      {
+        "word": "is",
+        "startTime": 282.76,
+        "endTime": 282.94
+      },
+      {
+        "word": "always",
+        "startTime": 282.94,
+        "endTime": 283.36
+      },
+      {
+        "word": "which",
+        "startTime": 283.36,
+        "endTime": 284.18
+      },
+      {
+        "word": "response",
+        "startTime": 284.18,
+        "endTime": 284.76
+      },
+      {
+        "word": "better",
+        "startTime": 284.76,
+        "endTime": 285.18
+      },
+      {
+        "word": "serves",
+        "startTime": 285.18,
+        "endTime": 285.62
+      },
+      {
+        "word": "this",
+        "startTime": 285.62,
+        "endTime": 285.82
+      },
+      {
+        "word": "specific",
+        "startTime": 285.82,
+        "endTime": 286.4
+      },
+      {
+        "word": "instruction.",
+        "startTime": 286.4,
+        "endTime": 287.16
+      }
+    ]
+  },
+  {
+    "text": "A longer, more detailed, more formatted response is better only if the instruction requires that length, detail or format.",
+    "startTime": 288.2,
+    "endTime": 297.52,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 288.2,
+        "endTime": 288.42
+      },
+      {
+        "word": "longer,",
+        "startTime": 288.42,
+        "endTime": 288.8
+      },
+      {
+        "word": "more",
+        "startTime": 289.12,
+        "endTime": 289.36
+      },
+      {
+        "word": "detailed,",
+        "startTime": 289.36,
+        "endTime": 289.84
+      },
+      {
+        "word": "more",
+        "startTime": 290.34,
+        "endTime": 290.6
+      },
+      {
+        "word": "formatted",
+        "startTime": 290.6,
+        "endTime": 291.18
+      },
+      {
+        "word": "response",
+        "startTime": 291.18,
+        "endTime": 291.86
+      },
+      {
+        "word": "is",
+        "startTime": 291.86,
+        "endTime": 292.5
+      },
+      {
+        "word": "better",
+        "startTime": 292.5,
+        "endTime": 292.88
+      },
+      {
+        "word": "only",
+        "startTime": 292.88,
+        "endTime": 293.32
+      },
+      {
+        "word": "if",
+        "startTime": 293.32,
+        "endTime": 293.58
+      },
+      {
+        "word": "the",
+        "startTime": 293.58,
+        "endTime": 293.72
+      },
+      {
+        "word": "instruction",
+        "startTime": 293.72,
+        "endTime": 294.22
+      },
+      {
+        "word": "requires",
+        "startTime": 294.22,
+        "endTime": 294.74
+      },
+      {
+        "word": "that",
+        "startTime": 294.74,
+        "endTime": 295.18
+      },
+      {
+        "word": "length,",
+        "startTime": 295.18,
+        "endTime": 295.62
+      },
+      {
+        "word": "detail",
+        "startTime": 296.08,
+        "endTime": 296.46
+      },
+      {
+        "word": "or",
+        "startTime": 296.46,
+        "endTime": 297.02
+      },
+      {
+        "word": "format.",
+        "startTime": 297.02,
+        "endTime": 297.52
+      }
+    ]
+  },
+  {
+    "text": "Remember this.",
+    "startTime": 298.42,
+    "endTime": 299.38,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Remember",
+        "startTime": 298.42,
+        "endTime": 298.94
+      },
+      {
+        "word": "this.",
+        "startTime": 298.94,
+        "endTime": 299.38
+      }
+    ]
+  },
+  {
+    "text": "Before choosing, restate what the instruction actually asked.",
+    "startTime": 299.92,
+    "endTime": 304.3,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Before",
+        "startTime": 299.92,
+        "endTime": 300.32
+      },
+      {
+        "word": "choosing,",
+        "startTime": 300.32,
+        "endTime": 300.92
+      },
+      {
+        "word": "restate",
+        "startTime": 301.52,
+        "endTime": 301.98
+      },
+      {
+        "word": "what",
+        "startTime": 301.98,
+        "endTime": 302.3
+      },
+      {
+        "word": "the",
+        "startTime": 302.3,
+        "endTime": 302.48
+      },
+      {
+        "word": "instruction",
+        "startTime": 302.48,
+        "endTime": 303.08
+      },
+      {
+        "word": "actually",
+        "startTime": 303.08,
+        "endTime": 303.76
+      },
+      {
+        "word": "asked.",
+        "startTime": 303.76,
+        "endTime": 304.3
+      }
+    ]
+  },
+  {
+    "text": "Then ask which response better answers that specific request.",
+    "startTime": 304.82,
+    "endTime": 310,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Then",
+        "startTime": 304.82,
+        "endTime": 305.14
+      },
+      {
+        "word": "ask",
+        "startTime": 305.14,
+        "endTime": 305.66
+      },
+      {
+        "word": "which",
+        "startTime": 305.66,
+        "endTime": 306.3
+      },
+      {
+        "word": "response",
+        "startTime": 306.3,
+        "endTime": 306.98
+      },
+      {
+        "word": "better",
+        "startTime": 306.98,
+        "endTime": 307.46
+      },
+      {
+        "word": "answers",
+        "startTime": 307.46,
+        "endTime": 308.04
+      },
+      {
+        "word": "that",
+        "startTime": 308.04,
+        "endTime": 308.7
+      },
+      {
+        "word": "specific",
+        "startTime": 308.7,
+        "endTime": 309.34
+      },
+      {
+        "word": "request.",
+        "startTime": 309.34,
+        "endTime": 310
+      }
+    ]
+  },
+  {
+    "text": "Forget which response looks more impressive.",
+    "startTime": 310.64,
+    "endTime": 313.5,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Forget",
+        "startTime": 310.64,
+        "endTime": 311.1
+      },
+      {
+        "word": "which",
+        "startTime": 311.1,
+        "endTime": 311.44
+      },
+      {
+        "word": "response",
+        "startTime": 311.44,
+        "endTime": 312.06
+      },
+      {
+        "word": "looks",
+        "startTime": 312.06,
+        "endTime": 312.46
+      },
+      {
+        "word": "more",
+        "startTime": 312.46,
+        "endTime": 312.84
+      },
+      {
+        "word": "impressive.",
+        "startTime": 312.84,
+        "endTime": 313.5
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately, your skills bear fruit.",
+    "startTime": 314.24,
+    "endTime": 321.46,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 314.24,
+        "endTime": 314.64
+      },
+      {
+        "word": "what",
+        "startTime": 314.64,
+        "endTime": 314.96
+      },
+      {
+        "word": "you",
+        "startTime": 314.96,
+        "endTime": 315.14
+      },
+      {
+        "word": "learn",
+        "startTime": 315.14,
+        "endTime": 315.44
+      },
+      {
+        "word": "in",
+        "startTime": 315.44,
+        "endTime": 315.78
+      },
+      {
+        "word": "this",
+        "startTime": 315.78,
+        "endTime": 316.06
+      },
+      {
+        "word": "lesson",
+        "startTime": 316.06,
+        "endTime": 316.52
+      },
+      {
+        "word": "and",
+        "startTime": 316.52,
+        "endTime": 317.3
+      },
+      {
+        "word": "you",
+        "startTime": 317.3,
+        "endTime": 317.52
+      },
+      {
+        "word": "will",
+        "startTime": 317.52,
+        "endTime": 317.64
+      },
+      {
+        "word": "see",
+        "startTime": 317.64,
+        "endTime": 317.92
+      },
+      {
+        "word": "results",
+        "startTime": 317.92,
+        "endTime": 318.42
+      },
+      {
+        "word": "immediately,",
+        "startTime": 318.42,
+        "endTime": 319.42
+      },
+      {
+        "word": "your",
+        "startTime": 319.82,
+        "endTime": 320.14
+      },
+      {
+        "word": "skills",
+        "startTime": 320.14,
+        "endTime": 320.66
+      },
+      {
+        "word": "bear",
+        "startTime": 320.66,
+        "endTime": 321
+      },
+      {
+        "word": "fruit.",
+        "startTime": 321,
+        "endTime": 321.46
+      }
+    ]
+  }
+]

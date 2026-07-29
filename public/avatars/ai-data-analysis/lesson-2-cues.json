@@ -1,0 +1,1953 @@
+[
+  {
+    "text": "A procurement analyst at a Nairobi manufacturing company spent three days trying to reconcile supplier invoice data before realising 30 % of the records had inconsistent company name formats.",
+    "startTime": 0,
+    "endTime": 16.1,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 0,
+        "endTime": 0.22
+      },
+      {
+        "word": "procurement",
+        "startTime": 0.22,
+        "endTime": 0.82
+      },
+      {
+        "word": "analyst",
+        "startTime": 0.82,
+        "endTime": 1.6
+      },
+      {
+        "word": "at",
+        "startTime": 1.6,
+        "endTime": 1.92
+      },
+      {
+        "word": "a",
+        "startTime": 1.92,
+        "endTime": 2.06
+      },
+      {
+        "word": "Nairobi",
+        "startTime": 2.06,
+        "endTime": 2.44
+      },
+      {
+        "word": "manufacturing",
+        "startTime": 2.44,
+        "endTime": 3.22
+      },
+      {
+        "word": "company",
+        "startTime": 3.22,
+        "endTime": 4.28
+      },
+      {
+        "word": "spent",
+        "startTime": 4.28,
+        "endTime": 4.96
+      },
+      {
+        "word": "three",
+        "startTime": 4.96,
+        "endTime": 5.56
+      },
+      {
+        "word": "days",
+        "startTime": 5.56,
+        "endTime": 6
+      },
+      {
+        "word": "trying",
+        "startTime": 6,
+        "endTime": 6.4
+      },
+      {
+        "word": "to",
+        "startTime": 6.4,
+        "endTime": 6.62
+      },
+      {
+        "word": "reconcile",
+        "startTime": 6.62,
+        "endTime": 7.22
+      },
+      {
+        "word": "supplier",
+        "startTime": 7.22,
+        "endTime": 7.98
+      },
+      {
+        "word": "invoice",
+        "startTime": 7.98,
+        "endTime": 8.48
+      },
+      {
+        "word": "data",
+        "startTime": 8.48,
+        "endTime": 9.12
+      },
+      {
+        "word": "before",
+        "startTime": 9.4,
+        "endTime": 10
+      },
+      {
+        "word": "realising",
+        "startTime": 10,
+        "endTime": 10.9
+      },
+      {
+        "word": "30",
+        "startTime": 10.9,
+        "endTime": 11.5
+      },
+      {
+        "word": "%",
+        "startTime": 11.5,
+        "endTime": 11.9
+      },
+      {
+        "word": "of",
+        "startTime": 11.9,
+        "endTime": 12.1
+      },
+      {
+        "word": "the",
+        "startTime": 12.1,
+        "endTime": 12.28
+      },
+      {
+        "word": "records",
+        "startTime": 12.28,
+        "endTime": 12.94
+      },
+      {
+        "word": "had",
+        "startTime": 12.94,
+        "endTime": 13.48
+      },
+      {
+        "word": "inconsistent",
+        "startTime": 13.48,
+        "endTime": 14.46
+      },
+      {
+        "word": "company",
+        "startTime": 14.46,
+        "endTime": 15.12
+      },
+      {
+        "word": "name",
+        "startTime": 15.12,
+        "endTime": 15.48
+      },
+      {
+        "word": "formats.",
+        "startTime": 15.48,
+        "endTime": 16.1
+      }
+    ]
+  },
+  {
+    "text": "Saf limited, Safaricom, Safaricom limited and Safaricom limited were all the same supplier.",
+    "startTime": 17.32,
+    "endTime": 26.64,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Saf",
+        "startTime": 17.32,
+        "endTime": 17.44
+      },
+      {
+        "word": "limited,",
+        "startTime": 17.44,
+        "endTime": 18
+      },
+      {
+        "word": "Safaricom,",
+        "startTime": 18.94,
+        "endTime": 19.82
+      },
+      {
+        "word": "Safaricom",
+        "startTime": 20.62,
+        "endTime": 21.4
+      },
+      {
+        "word": "limited",
+        "startTime": 21.4,
+        "endTime": 21.94
+      },
+      {
+        "word": "and",
+        "startTime": 22.16,
+        "endTime": 22.76
+      },
+      {
+        "word": "Safaricom",
+        "startTime": 22.76,
+        "endTime": 23.74
+      },
+      {
+        "word": "limited",
+        "startTime": 23.74,
+        "endTime": 24.22
+      },
+      {
+        "word": "were",
+        "startTime": 24.22,
+        "endTime": 25.02
+      },
+      {
+        "word": "all",
+        "startTime": 25.02,
+        "endTime": 25.44
+      },
+      {
+        "word": "the",
+        "startTime": 25.44,
+        "endTime": 25.62
+      },
+      {
+        "word": "same",
+        "startTime": 25.62,
+        "endTime": 25.96
+      },
+      {
+        "word": "supplier.",
+        "startTime": 25.96,
+        "endTime": 26.64
+      }
+    ]
+  },
+  {
+    "text": "She fixed the entire data set in 40 minutes using one AI prompt.",
+    "startTime": 27.419999999999998,
+    "endTime": 33.48,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "She",
+        "startTime": 27.419999999999998,
+        "endTime": 27.9
+      },
+      {
+        "word": "fixed",
+        "startTime": 27.9,
+        "endTime": 28.28
+      },
+      {
+        "word": "the",
+        "startTime": 28.28,
+        "endTime": 28.5
+      },
+      {
+        "word": "entire",
+        "startTime": 28.5,
+        "endTime": 29.06
+      },
+      {
+        "word": "data",
+        "startTime": 29.06,
+        "endTime": 29.46
+      },
+      {
+        "word": "set",
+        "startTime": 29.46,
+        "endTime": 29.76
+      },
+      {
+        "word": "in",
+        "startTime": 29.76,
+        "endTime": 30.04
+      },
+      {
+        "word": "40",
+        "startTime": 30.04,
+        "endTime": 30.54
+      },
+      {
+        "word": "minutes",
+        "startTime": 30.54,
+        "endTime": 30.94
+      },
+      {
+        "word": "using",
+        "startTime": 30.94,
+        "endTime": 31.84
+      },
+      {
+        "word": "one",
+        "startTime": 31.84,
+        "endTime": 32.3
+      },
+      {
+        "word": "AI",
+        "startTime": 32.3,
+        "endTime": 32.84
+      },
+      {
+        "word": "prompt.",
+        "startTime": 32.84,
+        "endTime": 33.48
+      }
+    ]
+  },
+  {
+    "text": "Then she built a cleaning workflow so it never happened again.",
+    "startTime": 34.36,
+    "endTime": 38.76,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Then",
+        "startTime": 34.36,
+        "endTime": 34.76
+      },
+      {
+        "word": "she",
+        "startTime": 34.76,
+        "endTime": 35.38
+      },
+      {
+        "word": "built",
+        "startTime": 35.38,
+        "endTime": 35.6
+      },
+      {
+        "word": "a",
+        "startTime": 35.6,
+        "endTime": 35.8
+      },
+      {
+        "word": "cleaning",
+        "startTime": 35.8,
+        "endTime": 36.18
+      },
+      {
+        "word": "workflow",
+        "startTime": 36.18,
+        "endTime": 36.84
+      },
+      {
+        "word": "so",
+        "startTime": 36.84,
+        "endTime": 37.46
+      },
+      {
+        "word": "it",
+        "startTime": 37.46,
+        "endTime": 37.6
+      },
+      {
+        "word": "never",
+        "startTime": 37.6,
+        "endTime": 37.86
+      },
+      {
+        "word": "happened",
+        "startTime": 37.86,
+        "endTime": 38.32
+      },
+      {
+        "word": "again.",
+        "startTime": 38.32,
+        "endTime": 38.76
+      }
+    ]
+  },
+  {
+    "text": "In this lesson every real -world business data set has quality problems.",
+    "startTime": 39.72,
+    "endTime": 45.74,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 39.72,
+        "endTime": 39.86
+      },
+      {
+        "word": "this",
+        "startTime": 39.86,
+        "endTime": 40.14
+      },
+      {
+        "word": "lesson",
+        "startTime": 40.14,
+        "endTime": 40.62
+      },
+      {
+        "word": "every",
+        "startTime": 41.31999999999999,
+        "endTime": 41.8
+      },
+      {
+        "word": "real",
+        "startTime": 41.8,
+        "endTime": 42.24
+      },
+      {
+        "word": "-world",
+        "startTime": 42.24,
+        "endTime": 42.66
+      },
+      {
+        "word": "business",
+        "startTime": 42.66,
+        "endTime": 43.06
+      },
+      {
+        "word": "data",
+        "startTime": 43.06,
+        "endTime": 43.48
+      },
+      {
+        "word": "set",
+        "startTime": 43.48,
+        "endTime": 44.04
+      },
+      {
+        "word": "has",
+        "startTime": 44.04,
+        "endTime": 44.5
+      },
+      {
+        "word": "quality",
+        "startTime": 44.5,
+        "endTime": 45
+      },
+      {
+        "word": "problems.",
+        "startTime": 45,
+        "endTime": 45.74
+      }
+    ]
+  },
+  {
+    "text": "Missing values, duplicate records, inconsistent formatting, incorrect data types and referential errors are not exceptions.",
+    "startTime": 46.5,
+    "endTime": 57.84,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Missing",
+        "startTime": 46.5,
+        "endTime": 47.06
+      },
+      {
+        "word": "values,",
+        "startTime": 47.06,
+        "endTime": 47.54
+      },
+      {
+        "word": "duplicate",
+        "startTime": 48.34,
+        "endTime": 48.68
+      },
+      {
+        "word": "records,",
+        "startTime": 48.68,
+        "endTime": 49.4
+      },
+      {
+        "word": "inconsistent",
+        "startTime": 50.14,
+        "endTime": 50.96
+      },
+      {
+        "word": "formatting,",
+        "startTime": 50.96,
+        "endTime": 51.78
+      },
+      {
+        "word": "incorrect",
+        "startTime": 52.6,
+        "endTime": 53.08
+      },
+      {
+        "word": "data",
+        "startTime": 53.08,
+        "endTime": 53.52
+      },
+      {
+        "word": "types",
+        "startTime": 53.52,
+        "endTime": 54.16
+      },
+      {
+        "word": "and",
+        "startTime": 54.16,
+        "endTime": 54.82
+      },
+      {
+        "word": "referential",
+        "startTime": 54.82,
+        "endTime": 55.62
+      },
+      {
+        "word": "errors",
+        "startTime": 55.62,
+        "endTime": 56.08
+      },
+      {
+        "word": "are",
+        "startTime": 56.08,
+        "endTime": 56.66
+      },
+      {
+        "word": "not",
+        "startTime": 56.66,
+        "endTime": 56.98
+      },
+      {
+        "word": "exceptions.",
+        "startTime": 56.98,
+        "endTime": 57.84
+      }
+    ]
+  },
+  {
+    "text": "They are the norm.",
+    "startTime": 58.64,
+    "endTime": 59.9,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "They",
+        "startTime": 58.64,
+        "endTime": 58.84
+      },
+      {
+        "word": "are",
+        "startTime": 58.84,
+        "endTime": 59.24
+      },
+      {
+        "word": "the",
+        "startTime": 59.24,
+        "endTime": 59.4
+      },
+      {
+        "word": "norm.",
+        "startTime": 59.4,
+        "endTime": 59.9
+      }
+    ]
+  },
+  {
+    "text": "Analysts who skip cleaning produce unreliable findings.",
+    "startTime": 60.74,
+    "endTime": 65.24,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Analysts",
+        "startTime": 60.74,
+        "endTime": 61.54
+      },
+      {
+        "word": "who",
+        "startTime": 61.54,
+        "endTime": 61.66
+      },
+      {
+        "word": "skip",
+        "startTime": 61.66,
+        "endTime": 62.04
+      },
+      {
+        "word": "cleaning",
+        "startTime": 62.04,
+        "endTime": 62.5
+      },
+      {
+        "word": "produce",
+        "startTime": 62.5,
+        "endTime": 63.34
+      },
+      {
+        "word": "unreliable",
+        "startTime": 63.34,
+        "endTime": 64.48
+      },
+      {
+        "word": "findings.",
+        "startTime": 64.48,
+        "endTime": 65.24
+      }
+    ]
+  },
+  {
+    "text": "Analysts who clean manually waste days on work AI can do in minutes.",
+    "startTime": 65.98,
+    "endTime": 71.86,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Analysts",
+        "startTime": 65.98,
+        "endTime": 66.94
+      },
+      {
+        "word": "who",
+        "startTime": 66.94,
+        "endTime": 67.06
+      },
+      {
+        "word": "clean",
+        "startTime": 67.06,
+        "endTime": 67.48
+      },
+      {
+        "word": "manually",
+        "startTime": 67.48,
+        "endTime": 68.12
+      },
+      {
+        "word": "waste",
+        "startTime": 68.12,
+        "endTime": 68.9
+      },
+      {
+        "word": "days",
+        "startTime": 68.9,
+        "endTime": 69.28
+      },
+      {
+        "word": "on",
+        "startTime": 69.28,
+        "endTime": 69.66
+      },
+      {
+        "word": "work",
+        "startTime": 69.66,
+        "endTime": 69.98
+      },
+      {
+        "word": "AI",
+        "startTime": 69.98,
+        "endTime": 70.46
+      },
+      {
+        "word": "can",
+        "startTime": 70.46,
+        "endTime": 70.96
+      },
+      {
+        "word": "do",
+        "startTime": 70.96,
+        "endTime": 71.18
+      },
+      {
+        "word": "in",
+        "startTime": 71.18,
+        "endTime": 71.48
+      },
+      {
+        "word": "minutes.",
+        "startTime": 71.48,
+        "endTime": 71.86
+      }
+    ]
+  },
+  {
+    "text": "We cover the six most common data quality problems in Kenyan business data sets and how to identify each one.",
+    "startTime": 72.5,
+    "endTime": 81.76,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "We",
+        "startTime": 72.5,
+        "endTime": 73.24
+      },
+      {
+        "word": "cover",
+        "startTime": 73.24,
+        "endTime": 73.64
+      },
+      {
+        "word": "the",
+        "startTime": 73.64,
+        "endTime": 74.12
+      },
+      {
+        "word": "six",
+        "startTime": 74.12,
+        "endTime": 74.48
+      },
+      {
+        "word": "most",
+        "startTime": 74.48,
+        "endTime": 74.84
+      },
+      {
+        "word": "common",
+        "startTime": 74.84,
+        "endTime": 75.26
+      },
+      {
+        "word": "data",
+        "startTime": 75.26,
+        "endTime": 75.6
+      },
+      {
+        "word": "quality",
+        "startTime": 75.6,
+        "endTime": 76.12
+      },
+      {
+        "word": "problems",
+        "startTime": 76.12,
+        "endTime": 76.76
+      },
+      {
+        "word": "in",
+        "startTime": 76.76,
+        "endTime": 77.28
+      },
+      {
+        "word": "Kenyan",
+        "startTime": 77.28,
+        "endTime": 77.78
+      },
+      {
+        "word": "business",
+        "startTime": 77.78,
+        "endTime": 78.2
+      },
+      {
+        "word": "data",
+        "startTime": 78.2,
+        "endTime": 78.62
+      },
+      {
+        "word": "sets",
+        "startTime": 78.62,
+        "endTime": 79.18
+      },
+      {
+        "word": "and",
+        "startTime": 79.18,
+        "endTime": 79.72
+      },
+      {
+        "word": "how",
+        "startTime": 79.72,
+        "endTime": 79.96
+      },
+      {
+        "word": "to",
+        "startTime": 79.96,
+        "endTime": 80.16
+      },
+      {
+        "word": "identify",
+        "startTime": 80.16,
+        "endTime": 80.82
+      },
+      {
+        "word": "each",
+        "startTime": 80.82,
+        "endTime": 81.36
+      },
+      {
+        "word": "one.",
+        "startTime": 81.36,
+        "endTime": 81.76
+      }
+    ]
+  },
+  {
+    "text": "The AI assisted cleaning workflow from raw export to analysis ready data set.",
+    "startTime": 82.6,
+    "endTime": 89.5,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 82.6,
+        "endTime": 82.78
+      },
+      {
+        "word": "AI",
+        "startTime": 82.78,
+        "endTime": 83.28
+      },
+      {
+        "word": "assisted",
+        "startTime": 83.28,
+        "endTime": 84.02
+      },
+      {
+        "word": "cleaning",
+        "startTime": 84.02,
+        "endTime": 84.48
+      },
+      {
+        "word": "workflow",
+        "startTime": 84.48,
+        "endTime": 85.16
+      },
+      {
+        "word": "from",
+        "startTime": 85.16,
+        "endTime": 86.04
+      },
+      {
+        "word": "raw",
+        "startTime": 86.04,
+        "endTime": 86.32
+      },
+      {
+        "word": "export",
+        "startTime": 86.32,
+        "endTime": 86.88
+      },
+      {
+        "word": "to",
+        "startTime": 86.88,
+        "endTime": 87.52
+      },
+      {
+        "word": "analysis",
+        "startTime": 87.52,
+        "endTime": 88.04
+      },
+      {
+        "word": "ready",
+        "startTime": 88.04,
+        "endTime": 88.48
+      },
+      {
+        "word": "data",
+        "startTime": 88.48,
+        "endTime": 89
+      },
+      {
+        "word": "set.",
+        "startTime": 89,
+        "endTime": 89.5
+      }
+    ]
+  },
+  {
+    "text": "How to write cleaning instructions that AI can execute systematically and the verification step.",
+    "startTime": 90.32,
+    "endTime": 98.8,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "How",
+        "startTime": 90.32,
+        "endTime": 90.62
+      },
+      {
+        "word": "to",
+        "startTime": 90.62,
+        "endTime": 90.84
+      },
+      {
+        "word": "write",
+        "startTime": 90.84,
+        "endTime": 91.08
+      },
+      {
+        "word": "cleaning",
+        "startTime": 91.08,
+        "endTime": 91.58
+      },
+      {
+        "word": "instructions",
+        "startTime": 91.58,
+        "endTime": 92.42
+      },
+      {
+        "word": "that",
+        "startTime": 92.42,
+        "endTime": 92.94
+      },
+      {
+        "word": "AI",
+        "startTime": 92.94,
+        "endTime": 93.26
+      },
+      {
+        "word": "can",
+        "startTime": 93.26,
+        "endTime": 93.8
+      },
+      {
+        "word": "execute",
+        "startTime": 93.8,
+        "endTime": 94.44
+      },
+      {
+        "word": "systematically",
+        "startTime": 94.44,
+        "endTime": 95.36
+      },
+      {
+        "word": "and",
+        "startTime": 95.36,
+        "endTime": 96.56
+      },
+      {
+        "word": "the",
+        "startTime": 96.56,
+        "endTime": 97.26
+      },
+      {
+        "word": "verification",
+        "startTime": 97.26,
+        "endTime": 97.88
+      },
+      {
+        "word": "step.",
+        "startTime": 97.88,
+        "endTime": 98.8
+      }
+    ]
+  },
+  {
+    "text": "Why you must spot check AI cleaned data before using it.",
+    "startTime": 99.3,
+    "endTime": 104.26,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Why",
+        "startTime": 99.3,
+        "endTime": 99.78
+      },
+      {
+        "word": "you",
+        "startTime": 99.78,
+        "endTime": 100.04
+      },
+      {
+        "word": "must",
+        "startTime": 100.04,
+        "endTime": 100.24
+      },
+      {
+        "word": "spot",
+        "startTime": 100.24,
+        "endTime": 100.6
+      },
+      {
+        "word": "check",
+        "startTime": 100.6,
+        "endTime": 100.96
+      },
+      {
+        "word": "AI",
+        "startTime": 100.96,
+        "endTime": 101.52
+      },
+      {
+        "word": "cleaned",
+        "startTime": 101.52,
+        "endTime": 102.12
+      },
+      {
+        "word": "data",
+        "startTime": 102.12,
+        "endTime": 102.64
+      },
+      {
+        "word": "before",
+        "startTime": 102.64,
+        "endTime": 103.3
+      },
+      {
+        "word": "using",
+        "startTime": 103.3,
+        "endTime": 103.84
+      },
+      {
+        "word": "it.",
+        "startTime": 103.84,
+        "endTime": 104.26
+      }
+    ]
+  },
+  {
+    "text": "Data quality problems destroy analysis accuracy.",
+    "startTime": 105.04,
+    "endTime": 108.8,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Data",
+        "startTime": 105.04,
+        "endTime": 105.2
+      },
+      {
+        "word": "quality",
+        "startTime": 105.2,
+        "endTime": 105.8
+      },
+      {
+        "word": "problems",
+        "startTime": 105.8,
+        "endTime": 106.46
+      },
+      {
+        "word": "destroy",
+        "startTime": 106.46,
+        "endTime": 107.06
+      },
+      {
+        "word": "analysis",
+        "startTime": 107.06,
+        "endTime": 107.88
+      },
+      {
+        "word": "accuracy.",
+        "startTime": 107.88,
+        "endTime": 108.8
+      }
+    ]
+  },
+  {
+    "text": "A data set with 15 % duplicate records will over count every metric by 15%.",
+    "startTime": 109.54,
+    "endTime": 117.14,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 109.54,
+        "endTime": 109.78
+      },
+      {
+        "word": "data",
+        "startTime": 109.78,
+        "endTime": 110
+      },
+      {
+        "word": "set",
+        "startTime": 110,
+        "endTime": 110.48
+      },
+      {
+        "word": "with",
+        "startTime": 110.48,
+        "endTime": 110.74
+      },
+      {
+        "word": "15",
+        "startTime": 110.74,
+        "endTime": 111.3
+      },
+      {
+        "word": "%",
+        "startTime": 111.3,
+        "endTime": 111.8
+      },
+      {
+        "word": "duplicate",
+        "startTime": 111.8,
+        "endTime": 112.28
+      },
+      {
+        "word": "records",
+        "startTime": 112.28,
+        "endTime": 113.08
+      },
+      {
+        "word": "will",
+        "startTime": 113.08,
+        "endTime": 113.56
+      },
+      {
+        "word": "over",
+        "startTime": 113.56,
+        "endTime": 113.96
+      },
+      {
+        "word": "count",
+        "startTime": 113.96,
+        "endTime": 114.26
+      },
+      {
+        "word": "every",
+        "startTime": 114.26,
+        "endTime": 114.84
+      },
+      {
+        "word": "metric",
+        "startTime": 114.84,
+        "endTime": 115.36
+      },
+      {
+        "word": "by",
+        "startTime": 115.36,
+        "endTime": 115.7
+      },
+      {
+        "word": "15%.",
+        "startTime": 115.7,
+        "endTime": 117.14
+      }
+    ]
+  },
+  {
+    "text": "A data set where dates are formatted as both the 14th of March 2024 and March 14th 2024 will fail to calculate any time -based trend correctly.",
+    "startTime": 117.5,
+    "endTime": 131.88,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 117.5,
+        "endTime": 117.96
+      },
+      {
+        "word": "data",
+        "startTime": 117.96,
+        "endTime": 118.26
+      },
+      {
+        "word": "set",
+        "startTime": 118.26,
+        "endTime": 118.64
+      },
+      {
+        "word": "where",
+        "startTime": 118.64,
+        "endTime": 118.94
+      },
+      {
+        "word": "dates",
+        "startTime": 118.94,
+        "endTime": 119.24
+      },
+      {
+        "word": "are",
+        "startTime": 119.24,
+        "endTime": 119.5
+      },
+      {
+        "word": "formatted",
+        "startTime": 119.5,
+        "endTime": 120.14
+      },
+      {
+        "word": "as",
+        "startTime": 120.14,
+        "endTime": 120.48
+      },
+      {
+        "word": "both",
+        "startTime": 120.48,
+        "endTime": 120.8
+      },
+      {
+        "word": "the",
+        "startTime": 120.8,
+        "endTime": 121
+      },
+      {
+        "word": "14th",
+        "startTime": 121,
+        "endTime": 121.76
+      },
+      {
+        "word": "of",
+        "startTime": 121.76,
+        "endTime": 121.86
+      },
+      {
+        "word": "March",
+        "startTime": 121.86,
+        "endTime": 122.14
+      },
+      {
+        "word": "2024",
+        "startTime": 122.14,
+        "endTime": 123.3
+      },
+      {
+        "word": "and",
+        "startTime": 124.19999999999999,
+        "endTime": 124.66
+      },
+      {
+        "word": "March",
+        "startTime": 124.66,
+        "endTime": 124.98
+      },
+      {
+        "word": "14th",
+        "startTime": 124.98,
+        "endTime": 126
+      },
+      {
+        "word": "2024",
+        "startTime": 126,
+        "endTime": 127.3
+      },
+      {
+        "word": "will",
+        "startTime": 127.3,
+        "endTime": 128.22
+      },
+      {
+        "word": "fail",
+        "startTime": 128.22,
+        "endTime": 128.62
+      },
+      {
+        "word": "to",
+        "startTime": 128.62,
+        "endTime": 128.86
+      },
+      {
+        "word": "calculate",
+        "startTime": 128.86,
+        "endTime": 129.4
+      },
+      {
+        "word": "any",
+        "startTime": 129.4,
+        "endTime": 129.94
+      },
+      {
+        "word": "time",
+        "startTime": 129.94,
+        "endTime": 130.4
+      },
+      {
+        "word": "-based",
+        "startTime": 130.4,
+        "endTime": 130.72
+      },
+      {
+        "word": "trend",
+        "startTime": 130.72,
+        "endTime": 131.08
+      },
+      {
+        "word": "correctly.",
+        "startTime": 131.08,
+        "endTime": 131.88
+      }
+    ]
+  },
+  {
+    "text": "Clean data incrementally in two phases.",
+    "startTime": 132.76,
+    "endTime": 135.86,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Clean",
+        "startTime": 132.76,
+        "endTime": 133.1
+      },
+      {
+        "word": "data",
+        "startTime": 133.1,
+        "endTime": 133.7
+      },
+      {
+        "word": "incrementally",
+        "startTime": 133.7,
+        "endTime": 134.7
+      },
+      {
+        "word": "in",
+        "startTime": 134.7,
+        "endTime": 135.02
+      },
+      {
+        "word": "two",
+        "startTime": 135.02,
+        "endTime": 135.34
+      },
+      {
+        "word": "phases.",
+        "startTime": 135.34,
+        "endTime": 135.86
+      }
+    ]
+  },
+  {
+    "text": "Phase one, find and document every issue with counts.",
+    "startTime": 136.58,
+    "endTime": 141.14,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Phase",
+        "startTime": 136.58,
+        "endTime": 137.08
+      },
+      {
+        "word": "one,",
+        "startTime": 137.08,
+        "endTime": 137.58
+      },
+      {
+        "word": "find",
+        "startTime": 138.1,
+        "endTime": 138.54
+      },
+      {
+        "word": "and",
+        "startTime": 138.54,
+        "endTime": 138.86
+      },
+      {
+        "word": "document",
+        "startTime": 138.86,
+        "endTime": 139.38
+      },
+      {
+        "word": "every",
+        "startTime": 139.38,
+        "endTime": 140.02
+      },
+      {
+        "word": "issue",
+        "startTime": 140.02,
+        "endTime": 140.48
+      },
+      {
+        "word": "with",
+        "startTime": 140.48,
+        "endTime": 140.74
+      },
+      {
+        "word": "counts.",
+        "startTime": 140.74,
+        "endTime": 141.14
+      }
+    ]
+  },
+  {
+    "text": "Phase two, fix each issue type with a specific transformation rule and spot check 10 random rows from each fix.",
+    "startTime": 141.82,
+    "endTime": 151.32,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Phase",
+        "startTime": 141.82,
+        "endTime": 142.28
+      },
+      {
+        "word": "two,",
+        "startTime": 142.28,
+        "endTime": 142.86
+      },
+      {
+        "word": "fix",
+        "startTime": 143.38,
+        "endTime": 143.8
+      },
+      {
+        "word": "each",
+        "startTime": 143.8,
+        "endTime": 144.28
+      },
+      {
+        "word": "issue",
+        "startTime": 144.28,
+        "endTime": 144.68
+      },
+      {
+        "word": "type",
+        "startTime": 144.68,
+        "endTime": 145.02
+      },
+      {
+        "word": "with",
+        "startTime": 145.02,
+        "endTime": 145.5
+      },
+      {
+        "word": "a",
+        "startTime": 145.5,
+        "endTime": 145.64
+      },
+      {
+        "word": "specific",
+        "startTime": 145.64,
+        "endTime": 146.16
+      },
+      {
+        "word": "transformation",
+        "startTime": 146.16,
+        "endTime": 147.08
+      },
+      {
+        "word": "rule",
+        "startTime": 147.08,
+        "endTime": 147.48
+      },
+      {
+        "word": "and",
+        "startTime": 147.48,
+        "endTime": 148.08
+      },
+      {
+        "word": "spot",
+        "startTime": 148.08,
+        "endTime": 148.42
+      },
+      {
+        "word": "check",
+        "startTime": 148.42,
+        "endTime": 148.74
+      },
+      {
+        "word": "10",
+        "startTime": 148.74,
+        "endTime": 149.26
+      },
+      {
+        "word": "random",
+        "startTime": 149.26,
+        "endTime": 149.74
+      },
+      {
+        "word": "rows",
+        "startTime": 149.74,
+        "endTime": 150.12
+      },
+      {
+        "word": "from",
+        "startTime": 150.12,
+        "endTime": 150.44
+      },
+      {
+        "word": "each",
+        "startTime": 150.44,
+        "endTime": 150.78
+      },
+      {
+        "word": "fix.",
+        "startTime": 150.78,
+        "endTime": 151.32
+      }
+    ]
+  },
+  {
+    "text": "Never let AI fix and move on without a review step.",
+    "startTime": 152.14,
+    "endTime": 156.62,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Never",
+        "startTime": 152.14,
+        "endTime": 152.58
+      },
+      {
+        "word": "let",
+        "startTime": 152.58,
+        "endTime": 152.92
+      },
+      {
+        "word": "AI",
+        "startTime": 152.92,
+        "endTime": 153.2
+      },
+      {
+        "word": "fix",
+        "startTime": 153.2,
+        "endTime": 153.74
+      },
+      {
+        "word": "and",
+        "startTime": 153.74,
+        "endTime": 154.18
+      },
+      {
+        "word": "move",
+        "startTime": 154.18,
+        "endTime": 154.46
+      },
+      {
+        "word": "on",
+        "startTime": 154.46,
+        "endTime": 154.84
+      },
+      {
+        "word": "without",
+        "startTime": 154.84,
+        "endTime": 155.48
+      },
+      {
+        "word": "a",
+        "startTime": 155.48,
+        "endTime": 155.76
+      },
+      {
+        "word": "review",
+        "startTime": 155.76,
+        "endTime": 156.08
+      },
+      {
+        "word": "step.",
+        "startTime": 156.08,
+        "endTime": 156.62
+      }
+    ]
+  },
+  {
+    "text": "Cleaning errors compound into analysis errors and finding them after the fact costs far more time than the review step saves.",
+    "startTime": 157.18,
+    "endTime": 166.62,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Cleaning",
+        "startTime": 157.18,
+        "endTime": 157.56
+      },
+      {
+        "word": "errors",
+        "startTime": 157.56,
+        "endTime": 157.94
+      },
+      {
+        "word": "compound",
+        "startTime": 157.94,
+        "endTime": 158.5
+      },
+      {
+        "word": "into",
+        "startTime": 158.5,
+        "endTime": 159.08
+      },
+      {
+        "word": "analysis",
+        "startTime": 159.08,
+        "endTime": 159.6
+      },
+      {
+        "word": "errors",
+        "startTime": 159.6,
+        "endTime": 160.16
+      },
+      {
+        "word": "and",
+        "startTime": 160.44,
+        "endTime": 160.9
+      },
+      {
+        "word": "finding",
+        "startTime": 160.9,
+        "endTime": 161.36
+      },
+      {
+        "word": "them",
+        "startTime": 161.36,
+        "endTime": 161.6
+      },
+      {
+        "word": "after",
+        "startTime": 161.6,
+        "endTime": 161.98
+      },
+      {
+        "word": "the",
+        "startTime": 161.98,
+        "endTime": 162.2
+      },
+      {
+        "word": "fact",
+        "startTime": 162.2,
+        "endTime": 162.54
+      },
+      {
+        "word": "costs",
+        "startTime": 162.54,
+        "endTime": 163.26
+      },
+      {
+        "word": "far",
+        "startTime": 163.26,
+        "endTime": 163.82
+      },
+      {
+        "word": "more",
+        "startTime": 163.82,
+        "endTime": 164.04
+      },
+      {
+        "word": "time",
+        "startTime": 164.04,
+        "endTime": 164.54
+      },
+      {
+        "word": "than",
+        "startTime": 164.54,
+        "endTime": 165.08
+      },
+      {
+        "word": "the",
+        "startTime": 165.08,
+        "endTime": 165.22
+      },
+      {
+        "word": "review",
+        "startTime": 165.22,
+        "endTime": 165.58
+      },
+      {
+        "word": "step",
+        "startTime": 165.58,
+        "endTime": 166.04
+      },
+      {
+        "word": "saves.",
+        "startTime": 166.04,
+        "endTime": 166.62
+      }
+    ]
+  },
+  {
+    "text": "Remember this.",
+    "startTime": 167.58,
+    "endTime": 168.52,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Remember",
+        "startTime": 167.58,
+        "endTime": 168.08
+      },
+      {
+        "word": "this.",
+        "startTime": 168.08,
+        "endTime": 168.52
+      }
+    ]
+  },
+  {
+    "text": "Document every data quality problem before fixing any of them.",
+    "startTime": 168.52,
+    "endTime": 174,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Document",
+        "startTime": 168.52,
+        "endTime": 169.68
+      },
+      {
+        "word": "every",
+        "startTime": 169.68,
+        "endTime": 170.4
+      },
+      {
+        "word": "data",
+        "startTime": 170.4,
+        "endTime": 170.74
+      },
+      {
+        "word": "quality",
+        "startTime": 170.74,
+        "endTime": 171.32
+      },
+      {
+        "word": "problem",
+        "startTime": 171.32,
+        "endTime": 171.94
+      },
+      {
+        "word": "before",
+        "startTime": 171.94,
+        "endTime": 172.54
+      },
+      {
+        "word": "fixing",
+        "startTime": 172.54,
+        "endTime": 173.04
+      },
+      {
+        "word": "any",
+        "startTime": 173.04,
+        "endTime": 173.52
+      },
+      {
+        "word": "of",
+        "startTime": 173.52,
+        "endTime": 173.7
+      },
+      {
+        "word": "them.",
+        "startTime": 173.7,
+        "endTime": 174
+      }
+    ]
+  },
+  {
+    "text": "The documentation is your audit trail.",
+    "startTime": 174.86,
+    "endTime": 177.4,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 174.86,
+        "endTime": 174.96
+      },
+      {
+        "word": "documentation",
+        "startTime": 174.96,
+        "endTime": 175.66
+      },
+      {
+        "word": "is",
+        "startTime": 175.66,
+        "endTime": 176.3
+      },
+      {
+        "word": "your",
+        "startTime": 176.3,
+        "endTime": 176.54
+      },
+      {
+        "word": "audit",
+        "startTime": 176.54,
+        "endTime": 176.92
+      },
+      {
+        "word": "trail.",
+        "startTime": 176.92,
+        "endTime": 177.4
+      }
+    ]
+  },
+  {
+    "text": "If an executive asks why a metric changed between last month's report and this month's, the answer is in your cleaning log.",
+    "startTime": 178.2,
+    "endTime": 187.24,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "If",
+        "startTime": 178.2,
+        "endTime": 178.44
+      },
+      {
+        "word": "an",
+        "startTime": 178.44,
+        "endTime": 178.58
+      },
+      {
+        "word": "executive",
+        "startTime": 178.58,
+        "endTime": 179.1
+      },
+      {
+        "word": "asks",
+        "startTime": 179.1,
+        "endTime": 179.74
+      },
+      {
+        "word": "why",
+        "startTime": 179.74,
+        "endTime": 180.1
+      },
+      {
+        "word": "a",
+        "startTime": 180.1,
+        "endTime": 180.32
+      },
+      {
+        "word": "metric",
+        "startTime": 180.32,
+        "endTime": 180.68
+      },
+      {
+        "word": "changed",
+        "startTime": 180.68,
+        "endTime": 181.34
+      },
+      {
+        "word": "between",
+        "startTime": 181.34,
+        "endTime": 181.72
+      },
+      {
+        "word": "last",
+        "startTime": 181.72,
+        "endTime": 182.08
+      },
+      {
+        "word": "month's",
+        "startTime": 182.08,
+        "endTime": 182.6
+      },
+      {
+        "word": "report",
+        "startTime": 182.6,
+        "endTime": 182.94
+      },
+      {
+        "word": "and",
+        "startTime": 182.94,
+        "endTime": 183.6
+      },
+      {
+        "word": "this",
+        "startTime": 183.6,
+        "endTime": 183.86
+      },
+      {
+        "word": "month's,",
+        "startTime": 183.86,
+        "endTime": 184.48
+      },
+      {
+        "word": "the",
+        "startTime": 184.9,
+        "endTime": 184.98
+      },
+      {
+        "word": "answer",
+        "startTime": 184.98,
+        "endTime": 185.5
+      },
+      {
+        "word": "is",
+        "startTime": 185.5,
+        "endTime": 185.86
+      },
+      {
+        "word": "in",
+        "startTime": 185.86,
+        "endTime": 186.08
+      },
+      {
+        "word": "your",
+        "startTime": 186.08,
+        "endTime": 186.3
+      },
+      {
+        "word": "cleaning",
+        "startTime": 186.3,
+        "endTime": 186.66
+      },
+      {
+        "word": "log.",
+        "startTime": 186.66,
+        "endTime": 187.24
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 188.12,
+    "endTime": 192.94,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 188.12,
+        "endTime": 188.5
+      },
+      {
+        "word": "what",
+        "startTime": 188.5,
+        "endTime": 188.8
+      },
+      {
+        "word": "you",
+        "startTime": 188.8,
+        "endTime": 189.02
+      },
+      {
+        "word": "learn",
+        "startTime": 189.02,
+        "endTime": 189.3
+      },
+      {
+        "word": "in",
+        "startTime": 189.3,
+        "endTime": 189.48
+      },
+      {
+        "word": "this",
+        "startTime": 189.48,
+        "endTime": 189.72
+      },
+      {
+        "word": "lesson",
+        "startTime": 189.72,
+        "endTime": 190.16
+      },
+      {
+        "word": "and",
+        "startTime": 190.16,
+        "endTime": 190.84
+      },
+      {
+        "word": "you",
+        "startTime": 190.84,
+        "endTime": 191.02
+      },
+      {
+        "word": "will",
+        "startTime": 191.02,
+        "endTime": 191.16
+      },
+      {
+        "word": "see",
+        "startTime": 191.16,
+        "endTime": 191.44
+      },
+      {
+        "word": "results",
+        "startTime": 191.44,
+        "endTime": 192
+      },
+      {
+        "word": "immediately.",
+        "startTime": 192,
+        "endTime": 192.94
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 193.64,
+    "endTime": 195.38,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 193.64,
+        "endTime": 193.98
+      },
+      {
+        "word": "skills",
+        "startTime": 193.98,
+        "endTime": 194.56
+      },
+      {
+        "word": "bear",
+        "startTime": 194.56,
+        "endTime": 194.94
+      },
+      {
+        "word": "fruit.",
+        "startTime": 194.94,
+        "endTime": 195.38
+      }
+    ]
+  }
+]

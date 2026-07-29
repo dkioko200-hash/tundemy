@@ -1,0 +1,635 @@
+[
+  {
+    "text": "In 2023, May's prices in Eldoret were 28 Kenyan shillings per kilogram in March and 58 Kenyan shillings per kilogram in September, a 107 percent difference.",
+    "startTime": 0,
+    "endTime": 12.08,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 0,
+        "endTime": 0.24
+      },
+      {
+        "word": "2023,",
+        "startTime": 0.24,
+        "endTime": 1.14
+      },
+      {
+        "word": "May's",
+        "startTime": 1.78,
+        "endTime": 2.04
+      },
+      {
+        "word": "prices",
+        "startTime": 2.04,
+        "endTime": 2.36
+      },
+      {
+        "word": "in",
+        "startTime": 2.36,
+        "endTime": 2.62
+      },
+      {
+        "word": "Eldoret",
+        "startTime": 2.62,
+        "endTime": 3.16
+      },
+      {
+        "word": "were",
+        "startTime": 3.16,
+        "endTime": 3.64
+      },
+      {
+        "word": "28",
+        "startTime": 3.64,
+        "endTime": 4.2
+      },
+      {
+        "word": "Kenyan",
+        "startTime": 4.2,
+        "endTime": 4.56
+      },
+      {
+        "word": "shillings",
+        "startTime": 4.56,
+        "endTime": 4.98
+      },
+      {
+        "word": "per",
+        "startTime": 4.98,
+        "endTime": 5.14
+      },
+      {
+        "word": "kilogram",
+        "startTime": 5.14,
+        "endTime": 5.4
+      },
+      {
+        "word": "in",
+        "startTime": 5.4,
+        "endTime": 5.78
+      },
+      {
+        "word": "March",
+        "startTime": 5.78,
+        "endTime": 6.04
+      },
+      {
+        "word": "and",
+        "startTime": 6.45,
+        "endTime": 6.8
+      },
+      {
+        "word": "58",
+        "startTime": 6.8,
+        "endTime": 7.2
+      },
+      {
+        "word": "Kenyan",
+        "startTime": 7.2,
+        "endTime": 7.76
+      },
+      {
+        "word": "shillings",
+        "startTime": 7.76,
+        "endTime": 8.14
+      },
+      {
+        "word": "per",
+        "startTime": 8.14,
+        "endTime": 8.32
+      },
+      {
+        "word": "kilogram",
+        "startTime": 8.32,
+        "endTime": 8.66
+      },
+      {
+        "word": "in",
+        "startTime": 8.66,
+        "endTime": 8.94
+      },
+      {
+        "word": "September,",
+        "startTime": 8.94,
+        "endTime": 9.46
+      },
+      {
+        "word": "a",
+        "startTime": 9.98,
+        "endTime": 10.18
+      },
+      {
+        "word": "107",
+        "startTime": 10.18,
+        "endTime": 11.02
+      },
+      {
+        "word": "percent",
+        "startTime": 11.02,
+        "endTime": 11.38
+      },
+      {
+        "word": "difference.",
+        "startTime": 11.38,
+        "endTime": 12.08
+      }
+    ]
+  },
+  {
+    "text": "Farmers who sold at Harvest in March earned half the income of those who stored.",
+    "startTime": 12.78,
+    "endTime": 17.22,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Farmers",
+        "startTime": 12.78,
+        "endTime": 13.34
+      },
+      {
+        "word": "who",
+        "startTime": 13.34,
+        "endTime": 13.46
+      },
+      {
+        "word": "sold",
+        "startTime": 13.46,
+        "endTime": 13.72
+      },
+      {
+        "word": "at",
+        "startTime": 13.72,
+        "endTime": 13.98
+      },
+      {
+        "word": "Harvest",
+        "startTime": 13.98,
+        "endTime": 14.26
+      },
+      {
+        "word": "in",
+        "startTime": 14.26,
+        "endTime": 14.48
+      },
+      {
+        "word": "March",
+        "startTime": 14.48,
+        "endTime": 14.92
+      },
+      {
+        "word": "earned",
+        "startTime": 14.92,
+        "endTime": 15.56
+      },
+      {
+        "word": "half",
+        "startTime": 15.56,
+        "endTime": 15.86
+      },
+      {
+        "word": "the",
+        "startTime": 15.86,
+        "endTime": 16.04
+      },
+      {
+        "word": "income",
+        "startTime": 16.04,
+        "endTime": 16.28
+      },
+      {
+        "word": "of",
+        "startTime": 16.28,
+        "endTime": 16.5
+      },
+      {
+        "word": "those",
+        "startTime": 16.5,
+        "endTime": 16.7
+      },
+      {
+        "word": "who",
+        "startTime": 16.7,
+        "endTime": 16.9
+      },
+      {
+        "word": "stored.",
+        "startTime": 16.9,
+        "endTime": 17.22
+      }
+    ]
+  },
+  {
+    "text": "An AI price forecasting model, available on WhatsApp, could have told every farmer in the lesson, agricultural commodity price forecasting using historical AMIS Kenya data, seasonal pattern analysis and AI assisted trend modeling.",
+    "startTime": 18.14,
+    "endTime": 39.78,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "An",
+        "startTime": 18.14,
+        "endTime": 18.4
+      },
+      {
+        "word": "AI",
+        "startTime": 18.4,
+        "endTime": 18.64
+      },
+      {
+        "word": "price",
+        "startTime": 18.64,
+        "endTime": 19.06
+      },
+      {
+        "word": "forecasting",
+        "startTime": 19.06,
+        "endTime": 19.68
+      },
+      {
+        "word": "model,",
+        "startTime": 19.68,
+        "endTime": 20.04
+      },
+      {
+        "word": "available",
+        "startTime": 20.52,
+        "endTime": 20.82
+      },
+      {
+        "word": "on",
+        "startTime": 20.82,
+        "endTime": 21.14
+      },
+      {
+        "word": "WhatsApp,",
+        "startTime": 21.14,
+        "endTime": 21.54
+      },
+      {
+        "word": "could",
+        "startTime": 22.08,
+        "endTime": 22.18
+      },
+      {
+        "word": "have",
+        "startTime": 22.18,
+        "endTime": 22.32
+      },
+      {
+        "word": "told",
+        "startTime": 22.32,
+        "endTime": 22.54
+      },
+      {
+        "word": "every",
+        "startTime": 22.54,
+        "endTime": 22.92
+      },
+      {
+        "word": "farmer",
+        "startTime": 22.92,
+        "endTime": 23.3
+      },
+      {
+        "word": "in",
+        "startTime": 23.3,
+        "endTime": 29.36
+      },
+      {
+        "word": "the",
+        "startTime": 29.36,
+        "endTime": 29.62
+      },
+      {
+        "word": "lesson,",
+        "startTime": 29.62,
+        "endTime": 29.96
+      },
+      {
+        "word": "agricultural",
+        "startTime": 30.62,
+        "endTime": 30.98
+      },
+      {
+        "word": "commodity",
+        "startTime": 30.98,
+        "endTime": 31.64
+      },
+      {
+        "word": "price",
+        "startTime": 31.64,
+        "endTime": 32.12
+      },
+      {
+        "word": "forecasting",
+        "startTime": 32.12,
+        "endTime": 32.54
+      },
+      {
+        "word": "using",
+        "startTime": 32.54,
+        "endTime": 33.46
+      },
+      {
+        "word": "historical",
+        "startTime": 33.46,
+        "endTime": 34.18
+      },
+      {
+        "word": "AMIS",
+        "startTime": 34.18,
+        "endTime": 34.78
+      },
+      {
+        "word": "Kenya",
+        "startTime": 34.78,
+        "endTime": 35.08
+      },
+      {
+        "word": "data,",
+        "startTime": 35.08,
+        "endTime": 35.54
+      },
+      {
+        "word": "seasonal",
+        "startTime": 36.26,
+        "endTime": 36.54
+      },
+      {
+        "word": "pattern",
+        "startTime": 36.54,
+        "endTime": 36.9
+      },
+      {
+        "word": "analysis",
+        "startTime": 36.9,
+        "endTime": 37.44
+      },
+      {
+        "word": "and",
+        "startTime": 37.44,
+        "endTime": 38.18
+      },
+      {
+        "word": "AI",
+        "startTime": 38.18,
+        "endTime": 38.46
+      },
+      {
+        "word": "assisted",
+        "startTime": 38.46,
+        "endTime": 38.98
+      },
+      {
+        "word": "trend",
+        "startTime": 38.98,
+        "endTime": 39.3
+      },
+      {
+        "word": "modeling.",
+        "startTime": 39.3,
+        "endTime": 39.78
+      }
+    ]
+  },
+  {
+    "text": "Covers the key variables that drive Kenyan may's, bean and coffee prices and how to build forecasts that are actually useful to farmers and cooperative managers.",
+    "startTime": 40.6,
+    "endTime": 49.64,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Covers",
+        "startTime": 40.6,
+        "endTime": 40.9
+      },
+      {
+        "word": "the",
+        "startTime": 40.9,
+        "endTime": 41.08
+      },
+      {
+        "word": "key",
+        "startTime": 41.08,
+        "endTime": 41.32
+      },
+      {
+        "word": "variables",
+        "startTime": 41.32,
+        "endTime": 41.78
+      },
+      {
+        "word": "that",
+        "startTime": 41.78,
+        "endTime": 42.06
+      },
+      {
+        "word": "drive",
+        "startTime": 42.06,
+        "endTime": 42.3
+      },
+      {
+        "word": "Kenyan",
+        "startTime": 42.3,
+        "endTime": 42.74
+      },
+      {
+        "word": "may's,",
+        "startTime": 42.74,
+        "endTime": 43.22
+      },
+      {
+        "word": "bean",
+        "startTime": 43.36,
+        "endTime": 43.5
+      },
+      {
+        "word": "and",
+        "startTime": 43.5,
+        "endTime": 43.76
+      },
+      {
+        "word": "coffee",
+        "startTime": 43.76,
+        "endTime": 44
+      },
+      {
+        "word": "prices",
+        "startTime": 44,
+        "endTime": 44.5
+      },
+      {
+        "word": "and",
+        "startTime": 44.5,
+        "endTime": 45.16
+      },
+      {
+        "word": "how",
+        "startTime": 45.16,
+        "endTime": 45.34
+      },
+      {
+        "word": "to",
+        "startTime": 45.34,
+        "endTime": 45.5
+      },
+      {
+        "word": "build",
+        "startTime": 45.5,
+        "endTime": 45.74
+      },
+      {
+        "word": "forecasts",
+        "startTime": 45.74,
+        "endTime": 46.22
+      },
+      {
+        "word": "that",
+        "startTime": 46.22,
+        "endTime": 46.88
+      },
+      {
+        "word": "are",
+        "startTime": 46.88,
+        "endTime": 47
+      },
+      {
+        "word": "actually",
+        "startTime": 47,
+        "endTime": 47.36
+      },
+      {
+        "word": "useful",
+        "startTime": 47.36,
+        "endTime": 47.8
+      },
+      {
+        "word": "to",
+        "startTime": 47.8,
+        "endTime": 48.02
+      },
+      {
+        "word": "farmers",
+        "startTime": 48.02,
+        "endTime": 48.38
+      },
+      {
+        "word": "and",
+        "startTime": 48.38,
+        "endTime": 48.64
+      },
+      {
+        "word": "cooperative",
+        "startTime": 48.64,
+        "endTime": 49.04
+      },
+      {
+        "word": "managers.",
+        "startTime": 49.04,
+        "endTime": 49.64
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 50.62,
+    "endTime": 54.32,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 50.62,
+        "endTime": 51
+      },
+      {
+        "word": "what",
+        "startTime": 51,
+        "endTime": 51.24
+      },
+      {
+        "word": "you",
+        "startTime": 51.24,
+        "endTime": 51.38
+      },
+      {
+        "word": "learn",
+        "startTime": 51.38,
+        "endTime": 51.58
+      },
+      {
+        "word": "in",
+        "startTime": 51.58,
+        "endTime": 51.72
+      },
+      {
+        "word": "this",
+        "startTime": 51.72,
+        "endTime": 51.92
+      },
+      {
+        "word": "lesson",
+        "startTime": 51.92,
+        "endTime": 52.28
+      },
+      {
+        "word": "and",
+        "startTime": 52.28,
+        "endTime": 52.82
+      },
+      {
+        "word": "you",
+        "startTime": 52.82,
+        "endTime": 52.98
+      },
+      {
+        "word": "will",
+        "startTime": 52.98,
+        "endTime": 53.08
+      },
+      {
+        "word": "see",
+        "startTime": 53.08,
+        "endTime": 53.28
+      },
+      {
+        "word": "results",
+        "startTime": 53.28,
+        "endTime": 53.7
+      },
+      {
+        "word": "immediately.",
+        "startTime": 53.7,
+        "endTime": 54.32
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 55.1,
+    "endTime": 56.26,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 55.1,
+        "endTime": 55.26
+      },
+      {
+        "word": "skills",
+        "startTime": 55.26,
+        "endTime": 55.68
+      },
+      {
+        "word": "bear",
+        "startTime": 55.68,
+        "endTime": 55.94
+      },
+      {
+        "word": "fruit.",
+        "startTime": 55.94,
+        "endTime": 56.26
+      }
+    ]
+  }
+]

@@ -1,0 +1,1311 @@
+[
+  {
+    "text": "A management consultant at a Nairobi firm used to spend six hours preparing competitor research for a client pitch.",
+    "startTime": 0,
+    "endTime": 6.46,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 0,
+        "endTime": 0.22
+      },
+      {
+        "word": "management",
+        "startTime": 0.22,
+        "endTime": 0.62
+      },
+      {
+        "word": "consultant",
+        "startTime": 0.62,
+        "endTime": 1.28
+      },
+      {
+        "word": "at",
+        "startTime": 1.28,
+        "endTime": 1.54
+      },
+      {
+        "word": "a",
+        "startTime": 1.54,
+        "endTime": 1.66
+      },
+      {
+        "word": "Nairobi",
+        "startTime": 1.66,
+        "endTime": 2
+      },
+      {
+        "word": "firm",
+        "startTime": 2,
+        "endTime": 2.44
+      },
+      {
+        "word": "used",
+        "startTime": 2.44,
+        "endTime": 2.74
+      },
+      {
+        "word": "to",
+        "startTime": 2.74,
+        "endTime": 2.9
+      },
+      {
+        "word": "spend",
+        "startTime": 2.9,
+        "endTime": 3.08
+      },
+      {
+        "word": "six",
+        "startTime": 3.08,
+        "endTime": 3.5
+      },
+      {
+        "word": "hours",
+        "startTime": 3.5,
+        "endTime": 3.8
+      },
+      {
+        "word": "preparing",
+        "startTime": 3.8,
+        "endTime": 4.2
+      },
+      {
+        "word": "competitor",
+        "startTime": 4.2,
+        "endTime": 4.8
+      },
+      {
+        "word": "research",
+        "startTime": 4.8,
+        "endTime": 5.3
+      },
+      {
+        "word": "for",
+        "startTime": 5.3,
+        "endTime": 5.6
+      },
+      {
+        "word": "a",
+        "startTime": 5.6,
+        "endTime": 5.72
+      },
+      {
+        "word": "client",
+        "startTime": 5.72,
+        "endTime": 6.02
+      },
+      {
+        "word": "pitch.",
+        "startTime": 6.02,
+        "endTime": 6.46
+      }
+    ]
+  },
+  {
+    "text": "After building one AI research workflow, she now does the same quality work in 45 minutes.",
+    "startTime": 7.08,
+    "endTime": 12.82,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "After",
+        "startTime": 7.08,
+        "endTime": 7.32
+      },
+      {
+        "word": "building",
+        "startTime": 7.32,
+        "endTime": 7.68
+      },
+      {
+        "word": "one",
+        "startTime": 7.68,
+        "endTime": 8.06
+      },
+      {
+        "word": "AI",
+        "startTime": 8.06,
+        "endTime": 8.32
+      },
+      {
+        "word": "research",
+        "startTime": 8.32,
+        "endTime": 8.8
+      },
+      {
+        "word": "workflow,",
+        "startTime": 8.8,
+        "endTime": 9.38
+      },
+      {
+        "word": "she",
+        "startTime": 9.9,
+        "endTime": 10.08
+      },
+      {
+        "word": "now",
+        "startTime": 10.08,
+        "endTime": 10.3
+      },
+      {
+        "word": "does",
+        "startTime": 10.3,
+        "endTime": 10.46
+      },
+      {
+        "word": "the",
+        "startTime": 10.46,
+        "endTime": 10.68
+      },
+      {
+        "word": "same",
+        "startTime": 10.68,
+        "endTime": 10.94
+      },
+      {
+        "word": "quality",
+        "startTime": 10.94,
+        "endTime": 11.34
+      },
+      {
+        "word": "work",
+        "startTime": 11.34,
+        "endTime": 11.66
+      },
+      {
+        "word": "in",
+        "startTime": 11.66,
+        "endTime": 11.88
+      },
+      {
+        "word": "45",
+        "startTime": 11.88,
+        "endTime": 12.42
+      },
+      {
+        "word": "minutes.",
+        "startTime": 12.42,
+        "endTime": 12.82
+      }
+    ]
+  },
+  {
+    "text": "The client cannot tell the difference.",
+    "startTime": 13.6,
+    "endTime": 15.16,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 13.6,
+        "endTime": 13.72
+      },
+      {
+        "word": "client",
+        "startTime": 13.72,
+        "endTime": 14.04
+      },
+      {
+        "word": "cannot",
+        "startTime": 14.04,
+        "endTime": 14.34
+      },
+      {
+        "word": "tell",
+        "startTime": 14.34,
+        "endTime": 14.58
+      },
+      {
+        "word": "the",
+        "startTime": 14.58,
+        "endTime": 14.74
+      },
+      {
+        "word": "difference.",
+        "startTime": 14.74,
+        "endTime": 15.16
+      }
+    ]
+  },
+  {
+    "text": "Her profitability certainly can.",
+    "startTime": 15.76,
+    "endTime": 17.5,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Her",
+        "startTime": 15.76,
+        "endTime": 15.98
+      },
+      {
+        "word": "profitability",
+        "startTime": 15.98,
+        "endTime": 16.6
+      },
+      {
+        "word": "certainly",
+        "startTime": 16.6,
+        "endTime": 17.2
+      },
+      {
+        "word": "can.",
+        "startTime": 17.2,
+        "endTime": 17.5
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, how to use AI to read, summarize, compare, and extract insight from documents faster and more systematically than any manual process.",
+    "startTime": 18.2,
+    "endTime": 28.42,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 18.2,
+        "endTime": 18.38
+      },
+      {
+        "word": "this",
+        "startTime": 18.38,
+        "endTime": 18.6
+      },
+      {
+        "word": "lesson,",
+        "startTime": 18.6,
+        "endTime": 18.96
+      },
+      {
+        "word": "how",
+        "startTime": 19.38,
+        "endTime": 19.68
+      },
+      {
+        "word": "to",
+        "startTime": 19.68,
+        "endTime": 19.84
+      },
+      {
+        "word": "use",
+        "startTime": 19.84,
+        "endTime": 20.16
+      },
+      {
+        "word": "AI",
+        "startTime": 20.16,
+        "endTime": 20.38
+      },
+      {
+        "word": "to",
+        "startTime": 20.38,
+        "endTime": 20.72
+      },
+      {
+        "word": "read,",
+        "startTime": 20.72,
+        "endTime": 21.04
+      },
+      {
+        "word": "summarize,",
+        "startTime": 21.5,
+        "endTime": 21.82
+      },
+      {
+        "word": "compare,",
+        "startTime": 22.3,
+        "endTime": 22.66
+      },
+      {
+        "word": "and",
+        "startTime": 23.04,
+        "endTime": 23.36
+      },
+      {
+        "word": "extract",
+        "startTime": 23.36,
+        "endTime": 23.7
+      },
+      {
+        "word": "insight",
+        "startTime": 23.7,
+        "endTime": 24.18
+      },
+      {
+        "word": "from",
+        "startTime": 24.18,
+        "endTime": 24.48
+      },
+      {
+        "word": "documents",
+        "startTime": 24.48,
+        "endTime": 24.92
+      },
+      {
+        "word": "faster",
+        "startTime": 24.92,
+        "endTime": 25.28
+      },
+      {
+        "word": "and",
+        "startTime": 25.28,
+        "endTime": 26.04
+      },
+      {
+        "word": "more",
+        "startTime": 26.04,
+        "endTime": 26.26
+      },
+      {
+        "word": "systematically",
+        "startTime": 26.26,
+        "endTime": 26.9
+      },
+      {
+        "word": "than",
+        "startTime": 26.9,
+        "endTime": 27.26
+      },
+      {
+        "word": "any",
+        "startTime": 27.26,
+        "endTime": 27.58
+      },
+      {
+        "word": "manual",
+        "startTime": 27.58,
+        "endTime": 27.98
+      },
+      {
+        "word": "process.",
+        "startTime": 27.98,
+        "endTime": 28.42
+      }
+    ]
+  },
+  {
+    "text": "We cover the four AI research patterns that save the most professional time, structured document summarisation, specifying exactly what you need, comparative analysis across multiple sources simultaneously, and the source grounded analysis technique that reduces hallucination risk.",
+    "startTime": 29.14,
+    "endTime": 47.94,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "We",
+        "startTime": 29.14,
+        "endTime": 29.36
+      },
+      {
+        "word": "cover",
+        "startTime": 29.36,
+        "endTime": 29.7
+      },
+      {
+        "word": "the",
+        "startTime": 29.7,
+        "endTime": 30.44
+      },
+      {
+        "word": "four",
+        "startTime": 30.44,
+        "endTime": 30.84
+      },
+      {
+        "word": "AI",
+        "startTime": 30.84,
+        "endTime": 31.06
+      },
+      {
+        "word": "research",
+        "startTime": 31.06,
+        "endTime": 31.5
+      },
+      {
+        "word": "patterns",
+        "startTime": 31.5,
+        "endTime": 31.94
+      },
+      {
+        "word": "that",
+        "startTime": 31.94,
+        "endTime": 32.22
+      },
+      {
+        "word": "save",
+        "startTime": 32.22,
+        "endTime": 32.48
+      },
+      {
+        "word": "the",
+        "startTime": 32.48,
+        "endTime": 32.66
+      },
+      {
+        "word": "most",
+        "startTime": 32.66,
+        "endTime": 32.86
+      },
+      {
+        "word": "professional",
+        "startTime": 32.86,
+        "endTime": 33.4
+      },
+      {
+        "word": "time,",
+        "startTime": 33.4,
+        "endTime": 33.86
+      },
+      {
+        "word": "structured",
+        "startTime": 34.48,
+        "endTime": 34.92
+      },
+      {
+        "word": "document",
+        "startTime": 34.92,
+        "endTime": 35.44
+      },
+      {
+        "word": "summarisation,",
+        "startTime": 35.44,
+        "endTime": 36.28
+      },
+      {
+        "word": "specifying",
+        "startTime": 36.86,
+        "endTime": 37.52
+      },
+      {
+        "word": "exactly",
+        "startTime": 37.52,
+        "endTime": 37.98
+      },
+      {
+        "word": "what",
+        "startTime": 37.98,
+        "endTime": 38.32
+      },
+      {
+        "word": "you",
+        "startTime": 38.32,
+        "endTime": 38.5
+      },
+      {
+        "word": "need,",
+        "startTime": 38.5,
+        "endTime": 38.88
+      },
+      {
+        "word": "comparative",
+        "startTime": 39.46,
+        "endTime": 39.98
+      },
+      {
+        "word": "analysis",
+        "startTime": 39.98,
+        "endTime": 40.56
+      },
+      {
+        "word": "across",
+        "startTime": 40.56,
+        "endTime": 40.98
+      },
+      {
+        "word": "multiple",
+        "startTime": 40.98,
+        "endTime": 41.44
+      },
+      {
+        "word": "sources",
+        "startTime": 41.44,
+        "endTime": 41.96
+      },
+      {
+        "word": "simultaneously,",
+        "startTime": 41.96,
+        "endTime": 42.86
+      },
+      {
+        "word": "and",
+        "startTime": 43.4,
+        "endTime": 43.88
+      },
+      {
+        "word": "the",
+        "startTime": 43.88,
+        "endTime": 44.4
+      },
+      {
+        "word": "source",
+        "startTime": 44.4,
+        "endTime": 44.7
+      },
+      {
+        "word": "grounded",
+        "startTime": 44.7,
+        "endTime": 45.12
+      },
+      {
+        "word": "analysis",
+        "startTime": 45.12,
+        "endTime": 45.54
+      },
+      {
+        "word": "technique",
+        "startTime": 45.54,
+        "endTime": 46.04
+      },
+      {
+        "word": "that",
+        "startTime": 46.04,
+        "endTime": 46.3
+      },
+      {
+        "word": "reduces",
+        "startTime": 46.3,
+        "endTime": 46.72
+      },
+      {
+        "word": "hallucination",
+        "startTime": 46.72,
+        "endTime": 47.46
+      },
+      {
+        "word": "risk.",
+        "startTime": 47.46,
+        "endTime": 47.94
+      }
+    ]
+  },
+  {
+    "text": "AI compresses research and analysis work by 60 -80 % when used correctly.",
+    "startTime": 48.62,
+    "endTime": 53.52,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "AI",
+        "startTime": 48.62,
+        "endTime": 48.92
+      },
+      {
+        "word": "compresses",
+        "startTime": 48.92,
+        "endTime": 49.58
+      },
+      {
+        "word": "research",
+        "startTime": 49.58,
+        "endTime": 49.96
+      },
+      {
+        "word": "and",
+        "startTime": 49.96,
+        "endTime": 50.2
+      },
+      {
+        "word": "analysis",
+        "startTime": 50.2,
+        "endTime": 50.6
+      },
+      {
+        "word": "work",
+        "startTime": 50.6,
+        "endTime": 51
+      },
+      {
+        "word": "by",
+        "startTime": 51,
+        "endTime": 51.18
+      },
+      {
+        "word": "60",
+        "startTime": 51.18,
+        "endTime": 51.6
+      },
+      {
+        "word": "-80",
+        "startTime": 51.6,
+        "endTime": 52.08
+      },
+      {
+        "word": "%",
+        "startTime": 52.08,
+        "endTime": 52.44
+      },
+      {
+        "word": "when",
+        "startTime": 52.44,
+        "endTime": 52.74
+      },
+      {
+        "word": "used",
+        "startTime": 52.74,
+        "endTime": 53.06
+      },
+      {
+        "word": "correctly.",
+        "startTime": 53.06,
+        "endTime": 53.52
+      }
+    ]
+  },
+  {
+    "text": "The critical phrase is, when used correctly.",
+    "startTime": 54.02,
+    "endTime": 56.96,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 54.02,
+        "endTime": 54.28
+      },
+      {
+        "word": "critical",
+        "startTime": 54.28,
+        "endTime": 54.66
+      },
+      {
+        "word": "phrase",
+        "startTime": 54.66,
+        "endTime": 55
+      },
+      {
+        "word": "is,",
+        "startTime": 55,
+        "endTime": 55.5
+      },
+      {
+        "word": "when",
+        "startTime": 55.96,
+        "endTime": 55.98
+      },
+      {
+        "word": "used",
+        "startTime": 55.98,
+        "endTime": 56.44
+      },
+      {
+        "word": "correctly.",
+        "startTime": 56.44,
+        "endTime": 56.96
+      }
+    ]
+  },
+  {
+    "text": "vague analytical prompts produce generic summaries that take as long to read as the original document.",
+    "startTime": 57.56,
+    "endTime": 62.84,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "vague",
+        "startTime": 57.56,
+        "endTime": 57.98
+      },
+      {
+        "word": "analytical",
+        "startTime": 57.98,
+        "endTime": 58.52
+      },
+      {
+        "word": "prompts",
+        "startTime": 58.52,
+        "endTime": 58.98
+      },
+      {
+        "word": "produce",
+        "startTime": 58.98,
+        "endTime": 59.36
+      },
+      {
+        "word": "generic",
+        "startTime": 59.36,
+        "endTime": 59.84
+      },
+      {
+        "word": "summaries",
+        "startTime": 59.84,
+        "endTime": 60.34
+      },
+      {
+        "word": "that",
+        "startTime": 60.34,
+        "endTime": 60.52
+      },
+      {
+        "word": "take",
+        "startTime": 60.52,
+        "endTime": 60.74
+      },
+      {
+        "word": "as",
+        "startTime": 60.74,
+        "endTime": 60.9
+      },
+      {
+        "word": "long",
+        "startTime": 60.9,
+        "endTime": 61.06
+      },
+      {
+        "word": "to",
+        "startTime": 61.06,
+        "endTime": 61.3
+      },
+      {
+        "word": "read",
+        "startTime": 61.3,
+        "endTime": 61.5
+      },
+      {
+        "word": "as",
+        "startTime": 61.5,
+        "endTime": 61.76
+      },
+      {
+        "word": "the",
+        "startTime": 61.76,
+        "endTime": 61.86
+      },
+      {
+        "word": "original",
+        "startTime": 61.86,
+        "endTime": 62.22
+      },
+      {
+        "word": "document.",
+        "startTime": 62.22,
+        "endTime": 62.84
+      }
+    ]
+  },
+  {
+    "text": "The quality of analytical AI output is determined almost entirely by the quality of the analytical question you ask.",
+    "startTime": 63.52,
+    "endTime": 69.82,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 63.52,
+        "endTime": 63.64
+      },
+      {
+        "word": "quality",
+        "startTime": 63.64,
+        "endTime": 64.02
+      },
+      {
+        "word": "of",
+        "startTime": 64.02,
+        "endTime": 64.2
+      },
+      {
+        "word": "analytical",
+        "startTime": 64.2,
+        "endTime": 64.66
+      },
+      {
+        "word": "AI",
+        "startTime": 64.66,
+        "endTime": 65.04
+      },
+      {
+        "word": "output",
+        "startTime": 65.04,
+        "endTime": 65.62
+      },
+      {
+        "word": "is",
+        "startTime": 65.62,
+        "endTime": 65.88
+      },
+      {
+        "word": "determined",
+        "startTime": 65.88,
+        "endTime": 66.22
+      },
+      {
+        "word": "almost",
+        "startTime": 66.22,
+        "endTime": 66.64
+      },
+      {
+        "word": "entirely",
+        "startTime": 66.64,
+        "endTime": 67.22
+      },
+      {
+        "word": "by",
+        "startTime": 67.22,
+        "endTime": 67.48
+      },
+      {
+        "word": "the",
+        "startTime": 67.48,
+        "endTime": 67.62
+      },
+      {
+        "word": "quality",
+        "startTime": 67.62,
+        "endTime": 68
+      },
+      {
+        "word": "of",
+        "startTime": 68,
+        "endTime": 68.18
+      },
+      {
+        "word": "the",
+        "startTime": 68.18,
+        "endTime": 68.3
+      },
+      {
+        "word": "analytical",
+        "startTime": 68.3,
+        "endTime": 68.66
+      },
+      {
+        "word": "question",
+        "startTime": 68.66,
+        "endTime": 69.22
+      },
+      {
+        "word": "you",
+        "startTime": 69.22,
+        "endTime": 69.44
+      },
+      {
+        "word": "ask.",
+        "startTime": 69.44,
+        "endTime": 69.82
+      }
+    ]
+  },
+  {
+    "text": "A better analyst asks better questions.",
+    "startTime": 70.56,
+    "endTime": 72.64,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 70.56,
+        "endTime": 70.68
+      },
+      {
+        "word": "better",
+        "startTime": 70.68,
+        "endTime": 70.9
+      },
+      {
+        "word": "analyst",
+        "startTime": 70.9,
+        "endTime": 71.3
+      },
+      {
+        "word": "asks",
+        "startTime": 71.3,
+        "endTime": 71.82
+      },
+      {
+        "word": "better",
+        "startTime": 71.82,
+        "endTime": 72.12
+      },
+      {
+        "word": "questions.",
+        "startTime": 72.12,
+        "endTime": 72.64
+      }
+    ]
+  },
+  {
+    "text": "AI just answers faster.",
+    "startTime": 73.46,
+    "endTime": 75.18,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "AI",
+        "startTime": 73.46,
+        "endTime": 73.74
+      },
+      {
+        "word": "just",
+        "startTime": 73.74,
+        "endTime": 74.14
+      },
+      {
+        "word": "answers",
+        "startTime": 74.14,
+        "endTime": 74.54
+      },
+      {
+        "word": "faster.",
+        "startTime": 74.54,
+        "endTime": 75.18
+      }
+    ]
+  },
+  {
+    "text": "Investing three minutes in a precise analytical prompt saves 45 minutes of editing a generic response.",
+    "startTime": 75.88,
+    "endTime": 81.74,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Investing",
+        "startTime": 75.88,
+        "endTime": 76.36
+      },
+      {
+        "word": "three",
+        "startTime": 76.36,
+        "endTime": 76.62
+      },
+      {
+        "word": "minutes",
+        "startTime": 76.62,
+        "endTime": 76.86
+      },
+      {
+        "word": "in",
+        "startTime": 76.86,
+        "endTime": 77.06
+      },
+      {
+        "word": "a",
+        "startTime": 77.06,
+        "endTime": 77.16
+      },
+      {
+        "word": "precise",
+        "startTime": 77.16,
+        "endTime": 77.48
+      },
+      {
+        "word": "analytical",
+        "startTime": 77.48,
+        "endTime": 77.96
+      },
+      {
+        "word": "prompt",
+        "startTime": 77.96,
+        "endTime": 78.5
+      },
+      {
+        "word": "saves",
+        "startTime": 78.5,
+        "endTime": 79.2
+      },
+      {
+        "word": "45",
+        "startTime": 79.2,
+        "endTime": 79.86
+      },
+      {
+        "word": "minutes",
+        "startTime": 79.86,
+        "endTime": 80.2
+      },
+      {
+        "word": "of",
+        "startTime": 80.2,
+        "endTime": 80.44
+      },
+      {
+        "word": "editing",
+        "startTime": 80.44,
+        "endTime": 80.72
+      },
+      {
+        "word": "a",
+        "startTime": 80.72,
+        "endTime": 80.94
+      },
+      {
+        "word": "generic",
+        "startTime": 80.94,
+        "endTime": 81.26
+      },
+      {
+        "word": "response.",
+        "startTime": 81.26,
+        "endTime": 81.74
+      }
+    ]
+  },
+  {
+    "text": "Remember this.",
+    "startTime": 82.56,
+    "endTime": 83.36,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Remember",
+        "startTime": 82.56,
+        "endTime": 82.98
+      },
+      {
+        "word": "this.",
+        "startTime": 82.98,
+        "endTime": 83.36
+      }
+    ]
+  },
+  {
+    "text": "Always verify key figures, dates, and names against the original source document.",
+    "startTime": 83.86,
+    "endTime": 88.9,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Always",
+        "startTime": 83.86,
+        "endTime": 84.28
+      },
+      {
+        "word": "verify",
+        "startTime": 84.28,
+        "endTime": 84.84
+      },
+      {
+        "word": "key",
+        "startTime": 84.84,
+        "endTime": 85.2
+      },
+      {
+        "word": "figures,",
+        "startTime": 85.2,
+        "endTime": 85.6
+      },
+      {
+        "word": "dates,",
+        "startTime": 86,
+        "endTime": 86.14
+      },
+      {
+        "word": "and",
+        "startTime": 86.4,
+        "endTime": 86.44
+      },
+      {
+        "word": "names",
+        "startTime": 86.44,
+        "endTime": 86.82
+      },
+      {
+        "word": "against",
+        "startTime": 86.82,
+        "endTime": 87.44
+      },
+      {
+        "word": "the",
+        "startTime": 87.44,
+        "endTime": 87.68
+      },
+      {
+        "word": "original",
+        "startTime": 87.68,
+        "endTime": 88.04
+      },
+      {
+        "word": "source",
+        "startTime": 88.04,
+        "endTime": 88.34
+      },
+      {
+        "word": "document.",
+        "startTime": 88.34,
+        "endTime": 88.9
+      }
+    ]
+  },
+  {
+    "text": "AI can misread numbers even when you paste the source document directly into the prompt.",
+    "startTime": 89.74,
+    "endTime": 94.18,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "AI",
+        "startTime": 89.74,
+        "endTime": 90.04
+      },
+      {
+        "word": "can",
+        "startTime": 90.04,
+        "endTime": 90.34
+      },
+      {
+        "word": "misread",
+        "startTime": 90.34,
+        "endTime": 90.74
+      },
+      {
+        "word": "numbers",
+        "startTime": 90.74,
+        "endTime": 91.12
+      },
+      {
+        "word": "even",
+        "startTime": 91.12,
+        "endTime": 91.5
+      },
+      {
+        "word": "when",
+        "startTime": 91.5,
+        "endTime": 91.7
+      },
+      {
+        "word": "you",
+        "startTime": 91.7,
+        "endTime": 91.84
+      },
+      {
+        "word": "paste",
+        "startTime": 91.84,
+        "endTime": 92.06
+      },
+      {
+        "word": "the",
+        "startTime": 92.06,
+        "endTime": 92.26
+      },
+      {
+        "word": "source",
+        "startTime": 92.26,
+        "endTime": 92.48
+      },
+      {
+        "word": "document",
+        "startTime": 92.48,
+        "endTime": 92.96
+      },
+      {
+        "word": "directly",
+        "startTime": 92.96,
+        "endTime": 93.28
+      },
+      {
+        "word": "into",
+        "startTime": 93.28,
+        "endTime": 93.66
+      },
+      {
+        "word": "the",
+        "startTime": 93.66,
+        "endTime": 93.8
+      },
+      {
+        "word": "prompt.",
+        "startTime": 93.8,
+        "endTime": 94.18
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 94.94,
+    "endTime": 98.44,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 94.94,
+        "endTime": 95.22
+      },
+      {
+        "word": "what",
+        "startTime": 95.22,
+        "endTime": 95.44
+      },
+      {
+        "word": "you",
+        "startTime": 95.44,
+        "endTime": 95.58
+      },
+      {
+        "word": "learn",
+        "startTime": 95.58,
+        "endTime": 95.8
+      },
+      {
+        "word": "in",
+        "startTime": 95.8,
+        "endTime": 95.94
+      },
+      {
+        "word": "this",
+        "startTime": 95.94,
+        "endTime": 96.12
+      },
+      {
+        "word": "lesson",
+        "startTime": 96.12,
+        "endTime": 96.46
+      },
+      {
+        "word": "and",
+        "startTime": 96.46,
+        "endTime": 97
+      },
+      {
+        "word": "you",
+        "startTime": 97,
+        "endTime": 97.14
+      },
+      {
+        "word": "will",
+        "startTime": 97.14,
+        "endTime": 97.24
+      },
+      {
+        "word": "see",
+        "startTime": 97.24,
+        "endTime": 97.42
+      },
+      {
+        "word": "results",
+        "startTime": 97.42,
+        "endTime": 97.8
+      },
+      {
+        "word": "immediately.",
+        "startTime": 97.8,
+        "endTime": 98.44
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 99.08,
+    "endTime": 100.3,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 99.08,
+        "endTime": 99.22
+      },
+      {
+        "word": "skills",
+        "startTime": 99.22,
+        "endTime": 99.68
+      },
+      {
+        "word": "bear",
+        "startTime": 99.68,
+        "endTime": 99.96
+      },
+      {
+        "word": "fruit.",
+        "startTime": 99.96,
+        "endTime": 100.3
+      }
+    ]
+  }
+]

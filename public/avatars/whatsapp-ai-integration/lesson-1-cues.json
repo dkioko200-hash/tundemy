@@ -1,0 +1,1562 @@
+[
+  {
+    "text": "WhatsApp has 3 billion active users.",
+    "startTime": 0,
+    "endTime": 2.12,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "WhatsApp",
+        "startTime": 0,
+        "endTime": 0.42
+      },
+      {
+        "word": "has",
+        "startTime": 0.42,
+        "endTime": 0.68
+      },
+      {
+        "word": "3",
+        "startTime": 0.68,
+        "endTime": 0.96
+      },
+      {
+        "word": "billion",
+        "startTime": 0.96,
+        "endTime": 1.26
+      },
+      {
+        "word": "active",
+        "startTime": 1.26,
+        "endTime": 1.64
+      },
+      {
+        "word": "users.",
+        "startTime": 1.64,
+        "endTime": 2.12
+      }
+    ]
+  },
+  {
+    "text": "In Kenya, its penetration among smartphone owners is over 95%.",
+    "startTime": 2.68,
+    "endTime": 7.04,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 2.68,
+        "endTime": 2.84
+      },
+      {
+        "word": "Kenya,",
+        "startTime": 2.84,
+        "endTime": 3.18
+      },
+      {
+        "word": "its",
+        "startTime": 3.32,
+        "endTime": 3.46
+      },
+      {
+        "word": "penetration",
+        "startTime": 3.46,
+        "endTime": 3.86
+      },
+      {
+        "word": "among",
+        "startTime": 3.86,
+        "endTime": 4.28
+      },
+      {
+        "word": "smartphone",
+        "startTime": 4.28,
+        "endTime": 4.82
+      },
+      {
+        "word": "owners",
+        "startTime": 4.82,
+        "endTime": 5.18
+      },
+      {
+        "word": "is",
+        "startTime": 5.18,
+        "endTime": 5.38
+      },
+      {
+        "word": "over",
+        "startTime": 5.38,
+        "endTime": 5.62
+      },
+      {
+        "word": "95%.",
+        "startTime": 5.62,
+        "endTime": 7.04
+      }
+    ]
+  },
+  {
+    "text": "Every business in the country communicates with customers on WhatsApp.",
+    "startTime": 7.04,
+    "endTime": 10.56,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Every",
+        "startTime": 7.04,
+        "endTime": 7.66
+      },
+      {
+        "word": "business",
+        "startTime": 7.66,
+        "endTime": 8.02
+      },
+      {
+        "word": "in",
+        "startTime": 8.02,
+        "endTime": 8.22
+      },
+      {
+        "word": "the",
+        "startTime": 8.22,
+        "endTime": 8.34
+      },
+      {
+        "word": "country",
+        "startTime": 8.34,
+        "endTime": 8.64
+      },
+      {
+        "word": "communicates",
+        "startTime": 8.64,
+        "endTime": 9.36
+      },
+      {
+        "word": "with",
+        "startTime": 9.36,
+        "endTime": 9.5
+      },
+      {
+        "word": "customers",
+        "startTime": 9.5,
+        "endTime": 9.92
+      },
+      {
+        "word": "on",
+        "startTime": 9.92,
+        "endTime": 10.18
+      },
+      {
+        "word": "WhatsApp.",
+        "startTime": 10.18,
+        "endTime": 10.56
+      }
+    ]
+  },
+  {
+    "text": "Most of them are doing it manually.",
+    "startTime": 11.28,
+    "endTime": 12.78,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Most",
+        "startTime": 11.28,
+        "endTime": 11.42
+      },
+      {
+        "word": "of",
+        "startTime": 11.42,
+        "endTime": 11.62
+      },
+      {
+        "word": "them",
+        "startTime": 11.62,
+        "endTime": 11.76
+      },
+      {
+        "word": "are",
+        "startTime": 11.76,
+        "endTime": 11.92
+      },
+      {
+        "word": "doing",
+        "startTime": 11.92,
+        "endTime": 12.16
+      },
+      {
+        "word": "it",
+        "startTime": 12.16,
+        "endTime": 12.36
+      },
+      {
+        "word": "manually.",
+        "startTime": 12.36,
+        "endTime": 12.78
+      }
+    ]
+  },
+  {
+    "text": "That gap is your opportunity.",
+    "startTime": 13.48,
+    "endTime": 14.96,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "That",
+        "startTime": 13.48,
+        "endTime": 13.66
+      },
+      {
+        "word": "gap",
+        "startTime": 13.66,
+        "endTime": 13.92
+      },
+      {
+        "word": "is",
+        "startTime": 13.92,
+        "endTime": 14.26
+      },
+      {
+        "word": "your",
+        "startTime": 14.26,
+        "endTime": 14.38
+      },
+      {
+        "word": "opportunity.",
+        "startTime": 14.38,
+        "endTime": 14.96
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, the WhatsApp business ecosystem has 3 tiers, the free business app for individuals, the business platform, cloud API for automation, and WhatsApp flows for in -app forms and payments.",
+    "startTime": 15.62,
+    "endTime": 28.44,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 15.62,
+        "endTime": 15.74
+      },
+      {
+        "word": "this",
+        "startTime": 15.74,
+        "endTime": 15.92
+      },
+      {
+        "word": "lesson,",
+        "startTime": 15.92,
+        "endTime": 16.26
+      },
+      {
+        "word": "the",
+        "startTime": 16.84,
+        "endTime": 16.94
+      },
+      {
+        "word": "WhatsApp",
+        "startTime": 16.94,
+        "endTime": 17.28
+      },
+      {
+        "word": "business",
+        "startTime": 17.28,
+        "endTime": 17.66
+      },
+      {
+        "word": "ecosystem",
+        "startTime": 17.66,
+        "endTime": 18.28
+      },
+      {
+        "word": "has",
+        "startTime": 18.28,
+        "endTime": 18.6
+      },
+      {
+        "word": "3",
+        "startTime": 18.6,
+        "endTime": 18.92
+      },
+      {
+        "word": "tiers,",
+        "startTime": 18.92,
+        "endTime": 19.28
+      },
+      {
+        "word": "the",
+        "startTime": 19.88,
+        "endTime": 20.04
+      },
+      {
+        "word": "free",
+        "startTime": 20.04,
+        "endTime": 20.3
+      },
+      {
+        "word": "business",
+        "startTime": 20.3,
+        "endTime": 20.64
+      },
+      {
+        "word": "app",
+        "startTime": 20.64,
+        "endTime": 20.88
+      },
+      {
+        "word": "for",
+        "startTime": 20.88,
+        "endTime": 21.08
+      },
+      {
+        "word": "individuals,",
+        "startTime": 21.08,
+        "endTime": 21.6
+      },
+      {
+        "word": "the",
+        "startTime": 22.18,
+        "endTime": 22.42
+      },
+      {
+        "word": "business",
+        "startTime": 22.42,
+        "endTime": 22.7
+      },
+      {
+        "word": "platform,",
+        "startTime": 22.7,
+        "endTime": 23.24
+      },
+      {
+        "word": "cloud",
+        "startTime": 23.68,
+        "endTime": 23.92
+      },
+      {
+        "word": "API",
+        "startTime": 23.92,
+        "endTime": 24.36
+      },
+      {
+        "word": "for",
+        "startTime": 24.36,
+        "endTime": 24.8
+      },
+      {
+        "word": "automation,",
+        "startTime": 24.8,
+        "endTime": 25.34
+      },
+      {
+        "word": "and",
+        "startTime": 25.34,
+        "endTime": 26.04
+      },
+      {
+        "word": "WhatsApp",
+        "startTime": 26.04,
+        "endTime": 26.44
+      },
+      {
+        "word": "flows",
+        "startTime": 26.44,
+        "endTime": 26.74
+      },
+      {
+        "word": "for",
+        "startTime": 26.74,
+        "endTime": 27.04
+      },
+      {
+        "word": "in",
+        "startTime": 27.04,
+        "endTime": 27.28
+      },
+      {
+        "word": "-app",
+        "startTime": 27.28,
+        "endTime": 27.4
+      },
+      {
+        "word": "forms",
+        "startTime": 27.4,
+        "endTime": 27.84
+      },
+      {
+        "word": "and",
+        "startTime": 27.84,
+        "endTime": 28.08
+      },
+      {
+        "word": "payments.",
+        "startTime": 28.08,
+        "endTime": 28.44
+      }
+    ]
+  },
+  {
+    "text": "This lesson covers the architecture, what each tier can do, the pricing model, and what Kenya's biggest businesses are already automating.",
+    "startTime": 29.06,
+    "endTime": 36.98,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "This",
+        "startTime": 29.06,
+        "endTime": 29.36
+      },
+      {
+        "word": "lesson",
+        "startTime": 29.36,
+        "endTime": 29.7
+      },
+      {
+        "word": "covers",
+        "startTime": 29.7,
+        "endTime": 30.02
+      },
+      {
+        "word": "the",
+        "startTime": 30.02,
+        "endTime": 30.22
+      },
+      {
+        "word": "architecture,",
+        "startTime": 30.22,
+        "endTime": 30.8
+      },
+      {
+        "word": "what",
+        "startTime": 31.28,
+        "endTime": 31.44
+      },
+      {
+        "word": "each",
+        "startTime": 31.44,
+        "endTime": 31.72
+      },
+      {
+        "word": "tier",
+        "startTime": 31.72,
+        "endTime": 31.94
+      },
+      {
+        "word": "can",
+        "startTime": 31.94,
+        "endTime": 32.16
+      },
+      {
+        "word": "do,",
+        "startTime": 32.16,
+        "endTime": 32.38
+      },
+      {
+        "word": "the",
+        "startTime": 32.86,
+        "endTime": 32.96
+      },
+      {
+        "word": "pricing",
+        "startTime": 32.96,
+        "endTime": 33.3
+      },
+      {
+        "word": "model,",
+        "startTime": 33.3,
+        "endTime": 33.7
+      },
+      {
+        "word": "and",
+        "startTime": 34.08,
+        "endTime": 34.32
+      },
+      {
+        "word": "what",
+        "startTime": 34.32,
+        "endTime": 34.5
+      },
+      {
+        "word": "Kenya's",
+        "startTime": 34.5,
+        "endTime": 34.96
+      },
+      {
+        "word": "biggest",
+        "startTime": 34.96,
+        "endTime": 35.16
+      },
+      {
+        "word": "businesses",
+        "startTime": 35.16,
+        "endTime": 35.68
+      },
+      {
+        "word": "are",
+        "startTime": 35.68,
+        "endTime": 36.02
+      },
+      {
+        "word": "already",
+        "startTime": 36.02,
+        "endTime": 36.36
+      },
+      {
+        "word": "automating.",
+        "startTime": 36.36,
+        "endTime": 36.98
+      }
+    ]
+  },
+  {
+    "text": "The Metacloud API, formerly the WhatsApp Business API, gives developers programmatic access to WhatsApp messaging at scale.",
+    "startTime": 38.28,
+    "endTime": 45.94,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 38.28,
+        "endTime": 38.42
+      },
+      {
+        "word": "Metacloud",
+        "startTime": 38.42,
+        "endTime": 38.94
+      },
+      {
+        "word": "API,",
+        "startTime": 38.94,
+        "endTime": 39.5
+      },
+      {
+        "word": "formerly",
+        "startTime": 40.04,
+        "endTime": 40.48
+      },
+      {
+        "word": "the",
+        "startTime": 40.48,
+        "endTime": 40.66
+      },
+      {
+        "word": "WhatsApp",
+        "startTime": 40.66,
+        "endTime": 41
+      },
+      {
+        "word": "Business",
+        "startTime": 41,
+        "endTime": 41.36
+      },
+      {
+        "word": "API,",
+        "startTime": 41.36,
+        "endTime": 41.92
+      },
+      {
+        "word": "gives",
+        "startTime": 42.48,
+        "endTime": 42.62
+      },
+      {
+        "word": "developers",
+        "startTime": 42.62,
+        "endTime": 43.16
+      },
+      {
+        "word": "programmatic",
+        "startTime": 43.16,
+        "endTime": 43.94
+      },
+      {
+        "word": "access",
+        "startTime": 43.94,
+        "endTime": 44.28
+      },
+      {
+        "word": "to",
+        "startTime": 44.28,
+        "endTime": 44.58
+      },
+      {
+        "word": "WhatsApp",
+        "startTime": 44.58,
+        "endTime": 44.9
+      },
+      {
+        "word": "messaging",
+        "startTime": 44.9,
+        "endTime": 45.38
+      },
+      {
+        "word": "at",
+        "startTime": 45.38,
+        "endTime": 45.58
+      },
+      {
+        "word": "scale.",
+        "startTime": 45.58,
+        "endTime": 45.94
+      }
+    ]
+  },
+  {
+    "text": "Unlike the free business app it can, send and receive messages from code, handle thousands of conversations simultaneously, integrate with databases and payment systems, trigger messages from external events like MPSA payments or order placements, and maintain 24 -7 availability without a human operator.",
+    "startTime": 46.6,
+    "endTime": 66.36,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Unlike",
+        "startTime": 46.6,
+        "endTime": 46.9
+      },
+      {
+        "word": "the",
+        "startTime": 46.9,
+        "endTime": 47.1
+      },
+      {
+        "word": "free",
+        "startTime": 47.1,
+        "endTime": 47.3
+      },
+      {
+        "word": "business",
+        "startTime": 47.3,
+        "endTime": 47.62
+      },
+      {
+        "word": "app",
+        "startTime": 47.62,
+        "endTime": 47.98
+      },
+      {
+        "word": "it",
+        "startTime": 47.98,
+        "endTime": 48.12
+      },
+      {
+        "word": "can,",
+        "startTime": 48.12,
+        "endTime": 48.36
+      },
+      {
+        "word": "send",
+        "startTime": 48.96,
+        "endTime": 49.24
+      },
+      {
+        "word": "and",
+        "startTime": 49.24,
+        "endTime": 49.44
+      },
+      {
+        "word": "receive",
+        "startTime": 49.44,
+        "endTime": 49.72
+      },
+      {
+        "word": "messages",
+        "startTime": 49.72,
+        "endTime": 50.18
+      },
+      {
+        "word": "from",
+        "startTime": 50.18,
+        "endTime": 50.46
+      },
+      {
+        "word": "code,",
+        "startTime": 50.46,
+        "endTime": 50.86
+      },
+      {
+        "word": "handle",
+        "startTime": 51.38,
+        "endTime": 51.74
+      },
+      {
+        "word": "thousands",
+        "startTime": 51.74,
+        "endTime": 52.2
+      },
+      {
+        "word": "of",
+        "startTime": 52.2,
+        "endTime": 52.42
+      },
+      {
+        "word": "conversations",
+        "startTime": 52.42,
+        "endTime": 53.06
+      },
+      {
+        "word": "simultaneously,",
+        "startTime": 53.06,
+        "endTime": 54.02
+      },
+      {
+        "word": "integrate",
+        "startTime": 54.62,
+        "endTime": 55.04
+      },
+      {
+        "word": "with",
+        "startTime": 55.04,
+        "endTime": 55.28
+      },
+      {
+        "word": "databases",
+        "startTime": 55.28,
+        "endTime": 55.64
+      },
+      {
+        "word": "and",
+        "startTime": 55.64,
+        "endTime": 56.12
+      },
+      {
+        "word": "payment",
+        "startTime": 56.12,
+        "endTime": 56.42
+      },
+      {
+        "word": "systems,",
+        "startTime": 56.42,
+        "endTime": 57
+      },
+      {
+        "word": "trigger",
+        "startTime": 57.74,
+        "endTime": 57.86
+      },
+      {
+        "word": "messages",
+        "startTime": 57.86,
+        "endTime": 58.26
+      },
+      {
+        "word": "from",
+        "startTime": 58.26,
+        "endTime": 58.58
+      },
+      {
+        "word": "external",
+        "startTime": 58.58,
+        "endTime": 59.08
+      },
+      {
+        "word": "events",
+        "startTime": 59.08,
+        "endTime": 59.4
+      },
+      {
+        "word": "like",
+        "startTime": 59.4,
+        "endTime": 59.76
+      },
+      {
+        "word": "MPSA",
+        "startTime": 59.76,
+        "endTime": 60.3
+      },
+      {
+        "word": "payments",
+        "startTime": 60.3,
+        "endTime": 60.62
+      },
+      {
+        "word": "or",
+        "startTime": 60.62,
+        "endTime": 60.94
+      },
+      {
+        "word": "order",
+        "startTime": 60.94,
+        "endTime": 61.2
+      },
+      {
+        "word": "placements,",
+        "startTime": 61.2,
+        "endTime": 61.76
+      },
+      {
+        "word": "and",
+        "startTime": 62.38,
+        "endTime": 62.6
+      },
+      {
+        "word": "maintain",
+        "startTime": 62.6,
+        "endTime": 62.96
+      },
+      {
+        "word": "24",
+        "startTime": 62.96,
+        "endTime": 63.52
+      },
+      {
+        "word": "-7",
+        "startTime": 63.52,
+        "endTime": 63.94
+      },
+      {
+        "word": "availability",
+        "startTime": 63.94,
+        "endTime": 64.42
+      },
+      {
+        "word": "without",
+        "startTime": 64.42,
+        "endTime": 65.38
+      },
+      {
+        "word": "a",
+        "startTime": 65.38,
+        "endTime": 65.58
+      },
+      {
+        "word": "human",
+        "startTime": 65.58,
+        "endTime": 65.84
+      },
+      {
+        "word": "operator.",
+        "startTime": 65.84,
+        "endTime": 66.36
+      }
+    ]
+  },
+  {
+    "text": "The architecture has four components.",
+    "startTime": 67.16,
+    "endTime": 68.86,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 67.16,
+        "endTime": 67.4
+      },
+      {
+        "word": "architecture",
+        "startTime": 67.4,
+        "endTime": 67.8
+      },
+      {
+        "word": "has",
+        "startTime": 67.8,
+        "endTime": 68.14
+      },
+      {
+        "word": "four",
+        "startTime": 68.14,
+        "endTime": 68.36
+      },
+      {
+        "word": "components.",
+        "startTime": 68.36,
+        "endTime": 68.86
+      }
+    ]
+  },
+  {
+    "text": "One, Metacloud API, the server Meta runs that handles message routing, delivery, and compliance.",
+    "startTime": 69.64,
+    "endTime": 76.64,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "One,",
+        "startTime": 69.64,
+        "endTime": 69.8
+      },
+      {
+        "word": "Metacloud",
+        "startTime": 70.52,
+        "endTime": 71
+      },
+      {
+        "word": "API,",
+        "startTime": 71,
+        "endTime": 71.6
+      },
+      {
+        "word": "the",
+        "startTime": 72.36,
+        "endTime": 72.46
+      },
+      {
+        "word": "server",
+        "startTime": 72.46,
+        "endTime": 72.8
+      },
+      {
+        "word": "Meta",
+        "startTime": 72.8,
+        "endTime": 73.18
+      },
+      {
+        "word": "runs",
+        "startTime": 73.18,
+        "endTime": 73.4
+      },
+      {
+        "word": "that",
+        "startTime": 73.4,
+        "endTime": 73.62
+      },
+      {
+        "word": "handles",
+        "startTime": 73.62,
+        "endTime": 73.98
+      },
+      {
+        "word": "message",
+        "startTime": 73.98,
+        "endTime": 74.36
+      },
+      {
+        "word": "routing,",
+        "startTime": 74.36,
+        "endTime": 74.74
+      },
+      {
+        "word": "delivery,",
+        "startTime": 75.28,
+        "endTime": 75.5
+      },
+      {
+        "word": "and",
+        "startTime": 76.06,
+        "endTime": 76.16
+      },
+      {
+        "word": "compliance.",
+        "startTime": 76.16,
+        "endTime": 76.64
+      }
+    ]
+  },
+  {
+    "text": "The Metacloud API is free for the first 1000 conversations per month.",
+    "startTime": 77.42,
+    "endTime": 81.72,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 77.42,
+        "endTime": 77.6
+      },
+      {
+        "word": "Metacloud",
+        "startTime": 77.6,
+        "endTime": 78.12
+      },
+      {
+        "word": "API",
+        "startTime": 78.12,
+        "endTime": 78.64
+      },
+      {
+        "word": "is",
+        "startTime": 78.64,
+        "endTime": 78.98
+      },
+      {
+        "word": "free",
+        "startTime": 78.98,
+        "endTime": 79.26
+      },
+      {
+        "word": "for",
+        "startTime": 79.26,
+        "endTime": 79.44
+      },
+      {
+        "word": "the",
+        "startTime": 79.44,
+        "endTime": 79.56
+      },
+      {
+        "word": "first",
+        "startTime": 79.56,
+        "endTime": 79.86
+      },
+      {
+        "word": "1000",
+        "startTime": 79.86,
+        "endTime": 80.44
+      },
+      {
+        "word": "conversations",
+        "startTime": 80.44,
+        "endTime": 81.04
+      },
+      {
+        "word": "per",
+        "startTime": 81.04,
+        "endTime": 81.44
+      },
+      {
+        "word": "month.",
+        "startTime": 81.44,
+        "endTime": 81.72
+      }
+    ]
+  },
+  {
+    "text": "After that, it costs approximately 0 .0125 dollars per conversation in Kenya, category, service.",
+    "startTime": 82.38,
+    "endTime": 89.74,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "After",
+        "startTime": 82.38,
+        "endTime": 82.68
+      },
+      {
+        "word": "that,",
+        "startTime": 82.68,
+        "endTime": 82.98
+      },
+      {
+        "word": "it",
+        "startTime": 83.4,
+        "endTime": 83.48
+      },
+      {
+        "word": "costs",
+        "startTime": 83.48,
+        "endTime": 83.72
+      },
+      {
+        "word": "approximately",
+        "startTime": 83.72,
+        "endTime": 84.44
+      },
+      {
+        "word": "0",
+        "startTime": 84.44,
+        "endTime": 84.82
+      },
+      {
+        "word": ".0125",
+        "startTime": 84.82,
+        "endTime": 85.96
+      },
+      {
+        "word": "dollars",
+        "startTime": 85.96,
+        "endTime": 86.68
+      },
+      {
+        "word": "per",
+        "startTime": 86.68,
+        "endTime": 86.88
+      },
+      {
+        "word": "conversation",
+        "startTime": 86.88,
+        "endTime": 87.34
+      },
+      {
+        "word": "in",
+        "startTime": 87.34,
+        "endTime": 87.68
+      },
+      {
+        "word": "Kenya,",
+        "startTime": 87.68,
+        "endTime": 88
+      },
+      {
+        "word": "category,",
+        "startTime": 88.5,
+        "endTime": 88.96
+      },
+      {
+        "word": "service.",
+        "startTime": 89.44,
+        "endTime": 89.74
+      }
+    ]
+  },
+  {
+    "text": "For a business handling 5000 WhatsApp conversations per month, the total API cost is roughly $50, a fraction of one customer service agent salary.",
+    "startTime": 90.42,
+    "endTime": 100.3,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "For",
+        "startTime": 90.42,
+        "endTime": 90.62
+      },
+      {
+        "word": "a",
+        "startTime": 90.62,
+        "endTime": 90.74
+      },
+      {
+        "word": "business",
+        "startTime": 90.74,
+        "endTime": 91
+      },
+      {
+        "word": "handling",
+        "startTime": 91,
+        "endTime": 91.44
+      },
+      {
+        "word": "5000",
+        "startTime": 91.44,
+        "endTime": 92.06
+      },
+      {
+        "word": "WhatsApp",
+        "startTime": 92.06,
+        "endTime": 92.66
+      },
+      {
+        "word": "conversations",
+        "startTime": 92.66,
+        "endTime": 93.34
+      },
+      {
+        "word": "per",
+        "startTime": 93.34,
+        "endTime": 93.62
+      },
+      {
+        "word": "month,",
+        "startTime": 93.62,
+        "endTime": 94.02
+      },
+      {
+        "word": "the",
+        "startTime": 94.54,
+        "endTime": 94.6
+      },
+      {
+        "word": "total",
+        "startTime": 94.6,
+        "endTime": 94.94
+      },
+      {
+        "word": "API",
+        "startTime": 94.94,
+        "endTime": 95.26
+      },
+      {
+        "word": "cost",
+        "startTime": 95.26,
+        "endTime": 95.82
+      },
+      {
+        "word": "is",
+        "startTime": 95.82,
+        "endTime": 96.02
+      },
+      {
+        "word": "roughly",
+        "startTime": 96.02,
+        "endTime": 96.34
+      },
+      {
+        "word": "$50,",
+        "startTime": 96.34,
+        "endTime": 96.9
+      },
+      {
+        "word": "a",
+        "startTime": 97.6,
+        "endTime": 97.92
+      },
+      {
+        "word": "fraction",
+        "startTime": 97.92,
+        "endTime": 98.32
+      },
+      {
+        "word": "of",
+        "startTime": 98.32,
+        "endTime": 98.52
+      },
+      {
+        "word": "one",
+        "startTime": 98.52,
+        "endTime": 98.72
+      },
+      {
+        "word": "customer",
+        "startTime": 98.72,
+        "endTime": 99.14
+      },
+      {
+        "word": "service",
+        "startTime": 99.14,
+        "endTime": 99.54
+      },
+      {
+        "word": "agent",
+        "startTime": 99.54,
+        "endTime": 99.92
+      },
+      {
+        "word": "salary.",
+        "startTime": 99.92,
+        "endTime": 100.3
+      }
+    ]
+  },
+  {
+    "text": "This is the economic argument that closes every client conversation.",
+    "startTime": 101.02,
+    "endTime": 104.6,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "This",
+        "startTime": 101.02,
+        "endTime": 101.26
+      },
+      {
+        "word": "is",
+        "startTime": 101.26,
+        "endTime": 101.44
+      },
+      {
+        "word": "the",
+        "startTime": 101.44,
+        "endTime": 101.62
+      },
+      {
+        "word": "economic",
+        "startTime": 101.62,
+        "endTime": 101.98
+      },
+      {
+        "word": "argument",
+        "startTime": 101.98,
+        "endTime": 102.48
+      },
+      {
+        "word": "that",
+        "startTime": 102.48,
+        "endTime": 102.72
+      },
+      {
+        "word": "closes",
+        "startTime": 102.72,
+        "endTime": 103.12
+      },
+      {
+        "word": "every",
+        "startTime": 103.12,
+        "endTime": 103.6
+      },
+      {
+        "word": "client",
+        "startTime": 103.6,
+        "endTime": 103.92
+      },
+      {
+        "word": "conversation.",
+        "startTime": 103.92,
+        "endTime": 104.6
+      }
+    ]
+  },
+  {
+    "text": "Remember this, never build a WhatsApp automation on the business app.",
+    "startTime": 105.28,
+    "endTime": 109.08,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Remember",
+        "startTime": 105.28,
+        "endTime": 105.64
+      },
+      {
+        "word": "this,",
+        "startTime": 105.64,
+        "endTime": 105.98
+      },
+      {
+        "word": "never",
+        "startTime": 105.98,
+        "endTime": 106.74
+      },
+      {
+        "word": "build",
+        "startTime": 106.74,
+        "endTime": 107.08
+      },
+      {
+        "word": "a",
+        "startTime": 107.08,
+        "endTime": 107.2
+      },
+      {
+        "word": "WhatsApp",
+        "startTime": 107.2,
+        "endTime": 107.5
+      },
+      {
+        "word": "automation",
+        "startTime": 107.5,
+        "endTime": 108.06
+      },
+      {
+        "word": "on",
+        "startTime": 108.06,
+        "endTime": 108.32
+      },
+      {
+        "word": "the",
+        "startTime": 108.32,
+        "endTime": 108.42
+      },
+      {
+        "word": "business",
+        "startTime": 108.42,
+        "endTime": 108.68
+      },
+      {
+        "word": "app.",
+        "startTime": 108.68,
+        "endTime": 109.08
+      }
+    ]
+  },
+  {
+    "text": "It is not automatable.",
+    "startTime": 109.5,
+    "endTime": 110.74,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "It",
+        "startTime": 109.5,
+        "endTime": 109.68
+      },
+      {
+        "word": "is",
+        "startTime": 109.68,
+        "endTime": 109.82
+      },
+      {
+        "word": "not",
+        "startTime": 109.82,
+        "endTime": 110
+      },
+      {
+        "word": "automatable.",
+        "startTime": 110,
+        "endTime": 110.74
+      }
+    ]
+  },
+  {
+    "text": "The Cloud API is the only path to a real bot, and it is free to start.",
+    "startTime": 111.32,
+    "endTime": 116.32,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 111.32,
+        "endTime": 111.62
+      },
+      {
+        "word": "Cloud",
+        "startTime": 111.62,
+        "endTime": 111.9
+      },
+      {
+        "word": "API",
+        "startTime": 111.9,
+        "endTime": 112.3
+      },
+      {
+        "word": "is",
+        "startTime": 112.3,
+        "endTime": 112.8
+      },
+      {
+        "word": "the",
+        "startTime": 112.8,
+        "endTime": 112.96
+      },
+      {
+        "word": "only",
+        "startTime": 112.96,
+        "endTime": 113.26
+      },
+      {
+        "word": "path",
+        "startTime": 113.26,
+        "endTime": 113.62
+      },
+      {
+        "word": "to",
+        "startTime": 113.62,
+        "endTime": 113.86
+      },
+      {
+        "word": "a",
+        "startTime": 113.86,
+        "endTime": 113.96
+      },
+      {
+        "word": "real",
+        "startTime": 113.96,
+        "endTime": 114.2
+      },
+      {
+        "word": "bot,",
+        "startTime": 114.2,
+        "endTime": 114.46
+      },
+      {
+        "word": "and",
+        "startTime": 115.14,
+        "endTime": 115.2
+      },
+      {
+        "word": "it",
+        "startTime": 115.2,
+        "endTime": 115.32
+      },
+      {
+        "word": "is",
+        "startTime": 115.32,
+        "endTime": 115.48
+      },
+      {
+        "word": "free",
+        "startTime": 115.48,
+        "endTime": 115.68
+      },
+      {
+        "word": "to",
+        "startTime": 115.68,
+        "endTime": 115.86
+      },
+      {
+        "word": "start.",
+        "startTime": 115.86,
+        "endTime": 116.32
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson, and you will see results immediately.",
+    "startTime": 117.02,
+    "endTime": 120.58,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 117.02,
+        "endTime": 117.3
+      },
+      {
+        "word": "what",
+        "startTime": 117.3,
+        "endTime": 117.5
+      },
+      {
+        "word": "you",
+        "startTime": 117.5,
+        "endTime": 117.66
+      },
+      {
+        "word": "learn",
+        "startTime": 117.66,
+        "endTime": 117.84
+      },
+      {
+        "word": "in",
+        "startTime": 117.84,
+        "endTime": 117.98
+      },
+      {
+        "word": "this",
+        "startTime": 117.98,
+        "endTime": 118.18
+      },
+      {
+        "word": "lesson,",
+        "startTime": 118.18,
+        "endTime": 118.52
+      },
+      {
+        "word": "and",
+        "startTime": 118.98,
+        "endTime": 119.1
+      },
+      {
+        "word": "you",
+        "startTime": 119.1,
+        "endTime": 119.24
+      },
+      {
+        "word": "will",
+        "startTime": 119.24,
+        "endTime": 119.34
+      },
+      {
+        "word": "see",
+        "startTime": 119.34,
+        "endTime": 119.54
+      },
+      {
+        "word": "results",
+        "startTime": 119.54,
+        "endTime": 119.9
+      },
+      {
+        "word": "immediately.",
+        "startTime": 119.9,
+        "endTime": 120.58
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 121.24,
+    "endTime": 122.36,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 121.24,
+        "endTime": 121.48
+      },
+      {
+        "word": "skills",
+        "startTime": 121.48,
+        "endTime": 121.84
+      },
+      {
+        "word": "bear",
+        "startTime": 121.84,
+        "endTime": 122.08
+      },
+      {
+        "word": "fruit.",
+        "startTime": 122.08,
+        "endTime": 122.36
+      }
+    ]
+  }
+]

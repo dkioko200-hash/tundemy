@@ -1,0 +1,576 @@
+[
+  {
+    "text": "This is the deliverable that gets you hired.",
+    "startTime": 0,
+    "endTime": 3.42,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "This",
+        "startTime": 0,
+        "endTime": 0.32
+      },
+      {
+        "word": "is",
+        "startTime": 0.32,
+        "endTime": 0.78
+      },
+      {
+        "word": "the",
+        "startTime": 0.78,
+        "endTime": 0.96
+      },
+      {
+        "word": "deliverable",
+        "startTime": 0.96,
+        "endTime": 1.78
+      },
+      {
+        "word": "that",
+        "startTime": 1.78,
+        "endTime": 2.28
+      },
+      {
+        "word": "gets",
+        "startTime": 2.28,
+        "endTime": 2.54
+      },
+      {
+        "word": "you",
+        "startTime": 2.54,
+        "endTime": 2.9
+      },
+      {
+        "word": "hired.",
+        "startTime": 2.9,
+        "endTime": 3.42
+      }
+    ]
+  },
+  {
+    "text": "Companies are actively looking for people who can build systems, not just use AI themselves.",
+    "startTime": 4.62,
+    "endTime": 13.02,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Companies",
+        "startTime": 4.62,
+        "endTime": 5.08
+      },
+      {
+        "word": "are",
+        "startTime": 5.08,
+        "endTime": 5.44
+      },
+      {
+        "word": "actively",
+        "startTime": 5.44,
+        "endTime": 6.14
+      },
+      {
+        "word": "looking",
+        "startTime": 6.14,
+        "endTime": 6.64
+      },
+      {
+        "word": "for",
+        "startTime": 6.64,
+        "endTime": 6.94
+      },
+      {
+        "word": "people",
+        "startTime": 6.94,
+        "endTime": 7.46
+      },
+      {
+        "word": "who",
+        "startTime": 7.46,
+        "endTime": 8
+      },
+      {
+        "word": "can",
+        "startTime": 8,
+        "endTime": 8.26
+      },
+      {
+        "word": "build",
+        "startTime": 8.26,
+        "endTime": 8.62
+      },
+      {
+        "word": "systems,",
+        "startTime": 8.62,
+        "endTime": 9.5
+      },
+      {
+        "word": "not",
+        "startTime": 9.96,
+        "endTime": 10.36
+      },
+      {
+        "word": "just",
+        "startTime": 10.36,
+        "endTime": 10.8
+      },
+      {
+        "word": "use",
+        "startTime": 10.8,
+        "endTime": 11.38
+      },
+      {
+        "word": "AI",
+        "startTime": 11.38,
+        "endTime": 11.92
+      },
+      {
+        "word": "themselves.",
+        "startTime": 11.92,
+        "endTime": 13.02
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, build a complete prompt engineer in playbook for a fictional Nairobi -based marketing agency, 15 staff, B2B clients.",
+    "startTime": 14.3,
+    "endTime": 27.76,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 14.3,
+        "endTime": 15.02
+      },
+      {
+        "word": "this",
+        "startTime": 15.02,
+        "endTime": 15.24
+      },
+      {
+        "word": "lesson,",
+        "startTime": 15.24,
+        "endTime": 15.76
+      },
+      {
+        "word": "build",
+        "startTime": 16.56,
+        "endTime": 16.94
+      },
+      {
+        "word": "a",
+        "startTime": 16.94,
+        "endTime": 17.16
+      },
+      {
+        "word": "complete",
+        "startTime": 17.16,
+        "endTime": 17.72
+      },
+      {
+        "word": "prompt",
+        "startTime": 17.72,
+        "endTime": 18.26
+      },
+      {
+        "word": "engineer",
+        "startTime": 18.26,
+        "endTime": 18.86
+      },
+      {
+        "word": "in",
+        "startTime": 18.86,
+        "endTime": 19.18
+      },
+      {
+        "word": "playbook",
+        "startTime": 19.18,
+        "endTime": 19.84
+      },
+      {
+        "word": "for",
+        "startTime": 19.84,
+        "endTime": 20.48
+      },
+      {
+        "word": "a",
+        "startTime": 20.48,
+        "endTime": 20.62
+      },
+      {
+        "word": "fictional",
+        "startTime": 20.62,
+        "endTime": 21.22
+      },
+      {
+        "word": "Nairobi",
+        "startTime": 21.22,
+        "endTime": 22.28
+      },
+      {
+        "word": "-based",
+        "startTime": 22.28,
+        "endTime": 22.92
+      },
+      {
+        "word": "marketing",
+        "startTime": 22.92,
+        "endTime": 23.44
+      },
+      {
+        "word": "agency,",
+        "startTime": 23.44,
+        "endTime": 24.46
+      },
+      {
+        "word": "15",
+        "startTime": 25.06,
+        "endTime": 25.42
+      },
+      {
+        "word": "staff,",
+        "startTime": 25.42,
+        "endTime": 26.16
+      },
+      {
+        "word": "B2B",
+        "startTime": 26.62,
+        "endTime": 27.16
+      },
+      {
+        "word": "clients.",
+        "startTime": 27.16,
+        "endTime": 27.76
+      }
+    ]
+  },
+  {
+    "text": "The playbook must include 15 reusable prompt templates covering client proposals, social media, reporting and research.",
+    "startTime": 27.76,
+    "endTime": 41.28,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 27.76,
+        "endTime": 29.52
+      },
+      {
+        "word": "playbook",
+        "startTime": 29.52,
+        "endTime": 30.16
+      },
+      {
+        "word": "must",
+        "startTime": 30.16,
+        "endTime": 30.52
+      },
+      {
+        "word": "include",
+        "startTime": 30.52,
+        "endTime": 31.16
+      },
+      {
+        "word": "15",
+        "startTime": 31.16,
+        "endTime": 32.42
+      },
+      {
+        "word": "reusable",
+        "startTime": 32.42,
+        "endTime": 33.44
+      },
+      {
+        "word": "prompt",
+        "startTime": 33.44,
+        "endTime": 33.96
+      },
+      {
+        "word": "templates",
+        "startTime": 33.96,
+        "endTime": 34.58
+      },
+      {
+        "word": "covering",
+        "startTime": 34.58,
+        "endTime": 35.44
+      },
+      {
+        "word": "client",
+        "startTime": 35.44,
+        "endTime": 36.02
+      },
+      {
+        "word": "proposals,",
+        "startTime": 36.02,
+        "endTime": 36.76
+      },
+      {
+        "word": "social",
+        "startTime": 37.5,
+        "endTime": 37.76
+      },
+      {
+        "word": "media,",
+        "startTime": 37.76,
+        "endTime": 38.4
+      },
+      {
+        "word": "reporting",
+        "startTime": 39,
+        "endTime": 39.58
+      },
+      {
+        "word": "and",
+        "startTime": 39.58,
+        "endTime": 40.26
+      },
+      {
+        "word": "research.",
+        "startTime": 40.26,
+        "endTime": 41.28
+      }
+    ]
+  },
+  {
+    "text": "A style guide for prompt writing, a quick reference cheat sheet and onboarding instructions for a new staff member.",
+    "startTime": 41.739999999999995,
+    "endTime": 52.3,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 41.739999999999995,
+        "endTime": 42.36
+      },
+      {
+        "word": "style",
+        "startTime": 42.36,
+        "endTime": 42.84
+      },
+      {
+        "word": "guide",
+        "startTime": 42.84,
+        "endTime": 43.2
+      },
+      {
+        "word": "for",
+        "startTime": 43.2,
+        "endTime": 43.46
+      },
+      {
+        "word": "prompt",
+        "startTime": 43.46,
+        "endTime": 43.86
+      },
+      {
+        "word": "writing,",
+        "startTime": 43.86,
+        "endTime": 44.44
+      },
+      {
+        "word": "a",
+        "startTime": 45.36,
+        "endTime": 45.54
+      },
+      {
+        "word": "quick",
+        "startTime": 45.54,
+        "endTime": 45.9
+      },
+      {
+        "word": "reference",
+        "startTime": 45.9,
+        "endTime": 46.68
+      },
+      {
+        "word": "cheat",
+        "startTime": 46.68,
+        "endTime": 47.18
+      },
+      {
+        "word": "sheet",
+        "startTime": 47.18,
+        "endTime": 47.86
+      },
+      {
+        "word": "and",
+        "startTime": 47.86,
+        "endTime": 48.7
+      },
+      {
+        "word": "onboarding",
+        "startTime": 48.7,
+        "endTime": 49.58
+      },
+      {
+        "word": "instructions",
+        "startTime": 49.58,
+        "endTime": 50.3
+      },
+      {
+        "word": "for",
+        "startTime": 50.3,
+        "endTime": 50.92
+      },
+      {
+        "word": "a",
+        "startTime": 50.92,
+        "endTime": 51.06
+      },
+      {
+        "word": "new",
+        "startTime": 51.06,
+        "endTime": 51.3
+      },
+      {
+        "word": "staff",
+        "startTime": 51.3,
+        "endTime": 51.7
+      },
+      {
+        "word": "member.",
+        "startTime": 51.7,
+        "endTime": 52.3
+      }
+    ]
+  },
+  {
+    "text": "Submit as a professionally formatted document.",
+    "startTime": 53.06,
+    "endTime": 56.8,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Submit",
+        "startTime": 53.06,
+        "endTime": 53.78
+      },
+      {
+        "word": "as",
+        "startTime": 53.78,
+        "endTime": 54.26
+      },
+      {
+        "word": "a",
+        "startTime": 54.26,
+        "endTime": 54.36
+      },
+      {
+        "word": "professionally",
+        "startTime": 54.36,
+        "endTime": 55.14
+      },
+      {
+        "word": "formatted",
+        "startTime": 55.14,
+        "endTime": 55.96
+      },
+      {
+        "word": "document.",
+        "startTime": 55.96,
+        "endTime": 56.8
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 57.76,
+    "endTime": 63.22,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 57.76,
+        "endTime": 58.22
+      },
+      {
+        "word": "what",
+        "startTime": 58.22,
+        "endTime": 58.58
+      },
+      {
+        "word": "you",
+        "startTime": 58.58,
+        "endTime": 58.78
+      },
+      {
+        "word": "learn",
+        "startTime": 58.78,
+        "endTime": 59.08
+      },
+      {
+        "word": "in",
+        "startTime": 59.08,
+        "endTime": 59.28
+      },
+      {
+        "word": "this",
+        "startTime": 59.28,
+        "endTime": 59.54
+      },
+      {
+        "word": "lesson",
+        "startTime": 59.54,
+        "endTime": 60.02
+      },
+      {
+        "word": "and",
+        "startTime": 60.02,
+        "endTime": 60.64
+      },
+      {
+        "word": "you",
+        "startTime": 60.64,
+        "endTime": 60.82
+      },
+      {
+        "word": "will",
+        "startTime": 60.82,
+        "endTime": 61
+      },
+      {
+        "word": "see",
+        "startTime": 61,
+        "endTime": 61.32
+      },
+      {
+        "word": "results",
+        "startTime": 61.32,
+        "endTime": 61.94
+      },
+      {
+        "word": "immediately.",
+        "startTime": 61.94,
+        "endTime": 63.22
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 63.76,
+    "endTime": 66.24,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 63.76,
+        "endTime": 64.2
+      },
+      {
+        "word": "skills",
+        "startTime": 64.2,
+        "endTime": 64.92
+      },
+      {
+        "word": "bear",
+        "startTime": 64.92,
+        "endTime": 65.52
+      },
+      {
+        "word": "fruit.",
+        "startTime": 65.52,
+        "endTime": 66.24
+      }
+    ]
+  }
+]

@@ -1,0 +1,574 @@
+[
+  {
+    "text": "There are just certified developers charge 150 ,000 Kenyan shillings to 400 ,000 Kenyan shillings per integration project.",
+    "startTime": 0,
+    "endTime": 10.92,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "There",
+        "startTime": 0,
+        "endTime": 0.26
+      },
+      {
+        "word": "are",
+        "startTime": 0.26,
+        "endTime": 0.44
+      },
+      {
+        "word": "just",
+        "startTime": 0.44,
+        "endTime": 0.64
+      },
+      {
+        "word": "certified",
+        "startTime": 0.64,
+        "endTime": 1.18
+      },
+      {
+        "word": "developers",
+        "startTime": 1.18,
+        "endTime": 2.04
+      },
+      {
+        "word": "charge",
+        "startTime": 2.04,
+        "endTime": 2.84
+      },
+      {
+        "word": "150",
+        "startTime": 2.84,
+        "endTime": 4.08
+      },
+      {
+        "word": ",000",
+        "startTime": 4.08,
+        "endTime": 4.8
+      },
+      {
+        "word": "Kenyan",
+        "startTime": 4.8,
+        "endTime": 5.18
+      },
+      {
+        "word": "shillings",
+        "startTime": 5.18,
+        "endTime": 5.86
+      },
+      {
+        "word": "to",
+        "startTime": 5.86,
+        "endTime": 6.36
+      },
+      {
+        "word": "400",
+        "startTime": 6.36,
+        "endTime": 7.14
+      },
+      {
+        "word": ",000",
+        "startTime": 7.14,
+        "endTime": 7.66
+      },
+      {
+        "word": "Kenyan",
+        "startTime": 7.66,
+        "endTime": 8.06
+      },
+      {
+        "word": "shillings",
+        "startTime": 8.06,
+        "endTime": 8.72
+      },
+      {
+        "word": "per",
+        "startTime": 8.72,
+        "endTime": 9.24
+      },
+      {
+        "word": "integration",
+        "startTime": 9.24,
+        "endTime": 10.1
+      },
+      {
+        "word": "project.",
+        "startTime": 10.1,
+        "endTime": 10.92
+      }
+    ]
+  },
+  {
+    "text": "Every enterprise, soccer, school, hospital and e -commerce business in Kenya needs this.",
+    "startTime": 11.46,
+    "endTime": 19.72,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Every",
+        "startTime": 11.46,
+        "endTime": 12.28
+      },
+      {
+        "word": "enterprise,",
+        "startTime": 12.28,
+        "endTime": 13.16
+      },
+      {
+        "word": "soccer,",
+        "startTime": 13.74,
+        "endTime": 14.1
+      },
+      {
+        "word": "school,",
+        "startTime": 14.7,
+        "endTime": 14.88
+      },
+      {
+        "word": "hospital",
+        "startTime": 15.46,
+        "endTime": 16.02
+      },
+      {
+        "word": "and",
+        "startTime": 16.02,
+        "endTime": 16.6
+      },
+      {
+        "word": "e",
+        "startTime": 16.6,
+        "endTime": 16.96
+      },
+      {
+        "word": "-commerce",
+        "startTime": 16.96,
+        "endTime": 17.24
+      },
+      {
+        "word": "business",
+        "startTime": 17.24,
+        "endTime": 17.74
+      },
+      {
+        "word": "in",
+        "startTime": 17.74,
+        "endTime": 18.08
+      },
+      {
+        "word": "Kenya",
+        "startTime": 18.08,
+        "endTime": 18.58
+      },
+      {
+        "word": "needs",
+        "startTime": 18.58,
+        "endTime": 19.34
+      },
+      {
+        "word": "this.",
+        "startTime": 19.34,
+        "endTime": 19.72
+      }
+    ]
+  },
+  {
+    "text": "This project is the proof that you can build it.",
+    "startTime": 20.94,
+    "endTime": 24.92,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "This",
+        "startTime": 20.94,
+        "endTime": 21.24
+      },
+      {
+        "word": "project",
+        "startTime": 21.24,
+        "endTime": 21.78
+      },
+      {
+        "word": "is",
+        "startTime": 21.78,
+        "endTime": 22.16
+      },
+      {
+        "word": "the",
+        "startTime": 22.16,
+        "endTime": 22.36
+      },
+      {
+        "word": "proof",
+        "startTime": 22.36,
+        "endTime": 22.82
+      },
+      {
+        "word": "that",
+        "startTime": 22.82,
+        "endTime": 23.52
+      },
+      {
+        "word": "you",
+        "startTime": 23.52,
+        "endTime": 23.84
+      },
+      {
+        "word": "can",
+        "startTime": 23.84,
+        "endTime": 24.08
+      },
+      {
+        "word": "build",
+        "startTime": 24.08,
+        "endTime": 24.52
+      },
+      {
+        "word": "it.",
+        "startTime": 24.52,
+        "endTime": 24.92
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, build and deploy a complete empecé payment system for Duka Smart, a fictional Kenyan e -commerce platform.",
+    "startTime": 26.02,
+    "endTime": 37,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 26.02,
+        "endTime": 26.32
+      },
+      {
+        "word": "this",
+        "startTime": 26.32,
+        "endTime": 26.56
+      },
+      {
+        "word": "lesson,",
+        "startTime": 26.56,
+        "endTime": 27.06
+      },
+      {
+        "word": "build",
+        "startTime": 27.56,
+        "endTime": 28.1
+      },
+      {
+        "word": "and",
+        "startTime": 28.1,
+        "endTime": 28.46
+      },
+      {
+        "word": "deploy",
+        "startTime": 28.46,
+        "endTime": 28.92
+      },
+      {
+        "word": "a",
+        "startTime": 28.92,
+        "endTime": 29.26
+      },
+      {
+        "word": "complete",
+        "startTime": 29.26,
+        "endTime": 29.96
+      },
+      {
+        "word": "empecé",
+        "startTime": 29.96,
+        "endTime": 30.78
+      },
+      {
+        "word": "payment",
+        "startTime": 30.78,
+        "endTime": 31.26
+      },
+      {
+        "word": "system",
+        "startTime": 31.26,
+        "endTime": 31.86
+      },
+      {
+        "word": "for",
+        "startTime": 31.86,
+        "endTime": 32.46
+      },
+      {
+        "word": "Duka",
+        "startTime": 32.46,
+        "endTime": 32.96
+      },
+      {
+        "word": "Smart,",
+        "startTime": 32.96,
+        "endTime": 33.42
+      },
+      {
+        "word": "a",
+        "startTime": 34.16,
+        "endTime": 34.26
+      },
+      {
+        "word": "fictional",
+        "startTime": 34.26,
+        "endTime": 34.86
+      },
+      {
+        "word": "Kenyan",
+        "startTime": 34.86,
+        "endTime": 35.52
+      },
+      {
+        "word": "e",
+        "startTime": 35.52,
+        "endTime": 35.96
+      },
+      {
+        "word": "-commerce",
+        "startTime": 35.96,
+        "endTime": 36.22
+      },
+      {
+        "word": "platform.",
+        "startTime": 36.22,
+        "endTime": 37
+      }
+    ]
+  },
+  {
+    "text": "STK.",
+    "startTime": 38.22,
+    "endTime": 39.16,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "STK.",
+        "startTime": 38.22,
+        "endTime": 39.16
+      }
+    ]
+  },
+  {
+    "text": "Push checkout with callback handling.",
+    "startTime": 39.96,
+    "endTime": 42.42,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Push",
+        "startTime": 39.96,
+        "endTime": 40.34
+      },
+      {
+        "word": "checkout",
+        "startTime": 40.34,
+        "endTime": 40.9
+      },
+      {
+        "word": "with",
+        "startTime": 40.9,
+        "endTime": 41.22
+      },
+      {
+        "word": "callback",
+        "startTime": 41.22,
+        "endTime": 41.8
+      },
+      {
+        "word": "handling.",
+        "startTime": 41.8,
+        "endTime": 42.42
+      }
+    ]
+  },
+  {
+    "text": "C2B, pay bill registration, B2C, refund capability, full audit logging, WhatsApp receipts and a reconciliation dashboard.",
+    "startTime": 43.6,
+    "endTime": 57.84,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "C2B,",
+        "startTime": 43.6,
+        "endTime": 44.38
+      },
+      {
+        "word": "pay",
+        "startTime": 45.12,
+        "endTime": 45.3
+      },
+      {
+        "word": "bill",
+        "startTime": 45.3,
+        "endTime": 45.62
+      },
+      {
+        "word": "registration,",
+        "startTime": 45.62,
+        "endTime": 46.56
+      },
+      {
+        "word": "B2C,",
+        "startTime": 47.58,
+        "endTime": 48.62
+      },
+      {
+        "word": "refund",
+        "startTime": 49.4,
+        "endTime": 49.74
+      },
+      {
+        "word": "capability,",
+        "startTime": 49.74,
+        "endTime": 50.6
+      },
+      {
+        "word": "full",
+        "startTime": 51.62,
+        "endTime": 52.08
+      },
+      {
+        "word": "audit",
+        "startTime": 52.08,
+        "endTime": 52.68
+      },
+      {
+        "word": "logging,",
+        "startTime": 52.68,
+        "endTime": 53.18
+      },
+      {
+        "word": "WhatsApp",
+        "startTime": 54.14,
+        "endTime": 54.46
+      },
+      {
+        "word": "receipts",
+        "startTime": 54.46,
+        "endTime": 55.32
+      },
+      {
+        "word": "and",
+        "startTime": 55.32,
+        "endTime": 55.88
+      },
+      {
+        "word": "a",
+        "startTime": 55.88,
+        "endTime": 56.08
+      },
+      {
+        "word": "reconciliation",
+        "startTime": 56.08,
+        "endTime": 56.98
+      },
+      {
+        "word": "dashboard.",
+        "startTime": 56.98,
+        "endTime": 57.84
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 59.28,
+    "endTime": 64.82,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 59.28,
+        "endTime": 60.04
+      },
+      {
+        "word": "what",
+        "startTime": 60.04,
+        "endTime": 60.34
+      },
+      {
+        "word": "you",
+        "startTime": 60.34,
+        "endTime": 60.5
+      },
+      {
+        "word": "learn",
+        "startTime": 60.5,
+        "endTime": 60.8
+      },
+      {
+        "word": "in",
+        "startTime": 60.8,
+        "endTime": 60.98
+      },
+      {
+        "word": "this",
+        "startTime": 60.98,
+        "endTime": 61.26
+      },
+      {
+        "word": "lesson",
+        "startTime": 61.26,
+        "endTime": 61.7
+      },
+      {
+        "word": "and",
+        "startTime": 61.7,
+        "endTime": 62.26
+      },
+      {
+        "word": "you",
+        "startTime": 62.26,
+        "endTime": 62.44
+      },
+      {
+        "word": "will",
+        "startTime": 62.44,
+        "endTime": 62.6
+      },
+      {
+        "word": "see",
+        "startTime": 62.6,
+        "endTime": 62.92
+      },
+      {
+        "word": "results",
+        "startTime": 62.92,
+        "endTime": 63.54
+      },
+      {
+        "word": "immediately.",
+        "startTime": 63.54,
+        "endTime": 64.82
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 65.44,
+    "endTime": 67.48,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 65.44,
+        "endTime": 65.88
+      },
+      {
+        "word": "skills",
+        "startTime": 65.88,
+        "endTime": 66.46
+      },
+      {
+        "word": "bear",
+        "startTime": 66.46,
+        "endTime": 67.02
+      },
+      {
+        "word": "fruit.",
+        "startTime": 67.02,
+        "endTime": 67.48
+      }
+    ]
+  }
+]

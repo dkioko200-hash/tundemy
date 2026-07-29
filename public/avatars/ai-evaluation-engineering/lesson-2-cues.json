@@ -1,0 +1,900 @@
+[
+  {
+    "text": "The first test every AI company gives new contractors is a calibration set.",
+    "startTime": 0,
+    "endTime": 6.4,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 0,
+        "endTime": 0.22
+      },
+      {
+        "word": "first",
+        "startTime": 0.22,
+        "endTime": 0.58
+      },
+      {
+        "word": "test",
+        "startTime": 0.58,
+        "endTime": 1.18
+      },
+      {
+        "word": "every",
+        "startTime": 1.18,
+        "endTime": 1.72
+      },
+      {
+        "word": "AI",
+        "startTime": 1.72,
+        "endTime": 2.1
+      },
+      {
+        "word": "company",
+        "startTime": 2.1,
+        "endTime": 2.68
+      },
+      {
+        "word": "gives",
+        "startTime": 2.68,
+        "endTime": 3.06
+      },
+      {
+        "word": "new",
+        "startTime": 3.06,
+        "endTime": 3.4
+      },
+      {
+        "word": "contractors",
+        "startTime": 3.4,
+        "endTime": 4.18
+      },
+      {
+        "word": "is",
+        "startTime": 4.18,
+        "endTime": 4.9
+      },
+      {
+        "word": "a",
+        "startTime": 4.9,
+        "endTime": 5.04
+      },
+      {
+        "word": "calibration",
+        "startTime": 5.04,
+        "endTime": 5.74
+      },
+      {
+        "word": "set.",
+        "startTime": 5.74,
+        "endTime": 6.4
+      }
+    ]
+  },
+  {
+    "text": "20, 50 annotation tasks scored against a gold standard.",
+    "startTime": 7.08,
+    "endTime": 12.8,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "20,",
+        "startTime": 7.08,
+        "endTime": 7.62
+      },
+      {
+        "word": "50",
+        "startTime": 7.98,
+        "endTime": 8.66
+      },
+      {
+        "word": "annotation",
+        "startTime": 8.66,
+        "endTime": 9.62
+      },
+      {
+        "word": "tasks",
+        "startTime": 9.62,
+        "endTime": 10.26
+      },
+      {
+        "word": "scored",
+        "startTime": 10.26,
+        "endTime": 11.08
+      },
+      {
+        "word": "against",
+        "startTime": 11.08,
+        "endTime": 11.66
+      },
+      {
+        "word": "a",
+        "startTime": 11.66,
+        "endTime": 11.88
+      },
+      {
+        "word": "gold",
+        "startTime": 11.88,
+        "endTime": 12.12
+      },
+      {
+        "word": "standard.",
+        "startTime": 12.12,
+        "endTime": 12.8
+      }
+    ]
+  },
+  {
+    "text": "Pass 85 % plus and you continue.",
+    "startTime": 13.68,
+    "endTime": 17.56,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Pass",
+        "startTime": 13.68,
+        "endTime": 14.04
+      },
+      {
+        "word": "85",
+        "startTime": 14.04,
+        "endTime": 14.74
+      },
+      {
+        "word": "%",
+        "startTime": 14.74,
+        "endTime": 15.4
+      },
+      {
+        "word": "plus",
+        "startTime": 15.4,
+        "endTime": 15.9
+      },
+      {
+        "word": "and",
+        "startTime": 15.9,
+        "endTime": 16.66
+      },
+      {
+        "word": "you",
+        "startTime": 16.66,
+        "endTime": 16.82
+      },
+      {
+        "word": "continue.",
+        "startTime": 16.82,
+        "endTime": 17.56
+      }
+    ]
+  },
+  {
+    "text": "Fail and the contract ends.",
+    "startTime": 18.24,
+    "endTime": 20.68,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Fail",
+        "startTime": 18.24,
+        "endTime": 18.66
+      },
+      {
+        "word": "and",
+        "startTime": 18.66,
+        "endTime": 19.34
+      },
+      {
+        "word": "the",
+        "startTime": 19.34,
+        "endTime": 19.48
+      },
+      {
+        "word": "contract",
+        "startTime": 19.48,
+        "endTime": 19.98
+      },
+      {
+        "word": "ends.",
+        "startTime": 19.98,
+        "endTime": 20.68
+      }
+    ]
+  },
+  {
+    "text": "The difference between passing and failing is not intelligence.",
+    "startTime": 21.68,
+    "endTime": 26.06,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 21.68,
+        "endTime": 21.9
+      },
+      {
+        "word": "difference",
+        "startTime": 21.9,
+        "endTime": 22.28
+      },
+      {
+        "word": "between",
+        "startTime": 22.28,
+        "endTime": 22.76
+      },
+      {
+        "word": "passing",
+        "startTime": 22.76,
+        "endTime": 23.32
+      },
+      {
+        "word": "and",
+        "startTime": 23.32,
+        "endTime": 23.72
+      },
+      {
+        "word": "failing",
+        "startTime": 23.72,
+        "endTime": 24.28
+      },
+      {
+        "word": "is",
+        "startTime": 24.28,
+        "endTime": 24.7
+      },
+      {
+        "word": "not",
+        "startTime": 24.7,
+        "endTime": 25.12
+      },
+      {
+        "word": "intelligence.",
+        "startTime": 25.12,
+        "endTime": 26.06
+      }
+    ]
+  },
+  {
+    "text": "It is knowing exactly what high quality training data looks like.",
+    "startTime": 26.6,
+    "endTime": 32.22,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "It",
+        "startTime": 26.6,
+        "endTime": 27.1
+      },
+      {
+        "word": "is",
+        "startTime": 27.1,
+        "endTime": 27.32
+      },
+      {
+        "word": "knowing",
+        "startTime": 27.32,
+        "endTime": 27.58
+      },
+      {
+        "word": "exactly",
+        "startTime": 27.58,
+        "endTime": 28.32
+      },
+      {
+        "word": "what",
+        "startTime": 28.32,
+        "endTime": 28.88
+      },
+      {
+        "word": "high",
+        "startTime": 28.88,
+        "endTime": 29.34
+      },
+      {
+        "word": "quality",
+        "startTime": 29.34,
+        "endTime": 29.92
+      },
+      {
+        "word": "training",
+        "startTime": 29.92,
+        "endTime": 30.42
+      },
+      {
+        "word": "data",
+        "startTime": 30.42,
+        "endTime": 31.02
+      },
+      {
+        "word": "looks",
+        "startTime": 31.02,
+        "endTime": 31.58
+      },
+      {
+        "word": "like.",
+        "startTime": 31.58,
+        "endTime": 32.22
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, AI training data is the raw material that determines what a model learns.",
+    "startTime": 33.04,
+    "endTime": 40.46,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 33.04,
+        "endTime": 33.24
+      },
+      {
+        "word": "this",
+        "startTime": 33.24,
+        "endTime": 33.52
+      },
+      {
+        "word": "lesson,",
+        "startTime": 33.52,
+        "endTime": 34.02
+      },
+      {
+        "word": "AI",
+        "startTime": 34.84,
+        "endTime": 35.06
+      },
+      {
+        "word": "training",
+        "startTime": 35.06,
+        "endTime": 35.84
+      },
+      {
+        "word": "data",
+        "startTime": 35.84,
+        "endTime": 36.42
+      },
+      {
+        "word": "is",
+        "startTime": 36.42,
+        "endTime": 36.88
+      },
+      {
+        "word": "the",
+        "startTime": 36.88,
+        "endTime": 37.06
+      },
+      {
+        "word": "raw",
+        "startTime": 37.06,
+        "endTime": 37.34
+      },
+      {
+        "word": "material",
+        "startTime": 37.34,
+        "endTime": 38.04
+      },
+      {
+        "word": "that",
+        "startTime": 38.04,
+        "endTime": 38.36
+      },
+      {
+        "word": "determines",
+        "startTime": 38.36,
+        "endTime": 38.92
+      },
+      {
+        "word": "what",
+        "startTime": 38.92,
+        "endTime": 39.3
+      },
+      {
+        "word": "a",
+        "startTime": 39.3,
+        "endTime": 39.48
+      },
+      {
+        "word": "model",
+        "startTime": 39.48,
+        "endTime": 39.8
+      },
+      {
+        "word": "learns.",
+        "startTime": 39.8,
+        "endTime": 40.46
+      }
+    ]
+  },
+  {
+    "text": "There are three main types of training data tasks.",
+    "startTime": 41.28,
+    "endTime": 44.74,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "There",
+        "startTime": 41.28,
+        "endTime": 41.58
+      },
+      {
+        "word": "are",
+        "startTime": 41.58,
+        "endTime": 41.74
+      },
+      {
+        "word": "three",
+        "startTime": 41.74,
+        "endTime": 42.16
+      },
+      {
+        "word": "main",
+        "startTime": 42.16,
+        "endTime": 42.54
+      },
+      {
+        "word": "types",
+        "startTime": 42.54,
+        "endTime": 42.96
+      },
+      {
+        "word": "of",
+        "startTime": 42.96,
+        "endTime": 43.22
+      },
+      {
+        "word": "training",
+        "startTime": 43.22,
+        "endTime": 43.68
+      },
+      {
+        "word": "data",
+        "startTime": 43.68,
+        "endTime": 44.06
+      },
+      {
+        "word": "tasks.",
+        "startTime": 44.06,
+        "endTime": 44.74
+      }
+    ]
+  },
+  {
+    "text": "One, instruction response pairs, writing a user instruction and an ideal AI response.",
+    "startTime": 45.72,
+    "endTime": 53.62,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "One,",
+        "startTime": 45.72,
+        "endTime": 45.86
+      },
+      {
+        "word": "instruction",
+        "startTime": 47.16,
+        "endTime": 47.16
+      },
+      {
+        "word": "response",
+        "startTime": 47.16,
+        "endTime": 47.72
+      },
+      {
+        "word": "pairs,",
+        "startTime": 47.72,
+        "endTime": 48.34
+      },
+      {
+        "word": "writing",
+        "startTime": 49.22,
+        "endTime": 49.52
+      },
+      {
+        "word": "a",
+        "startTime": 49.52,
+        "endTime": 49.82
+      },
+      {
+        "word": "user",
+        "startTime": 49.82,
+        "endTime": 50.16
+      },
+      {
+        "word": "instruction",
+        "startTime": 50.16,
+        "endTime": 50.9
+      },
+      {
+        "word": "and",
+        "startTime": 50.9,
+        "endTime": 51.54
+      },
+      {
+        "word": "an",
+        "startTime": 51.54,
+        "endTime": 51.74
+      },
+      {
+        "word": "ideal",
+        "startTime": 51.74,
+        "endTime": 52.36
+      },
+      {
+        "word": "AI",
+        "startTime": 52.36,
+        "endTime": 52.88
+      },
+      {
+        "word": "response.",
+        "startTime": 52.88,
+        "endTime": 53.62
+      }
+    ]
+  },
+  {
+    "text": "Two, preference data.",
+    "startTime": 54.58,
+    "endTime": 56.88,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Two,",
+        "startTime": 54.58,
+        "endTime": 55.14
+      },
+      {
+        "word": "preference",
+        "startTime": 55.62,
+        "endTime": 56.22
+      },
+      {
+        "word": "data.",
+        "startTime": 56.22,
+        "endTime": 56.88
+      }
+    ]
+  },
+  {
+    "text": "Given two AI responses, choose the better one and explain why using the rubric.",
+    "startTime": 57.5,
+    "endTime": 64.46,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Given",
+        "startTime": 57.5,
+        "endTime": 57.72
+      },
+      {
+        "word": "two",
+        "startTime": 57.72,
+        "endTime": 58.2
+      },
+      {
+        "word": "AI",
+        "startTime": 58.2,
+        "endTime": 58.78
+      },
+      {
+        "word": "responses,",
+        "startTime": 58.78,
+        "endTime": 59.6
+      },
+      {
+        "word": "choose",
+        "startTime": 60.22,
+        "endTime": 60.4
+      },
+      {
+        "word": "the",
+        "startTime": 60.4,
+        "endTime": 60.7
+      },
+      {
+        "word": "better",
+        "startTime": 60.7,
+        "endTime": 61.06
+      },
+      {
+        "word": "one",
+        "startTime": 61.06,
+        "endTime": 61.38
+      },
+      {
+        "word": "and",
+        "startTime": 61.38,
+        "endTime": 61.84
+      },
+      {
+        "word": "explain",
+        "startTime": 61.84,
+        "endTime": 62.3
+      },
+      {
+        "word": "why",
+        "startTime": 62.3,
+        "endTime": 62.86
+      },
+      {
+        "word": "using",
+        "startTime": 62.86,
+        "endTime": 63.64
+      },
+      {
+        "word": "the",
+        "startTime": 63.64,
+        "endTime": 63.94
+      },
+      {
+        "word": "rubric.",
+        "startTime": 63.94,
+        "endTime": 64.46
+      }
+    ]
+  },
+  {
+    "text": "Three, adversarial examples.",
+    "startTime": 65.46,
+    "endTime": 68.34,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Three,",
+        "startTime": 65.46,
+        "endTime": 65.84
+      },
+      {
+        "word": "adversarial",
+        "startTime": 66.52,
+        "endTime": 67.48
+      },
+      {
+        "word": "examples.",
+        "startTime": 67.48,
+        "endTime": 68.34
+      }
+    ]
+  },
+  {
+    "text": "Writing instructions that test a specific model capability or boundary.",
+    "startTime": 69.22,
+    "endTime": 74.7,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Writing",
+        "startTime": 69.22,
+        "endTime": 69.54
+      },
+      {
+        "word": "instructions",
+        "startTime": 69.54,
+        "endTime": 70.34
+      },
+      {
+        "word": "that",
+        "startTime": 70.34,
+        "endTime": 70.74
+      },
+      {
+        "word": "test",
+        "startTime": 70.74,
+        "endTime": 71.2
+      },
+      {
+        "word": "a",
+        "startTime": 71.2,
+        "endTime": 71.4
+      },
+      {
+        "word": "specific",
+        "startTime": 71.4,
+        "endTime": 72.1
+      },
+      {
+        "word": "model",
+        "startTime": 72.1,
+        "endTime": 72.56
+      },
+      {
+        "word": "capability",
+        "startTime": 72.56,
+        "endTime": 73.48
+      },
+      {
+        "word": "or",
+        "startTime": 73.48,
+        "endTime": 74.14
+      },
+      {
+        "word": "boundary.",
+        "startTime": 74.14,
+        "endTime": 74.7
+      }
+    ]
+  },
+  {
+    "text": "Each type has quality criteria that annotation leads use to accept or reject your work.",
+    "startTime": 75.58,
+    "endTime": 83.6,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Each",
+        "startTime": 75.58,
+        "endTime": 76.2
+      },
+      {
+        "word": "type",
+        "startTime": 76.2,
+        "endTime": 76.56
+      },
+      {
+        "word": "has",
+        "startTime": 76.56,
+        "endTime": 76.94
+      },
+      {
+        "word": "quality",
+        "startTime": 76.94,
+        "endTime": 77.46
+      },
+      {
+        "word": "criteria",
+        "startTime": 77.46,
+        "endTime": 78.28
+      },
+      {
+        "word": "that",
+        "startTime": 78.28,
+        "endTime": 78.9
+      },
+      {
+        "word": "annotation",
+        "startTime": 78.9,
+        "endTime": 79.58
+      },
+      {
+        "word": "leads",
+        "startTime": 79.58,
+        "endTime": 80.1
+      },
+      {
+        "word": "use",
+        "startTime": 80.1,
+        "endTime": 80.78
+      },
+      {
+        "word": "to",
+        "startTime": 80.78,
+        "endTime": 81.26
+      },
+      {
+        "word": "accept",
+        "startTime": 81.26,
+        "endTime": 81.72
+      },
+      {
+        "word": "or",
+        "startTime": 81.72,
+        "endTime": 82.28
+      },
+      {
+        "word": "reject",
+        "startTime": 82.28,
+        "endTime": 82.72
+      },
+      {
+        "word": "your",
+        "startTime": 82.72,
+        "endTime": 83.32
+      },
+      {
+        "word": "work.",
+        "startTime": 83.32,
+        "endTime": 83.6
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 84.39999999999999,
+    "endTime": 89.7,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 84.39999999999999,
+        "endTime": 85.16
+      },
+      {
+        "word": "what",
+        "startTime": 85.16,
+        "endTime": 85.52
+      },
+      {
+        "word": "you",
+        "startTime": 85.52,
+        "endTime": 85.7
+      },
+      {
+        "word": "learn",
+        "startTime": 85.7,
+        "endTime": 86
+      },
+      {
+        "word": "in",
+        "startTime": 86,
+        "endTime": 86.18
+      },
+      {
+        "word": "this",
+        "startTime": 86.18,
+        "endTime": 86.46
+      },
+      {
+        "word": "lesson",
+        "startTime": 86.46,
+        "endTime": 86.88
+      },
+      {
+        "word": "and",
+        "startTime": 86.88,
+        "endTime": 87.5
+      },
+      {
+        "word": "you",
+        "startTime": 87.5,
+        "endTime": 87.64
+      },
+      {
+        "word": "will",
+        "startTime": 87.64,
+        "endTime": 87.78
+      },
+      {
+        "word": "see",
+        "startTime": 87.78,
+        "endTime": 88.08
+      },
+      {
+        "word": "results",
+        "startTime": 88.08,
+        "endTime": 88.62
+      },
+      {
+        "word": "immediately.",
+        "startTime": 88.62,
+        "endTime": 89.7
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 90.32,
+    "endTime": 92.28,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 90.32,
+        "endTime": 90.7
+      },
+      {
+        "word": "skills",
+        "startTime": 90.7,
+        "endTime": 91.3
+      },
+      {
+        "word": "bear",
+        "startTime": 91.3,
+        "endTime": 91.82
+      },
+      {
+        "word": "fruit.",
+        "startTime": 91.82,
+        "endTime": 92.28
+      }
+    ]
+  }
+]

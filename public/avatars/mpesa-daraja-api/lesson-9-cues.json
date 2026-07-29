@@ -1,0 +1,508 @@
+[
+  {
+    "text": "Payroll is the highest -takes B2C use case.",
+    "startTime": 0,
+    "endTime": 2.42,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "Payroll",
+        "startTime": 0,
+        "endTime": 0.4
+      },
+      {
+        "word": "is",
+        "startTime": 0.4,
+        "endTime": 0.6
+      },
+      {
+        "word": "the",
+        "startTime": 0.6,
+        "endTime": 0.74
+      },
+      {
+        "word": "highest",
+        "startTime": 0.74,
+        "endTime": 1.04
+      },
+      {
+        "word": "-takes",
+        "startTime": 1.04,
+        "endTime": 1.4
+      },
+      {
+        "word": "B2C",
+        "startTime": 1.4,
+        "endTime": 1.9
+      },
+      {
+        "word": "use",
+        "startTime": 1.9,
+        "endTime": 2.18
+      },
+      {
+        "word": "case.",
+        "startTime": 2.18,
+        "endTime": 2.42
+      }
+    ]
+  },
+  {
+    "text": "Every mist or duplicated salary payment has real human consequences.",
+    "startTime": 3.14,
+    "endTime": 7.04,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Every",
+        "startTime": 3.14,
+        "endTime": 3.4
+      },
+      {
+        "word": "mist",
+        "startTime": 3.4,
+        "endTime": 3.74
+      },
+      {
+        "word": "or",
+        "startTime": 3.74,
+        "endTime": 3.96
+      },
+      {
+        "word": "duplicated",
+        "startTime": 3.96,
+        "endTime": 4.5
+      },
+      {
+        "word": "salary",
+        "startTime": 4.5,
+        "endTime": 4.92
+      },
+      {
+        "word": "payment",
+        "startTime": 4.92,
+        "endTime": 5.36
+      },
+      {
+        "word": "has",
+        "startTime": 5.36,
+        "endTime": 5.62
+      },
+      {
+        "word": "real",
+        "startTime": 5.62,
+        "endTime": 5.88
+      },
+      {
+        "word": "human",
+        "startTime": 5.88,
+        "endTime": 6.3
+      },
+      {
+        "word": "consequences.",
+        "startTime": 6.3,
+        "endTime": 7.04
+      }
+    ]
+  },
+  {
+    "text": "Building a system that handles this correctly and safely is your demonstration of production -level competence.",
+    "startTime": 7.86,
+    "endTime": 13.5,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Building",
+        "startTime": 7.86,
+        "endTime": 8.1
+      },
+      {
+        "word": "a",
+        "startTime": 8.1,
+        "endTime": 8.3
+      },
+      {
+        "word": "system",
+        "startTime": 8.3,
+        "endTime": 8.62
+      },
+      {
+        "word": "that",
+        "startTime": 8.62,
+        "endTime": 8.84
+      },
+      {
+        "word": "handles",
+        "startTime": 8.84,
+        "endTime": 9.22
+      },
+      {
+        "word": "this",
+        "startTime": 9.22,
+        "endTime": 9.44
+      },
+      {
+        "word": "correctly",
+        "startTime": 9.44,
+        "endTime": 9.88
+      },
+      {
+        "word": "and",
+        "startTime": 9.88,
+        "endTime": 10.12
+      },
+      {
+        "word": "safely",
+        "startTime": 10.12,
+        "endTime": 10.56
+      },
+      {
+        "word": "is",
+        "startTime": 10.56,
+        "endTime": 11.22
+      },
+      {
+        "word": "your",
+        "startTime": 11.22,
+        "endTime": 11.38
+      },
+      {
+        "word": "demonstration",
+        "startTime": 11.38,
+        "endTime": 11.96
+      },
+      {
+        "word": "of",
+        "startTime": 11.96,
+        "endTime": 12.26
+      },
+      {
+        "word": "production",
+        "startTime": 12.26,
+        "endTime": 12.7
+      },
+      {
+        "word": "-level",
+        "startTime": 12.7,
+        "endTime": 13.02
+      },
+      {
+        "word": "competence.",
+        "startTime": 13.02,
+        "endTime": 13.5
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, design and build a complete payroll disbursement system for Fahari logistics, a fictional company with 45 drivers paid weekly.",
+    "startTime": 14.24,
+    "endTime": 23.48,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 14.24,
+        "endTime": 14.46
+      },
+      {
+        "word": "this",
+        "startTime": 14.46,
+        "endTime": 14.66
+      },
+      {
+        "word": "lesson,",
+        "startTime": 14.66,
+        "endTime": 15.08
+      },
+      {
+        "word": "design",
+        "startTime": 15.62,
+        "endTime": 15.96
+      },
+      {
+        "word": "and",
+        "startTime": 15.96,
+        "endTime": 16.24
+      },
+      {
+        "word": "build",
+        "startTime": 16.24,
+        "endTime": 16.44
+      },
+      {
+        "word": "a",
+        "startTime": 16.44,
+        "endTime": 16.64
+      },
+      {
+        "word": "complete",
+        "startTime": 16.64,
+        "endTime": 16.98
+      },
+      {
+        "word": "payroll",
+        "startTime": 16.98,
+        "endTime": 17.44
+      },
+      {
+        "word": "disbursement",
+        "startTime": 17.44,
+        "endTime": 18.06
+      },
+      {
+        "word": "system",
+        "startTime": 18.06,
+        "endTime": 18.48
+      },
+      {
+        "word": "for",
+        "startTime": 18.48,
+        "endTime": 19.06
+      },
+      {
+        "word": "Fahari",
+        "startTime": 19.06,
+        "endTime": 19.54
+      },
+      {
+        "word": "logistics,",
+        "startTime": 19.54,
+        "endTime": 20.04
+      },
+      {
+        "word": "a",
+        "startTime": 20.52,
+        "endTime": 20.78
+      },
+      {
+        "word": "fictional",
+        "startTime": 20.78,
+        "endTime": 21.14
+      },
+      {
+        "word": "company",
+        "startTime": 21.14,
+        "endTime": 21.56
+      },
+      {
+        "word": "with",
+        "startTime": 21.56,
+        "endTime": 21.82
+      },
+      {
+        "word": "45",
+        "startTime": 21.82,
+        "endTime": 22.28
+      },
+      {
+        "word": "drivers",
+        "startTime": 22.28,
+        "endTime": 22.8
+      },
+      {
+        "word": "paid",
+        "startTime": 22.8,
+        "endTime": 23.1
+      },
+      {
+        "word": "weekly.",
+        "startTime": 23.1,
+        "endTime": 23.48
+      }
+    ]
+  },
+  {
+    "text": "The system reads from payroll database, validates balances, disperses via B2C, handles failures and generates pay slips.",
+    "startTime": 24.14,
+    "endTime": 32.88,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 24.14,
+        "endTime": 24.34
+      },
+      {
+        "word": "system",
+        "startTime": 24.34,
+        "endTime": 24.7
+      },
+      {
+        "word": "reads",
+        "startTime": 24.7,
+        "endTime": 24.92
+      },
+      {
+        "word": "from",
+        "startTime": 24.92,
+        "endTime": 25.28
+      },
+      {
+        "word": "payroll",
+        "startTime": 25.28,
+        "endTime": 25.64
+      },
+      {
+        "word": "database,",
+        "startTime": 25.64,
+        "endTime": 26.24
+      },
+      {
+        "word": "validates",
+        "startTime": 26.78,
+        "endTime": 27.22
+      },
+      {
+        "word": "balances,",
+        "startTime": 27.22,
+        "endTime": 27.74
+      },
+      {
+        "word": "disperses",
+        "startTime": 28.32,
+        "endTime": 28.88
+      },
+      {
+        "word": "via",
+        "startTime": 28.88,
+        "endTime": 29.12
+      },
+      {
+        "word": "B2C,",
+        "startTime": 29.12,
+        "endTime": 29.78
+      },
+      {
+        "word": "handles",
+        "startTime": 30.38,
+        "endTime": 30.64
+      },
+      {
+        "word": "failures",
+        "startTime": 30.64,
+        "endTime": 31.1
+      },
+      {
+        "word": "and",
+        "startTime": 31.1,
+        "endTime": 31.76
+      },
+      {
+        "word": "generates",
+        "startTime": 31.76,
+        "endTime": 32.22
+      },
+      {
+        "word": "pay",
+        "startTime": 32.22,
+        "endTime": 32.5
+      },
+      {
+        "word": "slips.",
+        "startTime": 32.5,
+        "endTime": 32.88
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 33.52,
+    "endTime": 37.12,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 33.52,
+        "endTime": 33.8
+      },
+      {
+        "word": "what",
+        "startTime": 33.8,
+        "endTime": 34.04
+      },
+      {
+        "word": "you",
+        "startTime": 34.04,
+        "endTime": 34.18
+      },
+      {
+        "word": "learn",
+        "startTime": 34.18,
+        "endTime": 34.38
+      },
+      {
+        "word": "in",
+        "startTime": 34.38,
+        "endTime": 34.54
+      },
+      {
+        "word": "this",
+        "startTime": 34.54,
+        "endTime": 34.72
+      },
+      {
+        "word": "lesson",
+        "startTime": 34.72,
+        "endTime": 35.08
+      },
+      {
+        "word": "and",
+        "startTime": 35.08,
+        "endTime": 35.62
+      },
+      {
+        "word": "you",
+        "startTime": 35.62,
+        "endTime": 35.78
+      },
+      {
+        "word": "will",
+        "startTime": 35.78,
+        "endTime": 35.88
+      },
+      {
+        "word": "see",
+        "startTime": 35.88,
+        "endTime": 36.08
+      },
+      {
+        "word": "results",
+        "startTime": 36.08,
+        "endTime": 36.46
+      },
+      {
+        "word": "immediately.",
+        "startTime": 36.46,
+        "endTime": 37.12
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 37.7,
+    "endTime": 38.82,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 37.7,
+        "endTime": 37.86
+      },
+      {
+        "word": "skills",
+        "startTime": 37.86,
+        "endTime": 38.26
+      },
+      {
+        "word": "bear",
+        "startTime": 38.26,
+        "endTime": 38.5
+      },
+      {
+        "word": "fruit.",
+        "startTime": 38.5,
+        "endTime": 38.82
+      }
+    ]
+  }
+]

@@ -1,0 +1,1267 @@
+[
+  {
+    "text": "Welcome to prompt engineering mastery.",
+    "startTime": 0,
+    "endTime": 1.8,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "Welcome",
+        "startTime": 0,
+        "endTime": 0.36
+      },
+      {
+        "word": "to",
+        "startTime": 0.36,
+        "endTime": 0.64
+      },
+      {
+        "word": "prompt",
+        "startTime": 0.64,
+        "endTime": 0.84
+      },
+      {
+        "word": "engineering",
+        "startTime": 0.84,
+        "endTime": 1.26
+      },
+      {
+        "word": "mastery.",
+        "startTime": 1.26,
+        "endTime": 1.8
+      }
+    ]
+  },
+  {
+    "text": "I am so glad you are here.",
+    "startTime": 2.38,
+    "endTime": 3.54,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "I",
+        "startTime": 2.38,
+        "endTime": 2.44
+      },
+      {
+        "word": "am",
+        "startTime": 2.44,
+        "endTime": 2.52
+      },
+      {
+        "word": "so",
+        "startTime": 2.52,
+        "endTime": 2.74
+      },
+      {
+        "word": "glad",
+        "startTime": 2.74,
+        "endTime": 3
+      },
+      {
+        "word": "you",
+        "startTime": 3,
+        "endTime": 3.22
+      },
+      {
+        "word": "are",
+        "startTime": 3.22,
+        "endTime": 3.32
+      },
+      {
+        "word": "here.",
+        "startTime": 3.32,
+        "endTime": 3.54
+      }
+    ]
+  },
+  {
+    "text": "This is the skill that makes every other AI skill better.",
+    "startTime": 4.14,
+    "endTime": 6.9,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "This",
+        "startTime": 4.14,
+        "endTime": 4.26
+      },
+      {
+        "word": "is",
+        "startTime": 4.26,
+        "endTime": 4.4
+      },
+      {
+        "word": "the",
+        "startTime": 4.4,
+        "endTime": 4.56
+      },
+      {
+        "word": "skill",
+        "startTime": 4.56,
+        "endTime": 4.82
+      },
+      {
+        "word": "that",
+        "startTime": 4.82,
+        "endTime": 5.02
+      },
+      {
+        "word": "makes",
+        "startTime": 5.02,
+        "endTime": 5.2
+      },
+      {
+        "word": "every",
+        "startTime": 5.2,
+        "endTime": 5.68
+      },
+      {
+        "word": "other",
+        "startTime": 5.68,
+        "endTime": 6
+      },
+      {
+        "word": "AI",
+        "startTime": 6,
+        "endTime": 6.18
+      },
+      {
+        "word": "skill",
+        "startTime": 6.18,
+        "endTime": 6.54
+      },
+      {
+        "word": "better.",
+        "startTime": 6.54,
+        "endTime": 6.9
+      }
+    ]
+  },
+  {
+    "text": "Consider this.",
+    "startTime": 7.4,
+    "endTime": 8.14,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Consider",
+        "startTime": 7.4,
+        "endTime": 7.74
+      },
+      {
+        "word": "this.",
+        "startTime": 7.74,
+        "endTime": 8.14
+      }
+    ]
+  },
+  {
+    "text": "Two people with the same AI tool on the same subscription.",
+    "startTime": 8.58,
+    "endTime": 11.56,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Two",
+        "startTime": 8.58,
+        "endTime": 8.84
+      },
+      {
+        "word": "people",
+        "startTime": 8.84,
+        "endTime": 9.18
+      },
+      {
+        "word": "with",
+        "startTime": 9.18,
+        "endTime": 9.38
+      },
+      {
+        "word": "the",
+        "startTime": 9.38,
+        "endTime": 9.54
+      },
+      {
+        "word": "same",
+        "startTime": 9.54,
+        "endTime": 9.86
+      },
+      {
+        "word": "AI",
+        "startTime": 9.86,
+        "endTime": 10.12
+      },
+      {
+        "word": "tool",
+        "startTime": 10.12,
+        "endTime": 10.46
+      },
+      {
+        "word": "on",
+        "startTime": 10.46,
+        "endTime": 10.68
+      },
+      {
+        "word": "the",
+        "startTime": 10.68,
+        "endTime": 10.8
+      },
+      {
+        "word": "same",
+        "startTime": 10.8,
+        "endTime": 11
+      },
+      {
+        "word": "subscription.",
+        "startTime": 11,
+        "endTime": 11.56
+      }
+    ]
+  },
+  {
+    "text": "One produces work that gets them promoted.",
+    "startTime": 12.2,
+    "endTime": 14.18,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "One",
+        "startTime": 12.2,
+        "endTime": 12.42
+      },
+      {
+        "word": "produces",
+        "startTime": 12.42,
+        "endTime": 12.78
+      },
+      {
+        "word": "work",
+        "startTime": 12.78,
+        "endTime": 13.18
+      },
+      {
+        "word": "that",
+        "startTime": 13.18,
+        "endTime": 13.36
+      },
+      {
+        "word": "gets",
+        "startTime": 13.36,
+        "endTime": 13.54
+      },
+      {
+        "word": "them",
+        "startTime": 13.54,
+        "endTime": 13.74
+      },
+      {
+        "word": "promoted.",
+        "startTime": 13.74,
+        "endTime": 14.18
+      }
+    ]
+  },
+  {
+    "text": "The other produces work their manager edits for an hour before it is usable.",
+    "startTime": 14.7,
+    "endTime": 18.34,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 14.7,
+        "endTime": 14.78
+      },
+      {
+        "word": "other",
+        "startTime": 14.78,
+        "endTime": 14.98
+      },
+      {
+        "word": "produces",
+        "startTime": 14.98,
+        "endTime": 15.4
+      },
+      {
+        "word": "work",
+        "startTime": 15.4,
+        "endTime": 15.8
+      },
+      {
+        "word": "their",
+        "startTime": 15.8,
+        "endTime": 15.98
+      },
+      {
+        "word": "manager",
+        "startTime": 15.98,
+        "endTime": 16.36
+      },
+      {
+        "word": "edits",
+        "startTime": 16.36,
+        "endTime": 16.72
+      },
+      {
+        "word": "for",
+        "startTime": 16.72,
+        "endTime": 17.02
+      },
+      {
+        "word": "an",
+        "startTime": 17.02,
+        "endTime": 17.16
+      },
+      {
+        "word": "hour",
+        "startTime": 17.16,
+        "endTime": 17.38
+      },
+      {
+        "word": "before",
+        "startTime": 17.38,
+        "endTime": 17.66
+      },
+      {
+        "word": "it",
+        "startTime": 17.66,
+        "endTime": 17.88
+      },
+      {
+        "word": "is",
+        "startTime": 17.88,
+        "endTime": 18
+      },
+      {
+        "word": "usable.",
+        "startTime": 18,
+        "endTime": 18.34
+      }
+    ]
+  },
+  {
+    "text": "The difference is not the tool.",
+    "startTime": 18.98,
+    "endTime": 20.24,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 18.98,
+        "endTime": 19.08
+      },
+      {
+        "word": "difference",
+        "startTime": 19.08,
+        "endTime": 19.38
+      },
+      {
+        "word": "is",
+        "startTime": 19.38,
+        "endTime": 19.62
+      },
+      {
+        "word": "not",
+        "startTime": 19.62,
+        "endTime": 19.76
+      },
+      {
+        "word": "the",
+        "startTime": 19.76,
+        "endTime": 19.94
+      },
+      {
+        "word": "tool.",
+        "startTime": 19.94,
+        "endTime": 20.24
+      }
+    ]
+  },
+  {
+    "text": "It is the system.",
+    "startTime": 20.66,
+    "endTime": 21.54,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "It",
+        "startTime": 20.66,
+        "endTime": 20.8
+      },
+      {
+        "word": "is",
+        "startTime": 20.8,
+        "endTime": 20.92
+      },
+      {
+        "word": "the",
+        "startTime": 20.92,
+        "endTime": 21.06
+      },
+      {
+        "word": "system.",
+        "startTime": 21.06,
+        "endTime": 21.54
+      }
+    ]
+  },
+  {
+    "text": "And that is exactly what you are about to learn.",
+    "startTime": 22.08,
+    "endTime": 24.18,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "And",
+        "startTime": 22.08,
+        "endTime": 22.2
+      },
+      {
+        "word": "that",
+        "startTime": 22.2,
+        "endTime": 22.4
+      },
+      {
+        "word": "is",
+        "startTime": 22.4,
+        "endTime": 22.5
+      },
+      {
+        "word": "exactly",
+        "startTime": 22.5,
+        "endTime": 23.04
+      },
+      {
+        "word": "what",
+        "startTime": 23.04,
+        "endTime": 23.28
+      },
+      {
+        "word": "you",
+        "startTime": 23.28,
+        "endTime": 23.42
+      },
+      {
+        "word": "are",
+        "startTime": 23.42,
+        "endTime": 23.54
+      },
+      {
+        "word": "about",
+        "startTime": 23.54,
+        "endTime": 23.72
+      },
+      {
+        "word": "to",
+        "startTime": 23.72,
+        "endTime": 23.94
+      },
+      {
+        "word": "learn.",
+        "startTime": 23.94,
+        "endTime": 24.18
+      }
+    ]
+  },
+  {
+    "text": "By the end of this course, you will write prompts that produce professional grade output every single time.",
+    "startTime": 24.84,
+    "endTime": 30,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "By",
+        "startTime": 24.84,
+        "endTime": 24.94
+      },
+      {
+        "word": "the",
+        "startTime": 24.94,
+        "endTime": 25.08
+      },
+      {
+        "word": "end",
+        "startTime": 25.08,
+        "endTime": 25.24
+      },
+      {
+        "word": "of",
+        "startTime": 25.24,
+        "endTime": 25.36
+      },
+      {
+        "word": "this",
+        "startTime": 25.36,
+        "endTime": 25.56
+      },
+      {
+        "word": "course,",
+        "startTime": 25.56,
+        "endTime": 25.86
+      },
+      {
+        "word": "you",
+        "startTime": 26.18,
+        "endTime": 26.28
+      },
+      {
+        "word": "will",
+        "startTime": 26.28,
+        "endTime": 26.4
+      },
+      {
+        "word": "write",
+        "startTime": 26.4,
+        "endTime": 26.64
+      },
+      {
+        "word": "prompts",
+        "startTime": 26.64,
+        "endTime": 27.04
+      },
+      {
+        "word": "that",
+        "startTime": 27.04,
+        "endTime": 27.2
+      },
+      {
+        "word": "produce",
+        "startTime": 27.2,
+        "endTime": 27.52
+      },
+      {
+        "word": "professional",
+        "startTime": 27.52,
+        "endTime": 28.2
+      },
+      {
+        "word": "grade",
+        "startTime": 28.2,
+        "endTime": 28.46
+      },
+      {
+        "word": "output",
+        "startTime": 28.46,
+        "endTime": 28.86
+      },
+      {
+        "word": "every",
+        "startTime": 28.86,
+        "endTime": 29.32
+      },
+      {
+        "word": "single",
+        "startTime": 29.32,
+        "endTime": 29.66
+      },
+      {
+        "word": "time.",
+        "startTime": 29.66,
+        "endTime": 30
+      }
+    ]
+  },
+  {
+    "text": "You will diagnose exactly why any prompt is failing and fix it immediately.",
+    "startTime": 30.62,
+    "endTime": 34.6,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 30.62,
+        "endTime": 30.7
+      },
+      {
+        "word": "will",
+        "startTime": 30.7,
+        "endTime": 30.82
+      },
+      {
+        "word": "diagnose",
+        "startTime": 30.82,
+        "endTime": 31.24
+      },
+      {
+        "word": "exactly",
+        "startTime": 31.24,
+        "endTime": 31.92
+      },
+      {
+        "word": "why",
+        "startTime": 31.92,
+        "endTime": 32.18
+      },
+      {
+        "word": "any",
+        "startTime": 32.18,
+        "endTime": 32.48
+      },
+      {
+        "word": "prompt",
+        "startTime": 32.48,
+        "endTime": 32.74
+      },
+      {
+        "word": "is",
+        "startTime": 32.74,
+        "endTime": 33
+      },
+      {
+        "word": "failing",
+        "startTime": 33,
+        "endTime": 33.32
+      },
+      {
+        "word": "and",
+        "startTime": 33.32,
+        "endTime": 33.6
+      },
+      {
+        "word": "fix",
+        "startTime": 33.6,
+        "endTime": 33.86
+      },
+      {
+        "word": "it",
+        "startTime": 33.86,
+        "endTime": 34.12
+      },
+      {
+        "word": "immediately.",
+        "startTime": 34.12,
+        "endTime": 34.6
+      }
+    ]
+  },
+  {
+    "text": "You will build a personal prompt library that makes you permanently more productive.",
+    "startTime": 35.18,
+    "endTime": 39,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 35.18,
+        "endTime": 35.44
+      },
+      {
+        "word": "will",
+        "startTime": 35.44,
+        "endTime": 35.54
+      },
+      {
+        "word": "build",
+        "startTime": 35.54,
+        "endTime": 35.72
+      },
+      {
+        "word": "a",
+        "startTime": 35.72,
+        "endTime": 35.9
+      },
+      {
+        "word": "personal",
+        "startTime": 35.9,
+        "endTime": 36.26
+      },
+      {
+        "word": "prompt",
+        "startTime": 36.26,
+        "endTime": 36.62
+      },
+      {
+        "word": "library",
+        "startTime": 36.62,
+        "endTime": 37
+      },
+      {
+        "word": "that",
+        "startTime": 37,
+        "endTime": 37.26
+      },
+      {
+        "word": "makes",
+        "startTime": 37.26,
+        "endTime": 37.46
+      },
+      {
+        "word": "you",
+        "startTime": 37.46,
+        "endTime": 37.68
+      },
+      {
+        "word": "permanently",
+        "startTime": 37.68,
+        "endTime": 38.12
+      },
+      {
+        "word": "more",
+        "startTime": 38.12,
+        "endTime": 38.52
+      },
+      {
+        "word": "productive.",
+        "startTime": 38.52,
+        "endTime": 39
+      }
+    ]
+  },
+  {
+    "text": "You will use few shot and chain of thought techniques that most AI users never even discover.",
+    "startTime": 39.72,
+    "endTime": 44.58,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 39.72,
+        "endTime": 39.92
+      },
+      {
+        "word": "will",
+        "startTime": 39.92,
+        "endTime": 40.04
+      },
+      {
+        "word": "use",
+        "startTime": 40.04,
+        "endTime": 40.28
+      },
+      {
+        "word": "few",
+        "startTime": 40.28,
+        "endTime": 40.5
+      },
+      {
+        "word": "shot",
+        "startTime": 40.5,
+        "endTime": 40.84
+      },
+      {
+        "word": "and",
+        "startTime": 40.84,
+        "endTime": 41.02
+      },
+      {
+        "word": "chain",
+        "startTime": 41.02,
+        "endTime": 41.24
+      },
+      {
+        "word": "of",
+        "startTime": 41.24,
+        "endTime": 41.42
+      },
+      {
+        "word": "thought",
+        "startTime": 41.42,
+        "endTime": 41.6
+      },
+      {
+        "word": "techniques",
+        "startTime": 41.6,
+        "endTime": 42.06
+      },
+      {
+        "word": "that",
+        "startTime": 42.06,
+        "endTime": 42.38
+      },
+      {
+        "word": "most",
+        "startTime": 42.38,
+        "endTime": 42.8
+      },
+      {
+        "word": "AI",
+        "startTime": 42.8,
+        "endTime": 42.98
+      },
+      {
+        "word": "users",
+        "startTime": 42.98,
+        "endTime": 43.38
+      },
+      {
+        "word": "never",
+        "startTime": 43.38,
+        "endTime": 43.78
+      },
+      {
+        "word": "even",
+        "startTime": 43.78,
+        "endTime": 44.12
+      },
+      {
+        "word": "discover.",
+        "startTime": 44.12,
+        "endTime": 44.58
+      }
+    ]
+  },
+  {
+    "text": "And you will be hireable specifically for prompt engineering skills in high demand across East Africa and globally.",
+    "startTime": 45.06,
+    "endTime": 51.4,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "And",
+        "startTime": 45.06,
+        "endTime": 45.28
+      },
+      {
+        "word": "you",
+        "startTime": 45.28,
+        "endTime": 45.42
+      },
+      {
+        "word": "will",
+        "startTime": 45.42,
+        "endTime": 45.54
+      },
+      {
+        "word": "be",
+        "startTime": 45.54,
+        "endTime": 45.68
+      },
+      {
+        "word": "hireable",
+        "startTime": 45.68,
+        "endTime": 46.22
+      },
+      {
+        "word": "specifically",
+        "startTime": 46.22,
+        "endTime": 46.88
+      },
+      {
+        "word": "for",
+        "startTime": 46.88,
+        "endTime": 47.18
+      },
+      {
+        "word": "prompt",
+        "startTime": 47.18,
+        "endTime": 47.5
+      },
+      {
+        "word": "engineering",
+        "startTime": 47.5,
+        "endTime": 47.94
+      },
+      {
+        "word": "skills",
+        "startTime": 47.94,
+        "endTime": 48.44
+      },
+      {
+        "word": "in",
+        "startTime": 48.44,
+        "endTime": 49.02
+      },
+      {
+        "word": "high",
+        "startTime": 49.02,
+        "endTime": 49.24
+      },
+      {
+        "word": "demand",
+        "startTime": 49.24,
+        "endTime": 49.56
+      },
+      {
+        "word": "across",
+        "startTime": 49.56,
+        "endTime": 49.98
+      },
+      {
+        "word": "East",
+        "startTime": 49.98,
+        "endTime": 50.32
+      },
+      {
+        "word": "Africa",
+        "startTime": 50.32,
+        "endTime": 50.66
+      },
+      {
+        "word": "and",
+        "startTime": 50.66,
+        "endTime": 51
+      },
+      {
+        "word": "globally.",
+        "startTime": 51,
+        "endTime": 51.4
+      }
+    ]
+  },
+  {
+    "text": "This course has eight lessons and six hours of content built around a final project that produces a complete professional prompt library for a specific job role.",
+    "startTime": 52.02,
+    "endTime": 61.12,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "This",
+        "startTime": 52.02,
+        "endTime": 52.38
+      },
+      {
+        "word": "course",
+        "startTime": 52.38,
+        "endTime": 52.62
+      },
+      {
+        "word": "has",
+        "startTime": 52.62,
+        "endTime": 52.88
+      },
+      {
+        "word": "eight",
+        "startTime": 52.88,
+        "endTime": 53.14
+      },
+      {
+        "word": "lessons",
+        "startTime": 53.14,
+        "endTime": 53.5
+      },
+      {
+        "word": "and",
+        "startTime": 53.5,
+        "endTime": 53.82
+      },
+      {
+        "word": "six",
+        "startTime": 53.82,
+        "endTime": 54.12
+      },
+      {
+        "word": "hours",
+        "startTime": 54.12,
+        "endTime": 54.36
+      },
+      {
+        "word": "of",
+        "startTime": 54.36,
+        "endTime": 54.5
+      },
+      {
+        "word": "content",
+        "startTime": 54.5,
+        "endTime": 54.96
+      },
+      {
+        "word": "built",
+        "startTime": 54.96,
+        "endTime": 55.64
+      },
+      {
+        "word": "around",
+        "startTime": 55.64,
+        "endTime": 55.96
+      },
+      {
+        "word": "a",
+        "startTime": 55.96,
+        "endTime": 56.1
+      },
+      {
+        "word": "final",
+        "startTime": 56.1,
+        "endTime": 56.44
+      },
+      {
+        "word": "project",
+        "startTime": 56.44,
+        "endTime": 56.86
+      },
+      {
+        "word": "that",
+        "startTime": 56.86,
+        "endTime": 57.06
+      },
+      {
+        "word": "produces",
+        "startTime": 57.06,
+        "endTime": 57.48
+      },
+      {
+        "word": "a",
+        "startTime": 57.48,
+        "endTime": 57.68
+      },
+      {
+        "word": "complete",
+        "startTime": 57.68,
+        "endTime": 58.04
+      },
+      {
+        "word": "professional",
+        "startTime": 58.04,
+        "endTime": 58.66
+      },
+      {
+        "word": "prompt",
+        "startTime": 58.66,
+        "endTime": 58.98
+      },
+      {
+        "word": "library",
+        "startTime": 58.98,
+        "endTime": 59.48
+      },
+      {
+        "word": "for",
+        "startTime": 59.48,
+        "endTime": 60.04
+      },
+      {
+        "word": "a",
+        "startTime": 60.04,
+        "endTime": 60.18
+      },
+      {
+        "word": "specific",
+        "startTime": 60.18,
+        "endTime": 60.58
+      },
+      {
+        "word": "job",
+        "startTime": 60.58,
+        "endTime": 60.88
+      },
+      {
+        "word": "role.",
+        "startTime": 60.88,
+        "endTime": 61.12
+      }
+    ]
+  },
+  {
+    "text": "Your first task is waiting below.",
+    "startTime": 61.82,
+    "endTime": 63.34,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 61.82,
+        "endTime": 61.92
+      },
+      {
+        "word": "first",
+        "startTime": 61.92,
+        "endTime": 62.24
+      },
+      {
+        "word": "task",
+        "startTime": 62.24,
+        "endTime": 62.5
+      },
+      {
+        "word": "is",
+        "startTime": 62.5,
+        "endTime": 62.74
+      },
+      {
+        "word": "waiting",
+        "startTime": 62.74,
+        "endTime": 63.02
+      },
+      {
+        "word": "below.",
+        "startTime": 63.02,
+        "endTime": 63.34
+      }
+    ]
+  },
+  {
+    "text": "Take the last three things you asked any AI to help with and write them down exactly as you type them.",
+    "startTime": 64.04,
+    "endTime": 69.6,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Take",
+        "startTime": 64.04,
+        "endTime": 64.18
+      },
+      {
+        "word": "the",
+        "startTime": 64.18,
+        "endTime": 64.36
+      },
+      {
+        "word": "last",
+        "startTime": 64.36,
+        "endTime": 64.54
+      },
+      {
+        "word": "three",
+        "startTime": 64.54,
+        "endTime": 64.9
+      },
+      {
+        "word": "things",
+        "startTime": 64.9,
+        "endTime": 65.16
+      },
+      {
+        "word": "you",
+        "startTime": 65.16,
+        "endTime": 65.34
+      },
+      {
+        "word": "asked",
+        "startTime": 65.34,
+        "endTime": 65.58
+      },
+      {
+        "word": "any",
+        "startTime": 65.58,
+        "endTime": 65.96
+      },
+      {
+        "word": "AI",
+        "startTime": 65.96,
+        "endTime": 66.24
+      },
+      {
+        "word": "to",
+        "startTime": 66.24,
+        "endTime": 66.48
+      },
+      {
+        "word": "help",
+        "startTime": 66.48,
+        "endTime": 66.68
+      },
+      {
+        "word": "with",
+        "startTime": 66.68,
+        "endTime": 67.02
+      },
+      {
+        "word": "and",
+        "startTime": 67.02,
+        "endTime": 67.5
+      },
+      {
+        "word": "write",
+        "startTime": 67.5,
+        "endTime": 67.72
+      },
+      {
+        "word": "them",
+        "startTime": 67.72,
+        "endTime": 67.94
+      },
+      {
+        "word": "down",
+        "startTime": 67.94,
+        "endTime": 68.14
+      },
+      {
+        "word": "exactly",
+        "startTime": 68.14,
+        "endTime": 68.74
+      },
+      {
+        "word": "as",
+        "startTime": 68.74,
+        "endTime": 68.98
+      },
+      {
+        "word": "you",
+        "startTime": 68.98,
+        "endTime": 69.08
+      },
+      {
+        "word": "type",
+        "startTime": 69.08,
+        "endTime": 69.34
+      },
+      {
+        "word": "them.",
+        "startTime": 69.34,
+        "endTime": 69.6
+      }
+    ]
+  },
+  {
+    "text": "I will see you in lesson one.",
+    "startTime": 70.24,
+    "endTime": 71.5,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "I",
+        "startTime": 70.24,
+        "endTime": 70.34
+      },
+      {
+        "word": "will",
+        "startTime": 70.34,
+        "endTime": 70.44
+      },
+      {
+        "word": "see",
+        "startTime": 70.44,
+        "endTime": 70.68
+      },
+      {
+        "word": "you",
+        "startTime": 70.68,
+        "endTime": 70.82
+      },
+      {
+        "word": "in",
+        "startTime": 70.82,
+        "endTime": 70.92
+      },
+      {
+        "word": "lesson",
+        "startTime": 70.92,
+        "endTime": 71.16
+      },
+      {
+        "word": "one.",
+        "startTime": 71.16,
+        "endTime": 71.5
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 72.08,
+    "endTime": 73.14,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 72.08,
+        "endTime": 72.2
+      },
+      {
+        "word": "skills",
+        "startTime": 72.2,
+        "endTime": 72.58
+      },
+      {
+        "word": "bear",
+        "startTime": 72.58,
+        "endTime": 72.84
+      },
+      {
+        "word": "fruit.",
+        "startTime": 72.84,
+        "endTime": 73.14
+      }
+    ]
+  }
+]

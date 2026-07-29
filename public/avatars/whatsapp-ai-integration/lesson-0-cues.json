@@ -1,0 +1,1372 @@
+[
+  {
+    "text": "Welcome to Welcome to WhatsApp Business AI.",
+    "startTime": 0,
+    "endTime": 3.26,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "Welcome",
+        "startTime": 0,
+        "endTime": 0.48
+      },
+      {
+        "word": "to",
+        "startTime": 0.48,
+        "endTime": 0.8
+      },
+      {
+        "word": "Welcome",
+        "startTime": 0.8,
+        "endTime": 1.26
+      },
+      {
+        "word": "to",
+        "startTime": 1.26,
+        "endTime": 1.64
+      },
+      {
+        "word": "WhatsApp",
+        "startTime": 1.64,
+        "endTime": 2.1
+      },
+      {
+        "word": "Business",
+        "startTime": 2.1,
+        "endTime": 2.66
+      },
+      {
+        "word": "AI.",
+        "startTime": 2.66,
+        "endTime": 3.26
+      }
+    ]
+  },
+  {
+    "text": "I am so glad you are here.",
+    "startTime": 4.36,
+    "endTime": 6.28,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "I",
+        "startTime": 4.36,
+        "endTime": 4.54
+      },
+      {
+        "word": "am",
+        "startTime": 4.54,
+        "endTime": 4.68
+      },
+      {
+        "word": "so",
+        "startTime": 4.68,
+        "endTime": 5.1
+      },
+      {
+        "word": "glad",
+        "startTime": 5.1,
+        "endTime": 5.46
+      },
+      {
+        "word": "you",
+        "startTime": 5.46,
+        "endTime": 5.76
+      },
+      {
+        "word": "are",
+        "startTime": 5.76,
+        "endTime": 5.92
+      },
+      {
+        "word": "here.",
+        "startTime": 5.92,
+        "endTime": 6.28
+      }
+    ]
+  },
+  {
+    "text": "A Nairobi Property Agency was paying three customer service agents to answer the same 15 questions on WhatsApp every day, opening hours, property prices, viewing slots.",
+    "startTime": 7.46,
+    "endTime": 21.04,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 7.46,
+        "endTime": 7.56
+      },
+      {
+        "word": "Nairobi",
+        "startTime": 7.56,
+        "endTime": 8.14
+      },
+      {
+        "word": "Property",
+        "startTime": 8.14,
+        "endTime": 8.66
+      },
+      {
+        "word": "Agency",
+        "startTime": 8.66,
+        "endTime": 9.42
+      },
+      {
+        "word": "was",
+        "startTime": 9.42,
+        "endTime": 10
+      },
+      {
+        "word": "paying",
+        "startTime": 10,
+        "endTime": 10.3
+      },
+      {
+        "word": "three",
+        "startTime": 10.3,
+        "endTime": 10.8
+      },
+      {
+        "word": "customer",
+        "startTime": 10.8,
+        "endTime": 11.4
+      },
+      {
+        "word": "service",
+        "startTime": 11.4,
+        "endTime": 11.9
+      },
+      {
+        "word": "agents",
+        "startTime": 11.9,
+        "endTime": 12.42
+      },
+      {
+        "word": "to",
+        "startTime": 12.42,
+        "endTime": 13
+      },
+      {
+        "word": "answer",
+        "startTime": 13,
+        "endTime": 13.26
+      },
+      {
+        "word": "the",
+        "startTime": 13.26,
+        "endTime": 13.52
+      },
+      {
+        "word": "same",
+        "startTime": 13.52,
+        "endTime": 13.88
+      },
+      {
+        "word": "15",
+        "startTime": 13.88,
+        "endTime": 14.46
+      },
+      {
+        "word": "questions",
+        "startTime": 14.46,
+        "endTime": 15.04
+      },
+      {
+        "word": "on",
+        "startTime": 15.04,
+        "endTime": 15.4
+      },
+      {
+        "word": "WhatsApp",
+        "startTime": 15.4,
+        "endTime": 15.84
+      },
+      {
+        "word": "every",
+        "startTime": 15.84,
+        "endTime": 16.42
+      },
+      {
+        "word": "day,",
+        "startTime": 16.42,
+        "endTime": 16.8
+      },
+      {
+        "word": "opening",
+        "startTime": 17.5,
+        "endTime": 17.86
+      },
+      {
+        "word": "hours,",
+        "startTime": 17.86,
+        "endTime": 18.34
+      },
+      {
+        "word": "property",
+        "startTime": 18.86,
+        "endTime": 19.1
+      },
+      {
+        "word": "prices,",
+        "startTime": 19.1,
+        "endTime": 19.7
+      },
+      {
+        "word": "viewing",
+        "startTime": 20.34,
+        "endTime": 20.58
+      },
+      {
+        "word": "slots.",
+        "startTime": 20.58,
+        "endTime": 21.04
+      }
+    ]
+  },
+  {
+    "text": "A developer built a bot in a weekend.",
+    "startTime": 22,
+    "endTime": 24.74,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 22,
+        "endTime": 22.46
+      },
+      {
+        "word": "developer",
+        "startTime": 22.46,
+        "endTime": 22.84
+      },
+      {
+        "word": "built",
+        "startTime": 22.84,
+        "endTime": 23.28
+      },
+      {
+        "word": "a",
+        "startTime": 23.28,
+        "endTime": 23.44
+      },
+      {
+        "word": "bot",
+        "startTime": 23.44,
+        "endTime": 23.7
+      },
+      {
+        "word": "in",
+        "startTime": 23.7,
+        "endTime": 24.2
+      },
+      {
+        "word": "a",
+        "startTime": 24.2,
+        "endTime": 24.32
+      },
+      {
+        "word": "weekend.",
+        "startTime": 24.32,
+        "endTime": 24.74
+      }
+    ]
+  },
+  {
+    "text": "The bot now handles 340 conversations daily.",
+    "startTime": 25.54,
+    "endTime": 29.46,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 25.54,
+        "endTime": 25.8
+      },
+      {
+        "word": "bot",
+        "startTime": 25.8,
+        "endTime": 26.06
+      },
+      {
+        "word": "now",
+        "startTime": 26.06,
+        "endTime": 26.32
+      },
+      {
+        "word": "handles",
+        "startTime": 26.32,
+        "endTime": 26.78
+      },
+      {
+        "word": "340",
+        "startTime": 26.78,
+        "endTime": 28.04
+      },
+      {
+        "word": "conversations",
+        "startTime": 28.04,
+        "endTime": 28.98
+      },
+      {
+        "word": "daily.",
+        "startTime": 28.98,
+        "endTime": 29.46
+      }
+    ]
+  },
+  {
+    "text": "The three agents moved to closing deals.",
+    "startTime": 30.34,
+    "endTime": 32.86,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 30.34,
+        "endTime": 30.46
+      },
+      {
+        "word": "three",
+        "startTime": 30.46,
+        "endTime": 30.78
+      },
+      {
+        "word": "agents",
+        "startTime": 30.78,
+        "endTime": 31.3
+      },
+      {
+        "word": "moved",
+        "startTime": 31.3,
+        "endTime": 31.68
+      },
+      {
+        "word": "to",
+        "startTime": 31.68,
+        "endTime": 31.92
+      },
+      {
+        "word": "closing",
+        "startTime": 31.92,
+        "endTime": 32.28
+      },
+      {
+        "word": "deals.",
+        "startTime": 32.28,
+        "endTime": 32.86
+      }
+    ]
+  },
+  {
+    "text": "Revenue went up 40 % in 90 days.",
+    "startTime": 33.64,
+    "endTime": 37.2,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Revenue",
+        "startTime": 33.64,
+        "endTime": 34.16
+      },
+      {
+        "word": "went",
+        "startTime": 34.16,
+        "endTime": 34.44
+      },
+      {
+        "word": "up",
+        "startTime": 34.44,
+        "endTime": 34.7
+      },
+      {
+        "word": "40",
+        "startTime": 34.7,
+        "endTime": 35.26
+      },
+      {
+        "word": "%",
+        "startTime": 35.26,
+        "endTime": 35.66
+      },
+      {
+        "word": "in",
+        "startTime": 35.66,
+        "endTime": 36.06
+      },
+      {
+        "word": "90",
+        "startTime": 36.06,
+        "endTime": 36.54
+      },
+      {
+        "word": "days.",
+        "startTime": 36.54,
+        "endTime": 37.2
+      }
+    ]
+  },
+  {
+    "text": "By the end of this course, you will set up a Metacloud API account and send your first WhatsApp message via code by Lesson 2.",
+    "startTime": 37.86,
+    "endTime": 48.54,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "By",
+        "startTime": 37.86,
+        "endTime": 38.08
+      },
+      {
+        "word": "the",
+        "startTime": 38.08,
+        "endTime": 38.26
+      },
+      {
+        "word": "end",
+        "startTime": 38.26,
+        "endTime": 38.5
+      },
+      {
+        "word": "of",
+        "startTime": 38.5,
+        "endTime": 38.66
+      },
+      {
+        "word": "this",
+        "startTime": 38.66,
+        "endTime": 38.84
+      },
+      {
+        "word": "course,",
+        "startTime": 38.84,
+        "endTime": 39.24
+      },
+      {
+        "word": "you",
+        "startTime": 39.72,
+        "endTime": 39.86
+      },
+      {
+        "word": "will",
+        "startTime": 39.86,
+        "endTime": 40.16
+      },
+      {
+        "word": "set",
+        "startTime": 40.16,
+        "endTime": 41.18
+      },
+      {
+        "word": "up",
+        "startTime": 41.18,
+        "endTime": 41.52
+      },
+      {
+        "word": "a",
+        "startTime": 41.52,
+        "endTime": 41.68
+      },
+      {
+        "word": "Metacloud",
+        "startTime": 41.68,
+        "endTime": 42.42
+      },
+      {
+        "word": "API",
+        "startTime": 42.42,
+        "endTime": 43.06
+      },
+      {
+        "word": "account",
+        "startTime": 43.06,
+        "endTime": 43.86
+      },
+      {
+        "word": "and",
+        "startTime": 43.86,
+        "endTime": 44.44
+      },
+      {
+        "word": "send",
+        "startTime": 44.44,
+        "endTime": 44.68
+      },
+      {
+        "word": "your",
+        "startTime": 44.68,
+        "endTime": 44.9
+      },
+      {
+        "word": "first",
+        "startTime": 44.9,
+        "endTime": 45.38
+      },
+      {
+        "word": "WhatsApp",
+        "startTime": 45.38,
+        "endTime": 45.76
+      },
+      {
+        "word": "message",
+        "startTime": 45.76,
+        "endTime": 46.28
+      },
+      {
+        "word": "via",
+        "startTime": 46.28,
+        "endTime": 46.66
+      },
+      {
+        "word": "code",
+        "startTime": 46.66,
+        "endTime": 47.2
+      },
+      {
+        "word": "by",
+        "startTime": 47.2,
+        "endTime": 47.76
+      },
+      {
+        "word": "Lesson",
+        "startTime": 47.76,
+        "endTime": 48.2
+      },
+      {
+        "word": "2.",
+        "startTime": 48.2,
+        "endTime": 48.54
+      }
+    ]
+  },
+  {
+    "text": "You will build a webhook server that receives and passes any incoming WhatsApp message type.",
+    "startTime": 49.6,
+    "endTime": 57.26,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 49.6,
+        "endTime": 49.96
+      },
+      {
+        "word": "will",
+        "startTime": 49.96,
+        "endTime": 50.24
+      },
+      {
+        "word": "build",
+        "startTime": 50.82000000000001,
+        "endTime": 51.34
+      },
+      {
+        "word": "a",
+        "startTime": 51.34,
+        "endTime": 51.74
+      },
+      {
+        "word": "webhook",
+        "startTime": 51.74,
+        "endTime": 52.24
+      },
+      {
+        "word": "server",
+        "startTime": 52.24,
+        "endTime": 52.72
+      },
+      {
+        "word": "that",
+        "startTime": 52.72,
+        "endTime": 53.18
+      },
+      {
+        "word": "receives",
+        "startTime": 53.18,
+        "endTime": 53.6
+      },
+      {
+        "word": "and",
+        "startTime": 53.6,
+        "endTime": 54.06
+      },
+      {
+        "word": "passes",
+        "startTime": 54.06,
+        "endTime": 54.56
+      },
+      {
+        "word": "any",
+        "startTime": 54.56,
+        "endTime": 55.08
+      },
+      {
+        "word": "incoming",
+        "startTime": 55.08,
+        "endTime": 55.64
+      },
+      {
+        "word": "WhatsApp",
+        "startTime": 55.64,
+        "endTime": 56.16
+      },
+      {
+        "word": "message",
+        "startTime": 56.16,
+        "endTime": 56.64
+      },
+      {
+        "word": "type.",
+        "startTime": 56.64,
+        "endTime": 57.26
+      }
+    ]
+  },
+  {
+    "text": "You will build a complete FAQ bot that handles 10 question types including Swahili and English variations.",
+    "startTime": 58.1,
+    "endTime": 67.86,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 58.1,
+        "endTime": 58.42
+      },
+      {
+        "word": "will",
+        "startTime": 58.42,
+        "endTime": 58.68
+      },
+      {
+        "word": "build",
+        "startTime": 58.68,
+        "endTime": 60.12
+      },
+      {
+        "word": "a",
+        "startTime": 60.12,
+        "endTime": 60.32
+      },
+      {
+        "word": "complete",
+        "startTime": 60.32,
+        "endTime": 60.88
+      },
+      {
+        "word": "FAQ",
+        "startTime": 60.88,
+        "endTime": 61.82
+      },
+      {
+        "word": "bot",
+        "startTime": 61.82,
+        "endTime": 62.1
+      },
+      {
+        "word": "that",
+        "startTime": 62.1,
+        "endTime": 62.68
+      },
+      {
+        "word": "handles",
+        "startTime": 62.68,
+        "endTime": 63.06
+      },
+      {
+        "word": "10",
+        "startTime": 63.06,
+        "endTime": 63.52
+      },
+      {
+        "word": "question",
+        "startTime": 63.52,
+        "endTime": 64.04
+      },
+      {
+        "word": "types",
+        "startTime": 64.04,
+        "endTime": 64.54
+      },
+      {
+        "word": "including",
+        "startTime": 64.54,
+        "endTime": 65.26
+      },
+      {
+        "word": "Swahili",
+        "startTime": 65.26,
+        "endTime": 66.04
+      },
+      {
+        "word": "and",
+        "startTime": 66.04,
+        "endTime": 66.64
+      },
+      {
+        "word": "English",
+        "startTime": 66.64,
+        "endTime": 67.04
+      },
+      {
+        "word": "variations.",
+        "startTime": 67.04,
+        "endTime": 67.86
+      }
+    ]
+  },
+  {
+    "text": "You will integrate Claude or GPT as the AI Intelligence layer, freeform messages handled automatically.",
+    "startTime": 68.68,
+    "endTime": 78.98,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 68.68,
+        "endTime": 69.58
+      },
+      {
+        "word": "will",
+        "startTime": 69.58,
+        "endTime": 69.96
+      },
+      {
+        "word": "integrate",
+        "startTime": 69.96,
+        "endTime": 71.28
+      },
+      {
+        "word": "Claude",
+        "startTime": 71.28,
+        "endTime": 72.08
+      },
+      {
+        "word": "or",
+        "startTime": 72.08,
+        "endTime": 72.34
+      },
+      {
+        "word": "GPT",
+        "startTime": 72.34,
+        "endTime": 73.16
+      },
+      {
+        "word": "as",
+        "startTime": 73.16,
+        "endTime": 73.8
+      },
+      {
+        "word": "the",
+        "startTime": 73.8,
+        "endTime": 74
+      },
+      {
+        "word": "AI",
+        "startTime": 74,
+        "endTime": 74.42
+      },
+      {
+        "word": "Intelligence",
+        "startTime": 74.42,
+        "endTime": 75.26
+      },
+      {
+        "word": "layer,",
+        "startTime": 75.26,
+        "endTime": 75.8
+      },
+      {
+        "word": "freeform",
+        "startTime": 76.5,
+        "endTime": 77
+      },
+      {
+        "word": "messages",
+        "startTime": 77,
+        "endTime": 77.5
+      },
+      {
+        "word": "handled",
+        "startTime": 77.5,
+        "endTime": 78.04
+      },
+      {
+        "word": "automatically.",
+        "startTime": 78.04,
+        "endTime": 78.98
+      }
+    ]
+  },
+  {
+    "text": "And you will.",
+    "startTime": 79.82,
+    "endTime": 80.78,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "And",
+        "startTime": 79.82,
+        "endTime": 80.24
+      },
+      {
+        "word": "you",
+        "startTime": 80.24,
+        "endTime": 80.4
+      },
+      {
+        "word": "will.",
+        "startTime": 80.4,
+        "endTime": 80.78
+      }
+    ]
+  },
+  {
+    "text": "Deploy a production bot with full error handling, delivery tracking and full back to human logic.",
+    "startTime": 81.64,
+    "endTime": 88.6,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Deploy",
+        "startTime": 81.64,
+        "endTime": 82.04
+      },
+      {
+        "word": "a",
+        "startTime": 82.04,
+        "endTime": 82.34
+      },
+      {
+        "word": "production",
+        "startTime": 82.34,
+        "endTime": 82.8
+      },
+      {
+        "word": "bot",
+        "startTime": 82.8,
+        "endTime": 83.14
+      },
+      {
+        "word": "with",
+        "startTime": 83.14,
+        "endTime": 83.66
+      },
+      {
+        "word": "full",
+        "startTime": 83.66,
+        "endTime": 84.08
+      },
+      {
+        "word": "error",
+        "startTime": 84.08,
+        "endTime": 84.42
+      },
+      {
+        "word": "handling,",
+        "startTime": 84.42,
+        "endTime": 84.9
+      },
+      {
+        "word": "delivery",
+        "startTime": 85.42,
+        "endTime": 85.7
+      },
+      {
+        "word": "tracking",
+        "startTime": 85.7,
+        "endTime": 86.24
+      },
+      {
+        "word": "and",
+        "startTime": 86.24,
+        "endTime": 86.88
+      },
+      {
+        "word": "full",
+        "startTime": 86.88,
+        "endTime": 87.18
+      },
+      {
+        "word": "back",
+        "startTime": 87.18,
+        "endTime": 87.46
+      },
+      {
+        "word": "to",
+        "startTime": 87.46,
+        "endTime": 87.72
+      },
+      {
+        "word": "human",
+        "startTime": 87.72,
+        "endTime": 88.1
+      },
+      {
+        "word": "logic.",
+        "startTime": 88.1,
+        "endTime": 88.6
+      }
+    ]
+  },
+  {
+    "text": "This course has eight lessons and six hours of content with five hands -on sandboxes.",
+    "startTime": 89.64,
+    "endTime": 96.54,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "This",
+        "startTime": 89.64,
+        "endTime": 90.08
+      },
+      {
+        "word": "course",
+        "startTime": 90.08,
+        "endTime": 90.42
+      },
+      {
+        "word": "has",
+        "startTime": 90.42,
+        "endTime": 90.8
+      },
+      {
+        "word": "eight",
+        "startTime": 90.8,
+        "endTime": 91.16
+      },
+      {
+        "word": "lessons",
+        "startTime": 91.16,
+        "endTime": 91.62
+      },
+      {
+        "word": "and",
+        "startTime": 91.62,
+        "endTime": 92.26
+      },
+      {
+        "word": "six",
+        "startTime": 92.26,
+        "endTime": 92.74
+      },
+      {
+        "word": "hours",
+        "startTime": 92.74,
+        "endTime": 93.1
+      },
+      {
+        "word": "of",
+        "startTime": 93.1,
+        "endTime": 93.3
+      },
+      {
+        "word": "content",
+        "startTime": 93.3,
+        "endTime": 93.8
+      },
+      {
+        "word": "with",
+        "startTime": 93.8,
+        "endTime": 94.42
+      },
+      {
+        "word": "five",
+        "startTime": 94.42,
+        "endTime": 94.92
+      },
+      {
+        "word": "hands",
+        "startTime": 94.92,
+        "endTime": 95.38
+      },
+      {
+        "word": "-on",
+        "startTime": 95.38,
+        "endTime": 95.58
+      },
+      {
+        "word": "sandboxes.",
+        "startTime": 95.58,
+        "endTime": 96.54
+      }
+    ]
+  },
+  {
+    "text": "Your final project is production deployed customer service bot for Savannah Properties, a fictional Kenyan real estate company.",
+    "startTime": 97.32,
+    "endTime": 106.82,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 97.32,
+        "endTime": 97.6
+      },
+      {
+        "word": "final",
+        "startTime": 97.6,
+        "endTime": 98.08
+      },
+      {
+        "word": "project",
+        "startTime": 98.08,
+        "endTime": 98.52
+      },
+      {
+        "word": "is",
+        "startTime": 98.52,
+        "endTime": 99.04
+      },
+      {
+        "word": "production",
+        "startTime": 99.04,
+        "endTime": 99.86
+      },
+      {
+        "word": "deployed",
+        "startTime": 99.86,
+        "endTime": 100.68
+      },
+      {
+        "word": "customer",
+        "startTime": 100.68,
+        "endTime": 101.2
+      },
+      {
+        "word": "service",
+        "startTime": 101.2,
+        "endTime": 101.72
+      },
+      {
+        "word": "bot",
+        "startTime": 101.72,
+        "endTime": 102.04
+      },
+      {
+        "word": "for",
+        "startTime": 102.04,
+        "endTime": 102.62
+      },
+      {
+        "word": "Savannah",
+        "startTime": 102.62,
+        "endTime": 103.08
+      },
+      {
+        "word": "Properties,",
+        "startTime": 103.08,
+        "endTime": 103.72
+      },
+      {
+        "word": "a",
+        "startTime": 104.36,
+        "endTime": 104.44
+      },
+      {
+        "word": "fictional",
+        "startTime": 104.44,
+        "endTime": 104.98
+      },
+      {
+        "word": "Kenyan",
+        "startTime": 104.98,
+        "endTime": 105.62
+      },
+      {
+        "word": "real",
+        "startTime": 105.62,
+        "endTime": 105.92
+      },
+      {
+        "word": "estate",
+        "startTime": 105.92,
+        "endTime": 106.24
+      },
+      {
+        "word": "company.",
+        "startTime": 106.24,
+        "endTime": 106.82
+      }
+    ]
+  },
+  {
+    "text": "You do not need to code, you do not need a technology background.",
+    "startTime": 107.92,
+    "endTime": 112.18,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 107.92,
+        "endTime": 108.02
+      },
+      {
+        "word": "do",
+        "startTime": 108.02,
+        "endTime": 108.18
+      },
+      {
+        "word": "not",
+        "startTime": 108.18,
+        "endTime": 108.46
+      },
+      {
+        "word": "need",
+        "startTime": 108.46,
+        "endTime": 108.78
+      },
+      {
+        "word": "to",
+        "startTime": 108.78,
+        "endTime": 109
+      },
+      {
+        "word": "code,",
+        "startTime": 109,
+        "endTime": 109.32
+      },
+      {
+        "word": "you",
+        "startTime": 110.04,
+        "endTime": 110.14
+      },
+      {
+        "word": "do",
+        "startTime": 110.14,
+        "endTime": 110.28
+      },
+      {
+        "word": "not",
+        "startTime": 110.28,
+        "endTime": 110.56
+      },
+      {
+        "word": "need",
+        "startTime": 110.56,
+        "endTime": 110.86
+      },
+      {
+        "word": "a",
+        "startTime": 110.86,
+        "endTime": 111
+      },
+      {
+        "word": "technology",
+        "startTime": 111,
+        "endTime": 111.54
+      },
+      {
+        "word": "background.",
+        "startTime": 111.54,
+        "endTime": 112.18
+      }
+    ]
+  },
+  {
+    "text": "All you need is the willingness to learn and I will guide you every step of the way.",
+    "startTime": 112.94,
+    "endTime": 118.42,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "All",
+        "startTime": 112.94,
+        "endTime": 113.24
+      },
+      {
+        "word": "you",
+        "startTime": 113.24,
+        "endTime": 113.48
+      },
+      {
+        "word": "need",
+        "startTime": 113.48,
+        "endTime": 113.76
+      },
+      {
+        "word": "is",
+        "startTime": 113.76,
+        "endTime": 114.1
+      },
+      {
+        "word": "the",
+        "startTime": 114.1,
+        "endTime": 114.26
+      },
+      {
+        "word": "willingness",
+        "startTime": 114.26,
+        "endTime": 114.6
+      },
+      {
+        "word": "to",
+        "startTime": 114.6,
+        "endTime": 115.02
+      },
+      {
+        "word": "learn",
+        "startTime": 115.02,
+        "endTime": 115.38
+      },
+      {
+        "word": "and",
+        "startTime": 115.38,
+        "endTime": 116
+      },
+      {
+        "word": "I",
+        "startTime": 116,
+        "endTime": 116.16
+      },
+      {
+        "word": "will",
+        "startTime": 116.16,
+        "endTime": 116.3
+      },
+      {
+        "word": "guide",
+        "startTime": 116.3,
+        "endTime": 116.62
+      },
+      {
+        "word": "you",
+        "startTime": 116.62,
+        "endTime": 116.94
+      },
+      {
+        "word": "every",
+        "startTime": 116.94,
+        "endTime": 117.48
+      },
+      {
+        "word": "step",
+        "startTime": 117.48,
+        "endTime": 117.8
+      },
+      {
+        "word": "of",
+        "startTime": 117.8,
+        "endTime": 117.98
+      },
+      {
+        "word": "the",
+        "startTime": 117.98,
+        "endTime": 118.14
+      },
+      {
+        "word": "way.",
+        "startTime": 118.14,
+        "endTime": 118.42
+      }
+    ]
+  },
+  {
+    "text": "Your first task is waiting below.",
+    "startTime": 119.42,
+    "endTime": 121.52,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 119.42,
+        "endTime": 119.6
+      },
+      {
+        "word": "first",
+        "startTime": 119.6,
+        "endTime": 120.08
+      },
+      {
+        "word": "task",
+        "startTime": 120.08,
+        "endTime": 120.36
+      },
+      {
+        "word": "is",
+        "startTime": 120.36,
+        "endTime": 120.76
+      },
+      {
+        "word": "waiting",
+        "startTime": 120.76,
+        "endTime": 121.16
+      },
+      {
+        "word": "below.",
+        "startTime": 121.16,
+        "endTime": 121.52
+      }
+    ]
+  },
+  {
+    "text": "I will see you in Lesson 1.",
+    "startTime": 122.38,
+    "endTime": 124.32,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "I",
+        "startTime": 122.38,
+        "endTime": 122.62
+      },
+      {
+        "word": "will",
+        "startTime": 122.62,
+        "endTime": 122.76
+      },
+      {
+        "word": "see",
+        "startTime": 122.76,
+        "endTime": 123.08
+      },
+      {
+        "word": "you",
+        "startTime": 123.08,
+        "endTime": 123.36
+      },
+      {
+        "word": "in",
+        "startTime": 123.36,
+        "endTime": 123.58
+      },
+      {
+        "word": "Lesson",
+        "startTime": 123.58,
+        "endTime": 124.02
+      },
+      {
+        "word": "1.",
+        "startTime": 124.02,
+        "endTime": 124.32
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 124.32,
+    "endTime": 127.04,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 124.32,
+        "endTime": 125.38
+      },
+      {
+        "word": "skills",
+        "startTime": 125.38,
+        "endTime": 125.98
+      },
+      {
+        "word": "bear",
+        "startTime": 125.98,
+        "endTime": 126.54
+      },
+      {
+        "word": "fruit.",
+        "startTime": 126.54,
+        "endTime": 127.04
+      }
+    ]
+  }
+]

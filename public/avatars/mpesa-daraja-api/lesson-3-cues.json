@@ -1,0 +1,523 @@
+[
+  {
+    "text": "STK, push is the API endpoint that every Kenyan with an MPSer phone has experience from the customer side.",
+    "startTime": 0,
+    "endTime": 6.82,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "STK,",
+        "startTime": 0,
+        "endTime": 0.78
+      },
+      {
+        "word": "push",
+        "startTime": 1.26,
+        "endTime": 1.42
+      },
+      {
+        "word": "is",
+        "startTime": 1.42,
+        "endTime": 1.62
+      },
+      {
+        "word": "the",
+        "startTime": 1.62,
+        "endTime": 1.8
+      },
+      {
+        "word": "API",
+        "startTime": 1.8,
+        "endTime": 2.2
+      },
+      {
+        "word": "endpoint",
+        "startTime": 2.2,
+        "endTime": 2.68
+      },
+      {
+        "word": "that",
+        "startTime": 2.68,
+        "endTime": 2.98
+      },
+      {
+        "word": "every",
+        "startTime": 2.98,
+        "endTime": 3.32
+      },
+      {
+        "word": "Kenyan",
+        "startTime": 3.32,
+        "endTime": 3.68
+      },
+      {
+        "word": "with",
+        "startTime": 3.68,
+        "endTime": 3.88
+      },
+      {
+        "word": "an",
+        "startTime": 3.88,
+        "endTime": 4.08
+      },
+      {
+        "word": "MPSer",
+        "startTime": 4.08,
+        "endTime": 4.6
+      },
+      {
+        "word": "phone",
+        "startTime": 4.6,
+        "endTime": 4.82
+      },
+      {
+        "word": "has",
+        "startTime": 4.82,
+        "endTime": 5.1
+      },
+      {
+        "word": "experience",
+        "startTime": 5.1,
+        "endTime": 5.56
+      },
+      {
+        "word": "from",
+        "startTime": 5.56,
+        "endTime": 5.84
+      },
+      {
+        "word": "the",
+        "startTime": 5.84,
+        "endTime": 6
+      },
+      {
+        "word": "customer",
+        "startTime": 6,
+        "endTime": 6.4
+      },
+      {
+        "word": "side.",
+        "startTime": 6.4,
+        "endTime": 6.82
+      }
+    ]
+  },
+  {
+    "text": "The pin prompt that appears when you buy something online.",
+    "startTime": 7.36,
+    "endTime": 9.96,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 7.36,
+        "endTime": 7.44
+      },
+      {
+        "word": "pin",
+        "startTime": 7.44,
+        "endTime": 7.7
+      },
+      {
+        "word": "prompt",
+        "startTime": 7.7,
+        "endTime": 8.02
+      },
+      {
+        "word": "that",
+        "startTime": 8.02,
+        "endTime": 8.22
+      },
+      {
+        "word": "appears",
+        "startTime": 8.22,
+        "endTime": 8.58
+      },
+      {
+        "word": "when",
+        "startTime": 8.58,
+        "endTime": 8.84
+      },
+      {
+        "word": "you",
+        "startTime": 8.84,
+        "endTime": 8.96
+      },
+      {
+        "word": "buy",
+        "startTime": 8.96,
+        "endTime": 9.12
+      },
+      {
+        "word": "something",
+        "startTime": 9.12,
+        "endTime": 9.54
+      },
+      {
+        "word": "online.",
+        "startTime": 9.54,
+        "endTime": 9.96
+      }
+    ]
+  },
+  {
+    "text": "This lesson is the developer side of that exact moment.",
+    "startTime": 10.7,
+    "endTime": 13.6,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "This",
+        "startTime": 10.7,
+        "endTime": 10.96
+      },
+      {
+        "word": "lesson",
+        "startTime": 10.96,
+        "endTime": 11.28
+      },
+      {
+        "word": "is",
+        "startTime": 11.28,
+        "endTime": 11.52
+      },
+      {
+        "word": "the",
+        "startTime": 11.52,
+        "endTime": 11.68
+      },
+      {
+        "word": "developer",
+        "startTime": 11.68,
+        "endTime": 12.08
+      },
+      {
+        "word": "side",
+        "startTime": 12.08,
+        "endTime": 12.48
+      },
+      {
+        "word": "of",
+        "startTime": 12.48,
+        "endTime": 12.66
+      },
+      {
+        "word": "that",
+        "startTime": 12.66,
+        "endTime": 12.82
+      },
+      {
+        "word": "exact",
+        "startTime": 12.82,
+        "endTime": 13.14
+      },
+      {
+        "word": "moment.",
+        "startTime": 13.14,
+        "endTime": 13.6
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, complete STK push implementation, generating the password, constructing the request payload, handling the initiation response, building the callback endpoint, passing the result and updating your database.",
+    "startTime": 14.38,
+    "endTime": 29.24,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 14.38,
+        "endTime": 14.52
+      },
+      {
+        "word": "this",
+        "startTime": 14.52,
+        "endTime": 14.72
+      },
+      {
+        "word": "lesson,",
+        "startTime": 14.72,
+        "endTime": 15.12
+      },
+      {
+        "word": "complete",
+        "startTime": 15.62,
+        "endTime": 16.04
+      },
+      {
+        "word": "STK",
+        "startTime": 16.04,
+        "endTime": 16.74
+      },
+      {
+        "word": "push",
+        "startTime": 16.74,
+        "endTime": 17.04
+      },
+      {
+        "word": "implementation,",
+        "startTime": 17.04,
+        "endTime": 17.9
+      },
+      {
+        "word": "generating",
+        "startTime": 18.7,
+        "endTime": 19.06
+      },
+      {
+        "word": "the",
+        "startTime": 19.06,
+        "endTime": 19.3
+      },
+      {
+        "word": "password,",
+        "startTime": 19.3,
+        "endTime": 19.74
+      },
+      {
+        "word": "constructing",
+        "startTime": 20.4,
+        "endTime": 20.86
+      },
+      {
+        "word": "the",
+        "startTime": 20.86,
+        "endTime": 21.06
+      },
+      {
+        "word": "request",
+        "startTime": 21.06,
+        "endTime": 21.36
+      },
+      {
+        "word": "payload,",
+        "startTime": 21.36,
+        "endTime": 21.88
+      },
+      {
+        "word": "handling",
+        "startTime": 22.62,
+        "endTime": 22.88
+      },
+      {
+        "word": "the",
+        "startTime": 22.88,
+        "endTime": 23.12
+      },
+      {
+        "word": "initiation",
+        "startTime": 23.12,
+        "endTime": 23.6
+      },
+      {
+        "word": "response,",
+        "startTime": 23.6,
+        "endTime": 24.1
+      },
+      {
+        "word": "building",
+        "startTime": 24.98,
+        "endTime": 25.18
+      },
+      {
+        "word": "the",
+        "startTime": 25.18,
+        "endTime": 25.44
+      },
+      {
+        "word": "callback",
+        "startTime": 25.44,
+        "endTime": 25.78
+      },
+      {
+        "word": "endpoint,",
+        "startTime": 25.78,
+        "endTime": 26.26
+      },
+      {
+        "word": "passing",
+        "startTime": 26.26,
+        "endTime": 27.08
+      },
+      {
+        "word": "the",
+        "startTime": 27.08,
+        "endTime": 27.28
+      },
+      {
+        "word": "result",
+        "startTime": 27.28,
+        "endTime": 27.6
+      },
+      {
+        "word": "and",
+        "startTime": 27.6,
+        "endTime": 28.2
+      },
+      {
+        "word": "updating",
+        "startTime": 28.2,
+        "endTime": 28.6
+      },
+      {
+        "word": "your",
+        "startTime": 28.6,
+        "endTime": 28.82
+      },
+      {
+        "word": "database.",
+        "startTime": 28.82,
+        "endTime": 29.24
+      }
+    ]
+  },
+  {
+    "text": "Includes the full production ready node .js code.",
+    "startTime": 29.98,
+    "endTime": 33.1,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Includes",
+        "startTime": 29.98,
+        "endTime": 30.48
+      },
+      {
+        "word": "the",
+        "startTime": 30.48,
+        "endTime": 30.58
+      },
+      {
+        "word": "full",
+        "startTime": 30.58,
+        "endTime": 30.82
+      },
+      {
+        "word": "production",
+        "startTime": 30.82,
+        "endTime": 31.3
+      },
+      {
+        "word": "ready",
+        "startTime": 31.3,
+        "endTime": 31.62
+      },
+      {
+        "word": "node",
+        "startTime": 31.62,
+        "endTime": 31.94
+      },
+      {
+        "word": ".js",
+        "startTime": 31.94,
+        "endTime": 32.56
+      },
+      {
+        "word": "code.",
+        "startTime": 32.56,
+        "endTime": 33.1
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 33.64,
+    "endTime": 37.08,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 33.64,
+        "endTime": 33.88
+      },
+      {
+        "word": "what",
+        "startTime": 33.88,
+        "endTime": 34.12
+      },
+      {
+        "word": "you",
+        "startTime": 34.12,
+        "endTime": 34.26
+      },
+      {
+        "word": "learn",
+        "startTime": 34.26,
+        "endTime": 34.46
+      },
+      {
+        "word": "in",
+        "startTime": 34.46,
+        "endTime": 34.6
+      },
+      {
+        "word": "this",
+        "startTime": 34.6,
+        "endTime": 34.8
+      },
+      {
+        "word": "lesson",
+        "startTime": 34.8,
+        "endTime": 35.12
+      },
+      {
+        "word": "and",
+        "startTime": 35.12,
+        "endTime": 35.64
+      },
+      {
+        "word": "you",
+        "startTime": 35.64,
+        "endTime": 35.78
+      },
+      {
+        "word": "will",
+        "startTime": 35.78,
+        "endTime": 35.88
+      },
+      {
+        "word": "see",
+        "startTime": 35.88,
+        "endTime": 36.06
+      },
+      {
+        "word": "results",
+        "startTime": 36.06,
+        "endTime": 36.44
+      },
+      {
+        "word": "immediately.",
+        "startTime": 36.44,
+        "endTime": 37.08
+      }
+    ]
+  },
+  {
+    "text": "Your skills bare fruit.",
+    "startTime": 37.64,
+    "endTime": 38.7,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 37.64,
+        "endTime": 37.78
+      },
+      {
+        "word": "skills",
+        "startTime": 37.78,
+        "endTime": 38.16
+      },
+      {
+        "word": "bare",
+        "startTime": 38.16,
+        "endTime": 38.42
+      },
+      {
+        "word": "fruit.",
+        "startTime": 38.42,
+        "endTime": 38.7
+      }
+    ]
+  }
+]

@@ -1,0 +1,1536 @@
+[
+  {
+    "text": "Welcome to Welcome to AI for Agriculture and Agritech.",
+    "startTime": 0,
+    "endTime": 5,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "Welcome",
+        "startTime": 0,
+        "endTime": 0.48
+      },
+      {
+        "word": "to",
+        "startTime": 0.48,
+        "endTime": 0.84
+      },
+      {
+        "word": "Welcome",
+        "startTime": 0.84,
+        "endTime": 1.26
+      },
+      {
+        "word": "to",
+        "startTime": 1.26,
+        "endTime": 1.86
+      },
+      {
+        "word": "AI",
+        "startTime": 1.86,
+        "endTime": 2.12
+      },
+      {
+        "word": "for",
+        "startTime": 2.12,
+        "endTime": 2.7
+      },
+      {
+        "word": "Agriculture",
+        "startTime": 2.7,
+        "endTime": 3.3
+      },
+      {
+        "word": "and",
+        "startTime": 3.3,
+        "endTime": 4.12
+      },
+      {
+        "word": "Agritech.",
+        "startTime": 4.12,
+        "endTime": 5
+      }
+    ]
+  },
+  {
+    "text": "I am so glad you are here.",
+    "startTime": 5.38,
+    "endTime": 7.66,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "I",
+        "startTime": 5.38,
+        "endTime": 5.86
+      },
+      {
+        "word": "am",
+        "startTime": 5.86,
+        "endTime": 6.02
+      },
+      {
+        "word": "so",
+        "startTime": 6.02,
+        "endTime": 6.44
+      },
+      {
+        "word": "glad",
+        "startTime": 6.44,
+        "endTime": 6.84
+      },
+      {
+        "word": "you",
+        "startTime": 6.84,
+        "endTime": 7.16
+      },
+      {
+        "word": "are",
+        "startTime": 7.16,
+        "endTime": 7.3
+      },
+      {
+        "word": "here.",
+        "startTime": 7.3,
+        "endTime": 7.66
+      }
+    ]
+  },
+  {
+    "text": "An Agritech startup in Nakuru built an AI tool that tells small -holder maize farmers the optimal data cell based on market price forecasts and their storage condition data.",
+    "startTime": 8.9,
+    "endTime": 23.06,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "An",
+        "startTime": 8.9,
+        "endTime": 9.02
+      },
+      {
+        "word": "Agritech",
+        "startTime": 9.02,
+        "endTime": 9.72
+      },
+      {
+        "word": "startup",
+        "startTime": 9.72,
+        "endTime": 10.22
+      },
+      {
+        "word": "in",
+        "startTime": 10.22,
+        "endTime": 10.54
+      },
+      {
+        "word": "Nakuru",
+        "startTime": 10.54,
+        "endTime": 11.12
+      },
+      {
+        "word": "built",
+        "startTime": 11.12,
+        "endTime": 11.94
+      },
+      {
+        "word": "an",
+        "startTime": 11.94,
+        "endTime": 12.26
+      },
+      {
+        "word": "AI",
+        "startTime": 12.26,
+        "endTime": 12.6
+      },
+      {
+        "word": "tool",
+        "startTime": 12.6,
+        "endTime": 13.18
+      },
+      {
+        "word": "that",
+        "startTime": 13.18,
+        "endTime": 13.8
+      },
+      {
+        "word": "tells",
+        "startTime": 13.8,
+        "endTime": 14.14
+      },
+      {
+        "word": "small",
+        "startTime": 14.14,
+        "endTime": 14.72
+      },
+      {
+        "word": "-holder",
+        "startTime": 14.72,
+        "endTime": 15.22
+      },
+      {
+        "word": "maize",
+        "startTime": 15.22,
+        "endTime": 15.66
+      },
+      {
+        "word": "farmers",
+        "startTime": 15.66,
+        "endTime": 16.06
+      },
+      {
+        "word": "the",
+        "startTime": 16.06,
+        "endTime": 16.58
+      },
+      {
+        "word": "optimal",
+        "startTime": 16.58,
+        "endTime": 17.16
+      },
+      {
+        "word": "data",
+        "startTime": 17.16,
+        "endTime": 17.48
+      },
+      {
+        "word": "cell",
+        "startTime": 17.48,
+        "endTime": 18.08
+      },
+      {
+        "word": "based",
+        "startTime": 18.08,
+        "endTime": 18.7
+      },
+      {
+        "word": "on",
+        "startTime": 18.7,
+        "endTime": 19.08
+      },
+      {
+        "word": "market",
+        "startTime": 19.08,
+        "endTime": 19.5
+      },
+      {
+        "word": "price",
+        "startTime": 19.5,
+        "endTime": 19.98
+      },
+      {
+        "word": "forecasts",
+        "startTime": 19.98,
+        "endTime": 20.48
+      },
+      {
+        "word": "and",
+        "startTime": 20.48,
+        "endTime": 21.2
+      },
+      {
+        "word": "their",
+        "startTime": 21.2,
+        "endTime": 21.4
+      },
+      {
+        "word": "storage",
+        "startTime": 21.4,
+        "endTime": 21.86
+      },
+      {
+        "word": "condition",
+        "startTime": 21.86,
+        "endTime": 22.48
+      },
+      {
+        "word": "data.",
+        "startTime": 22.48,
+        "endTime": 23.06
+      }
+    ]
+  },
+  {
+    "text": "Farmers using the tool earned on average 23 % more per kilogram than those selling without it.",
+    "startTime": 24.019999999999996,
+    "endTime": 32.7,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Farmers",
+        "startTime": 24.019999999999996,
+        "endTime": 24.84
+      },
+      {
+        "word": "using",
+        "startTime": 24.84,
+        "endTime": 25.16
+      },
+      {
+        "word": "the",
+        "startTime": 25.16,
+        "endTime": 25.42
+      },
+      {
+        "word": "tool",
+        "startTime": 25.42,
+        "endTime": 25.76
+      },
+      {
+        "word": "earned",
+        "startTime": 25.76,
+        "endTime": 26.5
+      },
+      {
+        "word": "on",
+        "startTime": 26.5,
+        "endTime": 26.7
+      },
+      {
+        "word": "average",
+        "startTime": 26.7,
+        "endTime": 27.22
+      },
+      {
+        "word": "23",
+        "startTime": 27.22,
+        "endTime": 28.18
+      },
+      {
+        "word": "%",
+        "startTime": 28.18,
+        "endTime": 28.9
+      },
+      {
+        "word": "more",
+        "startTime": 28.9,
+        "endTime": 29.42
+      },
+      {
+        "word": "per",
+        "startTime": 29.42,
+        "endTime": 29.96
+      },
+      {
+        "word": "kilogram",
+        "startTime": 29.96,
+        "endTime": 30.3
+      },
+      {
+        "word": "than",
+        "startTime": 30.3,
+        "endTime": 31.12
+      },
+      {
+        "word": "those",
+        "startTime": 31.12,
+        "endTime": 31.42
+      },
+      {
+        "word": "selling",
+        "startTime": 31.42,
+        "endTime": 31.8
+      },
+      {
+        "word": "without",
+        "startTime": 31.8,
+        "endTime": 32.22
+      },
+      {
+        "word": "it.",
+        "startTime": 32.22,
+        "endTime": 32.7
+      }
+    ]
+  },
+  {
+    "text": "The tool was built by a data analyst who knew no agriculture before starting but who understood how to ask the right AI questions of agricultural data.",
+    "startTime": 33.64,
+    "endTime": 45.66,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 33.64,
+        "endTime": 33.9
+      },
+      {
+        "word": "tool",
+        "startTime": 33.9,
+        "endTime": 34.28
+      },
+      {
+        "word": "was",
+        "startTime": 34.28,
+        "endTime": 34.54
+      },
+      {
+        "word": "built",
+        "startTime": 34.54,
+        "endTime": 34.82
+      },
+      {
+        "word": "by",
+        "startTime": 34.82,
+        "endTime": 35.08
+      },
+      {
+        "word": "a",
+        "startTime": 35.08,
+        "endTime": 35.22
+      },
+      {
+        "word": "data",
+        "startTime": 35.22,
+        "endTime": 35.62
+      },
+      {
+        "word": "analyst",
+        "startTime": 35.62,
+        "endTime": 36.18
+      },
+      {
+        "word": "who",
+        "startTime": 36.18,
+        "endTime": 36.76
+      },
+      {
+        "word": "knew",
+        "startTime": 36.76,
+        "endTime": 36.98
+      },
+      {
+        "word": "no",
+        "startTime": 36.98,
+        "endTime": 37.44
+      },
+      {
+        "word": "agriculture",
+        "startTime": 37.44,
+        "endTime": 38.04
+      },
+      {
+        "word": "before",
+        "startTime": 38.04,
+        "endTime": 38.58
+      },
+      {
+        "word": "starting",
+        "startTime": 38.58,
+        "endTime": 39.26
+      },
+      {
+        "word": "but",
+        "startTime": 39.26,
+        "endTime": 39.94
+      },
+      {
+        "word": "who",
+        "startTime": 39.94,
+        "endTime": 40.16
+      },
+      {
+        "word": "understood",
+        "startTime": 40.16,
+        "endTime": 40.84
+      },
+      {
+        "word": "how",
+        "startTime": 40.84,
+        "endTime": 41.4
+      },
+      {
+        "word": "to",
+        "startTime": 41.4,
+        "endTime": 41.6
+      },
+      {
+        "word": "ask",
+        "startTime": 41.6,
+        "endTime": 41.94
+      },
+      {
+        "word": "the",
+        "startTime": 41.94,
+        "endTime": 42.12
+      },
+      {
+        "word": "right",
+        "startTime": 42.12,
+        "endTime": 42.46
+      },
+      {
+        "word": "AI",
+        "startTime": 42.46,
+        "endTime": 42.86
+      },
+      {
+        "word": "questions",
+        "startTime": 42.86,
+        "endTime": 43.68
+      },
+      {
+        "word": "of",
+        "startTime": 43.68,
+        "endTime": 44.26
+      },
+      {
+        "word": "agricultural",
+        "startTime": 44.26,
+        "endTime": 44.78
+      },
+      {
+        "word": "data.",
+        "startTime": 44.78,
+        "endTime": 45.66
+      }
+    ]
+  },
+  {
+    "text": "By the end of this course you will build a crop yield prediction system using Kenyan weather and soil data and explain its outputs to a farmer or cooperative manager.",
+    "startTime": 46.4,
+    "endTime": 60.58,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "By",
+        "startTime": 46.4,
+        "endTime": 47.06
+      },
+      {
+        "word": "the",
+        "startTime": 47.06,
+        "endTime": 47.22
+      },
+      {
+        "word": "end",
+        "startTime": 47.22,
+        "endTime": 47.46
+      },
+      {
+        "word": "of",
+        "startTime": 47.46,
+        "endTime": 47.64
+      },
+      {
+        "word": "this",
+        "startTime": 47.64,
+        "endTime": 47.84
+      },
+      {
+        "word": "course",
+        "startTime": 47.84,
+        "endTime": 48.18
+      },
+      {
+        "word": "you",
+        "startTime": 48.18,
+        "endTime": 48.9
+      },
+      {
+        "word": "will",
+        "startTime": 48.9,
+        "endTime": 49.24
+      },
+      {
+        "word": "build",
+        "startTime": 49.92,
+        "endTime": 50.46
+      },
+      {
+        "word": "a",
+        "startTime": 50.46,
+        "endTime": 50.82
+      },
+      {
+        "word": "crop",
+        "startTime": 50.82,
+        "endTime": 51.1
+      },
+      {
+        "word": "yield",
+        "startTime": 51.1,
+        "endTime": 51.44
+      },
+      {
+        "word": "prediction",
+        "startTime": 51.44,
+        "endTime": 51.98
+      },
+      {
+        "word": "system",
+        "startTime": 51.98,
+        "endTime": 52.64
+      },
+      {
+        "word": "using",
+        "startTime": 52.64,
+        "endTime": 53.34
+      },
+      {
+        "word": "Kenyan",
+        "startTime": 53.34,
+        "endTime": 53.88
+      },
+      {
+        "word": "weather",
+        "startTime": 53.88,
+        "endTime": 54.28
+      },
+      {
+        "word": "and",
+        "startTime": 54.28,
+        "endTime": 54.62
+      },
+      {
+        "word": "soil",
+        "startTime": 54.62,
+        "endTime": 54.98
+      },
+      {
+        "word": "data",
+        "startTime": 54.98,
+        "endTime": 55.56
+      },
+      {
+        "word": "and",
+        "startTime": 55.56,
+        "endTime": 56.3
+      },
+      {
+        "word": "explain",
+        "startTime": 56.3,
+        "endTime": 56.82
+      },
+      {
+        "word": "its",
+        "startTime": 56.82,
+        "endTime": 57.22
+      },
+      {
+        "word": "outputs",
+        "startTime": 57.22,
+        "endTime": 57.66
+      },
+      {
+        "word": "to",
+        "startTime": 57.66,
+        "endTime": 58
+      },
+      {
+        "word": "a",
+        "startTime": 58,
+        "endTime": 58.1
+      },
+      {
+        "word": "farmer",
+        "startTime": 58.1,
+        "endTime": 58.58
+      },
+      {
+        "word": "or",
+        "startTime": 58.58,
+        "endTime": 59.14
+      },
+      {
+        "word": "cooperative",
+        "startTime": 59.14,
+        "endTime": 59.66
+      },
+      {
+        "word": "manager.",
+        "startTime": 59.66,
+        "endTime": 60.58
+      }
+    ]
+  },
+  {
+    "text": "You will forecast commodity prices for maize, beans and coffee using historical Amis Kenya data and AI modeling.",
+    "startTime": 61.24,
+    "endTime": 72.1,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 61.24,
+        "endTime": 61.84
+      },
+      {
+        "word": "will",
+        "startTime": 61.84,
+        "endTime": 62.16
+      },
+      {
+        "word": "forecast",
+        "startTime": 62.16,
+        "endTime": 63.5
+      },
+      {
+        "word": "commodity",
+        "startTime": 63.5,
+        "endTime": 64.2
+      },
+      {
+        "word": "prices",
+        "startTime": 64.2,
+        "endTime": 64.8
+      },
+      {
+        "word": "for",
+        "startTime": 64.8,
+        "endTime": 65.16
+      },
+      {
+        "word": "maize,",
+        "startTime": 65.16,
+        "endTime": 65.76
+      },
+      {
+        "word": "beans",
+        "startTime": 66.22,
+        "endTime": 66.3
+      },
+      {
+        "word": "and",
+        "startTime": 66.3,
+        "endTime": 66.76
+      },
+      {
+        "word": "coffee",
+        "startTime": 66.76,
+        "endTime": 67.22
+      },
+      {
+        "word": "using",
+        "startTime": 67.22,
+        "endTime": 68.06
+      },
+      {
+        "word": "historical",
+        "startTime": 68.06,
+        "endTime": 68.86
+      },
+      {
+        "word": "Amis",
+        "startTime": 68.86,
+        "endTime": 69.46
+      },
+      {
+        "word": "Kenya",
+        "startTime": 69.46,
+        "endTime": 69.82
+      },
+      {
+        "word": "data",
+        "startTime": 69.82,
+        "endTime": 70.4
+      },
+      {
+        "word": "and",
+        "startTime": 70.4,
+        "endTime": 71.08
+      },
+      {
+        "word": "AI",
+        "startTime": 71.08,
+        "endTime": 71.4
+      },
+      {
+        "word": "modeling.",
+        "startTime": 71.4,
+        "endTime": 72.1
+      }
+    ]
+  },
+  {
+    "text": "You will analyse post -harvest loss data to identify the highest impact interventions for a real cooperative.",
+    "startTime": 72.7,
+    "endTime": 82.38,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 72.7,
+        "endTime": 73.52
+      },
+      {
+        "word": "will",
+        "startTime": 73.52,
+        "endTime": 73.94
+      },
+      {
+        "word": "analyse",
+        "startTime": 73.94,
+        "endTime": 75.2
+      },
+      {
+        "word": "post",
+        "startTime": 75.2,
+        "endTime": 75.84
+      },
+      {
+        "word": "-harvest",
+        "startTime": 75.84,
+        "endTime": 76.24
+      },
+      {
+        "word": "loss",
+        "startTime": 76.24,
+        "endTime": 76.62
+      },
+      {
+        "word": "data",
+        "startTime": 76.62,
+        "endTime": 77.16
+      },
+      {
+        "word": "to",
+        "startTime": 77.16,
+        "endTime": 77.74
+      },
+      {
+        "word": "identify",
+        "startTime": 77.74,
+        "endTime": 78.44
+      },
+      {
+        "word": "the",
+        "startTime": 78.44,
+        "endTime": 78.7
+      },
+      {
+        "word": "highest",
+        "startTime": 78.7,
+        "endTime": 79.18
+      },
+      {
+        "word": "impact",
+        "startTime": 79.18,
+        "endTime": 79.7
+      },
+      {
+        "word": "interventions",
+        "startTime": 79.7,
+        "endTime": 80.66
+      },
+      {
+        "word": "for",
+        "startTime": 80.66,
+        "endTime": 81.22
+      },
+      {
+        "word": "a",
+        "startTime": 81.22,
+        "endTime": 81.34
+      },
+      {
+        "word": "real",
+        "startTime": 81.34,
+        "endTime": 81.7
+      },
+      {
+        "word": "cooperative.",
+        "startTime": 81.7,
+        "endTime": 82.38
+      }
+    ]
+  },
+  {
+    "text": "You will design and prototype a WhatsApp -based farmer advisory system that delivers personalized recommendations without internet access.",
+    "startTime": 83.68,
+    "endTime": 95.04,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 83.68,
+        "endTime": 83.98
+      },
+      {
+        "word": "will",
+        "startTime": 83.98,
+        "endTime": 84.3
+      },
+      {
+        "word": "design",
+        "startTime": 84.3,
+        "endTime": 85.42
+      },
+      {
+        "word": "and",
+        "startTime": 85.42,
+        "endTime": 85.92
+      },
+      {
+        "word": "prototype",
+        "startTime": 85.92,
+        "endTime": 86.6
+      },
+      {
+        "word": "a",
+        "startTime": 86.6,
+        "endTime": 87.2
+      },
+      {
+        "word": "WhatsApp",
+        "startTime": 87.2,
+        "endTime": 87.66
+      },
+      {
+        "word": "-based",
+        "startTime": 87.66,
+        "endTime": 88.18
+      },
+      {
+        "word": "farmer",
+        "startTime": 88.18,
+        "endTime": 88.66
+      },
+      {
+        "word": "advisory",
+        "startTime": 88.66,
+        "endTime": 89.32
+      },
+      {
+        "word": "system",
+        "startTime": 89.32,
+        "endTime": 89.94
+      },
+      {
+        "word": "that",
+        "startTime": 89.94,
+        "endTime": 90.44
+      },
+      {
+        "word": "delivers",
+        "startTime": 90.44,
+        "endTime": 90.86
+      },
+      {
+        "word": "personalized",
+        "startTime": 90.86,
+        "endTime": 91.62
+      },
+      {
+        "word": "recommendations",
+        "startTime": 91.62,
+        "endTime": 92.82
+      },
+      {
+        "word": "without",
+        "startTime": 92.82,
+        "endTime": 93.72
+      },
+      {
+        "word": "internet",
+        "startTime": 93.72,
+        "endTime": 94.4
+      },
+      {
+        "word": "access.",
+        "startTime": 94.4,
+        "endTime": 95.04
+      }
+    ]
+  },
+  {
+    "text": "And you will deliver a complete AI -powered smart farm proposal for Indege and Bili cooperative that an Agritech investor or NGO could fund.",
+    "startTime": 95.96,
+    "endTime": 109.58,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "And",
+        "startTime": 95.96,
+        "endTime": 96.5
+      },
+      {
+        "word": "you",
+        "startTime": 96.5,
+        "endTime": 96.72
+      },
+      {
+        "word": "will",
+        "startTime": 96.72,
+        "endTime": 97.14
+      },
+      {
+        "word": "deliver",
+        "startTime": 97.14,
+        "endTime": 98.24
+      },
+      {
+        "word": "a",
+        "startTime": 98.24,
+        "endTime": 98.48
+      },
+      {
+        "word": "complete",
+        "startTime": 98.48,
+        "endTime": 98.96
+      },
+      {
+        "word": "AI",
+        "startTime": 98.96,
+        "endTime": 99.64
+      },
+      {
+        "word": "-powered",
+        "startTime": 99.64,
+        "endTime": 100.32
+      },
+      {
+        "word": "smart",
+        "startTime": 100.32,
+        "endTime": 101
+      },
+      {
+        "word": "farm",
+        "startTime": 101,
+        "endTime": 101.5
+      },
+      {
+        "word": "proposal",
+        "startTime": 101.5,
+        "endTime": 102.1
+      },
+      {
+        "word": "for",
+        "startTime": 102.1,
+        "endTime": 102.66
+      },
+      {
+        "word": "Indege",
+        "startTime": 102.66,
+        "endTime": 103.16
+      },
+      {
+        "word": "and",
+        "startTime": 103.16,
+        "endTime": 103.48
+      },
+      {
+        "word": "Bili",
+        "startTime": 103.48,
+        "endTime": 103.84
+      },
+      {
+        "word": "cooperative",
+        "startTime": 103.84,
+        "endTime": 104.52
+      },
+      {
+        "word": "that",
+        "startTime": 104.52,
+        "endTime": 105.36
+      },
+      {
+        "word": "an",
+        "startTime": 105.36,
+        "endTime": 105.64
+      },
+      {
+        "word": "Agritech",
+        "startTime": 105.64,
+        "endTime": 106.28
+      },
+      {
+        "word": "investor",
+        "startTime": 106.28,
+        "endTime": 106.84
+      },
+      {
+        "word": "or",
+        "startTime": 106.84,
+        "endTime": 107.48
+      },
+      {
+        "word": "NGO",
+        "startTime": 107.48,
+        "endTime": 108.22
+      },
+      {
+        "word": "could",
+        "startTime": 108.22,
+        "endTime": 109.06
+      },
+      {
+        "word": "fund.",
+        "startTime": 109.06,
+        "endTime": 109.58
+      }
+    ]
+  },
+  {
+    "text": "This course has 10 lessons and five hours of content with three hands -on sandboxes.",
+    "startTime": 110.28,
+    "endTime": 117.54,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "This",
+        "startTime": 110.28,
+        "endTime": 111
+      },
+      {
+        "word": "course",
+        "startTime": 111,
+        "endTime": 111.32
+      },
+      {
+        "word": "has",
+        "startTime": 111.32,
+        "endTime": 111.64
+      },
+      {
+        "word": "10",
+        "startTime": 111.64,
+        "endTime": 112.02
+      },
+      {
+        "word": "lessons",
+        "startTime": 112.02,
+        "endTime": 112.44
+      },
+      {
+        "word": "and",
+        "startTime": 112.44,
+        "endTime": 113.06
+      },
+      {
+        "word": "five",
+        "startTime": 113.06,
+        "endTime": 113.6
+      },
+      {
+        "word": "hours",
+        "startTime": 113.6,
+        "endTime": 113.92
+      },
+      {
+        "word": "of",
+        "startTime": 113.92,
+        "endTime": 114.12
+      },
+      {
+        "word": "content",
+        "startTime": 114.12,
+        "endTime": 114.64
+      },
+      {
+        "word": "with",
+        "startTime": 114.64,
+        "endTime": 115.24
+      },
+      {
+        "word": "three",
+        "startTime": 115.24,
+        "endTime": 115.76
+      },
+      {
+        "word": "hands",
+        "startTime": 115.76,
+        "endTime": 116.22
+      },
+      {
+        "word": "-on",
+        "startTime": 116.22,
+        "endTime": 116.52
+      },
+      {
+        "word": "sandboxes.",
+        "startTime": 116.52,
+        "endTime": 117.54
+      }
+    ]
+  },
+  {
+    "text": "Your final project is AI -powered smart farm proposal for Indege and Bili cooperative, 120 farmers in Meru County.",
+    "startTime": 118.4,
+    "endTime": 129.64,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 118.4,
+        "endTime": 118.68
+      },
+      {
+        "word": "final",
+        "startTime": 118.68,
+        "endTime": 119.16
+      },
+      {
+        "word": "project",
+        "startTime": 119.16,
+        "endTime": 119.64
+      },
+      {
+        "word": "is",
+        "startTime": 119.64,
+        "endTime": 120.3
+      },
+      {
+        "word": "AI",
+        "startTime": 120.3,
+        "endTime": 120.84
+      },
+      {
+        "word": "-powered",
+        "startTime": 120.84,
+        "endTime": 121.5
+      },
+      {
+        "word": "smart",
+        "startTime": 121.5,
+        "endTime": 122.18
+      },
+      {
+        "word": "farm",
+        "startTime": 122.18,
+        "endTime": 122.64
+      },
+      {
+        "word": "proposal",
+        "startTime": 122.64,
+        "endTime": 123.3
+      },
+      {
+        "word": "for",
+        "startTime": 123.3,
+        "endTime": 123.84
+      },
+      {
+        "word": "Indege",
+        "startTime": 123.84,
+        "endTime": 124.42
+      },
+      {
+        "word": "and",
+        "startTime": 124.42,
+        "endTime": 124.74
+      },
+      {
+        "word": "Bili",
+        "startTime": 124.74,
+        "endTime": 125.1
+      },
+      {
+        "word": "cooperative,",
+        "startTime": 125.1,
+        "endTime": 125.86
+      },
+      {
+        "word": "120",
+        "startTime": 126.5,
+        "endTime": 127.2
+      },
+      {
+        "word": "farmers",
+        "startTime": 127.2,
+        "endTime": 128.14
+      },
+      {
+        "word": "in",
+        "startTime": 128.14,
+        "endTime": 128.72
+      },
+      {
+        "word": "Meru",
+        "startTime": 128.72,
+        "endTime": 129.1
+      },
+      {
+        "word": "County.",
+        "startTime": 129.1,
+        "endTime": 129.64
+      }
+    ]
+  },
+  {
+    "text": "You do not need to code.",
+    "startTime": 130.86,
+    "endTime": 132.22,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 130.86,
+        "endTime": 130.92
+      },
+      {
+        "word": "do",
+        "startTime": 130.92,
+        "endTime": 131.08
+      },
+      {
+        "word": "not",
+        "startTime": 131.08,
+        "endTime": 131.36
+      },
+      {
+        "word": "need",
+        "startTime": 131.36,
+        "endTime": 131.64
+      },
+      {
+        "word": "to",
+        "startTime": 131.64,
+        "endTime": 131.86
+      },
+      {
+        "word": "code.",
+        "startTime": 131.86,
+        "endTime": 132.22
+      }
+    ]
+  },
+  {
+    "text": "You do not need a technology background.",
+    "startTime": 133.06,
+    "endTime": 135.42,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 133.06,
+        "endTime": 133.18
+      },
+      {
+        "word": "do",
+        "startTime": 133.18,
+        "endTime": 133.32
+      },
+      {
+        "word": "not",
+        "startTime": 133.32,
+        "endTime": 133.6
+      },
+      {
+        "word": "need",
+        "startTime": 133.6,
+        "endTime": 133.98
+      },
+      {
+        "word": "a",
+        "startTime": 133.98,
+        "endTime": 134.2
+      },
+      {
+        "word": "technology",
+        "startTime": 134.2,
+        "endTime": 134.74
+      },
+      {
+        "word": "background.",
+        "startTime": 134.74,
+        "endTime": 135.42
+      }
+    ]
+  },
+  {
+    "text": "All you need is the willingness to learn and I will guide you every step of the way.",
+    "startTime": 136.34,
+    "endTime": 142.32,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "All",
+        "startTime": 136.34,
+        "endTime": 136.62
+      },
+      {
+        "word": "you",
+        "startTime": 136.62,
+        "endTime": 136.84
+      },
+      {
+        "word": "need",
+        "startTime": 136.84,
+        "endTime": 137.18
+      },
+      {
+        "word": "is",
+        "startTime": 137.18,
+        "endTime": 137.74
+      },
+      {
+        "word": "the",
+        "startTime": 137.74,
+        "endTime": 137.92
+      },
+      {
+        "word": "willingness",
+        "startTime": 137.92,
+        "endTime": 138.24
+      },
+      {
+        "word": "to",
+        "startTime": 138.24,
+        "endTime": 138.66
+      },
+      {
+        "word": "learn",
+        "startTime": 138.66,
+        "endTime": 139
+      },
+      {
+        "word": "and",
+        "startTime": 139,
+        "endTime": 139.64
+      },
+      {
+        "word": "I",
+        "startTime": 139.64,
+        "endTime": 139.9
+      },
+      {
+        "word": "will",
+        "startTime": 139.9,
+        "endTime": 140.08
+      },
+      {
+        "word": "guide",
+        "startTime": 140.08,
+        "endTime": 140.42
+      },
+      {
+        "word": "you",
+        "startTime": 140.42,
+        "endTime": 140.76
+      },
+      {
+        "word": "every",
+        "startTime": 140.76,
+        "endTime": 141.36
+      },
+      {
+        "word": "step",
+        "startTime": 141.36,
+        "endTime": 141.68
+      },
+      {
+        "word": "of",
+        "startTime": 141.68,
+        "endTime": 141.86
+      },
+      {
+        "word": "the",
+        "startTime": 141.86,
+        "endTime": 142.02
+      },
+      {
+        "word": "way.",
+        "startTime": 142.02,
+        "endTime": 142.32
+      }
+    ]
+  },
+  {
+    "text": "Your first task is waiting below.",
+    "startTime": 143.2,
+    "endTime": 145.48,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 143.2,
+        "endTime": 143.5
+      },
+      {
+        "word": "first",
+        "startTime": 143.5,
+        "endTime": 143.96
+      },
+      {
+        "word": "task",
+        "startTime": 143.96,
+        "endTime": 144.38
+      },
+      {
+        "word": "is",
+        "startTime": 144.38,
+        "endTime": 144.66
+      },
+      {
+        "word": "waiting",
+        "startTime": 144.66,
+        "endTime": 145.08
+      },
+      {
+        "word": "below.",
+        "startTime": 145.08,
+        "endTime": 145.48
+      }
+    ]
+  },
+  {
+    "text": "I will see you in lesson one.",
+    "startTime": 146.54,
+    "endTime": 148.56,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "I",
+        "startTime": 146.54,
+        "endTime": 146.76
+      },
+      {
+        "word": "will",
+        "startTime": 146.76,
+        "endTime": 146.9
+      },
+      {
+        "word": "see",
+        "startTime": 146.9,
+        "endTime": 147.22
+      },
+      {
+        "word": "you",
+        "startTime": 147.22,
+        "endTime": 147.5
+      },
+      {
+        "word": "in",
+        "startTime": 147.5,
+        "endTime": 147.74
+      },
+      {
+        "word": "lesson",
+        "startTime": 147.74,
+        "endTime": 148.08
+      },
+      {
+        "word": "one.",
+        "startTime": 148.08,
+        "endTime": 148.56
+      }
+    ]
+  },
+  {
+    "text": "Your skills bare fruit.",
+    "startTime": 149.38,
+    "endTime": 151.08,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 149.38,
+        "endTime": 149.64
+      },
+      {
+        "word": "skills",
+        "startTime": 149.64,
+        "endTime": 150.2
+      },
+      {
+        "word": "bare",
+        "startTime": 150.2,
+        "endTime": 150.64
+      },
+      {
+        "word": "fruit.",
+        "startTime": 150.64,
+        "endTime": 151.08
+      }
+    ]
+  }
+]

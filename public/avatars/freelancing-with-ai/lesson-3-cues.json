@@ -1,0 +1,764 @@
+[
+  {
+    "text": "The average upwork proposal takes 8 minutes to write and gets rejected.",
+    "startTime": 0,
+    "endTime": 4.06,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 0,
+        "endTime": 0.22
+      },
+      {
+        "word": "average",
+        "startTime": 0.22,
+        "endTime": 0.54
+      },
+      {
+        "word": "upwork",
+        "startTime": 0.54,
+        "endTime": 0.96
+      },
+      {
+        "word": "proposal",
+        "startTime": 0.96,
+        "endTime": 1.52
+      },
+      {
+        "word": "takes",
+        "startTime": 1.52,
+        "endTime": 1.96
+      },
+      {
+        "word": "8",
+        "startTime": 1.96,
+        "endTime": 2.34
+      },
+      {
+        "word": "minutes",
+        "startTime": 2.34,
+        "endTime": 2.6
+      },
+      {
+        "word": "to",
+        "startTime": 2.6,
+        "endTime": 2.86
+      },
+      {
+        "word": "write",
+        "startTime": 2.86,
+        "endTime": 3.04
+      },
+      {
+        "word": "and",
+        "startTime": 3.04,
+        "endTime": 3.32
+      },
+      {
+        "word": "gets",
+        "startTime": 3.32,
+        "endTime": 3.5
+      },
+      {
+        "word": "rejected.",
+        "startTime": 3.5,
+        "endTime": 4.06
+      }
+    ]
+  },
+  {
+    "text": "A well -researched client -specific proposal takes 25 minutes to write and wins at 4 .5 times the rate.",
+    "startTime": 4.6,
+    "endTime": 11.9,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 4.6,
+        "endTime": 4.96
+      },
+      {
+        "word": "well",
+        "startTime": 4.96,
+        "endTime": 5.22
+      },
+      {
+        "word": "-researched",
+        "startTime": 5.22,
+        "endTime": 5.9
+      },
+      {
+        "word": "client",
+        "startTime": 5.9,
+        "endTime": 6.2
+      },
+      {
+        "word": "-specific",
+        "startTime": 6.2,
+        "endTime": 6.6
+      },
+      {
+        "word": "proposal",
+        "startTime": 6.6,
+        "endTime": 7.26
+      },
+      {
+        "word": "takes",
+        "startTime": 7.26,
+        "endTime": 7.6
+      },
+      {
+        "word": "25",
+        "startTime": 7.6,
+        "endTime": 8.28
+      },
+      {
+        "word": "minutes",
+        "startTime": 8.28,
+        "endTime": 8.58
+      },
+      {
+        "word": "to",
+        "startTime": 8.58,
+        "endTime": 8.84
+      },
+      {
+        "word": "write",
+        "startTime": 8.84,
+        "endTime": 9.06
+      },
+      {
+        "word": "and",
+        "startTime": 9.06,
+        "endTime": 9.8
+      },
+      {
+        "word": "wins",
+        "startTime": 9.8,
+        "endTime": 10.06
+      },
+      {
+        "word": "at",
+        "startTime": 10.06,
+        "endTime": 10.26
+      },
+      {
+        "word": "4",
+        "startTime": 10.26,
+        "endTime": 10.56
+      },
+      {
+        "word": ".5",
+        "startTime": 10.56,
+        "endTime": 11.08
+      },
+      {
+        "word": "times",
+        "startTime": 11.08,
+        "endTime": 11.5
+      },
+      {
+        "word": "the",
+        "startTime": 11.5,
+        "endTime": 11.68
+      },
+      {
+        "word": "rate.",
+        "startTime": 11.68,
+        "endTime": 11.9
+      }
+    ]
+  },
+  {
+    "text": "The 17 extra minutes are the highest ROI time investment in freelancing.",
+    "startTime": 12.7,
+    "endTime": 17.18,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 12.7,
+        "endTime": 12.88
+      },
+      {
+        "word": "17",
+        "startTime": 12.88,
+        "endTime": 13.32
+      },
+      {
+        "word": "extra",
+        "startTime": 13.32,
+        "endTime": 13.74
+      },
+      {
+        "word": "minutes",
+        "startTime": 13.74,
+        "endTime": 14.04
+      },
+      {
+        "word": "are",
+        "startTime": 14.04,
+        "endTime": 14.32
+      },
+      {
+        "word": "the",
+        "startTime": 14.32,
+        "endTime": 14.44
+      },
+      {
+        "word": "highest",
+        "startTime": 14.44,
+        "endTime": 14.88
+      },
+      {
+        "word": "ROI",
+        "startTime": 14.88,
+        "endTime": 15.42
+      },
+      {
+        "word": "time",
+        "startTime": 15.42,
+        "endTime": 15.82
+      },
+      {
+        "word": "investment",
+        "startTime": 15.82,
+        "endTime": 16.32
+      },
+      {
+        "word": "in",
+        "startTime": 16.32,
+        "endTime": 16.58
+      },
+      {
+        "word": "freelancing.",
+        "startTime": 16.58,
+        "endTime": 17.18
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, a winning proposal has one purpose.",
+    "startTime": 17.78,
+    "endTime": 21.22,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 17.78,
+        "endTime": 18.24
+      },
+      {
+        "word": "this",
+        "startTime": 18.24,
+        "endTime": 18.42
+      },
+      {
+        "word": "lesson,",
+        "startTime": 18.42,
+        "endTime": 18.8
+      },
+      {
+        "word": "a",
+        "startTime": 19.22,
+        "endTime": 19.32
+      },
+      {
+        "word": "winning",
+        "startTime": 19.32,
+        "endTime": 19.54
+      },
+      {
+        "word": "proposal",
+        "startTime": 19.54,
+        "endTime": 20.06
+      },
+      {
+        "word": "has",
+        "startTime": 20.06,
+        "endTime": 20.42
+      },
+      {
+        "word": "one",
+        "startTime": 20.42,
+        "endTime": 20.74
+      },
+      {
+        "word": "purpose.",
+        "startTime": 20.74,
+        "endTime": 21.22
+      }
+    ]
+  },
+  {
+    "text": "Make the client think this person actually read my post and understands my problem.",
+    "startTime": 21.86,
+    "endTime": 26.66,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Make",
+        "startTime": 21.86,
+        "endTime": 22.12
+      },
+      {
+        "word": "the",
+        "startTime": 22.12,
+        "endTime": 22.3
+      },
+      {
+        "word": "client",
+        "startTime": 22.3,
+        "endTime": 22.64
+      },
+      {
+        "word": "think",
+        "startTime": 22.64,
+        "endTime": 22.94
+      },
+      {
+        "word": "this",
+        "startTime": 22.94,
+        "endTime": 23.46
+      },
+      {
+        "word": "person",
+        "startTime": 23.46,
+        "endTime": 23.88
+      },
+      {
+        "word": "actually",
+        "startTime": 23.88,
+        "endTime": 24.36
+      },
+      {
+        "word": "read",
+        "startTime": 24.36,
+        "endTime": 24.66
+      },
+      {
+        "word": "my",
+        "startTime": 24.66,
+        "endTime": 24.88
+      },
+      {
+        "word": "post",
+        "startTime": 24.88,
+        "endTime": 25.24
+      },
+      {
+        "word": "and",
+        "startTime": 25.24,
+        "endTime": 25.5
+      },
+      {
+        "word": "understands",
+        "startTime": 25.5,
+        "endTime": 25.94
+      },
+      {
+        "word": "my",
+        "startTime": 25.94,
+        "endTime": 26.24
+      },
+      {
+        "word": "problem.",
+        "startTime": 26.24,
+        "endTime": 26.66
+      }
+    ]
+  },
+  {
+    "text": "Most proposals fail because they describe the freelancer instead of the client's problem.",
+    "startTime": 27.379999999999995,
+    "endTime": 31.88,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Most",
+        "startTime": 27.379999999999995,
+        "endTime": 27.72
+      },
+      {
+        "word": "proposals",
+        "startTime": 27.72,
+        "endTime": 28.24
+      },
+      {
+        "word": "fail",
+        "startTime": 28.24,
+        "endTime": 28.64
+      },
+      {
+        "word": "because",
+        "startTime": 28.64,
+        "endTime": 28.98
+      },
+      {
+        "word": "they",
+        "startTime": 28.98,
+        "endTime": 29.2
+      },
+      {
+        "word": "describe",
+        "startTime": 29.2,
+        "endTime": 29.54
+      },
+      {
+        "word": "the",
+        "startTime": 29.54,
+        "endTime": 29.76
+      },
+      {
+        "word": "freelancer",
+        "startTime": 29.76,
+        "endTime": 30.34
+      },
+      {
+        "word": "instead",
+        "startTime": 30.34,
+        "endTime": 30.76
+      },
+      {
+        "word": "of",
+        "startTime": 30.76,
+        "endTime": 30.92
+      },
+      {
+        "word": "the",
+        "startTime": 30.92,
+        "endTime": 31.04
+      },
+      {
+        "word": "client's",
+        "startTime": 31.04,
+        "endTime": 31.52
+      },
+      {
+        "word": "problem.",
+        "startTime": 31.52,
+        "endTime": 31.88
+      }
+    ]
+  },
+  {
+    "text": "The structure that wins, one, demonstrate you understand the specific situation, two, propose a specific solution with a timeline, three, show the closest relevant work you have done, four, make a specific next step proposal, end with a question, not a pitch.",
+    "startTime": 32.74,
+    "endTime": 51.2,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 32.74,
+        "endTime": 32.82
+      },
+      {
+        "word": "structure",
+        "startTime": 32.82,
+        "endTime": 33.22
+      },
+      {
+        "word": "that",
+        "startTime": 33.22,
+        "endTime": 33.46
+      },
+      {
+        "word": "wins,",
+        "startTime": 33.46,
+        "endTime": 33.72
+      },
+      {
+        "word": "one,",
+        "startTime": 34.32,
+        "endTime": 34.68
+      },
+      {
+        "word": "demonstrate",
+        "startTime": 35.26,
+        "endTime": 35.74
+      },
+      {
+        "word": "you",
+        "startTime": 35.74,
+        "endTime": 36
+      },
+      {
+        "word": "understand",
+        "startTime": 36,
+        "endTime": 36.42
+      },
+      {
+        "word": "the",
+        "startTime": 36.42,
+        "endTime": 36.66
+      },
+      {
+        "word": "specific",
+        "startTime": 36.66,
+        "endTime": 37.08
+      },
+      {
+        "word": "situation,",
+        "startTime": 37.08,
+        "endTime": 37.78
+      },
+      {
+        "word": "two,",
+        "startTime": 38.28,
+        "endTime": 38.6
+      },
+      {
+        "word": "propose",
+        "startTime": 39.22,
+        "endTime": 39.48
+      },
+      {
+        "word": "a",
+        "startTime": 39.48,
+        "endTime": 39.72
+      },
+      {
+        "word": "specific",
+        "startTime": 39.72,
+        "endTime": 40.12
+      },
+      {
+        "word": "solution",
+        "startTime": 40.12,
+        "endTime": 40.7
+      },
+      {
+        "word": "with",
+        "startTime": 40.7,
+        "endTime": 40.92
+      },
+      {
+        "word": "a",
+        "startTime": 40.92,
+        "endTime": 41.02
+      },
+      {
+        "word": "timeline,",
+        "startTime": 41.02,
+        "endTime": 41.38
+      },
+      {
+        "word": "three,",
+        "startTime": 42.04,
+        "endTime": 42.42
+      },
+      {
+        "word": "show",
+        "startTime": 43.04,
+        "endTime": 43.24
+      },
+      {
+        "word": "the",
+        "startTime": 43.24,
+        "endTime": 43.4
+      },
+      {
+        "word": "closest",
+        "startTime": 43.4,
+        "endTime": 43.82
+      },
+      {
+        "word": "relevant",
+        "startTime": 43.82,
+        "endTime": 44.24
+      },
+      {
+        "word": "work",
+        "startTime": 44.24,
+        "endTime": 44.58
+      },
+      {
+        "word": "you",
+        "startTime": 44.58,
+        "endTime": 44.76
+      },
+      {
+        "word": "have",
+        "startTime": 44.76,
+        "endTime": 44.9
+      },
+      {
+        "word": "done,",
+        "startTime": 44.9,
+        "endTime": 45.14
+      },
+      {
+        "word": "four,",
+        "startTime": 45.66,
+        "endTime": 46.06
+      },
+      {
+        "word": "make",
+        "startTime": 46.68,
+        "endTime": 46.8
+      },
+      {
+        "word": "a",
+        "startTime": 46.8,
+        "endTime": 46.94
+      },
+      {
+        "word": "specific",
+        "startTime": 46.94,
+        "endTime": 47.42
+      },
+      {
+        "word": "next",
+        "startTime": 47.42,
+        "endTime": 47.78
+      },
+      {
+        "word": "step",
+        "startTime": 47.78,
+        "endTime": 48.08
+      },
+      {
+        "word": "proposal,",
+        "startTime": 48.08,
+        "endTime": 48.64
+      },
+      {
+        "word": "end",
+        "startTime": 49.22,
+        "endTime": 49.42
+      },
+      {
+        "word": "with",
+        "startTime": 49.42,
+        "endTime": 49.58
+      },
+      {
+        "word": "a",
+        "startTime": 49.58,
+        "endTime": 49.64
+      },
+      {
+        "word": "question,",
+        "startTime": 49.64,
+        "endTime": 50.1
+      },
+      {
+        "word": "not",
+        "startTime": 50.52,
+        "endTime": 50.66
+      },
+      {
+        "word": "a",
+        "startTime": 50.66,
+        "endTime": 50.82
+      },
+      {
+        "word": "pitch.",
+        "startTime": 50.82,
+        "endTime": 51.2
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 51.9,
+    "endTime": 55.42,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 51.9,
+        "endTime": 52.18
+      },
+      {
+        "word": "what",
+        "startTime": 52.18,
+        "endTime": 52.42
+      },
+      {
+        "word": "you",
+        "startTime": 52.42,
+        "endTime": 52.56
+      },
+      {
+        "word": "learn",
+        "startTime": 52.56,
+        "endTime": 52.78
+      },
+      {
+        "word": "in",
+        "startTime": 52.78,
+        "endTime": 52.94
+      },
+      {
+        "word": "this",
+        "startTime": 52.94,
+        "endTime": 53.12
+      },
+      {
+        "word": "lesson",
+        "startTime": 53.12,
+        "endTime": 53.46
+      },
+      {
+        "word": "and",
+        "startTime": 53.46,
+        "endTime": 53.96
+      },
+      {
+        "word": "you",
+        "startTime": 53.96,
+        "endTime": 54.1
+      },
+      {
+        "word": "will",
+        "startTime": 54.1,
+        "endTime": 54.22
+      },
+      {
+        "word": "see",
+        "startTime": 54.22,
+        "endTime": 54.42
+      },
+      {
+        "word": "results",
+        "startTime": 54.42,
+        "endTime": 54.74
+      },
+      {
+        "word": "immediately.",
+        "startTime": 54.74,
+        "endTime": 55.42
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 55.42,
+    "endTime": 57.46,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 55.42,
+        "endTime": 56.28
+      },
+      {
+        "word": "skills",
+        "startTime": 56.28,
+        "endTime": 56.72
+      },
+      {
+        "word": "bear",
+        "startTime": 56.72,
+        "endTime": 57.1
+      },
+      {
+        "word": "fruit.",
+        "startTime": 57.1,
+        "endTime": 57.46
+      }
+    ]
+  }
+]

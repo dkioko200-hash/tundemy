@@ -1,0 +1,2375 @@
+[
+  {
+    "text": "A -R -A -G system that works on your test queries may fail catastrophically on user queries you did not anticipate.",
+    "startTime": 0,
+    "endTime": 7.34,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 0,
+        "endTime": 0.22
+      },
+      {
+        "word": "-R",
+        "startTime": 0.22,
+        "endTime": 0.54
+      },
+      {
+        "word": "-A",
+        "startTime": 0.54,
+        "endTime": 0.68
+      },
+      {
+        "word": "-G",
+        "startTime": 0.68,
+        "endTime": 0.9
+      },
+      {
+        "word": "system",
+        "startTime": 0.9,
+        "endTime": 1.54
+      },
+      {
+        "word": "that",
+        "startTime": 1.54,
+        "endTime": 1.82
+      },
+      {
+        "word": "works",
+        "startTime": 1.82,
+        "endTime": 2.12
+      },
+      {
+        "word": "on",
+        "startTime": 2.12,
+        "endTime": 2.32
+      },
+      {
+        "word": "your",
+        "startTime": 2.32,
+        "endTime": 2.46
+      },
+      {
+        "word": "test",
+        "startTime": 2.46,
+        "endTime": 2.72
+      },
+      {
+        "word": "queries",
+        "startTime": 2.72,
+        "endTime": 3.12
+      },
+      {
+        "word": "may",
+        "startTime": 3.12,
+        "endTime": 3.54
+      },
+      {
+        "word": "fail",
+        "startTime": 3.54,
+        "endTime": 3.9
+      },
+      {
+        "word": "catastrophically",
+        "startTime": 3.9,
+        "endTime": 4.84
+      },
+      {
+        "word": "on",
+        "startTime": 4.84,
+        "endTime": 5.38
+      },
+      {
+        "word": "user",
+        "startTime": 5.38,
+        "endTime": 5.7
+      },
+      {
+        "word": "queries",
+        "startTime": 5.7,
+        "endTime": 6.1
+      },
+      {
+        "word": "you",
+        "startTime": 6.1,
+        "endTime": 6.32
+      },
+      {
+        "word": "did",
+        "startTime": 6.32,
+        "endTime": 6.48
+      },
+      {
+        "word": "not",
+        "startTime": 6.48,
+        "endTime": 6.66
+      },
+      {
+        "word": "anticipate.",
+        "startTime": 6.66,
+        "endTime": 7.34
+      }
+    ]
+  },
+  {
+    "text": "Systematic evaluation, not anecdotal testing, is what separates production ready systems from demos.",
+    "startTime": 7.96,
+    "endTime": 14.32,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Systematic",
+        "startTime": 7.96,
+        "endTime": 8.62
+      },
+      {
+        "word": "evaluation,",
+        "startTime": 8.62,
+        "endTime": 9.3
+      },
+      {
+        "word": "not",
+        "startTime": 9.68,
+        "endTime": 9.94
+      },
+      {
+        "word": "anecdotal",
+        "startTime": 9.94,
+        "endTime": 10.52
+      },
+      {
+        "word": "testing,",
+        "startTime": 10.52,
+        "endTime": 10.98
+      },
+      {
+        "word": "is",
+        "startTime": 11.4,
+        "endTime": 11.66
+      },
+      {
+        "word": "what",
+        "startTime": 11.66,
+        "endTime": 11.84
+      },
+      {
+        "word": "separates",
+        "startTime": 11.84,
+        "endTime": 12.32
+      },
+      {
+        "word": "production",
+        "startTime": 12.32,
+        "endTime": 12.88
+      },
+      {
+        "word": "ready",
+        "startTime": 12.88,
+        "endTime": 13.08
+      },
+      {
+        "word": "systems",
+        "startTime": 13.08,
+        "endTime": 13.56
+      },
+      {
+        "word": "from",
+        "startTime": 13.56,
+        "endTime": 14
+      },
+      {
+        "word": "demos.",
+        "startTime": 14,
+        "endTime": 14.32
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, R -A -G evaluation uses three metrics, faithfulness, answer relevance, and context recall.",
+    "startTime": 15.08,
+    "endTime": 22.94,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 15.08,
+        "endTime": 15.26
+      },
+      {
+        "word": "this",
+        "startTime": 15.26,
+        "endTime": 15.44
+      },
+      {
+        "word": "lesson,",
+        "startTime": 15.44,
+        "endTime": 15.8
+      },
+      {
+        "word": "R",
+        "startTime": 16.48,
+        "endTime": 16.62
+      },
+      {
+        "word": "-A",
+        "startTime": 16.62,
+        "endTime": 16.78
+      },
+      {
+        "word": "-G",
+        "startTime": 16.78,
+        "endTime": 17
+      },
+      {
+        "word": "evaluation",
+        "startTime": 17,
+        "endTime": 17.52
+      },
+      {
+        "word": "uses",
+        "startTime": 17.52,
+        "endTime": 18.12
+      },
+      {
+        "word": "three",
+        "startTime": 18.12,
+        "endTime": 18.52
+      },
+      {
+        "word": "metrics,",
+        "startTime": 18.52,
+        "endTime": 18.94
+      },
+      {
+        "word": "faithfulness,",
+        "startTime": 19.58,
+        "endTime": 20.18
+      },
+      {
+        "word": "answer",
+        "startTime": 20.66,
+        "endTime": 20.92
+      },
+      {
+        "word": "relevance,",
+        "startTime": 20.92,
+        "endTime": 21.32
+      },
+      {
+        "word": "and",
+        "startTime": 21.74,
+        "endTime": 22.06
+      },
+      {
+        "word": "context",
+        "startTime": 22.06,
+        "endTime": 22.46
+      },
+      {
+        "word": "recall.",
+        "startTime": 22.46,
+        "endTime": 22.94
+      }
+    ]
+  },
+  {
+    "text": "Faithfulness measures whether the generated answer is reported by the retrieved documents, a hallucination score.",
+    "startTime": 23.84,
+    "endTime": 29.9,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Faithfulness",
+        "startTime": 23.84,
+        "endTime": 24.42
+      },
+      {
+        "word": "measures",
+        "startTime": 24.42,
+        "endTime": 24.82
+      },
+      {
+        "word": "whether",
+        "startTime": 24.82,
+        "endTime": 25.18
+      },
+      {
+        "word": "the",
+        "startTime": 25.18,
+        "endTime": 25.34
+      },
+      {
+        "word": "generated",
+        "startTime": 25.34,
+        "endTime": 25.78
+      },
+      {
+        "word": "answer",
+        "startTime": 25.78,
+        "endTime": 26.22
+      },
+      {
+        "word": "is",
+        "startTime": 26.22,
+        "endTime": 26.619999999999997
+      },
+      {
+        "word": "reported",
+        "startTime": 26.62,
+        "endTime": 26.9
+      },
+      {
+        "word": "by",
+        "startTime": 26.9,
+        "endTime": 27.12
+      },
+      {
+        "word": "the",
+        "startTime": 27.12,
+        "endTime": 27.28
+      },
+      {
+        "word": "retrieved",
+        "startTime": 27.28,
+        "endTime": 27.74
+      },
+      {
+        "word": "documents,",
+        "startTime": 27.74,
+        "endTime": 28.2
+      },
+      {
+        "word": "a",
+        "startTime": 28.78,
+        "endTime": 28.86
+      },
+      {
+        "word": "hallucination",
+        "startTime": 28.86,
+        "endTime": 29.54
+      },
+      {
+        "word": "score.",
+        "startTime": 29.54,
+        "endTime": 29.9
+      }
+    ]
+  },
+  {
+    "text": "Answer relevance measures whether the answer addresses the question.",
+    "startTime": 30.84,
+    "endTime": 34.04,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Answer",
+        "startTime": 30.84,
+        "endTime": 31.12
+      },
+      {
+        "word": "relevance",
+        "startTime": 31.12,
+        "endTime": 31.6
+      },
+      {
+        "word": "measures",
+        "startTime": 31.6,
+        "endTime": 32
+      },
+      {
+        "word": "whether",
+        "startTime": 32,
+        "endTime": 32.38
+      },
+      {
+        "word": "the",
+        "startTime": 32.38,
+        "endTime": 32.56
+      },
+      {
+        "word": "answer",
+        "startTime": 32.56,
+        "endTime": 32.88
+      },
+      {
+        "word": "addresses",
+        "startTime": 32.88,
+        "endTime": 33.36
+      },
+      {
+        "word": "the",
+        "startTime": 33.36,
+        "endTime": 33.6
+      },
+      {
+        "word": "question.",
+        "startTime": 33.6,
+        "endTime": 34.04
+      }
+    ]
+  },
+  {
+    "text": "Context recall measures whether the retrieved documents contain the information needed to answer the question correctly.",
+    "startTime": 34.74,
+    "endTime": 41,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Context",
+        "startTime": 34.74,
+        "endTime": 35.3
+      },
+      {
+        "word": "recall",
+        "startTime": 35.3,
+        "endTime": 35.64
+      },
+      {
+        "word": "measures",
+        "startTime": 35.64,
+        "endTime": 36.1
+      },
+      {
+        "word": "whether",
+        "startTime": 36.1,
+        "endTime": 36.46
+      },
+      {
+        "word": "the",
+        "startTime": 36.46,
+        "endTime": 36.62
+      },
+      {
+        "word": "retrieved",
+        "startTime": 36.62,
+        "endTime": 37.12
+      },
+      {
+        "word": "documents",
+        "startTime": 37.12,
+        "endTime": 37.58
+      },
+      {
+        "word": "contain",
+        "startTime": 37.58,
+        "endTime": 38
+      },
+      {
+        "word": "the",
+        "startTime": 38,
+        "endTime": 38.22
+      },
+      {
+        "word": "information",
+        "startTime": 38.22,
+        "endTime": 38.72
+      },
+      {
+        "word": "needed",
+        "startTime": 38.72,
+        "endTime": 39.1
+      },
+      {
+        "word": "to",
+        "startTime": 39.1,
+        "endTime": 39.64
+      },
+      {
+        "word": "answer",
+        "startTime": 39.64,
+        "endTime": 39.94
+      },
+      {
+        "word": "the",
+        "startTime": 39.94,
+        "endTime": 40.1
+      },
+      {
+        "word": "question",
+        "startTime": 40.1,
+        "endTime": 40.48
+      },
+      {
+        "word": "correctly.",
+        "startTime": 40.48,
+        "endTime": 41
+      }
+    ]
+  },
+  {
+    "text": "The R -A -G -A -S framework retrieval augmented generation assessment automates all three metrics using an LLM evaluator.",
+    "startTime": 41.78,
+    "endTime": 50.08,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 41.78,
+        "endTime": 41.98
+      },
+      {
+        "word": "R",
+        "startTime": 41.98,
+        "endTime": 42.2
+      },
+      {
+        "word": "-A",
+        "startTime": 42.2,
+        "endTime": 42.32
+      },
+      {
+        "word": "-G",
+        "startTime": 42.32,
+        "endTime": 42.52
+      },
+      {
+        "word": "-A",
+        "startTime": 42.52,
+        "endTime": 42.72
+      },
+      {
+        "word": "-S",
+        "startTime": 42.72,
+        "endTime": 43.02
+      },
+      {
+        "word": "framework",
+        "startTime": 43.02,
+        "endTime": 43.44
+      },
+      {
+        "word": "retrieval",
+        "startTime": 43.44,
+        "endTime": 44.52
+      },
+      {
+        "word": "augmented",
+        "startTime": 44.52,
+        "endTime": 44.96
+      },
+      {
+        "word": "generation",
+        "startTime": 44.96,
+        "endTime": 45.48
+      },
+      {
+        "word": "assessment",
+        "startTime": 45.48,
+        "endTime": 46.32
+      },
+      {
+        "word": "automates",
+        "startTime": 46.32,
+        "endTime": 47.2
+      },
+      {
+        "word": "all",
+        "startTime": 47.2,
+        "endTime": 47.52
+      },
+      {
+        "word": "three",
+        "startTime": 47.52,
+        "endTime": 47.84
+      },
+      {
+        "word": "metrics",
+        "startTime": 47.84,
+        "endTime": 48.22
+      },
+      {
+        "word": "using",
+        "startTime": 48.22,
+        "endTime": 48.62
+      },
+      {
+        "word": "an",
+        "startTime": 48.62,
+        "endTime": 48.86
+      },
+      {
+        "word": "LLM",
+        "startTime": 48.86,
+        "endTime": 49.38
+      },
+      {
+        "word": "evaluator.",
+        "startTime": 49.38,
+        "endTime": 50.08
+      }
+    ]
+  },
+  {
+    "text": "It takes your question answer context triples and scores them.",
+    "startTime": 50.62,
+    "endTime": 53.92,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "It",
+        "startTime": 50.62,
+        "endTime": 50.84
+      },
+      {
+        "word": "takes",
+        "startTime": 50.84,
+        "endTime": 51.06
+      },
+      {
+        "word": "your",
+        "startTime": 51.06,
+        "endTime": 51.28
+      },
+      {
+        "word": "question",
+        "startTime": 51.28,
+        "endTime": 51.68
+      },
+      {
+        "word": "answer",
+        "startTime": 51.68,
+        "endTime": 52.08
+      },
+      {
+        "word": "context",
+        "startTime": 52.08,
+        "endTime": 52.52
+      },
+      {
+        "word": "triples",
+        "startTime": 52.52,
+        "endTime": 52.96
+      },
+      {
+        "word": "and",
+        "startTime": 52.96,
+        "endTime": 53.26
+      },
+      {
+        "word": "scores",
+        "startTime": 53.26,
+        "endTime": 53.6
+      },
+      {
+        "word": "them.",
+        "startTime": 53.6,
+        "endTime": 53.92
+      }
+    ]
+  },
+  {
+    "text": "Implementation.",
+    "startTime": 54.68,
+    "endTime": 55.4,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Implementation.",
+        "startTime": 54.68,
+        "endTime": 55.4
+      }
+    ]
+  },
+  {
+    "text": "PIP install R -A -G -S, then score your system using evaluate with your test dataset.",
+    "startTime": 56.06,
+    "endTime": 61.32,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "PIP",
+        "startTime": 56.06,
+        "endTime": 56.38
+      },
+      {
+        "word": "install",
+        "startTime": 56.38,
+        "endTime": 56.78
+      },
+      {
+        "word": "R",
+        "startTime": 56.78,
+        "endTime": 57.08
+      },
+      {
+        "word": "-A",
+        "startTime": 57.08,
+        "endTime": 57.22
+      },
+      {
+        "word": "-G",
+        "startTime": 57.22,
+        "endTime": 57.24
+      },
+      {
+        "word": "-S,",
+        "startTime": 57.24,
+        "endTime": 57.48
+      },
+      {
+        "word": "then",
+        "startTime": 57.92,
+        "endTime": 58.02
+      },
+      {
+        "word": "score",
+        "startTime": 58.02,
+        "endTime": 58.38
+      },
+      {
+        "word": "your",
+        "startTime": 58.38,
+        "endTime": 58.56
+      },
+      {
+        "word": "system",
+        "startTime": 58.56,
+        "endTime": 58.92
+      },
+      {
+        "word": "using",
+        "startTime": 58.92,
+        "endTime": 59.3
+      },
+      {
+        "word": "evaluate",
+        "startTime": 59.3,
+        "endTime": 59.82
+      },
+      {
+        "word": "with",
+        "startTime": 59.82,
+        "endTime": 60.44
+      },
+      {
+        "word": "your",
+        "startTime": 60.44,
+        "endTime": 60.62
+      },
+      {
+        "word": "test",
+        "startTime": 60.62,
+        "endTime": 60.86
+      },
+      {
+        "word": "dataset.",
+        "startTime": 60.86,
+        "endTime": 61.32
+      }
+    ]
+  },
+  {
+    "text": "The most important metric in practice is faithfulness.",
+    "startTime": 62.02,
+    "endTime": 64.76,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 62.02,
+        "endTime": 62.2
+      },
+      {
+        "word": "most",
+        "startTime": 62.2,
+        "endTime": 62.44
+      },
+      {
+        "word": "important",
+        "startTime": 62.44,
+        "endTime": 62.94
+      },
+      {
+        "word": "metric",
+        "startTime": 62.94,
+        "endTime": 63.28
+      },
+      {
+        "word": "in",
+        "startTime": 63.28,
+        "endTime": 63.44
+      },
+      {
+        "word": "practice",
+        "startTime": 63.44,
+        "endTime": 63.8
+      },
+      {
+        "word": "is",
+        "startTime": 63.8,
+        "endTime": 64.08
+      },
+      {
+        "word": "faithfulness.",
+        "startTime": 64.08,
+        "endTime": 64.76
+      }
+    ]
+  },
+  {
+    "text": "An answer that is relevant but not supported by the retrieved documents is a hallucination, which is worse than no answer.",
+    "startTime": 65.32,
+    "endTime": 72.34,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "An",
+        "startTime": 65.32,
+        "endTime": 65.48
+      },
+      {
+        "word": "answer",
+        "startTime": 65.48,
+        "endTime": 65.78
+      },
+      {
+        "word": "that",
+        "startTime": 65.78,
+        "endTime": 65.96
+      },
+      {
+        "word": "is",
+        "startTime": 65.96,
+        "endTime": 66.12
+      },
+      {
+        "word": "relevant",
+        "startTime": 66.12,
+        "endTime": 66.52
+      },
+      {
+        "word": "but",
+        "startTime": 66.52,
+        "endTime": 66.82
+      },
+      {
+        "word": "not",
+        "startTime": 66.82,
+        "endTime": 67
+      },
+      {
+        "word": "supported",
+        "startTime": 67,
+        "endTime": 67.56
+      },
+      {
+        "word": "by",
+        "startTime": 67.56,
+        "endTime": 67.76
+      },
+      {
+        "word": "the",
+        "startTime": 67.76,
+        "endTime": 67.9
+      },
+      {
+        "word": "retrieved",
+        "startTime": 67.9,
+        "endTime": 68.34
+      },
+      {
+        "word": "documents",
+        "startTime": 68.34,
+        "endTime": 68.8
+      },
+      {
+        "word": "is",
+        "startTime": 68.8,
+        "endTime": 69.48
+      },
+      {
+        "word": "a",
+        "startTime": 69.48,
+        "endTime": 69.64
+      },
+      {
+        "word": "hallucination,",
+        "startTime": 69.64,
+        "endTime": 70.36
+      },
+      {
+        "word": "which",
+        "startTime": 70.86,
+        "endTime": 71.16
+      },
+      {
+        "word": "is",
+        "startTime": 71.16,
+        "endTime": 71.3
+      },
+      {
+        "word": "worse",
+        "startTime": 71.3,
+        "endTime": 71.52
+      },
+      {
+        "word": "than",
+        "startTime": 71.52,
+        "endTime": 71.74
+      },
+      {
+        "word": "no",
+        "startTime": 71.74,
+        "endTime": 71.94
+      },
+      {
+        "word": "answer.",
+        "startTime": 71.94,
+        "endTime": 72.34
+      }
+    ]
+  },
+  {
+    "text": "Target faithfulness above 0 .85 before deployment.",
+    "startTime": 73.06,
+    "endTime": 76.4,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Target",
+        "startTime": 73.06,
+        "endTime": 73.36
+      },
+      {
+        "word": "faithfulness",
+        "startTime": 73.36,
+        "endTime": 74.06
+      },
+      {
+        "word": "above",
+        "startTime": 74.06,
+        "endTime": 74.3
+      },
+      {
+        "word": "0",
+        "startTime": 74.3,
+        "endTime": 74.64
+      },
+      {
+        "word": ".85",
+        "startTime": 74.64,
+        "endTime": 75.38
+      },
+      {
+        "word": "before",
+        "startTime": 75.38,
+        "endTime": 75.9
+      },
+      {
+        "word": "deployment.",
+        "startTime": 75.9,
+        "endTime": 76.4
+      }
+    ]
+  },
+  {
+    "text": "Answer relevance above 0 .80 is acceptable.",
+    "startTime": 77.04,
+    "endTime": 80.06,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Answer",
+        "startTime": 77.04,
+        "endTime": 77.42
+      },
+      {
+        "word": "relevance",
+        "startTime": 77.42,
+        "endTime": 77.84
+      },
+      {
+        "word": "above",
+        "startTime": 77.84,
+        "endTime": 78.18
+      },
+      {
+        "word": "0",
+        "startTime": 78.18,
+        "endTime": 78.52
+      },
+      {
+        "word": ".80",
+        "startTime": 78.52,
+        "endTime": 79.24
+      },
+      {
+        "word": "is",
+        "startTime": 79.24,
+        "endTime": 79.62
+      },
+      {
+        "word": "acceptable.",
+        "startTime": 79.62,
+        "endTime": 80.06
+      }
+    ]
+  },
+  {
+    "text": "Context recall below 0 .70 means your retrieval is failing, fixed retrieval before fixing generation, improvement strategies.",
+    "startTime": 80.7,
+    "endTime": 89.54,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Context",
+        "startTime": 80.7,
+        "endTime": 81.3
+      },
+      {
+        "word": "recall",
+        "startTime": 81.3,
+        "endTime": 81.6
+      },
+      {
+        "word": "below",
+        "startTime": 81.6,
+        "endTime": 81.98
+      },
+      {
+        "word": "0",
+        "startTime": 81.98,
+        "endTime": 82.34
+      },
+      {
+        "word": ".70",
+        "startTime": 82.34,
+        "endTime": 83.18
+      },
+      {
+        "word": "means",
+        "startTime": 83.18,
+        "endTime": 84.02
+      },
+      {
+        "word": "your",
+        "startTime": 84.02,
+        "endTime": 84.28
+      },
+      {
+        "word": "retrieval",
+        "startTime": 84.28,
+        "endTime": 84.74
+      },
+      {
+        "word": "is",
+        "startTime": 84.74,
+        "endTime": 84.92
+      },
+      {
+        "word": "failing,",
+        "startTime": 84.92,
+        "endTime": 85.26
+      },
+      {
+        "word": "fixed",
+        "startTime": 85.78,
+        "endTime": 86.12
+      },
+      {
+        "word": "retrieval",
+        "startTime": 86.12,
+        "endTime": 86.6
+      },
+      {
+        "word": "before",
+        "startTime": 86.6,
+        "endTime": 86.92
+      },
+      {
+        "word": "fixing",
+        "startTime": 86.92,
+        "endTime": 87.26
+      },
+      {
+        "word": "generation,",
+        "startTime": 87.26,
+        "endTime": 87.86
+      },
+      {
+        "word": "improvement",
+        "startTime": 88.52,
+        "endTime": 88.96
+      },
+      {
+        "word": "strategies.",
+        "startTime": 88.96,
+        "endTime": 89.54
+      }
+    ]
+  },
+  {
+    "text": "One, if context recall is low, improve chunking strategy, add hybrid search, or use a re -ranker model.",
+    "startTime": 90.26,
+    "endTime": 97.4,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "One,",
+        "startTime": 90.26,
+        "endTime": 90.48
+      },
+      {
+        "word": "if",
+        "startTime": 91.1,
+        "endTime": 91.26
+      },
+      {
+        "word": "context",
+        "startTime": 91.26,
+        "endTime": 91.6
+      },
+      {
+        "word": "recall",
+        "startTime": 91.6,
+        "endTime": 92.08
+      },
+      {
+        "word": "is",
+        "startTime": 92.08,
+        "endTime": 92.32
+      },
+      {
+        "word": "low,",
+        "startTime": 92.32,
+        "endTime": 92.52
+      },
+      {
+        "word": "improve",
+        "startTime": 92.92,
+        "endTime": 93.3
+      },
+      {
+        "word": "chunking",
+        "startTime": 93.3,
+        "endTime": 93.82
+      },
+      {
+        "word": "strategy,",
+        "startTime": 93.82,
+        "endTime": 94.32
+      },
+      {
+        "word": "add",
+        "startTime": 94.78,
+        "endTime": 94.94
+      },
+      {
+        "word": "hybrid",
+        "startTime": 94.94,
+        "endTime": 95.28
+      },
+      {
+        "word": "search,",
+        "startTime": 95.28,
+        "endTime": 95.78
+      },
+      {
+        "word": "or",
+        "startTime": 96.16,
+        "endTime": 96.28
+      },
+      {
+        "word": "use",
+        "startTime": 96.28,
+        "endTime": 96.54
+      },
+      {
+        "word": "a",
+        "startTime": 96.54,
+        "endTime": 96.66
+      },
+      {
+        "word": "re",
+        "startTime": 96.66,
+        "endTime": 96.78
+      },
+      {
+        "word": "-ranker",
+        "startTime": 96.78,
+        "endTime": 97.16
+      },
+      {
+        "word": "model.",
+        "startTime": 97.16,
+        "endTime": 97.4
+      }
+    ]
+  },
+  {
+    "text": "Two, if faithfulness is low, strengthen the system prompt to require citations, reduce the number of retrieved chunks, or use a more instruction following model.",
+    "startTime": 98.02,
+    "endTime": 107.86,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Two,",
+        "startTime": 98.02,
+        "endTime": 98.3
+      },
+      {
+        "word": "if",
+        "startTime": 99,
+        "endTime": 99.14
+      },
+      {
+        "word": "faithfulness",
+        "startTime": 99.14,
+        "endTime": 99.7
+      },
+      {
+        "word": "is",
+        "startTime": 99.7,
+        "endTime": 99.88
+      },
+      {
+        "word": "low,",
+        "startTime": 99.88,
+        "endTime": 100.14
+      },
+      {
+        "word": "strengthen",
+        "startTime": 100.72,
+        "endTime": 100.96
+      },
+      {
+        "word": "the",
+        "startTime": 100.96,
+        "endTime": 101.2
+      },
+      {
+        "word": "system",
+        "startTime": 101.2,
+        "endTime": 101.5
+      },
+      {
+        "word": "prompt",
+        "startTime": 101.5,
+        "endTime": 101.86
+      },
+      {
+        "word": "to",
+        "startTime": 101.86,
+        "endTime": 102.04
+      },
+      {
+        "word": "require",
+        "startTime": 102.04,
+        "endTime": 102.4
+      },
+      {
+        "word": "citations,",
+        "startTime": 102.4,
+        "endTime": 103.2
+      },
+      {
+        "word": "reduce",
+        "startTime": 103.76,
+        "endTime": 103.98
+      },
+      {
+        "word": "the",
+        "startTime": 103.98,
+        "endTime": 104.26
+      },
+      {
+        "word": "number",
+        "startTime": 104.26,
+        "endTime": 104.52
+      },
+      {
+        "word": "of",
+        "startTime": 104.52,
+        "endTime": 104.68
+      },
+      {
+        "word": "retrieved",
+        "startTime": 104.68,
+        "endTime": 105.12
+      },
+      {
+        "word": "chunks,",
+        "startTime": 105.12,
+        "endTime": 105.4
+      },
+      {
+        "word": "or",
+        "startTime": 105.9,
+        "endTime": 106
+      },
+      {
+        "word": "use",
+        "startTime": 106,
+        "endTime": 106.22
+      },
+      {
+        "word": "a",
+        "startTime": 106.22,
+        "endTime": 106.36
+      },
+      {
+        "word": "more",
+        "startTime": 106.36,
+        "endTime": 106.52
+      },
+      {
+        "word": "instruction",
+        "startTime": 106.52,
+        "endTime": 107.06
+      },
+      {
+        "word": "following",
+        "startTime": 107.06,
+        "endTime": 107.48
+      },
+      {
+        "word": "model.",
+        "startTime": 107.48,
+        "endTime": 107.86
+      }
+    ]
+  },
+  {
+    "text": "Three, if answer relevance is low, improve query understanding, add query expansion, generating multiple query variants before retrieval, or restructure documents.",
+    "startTime": 108.7,
+    "endTime": 119.72,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Three,",
+        "startTime": 108.7,
+        "endTime": 109.06
+      },
+      {
+        "word": "if",
+        "startTime": 109.8,
+        "endTime": 110.04
+      },
+      {
+        "word": "answer",
+        "startTime": 110.04,
+        "endTime": 110.34
+      },
+      {
+        "word": "relevance",
+        "startTime": 110.34,
+        "endTime": 110.72
+      },
+      {
+        "word": "is",
+        "startTime": 110.72,
+        "endTime": 111
+      },
+      {
+        "word": "low,",
+        "startTime": 111,
+        "endTime": 111.22
+      },
+      {
+        "word": "improve",
+        "startTime": 111.72,
+        "endTime": 112.02
+      },
+      {
+        "word": "query",
+        "startTime": 112.02,
+        "endTime": 112.34
+      },
+      {
+        "word": "understanding,",
+        "startTime": 112.34,
+        "endTime": 113.04
+      },
+      {
+        "word": "add",
+        "startTime": 113.68,
+        "endTime": 113.84
+      },
+      {
+        "word": "query",
+        "startTime": 113.84,
+        "endTime": 114.12
+      },
+      {
+        "word": "expansion,",
+        "startTime": 114.12,
+        "endTime": 114.74
+      },
+      {
+        "word": "generating",
+        "startTime": 115.4,
+        "endTime": 115.78
+      },
+      {
+        "word": "multiple",
+        "startTime": 115.78,
+        "endTime": 116.14
+      },
+      {
+        "word": "query",
+        "startTime": 116.14,
+        "endTime": 116.58
+      },
+      {
+        "word": "variants",
+        "startTime": 116.58,
+        "endTime": 117.12
+      },
+      {
+        "word": "before",
+        "startTime": 117.12,
+        "endTime": 117.48
+      },
+      {
+        "word": "retrieval,",
+        "startTime": 117.48,
+        "endTime": 118.02
+      },
+      {
+        "word": "or",
+        "startTime": 118.58,
+        "endTime": 118.66
+      },
+      {
+        "word": "restructure",
+        "startTime": 118.66,
+        "endTime": 119.2
+      },
+      {
+        "word": "documents.",
+        "startTime": 119.2,
+        "endTime": 119.72
+      }
+    ]
+  },
+  {
+    "text": "Four, if all metrics are low, the embedding model is likely a poor fit for your document language and vocabulary.",
+    "startTime": 120.54,
+    "endTime": 127.22,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Four,",
+        "startTime": 120.54,
+        "endTime": 120.96
+      },
+      {
+        "word": "if",
+        "startTime": 121.72,
+        "endTime": 121.86
+      },
+      {
+        "word": "all",
+        "startTime": 121.86,
+        "endTime": 122.04
+      },
+      {
+        "word": "metrics",
+        "startTime": 122.04,
+        "endTime": 122.36
+      },
+      {
+        "word": "are",
+        "startTime": 122.36,
+        "endTime": 122.58
+      },
+      {
+        "word": "low,",
+        "startTime": 122.58,
+        "endTime": 122.82
+      },
+      {
+        "word": "the",
+        "startTime": 123.36,
+        "endTime": 123.44
+      },
+      {
+        "word": "embedding",
+        "startTime": 123.44,
+        "endTime": 123.82
+      },
+      {
+        "word": "model",
+        "startTime": 123.82,
+        "endTime": 124.06
+      },
+      {
+        "word": "is",
+        "startTime": 124.06,
+        "endTime": 124.28
+      },
+      {
+        "word": "likely",
+        "startTime": 124.28,
+        "endTime": 124.58
+      },
+      {
+        "word": "a",
+        "startTime": 124.58,
+        "endTime": 124.76
+      },
+      {
+        "word": "poor",
+        "startTime": 124.76,
+        "endTime": 125
+      },
+      {
+        "word": "fit",
+        "startTime": 125,
+        "endTime": 125.28
+      },
+      {
+        "word": "for",
+        "startTime": 125.28,
+        "endTime": 125.5
+      },
+      {
+        "word": "your",
+        "startTime": 125.5,
+        "endTime": 125.62
+      },
+      {
+        "word": "document",
+        "startTime": 125.62,
+        "endTime": 126.02
+      },
+      {
+        "word": "language",
+        "startTime": 126.02,
+        "endTime": 126.42
+      },
+      {
+        "word": "and",
+        "startTime": 126.42,
+        "endTime": 126.6
+      },
+      {
+        "word": "vocabulary.",
+        "startTime": 126.6,
+        "endTime": 127.22
+      }
+    ]
+  },
+  {
+    "text": "Switch to a domain specific or multilingual model.",
+    "startTime": 128.14,
+    "endTime": 131.22,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Switch",
+        "startTime": 128.14,
+        "endTime": 128.44
+      },
+      {
+        "word": "to",
+        "startTime": 128.44,
+        "endTime": 128.68
+      },
+      {
+        "word": "a",
+        "startTime": 128.68,
+        "endTime": 128.76
+      },
+      {
+        "word": "domain",
+        "startTime": 128.76,
+        "endTime": 128.98
+      },
+      {
+        "word": "specific",
+        "startTime": 128.98,
+        "endTime": 129.58
+      },
+      {
+        "word": "or",
+        "startTime": 129.58,
+        "endTime": 130.16
+      },
+      {
+        "word": "multilingual",
+        "startTime": 130.16,
+        "endTime": 130.82
+      },
+      {
+        "word": "model.",
+        "startTime": 130.82,
+        "endTime": 131.22
+      }
+    ]
+  },
+  {
+    "text": "R -A -G evaluation must be done on a representative test set.",
+    "startTime": 132.1,
+    "endTime": 135.64,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "R",
+        "startTime": 132.1,
+        "endTime": 132.32
+      },
+      {
+        "word": "-A",
+        "startTime": 132.32,
+        "endTime": 132.46
+      },
+      {
+        "word": "-G",
+        "startTime": 132.46,
+        "endTime": 132.68
+      },
+      {
+        "word": "evaluation",
+        "startTime": 132.68,
+        "endTime": 133.14
+      },
+      {
+        "word": "must",
+        "startTime": 133.14,
+        "endTime": 133.56
+      },
+      {
+        "word": "be",
+        "startTime": 133.56,
+        "endTime": 133.76
+      },
+      {
+        "word": "done",
+        "startTime": 133.76,
+        "endTime": 133.98
+      },
+      {
+        "word": "on",
+        "startTime": 133.98,
+        "endTime": 134.14
+      },
+      {
+        "word": "a",
+        "startTime": 134.14,
+        "endTime": 134.26
+      },
+      {
+        "word": "representative",
+        "startTime": 134.26,
+        "endTime": 134.78
+      },
+      {
+        "word": "test",
+        "startTime": 134.78,
+        "endTime": 135.22
+      },
+      {
+        "word": "set.",
+        "startTime": 135.22,
+        "endTime": 135.64
+      }
+    ]
+  },
+  {
+    "text": "Queries that reflect real user behavior, not queries that developer wrote to demonstrate the system working.",
+    "startTime": 136.18,
+    "endTime": 141.82,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Queries",
+        "startTime": 136.18,
+        "endTime": 136.52
+      },
+      {
+        "word": "that",
+        "startTime": 136.52,
+        "endTime": 136.72
+      },
+      {
+        "word": "reflect",
+        "startTime": 136.72,
+        "endTime": 137.1
+      },
+      {
+        "word": "real",
+        "startTime": 137.1,
+        "endTime": 137.4
+      },
+      {
+        "word": "user",
+        "startTime": 137.4,
+        "endTime": 137.78
+      },
+      {
+        "word": "behavior,",
+        "startTime": 137.78,
+        "endTime": 138.28
+      },
+      {
+        "word": "not",
+        "startTime": 138.7,
+        "endTime": 139
+      },
+      {
+        "word": "queries",
+        "startTime": 139,
+        "endTime": 139.38
+      },
+      {
+        "word": "that",
+        "startTime": 139.38,
+        "endTime": 139.6
+      },
+      {
+        "word": "developer",
+        "startTime": 139.6,
+        "endTime": 139.92
+      },
+      {
+        "word": "wrote",
+        "startTime": 139.92,
+        "endTime": 140.26
+      },
+      {
+        "word": "to",
+        "startTime": 140.26,
+        "endTime": 140.46
+      },
+      {
+        "word": "demonstrate",
+        "startTime": 140.46,
+        "endTime": 140.84
+      },
+      {
+        "word": "the",
+        "startTime": 140.84,
+        "endTime": 141.1
+      },
+      {
+        "word": "system",
+        "startTime": 141.1,
+        "endTime": 141.4
+      },
+      {
+        "word": "working.",
+        "startTime": 141.4,
+        "endTime": 141.82
+      }
+    ]
+  },
+  {
+    "text": "A developer writing test queries unconsciously avoids the edge cases that real users will hit.",
+    "startTime": 142.6,
+    "endTime": 147.64,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 142.6,
+        "endTime": 142.8
+      },
+      {
+        "word": "developer",
+        "startTime": 142.8,
+        "endTime": 143.14
+      },
+      {
+        "word": "writing",
+        "startTime": 143.14,
+        "endTime": 143.48
+      },
+      {
+        "word": "test",
+        "startTime": 143.48,
+        "endTime": 143.88
+      },
+      {
+        "word": "queries",
+        "startTime": 143.88,
+        "endTime": 144.24
+      },
+      {
+        "word": "unconsciously",
+        "startTime": 144.24,
+        "endTime": 145.16
+      },
+      {
+        "word": "avoids",
+        "startTime": 145.16,
+        "endTime": 145.58
+      },
+      {
+        "word": "the",
+        "startTime": 145.58,
+        "endTime": 145.74
+      },
+      {
+        "word": "edge",
+        "startTime": 145.74,
+        "endTime": 145.98
+      },
+      {
+        "word": "cases",
+        "startTime": 145.98,
+        "endTime": 146.34
+      },
+      {
+        "word": "that",
+        "startTime": 146.34,
+        "endTime": 146.56
+      },
+      {
+        "word": "real",
+        "startTime": 146.56,
+        "endTime": 146.8
+      },
+      {
+        "word": "users",
+        "startTime": 146.8,
+        "endTime": 147.16
+      },
+      {
+        "word": "will",
+        "startTime": 147.16,
+        "endTime": 147.38
+      },
+      {
+        "word": "hit.",
+        "startTime": 147.38,
+        "endTime": 147.64
+      }
+    ]
+  },
+  {
+    "text": "The best evaluation data sets are built from real user queries collected during a limited beta deployment.",
+    "startTime": 148.58,
+    "endTime": 154.26,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 148.58,
+        "endTime": 148.66
+      },
+      {
+        "word": "best",
+        "startTime": 148.66,
+        "endTime": 148.96
+      },
+      {
+        "word": "evaluation",
+        "startTime": 148.96,
+        "endTime": 149.54
+      },
+      {
+        "word": "data",
+        "startTime": 149.54,
+        "endTime": 149.78
+      },
+      {
+        "word": "sets",
+        "startTime": 149.78,
+        "endTime": 150.14
+      },
+      {
+        "word": "are",
+        "startTime": 150.14,
+        "endTime": 150.34
+      },
+      {
+        "word": "built",
+        "startTime": 150.34,
+        "endTime": 150.54
+      },
+      {
+        "word": "from",
+        "startTime": 150.54,
+        "endTime": 150.78
+      },
+      {
+        "word": "real",
+        "startTime": 150.78,
+        "endTime": 151.02
+      },
+      {
+        "word": "user",
+        "startTime": 151.02,
+        "endTime": 151.38
+      },
+      {
+        "word": "queries",
+        "startTime": 151.38,
+        "endTime": 151.78
+      },
+      {
+        "word": "collected",
+        "startTime": 151.78,
+        "endTime": 152.54
+      },
+      {
+        "word": "during",
+        "startTime": 152.54,
+        "endTime": 152.98
+      },
+      {
+        "word": "a",
+        "startTime": 152.98,
+        "endTime": 153.1
+      },
+      {
+        "word": "limited",
+        "startTime": 153.1,
+        "endTime": 153.36
+      },
+      {
+        "word": "beta",
+        "startTime": 153.36,
+        "endTime": 153.72
+      },
+      {
+        "word": "deployment.",
+        "startTime": 153.72,
+        "endTime": 154.26
+      }
+    ]
+  },
+  {
+    "text": "Test set quality determines evaluation reliability.",
+    "startTime": 154.9,
+    "endTime": 157.86,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Test",
+        "startTime": 154.9,
+        "endTime": 155.28
+      },
+      {
+        "word": "set",
+        "startTime": 155.28,
+        "endTime": 155.6
+      },
+      {
+        "word": "quality",
+        "startTime": 155.6,
+        "endTime": 155.96
+      },
+      {
+        "word": "determines",
+        "startTime": 155.96,
+        "endTime": 156.5
+      },
+      {
+        "word": "evaluation",
+        "startTime": 156.5,
+        "endTime": 157.22
+      },
+      {
+        "word": "reliability.",
+        "startTime": 157.22,
+        "endTime": 157.86
+      }
+    ]
+  },
+  {
+    "text": "A 100 -question evaluation set built from real user queries is worth more than a 1000 -question set built by the developer who knows the system's vocabulary.",
+    "startTime": 158.51999999999998,
+    "endTime": 168.24,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 158.51999999999998,
+        "endTime": 158.82
+      },
+      {
+        "word": "100",
+        "startTime": 158.82,
+        "endTime": 159.26
+      },
+      {
+        "word": "-question",
+        "startTime": 159.26,
+        "endTime": 159.72
+      },
+      {
+        "word": "evaluation",
+        "startTime": 159.72,
+        "endTime": 160.16
+      },
+      {
+        "word": "set",
+        "startTime": 160.16,
+        "endTime": 160.66
+      },
+      {
+        "word": "built",
+        "startTime": 160.66,
+        "endTime": 160.92
+      },
+      {
+        "word": "from",
+        "startTime": 160.92,
+        "endTime": 161.18
+      },
+      {
+        "word": "real",
+        "startTime": 161.18,
+        "endTime": 161.42
+      },
+      {
+        "word": "user",
+        "startTime": 161.42,
+        "endTime": 161.78
+      },
+      {
+        "word": "queries",
+        "startTime": 161.78,
+        "endTime": 162.16
+      },
+      {
+        "word": "is",
+        "startTime": 162.16,
+        "endTime": 162.9
+      },
+      {
+        "word": "worth",
+        "startTime": 162.9,
+        "endTime": 163.2
+      },
+      {
+        "word": "more",
+        "startTime": 163.2,
+        "endTime": 163.4
+      },
+      {
+        "word": "than",
+        "startTime": 163.4,
+        "endTime": 163.56
+      },
+      {
+        "word": "a",
+        "startTime": 163.56,
+        "endTime": 163.68
+      },
+      {
+        "word": "1000",
+        "startTime": 163.68,
+        "endTime": 164.18
+      },
+      {
+        "word": "-question",
+        "startTime": 164.18,
+        "endTime": 164.82
+      },
+      {
+        "word": "set",
+        "startTime": 164.82,
+        "endTime": 165.22
+      },
+      {
+        "word": "built",
+        "startTime": 165.22,
+        "endTime": 165.74
+      },
+      {
+        "word": "by",
+        "startTime": 165.74,
+        "endTime": 165.94
+      },
+      {
+        "word": "the",
+        "startTime": 165.94,
+        "endTime": 166.1
+      },
+      {
+        "word": "developer",
+        "startTime": 166.1,
+        "endTime": 166.54
+      },
+      {
+        "word": "who",
+        "startTime": 166.54,
+        "endTime": 166.8
+      },
+      {
+        "word": "knows",
+        "startTime": 166.8,
+        "endTime": 167.02
+      },
+      {
+        "word": "the",
+        "startTime": 167.02,
+        "endTime": 167.24
+      },
+      {
+        "word": "system's",
+        "startTime": 167.24,
+        "endTime": 167.7
+      },
+      {
+        "word": "vocabulary.",
+        "startTime": 167.7,
+        "endTime": 168.24
+      }
+    ]
+  },
+  {
+    "text": "Remember this.",
+    "startTime": 169.02,
+    "endTime": 169.72,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Remember",
+        "startTime": 169.02,
+        "endTime": 169.38
+      },
+      {
+        "word": "this.",
+        "startTime": 169.38,
+        "endTime": 169.72
+      }
+    ]
+  },
+  {
+    "text": "Never write your own evaluation questions.",
+    "startTime": 170.38,
+    "endTime": 172.66,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Never",
+        "startTime": 170.38,
+        "endTime": 170.64
+      },
+      {
+        "word": "write",
+        "startTime": 170.64,
+        "endTime": 170.92
+      },
+      {
+        "word": "your",
+        "startTime": 170.92,
+        "endTime": 171.1
+      },
+      {
+        "word": "own",
+        "startTime": 171.1,
+        "endTime": 171.34
+      },
+      {
+        "word": "evaluation",
+        "startTime": 171.34,
+        "endTime": 171.84
+      },
+      {
+        "word": "questions.",
+        "startTime": 171.84,
+        "endTime": 172.66
+      }
+    ]
+  },
+  {
+    "text": "Get them from real users, customer service staff, or domain experts who do not know your system's internal vocabulary.",
+    "startTime": 173.24,
+    "endTime": 180.26,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Get",
+        "startTime": 173.24,
+        "endTime": 173.38
+      },
+      {
+        "word": "them",
+        "startTime": 173.38,
+        "endTime": 173.56
+      },
+      {
+        "word": "from",
+        "startTime": 173.56,
+        "endTime": 173.74
+      },
+      {
+        "word": "real",
+        "startTime": 173.74,
+        "endTime": 174.02
+      },
+      {
+        "word": "users,",
+        "startTime": 174.02,
+        "endTime": 174.48
+      },
+      {
+        "word": "customer",
+        "startTime": 175.04,
+        "endTime": 175.32
+      },
+      {
+        "word": "service",
+        "startTime": 175.32,
+        "endTime": 175.74
+      },
+      {
+        "word": "staff,",
+        "startTime": 175.74,
+        "endTime": 176.24
+      },
+      {
+        "word": "or",
+        "startTime": 176.72,
+        "endTime": 176.82
+      },
+      {
+        "word": "domain",
+        "startTime": 176.82,
+        "endTime": 177.12
+      },
+      {
+        "word": "experts",
+        "startTime": 177.12,
+        "endTime": 177.66
+      },
+      {
+        "word": "who",
+        "startTime": 177.66,
+        "endTime": 177.92
+      },
+      {
+        "word": "do",
+        "startTime": 177.92,
+        "endTime": 178.06
+      },
+      {
+        "word": "not",
+        "startTime": 178.06,
+        "endTime": 178.22
+      },
+      {
+        "word": "know",
+        "startTime": 178.22,
+        "endTime": 178.5
+      },
+      {
+        "word": "your",
+        "startTime": 178.5,
+        "endTime": 178.68
+      },
+      {
+        "word": "system's",
+        "startTime": 178.68,
+        "endTime": 179.24
+      },
+      {
+        "word": "internal",
+        "startTime": 179.24,
+        "endTime": 179.56
+      },
+      {
+        "word": "vocabulary.",
+        "startTime": 179.56,
+        "endTime": 180.26
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 181.04,
+    "endTime": 184.88,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 181.04,
+        "endTime": 181.34
+      },
+      {
+        "word": "what",
+        "startTime": 181.34,
+        "endTime": 181.56
+      },
+      {
+        "word": "you",
+        "startTime": 181.56,
+        "endTime": 181.72
+      },
+      {
+        "word": "learn",
+        "startTime": 181.72,
+        "endTime": 181.92
+      },
+      {
+        "word": "in",
+        "startTime": 181.92,
+        "endTime": 182.06
+      },
+      {
+        "word": "this",
+        "startTime": 182.06,
+        "endTime": 182.24
+      },
+      {
+        "word": "lesson",
+        "startTime": 182.24,
+        "endTime": 182.58
+      },
+      {
+        "word": "and",
+        "startTime": 182.58,
+        "endTime": 183.2
+      },
+      {
+        "word": "you",
+        "startTime": 183.2,
+        "endTime": 183.36
+      },
+      {
+        "word": "will",
+        "startTime": 183.36,
+        "endTime": 183.48
+      },
+      {
+        "word": "see",
+        "startTime": 183.48,
+        "endTime": 183.68
+      },
+      {
+        "word": "results",
+        "startTime": 183.68,
+        "endTime": 184.06
+      },
+      {
+        "word": "immediately.",
+        "startTime": 184.06,
+        "endTime": 184.88
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 185.56,
+    "endTime": 186.86,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 185.56,
+        "endTime": 185.72
+      },
+      {
+        "word": "skills",
+        "startTime": 185.72,
+        "endTime": 186.18
+      },
+      {
+        "word": "bear",
+        "startTime": 186.18,
+        "endTime": 186.52
+      },
+      {
+        "word": "fruit.",
+        "startTime": 186.52,
+        "endTime": 186.86
+      }
+    ]
+  }
+]

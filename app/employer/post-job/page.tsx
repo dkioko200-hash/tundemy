@@ -33,6 +33,7 @@ export default function PostJobPage() {
   const [loading, setLoading] = useState(true);
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+  const [generating, setGenerating] = useState(false);
   const [form, setForm] = useState({
     title: "",
     type: "Full-time" as typeof JOB_TYPES[number],
@@ -63,6 +64,37 @@ export default function PostJobPage() {
     }
     checkAuth();
   }, [router]);
+
+  const generateDescription = async () => {
+    if (!form.title) return;
+    setGenerating(true);
+    try {
+      const supabase = createClient();
+      const { data: { session } } = await supabase.auth.getSession();
+      const res = await fetch("/api/employer/generate-job-description", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          ...(session?.access_token ? { Authorization: `Bearer ${session.access_token}` } : {}),
+        },
+        body: JSON.stringify({
+          title: form.title,
+          skills: form.required_skills,
+          jobType: form.type,
+          experienceLevel: form.experience_level,
+          location: form.remote ? "Remote" : form.location,
+        }),
+      });
+      const data = await res.json();
+      if (data.description) {
+        setForm((f) => ({ ...f, description: data.description }));
+      }
+    } catch {
+      // Silent fail — user can write manually
+    } finally {
+      setGenerating(false);
+    }
+  };
 
   const toggleSkill = (skill: string) => {
     setForm((f) => ({
@@ -227,9 +259,30 @@ export default function PostJobPage() {
 
           {/* Description */}
           <div className="rounded-2xl border bg-white p-6" style={{ borderColor: "#e5e7eb" }}>
-            <h2 className="text-sm font-bold mb-4" style={{ color: "#0f1f3d" }}>Job Description *</h2>
+            <div className="flex items-center justify-between mb-4">
+              <h2 className="text-sm font-bold" style={{ color: "#0f1f3d" }}>Job Description *</h2>
+              <button
+                type="button"
+                onClick={generateDescription}
+                disabled={!form.title || generating}
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold border-2 transition-all disabled:opacity-40"
+                style={{ borderColor: "#2d8a4e", color: "#2d8a4e", backgroundColor: "rgba(45,138,78,0.06)" }}
+              >
+                {generating ? (
+                  <>
+                    <span className="w-3 h-3 rounded-full border-2 animate-spin inline-block" style={{ borderColor: "#2d8a4e", borderTopColor: "transparent" }} />
+                    Generating…
+                  </>
+                ) : (
+                  <>✨ Generate with AI</>
+                )}
+              </button>
+            </div>
+            {!form.title && (
+              <p className="text-xs text-amber-600 mb-2">Enter a job title above to enable AI generation.</p>
+            )}
             <textarea required value={form.description} onChange={(e) => setForm((f) => ({ ...f, description: e.target.value }))}
-              placeholder="Describe the role, responsibilities, what you're building, and what makes this a great opportunity…"
+              placeholder="Describe the role, responsibilities, what you're building, and what makes this a great opportunity… or click ✨ Generate with AI above."
               rows={8}
               className="w-full px-4 py-3 text-sm border rounded-xl outline-none resize-none"
               style={{ borderColor: "#e5e7eb", lineHeight: "1.65" }}

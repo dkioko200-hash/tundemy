@@ -1,0 +1,930 @@
+[
+  {
+    "text": "The techniques that separate are 80 ,000 Kenyan Shilling Prompt Engineer from a 250 ,000 Kenyan Shilling one are not secret, they just require deliberate practice.",
+    "startTime": 0,
+    "endTime": 11.04,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 0,
+        "endTime": 0.24
+      },
+      {
+        "word": "techniques",
+        "startTime": 0.24,
+        "endTime": 0.68
+      },
+      {
+        "word": "that",
+        "startTime": 0.68,
+        "endTime": 1.04
+      },
+      {
+        "word": "separate",
+        "startTime": 1.04,
+        "endTime": 1.52
+      },
+      {
+        "word": "are",
+        "startTime": 1.52,
+        "endTime": 1.82
+      },
+      {
+        "word": "80",
+        "startTime": 1.82,
+        "endTime": 2.16
+      },
+      {
+        "word": ",000",
+        "startTime": 2.16,
+        "endTime": 2.66
+      },
+      {
+        "word": "Kenyan",
+        "startTime": 2.66,
+        "endTime": 2.98
+      },
+      {
+        "word": "Shilling",
+        "startTime": 2.98,
+        "endTime": 3.34
+      },
+      {
+        "word": "Prompt",
+        "startTime": 3.34,
+        "endTime": 3.76
+      },
+      {
+        "word": "Engineer",
+        "startTime": 3.76,
+        "endTime": 4.28
+      },
+      {
+        "word": "from",
+        "startTime": 4.66,
+        "endTime": 5.02
+      },
+      {
+        "word": "a",
+        "startTime": 5.02,
+        "endTime": 5.18
+      },
+      {
+        "word": "250",
+        "startTime": 5.18,
+        "endTime": 5.86
+      },
+      {
+        "word": ",000",
+        "startTime": 5.86,
+        "endTime": 6.5
+      },
+      {
+        "word": "Kenyan",
+        "startTime": 6.5,
+        "endTime": 6.88
+      },
+      {
+        "word": "Shilling",
+        "startTime": 6.88,
+        "endTime": 7.22
+      },
+      {
+        "word": "one",
+        "startTime": 7.22,
+        "endTime": 7.46
+      },
+      {
+        "word": "are",
+        "startTime": 7.46,
+        "endTime": 8.02
+      },
+      {
+        "word": "not",
+        "startTime": 8.02,
+        "endTime": 8.2
+      },
+      {
+        "word": "secret,",
+        "startTime": 8.2,
+        "endTime": 8.62
+      },
+      {
+        "word": "they",
+        "startTime": 9.1,
+        "endTime": 9.34
+      },
+      {
+        "word": "just",
+        "startTime": 9.34,
+        "endTime": 9.56
+      },
+      {
+        "word": "require",
+        "startTime": 9.56,
+        "endTime": 9.98
+      },
+      {
+        "word": "deliberate",
+        "startTime": 9.98,
+        "endTime": 10.54
+      },
+      {
+        "word": "practice.",
+        "startTime": 10.54,
+        "endTime": 11.04
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, chain of thought prompting, self -critic loops, persona stacking, and iterative refinement.",
+    "startTime": 11.82,
+    "endTime": 19.08,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 11.82,
+        "endTime": 11.96
+      },
+      {
+        "word": "this",
+        "startTime": 11.96,
+        "endTime": 12.16
+      },
+      {
+        "word": "lesson,",
+        "startTime": 12.16,
+        "endTime": 12.56
+      },
+      {
+        "word": "chain",
+        "startTime": 12.96,
+        "endTime": 13.32
+      },
+      {
+        "word": "of",
+        "startTime": 13.32,
+        "endTime": 13.52
+      },
+      {
+        "word": "thought",
+        "startTime": 13.52,
+        "endTime": 13.72
+      },
+      {
+        "word": "prompting,",
+        "startTime": 13.72,
+        "endTime": 14.4
+      },
+      {
+        "word": "self",
+        "startTime": 14.66,
+        "endTime": 15.08
+      },
+      {
+        "word": "-critic",
+        "startTime": 15.08,
+        "endTime": 15.5
+      },
+      {
+        "word": "loops,",
+        "startTime": 15.5,
+        "endTime": 15.76
+      },
+      {
+        "word": "persona",
+        "startTime": 16.44,
+        "endTime": 16.76
+      },
+      {
+        "word": "stacking,",
+        "startTime": 16.76,
+        "endTime": 17.24
+      },
+      {
+        "word": "and",
+        "startTime": 17.8,
+        "endTime": 17.92
+      },
+      {
+        "word": "iterative",
+        "startTime": 17.92,
+        "endTime": 18.46
+      },
+      {
+        "word": "refinement.",
+        "startTime": 18.46,
+        "endTime": 19.08
+      }
+    ]
+  },
+  {
+    "text": "How to get AI to check its own work, reason step by step, and produce consistently high quality output.",
+    "startTime": 19.74,
+    "endTime": 26.28,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "How",
+        "startTime": 19.74,
+        "endTime": 20.02
+      },
+      {
+        "word": "to",
+        "startTime": 20.02,
+        "endTime": 20.22
+      },
+      {
+        "word": "get",
+        "startTime": 20.22,
+        "endTime": 20.44
+      },
+      {
+        "word": "AI",
+        "startTime": 20.44,
+        "endTime": 20.66
+      },
+      {
+        "word": "to",
+        "startTime": 20.66,
+        "endTime": 21
+      },
+      {
+        "word": "check",
+        "startTime": 21,
+        "endTime": 21.22
+      },
+      {
+        "word": "its",
+        "startTime": 21.22,
+        "endTime": 21.44
+      },
+      {
+        "word": "own",
+        "startTime": 21.44,
+        "endTime": 21.58
+      },
+      {
+        "word": "work,",
+        "startTime": 21.58,
+        "endTime": 22.02
+      },
+      {
+        "word": "reason",
+        "startTime": 22.48,
+        "endTime": 22.68
+      },
+      {
+        "word": "step",
+        "startTime": 22.68,
+        "endTime": 23.04
+      },
+      {
+        "word": "by",
+        "startTime": 23.04,
+        "endTime": 23.22
+      },
+      {
+        "word": "step,",
+        "startTime": 23.22,
+        "endTime": 23.52
+      },
+      {
+        "word": "and",
+        "startTime": 23.78,
+        "endTime": 24.06
+      },
+      {
+        "word": "produce",
+        "startTime": 24.06,
+        "endTime": 24.34
+      },
+      {
+        "word": "consistently",
+        "startTime": 24.34,
+        "endTime": 25.14
+      },
+      {
+        "word": "high",
+        "startTime": 25.14,
+        "endTime": 25.44
+      },
+      {
+        "word": "quality",
+        "startTime": 25.44,
+        "endTime": 25.88
+      },
+      {
+        "word": "output.",
+        "startTime": 25.88,
+        "endTime": 26.28
+      }
+    ]
+  },
+  {
+    "text": "Three advanced techniques separate professional prompt engineers from everyday users, chain of thought reasoning, temperature control awareness, and meta prompting.",
+    "startTime": 27.040000000000003,
+    "endTime": 36.78,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Three",
+        "startTime": 27.040000000000003,
+        "endTime": 27.42
+      },
+      {
+        "word": "advanced",
+        "startTime": 27.42,
+        "endTime": 27.9
+      },
+      {
+        "word": "techniques",
+        "startTime": 27.9,
+        "endTime": 28.4
+      },
+      {
+        "word": "separate",
+        "startTime": 28.4,
+        "endTime": 28.86
+      },
+      {
+        "word": "professional",
+        "startTime": 28.86,
+        "endTime": 29.5
+      },
+      {
+        "word": "prompt",
+        "startTime": 29.5,
+        "endTime": 29.84
+      },
+      {
+        "word": "engineers",
+        "startTime": 29.84,
+        "endTime": 30.32
+      },
+      {
+        "word": "from",
+        "startTime": 30.32,
+        "endTime": 30.58
+      },
+      {
+        "word": "everyday",
+        "startTime": 30.58,
+        "endTime": 30.92
+      },
+      {
+        "word": "users,",
+        "startTime": 30.92,
+        "endTime": 31.46
+      },
+      {
+        "word": "chain",
+        "startTime": 32.18,
+        "endTime": 32.34
+      },
+      {
+        "word": "of",
+        "startTime": 32.34,
+        "endTime": 32.54
+      },
+      {
+        "word": "thought",
+        "startTime": 32.54,
+        "endTime": 32.72
+      },
+      {
+        "word": "reasoning,",
+        "startTime": 32.72,
+        "endTime": 33.18
+      },
+      {
+        "word": "temperature",
+        "startTime": 33.8,
+        "endTime": 34.08
+      },
+      {
+        "word": "control",
+        "startTime": 34.08,
+        "endTime": 34.62
+      },
+      {
+        "word": "awareness,",
+        "startTime": 34.62,
+        "endTime": 35.1
+      },
+      {
+        "word": "and",
+        "startTime": 35.56,
+        "endTime": 35.84
+      },
+      {
+        "word": "meta",
+        "startTime": 35.84,
+        "endTime": 36.1
+      },
+      {
+        "word": "prompting.",
+        "startTime": 36.1,
+        "endTime": 36.78
+      }
+    ]
+  },
+  {
+    "text": "Each addresses a specific failure mode in complex AI tasks.",
+    "startTime": 37.3,
+    "endTime": 41.04,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Each",
+        "startTime": 37.3,
+        "endTime": 37.58
+      },
+      {
+        "word": "addresses",
+        "startTime": 37.58,
+        "endTime": 37.96
+      },
+      {
+        "word": "a",
+        "startTime": 37.96,
+        "endTime": 38.24
+      },
+      {
+        "word": "specific",
+        "startTime": 38.24,
+        "endTime": 38.68
+      },
+      {
+        "word": "failure",
+        "startTime": 38.68,
+        "endTime": 39.18
+      },
+      {
+        "word": "mode",
+        "startTime": 39.18,
+        "endTime": 39.4
+      },
+      {
+        "word": "in",
+        "startTime": 39.4,
+        "endTime": 39.66
+      },
+      {
+        "word": "complex",
+        "startTime": 39.66,
+        "endTime": 40.1
+      },
+      {
+        "word": "AI",
+        "startTime": 40.1,
+        "endTime": 40.5
+      },
+      {
+        "word": "tasks.",
+        "startTime": 40.5,
+        "endTime": 41.04
+      }
+    ]
+  },
+  {
+    "text": "Chain of thought reasoning does not just produce better answers, it produces auditable reasoning you can verify.",
+    "startTime": 41.92,
+    "endTime": 48.1,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Chain",
+        "startTime": 41.92,
+        "endTime": 42.22
+      },
+      {
+        "word": "of",
+        "startTime": 42.22,
+        "endTime": 42.4
+      },
+      {
+        "word": "thought",
+        "startTime": 42.4,
+        "endTime": 42.6
+      },
+      {
+        "word": "reasoning",
+        "startTime": 42.6,
+        "endTime": 43.06
+      },
+      {
+        "word": "does",
+        "startTime": 43.06,
+        "endTime": 43.32
+      },
+      {
+        "word": "not",
+        "startTime": 43.32,
+        "endTime": 43.54
+      },
+      {
+        "word": "just",
+        "startTime": 43.54,
+        "endTime": 43.72
+      },
+      {
+        "word": "produce",
+        "startTime": 43.72,
+        "endTime": 44.04
+      },
+      {
+        "word": "better",
+        "startTime": 44.04,
+        "endTime": 44.48
+      },
+      {
+        "word": "answers,",
+        "startTime": 44.48,
+        "endTime": 44.86
+      },
+      {
+        "word": "it",
+        "startTime": 45.44,
+        "endTime": 45.6
+      },
+      {
+        "word": "produces",
+        "startTime": 45.6,
+        "endTime": 46.08
+      },
+      {
+        "word": "auditable",
+        "startTime": 46.08,
+        "endTime": 46.76
+      },
+      {
+        "word": "reasoning",
+        "startTime": 46.76,
+        "endTime": 47.2
+      },
+      {
+        "word": "you",
+        "startTime": 47.2,
+        "endTime": 47.46
+      },
+      {
+        "word": "can",
+        "startTime": 47.46,
+        "endTime": 47.62
+      },
+      {
+        "word": "verify.",
+        "startTime": 47.62,
+        "endTime": 48.1
+      }
+    ]
+  },
+  {
+    "text": "When AI shows its work, you can catch errors before they reach your conclusion.",
+    "startTime": 48.76,
+    "endTime": 53,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "When",
+        "startTime": 48.76,
+        "endTime": 49.04
+      },
+      {
+        "word": "AI",
+        "startTime": 49.04,
+        "endTime": 49.26
+      },
+      {
+        "word": "shows",
+        "startTime": 49.26,
+        "endTime": 49.66
+      },
+      {
+        "word": "its",
+        "startTime": 49.66,
+        "endTime": 49.92
+      },
+      {
+        "word": "work,",
+        "startTime": 49.92,
+        "endTime": 50.26
+      },
+      {
+        "word": "you",
+        "startTime": 50.66,
+        "endTime": 50.74
+      },
+      {
+        "word": "can",
+        "startTime": 50.74,
+        "endTime": 50.9
+      },
+      {
+        "word": "catch",
+        "startTime": 50.9,
+        "endTime": 51.2
+      },
+      {
+        "word": "errors",
+        "startTime": 51.2,
+        "endTime": 51.5
+      },
+      {
+        "word": "before",
+        "startTime": 51.5,
+        "endTime": 51.88
+      },
+      {
+        "word": "they",
+        "startTime": 51.88,
+        "endTime": 52.08
+      },
+      {
+        "word": "reach",
+        "startTime": 52.08,
+        "endTime": 52.26
+      },
+      {
+        "word": "your",
+        "startTime": 52.26,
+        "endTime": 52.5
+      },
+      {
+        "word": "conclusion.",
+        "startTime": 52.5,
+        "endTime": 53
+      }
+    ]
+  },
+  {
+    "text": "Remember this, for any complex analysis or decision, add think through this step by step and specify the reasoning dimensions.",
+    "startTime": 53.64,
+    "endTime": 61.9,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Remember",
+        "startTime": 53.64,
+        "endTime": 54.04
+      },
+      {
+        "word": "this,",
+        "startTime": 54.04,
+        "endTime": 54.48
+      },
+      {
+        "word": "for",
+        "startTime": 54.82,
+        "endTime": 55.04
+      },
+      {
+        "word": "any",
+        "startTime": 55.04,
+        "endTime": 55.28
+      },
+      {
+        "word": "complex",
+        "startTime": 55.28,
+        "endTime": 55.74
+      },
+      {
+        "word": "analysis",
+        "startTime": 55.74,
+        "endTime": 56.3
+      },
+      {
+        "word": "or",
+        "startTime": 56.3,
+        "endTime": 56.52
+      },
+      {
+        "word": "decision,",
+        "startTime": 56.52,
+        "endTime": 57.02
+      },
+      {
+        "word": "add",
+        "startTime": 57.58,
+        "endTime": 57.82
+      },
+      {
+        "word": "think",
+        "startTime": 57.82,
+        "endTime": 58.32
+      },
+      {
+        "word": "through",
+        "startTime": 58.32,
+        "endTime": 58.62
+      },
+      {
+        "word": "this",
+        "startTime": 58.62,
+        "endTime": 58.84
+      },
+      {
+        "word": "step",
+        "startTime": 58.84,
+        "endTime": 59.12
+      },
+      {
+        "word": "by",
+        "startTime": 59.12,
+        "endTime": 59.32
+      },
+      {
+        "word": "step",
+        "startTime": 59.32,
+        "endTime": 59.7
+      },
+      {
+        "word": "and",
+        "startTime": 59.7,
+        "endTime": 60.22
+      },
+      {
+        "word": "specify",
+        "startTime": 60.22,
+        "endTime": 60.76
+      },
+      {
+        "word": "the",
+        "startTime": 60.76,
+        "endTime": 61.02
+      },
+      {
+        "word": "reasoning",
+        "startTime": 61.02,
+        "endTime": 61.32
+      },
+      {
+        "word": "dimensions.",
+        "startTime": 61.32,
+        "endTime": 61.9
+      }
+    ]
+  },
+  {
+    "text": "The reasoning chain is often more valuable than the conclusion.",
+    "startTime": 62.66,
+    "endTime": 65.68,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 62.66,
+        "endTime": 62.92
+      },
+      {
+        "word": "reasoning",
+        "startTime": 62.92,
+        "endTime": 63.26
+      },
+      {
+        "word": "chain",
+        "startTime": 63.26,
+        "endTime": 63.58
+      },
+      {
+        "word": "is",
+        "startTime": 63.58,
+        "endTime": 63.8
+      },
+      {
+        "word": "often",
+        "startTime": 63.8,
+        "endTime": 64.08
+      },
+      {
+        "word": "more",
+        "startTime": 64.08,
+        "endTime": 64.3
+      },
+      {
+        "word": "valuable",
+        "startTime": 64.3,
+        "endTime": 64.72
+      },
+      {
+        "word": "than",
+        "startTime": 64.72,
+        "endTime": 65.02
+      },
+      {
+        "word": "the",
+        "startTime": 65.02,
+        "endTime": 65.16
+      },
+      {
+        "word": "conclusion.",
+        "startTime": 65.16,
+        "endTime": 65.68
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 66.6,
+    "endTime": 70.3,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 66.6,
+        "endTime": 66.88
+      },
+      {
+        "word": "what",
+        "startTime": 66.88,
+        "endTime": 67.12
+      },
+      {
+        "word": "you",
+        "startTime": 67.12,
+        "endTime": 67.28
+      },
+      {
+        "word": "learn",
+        "startTime": 67.28,
+        "endTime": 67.48
+      },
+      {
+        "word": "in",
+        "startTime": 67.48,
+        "endTime": 67.64
+      },
+      {
+        "word": "this",
+        "startTime": 67.64,
+        "endTime": 67.86
+      },
+      {
+        "word": "lesson",
+        "startTime": 67.86,
+        "endTime": 68.2
+      },
+      {
+        "word": "and",
+        "startTime": 68.2,
+        "endTime": 68.74
+      },
+      {
+        "word": "you",
+        "startTime": 68.74,
+        "endTime": 68.9
+      },
+      {
+        "word": "will",
+        "startTime": 68.9,
+        "endTime": 69.02
+      },
+      {
+        "word": "see",
+        "startTime": 69.02,
+        "endTime": 69.22
+      },
+      {
+        "word": "results",
+        "startTime": 69.22,
+        "endTime": 69.62
+      },
+      {
+        "word": "immediately.",
+        "startTime": 69.62,
+        "endTime": 70.3
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 70.98,
+    "endTime": 72.16,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 70.98,
+        "endTime": 71.16
+      },
+      {
+        "word": "skills",
+        "startTime": 71.16,
+        "endTime": 71.58
+      },
+      {
+        "word": "bear",
+        "startTime": 71.58,
+        "endTime": 71.84
+      },
+      {
+        "word": "fruit.",
+        "startTime": 71.84,
+        "endTime": 72.16
+      }
+    ]
+  }
+]

@@ -1,0 +1,1528 @@
+[
+  {
+    "text": "Red teeming is the art of thinking like an adversary to find what a system does when it faces inputs its designers did not plan for.",
+    "startTime": 0,
+    "endTime": 10.3,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "Red",
+        "startTime": 0,
+        "endTime": 0.32
+      },
+      {
+        "word": "teeming",
+        "startTime": 0.32,
+        "endTime": 0.98
+      },
+      {
+        "word": "is",
+        "startTime": 0.98,
+        "endTime": 1.38
+      },
+      {
+        "word": "the",
+        "startTime": 1.38,
+        "endTime": 1.58
+      },
+      {
+        "word": "art",
+        "startTime": 1.58,
+        "endTime": 1.9
+      },
+      {
+        "word": "of",
+        "startTime": 1.9,
+        "endTime": 2.1
+      },
+      {
+        "word": "thinking",
+        "startTime": 2.1,
+        "endTime": 2.58
+      },
+      {
+        "word": "like",
+        "startTime": 2.58,
+        "endTime": 2.88
+      },
+      {
+        "word": "an",
+        "startTime": 2.88,
+        "endTime": 3.12
+      },
+      {
+        "word": "adversary",
+        "startTime": 3.12,
+        "endTime": 3.78
+      },
+      {
+        "word": "to",
+        "startTime": 3.78,
+        "endTime": 4.44
+      },
+      {
+        "word": "find",
+        "startTime": 4.44,
+        "endTime": 4.84
+      },
+      {
+        "word": "what",
+        "startTime": 4.84,
+        "endTime": 5.08
+      },
+      {
+        "word": "a",
+        "startTime": 5.08,
+        "endTime": 5.22
+      },
+      {
+        "word": "system",
+        "startTime": 5.22,
+        "endTime": 5.58
+      },
+      {
+        "word": "does",
+        "startTime": 5.58,
+        "endTime": 6.14
+      },
+      {
+        "word": "when",
+        "startTime": 6.14,
+        "endTime": 6.6
+      },
+      {
+        "word": "it",
+        "startTime": 6.6,
+        "endTime": 6.76
+      },
+      {
+        "word": "faces",
+        "startTime": 6.76,
+        "endTime": 7.16
+      },
+      {
+        "word": "inputs",
+        "startTime": 7.16,
+        "endTime": 7.8
+      },
+      {
+        "word": "its",
+        "startTime": 7.8,
+        "endTime": 8.22
+      },
+      {
+        "word": "designers",
+        "startTime": 8.22,
+        "endTime": 8.84
+      },
+      {
+        "word": "did",
+        "startTime": 8.84,
+        "endTime": 9.22
+      },
+      {
+        "word": "not",
+        "startTime": 9.22,
+        "endTime": 9.46
+      },
+      {
+        "word": "plan",
+        "startTime": 9.46,
+        "endTime": 9.84
+      },
+      {
+        "word": "for.",
+        "startTime": 9.84,
+        "endTime": 10.3
+      }
+    ]
+  },
+  {
+    "text": "In AI, red teemers are the people who discovered that early chat GPT versions would provide bomb -making instructions if you ask them to write a story where a character explains it.",
+    "startTime": 11.2,
+    "endTime": 26.48,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 11.2,
+        "endTime": 11.58
+      },
+      {
+        "word": "AI,",
+        "startTime": 11.58,
+        "endTime": 12.02
+      },
+      {
+        "word": "red",
+        "startTime": 12.78,
+        "endTime": 13.08
+      },
+      {
+        "word": "teemers",
+        "startTime": 13.08,
+        "endTime": 13.66
+      },
+      {
+        "word": "are",
+        "startTime": 13.66,
+        "endTime": 13.92
+      },
+      {
+        "word": "the",
+        "startTime": 13.92,
+        "endTime": 14.04
+      },
+      {
+        "word": "people",
+        "startTime": 14.04,
+        "endTime": 14.42
+      },
+      {
+        "word": "who",
+        "startTime": 14.42,
+        "endTime": 14.62
+      },
+      {
+        "word": "discovered",
+        "startTime": 14.62,
+        "endTime": 15.26
+      },
+      {
+        "word": "that",
+        "startTime": 15.26,
+        "endTime": 15.8
+      },
+      {
+        "word": "early",
+        "startTime": 15.8,
+        "endTime": 16.38
+      },
+      {
+        "word": "chat",
+        "startTime": 16.38,
+        "endTime": 16.76
+      },
+      {
+        "word": "GPT",
+        "startTime": 16.76,
+        "endTime": 17.54
+      },
+      {
+        "word": "versions",
+        "startTime": 17.54,
+        "endTime": 18.3
+      },
+      {
+        "word": "would",
+        "startTime": 18.3,
+        "endTime": 18.8
+      },
+      {
+        "word": "provide",
+        "startTime": 18.8,
+        "endTime": 19.28
+      },
+      {
+        "word": "bomb",
+        "startTime": 19.28,
+        "endTime": 19.76
+      },
+      {
+        "word": "-making",
+        "startTime": 19.76,
+        "endTime": 20.18
+      },
+      {
+        "word": "instructions",
+        "startTime": 20.18,
+        "endTime": 20.92
+      },
+      {
+        "word": "if",
+        "startTime": 20.92,
+        "endTime": 21.7
+      },
+      {
+        "word": "you",
+        "startTime": 21.7,
+        "endTime": 21.86
+      },
+      {
+        "word": "ask",
+        "startTime": 21.86,
+        "endTime": 22.18
+      },
+      {
+        "word": "them",
+        "startTime": 22.18,
+        "endTime": 22.4
+      },
+      {
+        "word": "to",
+        "startTime": 22.4,
+        "endTime": 22.58
+      },
+      {
+        "word": "write",
+        "startTime": 22.58,
+        "endTime": 22.82
+      },
+      {
+        "word": "a",
+        "startTime": 22.82,
+        "endTime": 23.06
+      },
+      {
+        "word": "story",
+        "startTime": 23.06,
+        "endTime": 23.72
+      },
+      {
+        "word": "where",
+        "startTime": 23.72,
+        "endTime": 24.24
+      },
+      {
+        "word": "a",
+        "startTime": 24.24,
+        "endTime": 24.42
+      },
+      {
+        "word": "character",
+        "startTime": 24.42,
+        "endTime": 25.02
+      },
+      {
+        "word": "explains",
+        "startTime": 25.02,
+        "endTime": 25.86
+      },
+      {
+        "word": "it.",
+        "startTime": 25.86,
+        "endTime": 26.48
+      }
+    ]
+  },
+  {
+    "text": "Finding these failures before deployment is worth $40 .80 per hour.",
+    "startTime": 27.48,
+    "endTime": 34.42,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Finding",
+        "startTime": 27.48,
+        "endTime": 28.26
+      },
+      {
+        "word": "these",
+        "startTime": 28.26,
+        "endTime": 28.72
+      },
+      {
+        "word": "failures",
+        "startTime": 28.72,
+        "endTime": 29.14
+      },
+      {
+        "word": "before",
+        "startTime": 29.14,
+        "endTime": 29.58
+      },
+      {
+        "word": "deployment",
+        "startTime": 29.58,
+        "endTime": 30.32
+      },
+      {
+        "word": "is",
+        "startTime": 30.32,
+        "endTime": 31.02
+      },
+      {
+        "word": "worth",
+        "startTime": 31.02,
+        "endTime": 31.32
+      },
+      {
+        "word": "$40",
+        "startTime": 31.32,
+        "endTime": 32.08
+      },
+      {
+        "word": ".80",
+        "startTime": 32.08,
+        "endTime": 33.16
+      },
+      {
+        "word": "per",
+        "startTime": 33.16,
+        "endTime": 33.92
+      },
+      {
+        "word": "hour.",
+        "startTime": 33.92,
+        "endTime": 34.42
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, red teeming AI systems means systematically attempting to elicit harmful, false or policy violating outputs and documenting every attempt, method and result in enough detail that engineers can reproduce the phase.",
+    "startTime": 35.12,
+    "endTime": 56.46,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 35.12,
+        "endTime": 35.8
+      },
+      {
+        "word": "this",
+        "startTime": 35.8,
+        "endTime": 36.06
+      },
+      {
+        "word": "lesson,",
+        "startTime": 36.06,
+        "endTime": 36.62
+      },
+      {
+        "word": "red",
+        "startTime": 37.4,
+        "endTime": 37.52
+      },
+      {
+        "word": "teeming",
+        "startTime": 37.52,
+        "endTime": 38.14
+      },
+      {
+        "word": "AI",
+        "startTime": 38.14,
+        "endTime": 38.48
+      },
+      {
+        "word": "systems",
+        "startTime": 38.48,
+        "endTime": 39.42
+      },
+      {
+        "word": "means",
+        "startTime": 39.42,
+        "endTime": 39.9
+      },
+      {
+        "word": "systematically",
+        "startTime": 39.9,
+        "endTime": 40.86
+      },
+      {
+        "word": "attempting",
+        "startTime": 40.86,
+        "endTime": 41.66
+      },
+      {
+        "word": "to",
+        "startTime": 41.66,
+        "endTime": 42
+      },
+      {
+        "word": "elicit",
+        "startTime": 42,
+        "endTime": 42.44
+      },
+      {
+        "word": "harmful,",
+        "startTime": 42.44,
+        "endTime": 43.32
+      },
+      {
+        "word": "false",
+        "startTime": 44.04,
+        "endTime": 44.44
+      },
+      {
+        "word": "or",
+        "startTime": 44.44,
+        "endTime": 44.88
+      },
+      {
+        "word": "policy",
+        "startTime": 44.88,
+        "endTime": 45.44
+      },
+      {
+        "word": "violating",
+        "startTime": 45.44,
+        "endTime": 46
+      },
+      {
+        "word": "outputs",
+        "startTime": 46,
+        "endTime": 46.84
+      },
+      {
+        "word": "and",
+        "startTime": 46.84,
+        "endTime": 47.78
+      },
+      {
+        "word": "documenting",
+        "startTime": 47.78,
+        "endTime": 48.44
+      },
+      {
+        "word": "every",
+        "startTime": 48.44,
+        "endTime": 49.3
+      },
+      {
+        "word": "attempt,",
+        "startTime": 49.3,
+        "endTime": 49.92
+      },
+      {
+        "word": "method",
+        "startTime": 50.64,
+        "endTime": 50.96
+      },
+      {
+        "word": "and",
+        "startTime": 50.96,
+        "endTime": 51.52
+      },
+      {
+        "word": "result",
+        "startTime": 51.52,
+        "endTime": 52.08
+      },
+      {
+        "word": "in",
+        "startTime": 52.08,
+        "endTime": 52.7
+      },
+      {
+        "word": "enough",
+        "startTime": 52.7,
+        "endTime": 53.04
+      },
+      {
+        "word": "detail",
+        "startTime": 53.04,
+        "endTime": 53.76
+      },
+      {
+        "word": "that",
+        "startTime": 53.76,
+        "endTime": 54.32
+      },
+      {
+        "word": "engineers",
+        "startTime": 54.32,
+        "endTime": 54.96
+      },
+      {
+        "word": "can",
+        "startTime": 54.96,
+        "endTime": 55.26
+      },
+      {
+        "word": "reproduce",
+        "startTime": 55.26,
+        "endTime": 55.86
+      },
+      {
+        "word": "the",
+        "startTime": 55.86,
+        "endTime": 56.18
+      },
+      {
+        "word": "phase.",
+        "startTime": 56.18,
+        "endTime": 56.46
+      }
+    ]
+  },
+  {
+    "text": "The work is structured not random.",
+    "startTime": 58.14000000000001,
+    "endTime": 62.18,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 58.14000000000001,
+        "endTime": 59.34
+      },
+      {
+        "word": "work",
+        "startTime": 59.34,
+        "endTime": 59.7
+      },
+      {
+        "word": "is",
+        "startTime": 59.7,
+        "endTime": 60.04
+      },
+      {
+        "word": "structured",
+        "startTime": 60.04,
+        "endTime": 60.84
+      },
+      {
+        "word": "not",
+        "startTime": 60.84,
+        "endTime": 61.5
+      },
+      {
+        "word": "random.",
+        "startTime": 61.5,
+        "endTime": 62.18
+      }
+    ]
+  },
+  {
+    "text": "Professional red teemers use taxonomies of attack strategies, track success rates per strategy and write reports that distinguish genuine safety failures from the AI simply being unhelpful.",
+    "startTime": 63.22,
+    "endTime": 78.7,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Professional",
+        "startTime": 63.22,
+        "endTime": 63.76
+      },
+      {
+        "word": "red",
+        "startTime": 63.76,
+        "endTime": 64.06
+      },
+      {
+        "word": "teemers",
+        "startTime": 64.06,
+        "endTime": 64.72
+      },
+      {
+        "word": "use",
+        "startTime": 64.72,
+        "endTime": 65.24
+      },
+      {
+        "word": "taxonomies",
+        "startTime": 65.24,
+        "endTime": 66.14
+      },
+      {
+        "word": "of",
+        "startTime": 66.14,
+        "endTime": 66.36
+      },
+      {
+        "word": "attack",
+        "startTime": 66.36,
+        "endTime": 66.7
+      },
+      {
+        "word": "strategies,",
+        "startTime": 66.7,
+        "endTime": 67.52
+      },
+      {
+        "word": "track",
+        "startTime": 68.2,
+        "endTime": 68.36
+      },
+      {
+        "word": "success",
+        "startTime": 68.36,
+        "endTime": 68.92
+      },
+      {
+        "word": "rates",
+        "startTime": 68.92,
+        "endTime": 69.38
+      },
+      {
+        "word": "per",
+        "startTime": 69.38,
+        "endTime": 69.64
+      },
+      {
+        "word": "strategy",
+        "startTime": 69.64,
+        "endTime": 70.4
+      },
+      {
+        "word": "and",
+        "startTime": 70.4,
+        "endTime": 71.1
+      },
+      {
+        "word": "write",
+        "startTime": 71.1,
+        "endTime": 71.38
+      },
+      {
+        "word": "reports",
+        "startTime": 71.38,
+        "endTime": 71.98
+      },
+      {
+        "word": "that",
+        "startTime": 71.98,
+        "endTime": 72.38
+      },
+      {
+        "word": "distinguish",
+        "startTime": 72.38,
+        "endTime": 73.06
+      },
+      {
+        "word": "genuine",
+        "startTime": 73.06,
+        "endTime": 73.78
+      },
+      {
+        "word": "safety",
+        "startTime": 73.78,
+        "endTime": 74.44
+      },
+      {
+        "word": "failures",
+        "startTime": 74.44,
+        "endTime": 75.04
+      },
+      {
+        "word": "from",
+        "startTime": 75.04,
+        "endTime": 75.58
+      },
+      {
+        "word": "the",
+        "startTime": 75.58,
+        "endTime": 75.82
+      },
+      {
+        "word": "AI",
+        "startTime": 75.82,
+        "endTime": 76.3
+      },
+      {
+        "word": "simply",
+        "startTime": 76.3,
+        "endTime": 77.04
+      },
+      {
+        "word": "being",
+        "startTime": 77.04,
+        "endTime": 77.58
+      },
+      {
+        "word": "unhelpful.",
+        "startTime": 77.58,
+        "endTime": 78.7
+      }
+    ]
+  },
+  {
+    "text": "Attack strategy taxonomy.",
+    "startTime": 79.7,
+    "endTime": 82.4,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Attack",
+        "startTime": 79.7,
+        "endTime": 80.46
+      },
+      {
+        "word": "strategy",
+        "startTime": 80.46,
+        "endTime": 81.46
+      },
+      {
+        "word": "taxonomy.",
+        "startTime": 81.46,
+        "endTime": 82.4
+      }
+    ]
+  },
+  {
+    "text": "One, direct requests simply asking for the prohibited content.",
+    "startTime": 83.58,
+    "endTime": 89.96,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "One,",
+        "startTime": 83.58,
+        "endTime": 83.88
+      },
+      {
+        "word": "direct",
+        "startTime": 84.56,
+        "endTime": 85.1
+      },
+      {
+        "word": "requests",
+        "startTime": 85.1,
+        "endTime": 86.02
+      },
+      {
+        "word": "simply",
+        "startTime": 86.02,
+        "endTime": 87.4
+      },
+      {
+        "word": "asking",
+        "startTime": 87.4,
+        "endTime": 88.02
+      },
+      {
+        "word": "for",
+        "startTime": 88.02,
+        "endTime": 88.3
+      },
+      {
+        "word": "the",
+        "startTime": 88.3,
+        "endTime": 88.44
+      },
+      {
+        "word": "prohibited",
+        "startTime": 88.44,
+        "endTime": 89.04
+      },
+      {
+        "word": "content.",
+        "startTime": 89.04,
+        "endTime": 89.96
+      }
+    ]
+  },
+  {
+    "text": "Two, roleplay jail breaks asking the AI to pretend to be a different AI without restrictions.",
+    "startTime": 90.92,
+    "endTime": 99.62,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Two,",
+        "startTime": 90.92,
+        "endTime": 91.58
+      },
+      {
+        "word": "roleplay",
+        "startTime": 92.42,
+        "endTime": 93
+      },
+      {
+        "word": "jail",
+        "startTime": 93,
+        "endTime": 93.6
+      },
+      {
+        "word": "breaks",
+        "startTime": 93.6,
+        "endTime": 93.98
+      },
+      {
+        "word": "asking",
+        "startTime": 93.98,
+        "endTime": 95.04
+      },
+      {
+        "word": "the",
+        "startTime": 95.04,
+        "endTime": 95.34
+      },
+      {
+        "word": "AI",
+        "startTime": 95.34,
+        "endTime": 95.78
+      },
+      {
+        "word": "to",
+        "startTime": 95.78,
+        "endTime": 96.08
+      },
+      {
+        "word": "pretend",
+        "startTime": 96.08,
+        "endTime": 96.42
+      },
+      {
+        "word": "to",
+        "startTime": 96.42,
+        "endTime": 96.72
+      },
+      {
+        "word": "be",
+        "startTime": 96.72,
+        "endTime": 96.88
+      },
+      {
+        "word": "a",
+        "startTime": 96.88,
+        "endTime": 96.98
+      },
+      {
+        "word": "different",
+        "startTime": 96.98,
+        "endTime": 97.46
+      },
+      {
+        "word": "AI",
+        "startTime": 97.46,
+        "endTime": 98.02
+      },
+      {
+        "word": "without",
+        "startTime": 98.02,
+        "endTime": 98.78
+      },
+      {
+        "word": "restrictions.",
+        "startTime": 98.78,
+        "endTime": 99.62
+      }
+    ]
+  },
+  {
+    "text": "Three, hypothetical framing in a fictional world where.",
+    "startTime": 100.62,
+    "endTime": 106.64,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Three,",
+        "startTime": 100.62,
+        "endTime": 101.38
+      },
+      {
+        "word": "hypothetical",
+        "startTime": 103.04,
+        "endTime": 103.04
+      },
+      {
+        "word": "framing",
+        "startTime": 103.04,
+        "endTime": 103.96
+      },
+      {
+        "word": "in",
+        "startTime": 103.96,
+        "endTime": 104.76
+      },
+      {
+        "word": "a",
+        "startTime": 104.76,
+        "endTime": 104.9
+      },
+      {
+        "word": "fictional",
+        "startTime": 104.9,
+        "endTime": 105.5
+      },
+      {
+        "word": "world",
+        "startTime": 105.5,
+        "endTime": 106.18
+      },
+      {
+        "word": "where.",
+        "startTime": 106.18,
+        "endTime": 106.64
+      }
+    ]
+  },
+  {
+    "text": "Four, authority spoofing claiming to be a developer, researcher or the AI company itself.",
+    "startTime": 108.16,
+    "endTime": 116.74,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Four,",
+        "startTime": 108.16,
+        "endTime": 108.34
+      },
+      {
+        "word": "authority",
+        "startTime": 108.98,
+        "endTime": 109.66
+      },
+      {
+        "word": "spoofing",
+        "startTime": 109.66,
+        "endTime": 110.8
+      },
+      {
+        "word": "claiming",
+        "startTime": 110.8,
+        "endTime": 111.4
+      },
+      {
+        "word": "to",
+        "startTime": 111.4,
+        "endTime": 111.72
+      },
+      {
+        "word": "be",
+        "startTime": 111.72,
+        "endTime": 111.88
+      },
+      {
+        "word": "a",
+        "startTime": 111.88,
+        "endTime": 112
+      },
+      {
+        "word": "developer,",
+        "startTime": 112,
+        "endTime": 112.66
+      },
+      {
+        "word": "researcher",
+        "startTime": 113.28,
+        "endTime": 114.04
+      },
+      {
+        "word": "or",
+        "startTime": 114.04,
+        "endTime": 114.6
+      },
+      {
+        "word": "the",
+        "startTime": 114.6,
+        "endTime": 114.88
+      },
+      {
+        "word": "AI",
+        "startTime": 114.88,
+        "endTime": 115.28
+      },
+      {
+        "word": "company",
+        "startTime": 115.28,
+        "endTime": 116
+      },
+      {
+        "word": "itself.",
+        "startTime": 116,
+        "endTime": 116.74
+      }
+    ]
+  },
+  {
+    "text": "Five, gradual escalation starting with benign requests and incrementally moving toward the target.",
+    "startTime": 118.18,
+    "endTime": 127.2,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Five,",
+        "startTime": 118.18,
+        "endTime": 118.76
+      },
+      {
+        "word": "gradual",
+        "startTime": 119.98,
+        "endTime": 119.98
+      },
+      {
+        "word": "escalation",
+        "startTime": 119.98,
+        "endTime": 121.22
+      },
+      {
+        "word": "starting",
+        "startTime": 121.22,
+        "endTime": 121.96
+      },
+      {
+        "word": "with",
+        "startTime": 121.96,
+        "endTime": 122.3
+      },
+      {
+        "word": "benign",
+        "startTime": 122.3,
+        "endTime": 122.8
+      },
+      {
+        "word": "requests",
+        "startTime": 122.8,
+        "endTime": 123.42
+      },
+      {
+        "word": "and",
+        "startTime": 123.42,
+        "endTime": 124.14
+      },
+      {
+        "word": "incrementally",
+        "startTime": 124.14,
+        "endTime": 125.28
+      },
+      {
+        "word": "moving",
+        "startTime": 125.28,
+        "endTime": 125.64
+      },
+      {
+        "word": "toward",
+        "startTime": 125.64,
+        "endTime": 126.2
+      },
+      {
+        "word": "the",
+        "startTime": 126.2,
+        "endTime": 126.66
+      },
+      {
+        "word": "target.",
+        "startTime": 126.66,
+        "endTime": 127.2
+      }
+    ]
+  },
+  {
+    "text": "Six, context injection embedding the harmful request inside a large document or legitimate task.",
+    "startTime": 128.2,
+    "endTime": 137.88,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Six,",
+        "startTime": 128.2,
+        "endTime": 128.86
+      },
+      {
+        "word": "context",
+        "startTime": 129.74,
+        "endTime": 130.14
+      },
+      {
+        "word": "injection",
+        "startTime": 130.14,
+        "endTime": 131.38
+      },
+      {
+        "word": "embedding",
+        "startTime": 131.38,
+        "endTime": 132.72
+      },
+      {
+        "word": "the",
+        "startTime": 132.72,
+        "endTime": 132.92
+      },
+      {
+        "word": "harmful",
+        "startTime": 132.92,
+        "endTime": 133.26
+      },
+      {
+        "word": "request",
+        "startTime": 133.26,
+        "endTime": 133.94
+      },
+      {
+        "word": "inside",
+        "startTime": 133.94,
+        "endTime": 134.82
+      },
+      {
+        "word": "a",
+        "startTime": 134.82,
+        "endTime": 135.14
+      },
+      {
+        "word": "large",
+        "startTime": 135.14,
+        "endTime": 135.54
+      },
+      {
+        "word": "document",
+        "startTime": 135.54,
+        "endTime": 136.16
+      },
+      {
+        "word": "or",
+        "startTime": 136.16,
+        "endTime": 136.7
+      },
+      {
+        "word": "legitimate",
+        "startTime": 136.7,
+        "endTime": 137.36
+      },
+      {
+        "word": "task.",
+        "startTime": 137.36,
+        "endTime": 137.88
+      }
+    ]
+  },
+  {
+    "text": "Seven, language switching, making the request in a language the model may have weaker safety guardrails for.",
+    "startTime": 139.2,
+    "endTime": 147.72,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Seven,",
+        "startTime": 139.2,
+        "endTime": 139.74
+      },
+      {
+        "word": "language",
+        "startTime": 140.52,
+        "endTime": 140.88
+      },
+      {
+        "word": "switching,",
+        "startTime": 140.88,
+        "endTime": 141.72
+      },
+      {
+        "word": "making",
+        "startTime": 142.28,
+        "endTime": 142.58
+      },
+      {
+        "word": "the",
+        "startTime": 142.58,
+        "endTime": 142.88
+      },
+      {
+        "word": "request",
+        "startTime": 142.88,
+        "endTime": 143.32
+      },
+      {
+        "word": "in",
+        "startTime": 143.32,
+        "endTime": 143.72
+      },
+      {
+        "word": "a",
+        "startTime": 143.72,
+        "endTime": 143.84
+      },
+      {
+        "word": "language",
+        "startTime": 143.84,
+        "endTime": 144.28
+      },
+      {
+        "word": "the",
+        "startTime": 144.28,
+        "endTime": 144.58
+      },
+      {
+        "word": "model",
+        "startTime": 144.58,
+        "endTime": 144.96
+      },
+      {
+        "word": "may",
+        "startTime": 144.96,
+        "endTime": 145.24
+      },
+      {
+        "word": "have",
+        "startTime": 145.24,
+        "endTime": 145.5
+      },
+      {
+        "word": "weaker",
+        "startTime": 145.5,
+        "endTime": 145.98
+      },
+      {
+        "word": "safety",
+        "startTime": 145.98,
+        "endTime": 146.58
+      },
+      {
+        "word": "guardrails",
+        "startTime": 146.58,
+        "endTime": 147.4
+      },
+      {
+        "word": "for.",
+        "startTime": 147.4,
+        "endTime": 147.72
+      }
+    ]
+  },
+  {
+    "text": "Eight, code wrapping, expressing the harmful request as a programming task.",
+    "startTime": 148.86,
+    "endTime": 155.78,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Eight,",
+        "startTime": 148.86,
+        "endTime": 149.28
+      },
+      {
+        "word": "code",
+        "startTime": 150.04,
+        "endTime": 150.28
+      },
+      {
+        "word": "wrapping,",
+        "startTime": 150.28,
+        "endTime": 150.8
+      },
+      {
+        "word": "expressing",
+        "startTime": 151.56,
+        "endTime": 152.2
+      },
+      {
+        "word": "the",
+        "startTime": 152.2,
+        "endTime": 152.52
+      },
+      {
+        "word": "harmful",
+        "startTime": 152.52,
+        "endTime": 152.92
+      },
+      {
+        "word": "request",
+        "startTime": 152.92,
+        "endTime": 153.62
+      },
+      {
+        "word": "as",
+        "startTime": 153.62,
+        "endTime": 154.28
+      },
+      {
+        "word": "a",
+        "startTime": 154.28,
+        "endTime": 154.42
+      },
+      {
+        "word": "programming",
+        "startTime": 154.42,
+        "endTime": 155.02
+      },
+      {
+        "word": "task.",
+        "startTime": 155.02,
+        "endTime": 155.78
+      }
+    ]
+  },
+  {
+    "text": "The last three, language switching, code wrapping, context injection are currently the highest yield attack categories for production AI systems.",
+    "startTime": 156.78,
+    "endTime": 169.18,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 156.78,
+        "endTime": 157.34
+      },
+      {
+        "word": "last",
+        "startTime": 157.34,
+        "endTime": 157.7
+      },
+      {
+        "word": "three,",
+        "startTime": 157.7,
+        "endTime": 158.2
+      },
+      {
+        "word": "language",
+        "startTime": 158.62,
+        "endTime": 159.16
+      },
+      {
+        "word": "switching,",
+        "startTime": 159.16,
+        "endTime": 159.8
+      },
+      {
+        "word": "code",
+        "startTime": 160.32,
+        "endTime": 160.56
+      },
+      {
+        "word": "wrapping,",
+        "startTime": 160.56,
+        "endTime": 160.92
+      },
+      {
+        "word": "context",
+        "startTime": 161.48,
+        "endTime": 161.84
+      },
+      {
+        "word": "injection",
+        "startTime": 161.84,
+        "endTime": 162.86
+      },
+      {
+        "word": "are",
+        "startTime": 162.86,
+        "endTime": 163.56
+      },
+      {
+        "word": "currently",
+        "startTime": 163.56,
+        "endTime": 164.14
+      },
+      {
+        "word": "the",
+        "startTime": 164.14,
+        "endTime": 164.42
+      },
+      {
+        "word": "highest",
+        "startTime": 164.42,
+        "endTime": 164.94
+      },
+      {
+        "word": "yield",
+        "startTime": 164.94,
+        "endTime": 165.38
+      },
+      {
+        "word": "attack",
+        "startTime": 165.38,
+        "endTime": 165.88
+      },
+      {
+        "word": "categories",
+        "startTime": 165.88,
+        "endTime": 166.54
+      },
+      {
+        "word": "for",
+        "startTime": 166.54,
+        "endTime": 167.08
+      },
+      {
+        "word": "production",
+        "startTime": 167.08,
+        "endTime": 167.74
+      },
+      {
+        "word": "AI",
+        "startTime": 167.74,
+        "endTime": 168.24
+      },
+      {
+        "word": "systems.",
+        "startTime": 168.24,
+        "endTime": 169.18
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately, your skills bear fruit.",
+    "startTime": 170.04,
+    "endTime": 178.04,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 170.04,
+        "endTime": 170.96
+      },
+      {
+        "word": "what",
+        "startTime": 170.96,
+        "endTime": 171.28
+      },
+      {
+        "word": "you",
+        "startTime": 171.28,
+        "endTime": 171.5
+      },
+      {
+        "word": "learn",
+        "startTime": 171.5,
+        "endTime": 171.86
+      },
+      {
+        "word": "in",
+        "startTime": 171.86,
+        "endTime": 172.08
+      },
+      {
+        "word": "this",
+        "startTime": 172.08,
+        "endTime": 172.36
+      },
+      {
+        "word": "lesson",
+        "startTime": 172.36,
+        "endTime": 172.78
+      },
+      {
+        "word": "and",
+        "startTime": 172.78,
+        "endTime": 173.26
+      },
+      {
+        "word": "you",
+        "startTime": 173.26,
+        "endTime": 173.42
+      },
+      {
+        "word": "will",
+        "startTime": 173.42,
+        "endTime": 173.54
+      },
+      {
+        "word": "see",
+        "startTime": 173.54,
+        "endTime": 173.82
+      },
+      {
+        "word": "results",
+        "startTime": 173.82,
+        "endTime": 174.4
+      },
+      {
+        "word": "immediately,",
+        "startTime": 174.4,
+        "endTime": 175.54
+      },
+      {
+        "word": "your",
+        "startTime": 176.24,
+        "endTime": 176.34
+      },
+      {
+        "word": "skills",
+        "startTime": 176.34,
+        "endTime": 176.96
+      },
+      {
+        "word": "bear",
+        "startTime": 176.96,
+        "endTime": 177.52
+      },
+      {
+        "word": "fruit.",
+        "startTime": 177.52,
+        "endTime": 178.04
+      }
+    ]
+  }
+]

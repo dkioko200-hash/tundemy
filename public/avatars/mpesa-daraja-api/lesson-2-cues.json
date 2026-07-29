@@ -1,0 +1,498 @@
+[
+  {
+    "text": "Or Auth Token Management is the foundation every other Dharaja API call depends on.",
+    "startTime": 0,
+    "endTime": 6.86,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "Or",
+        "startTime": 0,
+        "endTime": 0.22
+      },
+      {
+        "word": "Auth",
+        "startTime": 0.22,
+        "endTime": 0.58
+      },
+      {
+        "word": "Token",
+        "startTime": 0.58,
+        "endTime": 0.9
+      },
+      {
+        "word": "Management",
+        "startTime": 0.9,
+        "endTime": 1.44
+      },
+      {
+        "word": "is",
+        "startTime": 1.44,
+        "endTime": 2.06
+      },
+      {
+        "word": "the",
+        "startTime": 2.06,
+        "endTime": 2.22
+      },
+      {
+        "word": "foundation",
+        "startTime": 2.22,
+        "endTime": 2.92
+      },
+      {
+        "word": "every",
+        "startTime": 2.92,
+        "endTime": 3.6
+      },
+      {
+        "word": "other",
+        "startTime": 3.6,
+        "endTime": 4.04
+      },
+      {
+        "word": "Dharaja",
+        "startTime": 4.04,
+        "endTime": 4.5
+      },
+      {
+        "word": "API",
+        "startTime": 4.5,
+        "endTime": 5.04
+      },
+      {
+        "word": "call",
+        "startTime": 5.04,
+        "endTime": 5.66
+      },
+      {
+        "word": "depends",
+        "startTime": 5.66,
+        "endTime": 6.38
+      },
+      {
+        "word": "on.",
+        "startTime": 6.38,
+        "endTime": 6.86
+      }
+    ]
+  },
+  {
+    "text": "Get this wrong and nothing else works.",
+    "startTime": 7.64,
+    "endTime": 10.16,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Get",
+        "startTime": 7.64,
+        "endTime": 7.88
+      },
+      {
+        "word": "this",
+        "startTime": 7.88,
+        "endTime": 8.18
+      },
+      {
+        "word": "wrong",
+        "startTime": 8.18,
+        "endTime": 8.44
+      },
+      {
+        "word": "and",
+        "startTime": 8.44,
+        "endTime": 8.96
+      },
+      {
+        "word": "nothing",
+        "startTime": 8.96,
+        "endTime": 9.36
+      },
+      {
+        "word": "else",
+        "startTime": 9.36,
+        "endTime": 9.6
+      },
+      {
+        "word": "works.",
+        "startTime": 9.6,
+        "endTime": 10.16
+      }
+    ]
+  },
+  {
+    "text": "Get it right and every subsequent end point is just a well -structured HTTP request.",
+    "startTime": 11.02,
+    "endTime": 17.8,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Get",
+        "startTime": 11.02,
+        "endTime": 11.18
+      },
+      {
+        "word": "it",
+        "startTime": 11.18,
+        "endTime": 11.36
+      },
+      {
+        "word": "right",
+        "startTime": 11.36,
+        "endTime": 11.64
+      },
+      {
+        "word": "and",
+        "startTime": 11.64,
+        "endTime": 12.36
+      },
+      {
+        "word": "every",
+        "startTime": 12.36,
+        "endTime": 12.84
+      },
+      {
+        "word": "subsequent",
+        "startTime": 12.84,
+        "endTime": 13.42
+      },
+      {
+        "word": "end",
+        "startTime": 13.42,
+        "endTime": 13.78
+      },
+      {
+        "word": "point",
+        "startTime": 13.78,
+        "endTime": 14.08
+      },
+      {
+        "word": "is",
+        "startTime": 14.08,
+        "endTime": 14.6
+      },
+      {
+        "word": "just",
+        "startTime": 14.6,
+        "endTime": 14.86
+      },
+      {
+        "word": "a",
+        "startTime": 14.86,
+        "endTime": 15.08
+      },
+      {
+        "word": "well",
+        "startTime": 15.08,
+        "endTime": 15.36
+      },
+      {
+        "word": "-structured",
+        "startTime": 15.36,
+        "endTime": 15.96
+      },
+      {
+        "word": "HTTP",
+        "startTime": 15.96,
+        "endTime": 16.86
+      },
+      {
+        "word": "request.",
+        "startTime": 16.86,
+        "endTime": 17.8
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, complete Dharaja Sandbox setup, developer portal registration, app creation, consumer key and consumer secret, OAuth 2 .0 token generation using basic authentication, token caching and auto refresh.",
+    "startTime": 18.7,
+    "endTime": 37.94,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 18.7,
+        "endTime": 19.24
+      },
+      {
+        "word": "this",
+        "startTime": 19.24,
+        "endTime": 19.52
+      },
+      {
+        "word": "lesson,",
+        "startTime": 19.52,
+        "endTime": 19.92
+      },
+      {
+        "word": "complete",
+        "startTime": 20.54,
+        "endTime": 20.9
+      },
+      {
+        "word": "Dharaja",
+        "startTime": 20.9,
+        "endTime": 21.64
+      },
+      {
+        "word": "Sandbox",
+        "startTime": 21.64,
+        "endTime": 22.2
+      },
+      {
+        "word": "setup,",
+        "startTime": 22.2,
+        "endTime": 22.78
+      },
+      {
+        "word": "developer",
+        "startTime": 23.38,
+        "endTime": 23.76
+      },
+      {
+        "word": "portal",
+        "startTime": 23.76,
+        "endTime": 24.3
+      },
+      {
+        "word": "registration,",
+        "startTime": 24.3,
+        "endTime": 25.1
+      },
+      {
+        "word": "app",
+        "startTime": 25.72,
+        "endTime": 25.88
+      },
+      {
+        "word": "creation,",
+        "startTime": 25.88,
+        "endTime": 26.46
+      },
+      {
+        "word": "consumer",
+        "startTime": 27.04,
+        "endTime": 27.4
+      },
+      {
+        "word": "key",
+        "startTime": 27.4,
+        "endTime": 27.88
+      },
+      {
+        "word": "and",
+        "startTime": 27.88,
+        "endTime": 28.4
+      },
+      {
+        "word": "consumer",
+        "startTime": 28.4,
+        "endTime": 28.92
+      },
+      {
+        "word": "secret,",
+        "startTime": 28.92,
+        "endTime": 29.58
+      },
+      {
+        "word": "OAuth",
+        "startTime": 30.18,
+        "endTime": 30.64
+      },
+      {
+        "word": "2",
+        "startTime": 30.64,
+        "endTime": 31
+      },
+      {
+        "word": ".0",
+        "startTime": 31,
+        "endTime": 31.62
+      },
+      {
+        "word": "token",
+        "startTime": 31.62,
+        "endTime": 32.12
+      },
+      {
+        "word": "generation",
+        "startTime": 32.12,
+        "endTime": 32.58
+      },
+      {
+        "word": "using",
+        "startTime": 32.58,
+        "endTime": 33.54
+      },
+      {
+        "word": "basic",
+        "startTime": 33.54,
+        "endTime": 34
+      },
+      {
+        "word": "authentication,",
+        "startTime": 34,
+        "endTime": 34.96
+      },
+      {
+        "word": "token",
+        "startTime": 35.62,
+        "endTime": 35.9
+      },
+      {
+        "word": "caching",
+        "startTime": 35.9,
+        "endTime": 36.4
+      },
+      {
+        "word": "and",
+        "startTime": 36.4,
+        "endTime": 37.08
+      },
+      {
+        "word": "auto",
+        "startTime": 37.08,
+        "endTime": 37.5
+      },
+      {
+        "word": "refresh.",
+        "startTime": 37.5,
+        "endTime": 37.94
+      }
+    ]
+  },
+  {
+    "text": "Real node .js code included.",
+    "startTime": 37.94,
+    "endTime": 42.18,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Real",
+        "startTime": 37.94,
+        "endTime": 39.48
+      },
+      {
+        "word": "node",
+        "startTime": 39.48,
+        "endTime": 39.9
+      },
+      {
+        "word": ".js",
+        "startTime": 39.9,
+        "endTime": 40.84
+      },
+      {
+        "word": "code",
+        "startTime": 40.84,
+        "endTime": 41.32
+      },
+      {
+        "word": "included.",
+        "startTime": 41.32,
+        "endTime": 42.18
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 42.68,
+    "endTime": 47.12,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 42.68,
+        "endTime": 43.18
+      },
+      {
+        "word": "what",
+        "startTime": 43.18,
+        "endTime": 43.44
+      },
+      {
+        "word": "you",
+        "startTime": 43.44,
+        "endTime": 43.64
+      },
+      {
+        "word": "learn",
+        "startTime": 43.64,
+        "endTime": 43.92
+      },
+      {
+        "word": "in",
+        "startTime": 43.92,
+        "endTime": 44.08
+      },
+      {
+        "word": "this",
+        "startTime": 44.08,
+        "endTime": 44.3
+      },
+      {
+        "word": "lesson",
+        "startTime": 44.3,
+        "endTime": 44.74
+      },
+      {
+        "word": "and",
+        "startTime": 44.74,
+        "endTime": 45.3
+      },
+      {
+        "word": "you",
+        "startTime": 45.3,
+        "endTime": 45.48
+      },
+      {
+        "word": "will",
+        "startTime": 45.48,
+        "endTime": 45.6
+      },
+      {
+        "word": "see",
+        "startTime": 45.6,
+        "endTime": 45.84
+      },
+      {
+        "word": "results",
+        "startTime": 45.84,
+        "endTime": 46.26
+      },
+      {
+        "word": "immediately.",
+        "startTime": 46.26,
+        "endTime": 47.12
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 47.72,
+    "endTime": 49.26,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 47.72,
+        "endTime": 47.98
+      },
+      {
+        "word": "skills",
+        "startTime": 47.98,
+        "endTime": 48.5
+      },
+      {
+        "word": "bear",
+        "startTime": 48.5,
+        "endTime": 48.88
+      },
+      {
+        "word": "fruit.",
+        "startTime": 48.88,
+        "endTime": 49.26
+      }
+    ]
+  }
+]

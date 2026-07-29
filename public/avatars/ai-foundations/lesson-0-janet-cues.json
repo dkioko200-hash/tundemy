@@ -1,0 +1,1175 @@
+[
+  {
+    "text": "Welcome to AI Foundations.",
+    "startTime": 0,
+    "endTime": 2.66,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "Welcome",
+        "startTime": 0,
+        "endTime": 0.58
+      },
+      {
+        "word": "to",
+        "startTime": 0.58,
+        "endTime": 1.14
+      },
+      {
+        "word": "AI",
+        "startTime": 1.14,
+        "endTime": 1.52
+      },
+      {
+        "word": "Foundations.",
+        "startTime": 1.52,
+        "endTime": 2.66
+      }
+    ]
+  },
+  {
+    "text": "I am so glad you are here.",
+    "startTime": 3.52,
+    "endTime": 5.92,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "I",
+        "startTime": 3.52,
+        "endTime": 3.88
+      },
+      {
+        "word": "am",
+        "startTime": 3.88,
+        "endTime": 4.02
+      },
+      {
+        "word": "so",
+        "startTime": 4.02,
+        "endTime": 4.4
+      },
+      {
+        "word": "glad",
+        "startTime": 4.4,
+        "endTime": 4.86
+      },
+      {
+        "word": "you",
+        "startTime": 4.86,
+        "endTime": 5.36
+      },
+      {
+        "word": "are",
+        "startTime": 5.36,
+        "endTime": 5.52
+      },
+      {
+        "word": "here.",
+        "startTime": 5.52,
+        "endTime": 5.92
+      }
+    ]
+  },
+  {
+    "text": "In 2023, a Kenyan bank replaced three junior analysts with one person who knew how to use AI.",
+    "startTime": 7.16,
+    "endTime": 17.2,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 7.16,
+        "endTime": 7.24
+      },
+      {
+        "word": "2023,",
+        "startTime": 7.24,
+        "endTime": 8.5
+      },
+      {
+        "word": "a",
+        "startTime": 8.9,
+        "endTime": 9.36
+      },
+      {
+        "word": "Kenyan",
+        "startTime": 9.36,
+        "endTime": 9.84
+      },
+      {
+        "word": "bank",
+        "startTime": 9.84,
+        "endTime": 10.2
+      },
+      {
+        "word": "replaced",
+        "startTime": 10.2,
+        "endTime": 10.78
+      },
+      {
+        "word": "three",
+        "startTime": 10.78,
+        "endTime": 11.6
+      },
+      {
+        "word": "junior",
+        "startTime": 11.6,
+        "endTime": 12.18
+      },
+      {
+        "word": "analysts",
+        "startTime": 12.18,
+        "endTime": 12.88
+      },
+      {
+        "word": "with",
+        "startTime": 12.88,
+        "endTime": 13.66
+      },
+      {
+        "word": "one",
+        "startTime": 13.66,
+        "endTime": 14.04
+      },
+      {
+        "word": "person",
+        "startTime": 14.04,
+        "endTime": 14.7
+      },
+      {
+        "word": "who",
+        "startTime": 14.7,
+        "endTime": 15.2
+      },
+      {
+        "word": "knew",
+        "startTime": 15.2,
+        "endTime": 15.46
+      },
+      {
+        "word": "how",
+        "startTime": 15.46,
+        "endTime": 15.84
+      },
+      {
+        "word": "to",
+        "startTime": 15.84,
+        "endTime": 16.1
+      },
+      {
+        "word": "use",
+        "startTime": 16.1,
+        "endTime": 16.54
+      },
+      {
+        "word": "AI.",
+        "startTime": 16.54,
+        "endTime": 17.2
+      }
+    ]
+  },
+  {
+    "text": "That person now earns more than all three combined.",
+    "startTime": 17.98,
+    "endTime": 22.7,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "That",
+        "startTime": 17.98,
+        "endTime": 18.64
+      },
+      {
+        "word": "person",
+        "startTime": 18.64,
+        "endTime": 19.26
+      },
+      {
+        "word": "now",
+        "startTime": 19.26,
+        "endTime": 19.84
+      },
+      {
+        "word": "earns",
+        "startTime": 19.84,
+        "endTime": 20.22
+      },
+      {
+        "word": "more",
+        "startTime": 20.22,
+        "endTime": 20.68
+      },
+      {
+        "word": "than",
+        "startTime": 20.68,
+        "endTime": 20.94
+      },
+      {
+        "word": "all",
+        "startTime": 20.94,
+        "endTime": 21.44
+      },
+      {
+        "word": "three",
+        "startTime": 21.44,
+        "endTime": 21.94
+      },
+      {
+        "word": "combined.",
+        "startTime": 21.94,
+        "endTime": 22.7
+      }
+    ]
+  },
+  {
+    "text": "This course is how you become that person.",
+    "startTime": 23.24,
+    "endTime": 27.12,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "This",
+        "startTime": 23.24,
+        "endTime": 23.84
+      },
+      {
+        "word": "course",
+        "startTime": 23.84,
+        "endTime": 24.22
+      },
+      {
+        "word": "is",
+        "startTime": 24.22,
+        "endTime": 24.86
+      },
+      {
+        "word": "how",
+        "startTime": 24.86,
+        "endTime": 25.18
+      },
+      {
+        "word": "you",
+        "startTime": 25.18,
+        "endTime": 25.4
+      },
+      {
+        "word": "become",
+        "startTime": 25.4,
+        "endTime": 25.86
+      },
+      {
+        "word": "that",
+        "startTime": 25.86,
+        "endTime": 26.46
+      },
+      {
+        "word": "person.",
+        "startTime": 26.46,
+        "endTime": 27.12
+      }
+    ]
+  },
+  {
+    "text": "By the end of this course, you will use AI for any professional task better than someone with three years of experience who has never touched it.",
+    "startTime": 27.919999999999998,
+    "endTime": 39.44,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "By",
+        "startTime": 27.919999999999998,
+        "endTime": 28.38
+      },
+      {
+        "word": "the",
+        "startTime": 28.38,
+        "endTime": 28.58
+      },
+      {
+        "word": "end",
+        "startTime": 28.58,
+        "endTime": 28.78
+      },
+      {
+        "word": "of",
+        "startTime": 28.78,
+        "endTime": 28.92
+      },
+      {
+        "word": "this",
+        "startTime": 28.92,
+        "endTime": 29.18
+      },
+      {
+        "word": "course,",
+        "startTime": 29.18,
+        "endTime": 29.58
+      },
+      {
+        "word": "you",
+        "startTime": 30.18,
+        "endTime": 30.26
+      },
+      {
+        "word": "will",
+        "startTime": 30.26,
+        "endTime": 30.42
+      },
+      {
+        "word": "use",
+        "startTime": 30.42,
+        "endTime": 30.86
+      },
+      {
+        "word": "AI",
+        "startTime": 30.86,
+        "endTime": 31.46
+      },
+      {
+        "word": "for",
+        "startTime": 31.46,
+        "endTime": 32.06
+      },
+      {
+        "word": "any",
+        "startTime": 32.06,
+        "endTime": 32.52
+      },
+      {
+        "word": "professional",
+        "startTime": 32.52,
+        "endTime": 33.26
+      },
+      {
+        "word": "task",
+        "startTime": 33.26,
+        "endTime": 33.96
+      },
+      {
+        "word": "better",
+        "startTime": 33.96,
+        "endTime": 34.54
+      },
+      {
+        "word": "than",
+        "startTime": 34.54,
+        "endTime": 34.74
+      },
+      {
+        "word": "someone",
+        "startTime": 34.74,
+        "endTime": 35.2
+      },
+      {
+        "word": "with",
+        "startTime": 35.2,
+        "endTime": 35.44
+      },
+      {
+        "word": "three",
+        "startTime": 35.44,
+        "endTime": 35.88
+      },
+      {
+        "word": "years",
+        "startTime": 35.88,
+        "endTime": 36.22
+      },
+      {
+        "word": "of",
+        "startTime": 36.22,
+        "endTime": 36.46
+      },
+      {
+        "word": "experience",
+        "startTime": 36.46,
+        "endTime": 37.2
+      },
+      {
+        "word": "who",
+        "startTime": 37.2,
+        "endTime": 37.8
+      },
+      {
+        "word": "has",
+        "startTime": 37.8,
+        "endTime": 38.06
+      },
+      {
+        "word": "never",
+        "startTime": 38.06,
+        "endTime": 38.46
+      },
+      {
+        "word": "touched",
+        "startTime": 38.46,
+        "endTime": 39.02
+      },
+      {
+        "word": "it.",
+        "startTime": 39.02,
+        "endTime": 39.44
+      }
+    ]
+  },
+  {
+    "text": "You will build AI workflows that save you two full hours every single working day.",
+    "startTime": 40.1,
+    "endTime": 47.52,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 40.1,
+        "endTime": 40.48
+      },
+      {
+        "word": "will",
+        "startTime": 40.48,
+        "endTime": 40.64
+      },
+      {
+        "word": "build",
+        "startTime": 40.64,
+        "endTime": 41.1
+      },
+      {
+        "word": "AI",
+        "startTime": 41.1,
+        "endTime": 41.56
+      },
+      {
+        "word": "workflows",
+        "startTime": 41.56,
+        "endTime": 42.4
+      },
+      {
+        "word": "that",
+        "startTime": 42.4,
+        "endTime": 43
+      },
+      {
+        "word": "save",
+        "startTime": 43,
+        "endTime": 43.34
+      },
+      {
+        "word": "you",
+        "startTime": 43.34,
+        "endTime": 43.64
+      },
+      {
+        "word": "two",
+        "startTime": 43.64,
+        "endTime": 44.04
+      },
+      {
+        "word": "full",
+        "startTime": 44.04,
+        "endTime": 44.5
+      },
+      {
+        "word": "hours",
+        "startTime": 44.5,
+        "endTime": 45.06
+      },
+      {
+        "word": "every",
+        "startTime": 45.06,
+        "endTime": 45.8
+      },
+      {
+        "word": "single",
+        "startTime": 45.8,
+        "endTime": 46.42
+      },
+      {
+        "word": "working",
+        "startTime": 46.42,
+        "endTime": 47.02
+      },
+      {
+        "word": "day.",
+        "startTime": 47.02,
+        "endTime": 47.52
+      }
+    ]
+  },
+  {
+    "text": "You will write, research and analyse at professional standard using AI tools.",
+    "startTime": 48,
+    "endTime": 55.56,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 48,
+        "endTime": 48.74
+      },
+      {
+        "word": "will",
+        "startTime": 48.74,
+        "endTime": 48.92
+      },
+      {
+        "word": "write,",
+        "startTime": 48.92,
+        "endTime": 49.34
+      },
+      {
+        "word": "research",
+        "startTime": 49.98,
+        "endTime": 50.36
+      },
+      {
+        "word": "and",
+        "startTime": 50.36,
+        "endTime": 50.88
+      },
+      {
+        "word": "analyse",
+        "startTime": 50.88,
+        "endTime": 51.52
+      },
+      {
+        "word": "at",
+        "startTime": 51.52,
+        "endTime": 52.14
+      },
+      {
+        "word": "professional",
+        "startTime": 52.14,
+        "endTime": 52.78
+      },
+      {
+        "word": "standard",
+        "startTime": 52.78,
+        "endTime": 53.46
+      },
+      {
+        "word": "using",
+        "startTime": 53.46,
+        "endTime": 54.26
+      },
+      {
+        "word": "AI",
+        "startTime": 54.26,
+        "endTime": 54.9
+      },
+      {
+        "word": "tools.",
+        "startTime": 54.9,
+        "endTime": 55.56
+      }
+    ]
+  },
+  {
+    "text": "You will understand exactly what AI can and cannot do so you never make expensive mistakes.",
+    "startTime": 56.48,
+    "endTime": 64.4,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 56.48,
+        "endTime": 56.96
+      },
+      {
+        "word": "will",
+        "startTime": 56.96,
+        "endTime": 57.1
+      },
+      {
+        "word": "understand",
+        "startTime": 57.1,
+        "endTime": 57.58
+      },
+      {
+        "word": "exactly",
+        "startTime": 57.58,
+        "endTime": 58.32
+      },
+      {
+        "word": "what",
+        "startTime": 58.32,
+        "endTime": 58.78
+      },
+      {
+        "word": "AI",
+        "startTime": 58.78,
+        "endTime": 59.14
+      },
+      {
+        "word": "can",
+        "startTime": 59.14,
+        "endTime": 59.76
+      },
+      {
+        "word": "and",
+        "startTime": 59.76,
+        "endTime": 60.38
+      },
+      {
+        "word": "cannot",
+        "startTime": 60.38,
+        "endTime": 60.78
+      },
+      {
+        "word": "do",
+        "startTime": 60.78,
+        "endTime": 61.2
+      },
+      {
+        "word": "so",
+        "startTime": 61.2,
+        "endTime": 61.96
+      },
+      {
+        "word": "you",
+        "startTime": 61.96,
+        "endTime": 62.14
+      },
+      {
+        "word": "never",
+        "startTime": 62.14,
+        "endTime": 62.6
+      },
+      {
+        "word": "make",
+        "startTime": 62.6,
+        "endTime": 62.94
+      },
+      {
+        "word": "expensive",
+        "startTime": 62.94,
+        "endTime": 63.72
+      },
+      {
+        "word": "mistakes.",
+        "startTime": 63.72,
+        "endTime": 64.4
+      }
+    ]
+  },
+  {
+    "text": "And you will join the Tundemi Talent Pool with a verified credential that employers trust.",
+    "startTime": 65.44,
+    "endTime": 72.3,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "And",
+        "startTime": 65.44,
+        "endTime": 65.72
+      },
+      {
+        "word": "you",
+        "startTime": 65.72,
+        "endTime": 65.86
+      },
+      {
+        "word": "will",
+        "startTime": 65.86,
+        "endTime": 65.98
+      },
+      {
+        "word": "join",
+        "startTime": 65.98,
+        "endTime": 66.42
+      },
+      {
+        "word": "the",
+        "startTime": 66.42,
+        "endTime": 66.72
+      },
+      {
+        "word": "Tundemi",
+        "startTime": 66.72,
+        "endTime": 67.3
+      },
+      {
+        "word": "Talent",
+        "startTime": 67.3,
+        "endTime": 67.74
+      },
+      {
+        "word": "Pool",
+        "startTime": 67.74,
+        "endTime": 68.12
+      },
+      {
+        "word": "with",
+        "startTime": 68.12,
+        "endTime": 68.68
+      },
+      {
+        "word": "a",
+        "startTime": 68.68,
+        "endTime": 68.8
+      },
+      {
+        "word": "verified",
+        "startTime": 68.8,
+        "endTime": 69.46
+      },
+      {
+        "word": "credential",
+        "startTime": 69.46,
+        "endTime": 70.26
+      },
+      {
+        "word": "that",
+        "startTime": 70.26,
+        "endTime": 70.88
+      },
+      {
+        "word": "employers",
+        "startTime": 70.88,
+        "endTime": 71.54
+      },
+      {
+        "word": "trust.",
+        "startTime": 71.54,
+        "endTime": 72.3
+      }
+    ]
+  },
+  {
+    "text": "This course has seven lessons, five hours of content, two hands on sandboxes and a final project.",
+    "startTime": 73.24,
+    "endTime": 82.6,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "This",
+        "startTime": 73.24,
+        "endTime": 73.92
+      },
+      {
+        "word": "course",
+        "startTime": 73.92,
+        "endTime": 74.32
+      },
+      {
+        "word": "has",
+        "startTime": 74.32,
+        "endTime": 74.82
+      },
+      {
+        "word": "seven",
+        "startTime": 74.82,
+        "endTime": 75.32
+      },
+      {
+        "word": "lessons,",
+        "startTime": 75.32,
+        "endTime": 75.88
+      },
+      {
+        "word": "five",
+        "startTime": 76.62,
+        "endTime": 77
+      },
+      {
+        "word": "hours",
+        "startTime": 77,
+        "endTime": 77.36
+      },
+      {
+        "word": "of",
+        "startTime": 77.36,
+        "endTime": 77.56
+      },
+      {
+        "word": "content,",
+        "startTime": 77.56,
+        "endTime": 78.08
+      },
+      {
+        "word": "two",
+        "startTime": 78.86,
+        "endTime": 79.06
+      },
+      {
+        "word": "hands",
+        "startTime": 79.06,
+        "endTime": 79.42
+      },
+      {
+        "word": "on",
+        "startTime": 79.42,
+        "endTime": 79.7
+      },
+      {
+        "word": "sandboxes",
+        "startTime": 79.7,
+        "endTime": 80.74
+      },
+      {
+        "word": "and",
+        "startTime": 80.74,
+        "endTime": 81.22
+      },
+      {
+        "word": "a",
+        "startTime": 81.22,
+        "endTime": 81.36
+      },
+      {
+        "word": "final",
+        "startTime": 81.36,
+        "endTime": 81.88
+      },
+      {
+        "word": "project.",
+        "startTime": 81.88,
+        "endTime": 82.6
+      }
+    ]
+  },
+  {
+    "text": "Your final project is an AI adoption strategy for a real Kenyan business.",
+    "startTime": 83.34,
+    "endTime": 90.08,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 83.34,
+        "endTime": 83.86
+      },
+      {
+        "word": "final",
+        "startTime": 83.86,
+        "endTime": 84.36
+      },
+      {
+        "word": "project",
+        "startTime": 84.36,
+        "endTime": 84.96
+      },
+      {
+        "word": "is",
+        "startTime": 84.96,
+        "endTime": 85.36
+      },
+      {
+        "word": "an",
+        "startTime": 85.36,
+        "endTime": 85.66
+      },
+      {
+        "word": "AI",
+        "startTime": 85.66,
+        "endTime": 86.2
+      },
+      {
+        "word": "adoption",
+        "startTime": 86.2,
+        "endTime": 86.96
+      },
+      {
+        "word": "strategy",
+        "startTime": 86.96,
+        "endTime": 87.72
+      },
+      {
+        "word": "for",
+        "startTime": 87.72,
+        "endTime": 88.28
+      },
+      {
+        "word": "a",
+        "startTime": 88.28,
+        "endTime": 88.44
+      },
+      {
+        "word": "real",
+        "startTime": 88.44,
+        "endTime": 88.88
+      },
+      {
+        "word": "Kenyan",
+        "startTime": 88.88,
+        "endTime": 89.48
+      },
+      {
+        "word": "business.",
+        "startTime": 89.48,
+        "endTime": 90.08
+      }
+    ]
+  },
+  {
+    "text": "You do not need to code, you do not need a technology background, all you need is the willingness to learn and I will guide you every step of the way.",
+    "startTime": 90.98,
+    "endTime": 102.12,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 90.98,
+        "endTime": 91.36
+      },
+      {
+        "word": "do",
+        "startTime": 91.36,
+        "endTime": 91.52
+      },
+      {
+        "word": "not",
+        "startTime": 91.52,
+        "endTime": 91.78
+      },
+      {
+        "word": "need",
+        "startTime": 91.78,
+        "endTime": 92.08
+      },
+      {
+        "word": "to",
+        "startTime": 92.08,
+        "endTime": 92.3
+      },
+      {
+        "word": "code,",
+        "startTime": 92.3,
+        "endTime": 92.66
+      },
+      {
+        "word": "you",
+        "startTime": 93.26,
+        "endTime": 93.34
+      },
+      {
+        "word": "do",
+        "startTime": 93.34,
+        "endTime": 93.5
+      },
+      {
+        "word": "not",
+        "startTime": 93.5,
+        "endTime": 93.8
+      },
+      {
+        "word": "need",
+        "startTime": 93.8,
+        "endTime": 94.12
+      },
+      {
+        "word": "a",
+        "startTime": 94.12,
+        "endTime": 94.26
+      },
+      {
+        "word": "technology",
+        "startTime": 94.26,
+        "endTime": 94.8
+      },
+      {
+        "word": "background,",
+        "startTime": 94.8,
+        "endTime": 95.58
+      },
+      {
+        "word": "all",
+        "startTime": 96.16,
+        "endTime": 96.46
+      },
+      {
+        "word": "you",
+        "startTime": 96.46,
+        "endTime": 96.74
+      },
+      {
+        "word": "need",
+        "startTime": 96.74,
+        "endTime": 97.1
+      },
+      {
+        "word": "is",
+        "startTime": 97.1,
+        "endTime": 97.4
+      },
+      {
+        "word": "the",
+        "startTime": 97.4,
+        "endTime": 97.58
+      },
+      {
+        "word": "willingness",
+        "startTime": 97.58,
+        "endTime": 97.94
+      },
+      {
+        "word": "to",
+        "startTime": 97.94,
+        "endTime": 98.44
+      },
+      {
+        "word": "learn",
+        "startTime": 98.44,
+        "endTime": 98.84
+      },
+      {
+        "word": "and",
+        "startTime": 98.84,
+        "endTime": 99.42
+      },
+      {
+        "word": "I",
+        "startTime": 99.42,
+        "endTime": 99.58
+      },
+      {
+        "word": "will",
+        "startTime": 99.58,
+        "endTime": 99.74
+      },
+      {
+        "word": "guide",
+        "startTime": 99.74,
+        "endTime": 100.08
+      },
+      {
+        "word": "you",
+        "startTime": 100.08,
+        "endTime": 100.46
+      },
+      {
+        "word": "every",
+        "startTime": 100.46,
+        "endTime": 101.04
+      },
+      {
+        "word": "step",
+        "startTime": 101.04,
+        "endTime": 101.42
+      },
+      {
+        "word": "of",
+        "startTime": 101.42,
+        "endTime": 101.66
+      },
+      {
+        "word": "the",
+        "startTime": 101.66,
+        "endTime": 101.84
+      },
+      {
+        "word": "way.",
+        "startTime": 101.84,
+        "endTime": 102.12
+      }
+    ]
+  },
+  {
+    "text": "Your first task is waiting below.",
+    "startTime": 103.2,
+    "endTime": 105.76,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 103.2,
+        "endTime": 103.48
+      },
+      {
+        "word": "first",
+        "startTime": 103.48,
+        "endTime": 104.02
+      },
+      {
+        "word": "task",
+        "startTime": 104.02,
+        "endTime": 104.5
+      },
+      {
+        "word": "is",
+        "startTime": 104.5,
+        "endTime": 104.82
+      },
+      {
+        "word": "waiting",
+        "startTime": 104.82,
+        "endTime": 105.3
+      },
+      {
+        "word": "below.",
+        "startTime": 105.3,
+        "endTime": 105.76
+      }
+    ]
+  },
+  {
+    "text": "I will see you in lesson one.",
+    "startTime": 105.76,
+    "endTime": 108.62,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "I",
+        "startTime": 105.76,
+        "endTime": 106.58
+      },
+      {
+        "word": "will",
+        "startTime": 106.58,
+        "endTime": 106.72
+      },
+      {
+        "word": "see",
+        "startTime": 106.72,
+        "endTime": 107.06
+      },
+      {
+        "word": "you",
+        "startTime": 107.06,
+        "endTime": 107.42
+      },
+      {
+        "word": "in",
+        "startTime": 107.42,
+        "endTime": 107.72
+      },
+      {
+        "word": "lesson",
+        "startTime": 107.72,
+        "endTime": 108.08
+      },
+      {
+        "word": "one.",
+        "startTime": 108.08,
+        "endTime": 108.62
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 109.2,
+    "endTime": 111.4,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 109.2,
+        "endTime": 109.64
+      },
+      {
+        "word": "skills",
+        "startTime": 109.64,
+        "endTime": 110.28
+      },
+      {
+        "word": "bear",
+        "startTime": 110.28,
+        "endTime": 110.96
+      },
+      {
+        "word": "fruit.",
+        "startTime": 110.96,
+        "endTime": 111.4
+      }
+    ]
+  }
+]

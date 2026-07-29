@@ -1,0 +1,3069 @@
+[
+  {
+    "text": "A single evaluator saying this response is bad is an opinion.",
+    "startTime": 0,
+    "endTime": 4.9,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 0,
+        "endTime": 0.18
+      },
+      {
+        "word": "single",
+        "startTime": 0.18,
+        "endTime": 0.58
+      },
+      {
+        "word": "evaluator",
+        "startTime": 0.58,
+        "endTime": 1.4
+      },
+      {
+        "word": "saying",
+        "startTime": 1.4,
+        "endTime": 1.78
+      },
+      {
+        "word": "this",
+        "startTime": 1.78,
+        "endTime": 2.44
+      },
+      {
+        "word": "response",
+        "startTime": 2.44,
+        "endTime": 2.96
+      },
+      {
+        "word": "is",
+        "startTime": 2.96,
+        "endTime": 3.28
+      },
+      {
+        "word": "bad",
+        "startTime": 3.28,
+        "endTime": 3.56
+      },
+      {
+        "word": "is",
+        "startTime": 3.56,
+        "endTime": 4.22
+      },
+      {
+        "word": "an",
+        "startTime": 4.22,
+        "endTime": 4.38
+      },
+      {
+        "word": "opinion.",
+        "startTime": 4.38,
+        "endTime": 4.9
+      }
+    ]
+  },
+  {
+    "text": "A hundred evaluators following the same rubric and producing 87 % agreement on what bad means is a measurement.",
+    "startTime": 5.6,
+    "endTime": 14.1,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 5.6,
+        "endTime": 5.78
+      },
+      {
+        "word": "hundred",
+        "startTime": 5.78,
+        "endTime": 6.18
+      },
+      {
+        "word": "evaluators",
+        "startTime": 6.18,
+        "endTime": 7
+      },
+      {
+        "word": "following",
+        "startTime": 7,
+        "endTime": 7.48
+      },
+      {
+        "word": "the",
+        "startTime": 7.48,
+        "endTime": 7.76
+      },
+      {
+        "word": "same",
+        "startTime": 7.76,
+        "endTime": 8.08
+      },
+      {
+        "word": "rubric",
+        "startTime": 8.08,
+        "endTime": 8.62
+      },
+      {
+        "word": "and",
+        "startTime": 8.62,
+        "endTime": 9.06
+      },
+      {
+        "word": "producing",
+        "startTime": 9.06,
+        "endTime": 9.44
+      },
+      {
+        "word": "87",
+        "startTime": 9.44,
+        "endTime": 10.38
+      },
+      {
+        "word": "%",
+        "startTime": 10.38,
+        "endTime": 10.8
+      },
+      {
+        "word": "agreement",
+        "startTime": 10.8,
+        "endTime": 11.28
+      },
+      {
+        "word": "on",
+        "startTime": 11.28,
+        "endTime": 11.62
+      },
+      {
+        "word": "what",
+        "startTime": 11.62,
+        "endTime": 11.88
+      },
+      {
+        "word": "bad",
+        "startTime": 11.88,
+        "endTime": 12.28
+      },
+      {
+        "word": "means",
+        "startTime": 12.28,
+        "endTime": 12.9
+      },
+      {
+        "word": "is",
+        "startTime": 12.9,
+        "endTime": 13.48
+      },
+      {
+        "word": "a",
+        "startTime": 13.48,
+        "endTime": 13.6
+      },
+      {
+        "word": "measurement.",
+        "startTime": 13.6,
+        "endTime": 14.1
+      }
+    ]
+  },
+  {
+    "text": "AI evaluation engineering is the discipline of turning opinions into measurements.",
+    "startTime": 15.44,
+    "endTime": 20.82,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "AI",
+        "startTime": 15.44,
+        "endTime": 15.76
+      },
+      {
+        "word": "evaluation",
+        "startTime": 15.76,
+        "endTime": 16.62
+      },
+      {
+        "word": "engineering",
+        "startTime": 16.62,
+        "endTime": 17.36
+      },
+      {
+        "word": "is",
+        "startTime": 17.36,
+        "endTime": 17.78
+      },
+      {
+        "word": "the",
+        "startTime": 17.78,
+        "endTime": 17.96
+      },
+      {
+        "word": "discipline",
+        "startTime": 17.96,
+        "endTime": 18.52
+      },
+      {
+        "word": "of",
+        "startTime": 18.52,
+        "endTime": 18.84
+      },
+      {
+        "word": "turning",
+        "startTime": 18.84,
+        "endTime": 19.2
+      },
+      {
+        "word": "opinions",
+        "startTime": 19.2,
+        "endTime": 19.8
+      },
+      {
+        "word": "into",
+        "startTime": 19.8,
+        "endTime": 20.22
+      },
+      {
+        "word": "measurements.",
+        "startTime": 20.22,
+        "endTime": 20.82
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, an evaluation framework is a system for consistently measuring AI quality across a defined set of criteria.",
+    "startTime": 21.48,
+    "endTime": 31.12,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 21.48,
+        "endTime": 22.1
+      },
+      {
+        "word": "this",
+        "startTime": 22.1,
+        "endTime": 22.36
+      },
+      {
+        "word": "lesson,",
+        "startTime": 22.36,
+        "endTime": 22.76
+      },
+      {
+        "word": "an",
+        "startTime": 23.24,
+        "endTime": 23.38
+      },
+      {
+        "word": "evaluation",
+        "startTime": 23.38,
+        "endTime": 23.9
+      },
+      {
+        "word": "framework",
+        "startTime": 23.9,
+        "endTime": 24.66
+      },
+      {
+        "word": "is",
+        "startTime": 24.66,
+        "endTime": 25.14
+      },
+      {
+        "word": "a",
+        "startTime": 25.14,
+        "endTime": 25.26
+      },
+      {
+        "word": "system",
+        "startTime": 25.26,
+        "endTime": 25.7
+      },
+      {
+        "word": "for",
+        "startTime": 25.7,
+        "endTime": 26.1
+      },
+      {
+        "word": "consistently",
+        "startTime": 26.1,
+        "endTime": 26.86
+      },
+      {
+        "word": "measuring",
+        "startTime": 26.86,
+        "endTime": 27.72
+      },
+      {
+        "word": "AI",
+        "startTime": 27.72,
+        "endTime": 28.1
+      },
+      {
+        "word": "quality",
+        "startTime": 28.1,
+        "endTime": 28.74
+      },
+      {
+        "word": "across",
+        "startTime": 28.74,
+        "endTime": 29.22
+      },
+      {
+        "word": "a",
+        "startTime": 29.22,
+        "endTime": 29.48
+      },
+      {
+        "word": "defined",
+        "startTime": 29.48,
+        "endTime": 29.88
+      },
+      {
+        "word": "set",
+        "startTime": 29.88,
+        "endTime": 30.24
+      },
+      {
+        "word": "of",
+        "startTime": 30.24,
+        "endTime": 30.44
+      },
+      {
+        "word": "criteria.",
+        "startTime": 30.44,
+        "endTime": 31.12
+      }
+    ]
+  },
+  {
+    "text": "Building one requires four components.",
+    "startTime": 31.98,
+    "endTime": 34.2,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Building",
+        "startTime": 31.98,
+        "endTime": 32.24
+      },
+      {
+        "word": "one",
+        "startTime": 32.24,
+        "endTime": 32.54
+      },
+      {
+        "word": "requires",
+        "startTime": 32.54,
+        "endTime": 33.12
+      },
+      {
+        "word": "four",
+        "startTime": 33.12,
+        "endTime": 33.58
+      },
+      {
+        "word": "components.",
+        "startTime": 33.58,
+        "endTime": 34.2
+      }
+    ]
+  },
+  {
+    "text": "A capability specification.",
+    "startTime": 34.86,
+    "endTime": 36.36,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 34.86,
+        "endTime": 34.96
+      },
+      {
+        "word": "capability",
+        "startTime": 34.96,
+        "endTime": 35.48
+      },
+      {
+        "word": "specification.",
+        "startTime": 35.48,
+        "endTime": 36.36
+      }
+    ]
+  },
+  {
+    "text": "What should the AI be able to do?",
+    "startTime": 37.2,
+    "endTime": 39.24,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "What",
+        "startTime": 37.2,
+        "endTime": 37.42
+      },
+      {
+        "word": "should",
+        "startTime": 37.42,
+        "endTime": 37.68
+      },
+      {
+        "word": "the",
+        "startTime": 37.68,
+        "endTime": 37.9
+      },
+      {
+        "word": "AI",
+        "startTime": 37.9,
+        "endTime": 38.16
+      },
+      {
+        "word": "be",
+        "startTime": 38.16,
+        "endTime": 38.44
+      },
+      {
+        "word": "able",
+        "startTime": 38.44,
+        "endTime": 38.78
+      },
+      {
+        "word": "to",
+        "startTime": 38.78,
+        "endTime": 38.98
+      },
+      {
+        "word": "do?",
+        "startTime": 38.98,
+        "endTime": 39.24
+      }
+    ]
+  },
+  {
+    "text": "A rubric.",
+    "startTime": 39.84,
+    "endTime": 40.46,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 39.84,
+        "endTime": 39.96
+      },
+      {
+        "word": "rubric.",
+        "startTime": 39.96,
+        "endTime": 40.46
+      }
+    ]
+  },
+  {
+    "text": "What does good and bad look like for each capability?",
+    "startTime": 41,
+    "endTime": 43.78,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "What",
+        "startTime": 41,
+        "endTime": 41.16
+      },
+      {
+        "word": "does",
+        "startTime": 41.16,
+        "endTime": 41.4
+      },
+      {
+        "word": "good",
+        "startTime": 41.4,
+        "endTime": 41.64
+      },
+      {
+        "word": "and",
+        "startTime": 41.64,
+        "endTime": 41.82
+      },
+      {
+        "word": "bad",
+        "startTime": 41.82,
+        "endTime": 42.06
+      },
+      {
+        "word": "look",
+        "startTime": 42.06,
+        "endTime": 42.32
+      },
+      {
+        "word": "like",
+        "startTime": 42.32,
+        "endTime": 42.64
+      },
+      {
+        "word": "for",
+        "startTime": 42.64,
+        "endTime": 42.86
+      },
+      {
+        "word": "each",
+        "startTime": 42.86,
+        "endTime": 43.2
+      },
+      {
+        "word": "capability?",
+        "startTime": 43.2,
+        "endTime": 43.78
+      }
+    ]
+  },
+  {
+    "text": "A test set, which specific inputs will expose capability gaps?",
+    "startTime": 44.7,
+    "endTime": 49.84,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 44.7,
+        "endTime": 44.98
+      },
+      {
+        "word": "test",
+        "startTime": 44.98,
+        "endTime": 45.28
+      },
+      {
+        "word": "set,",
+        "startTime": 45.28,
+        "endTime": 45.92
+      },
+      {
+        "word": "which",
+        "startTime": 46.28,
+        "endTime": 46.56
+      },
+      {
+        "word": "specific",
+        "startTime": 46.56,
+        "endTime": 47.16
+      },
+      {
+        "word": "inputs",
+        "startTime": 47.16,
+        "endTime": 47.64
+      },
+      {
+        "word": "will",
+        "startTime": 47.64,
+        "endTime": 48.1
+      },
+      {
+        "word": "expose",
+        "startTime": 48.1,
+        "endTime": 48.76
+      },
+      {
+        "word": "capability",
+        "startTime": 48.76,
+        "endTime": 49.46
+      },
+      {
+        "word": "gaps?",
+        "startTime": 49.46,
+        "endTime": 49.84
+      }
+    ]
+  },
+  {
+    "text": "And an aggregation method.",
+    "startTime": 50.56,
+    "endTime": 52.08,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "And",
+        "startTime": 50.56,
+        "endTime": 50.84
+      },
+      {
+        "word": "an",
+        "startTime": 50.84,
+        "endTime": 50.98
+      },
+      {
+        "word": "aggregation",
+        "startTime": 50.98,
+        "endTime": 51.66
+      },
+      {
+        "word": "method.",
+        "startTime": 51.66,
+        "endTime": 52.08
+      }
+    ]
+  },
+  {
+    "text": "How do you turn individual scores into a system level quality signal?",
+    "startTime": 52.58,
+    "endTime": 57.12,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "How",
+        "startTime": 52.58,
+        "endTime": 52.84
+      },
+      {
+        "word": "do",
+        "startTime": 52.84,
+        "endTime": 53
+      },
+      {
+        "word": "you",
+        "startTime": 53,
+        "endTime": 53.12
+      },
+      {
+        "word": "turn",
+        "startTime": 53.12,
+        "endTime": 53.42
+      },
+      {
+        "word": "individual",
+        "startTime": 53.42,
+        "endTime": 54.08
+      },
+      {
+        "word": "scores",
+        "startTime": 54.08,
+        "endTime": 54.58
+      },
+      {
+        "word": "into",
+        "startTime": 54.58,
+        "endTime": 55.08
+      },
+      {
+        "word": "a",
+        "startTime": 55.08,
+        "endTime": 55.26
+      },
+      {
+        "word": "system",
+        "startTime": 55.26,
+        "endTime": 55.6
+      },
+      {
+        "word": "level",
+        "startTime": 55.6,
+        "endTime": 56.02
+      },
+      {
+        "word": "quality",
+        "startTime": 56.02,
+        "endTime": 56.54
+      },
+      {
+        "word": "signal?",
+        "startTime": 56.54,
+        "endTime": 57.12
+      }
+    ]
+  },
+  {
+    "text": "Capability specifications start with user needs, not model architectures.",
+    "startTime": 57.919999999999995,
+    "endTime": 63.6,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Capability",
+        "startTime": 57.919999999999995,
+        "endTime": 58.64
+      },
+      {
+        "word": "specifications",
+        "startTime": 58.64,
+        "endTime": 59.54
+      },
+      {
+        "word": "start",
+        "startTime": 59.54,
+        "endTime": 60.36
+      },
+      {
+        "word": "with",
+        "startTime": 60.36,
+        "endTime": 60.76
+      },
+      {
+        "word": "user",
+        "startTime": 60.76,
+        "endTime": 61.08
+      },
+      {
+        "word": "needs,",
+        "startTime": 61.08,
+        "endTime": 61.6
+      },
+      {
+        "word": "not",
+        "startTime": 61.92,
+        "endTime": 62.04
+      },
+      {
+        "word": "model",
+        "startTime": 62.04,
+        "endTime": 62.54
+      },
+      {
+        "word": "architectures.",
+        "startTime": 62.54,
+        "endTime": 63.6
+      }
+    ]
+  },
+  {
+    "text": "For a customer service AI at a Kenyan bank, capabilities might include answering account balance queries accurately, explaining loan products without misleading the customer, escalating complex complaints to a human appropriately and responding in the customer's preferred language, English, Swahili or regional language.",
+    "startTime": 64,
+    "endTime": 88.24,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "For",
+        "startTime": 64,
+        "endTime": 64.26
+      },
+      {
+        "word": "a",
+        "startTime": 64.26,
+        "endTime": 64.38
+      },
+      {
+        "word": "customer",
+        "startTime": 64.38,
+        "endTime": 64.78
+      },
+      {
+        "word": "service",
+        "startTime": 64.78,
+        "endTime": 65.38
+      },
+      {
+        "word": "AI",
+        "startTime": 65.38,
+        "endTime": 65.9
+      },
+      {
+        "word": "at",
+        "startTime": 65.9,
+        "endTime": 66.3
+      },
+      {
+        "word": "a",
+        "startTime": 66.3,
+        "endTime": 66.44
+      },
+      {
+        "word": "Kenyan",
+        "startTime": 66.44,
+        "endTime": 66.84
+      },
+      {
+        "word": "bank,",
+        "startTime": 66.84,
+        "endTime": 67.4
+      },
+      {
+        "word": "capabilities",
+        "startTime": 67.76,
+        "endTime": 68.32
+      },
+      {
+        "word": "might",
+        "startTime": 68.32,
+        "endTime": 68.72
+      },
+      {
+        "word": "include",
+        "startTime": 68.72,
+        "endTime": 69.32
+      },
+      {
+        "word": "answering",
+        "startTime": 69.32,
+        "endTime": 70.16
+      },
+      {
+        "word": "account",
+        "startTime": 70.16,
+        "endTime": 70.7
+      },
+      {
+        "word": "balance",
+        "startTime": 70.7,
+        "endTime": 71.1
+      },
+      {
+        "word": "queries",
+        "startTime": 71.1,
+        "endTime": 71.56
+      },
+      {
+        "word": "accurately,",
+        "startTime": 71.56,
+        "endTime": 72.46
+      },
+      {
+        "word": "explaining",
+        "startTime": 73.02,
+        "endTime": 73.42
+      },
+      {
+        "word": "loan",
+        "startTime": 73.42,
+        "endTime": 73.86
+      },
+      {
+        "word": "products",
+        "startTime": 73.86,
+        "endTime": 74.48
+      },
+      {
+        "word": "without",
+        "startTime": 74.48,
+        "endTime": 75.14
+      },
+      {
+        "word": "misleading",
+        "startTime": 75.14,
+        "endTime": 75.7
+      },
+      {
+        "word": "the",
+        "startTime": 75.7,
+        "endTime": 76.12
+      },
+      {
+        "word": "customer,",
+        "startTime": 76.12,
+        "endTime": 76.68
+      },
+      {
+        "word": "escalating",
+        "startTime": 77.32,
+        "endTime": 77.98
+      },
+      {
+        "word": "complex",
+        "startTime": 77.98,
+        "endTime": 78.72
+      },
+      {
+        "word": "complaints",
+        "startTime": 78.72,
+        "endTime": 79.24
+      },
+      {
+        "word": "to",
+        "startTime": 79.24,
+        "endTime": 79.6
+      },
+      {
+        "word": "a",
+        "startTime": 79.6,
+        "endTime": 79.7
+      },
+      {
+        "word": "human",
+        "startTime": 79.7,
+        "endTime": 80.06
+      },
+      {
+        "word": "appropriately",
+        "startTime": 80.06,
+        "endTime": 81.04
+      },
+      {
+        "word": "and",
+        "startTime": 81.04,
+        "endTime": 81.78
+      },
+      {
+        "word": "responding",
+        "startTime": 81.78,
+        "endTime": 82.28
+      },
+      {
+        "word": "in",
+        "startTime": 82.28,
+        "endTime": 82.64
+      },
+      {
+        "word": "the",
+        "startTime": 82.64,
+        "endTime": 82.76
+      },
+      {
+        "word": "customer's",
+        "startTime": 82.76,
+        "endTime": 83.52
+      },
+      {
+        "word": "preferred",
+        "startTime": 83.52,
+        "endTime": 83.9
+      },
+      {
+        "word": "language,",
+        "startTime": 83.9,
+        "endTime": 84.46
+      },
+      {
+        "word": "English,",
+        "startTime": 85.12,
+        "endTime": 85.52
+      },
+      {
+        "word": "Swahili",
+        "startTime": 86.2,
+        "endTime": 86.66
+      },
+      {
+        "word": "or",
+        "startTime": 86.66,
+        "endTime": 87.08
+      },
+      {
+        "word": "regional",
+        "startTime": 87.08,
+        "endTime": 87.58
+      },
+      {
+        "word": "language.",
+        "startTime": 87.58,
+        "endTime": 88.24
+      }
+    ]
+  },
+  {
+    "text": "Each capability becomes a separate rubric dimension.",
+    "startTime": 88.96,
+    "endTime": 92.68,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Each",
+        "startTime": 88.96,
+        "endTime": 89.34
+      },
+      {
+        "word": "capability",
+        "startTime": 89.34,
+        "endTime": 90.12
+      },
+      {
+        "word": "becomes",
+        "startTime": 90.12,
+        "endTime": 90.58
+      },
+      {
+        "word": "a",
+        "startTime": 90.58,
+        "endTime": 90.86
+      },
+      {
+        "word": "separate",
+        "startTime": 90.86,
+        "endTime": 91.44
+      },
+      {
+        "word": "rubric",
+        "startTime": 91.44,
+        "endTime": 92.02
+      },
+      {
+        "word": "dimension.",
+        "startTime": 92.02,
+        "endTime": 92.68
+      }
+    ]
+  },
+  {
+    "text": "Rubrics must be calibrated.",
+    "startTime": 93.62,
+    "endTime": 95.54,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Rubrics",
+        "startTime": 93.62,
+        "endTime": 94.1
+      },
+      {
+        "word": "must",
+        "startTime": 94.1,
+        "endTime": 94.42
+      },
+      {
+        "word": "be",
+        "startTime": 94.42,
+        "endTime": 94.7
+      },
+      {
+        "word": "calibrated.",
+        "startTime": 94.7,
+        "endTime": 95.54
+      }
+    ]
+  },
+  {
+    "text": "Every evaluator applying the rubric should reach the same score for the same response at least 80 % of the time.",
+    "startTime": 96.1,
+    "endTime": 104.5,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Every",
+        "startTime": 96.1,
+        "endTime": 96.46
+      },
+      {
+        "word": "evaluator",
+        "startTime": 96.46,
+        "endTime": 97.34
+      },
+      {
+        "word": "applying",
+        "startTime": 97.34,
+        "endTime": 97.98
+      },
+      {
+        "word": "the",
+        "startTime": 97.98,
+        "endTime": 98.24
+      },
+      {
+        "word": "rubric",
+        "startTime": 98.24,
+        "endTime": 98.74
+      },
+      {
+        "word": "should",
+        "startTime": 98.74,
+        "endTime": 99
+      },
+      {
+        "word": "reach",
+        "startTime": 99,
+        "endTime": 99.3
+      },
+      {
+        "word": "the",
+        "startTime": 99.3,
+        "endTime": 99.6
+      },
+      {
+        "word": "same",
+        "startTime": 99.6,
+        "endTime": 99.94
+      },
+      {
+        "word": "score",
+        "startTime": 99.94,
+        "endTime": 100.3
+      },
+      {
+        "word": "for",
+        "startTime": 100.3,
+        "endTime": 100.6
+      },
+      {
+        "word": "the",
+        "startTime": 100.6,
+        "endTime": 100.78
+      },
+      {
+        "word": "same",
+        "startTime": 100.78,
+        "endTime": 101.12
+      },
+      {
+        "word": "response",
+        "startTime": 101.12,
+        "endTime": 101.7
+      },
+      {
+        "word": "at",
+        "startTime": 101.7,
+        "endTime": 102.34
+      },
+      {
+        "word": "least",
+        "startTime": 102.34,
+        "endTime": 102.68
+      },
+      {
+        "word": "80",
+        "startTime": 102.68,
+        "endTime": 103.22
+      },
+      {
+        "word": "%",
+        "startTime": 103.22,
+        "endTime": 103.6
+      },
+      {
+        "word": "of",
+        "startTime": 103.6,
+        "endTime": 103.92
+      },
+      {
+        "word": "the",
+        "startTime": 103.92,
+        "endTime": 104.08
+      },
+      {
+        "word": "time.",
+        "startTime": 104.08,
+        "endTime": 104.5
+      }
+    ]
+  },
+  {
+    "text": "A rubric that produces 60 % inter annotator agreement is not measuring anything useful.",
+    "startTime": 104.84,
+    "endTime": 112.12,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 104.84,
+        "endTime": 105.3
+      },
+      {
+        "word": "rubric",
+        "startTime": 105.3,
+        "endTime": 105.72
+      },
+      {
+        "word": "that",
+        "startTime": 105.72,
+        "endTime": 105.98
+      },
+      {
+        "word": "produces",
+        "startTime": 105.98,
+        "endTime": 106.52
+      },
+      {
+        "word": "60",
+        "startTime": 106.52,
+        "endTime": 107.14
+      },
+      {
+        "word": "%",
+        "startTime": 107.14,
+        "endTime": 107.58
+      },
+      {
+        "word": "inter",
+        "startTime": 107.58,
+        "endTime": 108.18
+      },
+      {
+        "word": "annotator",
+        "startTime": 108.18,
+        "endTime": 108.94
+      },
+      {
+        "word": "agreement",
+        "startTime": 108.94,
+        "endTime": 109.56
+      },
+      {
+        "word": "is",
+        "startTime": 109.56,
+        "endTime": 110.26
+      },
+      {
+        "word": "not",
+        "startTime": 110.26,
+        "endTime": 110.46
+      },
+      {
+        "word": "measuring",
+        "startTime": 110.46,
+        "endTime": 111.06
+      },
+      {
+        "word": "anything",
+        "startTime": 111.06,
+        "endTime": 111.42
+      },
+      {
+        "word": "useful.",
+        "startTime": 111.42,
+        "endTime": 112.12
+      }
+    ]
+  },
+  {
+    "text": "It is measuring evaluator opinion.",
+    "startTime": 112.76,
+    "endTime": 115.08,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "It",
+        "startTime": 112.76,
+        "endTime": 112.88
+      },
+      {
+        "word": "is",
+        "startTime": 112.88,
+        "endTime": 113.04
+      },
+      {
+        "word": "measuring",
+        "startTime": 113.04,
+        "endTime": 113.5
+      },
+      {
+        "word": "evaluator",
+        "startTime": 113.5,
+        "endTime": 114.44
+      },
+      {
+        "word": "opinion.",
+        "startTime": 114.44,
+        "endTime": 115.08
+      }
+    ]
+  },
+  {
+    "text": "Calibration happens through example anchors.",
+    "startTime": 115.82,
+    "endTime": 118.88,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Calibration",
+        "startTime": 115.82,
+        "endTime": 116.58
+      },
+      {
+        "word": "happens",
+        "startTime": 116.58,
+        "endTime": 117.16
+      },
+      {
+        "word": "through",
+        "startTime": 117.16,
+        "endTime": 117.56
+      },
+      {
+        "word": "example",
+        "startTime": 117.56,
+        "endTime": 118.14
+      },
+      {
+        "word": "anchors.",
+        "startTime": 118.14,
+        "endTime": 118.88
+      }
+    ]
+  },
+  {
+    "text": "For each score level, you provide two, three example responses with written explanations of why they earn that score.",
+    "startTime": 119.3,
+    "endTime": 127.54,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "For",
+        "startTime": 119.3,
+        "endTime": 119.58
+      },
+      {
+        "word": "each",
+        "startTime": 119.58,
+        "endTime": 119.94
+      },
+      {
+        "word": "score",
+        "startTime": 119.94,
+        "endTime": 120.24
+      },
+      {
+        "word": "level,",
+        "startTime": 120.24,
+        "endTime": 120.66
+      },
+      {
+        "word": "you",
+        "startTime": 121.14,
+        "endTime": 121.2
+      },
+      {
+        "word": "provide",
+        "startTime": 121.2,
+        "endTime": 121.56
+      },
+      {
+        "word": "two,",
+        "startTime": 121.56,
+        "endTime": 122.04
+      },
+      {
+        "word": "three",
+        "startTime": 122.22,
+        "endTime": 122.42
+      },
+      {
+        "word": "example",
+        "startTime": 122.42,
+        "endTime": 122.88
+      },
+      {
+        "word": "responses",
+        "startTime": 122.88,
+        "endTime": 123.74
+      },
+      {
+        "word": "with",
+        "startTime": 123.74,
+        "endTime": 124.38
+      },
+      {
+        "word": "written",
+        "startTime": 124.38,
+        "endTime": 124.76
+      },
+      {
+        "word": "explanations",
+        "startTime": 124.76,
+        "endTime": 125.64
+      },
+      {
+        "word": "of",
+        "startTime": 125.64,
+        "endTime": 126.12
+      },
+      {
+        "word": "why",
+        "startTime": 126.12,
+        "endTime": 126.44
+      },
+      {
+        "word": "they",
+        "startTime": 126.44,
+        "endTime": 126.68
+      },
+      {
+        "word": "earn",
+        "startTime": 126.68,
+        "endTime": 126.94
+      },
+      {
+        "word": "that",
+        "startTime": 126.94,
+        "endTime": 127.2
+      },
+      {
+        "word": "score.",
+        "startTime": 127.2,
+        "endTime": 127.54
+      }
+    ]
+  },
+  {
+    "text": "Test sets must include adversarial cases, inputs designed to expose specific failure modes.",
+    "startTime": 127.94,
+    "endTime": 134.92,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Test",
+        "startTime": 127.94,
+        "endTime": 128.38
+      },
+      {
+        "word": "sets",
+        "startTime": 128.38,
+        "endTime": 128.72
+      },
+      {
+        "word": "must",
+        "startTime": 128.72,
+        "endTime": 129.04
+      },
+      {
+        "word": "include",
+        "startTime": 129.04,
+        "endTime": 129.5
+      },
+      {
+        "word": "adversarial",
+        "startTime": 129.5,
+        "endTime": 130.56
+      },
+      {
+        "word": "cases,",
+        "startTime": 130.56,
+        "endTime": 131.2
+      },
+      {
+        "word": "inputs",
+        "startTime": 131.74,
+        "endTime": 132.06
+      },
+      {
+        "word": "designed",
+        "startTime": 132.06,
+        "endTime": 132.62
+      },
+      {
+        "word": "to",
+        "startTime": 132.62,
+        "endTime": 132.9
+      },
+      {
+        "word": "expose",
+        "startTime": 132.9,
+        "endTime": 133.28
+      },
+      {
+        "word": "specific",
+        "startTime": 133.28,
+        "endTime": 134.12
+      },
+      {
+        "word": "failure",
+        "startTime": 134.12,
+        "endTime": 134.52
+      },
+      {
+        "word": "modes.",
+        "startTime": 134.52,
+        "endTime": 134.92
+      }
+    ]
+  },
+  {
+    "text": "For a Kenyan bank AI, questions about MPSA integration, where confusion between pay bill and till number is common.",
+    "startTime": 135.46,
+    "endTime": 144.16,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "For",
+        "startTime": 135.46,
+        "endTime": 135.66
+      },
+      {
+        "word": "a",
+        "startTime": 135.66,
+        "endTime": 135.82
+      },
+      {
+        "word": "Kenyan",
+        "startTime": 135.82,
+        "endTime": 136.2
+      },
+      {
+        "word": "bank",
+        "startTime": 136.2,
+        "endTime": 136.52
+      },
+      {
+        "word": "AI,",
+        "startTime": 136.52,
+        "endTime": 137.14
+      },
+      {
+        "word": "questions",
+        "startTime": 137.76,
+        "endTime": 138.2
+      },
+      {
+        "word": "about",
+        "startTime": 138.2,
+        "endTime": 138.76
+      },
+      {
+        "word": "MPSA",
+        "startTime": 138.76,
+        "endTime": 139.6
+      },
+      {
+        "word": "integration,",
+        "startTime": 139.6,
+        "endTime": 140.32
+      },
+      {
+        "word": "where",
+        "startTime": 140.9,
+        "endTime": 141
+      },
+      {
+        "word": "confusion",
+        "startTime": 141,
+        "endTime": 141.62
+      },
+      {
+        "word": "between",
+        "startTime": 141.62,
+        "endTime": 142.08
+      },
+      {
+        "word": "pay",
+        "startTime": 142.08,
+        "endTime": 142.44
+      },
+      {
+        "word": "bill",
+        "startTime": 142.44,
+        "endTime": 142.7
+      },
+      {
+        "word": "and",
+        "startTime": 142.7,
+        "endTime": 142.92
+      },
+      {
+        "word": "till",
+        "startTime": 142.92,
+        "endTime": 143.18
+      },
+      {
+        "word": "number",
+        "startTime": 143.18,
+        "endTime": 143.56
+      },
+      {
+        "word": "is",
+        "startTime": 143.56,
+        "endTime": 143.8
+      },
+      {
+        "word": "common.",
+        "startTime": 143.8,
+        "endTime": 144.16
+      }
+    ]
+  },
+  {
+    "text": "Questions in sheng, a Kenyan urban dialect, mixing Swahili and English that models handle poorly.",
+    "startTime": 144.82,
+    "endTime": 152.08,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Questions",
+        "startTime": 144.82,
+        "endTime": 145.34
+      },
+      {
+        "word": "in",
+        "startTime": 145.34,
+        "endTime": 145.66
+      },
+      {
+        "word": "sheng,",
+        "startTime": 145.66,
+        "endTime": 146.08
+      },
+      {
+        "word": "a",
+        "startTime": 146.58,
+        "endTime": 146.62
+      },
+      {
+        "word": "Kenyan",
+        "startTime": 146.62,
+        "endTime": 147.12
+      },
+      {
+        "word": "urban",
+        "startTime": 147.12,
+        "endTime": 147.56
+      },
+      {
+        "word": "dialect,",
+        "startTime": 147.56,
+        "endTime": 148.1
+      },
+      {
+        "word": "mixing",
+        "startTime": 148.38,
+        "endTime": 148.64
+      },
+      {
+        "word": "Swahili",
+        "startTime": 148.64,
+        "endTime": 149.36
+      },
+      {
+        "word": "and",
+        "startTime": 149.36,
+        "endTime": 149.68
+      },
+      {
+        "word": "English",
+        "startTime": 149.68,
+        "endTime": 150.12
+      },
+      {
+        "word": "that",
+        "startTime": 150.12,
+        "endTime": 150.72
+      },
+      {
+        "word": "models",
+        "startTime": 150.72,
+        "endTime": 151.14
+      },
+      {
+        "word": "handle",
+        "startTime": 151.14,
+        "endTime": 151.6
+      },
+      {
+        "word": "poorly.",
+        "startTime": 151.6,
+        "endTime": 152.08
+      }
+    ]
+  },
+  {
+    "text": "Questions about regulatory scenarios, CRB listings, KRA compliance, and edge cases like requests to perform actions the AI cannot actually perform.",
+    "startTime": 152.69,
+    "endTime": 165.82,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Questions",
+        "startTime": 152.69,
+        "endTime": 153.22
+      },
+      {
+        "word": "about",
+        "startTime": 153.22,
+        "endTime": 153.66
+      },
+      {
+        "word": "regulatory",
+        "startTime": 153.66,
+        "endTime": 154.22
+      },
+      {
+        "word": "scenarios,",
+        "startTime": 154.22,
+        "endTime": 155.38
+      },
+      {
+        "word": "CRB",
+        "startTime": 156.04,
+        "endTime": 156.64
+      },
+      {
+        "word": "listings,",
+        "startTime": 156.64,
+        "endTime": 157.18
+      },
+      {
+        "word": "KRA",
+        "startTime": 157.94,
+        "endTime": 158.44
+      },
+      {
+        "word": "compliance,",
+        "startTime": 158.44,
+        "endTime": 159.24
+      },
+      {
+        "word": "and",
+        "startTime": 159.76,
+        "endTime": 160.06
+      },
+      {
+        "word": "edge",
+        "startTime": 160.06,
+        "endTime": 160.42
+      },
+      {
+        "word": "cases",
+        "startTime": 160.42,
+        "endTime": 160.84
+      },
+      {
+        "word": "like",
+        "startTime": 160.84,
+        "endTime": 161.12
+      },
+      {
+        "word": "requests",
+        "startTime": 161.12,
+        "endTime": 161.64
+      },
+      {
+        "word": "to",
+        "startTime": 161.64,
+        "endTime": 162.28
+      },
+      {
+        "word": "perform",
+        "startTime": 162.28,
+        "endTime": 162.66
+      },
+      {
+        "word": "actions",
+        "startTime": 162.66,
+        "endTime": 163.24
+      },
+      {
+        "word": "the",
+        "startTime": 163.24,
+        "endTime": 163.6
+      },
+      {
+        "word": "AI",
+        "startTime": 163.6,
+        "endTime": 164
+      },
+      {
+        "word": "cannot",
+        "startTime": 164,
+        "endTime": 164.5
+      },
+      {
+        "word": "actually",
+        "startTime": 164.5,
+        "endTime": 165.12
+      },
+      {
+        "word": "perform.",
+        "startTime": 165.12,
+        "endTime": 165.82
+      }
+    ]
+  },
+  {
+    "text": "Aggregation requires statistical thinking.",
+    "startTime": 166.4,
+    "endTime": 168.96,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Aggregation",
+        "startTime": 166.4,
+        "endTime": 167.08
+      },
+      {
+        "word": "requires",
+        "startTime": 167.08,
+        "endTime": 167.58
+      },
+      {
+        "word": "statistical",
+        "startTime": 167.58,
+        "endTime": 168.36
+      },
+      {
+        "word": "thinking.",
+        "startTime": 168.36,
+        "endTime": 168.96
+      }
+    ]
+  },
+  {
+    "text": "If your test set has 200 items across 8 capability dimensions and 5 score levels, you need to understand which capability failures are rare but severe.",
+    "startTime": 169.52,
+    "endTime": 182,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "If",
+        "startTime": 169.52,
+        "endTime": 169.86
+      },
+      {
+        "word": "your",
+        "startTime": 169.86,
+        "endTime": 170.02
+      },
+      {
+        "word": "test",
+        "startTime": 170.02,
+        "endTime": 170.3
+      },
+      {
+        "word": "set",
+        "startTime": 170.3,
+        "endTime": 170.58
+      },
+      {
+        "word": "has",
+        "startTime": 170.58,
+        "endTime": 170.9
+      },
+      {
+        "word": "200",
+        "startTime": 170.9,
+        "endTime": 171.52
+      },
+      {
+        "word": "items",
+        "startTime": 171.52,
+        "endTime": 172.1
+      },
+      {
+        "word": "across",
+        "startTime": 172.1,
+        "endTime": 172.54
+      },
+      {
+        "word": "8",
+        "startTime": 172.54,
+        "endTime": 172.96
+      },
+      {
+        "word": "capability",
+        "startTime": 172.96,
+        "endTime": 173.6
+      },
+      {
+        "word": "dimensions",
+        "startTime": 173.6,
+        "endTime": 174.3
+      },
+      {
+        "word": "and",
+        "startTime": 174.3,
+        "endTime": 175.12
+      },
+      {
+        "word": "5",
+        "startTime": 175.12,
+        "endTime": 175.54
+      },
+      {
+        "word": "score",
+        "startTime": 175.54,
+        "endTime": 175.94
+      },
+      {
+        "word": "levels,",
+        "startTime": 175.94,
+        "endTime": 176.36
+      },
+      {
+        "word": "you",
+        "startTime": 176.36,
+        "endTime": 177.12
+      },
+      {
+        "word": "need",
+        "startTime": 177.12,
+        "endTime": 177.36
+      },
+      {
+        "word": "to",
+        "startTime": 177.36,
+        "endTime": 177.58
+      },
+      {
+        "word": "understand",
+        "startTime": 177.58,
+        "endTime": 178.18
+      },
+      {
+        "word": "which",
+        "startTime": 178.18,
+        "endTime": 178.56
+      },
+      {
+        "word": "capability",
+        "startTime": 178.56,
+        "endTime": 179.1
+      },
+      {
+        "word": "failures",
+        "startTime": 179.1,
+        "endTime": 179.92
+      },
+      {
+        "word": "are",
+        "startTime": 179.92,
+        "endTime": 180.38
+      },
+      {
+        "word": "rare",
+        "startTime": 180.38,
+        "endTime": 180.88
+      },
+      {
+        "word": "but",
+        "startTime": 180.88,
+        "endTime": 181.44
+      },
+      {
+        "word": "severe.",
+        "startTime": 181.44,
+        "endTime": 182
+      }
+    ]
+  },
+  {
+    "text": "A single statement about interest rates on a 1 million Kenyan shillings loan versus common but recoverable and awkward phrasing that a human would understand anyway.",
+    "startTime": 182.54,
+    "endTime": 194.88,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 182.54,
+        "endTime": 182.78
+      },
+      {
+        "word": "single",
+        "startTime": 182.78,
+        "endTime": 183.2
+      },
+      {
+        "word": "statement",
+        "startTime": 183.2,
+        "endTime": 183.86
+      },
+      {
+        "word": "about",
+        "startTime": 183.86,
+        "endTime": 184.34
+      },
+      {
+        "word": "interest",
+        "startTime": 184.34,
+        "endTime": 184.84
+      },
+      {
+        "word": "rates",
+        "startTime": 184.84,
+        "endTime": 185.42
+      },
+      {
+        "word": "on",
+        "startTime": 185.42,
+        "endTime": 185.88
+      },
+      {
+        "word": "a",
+        "startTime": 185.88,
+        "endTime": 186.02
+      },
+      {
+        "word": "1",
+        "startTime": 186.02,
+        "endTime": 186.34
+      },
+      {
+        "word": "million",
+        "startTime": 186.34,
+        "endTime": 186.68
+      },
+      {
+        "word": "Kenyan",
+        "startTime": 186.68,
+        "endTime": 187.2
+      },
+      {
+        "word": "shillings",
+        "startTime": 187.2,
+        "endTime": 187.74
+      },
+      {
+        "word": "loan",
+        "startTime": 187.74,
+        "endTime": 188.02
+      },
+      {
+        "word": "versus",
+        "startTime": 188.02,
+        "endTime": 188.96
+      },
+      {
+        "word": "common",
+        "startTime": 188.96,
+        "endTime": 189.52
+      },
+      {
+        "word": "but",
+        "startTime": 189.52,
+        "endTime": 189.92
+      },
+      {
+        "word": "recoverable",
+        "startTime": 189.92,
+        "endTime": 190.94
+      },
+      {
+        "word": "and",
+        "startTime": 190.94,
+        "endTime": 191.54
+      },
+      {
+        "word": "awkward",
+        "startTime": 191.54,
+        "endTime": 192
+      },
+      {
+        "word": "phrasing",
+        "startTime": 192,
+        "endTime": 192.52
+      },
+      {
+        "word": "that",
+        "startTime": 192.52,
+        "endTime": 192.78
+      },
+      {
+        "word": "a",
+        "startTime": 192.78,
+        "endTime": 192.94
+      },
+      {
+        "word": "human",
+        "startTime": 192.94,
+        "endTime": 193.28
+      },
+      {
+        "word": "would",
+        "startTime": 193.28,
+        "endTime": 193.52
+      },
+      {
+        "word": "understand",
+        "startTime": 193.52,
+        "endTime": 194.1
+      },
+      {
+        "word": "anyway.",
+        "startTime": 194.1,
+        "endTime": 194.88
+      }
+    ]
+  },
+  {
+    "text": "Severity waiting is built into the rubric not applied afterwards.",
+    "startTime": 195.42,
+    "endTime": 200.16,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Severity",
+        "startTime": 195.42,
+        "endTime": 196.02
+      },
+      {
+        "word": "waiting",
+        "startTime": 196.02,
+        "endTime": 196.48
+      },
+      {
+        "word": "is",
+        "startTime": 196.48,
+        "endTime": 196.9
+      },
+      {
+        "word": "built",
+        "startTime": 196.9,
+        "endTime": 197.16
+      },
+      {
+        "word": "into",
+        "startTime": 197.16,
+        "endTime": 197.58
+      },
+      {
+        "word": "the",
+        "startTime": 197.58,
+        "endTime": 197.82
+      },
+      {
+        "word": "rubric",
+        "startTime": 197.82,
+        "endTime": 198.4
+      },
+      {
+        "word": "not",
+        "startTime": 198.4,
+        "endTime": 198.88
+      },
+      {
+        "word": "applied",
+        "startTime": 198.88,
+        "endTime": 199.32
+      },
+      {
+        "word": "afterwards.",
+        "startTime": 199.32,
+        "endTime": 200.16
+      }
+    ]
+  },
+  {
+    "text": "Evaluation reports go to three audiences.",
+    "startTime": 200.78,
+    "endTime": 203.46,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Evaluation",
+        "startTime": 200.78,
+        "endTime": 201.22
+      },
+      {
+        "word": "reports",
+        "startTime": 201.22,
+        "endTime": 201.84
+      },
+      {
+        "word": "go",
+        "startTime": 201.84,
+        "endTime": 202.22
+      },
+      {
+        "word": "to",
+        "startTime": 202.22,
+        "endTime": 202.4
+      },
+      {
+        "word": "three",
+        "startTime": 202.4,
+        "endTime": 202.72
+      },
+      {
+        "word": "audiences.",
+        "startTime": 202.72,
+        "endTime": 203.46
+      }
+    ]
+  },
+  {
+    "text": "Model trainers need specific failure examples and patterns.",
+    "startTime": 204.16,
+    "endTime": 208.24,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Model",
+        "startTime": 204.16,
+        "endTime": 204.36
+      },
+      {
+        "word": "trainers",
+        "startTime": 204.36,
+        "endTime": 204.9
+      },
+      {
+        "word": "need",
+        "startTime": 204.9,
+        "endTime": 205.58
+      },
+      {
+        "word": "specific",
+        "startTime": 205.58,
+        "endTime": 206.08
+      },
+      {
+        "word": "failure",
+        "startTime": 206.08,
+        "endTime": 206.68
+      },
+      {
+        "word": "examples",
+        "startTime": 206.68,
+        "endTime": 207.3
+      },
+      {
+        "word": "and",
+        "startTime": 207.3,
+        "endTime": 207.8
+      },
+      {
+        "word": "patterns.",
+        "startTime": 207.8,
+        "endTime": 208.24
+      }
+    ]
+  },
+  {
+    "text": "Product managers need capability level pass slash fail rates and trend data and safety teams need severity weighted risk exposure.",
+    "startTime": 208.98,
+    "endTime": 219.84,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Product",
+        "startTime": 208.98,
+        "endTime": 209.16
+      },
+      {
+        "word": "managers",
+        "startTime": 209.16,
+        "endTime": 209.74
+      },
+      {
+        "word": "need",
+        "startTime": 209.74,
+        "endTime": 210.54
+      },
+      {
+        "word": "capability",
+        "startTime": 210.54,
+        "endTime": 211.14
+      },
+      {
+        "word": "level",
+        "startTime": 211.14,
+        "endTime": 211.76
+      },
+      {
+        "word": "pass",
+        "startTime": 211.76,
+        "endTime": 212.18
+      },
+      {
+        "word": "slash",
+        "startTime": 212.18,
+        "endTime": 213.1
+      },
+      {
+        "word": "fail",
+        "startTime": 213.1,
+        "endTime": 213.4
+      },
+      {
+        "word": "rates",
+        "startTime": 213.4,
+        "endTime": 213.86
+      },
+      {
+        "word": "and",
+        "startTime": 213.86,
+        "endTime": 214.52
+      },
+      {
+        "word": "trend",
+        "startTime": 214.52,
+        "endTime": 214.78
+      },
+      {
+        "word": "data",
+        "startTime": 214.78,
+        "endTime": 215.32
+      },
+      {
+        "word": "and",
+        "startTime": 215.32,
+        "endTime": 215.94
+      },
+      {
+        "word": "safety",
+        "startTime": 215.94,
+        "endTime": 216.34
+      },
+      {
+        "word": "teams",
+        "startTime": 216.34,
+        "endTime": 216.94
+      },
+      {
+        "word": "need",
+        "startTime": 216.94,
+        "endTime": 217.56
+      },
+      {
+        "word": "severity",
+        "startTime": 217.56,
+        "endTime": 218.02
+      },
+      {
+        "word": "weighted",
+        "startTime": 218.02,
+        "endTime": 218.74
+      },
+      {
+        "word": "risk",
+        "startTime": 218.74,
+        "endTime": 219.12
+      },
+      {
+        "word": "exposure.",
+        "startTime": 219.12,
+        "endTime": 219.84
+      }
+    ]
+  },
+  {
+    "text": "Write one report section for each audience.",
+    "startTime": 220.5,
+    "endTime": 223.02,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Write",
+        "startTime": 220.5,
+        "endTime": 220.64
+      },
+      {
+        "word": "one",
+        "startTime": 220.64,
+        "endTime": 220.94
+      },
+      {
+        "word": "report",
+        "startTime": 220.94,
+        "endTime": 221.3
+      },
+      {
+        "word": "section",
+        "startTime": 221.3,
+        "endTime": 221.8
+      },
+      {
+        "word": "for",
+        "startTime": 221.8,
+        "endTime": 222.1
+      },
+      {
+        "word": "each",
+        "startTime": 222.1,
+        "endTime": 222.38
+      },
+      {
+        "word": "audience.",
+        "startTime": 222.38,
+        "endTime": 223.02
+      }
+    ]
+  },
+  {
+    "text": "Inter annotator agreement IAA is the primary quality metric for evaluation frameworks.",
+    "startTime": 223.88,
+    "endTime": 230.64,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Inter",
+        "startTime": 223.88,
+        "endTime": 224.22
+      },
+      {
+        "word": "annotator",
+        "startTime": 224.22,
+        "endTime": 225.02
+      },
+      {
+        "word": "agreement",
+        "startTime": 225.02,
+        "endTime": 225.54
+      },
+      {
+        "word": "IAA",
+        "startTime": 225.54,
+        "endTime": 226.68
+      },
+      {
+        "word": "is",
+        "startTime": 226.68,
+        "endTime": 227.4
+      },
+      {
+        "word": "the",
+        "startTime": 227.4,
+        "endTime": 227.54
+      },
+      {
+        "word": "primary",
+        "startTime": 227.54,
+        "endTime": 227.88
+      },
+      {
+        "word": "quality",
+        "startTime": 227.88,
+        "endTime": 228.5
+      },
+      {
+        "word": "metric",
+        "startTime": 228.5,
+        "endTime": 228.94
+      },
+      {
+        "word": "for",
+        "startTime": 228.94,
+        "endTime": 229.22
+      },
+      {
+        "word": "evaluation",
+        "startTime": 229.22,
+        "endTime": 229.92
+      },
+      {
+        "word": "frameworks.",
+        "startTime": 229.92,
+        "endTime": 230.64
+      }
+    ]
+  },
+  {
+    "text": "If two independent evaluators apply your rubric to the same 50 responses and agree 85 % plus of the time, your rubric is well calibrated.",
+    "startTime": 231.44,
+    "endTime": 242.32,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "If",
+        "startTime": 231.44,
+        "endTime": 231.74
+      },
+      {
+        "word": "two",
+        "startTime": 231.74,
+        "endTime": 231.96
+      },
+      {
+        "word": "independent",
+        "startTime": 231.96,
+        "endTime": 232.56
+      },
+      {
+        "word": "evaluators",
+        "startTime": 232.56,
+        "endTime": 233.36
+      },
+      {
+        "word": "apply",
+        "startTime": 233.36,
+        "endTime": 233.76
+      },
+      {
+        "word": "your",
+        "startTime": 233.76,
+        "endTime": 234.02
+      },
+      {
+        "word": "rubric",
+        "startTime": 234.02,
+        "endTime": 234.48
+      },
+      {
+        "word": "to",
+        "startTime": 234.48,
+        "endTime": 234.68
+      },
+      {
+        "word": "the",
+        "startTime": 234.68,
+        "endTime": 234.82
+      },
+      {
+        "word": "same",
+        "startTime": 234.82,
+        "endTime": 235.12
+      },
+      {
+        "word": "50",
+        "startTime": 235.12,
+        "endTime": 235.66
+      },
+      {
+        "word": "responses",
+        "startTime": 235.66,
+        "endTime": 236.4
+      },
+      {
+        "word": "and",
+        "startTime": 236.4,
+        "endTime": 236.82
+      },
+      {
+        "word": "agree",
+        "startTime": 236.82,
+        "endTime": 237.16
+      },
+      {
+        "word": "85",
+        "startTime": 237.16,
+        "endTime": 237.82
+      },
+      {
+        "word": "%",
+        "startTime": 237.82,
+        "endTime": 238.42
+      },
+      {
+        "word": "plus",
+        "startTime": 238.42,
+        "endTime": 238.86
+      },
+      {
+        "word": "of",
+        "startTime": 238.86,
+        "endTime": 239.08
+      },
+      {
+        "word": "the",
+        "startTime": 239.08,
+        "endTime": 239.22
+      },
+      {
+        "word": "time,",
+        "startTime": 239.22,
+        "endTime": 239.6
+      },
+      {
+        "word": "your",
+        "startTime": 240.24,
+        "endTime": 240.34
+      },
+      {
+        "word": "rubric",
+        "startTime": 240.34,
+        "endTime": 240.86
+      },
+      {
+        "word": "is",
+        "startTime": 240.86,
+        "endTime": 241.22
+      },
+      {
+        "word": "well",
+        "startTime": 241.22,
+        "endTime": 241.48
+      },
+      {
+        "word": "calibrated.",
+        "startTime": 241.48,
+        "endTime": 242.32
+      }
+    ]
+  },
+  {
+    "text": "Below 75 % means the rubric is ambiguous and producing noise, not signal.",
+    "startTime": 243.04,
+    "endTime": 249.16,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Below",
+        "startTime": 243.04,
+        "endTime": 243.28
+      },
+      {
+        "word": "75",
+        "startTime": 243.28,
+        "endTime": 243.9
+      },
+      {
+        "word": "%",
+        "startTime": 243.9,
+        "endTime": 244.64
+      },
+      {
+        "word": "means",
+        "startTime": 244.64,
+        "endTime": 245.06
+      },
+      {
+        "word": "the",
+        "startTime": 245.06,
+        "endTime": 245.3
+      },
+      {
+        "word": "rubric",
+        "startTime": 245.3,
+        "endTime": 245.74
+      },
+      {
+        "word": "is",
+        "startTime": 245.74,
+        "endTime": 246.02
+      },
+      {
+        "word": "ambiguous",
+        "startTime": 246.02,
+        "endTime": 246.58
+      },
+      {
+        "word": "and",
+        "startTime": 246.58,
+        "endTime": 246.96
+      },
+      {
+        "word": "producing",
+        "startTime": 246.96,
+        "endTime": 247.5
+      },
+      {
+        "word": "noise,",
+        "startTime": 247.5,
+        "endTime": 247.94
+      },
+      {
+        "word": "not",
+        "startTime": 248.4,
+        "endTime": 248.62
+      },
+      {
+        "word": "signal.",
+        "startTime": 248.62,
+        "endTime": 249.16
+      }
+    ]
+  },
+  {
+    "text": "A rubric is not a description of quality.",
+    "startTime": 249.94,
+    "endTime": 253.02,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 249.94,
+        "endTime": 250.06
+      },
+      {
+        "word": "rubric",
+        "startTime": 250.06,
+        "endTime": 250.64
+      },
+      {
+        "word": "is",
+        "startTime": 250.64,
+        "endTime": 251.02
+      },
+      {
+        "word": "not",
+        "startTime": 251.02,
+        "endTime": 251.26
+      },
+      {
+        "word": "a",
+        "startTime": 251.26,
+        "endTime": 251.46
+      },
+      {
+        "word": "description",
+        "startTime": 251.46,
+        "endTime": 252.06
+      },
+      {
+        "word": "of",
+        "startTime": 252.06,
+        "endTime": 252.48
+      },
+      {
+        "word": "quality.",
+        "startTime": 252.48,
+        "endTime": 253.02
+      }
+    ]
+  },
+  {
+    "text": "It is a decision procedure.",
+    "startTime": 253.72,
+    "endTime": 255.68,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "It",
+        "startTime": 253.72,
+        "endTime": 253.96
+      },
+      {
+        "word": "is",
+        "startTime": 253.96,
+        "endTime": 254.16
+      },
+      {
+        "word": "a",
+        "startTime": 254.16,
+        "endTime": 254.28
+      },
+      {
+        "word": "decision",
+        "startTime": 254.28,
+        "endTime": 254.9
+      },
+      {
+        "word": "procedure.",
+        "startTime": 254.9,
+        "endTime": 255.68
+      }
+    ]
+  },
+  {
+    "text": "Anyone applying it should reach the same answer because the rubric eliminates their personal judgment, not because they agree with you.",
+    "startTime": 256.48,
+    "endTime": 265.76,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Anyone",
+        "startTime": 256.48,
+        "endTime": 256.88
+      },
+      {
+        "word": "applying",
+        "startTime": 256.88,
+        "endTime": 257.54
+      },
+      {
+        "word": "it",
+        "startTime": 257.54,
+        "endTime": 257.9
+      },
+      {
+        "word": "should",
+        "startTime": 257.9,
+        "endTime": 258.2
+      },
+      {
+        "word": "reach",
+        "startTime": 258.2,
+        "endTime": 258.44
+      },
+      {
+        "word": "the",
+        "startTime": 258.44,
+        "endTime": 258.72
+      },
+      {
+        "word": "same",
+        "startTime": 258.72,
+        "endTime": 259.14
+      },
+      {
+        "word": "answer",
+        "startTime": 259.14,
+        "endTime": 259.66
+      },
+      {
+        "word": "because",
+        "startTime": 259.66,
+        "endTime": 260.26
+      },
+      {
+        "word": "the",
+        "startTime": 260.26,
+        "endTime": 260.5
+      },
+      {
+        "word": "rubric",
+        "startTime": 260.5,
+        "endTime": 261
+      },
+      {
+        "word": "eliminates",
+        "startTime": 261,
+        "endTime": 261.72
+      },
+      {
+        "word": "their",
+        "startTime": 261.72,
+        "endTime": 262.14
+      },
+      {
+        "word": "personal",
+        "startTime": 262.14,
+        "endTime": 262.64
+      },
+      {
+        "word": "judgment,",
+        "startTime": 262.64,
+        "endTime": 263.26
+      },
+      {
+        "word": "not",
+        "startTime": 263.68,
+        "endTime": 264.12
+      },
+      {
+        "word": "because",
+        "startTime": 264.12,
+        "endTime": 264.52
+      },
+      {
+        "word": "they",
+        "startTime": 264.52,
+        "endTime": 264.84
+      },
+      {
+        "word": "agree",
+        "startTime": 264.84,
+        "endTime": 265.16
+      },
+      {
+        "word": "with",
+        "startTime": 265.16,
+        "endTime": 265.48
+      },
+      {
+        "word": "you.",
+        "startTime": 265.48,
+        "endTime": 265.76
+      }
+    ]
+  },
+  {
+    "text": "Remember this.",
+    "startTime": 266.12,
+    "endTime": 267.14,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Remember",
+        "startTime": 266.12,
+        "endTime": 266.62
+      },
+      {
+        "word": "this.",
+        "startTime": 266.62,
+        "endTime": 267.14
+      }
+    ]
+  },
+  {
+    "text": "If two reasonable people applying your rubric to the same response would disagree, rewrite the rubric.",
+    "startTime": 267.54,
+    "endTime": 274.78,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "If",
+        "startTime": 267.54,
+        "endTime": 267.72
+      },
+      {
+        "word": "two",
+        "startTime": 267.72,
+        "endTime": 268.02
+      },
+      {
+        "word": "reasonable",
+        "startTime": 268.02,
+        "endTime": 268.5
+      },
+      {
+        "word": "people",
+        "startTime": 268.5,
+        "endTime": 269.18
+      },
+      {
+        "word": "applying",
+        "startTime": 269.18,
+        "endTime": 269.78
+      },
+      {
+        "word": "your",
+        "startTime": 269.78,
+        "endTime": 270.08
+      },
+      {
+        "word": "rubric",
+        "startTime": 270.08,
+        "endTime": 270.7
+      },
+      {
+        "word": "to",
+        "startTime": 270.7,
+        "endTime": 270.88
+      },
+      {
+        "word": "the",
+        "startTime": 270.88,
+        "endTime": 271.04
+      },
+      {
+        "word": "same",
+        "startTime": 271.04,
+        "endTime": 271.28
+      },
+      {
+        "word": "response",
+        "startTime": 271.28,
+        "endTime": 271.86
+      },
+      {
+        "word": "would",
+        "startTime": 271.86,
+        "endTime": 272.24
+      },
+      {
+        "word": "disagree,",
+        "startTime": 272.24,
+        "endTime": 272.9
+      },
+      {
+        "word": "rewrite",
+        "startTime": 273.58,
+        "endTime": 273.86
+      },
+      {
+        "word": "the",
+        "startTime": 273.86,
+        "endTime": 274.16
+      },
+      {
+        "word": "rubric.",
+        "startTime": 274.16,
+        "endTime": 274.78
+      }
+    ]
+  },
+  {
+    "text": "The rubric is broken, not the evaluators.",
+    "startTime": 275.12,
+    "endTime": 278.54,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 275.12,
+        "endTime": 275.36
+      },
+      {
+        "word": "rubric",
+        "startTime": 275.36,
+        "endTime": 275.86
+      },
+      {
+        "word": "is",
+        "startTime": 275.86,
+        "endTime": 276.1
+      },
+      {
+        "word": "broken,",
+        "startTime": 276.1,
+        "endTime": 276.62
+      },
+      {
+        "word": "not",
+        "startTime": 277.02,
+        "endTime": 277.24
+      },
+      {
+        "word": "the",
+        "startTime": 277.24,
+        "endTime": 277.48
+      },
+      {
+        "word": "evaluators.",
+        "startTime": 277.48,
+        "endTime": 278.54
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 279.06,
+    "endTime": 284.1,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 279.06,
+        "endTime": 279.44
+      },
+      {
+        "word": "what",
+        "startTime": 279.44,
+        "endTime": 279.82
+      },
+      {
+        "word": "you",
+        "startTime": 279.82,
+        "endTime": 280.02
+      },
+      {
+        "word": "learn",
+        "startTime": 280.02,
+        "endTime": 280.36
+      },
+      {
+        "word": "in",
+        "startTime": 280.36,
+        "endTime": 280.6
+      },
+      {
+        "word": "this",
+        "startTime": 280.6,
+        "endTime": 280.84
+      },
+      {
+        "word": "lesson",
+        "startTime": 280.84,
+        "endTime": 281.32
+      },
+      {
+        "word": "and",
+        "startTime": 281.32,
+        "endTime": 281.92
+      },
+      {
+        "word": "you",
+        "startTime": 281.92,
+        "endTime": 282.1
+      },
+      {
+        "word": "will",
+        "startTime": 282.1,
+        "endTime": 282.22
+      },
+      {
+        "word": "see",
+        "startTime": 282.22,
+        "endTime": 282.5
+      },
+      {
+        "word": "results",
+        "startTime": 282.5,
+        "endTime": 283.02
+      },
+      {
+        "word": "immediately.",
+        "startTime": 283.02,
+        "endTime": 284.1
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 284.72,
+    "endTime": 286.06,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 284.72,
+        "endTime": 284.8
+      },
+      {
+        "word": "skills",
+        "startTime": 284.8,
+        "endTime": 285.32
+      },
+      {
+        "word": "bear",
+        "startTime": 285.32,
+        "endTime": 285.62
+      },
+      {
+        "word": "fruit.",
+        "startTime": 285.62,
+        "endTime": 286.06
+      }
+    ]
+  }
+]

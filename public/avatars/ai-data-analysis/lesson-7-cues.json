@@ -1,0 +1,513 @@
+[
+  {
+    "text": "This project is the proof that you can take raw business data and turn it into a decision that a CEO would act on.",
+    "startTime": 0,
+    "endTime": 6.6,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "This",
+        "startTime": 0,
+        "endTime": 0.28
+      },
+      {
+        "word": "project",
+        "startTime": 0.28,
+        "endTime": 0.68
+      },
+      {
+        "word": "is",
+        "startTime": 0.68,
+        "endTime": 0.9
+      },
+      {
+        "word": "the",
+        "startTime": 0.9,
+        "endTime": 1.04
+      },
+      {
+        "word": "proof",
+        "startTime": 1.04,
+        "endTime": 1.26
+      },
+      {
+        "word": "that",
+        "startTime": 1.26,
+        "endTime": 1.46
+      },
+      {
+        "word": "you",
+        "startTime": 1.46,
+        "endTime": 1.62
+      },
+      {
+        "word": "can",
+        "startTime": 1.62,
+        "endTime": 1.74
+      },
+      {
+        "word": "take",
+        "startTime": 1.74,
+        "endTime": 2.06
+      },
+      {
+        "word": "raw",
+        "startTime": 2.06,
+        "endTime": 2.34
+      },
+      {
+        "word": "business",
+        "startTime": 2.34,
+        "endTime": 2.68
+      },
+      {
+        "word": "data",
+        "startTime": 2.68,
+        "endTime": 3.16
+      },
+      {
+        "word": "and",
+        "startTime": 3.16,
+        "endTime": 3.82
+      },
+      {
+        "word": "turn",
+        "startTime": 3.82,
+        "endTime": 4.08
+      },
+      {
+        "word": "it",
+        "startTime": 4.08,
+        "endTime": 4.28
+      },
+      {
+        "word": "into",
+        "startTime": 4.28,
+        "endTime": 4.5
+      },
+      {
+        "word": "a",
+        "startTime": 4.5,
+        "endTime": 4.6
+      },
+      {
+        "word": "decision",
+        "startTime": 4.6,
+        "endTime": 5
+      },
+      {
+        "word": "that",
+        "startTime": 5,
+        "endTime": 5.22
+      },
+      {
+        "word": "a",
+        "startTime": 5.22,
+        "endTime": 5.38
+      },
+      {
+        "word": "CEO",
+        "startTime": 5.38,
+        "endTime": 5.78
+      },
+      {
+        "word": "would",
+        "startTime": 5.78,
+        "endTime": 6.1
+      },
+      {
+        "word": "act",
+        "startTime": 6.1,
+        "endTime": 6.38
+      },
+      {
+        "word": "on.",
+        "startTime": 6.38,
+        "endTime": 6.6
+      }
+    ]
+  },
+  {
+    "text": "Every data analytics job interview ends with a question that is a version of this.",
+    "startTime": 7.24,
+    "endTime": 11.38,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Every",
+        "startTime": 7.24,
+        "endTime": 7.62
+      },
+      {
+        "word": "data",
+        "startTime": 7.62,
+        "endTime": 7.94
+      },
+      {
+        "word": "analytics",
+        "startTime": 7.94,
+        "endTime": 8.3
+      },
+      {
+        "word": "job",
+        "startTime": 8.3,
+        "endTime": 8.78
+      },
+      {
+        "word": "interview",
+        "startTime": 8.78,
+        "endTime": 9.26
+      },
+      {
+        "word": "ends",
+        "startTime": 9.26,
+        "endTime": 9.6
+      },
+      {
+        "word": "with",
+        "startTime": 9.6,
+        "endTime": 9.76
+      },
+      {
+        "word": "a",
+        "startTime": 9.76,
+        "endTime": 9.88
+      },
+      {
+        "word": "question",
+        "startTime": 9.88,
+        "endTime": 10.24
+      },
+      {
+        "word": "that",
+        "startTime": 10.24,
+        "endTime": 10.42
+      },
+      {
+        "word": "is",
+        "startTime": 10.42,
+        "endTime": 10.52
+      },
+      {
+        "word": "a",
+        "startTime": 10.52,
+        "endTime": 10.64
+      },
+      {
+        "word": "version",
+        "startTime": 10.64,
+        "endTime": 10.96
+      },
+      {
+        "word": "of",
+        "startTime": 10.96,
+        "endTime": 11.16
+      },
+      {
+        "word": "this.",
+        "startTime": 11.16,
+        "endTime": 11.38
+      }
+    ]
+  },
+  {
+    "text": "Given this data, what would you recommend?",
+    "startTime": 12.08,
+    "endTime": 14.28,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Given",
+        "startTime": 12.08,
+        "endTime": 12.34
+      },
+      {
+        "word": "this",
+        "startTime": 12.34,
+        "endTime": 12.62
+      },
+      {
+        "word": "data,",
+        "startTime": 12.62,
+        "endTime": 13
+      },
+      {
+        "word": "what",
+        "startTime": 13.4,
+        "endTime": 13.6
+      },
+      {
+        "word": "would",
+        "startTime": 13.6,
+        "endTime": 13.74
+      },
+      {
+        "word": "you",
+        "startTime": 13.74,
+        "endTime": 13.86
+      },
+      {
+        "word": "recommend?",
+        "startTime": 13.86,
+        "endTime": 14.28
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, full business intelligence project for savanna foods limited, a fictional Kenyan FMCG company.",
+    "startTime": 15.02,
+    "endTime": 22.3,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 15.02,
+        "endTime": 15.22
+      },
+      {
+        "word": "this",
+        "startTime": 15.22,
+        "endTime": 15.42
+      },
+      {
+        "word": "lesson,",
+        "startTime": 15.42,
+        "endTime": 15.8
+      },
+      {
+        "word": "full",
+        "startTime": 16.32,
+        "endTime": 16.6
+      },
+      {
+        "word": "business",
+        "startTime": 16.6,
+        "endTime": 16.98
+      },
+      {
+        "word": "intelligence",
+        "startTime": 16.98,
+        "endTime": 17.5
+      },
+      {
+        "word": "project",
+        "startTime": 17.5,
+        "endTime": 17.96
+      },
+      {
+        "word": "for",
+        "startTime": 17.96,
+        "endTime": 18.24
+      },
+      {
+        "word": "savanna",
+        "startTime": 18.24,
+        "endTime": 18.7
+      },
+      {
+        "word": "foods",
+        "startTime": 18.7,
+        "endTime": 18.96
+      },
+      {
+        "word": "limited,",
+        "startTime": 18.96,
+        "endTime": 19.5
+      },
+      {
+        "word": "a",
+        "startTime": 20,
+        "endTime": 20.08
+      },
+      {
+        "word": "fictional",
+        "startTime": 20.08,
+        "endTime": 20.48
+      },
+      {
+        "word": "Kenyan",
+        "startTime": 20.48,
+        "endTime": 20.98
+      },
+      {
+        "word": "FMCG",
+        "startTime": 20.98,
+        "endTime": 21.84
+      },
+      {
+        "word": "company.",
+        "startTime": 21.84,
+        "endTime": 22.3
+      }
+    ]
+  },
+  {
+    "text": "You will clean, analyze, find patterns, visualize and deliver an executive recommendation.",
+    "startTime": 22.86,
+    "endTime": 29.08,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 22.86,
+        "endTime": 23.1
+      },
+      {
+        "word": "will",
+        "startTime": 23.1,
+        "endTime": 23.2
+      },
+      {
+        "word": "clean,",
+        "startTime": 23.2,
+        "endTime": 23.52
+      },
+      {
+        "word": "analyze,",
+        "startTime": 24.06,
+        "endTime": 24.44
+      },
+      {
+        "word": "find",
+        "startTime": 24.94,
+        "endTime": 25.1
+      },
+      {
+        "word": "patterns,",
+        "startTime": 25.1,
+        "endTime": 25.58
+      },
+      {
+        "word": "visualize",
+        "startTime": 25.58,
+        "endTime": 26.6
+      },
+      {
+        "word": "and",
+        "startTime": 26.6,
+        "endTime": 27.22
+      },
+      {
+        "word": "deliver",
+        "startTime": 27.22,
+        "endTime": 27.54
+      },
+      {
+        "word": "an",
+        "startTime": 27.54,
+        "endTime": 27.78
+      },
+      {
+        "word": "executive",
+        "startTime": 27.78,
+        "endTime": 28.28
+      },
+      {
+        "word": "recommendation.",
+        "startTime": 28.28,
+        "endTime": 29.08
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 29.8,
+    "endTime": 33.5,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 29.8,
+        "endTime": 30.1
+      },
+      {
+        "word": "what",
+        "startTime": 30.1,
+        "endTime": 30.34
+      },
+      {
+        "word": "you",
+        "startTime": 30.34,
+        "endTime": 30.5
+      },
+      {
+        "word": "learn",
+        "startTime": 30.5,
+        "endTime": 30.7
+      },
+      {
+        "word": "in",
+        "startTime": 30.7,
+        "endTime": 30.86
+      },
+      {
+        "word": "this",
+        "startTime": 30.86,
+        "endTime": 31.08
+      },
+      {
+        "word": "lesson",
+        "startTime": 31.08,
+        "endTime": 31.44
+      },
+      {
+        "word": "and",
+        "startTime": 31.44,
+        "endTime": 32.02
+      },
+      {
+        "word": "you",
+        "startTime": 32.02,
+        "endTime": 32.16
+      },
+      {
+        "word": "will",
+        "startTime": 32.16,
+        "endTime": 32.26
+      },
+      {
+        "word": "see",
+        "startTime": 32.26,
+        "endTime": 32.48
+      },
+      {
+        "word": "results",
+        "startTime": 32.48,
+        "endTime": 32.84
+      },
+      {
+        "word": "immediately.",
+        "startTime": 32.84,
+        "endTime": 33.5
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 34.1,
+    "endTime": 35.24,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 34.1,
+        "endTime": 34.22
+      },
+      {
+        "word": "skills",
+        "startTime": 34.22,
+        "endTime": 34.64
+      },
+      {
+        "word": "bear",
+        "startTime": 34.64,
+        "endTime": 34.9
+      },
+      {
+        "word": "fruit.",
+        "startTime": 34.9,
+        "endTime": 35.24
+      }
+    ]
+  }
+]

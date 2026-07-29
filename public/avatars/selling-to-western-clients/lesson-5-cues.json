@@ -1,0 +1,425 @@
+[
+  {
+    "text": "The gap between I want Western clients and I have Western clients is a specific set of assets and actions.",
+    "startTime": 0,
+    "endTime": 6.9,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 0,
+        "endTime": 0.24
+      },
+      {
+        "word": "gap",
+        "startTime": 0.24,
+        "endTime": 0.44
+      },
+      {
+        "word": "between",
+        "startTime": 0.44,
+        "endTime": 0.84
+      },
+      {
+        "word": "I",
+        "startTime": 0.84,
+        "endTime": 1.04
+      },
+      {
+        "word": "want",
+        "startTime": 1.04,
+        "endTime": 1.28
+      },
+      {
+        "word": "Western",
+        "startTime": 1.28,
+        "endTime": 1.68
+      },
+      {
+        "word": "clients",
+        "startTime": 1.68,
+        "endTime": 2.08
+      },
+      {
+        "word": "and",
+        "startTime": 2.08,
+        "endTime": 2.84
+      },
+      {
+        "word": "I",
+        "startTime": 2.84,
+        "endTime": 2.96
+      },
+      {
+        "word": "have",
+        "startTime": 2.96,
+        "endTime": 3.14
+      },
+      {
+        "word": "Western",
+        "startTime": 3.14,
+        "endTime": 3.5
+      },
+      {
+        "word": "clients",
+        "startTime": 3.5,
+        "endTime": 4
+      },
+      {
+        "word": "is",
+        "startTime": 4,
+        "endTime": 4.64
+      },
+      {
+        "word": "a",
+        "startTime": 4.64,
+        "endTime": 4.78
+      },
+      {
+        "word": "specific",
+        "startTime": 4.78,
+        "endTime": 5.2
+      },
+      {
+        "word": "set",
+        "startTime": 5.2,
+        "endTime": 5.58
+      },
+      {
+        "word": "of",
+        "startTime": 5.58,
+        "endTime": 5.8
+      },
+      {
+        "word": "assets",
+        "startTime": 5.8,
+        "endTime": 6.08
+      },
+      {
+        "word": "and",
+        "startTime": 6.08,
+        "endTime": 6.46
+      },
+      {
+        "word": "actions.",
+        "startTime": 6.46,
+        "endTime": 6.9
+      }
+    ]
+  },
+  {
+    "text": "This project builds those assets.",
+    "startTime": 7.7,
+    "endTime": 9.4,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "This",
+        "startTime": 7.7,
+        "endTime": 7.86
+      },
+      {
+        "word": "project",
+        "startTime": 7.86,
+        "endTime": 8.28
+      },
+      {
+        "word": "builds",
+        "startTime": 8.28,
+        "endTime": 8.7
+      },
+      {
+        "word": "those",
+        "startTime": 8.7,
+        "endTime": 8.98
+      },
+      {
+        "word": "assets.",
+        "startTime": 8.98,
+        "endTime": 9.4
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, this project produces three portfolio -ready assets, a LinkedIn profile section positioned for Western AI buyers, a cold outreach sequence and an international proposal template.",
+    "startTime": 10.2,
+    "endTime": 22.78,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 10.2,
+        "endTime": 10.34
+      },
+      {
+        "word": "this",
+        "startTime": 10.34,
+        "endTime": 10.56
+      },
+      {
+        "word": "lesson,",
+        "startTime": 10.56,
+        "endTime": 10.94
+      },
+      {
+        "word": "this",
+        "startTime": 11.62,
+        "endTime": 11.86
+      },
+      {
+        "word": "project",
+        "startTime": 11.86,
+        "endTime": 12.28
+      },
+      {
+        "word": "produces",
+        "startTime": 12.28,
+        "endTime": 12.72
+      },
+      {
+        "word": "three",
+        "startTime": 12.72,
+        "endTime": 13.1
+      },
+      {
+        "word": "portfolio",
+        "startTime": 13.1,
+        "endTime": 13.62
+      },
+      {
+        "word": "-ready",
+        "startTime": 13.62,
+        "endTime": 13.94
+      },
+      {
+        "word": "assets,",
+        "startTime": 13.94,
+        "endTime": 14.52
+      },
+      {
+        "word": "a",
+        "startTime": 15.16,
+        "endTime": 15.24
+      },
+      {
+        "word": "LinkedIn",
+        "startTime": 15.24,
+        "endTime": 15.48
+      },
+      {
+        "word": "profile",
+        "startTime": 15.48,
+        "endTime": 15.94
+      },
+      {
+        "word": "section",
+        "startTime": 15.94,
+        "endTime": 16.42
+      },
+      {
+        "word": "positioned",
+        "startTime": 16.42,
+        "endTime": 16.84
+      },
+      {
+        "word": "for",
+        "startTime": 16.84,
+        "endTime": 17.2
+      },
+      {
+        "word": "Western",
+        "startTime": 17.2,
+        "endTime": 17.56
+      },
+      {
+        "word": "AI",
+        "startTime": 17.56,
+        "endTime": 17.86
+      },
+      {
+        "word": "buyers,",
+        "startTime": 17.86,
+        "endTime": 18.4
+      },
+      {
+        "word": "a",
+        "startTime": 19,
+        "endTime": 19.14
+      },
+      {
+        "word": "cold",
+        "startTime": 19.14,
+        "endTime": 19.4
+      },
+      {
+        "word": "outreach",
+        "startTime": 19.4,
+        "endTime": 19.84
+      },
+      {
+        "word": "sequence",
+        "startTime": 19.84,
+        "endTime": 20.3
+      },
+      {
+        "word": "and",
+        "startTime": 20.3,
+        "endTime": 21.06
+      },
+      {
+        "word": "an",
+        "startTime": 21.06,
+        "endTime": 21.22
+      },
+      {
+        "word": "international",
+        "startTime": 21.22,
+        "endTime": 21.76
+      },
+      {
+        "word": "proposal",
+        "startTime": 21.76,
+        "endTime": 22.3
+      },
+      {
+        "word": "template.",
+        "startTime": 22.3,
+        "endTime": 22.78
+      }
+    ]
+  },
+  {
+    "text": "These assets are immediately deployable.",
+    "startTime": 23.46,
+    "endTime": 25.6,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "These",
+        "startTime": 23.46,
+        "endTime": 23.68
+      },
+      {
+        "word": "assets",
+        "startTime": 23.68,
+        "endTime": 24.1
+      },
+      {
+        "word": "are",
+        "startTime": 24.1,
+        "endTime": 24.34
+      },
+      {
+        "word": "immediately",
+        "startTime": 24.34,
+        "endTime": 24.76
+      },
+      {
+        "word": "deployable.",
+        "startTime": 24.76,
+        "endTime": 25.6
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 25.6,
+    "endTime": 30.26,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 25.6,
+        "endTime": 26.62
+      },
+      {
+        "word": "what",
+        "startTime": 26.62,
+        "endTime": 26.86
+      },
+      {
+        "word": "you",
+        "startTime": 26.86,
+        "endTime": 27.02
+      },
+      {
+        "word": "learn",
+        "startTime": 27.02,
+        "endTime": 27.24
+      },
+      {
+        "word": "in",
+        "startTime": 27.24,
+        "endTime": 27.4
+      },
+      {
+        "word": "this",
+        "startTime": 27.4,
+        "endTime": 27.6
+      },
+      {
+        "word": "lesson",
+        "startTime": 27.6,
+        "endTime": 27.96
+      },
+      {
+        "word": "and",
+        "startTime": 27.96,
+        "endTime": 28.66
+      },
+      {
+        "word": "you",
+        "startTime": 28.66,
+        "endTime": 28.84
+      },
+      {
+        "word": "will",
+        "startTime": 28.84,
+        "endTime": 28.94
+      },
+      {
+        "word": "see",
+        "startTime": 28.94,
+        "endTime": 29.16
+      },
+      {
+        "word": "results",
+        "startTime": 29.16,
+        "endTime": 29.54
+      },
+      {
+        "word": "immediately.",
+        "startTime": 29.54,
+        "endTime": 30.26
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 30.78,
+    "endTime": 32.2,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 30.78,
+        "endTime": 31.2
+      },
+      {
+        "word": "skills",
+        "startTime": 31.2,
+        "endTime": 31.6
+      },
+      {
+        "word": "bear",
+        "startTime": 31.6,
+        "endTime": 31.86
+      },
+      {
+        "word": "fruit.",
+        "startTime": 31.86,
+        "endTime": 32.2
+      }
+    ]
+  }
+]

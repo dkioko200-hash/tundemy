@@ -1,0 +1,1047 @@
+[
+  {
+    "text": "Every hour you spend building a prompt library saves 10 hours in the future.",
+    "startTime": 0,
+    "endTime": 5.92,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "Every",
+        "startTime": 0,
+        "endTime": 0.5
+      },
+      {
+        "word": "hour",
+        "startTime": 0.5,
+        "endTime": 0.94
+      },
+      {
+        "word": "you",
+        "startTime": 0.94,
+        "endTime": 1.16
+      },
+      {
+        "word": "spend",
+        "startTime": 1.16,
+        "endTime": 1.46
+      },
+      {
+        "word": "building",
+        "startTime": 1.46,
+        "endTime": 1.98
+      },
+      {
+        "word": "a",
+        "startTime": 1.98,
+        "endTime": 2.18
+      },
+      {
+        "word": "prompt",
+        "startTime": 2.18,
+        "endTime": 2.4
+      },
+      {
+        "word": "library",
+        "startTime": 2.4,
+        "endTime": 3.04
+      },
+      {
+        "word": "saves",
+        "startTime": 3.04,
+        "endTime": 3.82
+      },
+      {
+        "word": "10",
+        "startTime": 3.82,
+        "endTime": 4.46
+      },
+      {
+        "word": "hours",
+        "startTime": 4.46,
+        "endTime": 4.88
+      },
+      {
+        "word": "in",
+        "startTime": 4.88,
+        "endTime": 5.24
+      },
+      {
+        "word": "the",
+        "startTime": 5.24,
+        "endTime": 5.38
+      },
+      {
+        "word": "future.",
+        "startTime": 5.38,
+        "endTime": 5.92
+      }
+    ]
+  },
+  {
+    "text": "The best professionals do not start from scratch, they remix.",
+    "startTime": 7.14,
+    "endTime": 11.46,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 7.14,
+        "endTime": 7.24
+      },
+      {
+        "word": "best",
+        "startTime": 7.24,
+        "endTime": 7.54
+      },
+      {
+        "word": "professionals",
+        "startTime": 7.54,
+        "endTime": 8.24
+      },
+      {
+        "word": "do",
+        "startTime": 8.24,
+        "endTime": 8.56
+      },
+      {
+        "word": "not",
+        "startTime": 8.56,
+        "endTime": 8.86
+      },
+      {
+        "word": "start",
+        "startTime": 8.86,
+        "endTime": 9.24
+      },
+      {
+        "word": "from",
+        "startTime": 9.24,
+        "endTime": 9.58
+      },
+      {
+        "word": "scratch,",
+        "startTime": 9.58,
+        "endTime": 10.2
+      },
+      {
+        "word": "they",
+        "startTime": 10.48,
+        "endTime": 10.86
+      },
+      {
+        "word": "remix.",
+        "startTime": 10.86,
+        "endTime": 11.46
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, how to structure a reusable prompt library, categories, variables, version control and team access.",
+    "startTime": 12.98,
+    "endTime": 24.34,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 12.98,
+        "endTime": 13.26
+      },
+      {
+        "word": "this",
+        "startTime": 13.26,
+        "endTime": 13.5
+      },
+      {
+        "word": "lesson,",
+        "startTime": 13.5,
+        "endTime": 14.04
+      },
+      {
+        "word": "how",
+        "startTime": 14.68,
+        "endTime": 14.82
+      },
+      {
+        "word": "to",
+        "startTime": 14.82,
+        "endTime": 15.04
+      },
+      {
+        "word": "structure",
+        "startTime": 15.04,
+        "endTime": 15.66
+      },
+      {
+        "word": "a",
+        "startTime": 15.66,
+        "endTime": 16
+      },
+      {
+        "word": "reusable",
+        "startTime": 16,
+        "endTime": 16.64
+      },
+      {
+        "word": "prompt",
+        "startTime": 16.64,
+        "endTime": 17.26
+      },
+      {
+        "word": "library,",
+        "startTime": 17.26,
+        "endTime": 18.08
+      },
+      {
+        "word": "categories,",
+        "startTime": 18.6,
+        "endTime": 19.38
+      },
+      {
+        "word": "variables,",
+        "startTime": 20.18,
+        "endTime": 20.72
+      },
+      {
+        "word": "version",
+        "startTime": 21.48,
+        "endTime": 21.8
+      },
+      {
+        "word": "control",
+        "startTime": 21.8,
+        "endTime": 22.42
+      },
+      {
+        "word": "and",
+        "startTime": 22.42,
+        "endTime": 23.12
+      },
+      {
+        "word": "team",
+        "startTime": 23.12,
+        "endTime": 23.62
+      },
+      {
+        "word": "access.",
+        "startTime": 23.62,
+        "endTime": 24.34
+      }
+    ]
+  },
+  {
+    "text": "We build a template system with placeholders that works for any team size.",
+    "startTime": 25.12,
+    "endTime": 31.24,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "We",
+        "startTime": 25.12,
+        "endTime": 25.86
+      },
+      {
+        "word": "build",
+        "startTime": 25.86,
+        "endTime": 26.18
+      },
+      {
+        "word": "a",
+        "startTime": 26.18,
+        "endTime": 26.36
+      },
+      {
+        "word": "template",
+        "startTime": 26.36,
+        "endTime": 26.76
+      },
+      {
+        "word": "system",
+        "startTime": 26.76,
+        "endTime": 27.26
+      },
+      {
+        "word": "with",
+        "startTime": 27.26,
+        "endTime": 27.46
+      },
+      {
+        "word": "placeholders",
+        "startTime": 27.46,
+        "endTime": 28.38
+      },
+      {
+        "word": "that",
+        "startTime": 28.38,
+        "endTime": 28.78
+      },
+      {
+        "word": "works",
+        "startTime": 28.78,
+        "endTime": 29.2
+      },
+      {
+        "word": "for",
+        "startTime": 29.2,
+        "endTime": 29.52
+      },
+      {
+        "word": "any",
+        "startTime": 29.52,
+        "endTime": 30.1
+      },
+      {
+        "word": "team",
+        "startTime": 30.1,
+        "endTime": 30.72
+      },
+      {
+        "word": "size.",
+        "startTime": 30.72,
+        "endTime": 31.24
+      }
+    ]
+  },
+  {
+    "text": "A prompt library is a structured collection of tested, reusable prompts organized by use case.",
+    "startTime": 32.54,
+    "endTime": 40.08,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 32.54,
+        "endTime": 32.88
+      },
+      {
+        "word": "prompt",
+        "startTime": 32.88,
+        "endTime": 33.22
+      },
+      {
+        "word": "library",
+        "startTime": 33.22,
+        "endTime": 33.82
+      },
+      {
+        "word": "is",
+        "startTime": 33.82,
+        "endTime": 34.16
+      },
+      {
+        "word": "a",
+        "startTime": 34.16,
+        "endTime": 34.24
+      },
+      {
+        "word": "structured",
+        "startTime": 34.24,
+        "endTime": 34.78
+      },
+      {
+        "word": "collection",
+        "startTime": 34.78,
+        "endTime": 35.32
+      },
+      {
+        "word": "of",
+        "startTime": 35.32,
+        "endTime": 35.62
+      },
+      {
+        "word": "tested,",
+        "startTime": 35.62,
+        "endTime": 36.16
+      },
+      {
+        "word": "reusable",
+        "startTime": 36.68,
+        "endTime": 37.22
+      },
+      {
+        "word": "prompts",
+        "startTime": 37.22,
+        "endTime": 37.84
+      },
+      {
+        "word": "organized",
+        "startTime": 37.84,
+        "endTime": 38.88
+      },
+      {
+        "word": "by",
+        "startTime": 38.88,
+        "endTime": 39.36
+      },
+      {
+        "word": "use",
+        "startTime": 39.36,
+        "endTime": 39.72
+      },
+      {
+        "word": "case.",
+        "startTime": 39.72,
+        "endTime": 40.08
+      }
+    ]
+  },
+  {
+    "text": "The difference between a prompt library and a folder of text files is versioning, testing and organization.",
+    "startTime": 41.1,
+    "endTime": 49.24,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 41.1,
+        "endTime": 41.36
+      },
+      {
+        "word": "difference",
+        "startTime": 41.36,
+        "endTime": 41.7
+      },
+      {
+        "word": "between",
+        "startTime": 41.7,
+        "endTime": 42.14
+      },
+      {
+        "word": "a",
+        "startTime": 42.14,
+        "endTime": 42.34
+      },
+      {
+        "word": "prompt",
+        "startTime": 42.34,
+        "endTime": 42.6
+      },
+      {
+        "word": "library",
+        "startTime": 42.6,
+        "endTime": 43.28
+      },
+      {
+        "word": "and",
+        "startTime": 43.28,
+        "endTime": 43.62
+      },
+      {
+        "word": "a",
+        "startTime": 43.62,
+        "endTime": 43.74
+      },
+      {
+        "word": "folder",
+        "startTime": 43.74,
+        "endTime": 44.16
+      },
+      {
+        "word": "of",
+        "startTime": 44.16,
+        "endTime": 44.4
+      },
+      {
+        "word": "text",
+        "startTime": 44.4,
+        "endTime": 44.76
+      },
+      {
+        "word": "files",
+        "startTime": 44.76,
+        "endTime": 45.26
+      },
+      {
+        "word": "is",
+        "startTime": 45.26,
+        "endTime": 45.86
+      },
+      {
+        "word": "versioning,",
+        "startTime": 45.86,
+        "endTime": 46.62
+      },
+      {
+        "word": "testing",
+        "startTime": 47.06,
+        "endTime": 47.48
+      },
+      {
+        "word": "and",
+        "startTime": 47.48,
+        "endTime": 48.18
+      },
+      {
+        "word": "organization.",
+        "startTime": 48.18,
+        "endTime": 49.24
+      }
+    ]
+  },
+  {
+    "text": "A professional prompt library treats prompts code.",
+    "startTime": 50,
+    "endTime": 53.72,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 50,
+        "endTime": 50.5
+      },
+      {
+        "word": "professional",
+        "startTime": 50.5,
+        "endTime": 51.08
+      },
+      {
+        "word": "prompt",
+        "startTime": 51.08,
+        "endTime": 51.52
+      },
+      {
+        "word": "library",
+        "startTime": 51.52,
+        "endTime": 52.14
+      },
+      {
+        "word": "treats",
+        "startTime": 52.14,
+        "endTime": 52.46
+      },
+      {
+        "word": "prompts",
+        "startTime": 52.46,
+        "endTime": 52.96
+      },
+      {
+        "word": "code.",
+        "startTime": 52.96,
+        "endTime": 53.72
+      }
+    ]
+  },
+  {
+    "text": "Each has a purpose, a version history, performance notes and is stored where your team can access and improve it.",
+    "startTime": 54.48,
+    "endTime": 63.14,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Each",
+        "startTime": 54.48,
+        "endTime": 54.78
+      },
+      {
+        "word": "has",
+        "startTime": 54.78,
+        "endTime": 55
+      },
+      {
+        "word": "a",
+        "startTime": 55,
+        "endTime": 55.18
+      },
+      {
+        "word": "purpose,",
+        "startTime": 55.18,
+        "endTime": 55.68
+      },
+      {
+        "word": "a",
+        "startTime": 56.2,
+        "endTime": 56.3
+      },
+      {
+        "word": "version",
+        "startTime": 56.3,
+        "endTime": 56.8
+      },
+      {
+        "word": "history,",
+        "startTime": 56.8,
+        "endTime": 57.38
+      },
+      {
+        "word": "performance",
+        "startTime": 57.78,
+        "endTime": 58.28
+      },
+      {
+        "word": "notes",
+        "startTime": 58.28,
+        "endTime": 58.7
+      },
+      {
+        "word": "and",
+        "startTime": 58.7,
+        "endTime": 59.32
+      },
+      {
+        "word": "is",
+        "startTime": 59.32,
+        "endTime": 59.48
+      },
+      {
+        "word": "stored",
+        "startTime": 59.48,
+        "endTime": 59.9
+      },
+      {
+        "word": "where",
+        "startTime": 59.9,
+        "endTime": 60.18
+      },
+      {
+        "word": "your",
+        "startTime": 60.18,
+        "endTime": 60.4
+      },
+      {
+        "word": "team",
+        "startTime": 60.4,
+        "endTime": 60.78
+      },
+      {
+        "word": "can",
+        "startTime": 60.78,
+        "endTime": 61.06
+      },
+      {
+        "word": "access",
+        "startTime": 61.06,
+        "endTime": 61.62
+      },
+      {
+        "word": "and",
+        "startTime": 61.62,
+        "endTime": 62.14
+      },
+      {
+        "word": "improve",
+        "startTime": 62.14,
+        "endTime": 62.66
+      },
+      {
+        "word": "it.",
+        "startTime": 62.66,
+        "endTime": 63.14
+      }
+    ]
+  },
+  {
+    "text": "A prompt library compounds in value over time.",
+    "startTime": 64.2,
+    "endTime": 68.14,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 64.2,
+        "endTime": 64.32
+      },
+      {
+        "word": "prompt",
+        "startTime": 64.32,
+        "endTime": 64.68
+      },
+      {
+        "word": "library",
+        "startTime": 64.68,
+        "endTime": 65.38
+      },
+      {
+        "word": "compounds",
+        "startTime": 65.38,
+        "endTime": 65.98
+      },
+      {
+        "word": "in",
+        "startTime": 65.98,
+        "endTime": 66.46
+      },
+      {
+        "word": "value",
+        "startTime": 66.46,
+        "endTime": 67
+      },
+      {
+        "word": "over",
+        "startTime": 67,
+        "endTime": 67.68
+      },
+      {
+        "word": "time.",
+        "startTime": 67.68,
+        "endTime": 68.14
+      }
+    ]
+  },
+  {
+    "text": "Every tested prompt is institutional knowledge.",
+    "startTime": 68.92,
+    "endTime": 72.62,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Every",
+        "startTime": 68.92,
+        "endTime": 69.44
+      },
+      {
+        "word": "tested",
+        "startTime": 69.44,
+        "endTime": 69.98
+      },
+      {
+        "word": "prompt",
+        "startTime": 69.98,
+        "endTime": 70.46
+      },
+      {
+        "word": "is",
+        "startTime": 70.46,
+        "endTime": 70.96
+      },
+      {
+        "word": "institutional",
+        "startTime": 70.96,
+        "endTime": 71.96
+      },
+      {
+        "word": "knowledge.",
+        "startTime": 71.96,
+        "endTime": 72.62
+      }
+    ]
+  },
+  {
+    "text": "Every performance note prevents a colleague from making the same mistake.",
+    "startTime": 73.3,
+    "endTime": 78.1,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Every",
+        "startTime": 73.3,
+        "endTime": 73.62
+      },
+      {
+        "word": "performance",
+        "startTime": 73.62,
+        "endTime": 74.26
+      },
+      {
+        "word": "note",
+        "startTime": 74.26,
+        "endTime": 74.84
+      },
+      {
+        "word": "prevents",
+        "startTime": 74.84,
+        "endTime": 75.34
+      },
+      {
+        "word": "a",
+        "startTime": 75.34,
+        "endTime": 75.64
+      },
+      {
+        "word": "colleague",
+        "startTime": 75.64,
+        "endTime": 76.16
+      },
+      {
+        "word": "from",
+        "startTime": 76.16,
+        "endTime": 76.46
+      },
+      {
+        "word": "making",
+        "startTime": 76.46,
+        "endTime": 76.94
+      },
+      {
+        "word": "the",
+        "startTime": 76.94,
+        "endTime": 77.18
+      },
+      {
+        "word": "same",
+        "startTime": 77.18,
+        "endTime": 77.54
+      },
+      {
+        "word": "mistake.",
+        "startTime": 77.54,
+        "endTime": 78.1
+      }
+    ]
+  },
+  {
+    "text": "Remember this, every time you develop a prompt that works reliably, add it to the library immediately.",
+    "startTime": 79.05999999999999,
+    "endTime": 87.3,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Remember",
+        "startTime": 79.05999999999999,
+        "endTime": 79.6
+      },
+      {
+        "word": "this,",
+        "startTime": 79.6,
+        "endTime": 80.18
+      },
+      {
+        "word": "every",
+        "startTime": 80.66,
+        "endTime": 81.06
+      },
+      {
+        "word": "time",
+        "startTime": 81.06,
+        "endTime": 81.4
+      },
+      {
+        "word": "you",
+        "startTime": 81.4,
+        "endTime": 81.62
+      },
+      {
+        "word": "develop",
+        "startTime": 81.62,
+        "endTime": 82
+      },
+      {
+        "word": "a",
+        "startTime": 82,
+        "endTime": 82.28
+      },
+      {
+        "word": "prompt",
+        "startTime": 82.28,
+        "endTime": 82.66
+      },
+      {
+        "word": "that",
+        "startTime": 82.66,
+        "endTime": 83.02
+      },
+      {
+        "word": "works",
+        "startTime": 83.02,
+        "endTime": 83.4
+      },
+      {
+        "word": "reliably,",
+        "startTime": 83.4,
+        "endTime": 84.26
+      },
+      {
+        "word": "add",
+        "startTime": 84.9,
+        "endTime": 85.08
+      },
+      {
+        "word": "it",
+        "startTime": 85.08,
+        "endTime": 85.28
+      },
+      {
+        "word": "to",
+        "startTime": 85.28,
+        "endTime": 85.46
+      },
+      {
+        "word": "the",
+        "startTime": 85.46,
+        "endTime": 85.62
+      },
+      {
+        "word": "library",
+        "startTime": 85.62,
+        "endTime": 86.28
+      },
+      {
+        "word": "immediately.",
+        "startTime": 86.28,
+        "endTime": 87.3
+      }
+    ]
+  },
+  {
+    "text": "The effort of capture is trivial compared to the effort of rediscovering it.",
+    "startTime": 88.46,
+    "endTime": 94.32,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 88.46,
+        "endTime": 88.74
+      },
+      {
+        "word": "effort",
+        "startTime": 88.74,
+        "endTime": 89.18
+      },
+      {
+        "word": "of",
+        "startTime": 89.18,
+        "endTime": 89.46
+      },
+      {
+        "word": "capture",
+        "startTime": 89.46,
+        "endTime": 90
+      },
+      {
+        "word": "is",
+        "startTime": 90,
+        "endTime": 90.36
+      },
+      {
+        "word": "trivial",
+        "startTime": 90.36,
+        "endTime": 90.98
+      },
+      {
+        "word": "compared",
+        "startTime": 90.98,
+        "endTime": 91.62
+      },
+      {
+        "word": "to",
+        "startTime": 91.62,
+        "endTime": 91.92
+      },
+      {
+        "word": "the",
+        "startTime": 91.92,
+        "endTime": 92.06
+      },
+      {
+        "word": "effort",
+        "startTime": 92.06,
+        "endTime": 92.46
+      },
+      {
+        "word": "of",
+        "startTime": 92.46,
+        "endTime": 92.82
+      },
+      {
+        "word": "rediscovering",
+        "startTime": 92.82,
+        "endTime": 93.98
+      },
+      {
+        "word": "it.",
+        "startTime": 93.98,
+        "endTime": 94.32
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 95.54,
+    "endTime": 100.34,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 95.54,
+        "endTime": 95.94
+      },
+      {
+        "word": "what",
+        "startTime": 95.94,
+        "endTime": 96.24
+      },
+      {
+        "word": "you",
+        "startTime": 96.24,
+        "endTime": 96.42
+      },
+      {
+        "word": "learn",
+        "startTime": 96.42,
+        "endTime": 96.74
+      },
+      {
+        "word": "in",
+        "startTime": 96.74,
+        "endTime": 96.94
+      },
+      {
+        "word": "this",
+        "startTime": 96.94,
+        "endTime": 97.22
+      },
+      {
+        "word": "lesson",
+        "startTime": 97.22,
+        "endTime": 97.64
+      },
+      {
+        "word": "and",
+        "startTime": 97.64,
+        "endTime": 98.1
+      },
+      {
+        "word": "you",
+        "startTime": 98.1,
+        "endTime": 98.28
+      },
+      {
+        "word": "will",
+        "startTime": 98.28,
+        "endTime": 98.4
+      },
+      {
+        "word": "see",
+        "startTime": 98.4,
+        "endTime": 98.68
+      },
+      {
+        "word": "results",
+        "startTime": 98.68,
+        "endTime": 99.22
+      },
+      {
+        "word": "immediately.",
+        "startTime": 99.22,
+        "endTime": 100.34
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 101.02,
+    "endTime": 103.2,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 101.02,
+        "endTime": 101.24
+      },
+      {
+        "word": "skills",
+        "startTime": 101.24,
+        "endTime": 101.88
+      },
+      {
+        "word": "bear",
+        "startTime": 101.88,
+        "endTime": 102.48
+      },
+      {
+        "word": "fruit.",
+        "startTime": 102.48,
+        "endTime": 103.2
+      }
+    ]
+  }
+]

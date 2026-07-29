@@ -1,0 +1,543 @@
+[
+  {
+    "text": "Most developers spend a week fighting the meta -set -up.",
+    "startTime": 0,
+    "endTime": 4.52,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "Most",
+        "startTime": 0,
+        "endTime": 0.38
+      },
+      {
+        "word": "developers",
+        "startTime": 0.38,
+        "endTime": 1.2
+      },
+      {
+        "word": "spend",
+        "startTime": 1.2,
+        "endTime": 1.92
+      },
+      {
+        "word": "a",
+        "startTime": 1.92,
+        "endTime": 2.18
+      },
+      {
+        "word": "week",
+        "startTime": 2.18,
+        "endTime": 2.5
+      },
+      {
+        "word": "fighting",
+        "startTime": 2.5,
+        "endTime": 3.26
+      },
+      {
+        "word": "the",
+        "startTime": 3.26,
+        "endTime": 3.54
+      },
+      {
+        "word": "meta",
+        "startTime": 3.54,
+        "endTime": 3.84
+      },
+      {
+        "word": "-set",
+        "startTime": 3.84,
+        "endTime": 4.16
+      },
+      {
+        "word": "-up.",
+        "startTime": 4.16,
+        "endTime": 4.52
+      }
+    ]
+  },
+  {
+    "text": "We are going to do it in one lesson by following the exact sequence that works and explaining every error you will hit along the way.",
+    "startTime": 4.76,
+    "endTime": 16.68,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "We",
+        "startTime": 4.76,
+        "endTime": 5.4
+      },
+      {
+        "word": "are",
+        "startTime": 5.4,
+        "endTime": 5.54
+      },
+      {
+        "word": "going",
+        "startTime": 5.54,
+        "endTime": 5.82
+      },
+      {
+        "word": "to",
+        "startTime": 5.82,
+        "endTime": 6.08
+      },
+      {
+        "word": "do",
+        "startTime": 6.08,
+        "endTime": 6.28
+      },
+      {
+        "word": "it",
+        "startTime": 6.28,
+        "endTime": 6.5
+      },
+      {
+        "word": "in",
+        "startTime": 6.5,
+        "endTime": 6.8
+      },
+      {
+        "word": "one",
+        "startTime": 6.8,
+        "endTime": 7.28
+      },
+      {
+        "word": "lesson",
+        "startTime": 7.28,
+        "endTime": 8.08
+      },
+      {
+        "word": "by",
+        "startTime": 8.08,
+        "endTime": 8.72
+      },
+      {
+        "word": "following",
+        "startTime": 8.72,
+        "endTime": 9.22
+      },
+      {
+        "word": "the",
+        "startTime": 9.22,
+        "endTime": 9.5
+      },
+      {
+        "word": "exact",
+        "startTime": 9.5,
+        "endTime": 9.9
+      },
+      {
+        "word": "sequence",
+        "startTime": 9.9,
+        "endTime": 10.54
+      },
+      {
+        "word": "that",
+        "startTime": 10.54,
+        "endTime": 10.88
+      },
+      {
+        "word": "works",
+        "startTime": 10.88,
+        "endTime": 11.32
+      },
+      {
+        "word": "and",
+        "startTime": 11.54,
+        "endTime": 12.04
+      },
+      {
+        "word": "explaining",
+        "startTime": 12.04,
+        "endTime": 12.66
+      },
+      {
+        "word": "every",
+        "startTime": 12.66,
+        "endTime": 13.6
+      },
+      {
+        "word": "error",
+        "startTime": 13.6,
+        "endTime": 14.34
+      },
+      {
+        "word": "you",
+        "startTime": 14.34,
+        "endTime": 14.86
+      },
+      {
+        "word": "will",
+        "startTime": 14.86,
+        "endTime": 15.06
+      },
+      {
+        "word": "hit",
+        "startTime": 15.06,
+        "endTime": 15.56
+      },
+      {
+        "word": "along",
+        "startTime": 15.56,
+        "endTime": 16.06
+      },
+      {
+        "word": "the",
+        "startTime": 16.06,
+        "endTime": 16.38
+      },
+      {
+        "word": "way.",
+        "startTime": 16.38,
+        "endTime": 16.68
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, step by step meta -cloud API setup.",
+    "startTime": 17.78,
+    "endTime": 23.64,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 17.78,
+        "endTime": 18.28
+      },
+      {
+        "word": "this",
+        "startTime": 18.28,
+        "endTime": 18.58
+      },
+      {
+        "word": "lesson,",
+        "startTime": 18.58,
+        "endTime": 19.08
+      },
+      {
+        "word": "step",
+        "startTime": 20.06,
+        "endTime": 20.22
+      },
+      {
+        "word": "by",
+        "startTime": 20.22,
+        "endTime": 20.5
+      },
+      {
+        "word": "step",
+        "startTime": 20.5,
+        "endTime": 21
+      },
+      {
+        "word": "meta",
+        "startTime": 21,
+        "endTime": 21.54
+      },
+      {
+        "word": "-cloud",
+        "startTime": 21.54,
+        "endTime": 22.1
+      },
+      {
+        "word": "API",
+        "startTime": 22.1,
+        "endTime": 22.64
+      },
+      {
+        "word": "setup.",
+        "startTime": 22.64,
+        "endTime": 23.64
+      }
+    ]
+  },
+  {
+    "text": "Developer account, Facebook app creation, WhatsApp business account configuration, test number setup, access token generation and your first API call.",
+    "startTime": 24.36,
+    "endTime": 40.48,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Developer",
+        "startTime": 24.36,
+        "endTime": 24.94
+      },
+      {
+        "word": "account,",
+        "startTime": 24.94,
+        "endTime": 25.6
+      },
+      {
+        "word": "Facebook",
+        "startTime": 26.4,
+        "endTime": 26.9
+      },
+      {
+        "word": "app",
+        "startTime": 26.9,
+        "endTime": 27.26
+      },
+      {
+        "word": "creation,",
+        "startTime": 27.26,
+        "endTime": 28.02
+      },
+      {
+        "word": "WhatsApp",
+        "startTime": 28.02,
+        "endTime": 29.34
+      },
+      {
+        "word": "business",
+        "startTime": 29.34,
+        "endTime": 29.84
+      },
+      {
+        "word": "account",
+        "startTime": 29.84,
+        "endTime": 30.3
+      },
+      {
+        "word": "configuration,",
+        "startTime": 30.3,
+        "endTime": 31.08
+      },
+      {
+        "word": "test",
+        "startTime": 31.86,
+        "endTime": 32.78
+      },
+      {
+        "word": "number",
+        "startTime": 32.78,
+        "endTime": 33.2
+      },
+      {
+        "word": "setup,",
+        "startTime": 33.2,
+        "endTime": 33.8
+      },
+      {
+        "word": "access",
+        "startTime": 34.32,
+        "endTime": 35.12
+      },
+      {
+        "word": "token",
+        "startTime": 35.12,
+        "endTime": 35.66
+      },
+      {
+        "word": "generation",
+        "startTime": 35.66,
+        "endTime": 36.68
+      },
+      {
+        "word": "and",
+        "startTime": 36.68,
+        "endTime": 37.86
+      },
+      {
+        "word": "your",
+        "startTime": 37.86,
+        "endTime": 38.26
+      },
+      {
+        "word": "first",
+        "startTime": 38.26,
+        "endTime": 38.98
+      },
+      {
+        "word": "API",
+        "startTime": 38.98,
+        "endTime": 39.68
+      },
+      {
+        "word": "call.",
+        "startTime": 39.68,
+        "endTime": 40.48
+      }
+    ]
+  },
+  {
+    "text": "Includes the exact curl command and node .js code to send your first message.",
+    "startTime": 41.06,
+    "endTime": 49.62,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Includes",
+        "startTime": 41.06,
+        "endTime": 42.26
+      },
+      {
+        "word": "the",
+        "startTime": 42.26,
+        "endTime": 42.38
+      },
+      {
+        "word": "exact",
+        "startTime": 42.38,
+        "endTime": 42.8
+      },
+      {
+        "word": "curl",
+        "startTime": 42.8,
+        "endTime": 43.4
+      },
+      {
+        "word": "command",
+        "startTime": 43.4,
+        "endTime": 43.84
+      },
+      {
+        "word": "and",
+        "startTime": 43.84,
+        "endTime": 44.6
+      },
+      {
+        "word": "node",
+        "startTime": 44.6,
+        "endTime": 45.06
+      },
+      {
+        "word": ".js",
+        "startTime": 45.06,
+        "endTime": 45.96
+      },
+      {
+        "word": "code",
+        "startTime": 45.96,
+        "endTime": 46.58
+      },
+      {
+        "word": "to",
+        "startTime": 46.58,
+        "endTime": 47.22
+      },
+      {
+        "word": "send",
+        "startTime": 47.22,
+        "endTime": 47.6
+      },
+      {
+        "word": "your",
+        "startTime": 47.6,
+        "endTime": 48.14
+      },
+      {
+        "word": "first",
+        "startTime": 48.14,
+        "endTime": 48.74
+      },
+      {
+        "word": "message.",
+        "startTime": 48.74,
+        "endTime": 49.62
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 50.68,
+    "endTime": 56.58,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 50.68,
+        "endTime": 51.38
+      },
+      {
+        "word": "what",
+        "startTime": 51.38,
+        "endTime": 51.68
+      },
+      {
+        "word": "you",
+        "startTime": 51.68,
+        "endTime": 51.88
+      },
+      {
+        "word": "learn",
+        "startTime": 51.88,
+        "endTime": 52.2
+      },
+      {
+        "word": "in",
+        "startTime": 52.2,
+        "endTime": 52.4
+      },
+      {
+        "word": "this",
+        "startTime": 52.4,
+        "endTime": 52.7
+      },
+      {
+        "word": "lesson",
+        "startTime": 52.7,
+        "endTime": 53.2
+      },
+      {
+        "word": "and",
+        "startTime": 53.2,
+        "endTime": 53.86
+      },
+      {
+        "word": "you",
+        "startTime": 53.86,
+        "endTime": 54.08
+      },
+      {
+        "word": "will",
+        "startTime": 54.08,
+        "endTime": 54.26
+      },
+      {
+        "word": "see",
+        "startTime": 54.26,
+        "endTime": 54.62
+      },
+      {
+        "word": "results",
+        "startTime": 54.62,
+        "endTime": 55.32
+      },
+      {
+        "word": "immediately.",
+        "startTime": 55.32,
+        "endTime": 56.58
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 56.58,
+    "endTime": 59.68,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 56.58,
+        "endTime": 57.56
+      },
+      {
+        "word": "skills",
+        "startTime": 57.56,
+        "endTime": 58.22
+      },
+      {
+        "word": "bear",
+        "startTime": 58.22,
+        "endTime": 58.88
+      },
+      {
+        "word": "fruit.",
+        "startTime": 58.88,
+        "endTime": 59.68
+      }
+    ]
+  }
+]

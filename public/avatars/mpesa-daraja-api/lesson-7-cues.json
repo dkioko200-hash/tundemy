@@ -1,0 +1,1601 @@
+[
+  {
+    "text": "A payment system that works is table stakes, a payment system that is secure, compliant with Kenyan financial regulations, and passes Safaricom's production go -live review, is what separates a portfolio project from a production system that handles real money.",
+    "startTime": 0,
+    "endTime": 15.94,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 0,
+        "endTime": 0.22
+      },
+      {
+        "word": "payment",
+        "startTime": 0.22,
+        "endTime": 0.5
+      },
+      {
+        "word": "system",
+        "startTime": 0.5,
+        "endTime": 0.9
+      },
+      {
+        "word": "that",
+        "startTime": 0.9,
+        "endTime": 1.16
+      },
+      {
+        "word": "works",
+        "startTime": 1.16,
+        "endTime": 1.46
+      },
+      {
+        "word": "is",
+        "startTime": 1.46,
+        "endTime": 1.72
+      },
+      {
+        "word": "table",
+        "startTime": 1.72,
+        "endTime": 1.98
+      },
+      {
+        "word": "stakes,",
+        "startTime": 1.98,
+        "endTime": 2.46
+      },
+      {
+        "word": "a",
+        "startTime": 2.86,
+        "endTime": 3.06
+      },
+      {
+        "word": "payment",
+        "startTime": 3.06,
+        "endTime": 3.32
+      },
+      {
+        "word": "system",
+        "startTime": 3.32,
+        "endTime": 3.72
+      },
+      {
+        "word": "that",
+        "startTime": 3.72,
+        "endTime": 3.94
+      },
+      {
+        "word": "is",
+        "startTime": 3.94,
+        "endTime": 4.06
+      },
+      {
+        "word": "secure,",
+        "startTime": 4.06,
+        "endTime": 4.52
+      },
+      {
+        "word": "compliant",
+        "startTime": 4.94,
+        "endTime": 5.32
+      },
+      {
+        "word": "with",
+        "startTime": 5.32,
+        "endTime": 5.58
+      },
+      {
+        "word": "Kenyan",
+        "startTime": 5.58,
+        "endTime": 5.9
+      },
+      {
+        "word": "financial",
+        "startTime": 5.9,
+        "endTime": 6.38
+      },
+      {
+        "word": "regulations,",
+        "startTime": 6.38,
+        "endTime": 6.96
+      },
+      {
+        "word": "and",
+        "startTime": 7.66,
+        "endTime": 7.78
+      },
+      {
+        "word": "passes",
+        "startTime": 7.78,
+        "endTime": 8.12
+      },
+      {
+        "word": "Safaricom's",
+        "startTime": 8.12,
+        "endTime": 8.92
+      },
+      {
+        "word": "production",
+        "startTime": 8.92,
+        "endTime": 9.36
+      },
+      {
+        "word": "go",
+        "startTime": 9.36,
+        "endTime": 9.64
+      },
+      {
+        "word": "-live",
+        "startTime": 9.64,
+        "endTime": 9.86
+      },
+      {
+        "word": "review,",
+        "startTime": 9.86,
+        "endTime": 10.32
+      },
+      {
+        "word": "is",
+        "startTime": 10.74,
+        "endTime": 11.04
+      },
+      {
+        "word": "what",
+        "startTime": 11.04,
+        "endTime": 11.22
+      },
+      {
+        "word": "separates",
+        "startTime": 11.22,
+        "endTime": 11.72
+      },
+      {
+        "word": "a",
+        "startTime": 11.72,
+        "endTime": 11.92
+      },
+      {
+        "word": "portfolio",
+        "startTime": 11.92,
+        "endTime": 12.34
+      },
+      {
+        "word": "project",
+        "startTime": 12.34,
+        "endTime": 12.92
+      },
+      {
+        "word": "from",
+        "startTime": 12.92,
+        "endTime": 13.54
+      },
+      {
+        "word": "a",
+        "startTime": 13.54,
+        "endTime": 13.7
+      },
+      {
+        "word": "production",
+        "startTime": 13.7,
+        "endTime": 14.04
+      },
+      {
+        "word": "system",
+        "startTime": 14.04,
+        "endTime": 14.6
+      },
+      {
+        "word": "that",
+        "startTime": 14.6,
+        "endTime": 14.88
+      },
+      {
+        "word": "handles",
+        "startTime": 14.88,
+        "endTime": 15.24
+      },
+      {
+        "word": "real",
+        "startTime": 15.24,
+        "endTime": 15.58
+      },
+      {
+        "word": "money.",
+        "startTime": 15.58,
+        "endTime": 15.94
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, security requirements for production Daraja integrations, credential management, IP white listing for Safaricom callback IPs, HTTPS enforcement, callback payload integrity, and the Safaricom go -live process, business verification, short code application, and production credential deployment.",
+    "startTime": 16.54,
+    "endTime": 38.38,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 16.54,
+        "endTime": 16.78
+      },
+      {
+        "word": "this",
+        "startTime": 16.78,
+        "endTime": 16.96
+      },
+      {
+        "word": "lesson,",
+        "startTime": 16.96,
+        "endTime": 17.32
+      },
+      {
+        "word": "security",
+        "startTime": 17.96,
+        "endTime": 18.34
+      },
+      {
+        "word": "requirements",
+        "startTime": 18.34,
+        "endTime": 18.92
+      },
+      {
+        "word": "for",
+        "startTime": 18.92,
+        "endTime": 19.16
+      },
+      {
+        "word": "production",
+        "startTime": 19.16,
+        "endTime": 19.64
+      },
+      {
+        "word": "Daraja",
+        "startTime": 19.64,
+        "endTime": 20.16
+      },
+      {
+        "word": "integrations,",
+        "startTime": 20.16,
+        "endTime": 20.9
+      },
+      {
+        "word": "credential",
+        "startTime": 21.44,
+        "endTime": 21.76
+      },
+      {
+        "word": "management,",
+        "startTime": 21.76,
+        "endTime": 22.44
+      },
+      {
+        "word": "IP",
+        "startTime": 23.12,
+        "endTime": 23.36
+      },
+      {
+        "word": "white",
+        "startTime": 23.36,
+        "endTime": 23.7
+      },
+      {
+        "word": "listing",
+        "startTime": 23.7,
+        "endTime": 24.06
+      },
+      {
+        "word": "for",
+        "startTime": 24.06,
+        "endTime": 24.34
+      },
+      {
+        "word": "Safaricom",
+        "startTime": 24.34,
+        "endTime": 25
+      },
+      {
+        "word": "callback",
+        "startTime": 25,
+        "endTime": 25.48
+      },
+      {
+        "word": "IPs,",
+        "startTime": 25.48,
+        "endTime": 26.22
+      },
+      {
+        "word": "HTTPS",
+        "startTime": 26.22,
+        "endTime": 27.56
+      },
+      {
+        "word": "enforcement,",
+        "startTime": 27.56,
+        "endTime": 28.3
+      },
+      {
+        "word": "callback",
+        "startTime": 28.96,
+        "endTime": 29.32
+      },
+      {
+        "word": "payload",
+        "startTime": 29.32,
+        "endTime": 29.74
+      },
+      {
+        "word": "integrity,",
+        "startTime": 29.74,
+        "endTime": 30.38
+      },
+      {
+        "word": "and",
+        "startTime": 31.02,
+        "endTime": 31.1
+      },
+      {
+        "word": "the",
+        "startTime": 31.1,
+        "endTime": 31.24
+      },
+      {
+        "word": "Safaricom",
+        "startTime": 31.24,
+        "endTime": 31.8
+      },
+      {
+        "word": "go",
+        "startTime": 31.8,
+        "endTime": 32.02
+      },
+      {
+        "word": "-live",
+        "startTime": 32.02,
+        "endTime": 32.28
+      },
+      {
+        "word": "process,",
+        "startTime": 32.28,
+        "endTime": 32.78
+      },
+      {
+        "word": "business",
+        "startTime": 33.44,
+        "endTime": 33.78
+      },
+      {
+        "word": "verification,",
+        "startTime": 33.78,
+        "endTime": 34.4
+      },
+      {
+        "word": "short",
+        "startTime": 35.24,
+        "endTime": 35.34
+      },
+      {
+        "word": "code",
+        "startTime": 35.34,
+        "endTime": 35.58
+      },
+      {
+        "word": "application,",
+        "startTime": 35.58,
+        "endTime": 36.1
+      },
+      {
+        "word": "and",
+        "startTime": 36.74,
+        "endTime": 36.84
+      },
+      {
+        "word": "production",
+        "startTime": 36.84,
+        "endTime": 37.18
+      },
+      {
+        "word": "credential",
+        "startTime": 37.18,
+        "endTime": 37.82
+      },
+      {
+        "word": "deployment.",
+        "startTime": 37.82,
+        "endTime": 38.38
+      }
+    ]
+  },
+  {
+    "text": "We cover credential hierarchy, consumer key slash secret, access token, security credential, initiate a name, what each is and how to protect each, IP white listing, restricting your callback endpoints to Safaricom's published callback IP ranges.",
+    "startTime": 39.14,
+    "endTime": 55.94,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "We",
+        "startTime": 39.14,
+        "endTime": 39.4
+      },
+      {
+        "word": "cover",
+        "startTime": 39.4,
+        "endTime": 39.68
+      },
+      {
+        "word": "credential",
+        "startTime": 39.68,
+        "endTime": 40.1
+      },
+      {
+        "word": "hierarchy,",
+        "startTime": 40.1,
+        "endTime": 40.74
+      },
+      {
+        "word": "consumer",
+        "startTime": 41.38,
+        "endTime": 41.76
+      },
+      {
+        "word": "key",
+        "startTime": 41.76,
+        "endTime": 42.02
+      },
+      {
+        "word": "slash",
+        "startTime": 42.02,
+        "endTime": 42.32
+      },
+      {
+        "word": "secret,",
+        "startTime": 42.32,
+        "endTime": 42.8
+      },
+      {
+        "word": "access",
+        "startTime": 43.42,
+        "endTime": 43.66
+      },
+      {
+        "word": "token,",
+        "startTime": 43.66,
+        "endTime": 44.12
+      },
+      {
+        "word": "security",
+        "startTime": 44.7,
+        "endTime": 45
+      },
+      {
+        "word": "credential,",
+        "startTime": 45,
+        "endTime": 45.62
+      },
+      {
+        "word": "initiate",
+        "startTime": 46.26,
+        "endTime": 46.64
+      },
+      {
+        "word": "a",
+        "startTime": 46.64,
+        "endTime": 46.88
+      },
+      {
+        "word": "name,",
+        "startTime": 46.88,
+        "endTime": 47.16
+      },
+      {
+        "word": "what",
+        "startTime": 47.64,
+        "endTime": 47.84
+      },
+      {
+        "word": "each",
+        "startTime": 47.84,
+        "endTime": 48.1
+      },
+      {
+        "word": "is",
+        "startTime": 48.1,
+        "endTime": 48.32
+      },
+      {
+        "word": "and",
+        "startTime": 48.32,
+        "endTime": 48.5
+      },
+      {
+        "word": "how",
+        "startTime": 48.5,
+        "endTime": 48.72
+      },
+      {
+        "word": "to",
+        "startTime": 48.72,
+        "endTime": 48.88
+      },
+      {
+        "word": "protect",
+        "startTime": 48.88,
+        "endTime": 49.14
+      },
+      {
+        "word": "each,",
+        "startTime": 49.14,
+        "endTime": 49.58
+      },
+      {
+        "word": "IP",
+        "startTime": 50.22,
+        "endTime": 50.5
+      },
+      {
+        "word": "white",
+        "startTime": 50.5,
+        "endTime": 50.82
+      },
+      {
+        "word": "listing,",
+        "startTime": 50.82,
+        "endTime": 51.26
+      },
+      {
+        "word": "restricting",
+        "startTime": 51.82,
+        "endTime": 52.22
+      },
+      {
+        "word": "your",
+        "startTime": 52.22,
+        "endTime": 52.42
+      },
+      {
+        "word": "callback",
+        "startTime": 52.42,
+        "endTime": 52.84
+      },
+      {
+        "word": "endpoints",
+        "startTime": 52.84,
+        "endTime": 53.3
+      },
+      {
+        "word": "to",
+        "startTime": 53.3,
+        "endTime": 53.58
+      },
+      {
+        "word": "Safaricom's",
+        "startTime": 53.58,
+        "endTime": 54.34
+      },
+      {
+        "word": "published",
+        "startTime": 54.34,
+        "endTime": 54.66
+      },
+      {
+        "word": "callback",
+        "startTime": 54.66,
+        "endTime": 55.24
+      },
+      {
+        "word": "IP",
+        "startTime": 55.24,
+        "endTime": 55.5
+      },
+      {
+        "word": "ranges.",
+        "startTime": 55.5,
+        "endTime": 55.94
+      }
+    ]
+  },
+  {
+    "text": "The Safaricom production go -live checklist, what they audit before approving a production short code, and environment separation, never use production credentials in development, never use sandbox credentials in production.",
+    "startTime": 56.22,
+    "endTime": 69.46,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 56.22,
+        "endTime": 56.84
+      },
+      {
+        "word": "Safaricom",
+        "startTime": 56.84,
+        "endTime": 57.38
+      },
+      {
+        "word": "production",
+        "startTime": 57.38,
+        "endTime": 57.68
+      },
+      {
+        "word": "go",
+        "startTime": 57.68,
+        "endTime": 58.08
+      },
+      {
+        "word": "-live",
+        "startTime": 58.08,
+        "endTime": 58.32
+      },
+      {
+        "word": "checklist,",
+        "startTime": 58.32,
+        "endTime": 58.8
+      },
+      {
+        "word": "what",
+        "startTime": 59.22,
+        "endTime": 59.58
+      },
+      {
+        "word": "they",
+        "startTime": 59.58,
+        "endTime": 59.76
+      },
+      {
+        "word": "audit",
+        "startTime": 59.76,
+        "endTime": 60.08
+      },
+      {
+        "word": "before",
+        "startTime": 60.08,
+        "endTime": 60.44
+      },
+      {
+        "word": "approving",
+        "startTime": 60.44,
+        "endTime": 60.96
+      },
+      {
+        "word": "a",
+        "startTime": 60.96,
+        "endTime": 61.06
+      },
+      {
+        "word": "production",
+        "startTime": 61.06,
+        "endTime": 61.38
+      },
+      {
+        "word": "short",
+        "startTime": 61.38,
+        "endTime": 61.76
+      },
+      {
+        "word": "code,",
+        "startTime": 61.76,
+        "endTime": 62.08
+      },
+      {
+        "word": "and",
+        "startTime": 62.58,
+        "endTime": 62.88
+      },
+      {
+        "word": "environment",
+        "startTime": 62.88,
+        "endTime": 63.3
+      },
+      {
+        "word": "separation,",
+        "startTime": 63.3,
+        "endTime": 64
+      },
+      {
+        "word": "never",
+        "startTime": 64.68,
+        "endTime": 64.96
+      },
+      {
+        "word": "use",
+        "startTime": 64.96,
+        "endTime": 65.2
+      },
+      {
+        "word": "production",
+        "startTime": 65.2,
+        "endTime": 65.56
+      },
+      {
+        "word": "credentials",
+        "startTime": 65.56,
+        "endTime": 66.12
+      },
+      {
+        "word": "in",
+        "startTime": 66.12,
+        "endTime": 66.32
+      },
+      {
+        "word": "development,",
+        "startTime": 66.32,
+        "endTime": 66.72
+      },
+      {
+        "word": "never",
+        "startTime": 67.46,
+        "endTime": 67.68
+      },
+      {
+        "word": "use",
+        "startTime": 67.68,
+        "endTime": 67.96
+      },
+      {
+        "word": "sandbox",
+        "startTime": 67.96,
+        "endTime": 68.28
+      },
+      {
+        "word": "credentials",
+        "startTime": 68.28,
+        "endTime": 68.72
+      },
+      {
+        "word": "in",
+        "startTime": 68.72,
+        "endTime": 69.06
+      },
+      {
+        "word": "production.",
+        "startTime": 69.06,
+        "endTime": 69.46
+      }
+    ]
+  },
+  {
+    "text": "Production Daraja deployments have five security requirements that are non -negotiable for Safaricom's go -live approval.",
+    "startTime": 70.28,
+    "endTime": 76.12,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Production",
+        "startTime": 70.28,
+        "endTime": 70.76
+      },
+      {
+        "word": "Daraja",
+        "startTime": 70.76,
+        "endTime": 71.2
+      },
+      {
+        "word": "deployments",
+        "startTime": 71.2,
+        "endTime": 71.78
+      },
+      {
+        "word": "have",
+        "startTime": 71.78,
+        "endTime": 71.94
+      },
+      {
+        "word": "five",
+        "startTime": 71.94,
+        "endTime": 72.24
+      },
+      {
+        "word": "security",
+        "startTime": 72.24,
+        "endTime": 72.78
+      },
+      {
+        "word": "requirements",
+        "startTime": 72.78,
+        "endTime": 73.26
+      },
+      {
+        "word": "that",
+        "startTime": 73.26,
+        "endTime": 73.52
+      },
+      {
+        "word": "are",
+        "startTime": 73.52,
+        "endTime": 73.64
+      },
+      {
+        "word": "non",
+        "startTime": 73.64,
+        "endTime": 73.86
+      },
+      {
+        "word": "-negotiable",
+        "startTime": 73.86,
+        "endTime": 74.44
+      },
+      {
+        "word": "for",
+        "startTime": 74.44,
+        "endTime": 74.64
+      },
+      {
+        "word": "Safaricom's",
+        "startTime": 74.64,
+        "endTime": 75.4
+      },
+      {
+        "word": "go",
+        "startTime": 75.4,
+        "endTime": 75.5
+      },
+      {
+        "word": "-live",
+        "startTime": 75.5,
+        "endTime": 75.72
+      },
+      {
+        "word": "approval.",
+        "startTime": 75.72,
+        "endTime": 76.12
+      }
+    ]
+  },
+  {
+    "text": "One, HTTPS everywhere.",
+    "startTime": 76.92,
+    "endTime": 79.38,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "One,",
+        "startTime": 76.92,
+        "endTime": 77.12
+      },
+      {
+        "word": "HTTPS",
+        "startTime": 77.76,
+        "endTime": 78.74
+      },
+      {
+        "word": "everywhere.",
+        "startTime": 78.74,
+        "endTime": 79.38
+      }
+    ]
+  },
+  {
+    "text": "Your callback URLs must use HTTPS with a valid certificate.",
+    "startTime": 79.9,
+    "endTime": 84.32,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 79.9,
+        "endTime": 80.28
+      },
+      {
+        "word": "callback",
+        "startTime": 80.28,
+        "endTime": 80.8
+      },
+      {
+        "word": "URLs",
+        "startTime": 80.8,
+        "endTime": 81.12
+      },
+      {
+        "word": "must",
+        "startTime": 81.12,
+        "endTime": 81.66
+      },
+      {
+        "word": "use",
+        "startTime": 81.66,
+        "endTime": 81.98
+      },
+      {
+        "word": "HTTPS",
+        "startTime": 81.98,
+        "endTime": 83.06
+      },
+      {
+        "word": "with",
+        "startTime": 83.06,
+        "endTime": 83.34
+      },
+      {
+        "word": "a",
+        "startTime": 83.34,
+        "endTime": 83.46
+      },
+      {
+        "word": "valid",
+        "startTime": 83.46,
+        "endTime": 83.72
+      },
+      {
+        "word": "certificate.",
+        "startTime": 83.72,
+        "endTime": 84.32
+      }
+    ]
+  },
+  {
+    "text": "Self -signed certificates are not accepted.",
+    "startTime": 85.06,
+    "endTime": 87.14,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Self",
+        "startTime": 85.06,
+        "endTime": 85.38
+      },
+      {
+        "word": "-signed",
+        "startTime": 85.38,
+        "endTime": 85.68
+      },
+      {
+        "word": "certificates",
+        "startTime": 85.68,
+        "endTime": 86.22
+      },
+      {
+        "word": "are",
+        "startTime": 86.22,
+        "endTime": 86.48
+      },
+      {
+        "word": "not",
+        "startTime": 86.48,
+        "endTime": 86.66
+      },
+      {
+        "word": "accepted.",
+        "startTime": 86.66,
+        "endTime": 87.14
+      }
+    ]
+  },
+  {
+    "text": "The most commonly failed Safaricom production audit requirement is the callback URL test.",
+    "startTime": 87.8,
+    "endTime": 93.2,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 87.8,
+        "endTime": 87.92
+      },
+      {
+        "word": "most",
+        "startTime": 87.92,
+        "endTime": 88.16
+      },
+      {
+        "word": "commonly",
+        "startTime": 88.16,
+        "endTime": 88.5
+      },
+      {
+        "word": "failed",
+        "startTime": 88.5,
+        "endTime": 89
+      },
+      {
+        "word": "Safaricom",
+        "startTime": 89,
+        "endTime": 89.62
+      },
+      {
+        "word": "production",
+        "startTime": 89.62,
+        "endTime": 89.98
+      },
+      {
+        "word": "audit",
+        "startTime": 89.98,
+        "endTime": 90.46
+      },
+      {
+        "word": "requirement",
+        "startTime": 90.46,
+        "endTime": 91.02
+      },
+      {
+        "word": "is",
+        "startTime": 91.02,
+        "endTime": 91.7
+      },
+      {
+        "word": "the",
+        "startTime": 91.7,
+        "endTime": 91.86
+      },
+      {
+        "word": "callback",
+        "startTime": 91.86,
+        "endTime": 92.44
+      },
+      {
+        "word": "URL",
+        "startTime": 92.44,
+        "endTime": 92.66
+      },
+      {
+        "word": "test.",
+        "startTime": 92.66,
+        "endTime": 93.2
+      }
+    ]
+  },
+  {
+    "text": "They literally post a test payload to your callback endpoints and check that you return the correct response format within three seconds.",
+    "startTime": 93.86,
+    "endTime": 101.5,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "They",
+        "startTime": 93.86,
+        "endTime": 94.1
+      },
+      {
+        "word": "literally",
+        "startTime": 94.1,
+        "endTime": 94.44
+      },
+      {
+        "word": "post",
+        "startTime": 94.44,
+        "endTime": 94.84
+      },
+      {
+        "word": "a",
+        "startTime": 94.84,
+        "endTime": 95.02
+      },
+      {
+        "word": "test",
+        "startTime": 95.02,
+        "endTime": 95.3
+      },
+      {
+        "word": "payload",
+        "startTime": 95.3,
+        "endTime": 95.68
+      },
+      {
+        "word": "to",
+        "startTime": 95.68,
+        "endTime": 95.92
+      },
+      {
+        "word": "your",
+        "startTime": 95.92,
+        "endTime": 96.08
+      },
+      {
+        "word": "callback",
+        "startTime": 96.08,
+        "endTime": 96.58
+      },
+      {
+        "word": "endpoints",
+        "startTime": 96.58,
+        "endTime": 96.98
+      },
+      {
+        "word": "and",
+        "startTime": 96.98,
+        "endTime": 97.62
+      },
+      {
+        "word": "check",
+        "startTime": 97.62,
+        "endTime": 97.9
+      },
+      {
+        "word": "that",
+        "startTime": 97.9,
+        "endTime": 98.12
+      },
+      {
+        "word": "you",
+        "startTime": 98.12,
+        "endTime": 98.24
+      },
+      {
+        "word": "return",
+        "startTime": 98.24,
+        "endTime": 98.56
+      },
+      {
+        "word": "the",
+        "startTime": 98.56,
+        "endTime": 98.76
+      },
+      {
+        "word": "correct",
+        "startTime": 98.76,
+        "endTime": 99.04
+      },
+      {
+        "word": "response",
+        "startTime": 99.04,
+        "endTime": 99.46
+      },
+      {
+        "word": "format",
+        "startTime": 99.46,
+        "endTime": 99.98
+      },
+      {
+        "word": "within",
+        "startTime": 99.98,
+        "endTime": 100.62
+      },
+      {
+        "word": "three",
+        "startTime": 100.62,
+        "endTime": 101.02
+      },
+      {
+        "word": "seconds.",
+        "startTime": 101.02,
+        "endTime": 101.5
+      }
+    ]
+  },
+  {
+    "text": "Developers who have only tested locally with NGROC often discover in the audit that their server is too slow or returning the wrong response format.",
+    "startTime": 102.32,
+    "endTime": 110.68,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Developers",
+        "startTime": 102.32,
+        "endTime": 102.88
+      },
+      {
+        "word": "who",
+        "startTime": 102.88,
+        "endTime": 103.02
+      },
+      {
+        "word": "have",
+        "startTime": 103.02,
+        "endTime": 103.16
+      },
+      {
+        "word": "only",
+        "startTime": 103.16,
+        "endTime": 103.44
+      },
+      {
+        "word": "tested",
+        "startTime": 103.44,
+        "endTime": 103.82
+      },
+      {
+        "word": "locally",
+        "startTime": 103.82,
+        "endTime": 104.22
+      },
+      {
+        "word": "with",
+        "startTime": 104.22,
+        "endTime": 104.6
+      },
+      {
+        "word": "NGROC",
+        "startTime": 104.6,
+        "endTime": 105.06
+      },
+      {
+        "word": "often",
+        "startTime": 105.06,
+        "endTime": 105.72
+      },
+      {
+        "word": "discover",
+        "startTime": 105.72,
+        "endTime": 106.1
+      },
+      {
+        "word": "in",
+        "startTime": 106.1,
+        "endTime": 106.34
+      },
+      {
+        "word": "the",
+        "startTime": 106.34,
+        "endTime": 106.48
+      },
+      {
+        "word": "audit",
+        "startTime": 106.48,
+        "endTime": 106.72
+      },
+      {
+        "word": "that",
+        "startTime": 106.72,
+        "endTime": 106.94
+      },
+      {
+        "word": "their",
+        "startTime": 106.94,
+        "endTime": 107.12
+      },
+      {
+        "word": "server",
+        "startTime": 107.12,
+        "endTime": 107.48
+      },
+      {
+        "word": "is",
+        "startTime": 107.48,
+        "endTime": 107.68
+      },
+      {
+        "word": "too",
+        "startTime": 107.68,
+        "endTime": 107.88
+      },
+      {
+        "word": "slow",
+        "startTime": 107.88,
+        "endTime": 108.42
+      },
+      {
+        "word": "or",
+        "startTime": 108.42,
+        "endTime": 108.92
+      },
+      {
+        "word": "returning",
+        "startTime": 108.92,
+        "endTime": 109.3
+      },
+      {
+        "word": "the",
+        "startTime": 109.3,
+        "endTime": 109.54
+      },
+      {
+        "word": "wrong",
+        "startTime": 109.54,
+        "endTime": 109.74
+      },
+      {
+        "word": "response",
+        "startTime": 109.74,
+        "endTime": 110.1
+      },
+      {
+        "word": "format.",
+        "startTime": 110.1,
+        "endTime": 110.68
+      }
+    ]
+  },
+  {
+    "text": "Always test your callback endpoints with real network latency before applying for production.",
+    "startTime": 111.28,
+    "endTime": 116.58,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Always",
+        "startTime": 111.28,
+        "endTime": 111.76
+      },
+      {
+        "word": "test",
+        "startTime": 111.76,
+        "endTime": 112.02
+      },
+      {
+        "word": "your",
+        "startTime": 112.02,
+        "endTime": 112.28
+      },
+      {
+        "word": "callback",
+        "startTime": 112.28,
+        "endTime": 112.66
+      },
+      {
+        "word": "endpoints",
+        "startTime": 112.66,
+        "endTime": 113.16
+      },
+      {
+        "word": "with",
+        "startTime": 113.16,
+        "endTime": 113.42
+      },
+      {
+        "word": "real",
+        "startTime": 113.42,
+        "endTime": 113.74
+      },
+      {
+        "word": "network",
+        "startTime": 113.74,
+        "endTime": 114.2
+      },
+      {
+        "word": "latency",
+        "startTime": 114.2,
+        "endTime": 114.78
+      },
+      {
+        "word": "before",
+        "startTime": 114.78,
+        "endTime": 115.58
+      },
+      {
+        "word": "applying",
+        "startTime": 115.58,
+        "endTime": 116.02
+      },
+      {
+        "word": "for",
+        "startTime": 116.02,
+        "endTime": 116.22
+      },
+      {
+        "word": "production.",
+        "startTime": 116.22,
+        "endTime": 116.58
+      }
+    ]
+  },
+  {
+    "text": "Remember this, production Daraja development rule.",
+    "startTime": 117.48,
+    "endTime": 120.54,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Remember",
+        "startTime": 117.48,
+        "endTime": 117.88
+      },
+      {
+        "word": "this,",
+        "startTime": 117.88,
+        "endTime": 118.26
+      },
+      {
+        "word": "production",
+        "startTime": 118.78,
+        "endTime": 119.2
+      },
+      {
+        "word": "Daraja",
+        "startTime": 119.2,
+        "endTime": 119.7
+      },
+      {
+        "word": "development",
+        "startTime": 119.7,
+        "endTime": 120.2
+      },
+      {
+        "word": "rule.",
+        "startTime": 120.2,
+        "endTime": 120.54
+      }
+    ]
+  },
+  {
+    "text": "One environment equals one set of credentials.",
+    "startTime": 121.32,
+    "endTime": 123.68,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "One",
+        "startTime": 121.32,
+        "endTime": 121.54
+      },
+      {
+        "word": "environment",
+        "startTime": 121.54,
+        "endTime": 122.06
+      },
+      {
+        "word": "equals",
+        "startTime": 122.06,
+        "endTime": 122.5
+      },
+      {
+        "word": "one",
+        "startTime": 122.5,
+        "endTime": 122.84
+      },
+      {
+        "word": "set",
+        "startTime": 122.84,
+        "endTime": 123.14
+      },
+      {
+        "word": "of",
+        "startTime": 123.14,
+        "endTime": 123.3
+      },
+      {
+        "word": "credentials.",
+        "startTime": 123.3,
+        "endTime": 123.68
+      }
+    ]
+  },
+  {
+    "text": "Never mix them.",
+    "startTime": 135.33999999999997,
+    "endTime": 136.48,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Never",
+        "startTime": 135.33999999999997,
+        "endTime": 135.92
+      },
+      {
+        "word": "mix",
+        "startTime": 135.92,
+        "endTime": 136.22
+      },
+      {
+        "word": "them.",
+        "startTime": 136.22,
+        "endTime": 136.48
+      }
+    ]
+  },
+  {
+    "text": "Never commit either to source control.",
+    "startTime": 137.1,
+    "endTime": 138.98,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Never",
+        "startTime": 137.1,
+        "endTime": 137.4
+      },
+      {
+        "word": "commit",
+        "startTime": 137.4,
+        "endTime": 137.68
+      },
+      {
+        "word": "either",
+        "startTime": 137.68,
+        "endTime": 138.04
+      },
+      {
+        "word": "to",
+        "startTime": 138.04,
+        "endTime": 138.24
+      },
+      {
+        "word": "source",
+        "startTime": 138.24,
+        "endTime": 138.46
+      },
+      {
+        "word": "control.",
+        "startTime": 138.46,
+        "endTime": 138.98
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 139.74,
+    "endTime": 143.22,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 139.74,
+        "endTime": 140.02
+      },
+      {
+        "word": "what",
+        "startTime": 140.02,
+        "endTime": 140.22
+      },
+      {
+        "word": "you",
+        "startTime": 140.22,
+        "endTime": 140.36
+      },
+      {
+        "word": "learn",
+        "startTime": 140.36,
+        "endTime": 140.56
+      },
+      {
+        "word": "in",
+        "startTime": 140.56,
+        "endTime": 140.7
+      },
+      {
+        "word": "this",
+        "startTime": 140.7,
+        "endTime": 140.9
+      },
+      {
+        "word": "lesson",
+        "startTime": 140.9,
+        "endTime": 141.24
+      },
+      {
+        "word": "and",
+        "startTime": 141.24,
+        "endTime": 141.78
+      },
+      {
+        "word": "you",
+        "startTime": 141.78,
+        "endTime": 141.96
+      },
+      {
+        "word": "will",
+        "startTime": 141.96,
+        "endTime": 142.06
+      },
+      {
+        "word": "see",
+        "startTime": 142.06,
+        "endTime": 142.26
+      },
+      {
+        "word": "results",
+        "startTime": 142.26,
+        "endTime": 142.58
+      },
+      {
+        "word": "immediately.",
+        "startTime": 142.58,
+        "endTime": 143.22
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 143.86,
+    "endTime": 144.96,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 143.86,
+        "endTime": 144.04
+      },
+      {
+        "word": "skills",
+        "startTime": 144.04,
+        "endTime": 144.4
+      },
+      {
+        "word": "bear",
+        "startTime": 144.4,
+        "endTime": 144.66
+      },
+      {
+        "word": "fruit.",
+        "startTime": 144.66,
+        "endTime": 144.96
+      }
+    ]
+  }
+]

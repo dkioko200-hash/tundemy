@@ -1,0 +1,822 @@
+[
+  {
+    "text": "A prompt without constraints is like a job description with no requirements.",
+    "startTime": 0,
+    "endTime": 5.92,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 0,
+        "endTime": 0.22
+      },
+      {
+        "word": "prompt",
+        "startTime": 0.22,
+        "endTime": 0.76
+      },
+      {
+        "word": "without",
+        "startTime": 0.76,
+        "endTime": 1.34
+      },
+      {
+        "word": "constraints",
+        "startTime": 1.34,
+        "endTime": 2.16
+      },
+      {
+        "word": "is",
+        "startTime": 2.16,
+        "endTime": 3.08
+      },
+      {
+        "word": "like",
+        "startTime": 3.08,
+        "endTime": 3.34
+      },
+      {
+        "word": "a",
+        "startTime": 3.34,
+        "endTime": 3.54
+      },
+      {
+        "word": "job",
+        "startTime": 3.54,
+        "endTime": 3.84
+      },
+      {
+        "word": "description",
+        "startTime": 3.84,
+        "endTime": 4.46
+      },
+      {
+        "word": "with",
+        "startTime": 4.46,
+        "endTime": 4.74
+      },
+      {
+        "word": "no",
+        "startTime": 4.74,
+        "endTime": 5.06
+      },
+      {
+        "word": "requirements.",
+        "startTime": 5.06,
+        "endTime": 5.92
+      }
+    ]
+  },
+  {
+    "text": "You'll get whatever the AI feels like giving you.",
+    "startTime": 6.8,
+    "endTime": 10.28,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "You'll",
+        "startTime": 6.8,
+        "endTime": 7.14
+      },
+      {
+        "word": "get",
+        "startTime": 7.14,
+        "endTime": 7.28
+      },
+      {
+        "word": "whatever",
+        "startTime": 7.28,
+        "endTime": 7.58
+      },
+      {
+        "word": "the",
+        "startTime": 7.58,
+        "endTime": 7.98
+      },
+      {
+        "word": "AI",
+        "startTime": 7.98,
+        "endTime": 8.44
+      },
+      {
+        "word": "feels",
+        "startTime": 8.44,
+        "endTime": 9.08
+      },
+      {
+        "word": "like",
+        "startTime": 9.08,
+        "endTime": 9.46
+      },
+      {
+        "word": "giving",
+        "startTime": 9.46,
+        "endTime": 9.88
+      },
+      {
+        "word": "you.",
+        "startTime": 9.88,
+        "endTime": 10.28
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, controlling output, length, tone, format, reading level and audience.",
+    "startTime": 11.62,
+    "endTime": 21.6,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 11.62,
+        "endTime": 11.8
+      },
+      {
+        "word": "this",
+        "startTime": 11.8,
+        "endTime": 12.08
+      },
+      {
+        "word": "lesson,",
+        "startTime": 12.08,
+        "endTime": 12.56
+      },
+      {
+        "word": "controlling",
+        "startTime": 13.06,
+        "endTime": 14.34
+      },
+      {
+        "word": "output,",
+        "startTime": 14.34,
+        "endTime": 15.14
+      },
+      {
+        "word": "length,",
+        "startTime": 15.96,
+        "endTime": 16.14
+      },
+      {
+        "word": "tone,",
+        "startTime": 17.06,
+        "endTime": 17.32
+      },
+      {
+        "word": "format,",
+        "startTime": 18.18,
+        "endTime": 18.62
+      },
+      {
+        "word": "reading",
+        "startTime": 19.44,
+        "endTime": 19.72
+      },
+      {
+        "word": "level",
+        "startTime": 19.72,
+        "endTime": 20.18
+      },
+      {
+        "word": "and",
+        "startTime": 20.18,
+        "endTime": 20.88
+      },
+      {
+        "word": "audience.",
+        "startTime": 20.88,
+        "endTime": 21.6
+      }
+    ]
+  },
+  {
+    "text": "How to get bullet points versus paragraphs, formal versus casual, 100 words versus 1 ,000 words every time.",
+    "startTime": 22.42,
+    "endTime": 34.66,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "How",
+        "startTime": 22.42,
+        "endTime": 22.98
+      },
+      {
+        "word": "to",
+        "startTime": 22.98,
+        "endTime": 23.24
+      },
+      {
+        "word": "get",
+        "startTime": 23.24,
+        "endTime": 23.46
+      },
+      {
+        "word": "bullet",
+        "startTime": 23.46,
+        "endTime": 23.78
+      },
+      {
+        "word": "points",
+        "startTime": 23.78,
+        "endTime": 24.22
+      },
+      {
+        "word": "versus",
+        "startTime": 24.22,
+        "endTime": 24.68
+      },
+      {
+        "word": "paragraphs,",
+        "startTime": 24.68,
+        "endTime": 25.52
+      },
+      {
+        "word": "formal",
+        "startTime": 26.52,
+        "endTime": 26.84
+      },
+      {
+        "word": "versus",
+        "startTime": 26.84,
+        "endTime": 27.36
+      },
+      {
+        "word": "casual,",
+        "startTime": 27.36,
+        "endTime": 28.04
+      },
+      {
+        "word": "100",
+        "startTime": 28.9,
+        "endTime": 29.46
+      },
+      {
+        "word": "words",
+        "startTime": 29.46,
+        "endTime": 30.04
+      },
+      {
+        "word": "versus",
+        "startTime": 30.04,
+        "endTime": 30.8
+      },
+      {
+        "word": "1",
+        "startTime": 30.8,
+        "endTime": 31.38
+      },
+      {
+        "word": ",000",
+        "startTime": 31.38,
+        "endTime": 31.88
+      },
+      {
+        "word": "words",
+        "startTime": 31.88,
+        "endTime": 32.48
+      },
+      {
+        "word": "every",
+        "startTime": 32.48,
+        "endTime": 33.8
+      },
+      {
+        "word": "time.",
+        "startTime": 33.8,
+        "endTime": 34.66
+      }
+    ]
+  },
+  {
+    "text": "Constraints are the professional, prompt, and engineers' most powerful tool.",
+    "startTime": 36.06,
+    "endTime": 41.66,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Constraints",
+        "startTime": 36.06,
+        "endTime": 37.18
+      },
+      {
+        "word": "are",
+        "startTime": 37.18,
+        "endTime": 37.68
+      },
+      {
+        "word": "the",
+        "startTime": 37.68,
+        "endTime": 37.84
+      },
+      {
+        "word": "professional,",
+        "startTime": 37.84,
+        "endTime": 38.58
+      },
+      {
+        "word": "prompt,",
+        "startTime": 38.94,
+        "endTime": 39.12
+      },
+      {
+        "word": "and",
+        "startTime": 39.3,
+        "endTime": 39.44
+      },
+      {
+        "word": "engineers'",
+        "startTime": 39.44,
+        "endTime": 39.9
+      },
+      {
+        "word": "most",
+        "startTime": 40.12,
+        "endTime": 40.26
+      },
+      {
+        "word": "powerful",
+        "startTime": 40.26,
+        "endTime": 41
+      },
+      {
+        "word": "tool.",
+        "startTime": 41,
+        "endTime": 41.66
+      }
+    ]
+  },
+  {
+    "text": "Without constraints, AI defaults to the most statistically average response, medium length, generic format, moderate detail.",
+    "startTime": 42.160000000000004,
+    "endTime": 53.56,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Without",
+        "startTime": 42.160000000000004,
+        "endTime": 42.84
+      },
+      {
+        "word": "constraints,",
+        "startTime": 42.84,
+        "endTime": 43.6
+      },
+      {
+        "word": "AI",
+        "startTime": 44.46,
+        "endTime": 44.66
+      },
+      {
+        "word": "defaults",
+        "startTime": 44.66,
+        "endTime": 45.54
+      },
+      {
+        "word": "to",
+        "startTime": 45.54,
+        "endTime": 45.64
+      },
+      {
+        "word": "the",
+        "startTime": 45.64,
+        "endTime": 45.76
+      },
+      {
+        "word": "most",
+        "startTime": 45.76,
+        "endTime": 46
+      },
+      {
+        "word": "statistically",
+        "startTime": 46,
+        "endTime": 46.84
+      },
+      {
+        "word": "average",
+        "startTime": 46.84,
+        "endTime": 47.64
+      },
+      {
+        "word": "response,",
+        "startTime": 47.64,
+        "endTime": 48.36
+      },
+      {
+        "word": "medium",
+        "startTime": 49.04,
+        "endTime": 49.52
+      },
+      {
+        "word": "length,",
+        "startTime": 49.52,
+        "endTime": 50.12
+      },
+      {
+        "word": "generic",
+        "startTime": 50.54,
+        "endTime": 50.88
+      },
+      {
+        "word": "format,",
+        "startTime": 50.88,
+        "endTime": 51.56
+      },
+      {
+        "word": "moderate",
+        "startTime": 52.1,
+        "endTime": 52.58
+      },
+      {
+        "word": "detail.",
+        "startTime": 52.58,
+        "endTime": 53.56
+      }
+    ]
+  },
+  {
+    "text": "Adding constraints forces precision.",
+    "startTime": 54.9,
+    "endTime": 57.86,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Adding",
+        "startTime": 54.9,
+        "endTime": 55.14
+      },
+      {
+        "word": "constraints",
+        "startTime": 55.14,
+        "endTime": 55.9
+      },
+      {
+        "word": "forces",
+        "startTime": 55.9,
+        "endTime": 56.92
+      },
+      {
+        "word": "precision.",
+        "startTime": 56.92,
+        "endTime": 57.86
+      }
+    ]
+  },
+  {
+    "text": "The specificity of your constraints determines the usefulness of the output.",
+    "startTime": 58.68,
+    "endTime": 64.3,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 58.68,
+        "endTime": 58.9
+      },
+      {
+        "word": "specificity",
+        "startTime": 58.9,
+        "endTime": 59.88
+      },
+      {
+        "word": "of",
+        "startTime": 59.88,
+        "endTime": 60.04
+      },
+      {
+        "word": "your",
+        "startTime": 60.04,
+        "endTime": 60.18
+      },
+      {
+        "word": "constraints",
+        "startTime": 60.18,
+        "endTime": 61.02
+      },
+      {
+        "word": "determines",
+        "startTime": 61.02,
+        "endTime": 62.1
+      },
+      {
+        "word": "the",
+        "startTime": 62.1,
+        "endTime": 62.44
+      },
+      {
+        "word": "usefulness",
+        "startTime": 62.44,
+        "endTime": 63.26
+      },
+      {
+        "word": "of",
+        "startTime": 63.26,
+        "endTime": 63.64
+      },
+      {
+        "word": "the",
+        "startTime": 63.64,
+        "endTime": 63.86
+      },
+      {
+        "word": "output.",
+        "startTime": 63.86,
+        "endTime": 64.3
+      }
+    ]
+  },
+  {
+    "text": "Vague prompts produce average outputs.",
+    "startTime": 65.25999999999999,
+    "endTime": 68.84,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Vague",
+        "startTime": 65.25999999999999,
+        "endTime": 65.84
+      },
+      {
+        "word": "prompts",
+        "startTime": 65.84,
+        "endTime": 66.3
+      },
+      {
+        "word": "produce",
+        "startTime": 66.3,
+        "endTime": 67.04
+      },
+      {
+        "word": "average",
+        "startTime": 67.04,
+        "endTime": 67.9
+      },
+      {
+        "word": "outputs.",
+        "startTime": 67.9,
+        "endTime": 68.84
+      }
+    ]
+  },
+  {
+    "text": "Constraint prompts produce professional ones.",
+    "startTime": 69.96,
+    "endTime": 73.28,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Constraint",
+        "startTime": 69.96,
+        "endTime": 70.42
+      },
+      {
+        "word": "prompts",
+        "startTime": 70.42,
+        "endTime": 70.96
+      },
+      {
+        "word": "produce",
+        "startTime": 70.96,
+        "endTime": 71.66
+      },
+      {
+        "word": "professional",
+        "startTime": 71.66,
+        "endTime": 72.64
+      },
+      {
+        "word": "ones.",
+        "startTime": 72.64,
+        "endTime": 73.28
+      }
+    ]
+  },
+  {
+    "text": "Remember this.",
+    "startTime": 74.42,
+    "endTime": 75.42,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Remember",
+        "startTime": 74.42,
+        "endTime": 74.96
+      },
+      {
+        "word": "this.",
+        "startTime": 74.96,
+        "endTime": 75.42
+      }
+    ]
+  },
+  {
+    "text": "Every unconstrained dimension in your prompt is a dimension where AI makes its own decision.",
+    "startTime": 76.08,
+    "endTime": 83.56,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Every",
+        "startTime": 76.08,
+        "endTime": 76.56
+      },
+      {
+        "word": "unconstrained",
+        "startTime": 76.56,
+        "endTime": 77.74
+      },
+      {
+        "word": "dimension",
+        "startTime": 77.74,
+        "endTime": 78.1
+      },
+      {
+        "word": "in",
+        "startTime": 78.1,
+        "endTime": 78.52
+      },
+      {
+        "word": "your",
+        "startTime": 78.52,
+        "endTime": 78.72
+      },
+      {
+        "word": "prompt",
+        "startTime": 78.72,
+        "endTime": 79.24
+      },
+      {
+        "word": "is",
+        "startTime": 79.24,
+        "endTime": 79.98
+      },
+      {
+        "word": "a",
+        "startTime": 79.98,
+        "endTime": 80.1
+      },
+      {
+        "word": "dimension",
+        "startTime": 80.1,
+        "endTime": 80.58
+      },
+      {
+        "word": "where",
+        "startTime": 80.58,
+        "endTime": 81.1
+      },
+      {
+        "word": "AI",
+        "startTime": 81.1,
+        "endTime": 81.52
+      },
+      {
+        "word": "makes",
+        "startTime": 81.52,
+        "endTime": 82
+      },
+      {
+        "word": "its",
+        "startTime": 82,
+        "endTime": 82.36
+      },
+      {
+        "word": "own",
+        "startTime": 82.36,
+        "endTime": 82.74
+      },
+      {
+        "word": "decision.",
+        "startTime": 82.74,
+        "endTime": 83.56
+      }
+    ]
+  },
+  {
+    "text": "Constrain everything that matters.",
+    "startTime": 84.46,
+    "endTime": 87.04,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Constrain",
+        "startTime": 84.46,
+        "endTime": 85.12
+      },
+      {
+        "word": "everything",
+        "startTime": 85.12,
+        "endTime": 86.1
+      },
+      {
+        "word": "that",
+        "startTime": 86.1,
+        "endTime": 86.48
+      },
+      {
+        "word": "matters.",
+        "startTime": 86.48,
+        "endTime": 87.04
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 88.66,
+    "endTime": 93.82,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 88.66,
+        "endTime": 89.06
+      },
+      {
+        "word": "what",
+        "startTime": 89.06,
+        "endTime": 89.38
+      },
+      {
+        "word": "you",
+        "startTime": 89.38,
+        "endTime": 89.56
+      },
+      {
+        "word": "learn",
+        "startTime": 89.56,
+        "endTime": 89.88
+      },
+      {
+        "word": "in",
+        "startTime": 89.88,
+        "endTime": 90.08
+      },
+      {
+        "word": "this",
+        "startTime": 90.08,
+        "endTime": 90.34
+      },
+      {
+        "word": "lesson",
+        "startTime": 90.34,
+        "endTime": 90.8
+      },
+      {
+        "word": "and",
+        "startTime": 90.8,
+        "endTime": 91.42
+      },
+      {
+        "word": "you",
+        "startTime": 91.42,
+        "endTime": 91.58
+      },
+      {
+        "word": "will",
+        "startTime": 91.58,
+        "endTime": 91.72
+      },
+      {
+        "word": "see",
+        "startTime": 91.72,
+        "endTime": 92.02
+      },
+      {
+        "word": "results",
+        "startTime": 92.02,
+        "endTime": 92.6
+      },
+      {
+        "word": "immediately.",
+        "startTime": 92.6,
+        "endTime": 93.82
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 94.4,
+    "endTime": 96.9,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 94.4,
+        "endTime": 94.66
+      },
+      {
+        "word": "skills",
+        "startTime": 94.66,
+        "endTime": 95.36
+      },
+      {
+        "word": "bear",
+        "startTime": 95.36,
+        "endTime": 96.1
+      },
+      {
+        "word": "fruit.",
+        "startTime": 96.1,
+        "endTime": 96.9
+      }
+    ]
+  }
+]

@@ -1,0 +1,763 @@
+[
+  {
+    "text": "Welcome to Introduction.",
+    "startTime": 0,
+    "endTime": 1.72,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "Welcome",
+        "startTime": 0,
+        "endTime": 0.5
+      },
+      {
+        "word": "to",
+        "startTime": 0.5,
+        "endTime": 0.84
+      },
+      {
+        "word": "Introduction.",
+        "startTime": 0.84,
+        "endTime": 1.72
+      }
+    ]
+  },
+  {
+    "text": "Y -R -A -G is the most hierable AI engineering skill right now.",
+    "startTime": 2.48,
+    "endTime": 8.2,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Y",
+        "startTime": 2.48,
+        "endTime": 2.68
+      },
+      {
+        "word": "-R",
+        "startTime": 2.68,
+        "endTime": 3.06
+      },
+      {
+        "word": "-A",
+        "startTime": 3.06,
+        "endTime": 3.36
+      },
+      {
+        "word": "-G",
+        "startTime": 3.36,
+        "endTime": 3.68
+      },
+      {
+        "word": "is",
+        "startTime": 3.68,
+        "endTime": 4.2
+      },
+      {
+        "word": "the",
+        "startTime": 4.2,
+        "endTime": 4.36
+      },
+      {
+        "word": "most",
+        "startTime": 4.36,
+        "endTime": 4.68
+      },
+      {
+        "word": "hierable",
+        "startTime": 4.68,
+        "endTime": 5.34
+      },
+      {
+        "word": "AI",
+        "startTime": 5.34,
+        "endTime": 5.98
+      },
+      {
+        "word": "engineering",
+        "startTime": 5.98,
+        "endTime": 6.64
+      },
+      {
+        "word": "skill",
+        "startTime": 6.64,
+        "endTime": 7.3
+      },
+      {
+        "word": "right",
+        "startTime": 7.3,
+        "endTime": 7.82
+      },
+      {
+        "word": "now.",
+        "startTime": 7.82,
+        "endTime": 8.2
+      }
+    ]
+  },
+  {
+    "text": "I am so glad you are here.",
+    "startTime": 9.32,
+    "endTime": 11.3,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "I",
+        "startTime": 9.32,
+        "endTime": 9.68
+      },
+      {
+        "word": "am",
+        "startTime": 9.68,
+        "endTime": 9.8
+      },
+      {
+        "word": "so",
+        "startTime": 9.8,
+        "endTime": 10.14
+      },
+      {
+        "word": "glad",
+        "startTime": 10.14,
+        "endTime": 10.52
+      },
+      {
+        "word": "you",
+        "startTime": 10.52,
+        "endTime": 10.82
+      },
+      {
+        "word": "are",
+        "startTime": 10.82,
+        "endTime": 10.96
+      },
+      {
+        "word": "here.",
+        "startTime": 10.96,
+        "endTime": 11.3
+      }
+    ]
+  },
+  {
+    "text": "Every company that wants to use AI on its own data, its own documents, its own customer records, its own knowledge base needs R -A -G.",
+    "startTime": 12.3,
+    "endTime": 24.12,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Every",
+        "startTime": 12.3,
+        "endTime": 12.64
+      },
+      {
+        "word": "company",
+        "startTime": 12.64,
+        "endTime": 13.1
+      },
+      {
+        "word": "that",
+        "startTime": 13.1,
+        "endTime": 13.32
+      },
+      {
+        "word": "wants",
+        "startTime": 13.32,
+        "endTime": 13.54
+      },
+      {
+        "word": "to",
+        "startTime": 13.54,
+        "endTime": 13.8
+      },
+      {
+        "word": "use",
+        "startTime": 13.8,
+        "endTime": 14.12
+      },
+      {
+        "word": "AI",
+        "startTime": 14.12,
+        "endTime": 14.74
+      },
+      {
+        "word": "on",
+        "startTime": 14.74,
+        "endTime": 15.18
+      },
+      {
+        "word": "its",
+        "startTime": 15.18,
+        "endTime": 15.38
+      },
+      {
+        "word": "own",
+        "startTime": 15.38,
+        "endTime": 15.66
+      },
+      {
+        "word": "data,",
+        "startTime": 15.66,
+        "endTime": 16.28
+      },
+      {
+        "word": "its",
+        "startTime": 16.8,
+        "endTime": 17.02
+      },
+      {
+        "word": "own",
+        "startTime": 17.02,
+        "endTime": 17.26
+      },
+      {
+        "word": "documents,",
+        "startTime": 17.26,
+        "endTime": 17.88
+      },
+      {
+        "word": "its",
+        "startTime": 18.46,
+        "endTime": 18.64
+      },
+      {
+        "word": "own",
+        "startTime": 18.64,
+        "endTime": 18.92
+      },
+      {
+        "word": "customer",
+        "startTime": 18.92,
+        "endTime": 19.5
+      },
+      {
+        "word": "records,",
+        "startTime": 19.5,
+        "endTime": 20.1
+      },
+      {
+        "word": "its",
+        "startTime": 20.64,
+        "endTime": 20.82
+      },
+      {
+        "word": "own",
+        "startTime": 20.82,
+        "endTime": 21.14
+      },
+      {
+        "word": "knowledge",
+        "startTime": 21.14,
+        "endTime": 21.62
+      },
+      {
+        "word": "base",
+        "startTime": 21.62,
+        "endTime": 22.2
+      },
+      {
+        "word": "needs",
+        "startTime": 22.2,
+        "endTime": 22.92
+      },
+      {
+        "word": "R",
+        "startTime": 22.92,
+        "endTime": 23.58
+      },
+      {
+        "word": "-A",
+        "startTime": 23.58,
+        "endTime": 23.78
+      },
+      {
+        "word": "-G.",
+        "startTime": 23.78,
+        "endTime": 24.12
+      }
+    ]
+  },
+  {
+    "text": "Not fine tuning, not prompt engineering alone, R -A -G.",
+    "startTime": 25.04,
+    "endTime": 31.54,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Not",
+        "startTime": 25.04,
+        "endTime": 25.4
+      },
+      {
+        "word": "fine",
+        "startTime": 25.4,
+        "endTime": 25.76
+      },
+      {
+        "word": "tuning,",
+        "startTime": 25.76,
+        "endTime": 26.3
+      },
+      {
+        "word": "not",
+        "startTime": 26.96,
+        "endTime": 27.28
+      },
+      {
+        "word": "prompt",
+        "startTime": 27.28,
+        "endTime": 27.6
+      },
+      {
+        "word": "engineering",
+        "startTime": 27.6,
+        "endTime": 28.44
+      },
+      {
+        "word": "alone,",
+        "startTime": 28.44,
+        "endTime": 29.18
+      },
+      {
+        "word": "R",
+        "startTime": 29.909999999999997,
+        "endTime": 30.38
+      },
+      {
+        "word": "-A",
+        "startTime": 30.38,
+        "endTime": 31.04
+      },
+      {
+        "word": "-G.",
+        "startTime": 31.04,
+        "endTime": 31.54
+      }
+    ]
+  },
+  {
+    "text": "It is the engineering pattern that makes AI actually useful for real business problems.",
+    "startTime": 32.29,
+    "endTime": 39.58,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "It",
+        "startTime": 32.29,
+        "endTime": 32.76
+      },
+      {
+        "word": "is",
+        "startTime": 32.76,
+        "endTime": 32.94
+      },
+      {
+        "word": "the",
+        "startTime": 32.94,
+        "endTime": 33.12
+      },
+      {
+        "word": "engineering",
+        "startTime": 33.12,
+        "endTime": 33.7
+      },
+      {
+        "word": "pattern",
+        "startTime": 33.7,
+        "endTime": 34.34
+      },
+      {
+        "word": "that",
+        "startTime": 34.34,
+        "endTime": 34.86
+      },
+      {
+        "word": "makes",
+        "startTime": 34.86,
+        "endTime": 35.12
+      },
+      {
+        "word": "AI",
+        "startTime": 35.12,
+        "endTime": 35.68
+      },
+      {
+        "word": "actually",
+        "startTime": 35.68,
+        "endTime": 36.58
+      },
+      {
+        "word": "useful",
+        "startTime": 36.58,
+        "endTime": 37.34
+      },
+      {
+        "word": "for",
+        "startTime": 37.34,
+        "endTime": 37.9
+      },
+      {
+        "word": "real",
+        "startTime": 37.9,
+        "endTime": 38.34
+      },
+      {
+        "word": "business",
+        "startTime": 38.34,
+        "endTime": 38.84
+      },
+      {
+        "word": "problems.",
+        "startTime": 38.84,
+        "endTime": 39.58
+      }
+    ]
+  },
+  {
+    "text": "And the engineers who can build it are being hired at $60 ,000, $150 ,000 per year worldwide.",
+    "startTime": 40.24,
+    "endTime": 49.66,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "And",
+        "startTime": 40.24,
+        "endTime": 40.46
+      },
+      {
+        "word": "the",
+        "startTime": 40.46,
+        "endTime": 40.6
+      },
+      {
+        "word": "engineers",
+        "startTime": 40.6,
+        "endTime": 41.14
+      },
+      {
+        "word": "who",
+        "startTime": 41.14,
+        "endTime": 41.36
+      },
+      {
+        "word": "can",
+        "startTime": 41.36,
+        "endTime": 41.56
+      },
+      {
+        "word": "build",
+        "startTime": 41.56,
+        "endTime": 41.96
+      },
+      {
+        "word": "it",
+        "startTime": 41.96,
+        "endTime": 42.36
+      },
+      {
+        "word": "are",
+        "startTime": 42.36,
+        "endTime": 42.76
+      },
+      {
+        "word": "being",
+        "startTime": 42.76,
+        "endTime": 43.06
+      },
+      {
+        "word": "hired",
+        "startTime": 43.06,
+        "endTime": 43.52
+      },
+      {
+        "word": "at",
+        "startTime": 43.52,
+        "endTime": 43.84
+      },
+      {
+        "word": "$60",
+        "startTime": 43.84,
+        "endTime": 44.38
+      },
+      {
+        "word": ",000,",
+        "startTime": 44.38,
+        "endTime": 45.34
+      },
+      {
+        "word": "$150",
+        "startTime": 45.62,
+        "endTime": 46.64
+      },
+      {
+        "word": ",000",
+        "startTime": 46.64,
+        "endTime": 47.82
+      },
+      {
+        "word": "per",
+        "startTime": 47.82,
+        "endTime": 48.14
+      },
+      {
+        "word": "year",
+        "startTime": 48.14,
+        "endTime": 48.62
+      },
+      {
+        "word": "worldwide.",
+        "startTime": 48.62,
+        "endTime": 49.66
+      }
+    ]
+  },
+  {
+    "text": "You do not need to code.",
+    "startTime": 50.69,
+    "endTime": 52.54,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 50.69,
+        "endTime": 51.16
+      },
+      {
+        "word": "do",
+        "startTime": 51.16,
+        "endTime": 51.3
+      },
+      {
+        "word": "not",
+        "startTime": 51.3,
+        "endTime": 51.52
+      },
+      {
+        "word": "need",
+        "startTime": 51.52,
+        "endTime": 51.82
+      },
+      {
+        "word": "to",
+        "startTime": 51.82,
+        "endTime": 52.08
+      },
+      {
+        "word": "code.",
+        "startTime": 52.08,
+        "endTime": 52.54
+      }
+    ]
+  },
+  {
+    "text": "You do not need a technology background.",
+    "startTime": 53.2,
+    "endTime": 55.76,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 53.2,
+        "endTime": 53.38
+      },
+      {
+        "word": "do",
+        "startTime": 53.38,
+        "endTime": 53.54
+      },
+      {
+        "word": "not",
+        "startTime": 53.54,
+        "endTime": 53.78
+      },
+      {
+        "word": "need",
+        "startTime": 53.78,
+        "endTime": 54.12
+      },
+      {
+        "word": "a",
+        "startTime": 54.12,
+        "endTime": 54.34
+      },
+      {
+        "word": "technology",
+        "startTime": 54.34,
+        "endTime": 54.98
+      },
+      {
+        "word": "background.",
+        "startTime": 54.98,
+        "endTime": 55.76
+      }
+    ]
+  },
+  {
+    "text": "All you need is the willingness to learn and I will guide you every step of the way.",
+    "startTime": 56.22,
+    "endTime": 63.18,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "All",
+        "startTime": 56.22,
+        "endTime": 56.62
+      },
+      {
+        "word": "you",
+        "startTime": 56.62,
+        "endTime": 56.98
+      },
+      {
+        "word": "need",
+        "startTime": 56.98,
+        "endTime": 57.38
+      },
+      {
+        "word": "is",
+        "startTime": 57.38,
+        "endTime": 57.9
+      },
+      {
+        "word": "the",
+        "startTime": 57.9,
+        "endTime": 58.12
+      },
+      {
+        "word": "willingness",
+        "startTime": 58.12,
+        "endTime": 58.6
+      },
+      {
+        "word": "to",
+        "startTime": 58.6,
+        "endTime": 59.16
+      },
+      {
+        "word": "learn",
+        "startTime": 59.16,
+        "endTime": 59.62
+      },
+      {
+        "word": "and",
+        "startTime": 59.62,
+        "endTime": 60.3
+      },
+      {
+        "word": "I",
+        "startTime": 60.3,
+        "endTime": 60.48
+      },
+      {
+        "word": "will",
+        "startTime": 60.48,
+        "endTime": 60.64
+      },
+      {
+        "word": "guide",
+        "startTime": 60.64,
+        "endTime": 61.02
+      },
+      {
+        "word": "you",
+        "startTime": 61.02,
+        "endTime": 61.36
+      },
+      {
+        "word": "every",
+        "startTime": 61.36,
+        "endTime": 62.02
+      },
+      {
+        "word": "step",
+        "startTime": 62.02,
+        "endTime": 62.44
+      },
+      {
+        "word": "of",
+        "startTime": 62.44,
+        "endTime": 62.68
+      },
+      {
+        "word": "the",
+        "startTime": 62.68,
+        "endTime": 62.86
+      },
+      {
+        "word": "way.",
+        "startTime": 62.86,
+        "endTime": 63.18
+      }
+    ]
+  },
+  {
+    "text": "I will see you in lesson one.",
+    "startTime": 64.14,
+    "endTime": 66.7,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "I",
+        "startTime": 64.14,
+        "endTime": 64.54
+      },
+      {
+        "word": "will",
+        "startTime": 64.54,
+        "endTime": 64.7
+      },
+      {
+        "word": "see",
+        "startTime": 64.7,
+        "endTime": 65.04
+      },
+      {
+        "word": "you",
+        "startTime": 65.04,
+        "endTime": 65.4
+      },
+      {
+        "word": "in",
+        "startTime": 65.4,
+        "endTime": 65.74
+      },
+      {
+        "word": "lesson",
+        "startTime": 65.74,
+        "endTime": 66.14
+      },
+      {
+        "word": "one.",
+        "startTime": 66.14,
+        "endTime": 66.7
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 67.44,
+    "endTime": 69.7,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 67.44,
+        "endTime": 67.68
+      },
+      {
+        "word": "skills",
+        "startTime": 67.68,
+        "endTime": 68.34
+      },
+      {
+        "word": "bear",
+        "startTime": 68.34,
+        "endTime": 69
+      },
+      {
+        "word": "fruit.",
+        "startTime": 69,
+        "endTime": 69.7
+      }
+    ]
+  }
+]

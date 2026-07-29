@@ -1,0 +1,377 @@
+[
+  {
+    "text": "When AI gives you bad output, 90 % of the time the problem is your prompt, not the AI.",
+    "startTime": 0,
+    "endTime": 9.54,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "When",
+        "startTime": 0,
+        "endTime": 0.32
+      },
+      {
+        "word": "AI",
+        "startTime": 0.32,
+        "endTime": 0.68
+      },
+      {
+        "word": "gives",
+        "startTime": 0.68,
+        "endTime": 1.3
+      },
+      {
+        "word": "you",
+        "startTime": 1.3,
+        "endTime": 1.56
+      },
+      {
+        "word": "bad",
+        "startTime": 1.56,
+        "endTime": 1.9
+      },
+      {
+        "word": "output,",
+        "startTime": 1.9,
+        "endTime": 2.58
+      },
+      {
+        "word": "90",
+        "startTime": 3.28,
+        "endTime": 3.9
+      },
+      {
+        "word": "%",
+        "startTime": 3.9,
+        "endTime": 4.32
+      },
+      {
+        "word": "of",
+        "startTime": 4.32,
+        "endTime": 4.56
+      },
+      {
+        "word": "the",
+        "startTime": 4.56,
+        "endTime": 4.76
+      },
+      {
+        "word": "time",
+        "startTime": 4.76,
+        "endTime": 5.24
+      },
+      {
+        "word": "the",
+        "startTime": 5.24,
+        "endTime": 5.82
+      },
+      {
+        "word": "problem",
+        "startTime": 5.82,
+        "endTime": 6.34
+      },
+      {
+        "word": "is",
+        "startTime": 6.34,
+        "endTime": 6.68
+      },
+      {
+        "word": "your",
+        "startTime": 6.68,
+        "endTime": 6.96
+      },
+      {
+        "word": "prompt,",
+        "startTime": 6.96,
+        "endTime": 7.5
+      },
+      {
+        "word": "not",
+        "startTime": 8.06,
+        "endTime": 8.44
+      },
+      {
+        "word": "the",
+        "startTime": 8.44,
+        "endTime": 8.84
+      },
+      {
+        "word": "AI.",
+        "startTime": 8.84,
+        "endTime": 9.54
+      }
+    ]
+  },
+  {
+    "text": "Diagnosing and fixing it is a professional skill.",
+    "startTime": 10.56,
+    "endTime": 14.32,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Diagnosing",
+        "startTime": 10.56,
+        "endTime": 11.26
+      },
+      {
+        "word": "and",
+        "startTime": 11.26,
+        "endTime": 11.64
+      },
+      {
+        "word": "fixing",
+        "startTime": 11.64,
+        "endTime": 12.14
+      },
+      {
+        "word": "it",
+        "startTime": 12.14,
+        "endTime": 12.52
+      },
+      {
+        "word": "is",
+        "startTime": 12.52,
+        "endTime": 12.84
+      },
+      {
+        "word": "a",
+        "startTime": 12.84,
+        "endTime": 12.96
+      },
+      {
+        "word": "professional",
+        "startTime": 12.96,
+        "endTime": 13.7
+      },
+      {
+        "word": "skill.",
+        "startTime": 13.7,
+        "endTime": 14.32
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, systematic debugging framework, identifying the failure mode, vague output, wrong format, missed requirements, hallucinations, applying targeted fixes and testing iteratively.",
+    "startTime": 15.54,
+    "endTime": 34.36,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 15.54,
+        "endTime": 15.72
+      },
+      {
+        "word": "this",
+        "startTime": 15.72,
+        "endTime": 16
+      },
+      {
+        "word": "lesson,",
+        "startTime": 16,
+        "endTime": 16.54
+      },
+      {
+        "word": "systematic",
+        "startTime": 17.44,
+        "endTime": 18.08
+      },
+      {
+        "word": "debugging",
+        "startTime": 18.08,
+        "endTime": 18.66
+      },
+      {
+        "word": "framework,",
+        "startTime": 18.66,
+        "endTime": 19.48
+      },
+      {
+        "word": "identifying",
+        "startTime": 20.36,
+        "endTime": 21.1
+      },
+      {
+        "word": "the",
+        "startTime": 21.1,
+        "endTime": 21.5
+      },
+      {
+        "word": "failure",
+        "startTime": 21.5,
+        "endTime": 21.94
+      },
+      {
+        "word": "mode,",
+        "startTime": 21.94,
+        "endTime": 22.4
+      },
+      {
+        "word": "vague",
+        "startTime": 23.12,
+        "endTime": 23.32
+      },
+      {
+        "word": "output,",
+        "startTime": 23.32,
+        "endTime": 23.94
+      },
+      {
+        "word": "wrong",
+        "startTime": 24.119999999999997,
+        "endTime": 24.74
+      },
+      {
+        "word": "format,",
+        "startTime": 24.74,
+        "endTime": 25.4
+      },
+      {
+        "word": "missed",
+        "startTime": 26.02,
+        "endTime": 26.28
+      },
+      {
+        "word": "requirements,",
+        "startTime": 26.28,
+        "endTime": 27
+      },
+      {
+        "word": "hallucinations,",
+        "startTime": 27.7,
+        "endTime": 28.86
+      },
+      {
+        "word": "applying",
+        "startTime": 29.16,
+        "endTime": 30.16
+      },
+      {
+        "word": "targeted",
+        "startTime": 30.16,
+        "endTime": 30.94
+      },
+      {
+        "word": "fixes",
+        "startTime": 30.94,
+        "endTime": 31.56
+      },
+      {
+        "word": "and",
+        "startTime": 31.56,
+        "endTime": 32.42
+      },
+      {
+        "word": "testing",
+        "startTime": 32.42,
+        "endTime": 33.04
+      },
+      {
+        "word": "iteratively.",
+        "startTime": 33.04,
+        "endTime": 34.36
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 35.44,
+    "endTime": 41.46,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 35.44,
+        "endTime": 36.42
+      },
+      {
+        "word": "what",
+        "startTime": 36.42,
+        "endTime": 36.7
+      },
+      {
+        "word": "you",
+        "startTime": 36.7,
+        "endTime": 36.86
+      },
+      {
+        "word": "learn",
+        "startTime": 36.86,
+        "endTime": 37.16
+      },
+      {
+        "word": "in",
+        "startTime": 37.16,
+        "endTime": 37.34
+      },
+      {
+        "word": "this",
+        "startTime": 37.34,
+        "endTime": 37.62
+      },
+      {
+        "word": "lesson",
+        "startTime": 37.62,
+        "endTime": 38.1
+      },
+      {
+        "word": "and",
+        "startTime": 38.1,
+        "endTime": 38.82
+      },
+      {
+        "word": "you",
+        "startTime": 38.82,
+        "endTime": 39.06
+      },
+      {
+        "word": "will",
+        "startTime": 39.06,
+        "endTime": 39.24
+      },
+      {
+        "word": "see",
+        "startTime": 39.24,
+        "endTime": 39.56
+      },
+      {
+        "word": "results",
+        "startTime": 39.56,
+        "endTime": 40.16
+      },
+      {
+        "word": "immediately.",
+        "startTime": 40.16,
+        "endTime": 41.46
+      }
+    ]
+  },
+  {
+    "text": "Your skills bare fruit.",
+    "startTime": 42.38,
+    "endTime": 44.64,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 42.38,
+        "endTime": 42.56
+      },
+      {
+        "word": "skills",
+        "startTime": 42.56,
+        "endTime": 43.28
+      },
+      {
+        "word": "bare",
+        "startTime": 43.28,
+        "endTime": 43.86
+      },
+      {
+        "word": "fruit.",
+        "startTime": 43.86,
+        "endTime": 44.64
+      }
+    ]
+  }
+]

@@ -1,0 +1,1068 @@
+[
+  {
+    "text": "Show, do not tell.",
+    "startTime": 0,
+    "endTime": 2.1,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "Show,",
+        "startTime": 0,
+        "endTime": 0.38
+      },
+      {
+        "word": "do",
+        "startTime": 0.82,
+        "endTime": 1.14
+      },
+      {
+        "word": "not",
+        "startTime": 1.14,
+        "endTime": 1.42
+      },
+      {
+        "word": "tell.",
+        "startTime": 1.42,
+        "endTime": 2.1
+      }
+    ]
+  },
+  {
+    "text": "Providing examples is the most powerful prompting technique that most people never use and it works every time.",
+    "startTime": 3.04,
+    "endTime": 12.82,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Providing",
+        "startTime": 3.04,
+        "endTime": 3.66
+      },
+      {
+        "word": "examples",
+        "startTime": 3.66,
+        "endTime": 4.36
+      },
+      {
+        "word": "is",
+        "startTime": 4.36,
+        "endTime": 5.06
+      },
+      {
+        "word": "the",
+        "startTime": 5.06,
+        "endTime": 5.26
+      },
+      {
+        "word": "most",
+        "startTime": 5.26,
+        "endTime": 5.5
+      },
+      {
+        "word": "powerful",
+        "startTime": 5.5,
+        "endTime": 6.22
+      },
+      {
+        "word": "prompting",
+        "startTime": 6.22,
+        "endTime": 6.88
+      },
+      {
+        "word": "technique",
+        "startTime": 6.88,
+        "endTime": 7.42
+      },
+      {
+        "word": "that",
+        "startTime": 7.42,
+        "endTime": 7.92
+      },
+      {
+        "word": "most",
+        "startTime": 7.92,
+        "endTime": 8.34
+      },
+      {
+        "word": "people",
+        "startTime": 8.34,
+        "endTime": 8.88
+      },
+      {
+        "word": "never",
+        "startTime": 8.88,
+        "endTime": 9.32
+      },
+      {
+        "word": "use",
+        "startTime": 9.32,
+        "endTime": 9.86
+      },
+      {
+        "word": "and",
+        "startTime": 9.86,
+        "endTime": 10.5
+      },
+      {
+        "word": "it",
+        "startTime": 10.5,
+        "endTime": 10.66
+      },
+      {
+        "word": "works",
+        "startTime": 10.66,
+        "endTime": 11.1
+      },
+      {
+        "word": "every",
+        "startTime": 11.1,
+        "endTime": 12
+      },
+      {
+        "word": "time.",
+        "startTime": 12,
+        "endTime": 12.82
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, using examples to guide AI output.",
+    "startTime": 14.22,
+    "endTime": 19.58,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 14.22,
+        "endTime": 14.5
+      },
+      {
+        "word": "this",
+        "startTime": 14.5,
+        "endTime": 14.74
+      },
+      {
+        "word": "lesson,",
+        "startTime": 14.74,
+        "endTime": 15.28
+      },
+      {
+        "word": "using",
+        "startTime": 16.06,
+        "endTime": 16.42
+      },
+      {
+        "word": "examples",
+        "startTime": 16.42,
+        "endTime": 17.14
+      },
+      {
+        "word": "to",
+        "startTime": 17.14,
+        "endTime": 17.52
+      },
+      {
+        "word": "guide",
+        "startTime": 17.52,
+        "endTime": 18
+      },
+      {
+        "word": "AI",
+        "startTime": 18,
+        "endTime": 18.64
+      },
+      {
+        "word": "output.",
+        "startTime": 18.64,
+        "endTime": 19.58
+      }
+    ]
+  },
+  {
+    "text": "Few shot prompting tells the AI exactly what you want by showing it two comma five worked examples before the real task.",
+    "startTime": 20.64,
+    "endTime": 31.24,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Few",
+        "startTime": 20.64,
+        "endTime": 21.36
+      },
+      {
+        "word": "shot",
+        "startTime": 21.36,
+        "endTime": 21.66
+      },
+      {
+        "word": "prompting",
+        "startTime": 21.66,
+        "endTime": 22.38
+      },
+      {
+        "word": "tells",
+        "startTime": 22.38,
+        "endTime": 22.84
+      },
+      {
+        "word": "the",
+        "startTime": 22.84,
+        "endTime": 23.12
+      },
+      {
+        "word": "AI",
+        "startTime": 23.12,
+        "endTime": 23.7
+      },
+      {
+        "word": "exactly",
+        "startTime": 23.7,
+        "endTime": 24.34
+      },
+      {
+        "word": "what",
+        "startTime": 24.34,
+        "endTime": 24.88
+      },
+      {
+        "word": "you",
+        "startTime": 24.88,
+        "endTime": 25.08
+      },
+      {
+        "word": "want",
+        "startTime": 25.08,
+        "endTime": 25.56
+      },
+      {
+        "word": "by",
+        "startTime": 25.56,
+        "endTime": 26.08
+      },
+      {
+        "word": "showing",
+        "startTime": 26.08,
+        "endTime": 26.52
+      },
+      {
+        "word": "it",
+        "startTime": 26.52,
+        "endTime": 26.8
+      },
+      {
+        "word": "two",
+        "startTime": 26.8,
+        "endTime": 27.22
+      },
+      {
+        "word": "comma",
+        "startTime": 27.22,
+        "endTime": 27.56
+      },
+      {
+        "word": "five",
+        "startTime": 27.56,
+        "endTime": 27.96
+      },
+      {
+        "word": "worked",
+        "startTime": 27.96,
+        "endTime": 28.6
+      },
+      {
+        "word": "examples",
+        "startTime": 28.6,
+        "endTime": 29.22
+      },
+      {
+        "word": "before",
+        "startTime": 29.22,
+        "endTime": 30.06
+      },
+      {
+        "word": "the",
+        "startTime": 30.06,
+        "endTime": 30.42
+      },
+      {
+        "word": "real",
+        "startTime": 30.42,
+        "endTime": 30.8
+      },
+      {
+        "word": "task.",
+        "startTime": 30.8,
+        "endTime": 31.24
+      }
+    ]
+  },
+  {
+    "text": "Works for tone, format, structure and style consistency.",
+    "startTime": 32.2,
+    "endTime": 37.58,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Works",
+        "startTime": 32.2,
+        "endTime": 32.52
+      },
+      {
+        "word": "for",
+        "startTime": 32.52,
+        "endTime": 32.78
+      },
+      {
+        "word": "tone,",
+        "startTime": 32.78,
+        "endTime": 33.22
+      },
+      {
+        "word": "format,",
+        "startTime": 33.9,
+        "endTime": 34.28
+      },
+      {
+        "word": "structure",
+        "startTime": 34.94,
+        "endTime": 35.3
+      },
+      {
+        "word": "and",
+        "startTime": 35.3,
+        "endTime": 35.9
+      },
+      {
+        "word": "style",
+        "startTime": 35.9,
+        "endTime": 36.44
+      },
+      {
+        "word": "consistency.",
+        "startTime": 36.44,
+        "endTime": 37.58
+      }
+    ]
+  },
+  {
+    "text": "Few shot prompting gives the AI examples of the input output pattern you want before asking it to complete your actual task.",
+    "startTime": 38.7,
+    "endTime": 49.86,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Few",
+        "startTime": 38.7,
+        "endTime": 39.32
+      },
+      {
+        "word": "shot",
+        "startTime": 39.32,
+        "endTime": 39.64
+      },
+      {
+        "word": "prompting",
+        "startTime": 39.64,
+        "endTime": 40.38
+      },
+      {
+        "word": "gives",
+        "startTime": 40.38,
+        "endTime": 40.78
+      },
+      {
+        "word": "the",
+        "startTime": 40.78,
+        "endTime": 41.1
+      },
+      {
+        "word": "AI",
+        "startTime": 41.1,
+        "endTime": 41.58
+      },
+      {
+        "word": "examples",
+        "startTime": 41.58,
+        "endTime": 42.54
+      },
+      {
+        "word": "of",
+        "startTime": 42.54,
+        "endTime": 43.18
+      },
+      {
+        "word": "the",
+        "startTime": 43.18,
+        "endTime": 43.36
+      },
+      {
+        "word": "input",
+        "startTime": 43.36,
+        "endTime": 43.86
+      },
+      {
+        "word": "output",
+        "startTime": 43.86,
+        "endTime": 44.46
+      },
+      {
+        "word": "pattern",
+        "startTime": 44.46,
+        "endTime": 45.04
+      },
+      {
+        "word": "you",
+        "startTime": 45.04,
+        "endTime": 45.34
+      },
+      {
+        "word": "want",
+        "startTime": 45.34,
+        "endTime": 45.82
+      },
+      {
+        "word": "before",
+        "startTime": 45.82,
+        "endTime": 46.54
+      },
+      {
+        "word": "asking",
+        "startTime": 46.54,
+        "endTime": 47.12
+      },
+      {
+        "word": "it",
+        "startTime": 47.12,
+        "endTime": 47.38
+      },
+      {
+        "word": "to",
+        "startTime": 47.38,
+        "endTime": 47.58
+      },
+      {
+        "word": "complete",
+        "startTime": 47.58,
+        "endTime": 48.04
+      },
+      {
+        "word": "your",
+        "startTime": 48.04,
+        "endTime": 48.56
+      },
+      {
+        "word": "actual",
+        "startTime": 48.56,
+        "endTime": 49.26
+      },
+      {
+        "word": "task.",
+        "startTime": 49.26,
+        "endTime": 49.86
+      }
+    ]
+  },
+  {
+    "text": "Instead of describing the format in words, you demonstrate it.",
+    "startTime": 50.46,
+    "endTime": 55.6,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Instead",
+        "startTime": 50.46,
+        "endTime": 51.06
+      },
+      {
+        "word": "of",
+        "startTime": 51.06,
+        "endTime": 51.32
+      },
+      {
+        "word": "describing",
+        "startTime": 51.32,
+        "endTime": 51.9
+      },
+      {
+        "word": "the",
+        "startTime": 51.9,
+        "endTime": 52.18
+      },
+      {
+        "word": "format",
+        "startTime": 52.18,
+        "endTime": 52.62
+      },
+      {
+        "word": "in",
+        "startTime": 52.62,
+        "endTime": 52.92
+      },
+      {
+        "word": "words,",
+        "startTime": 52.92,
+        "endTime": 53.36
+      },
+      {
+        "word": "you",
+        "startTime": 54.04,
+        "endTime": 54.12
+      },
+      {
+        "word": "demonstrate",
+        "startTime": 54.12,
+        "endTime": 55.02
+      },
+      {
+        "word": "it.",
+        "startTime": 55.02,
+        "endTime": 55.6
+      }
+    ]
+  },
+  {
+    "text": "Language models are trained to continue patterns.",
+    "startTime": 55.6,
+    "endTime": 59.44,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Language",
+        "startTime": 55.6,
+        "endTime": 56.54
+      },
+      {
+        "word": "models",
+        "startTime": 56.54,
+        "endTime": 57.08
+      },
+      {
+        "word": "are",
+        "startTime": 57.08,
+        "endTime": 57.42
+      },
+      {
+        "word": "trained",
+        "startTime": 57.42,
+        "endTime": 57.88
+      },
+      {
+        "word": "to",
+        "startTime": 57.88,
+        "endTime": 58.12
+      },
+      {
+        "word": "continue",
+        "startTime": 58.12,
+        "endTime": 58.84
+      },
+      {
+        "word": "patterns.",
+        "startTime": 58.84,
+        "endTime": 59.44
+      }
+    ]
+  },
+  {
+    "text": "When you provide examples, you are not just given instructions.",
+    "startTime": 60.2,
+    "endTime": 64.26,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "When",
+        "startTime": 60.2,
+        "endTime": 60.32
+      },
+      {
+        "word": "you",
+        "startTime": 60.32,
+        "endTime": 60.48
+      },
+      {
+        "word": "provide",
+        "startTime": 60.48,
+        "endTime": 60.9
+      },
+      {
+        "word": "examples,",
+        "startTime": 60.9,
+        "endTime": 61.72
+      },
+      {
+        "word": "you",
+        "startTime": 62.2,
+        "endTime": 62.44
+      },
+      {
+        "word": "are",
+        "startTime": 62.44,
+        "endTime": 62.56
+      },
+      {
+        "word": "not",
+        "startTime": 62.56,
+        "endTime": 62.76
+      },
+      {
+        "word": "just",
+        "startTime": 62.76,
+        "endTime": 63.08
+      },
+      {
+        "word": "given",
+        "startTime": 63.08,
+        "endTime": 63.4
+      },
+      {
+        "word": "instructions.",
+        "startTime": 63.4,
+        "endTime": 64.26
+      }
+    ]
+  },
+  {
+    "text": "You are showing the model exactly what you mean.",
+    "startTime": 64.94,
+    "endTime": 68.62,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 64.94,
+        "endTime": 65.14
+      },
+      {
+        "word": "are",
+        "startTime": 65.14,
+        "endTime": 65.3
+      },
+      {
+        "word": "showing",
+        "startTime": 65.3,
+        "endTime": 65.7
+      },
+      {
+        "word": "the",
+        "startTime": 65.7,
+        "endTime": 65.94
+      },
+      {
+        "word": "model",
+        "startTime": 65.94,
+        "endTime": 66.32
+      },
+      {
+        "word": "exactly",
+        "startTime": 66.32,
+        "endTime": 66.94
+      },
+      {
+        "word": "what",
+        "startTime": 66.94,
+        "endTime": 67.68
+      },
+      {
+        "word": "you",
+        "startTime": 67.68,
+        "endTime": 68.1
+      },
+      {
+        "word": "mean.",
+        "startTime": 68.1,
+        "endTime": 68.62
+      }
+    ]
+  },
+  {
+    "text": "Examples communicate format, tone and structure more precisely than instructions.",
+    "startTime": 69.86,
+    "endTime": 76.62,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Examples",
+        "startTime": 69.86,
+        "endTime": 70.36
+      },
+      {
+        "word": "communicate",
+        "startTime": 70.36,
+        "endTime": 71.36
+      },
+      {
+        "word": "format,",
+        "startTime": 71.36,
+        "endTime": 72.02
+      },
+      {
+        "word": "tone",
+        "startTime": 72.48,
+        "endTime": 72.66
+      },
+      {
+        "word": "and",
+        "startTime": 72.66,
+        "endTime": 73
+      },
+      {
+        "word": "structure",
+        "startTime": 73,
+        "endTime": 73.66
+      },
+      {
+        "word": "more",
+        "startTime": 73.66,
+        "endTime": 74.22
+      },
+      {
+        "word": "precisely",
+        "startTime": 74.22,
+        "endTime": 75.08
+      },
+      {
+        "word": "than",
+        "startTime": 75.08,
+        "endTime": 75.62
+      },
+      {
+        "word": "instructions.",
+        "startTime": 75.62,
+        "endTime": 76.62
+      }
+    ]
+  },
+  {
+    "text": "When you struggle to describe the output you want in words, show it instead.",
+    "startTime": 77.14,
+    "endTime": 83.24,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "When",
+        "startTime": 77.14,
+        "endTime": 77.52
+      },
+      {
+        "word": "you",
+        "startTime": 77.52,
+        "endTime": 77.72
+      },
+      {
+        "word": "struggle",
+        "startTime": 77.72,
+        "endTime": 78.22
+      },
+      {
+        "word": "to",
+        "startTime": 78.22,
+        "endTime": 78.5
+      },
+      {
+        "word": "describe",
+        "startTime": 78.5,
+        "endTime": 78.94
+      },
+      {
+        "word": "the",
+        "startTime": 78.94,
+        "endTime": 79.26
+      },
+      {
+        "word": "output",
+        "startTime": 79.26,
+        "endTime": 79.78
+      },
+      {
+        "word": "you",
+        "startTime": 79.78,
+        "endTime": 80.04
+      },
+      {
+        "word": "want",
+        "startTime": 80.04,
+        "endTime": 80.3
+      },
+      {
+        "word": "in",
+        "startTime": 80.3,
+        "endTime": 80.64
+      },
+      {
+        "word": "words,",
+        "startTime": 80.64,
+        "endTime": 81.26
+      },
+      {
+        "word": "show",
+        "startTime": 81.92,
+        "endTime": 82.08
+      },
+      {
+        "word": "it",
+        "startTime": 82.08,
+        "endTime": 82.46
+      },
+      {
+        "word": "instead.",
+        "startTime": 82.46,
+        "endTime": 83.24
+      }
+    ]
+  },
+  {
+    "text": "Remember this.",
+    "startTime": 84.06,
+    "endTime": 85.24,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Remember",
+        "startTime": 84.06,
+        "endTime": 84.74
+      },
+      {
+        "word": "this.",
+        "startTime": 84.74,
+        "endTime": 85.24
+      }
+    ]
+  },
+  {
+    "text": "When you need consistent format across multiple outputs, use one to three examples.",
+    "startTime": 85.78,
+    "endTime": 93.04,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "When",
+        "startTime": 85.78,
+        "endTime": 85.98
+      },
+      {
+        "word": "you",
+        "startTime": 85.98,
+        "endTime": 86.18
+      },
+      {
+        "word": "need",
+        "startTime": 86.18,
+        "endTime": 86.6
+      },
+      {
+        "word": "consistent",
+        "startTime": 86.6,
+        "endTime": 87.38
+      },
+      {
+        "word": "format",
+        "startTime": 87.38,
+        "endTime": 88.1
+      },
+      {
+        "word": "across",
+        "startTime": 88.1,
+        "endTime": 88.54
+      },
+      {
+        "word": "multiple",
+        "startTime": 88.54,
+        "endTime": 89.28
+      },
+      {
+        "word": "outputs,",
+        "startTime": 89.28,
+        "endTime": 90
+      },
+      {
+        "word": "use",
+        "startTime": 90.74,
+        "endTime": 90.92
+      },
+      {
+        "word": "one",
+        "startTime": 90.92,
+        "endTime": 91.36
+      },
+      {
+        "word": "to",
+        "startTime": 91.36,
+        "endTime": 91.74
+      },
+      {
+        "word": "three",
+        "startTime": 91.74,
+        "endTime": 92.18
+      },
+      {
+        "word": "examples.",
+        "startTime": 92.18,
+        "endTime": 93.04
+      }
+    ]
+  },
+  {
+    "text": "More than five examples rarely improves quality and consumes context unnecessarily.",
+    "startTime": 93.98,
+    "endTime": 101.58,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "More",
+        "startTime": 93.98,
+        "endTime": 94.28
+      },
+      {
+        "word": "than",
+        "startTime": 94.28,
+        "endTime": 94.48
+      },
+      {
+        "word": "five",
+        "startTime": 94.48,
+        "endTime": 94.82
+      },
+      {
+        "word": "examples",
+        "startTime": 94.82,
+        "endTime": 95.78
+      },
+      {
+        "word": "rarely",
+        "startTime": 95.78,
+        "endTime": 96.54
+      },
+      {
+        "word": "improves",
+        "startTime": 96.54,
+        "endTime": 97.32
+      },
+      {
+        "word": "quality",
+        "startTime": 97.32,
+        "endTime": 98.02
+      },
+      {
+        "word": "and",
+        "startTime": 98.02,
+        "endTime": 98.6
+      },
+      {
+        "word": "consumes",
+        "startTime": 98.6,
+        "endTime": 99.12
+      },
+      {
+        "word": "context",
+        "startTime": 99.12,
+        "endTime": 100.14
+      },
+      {
+        "word": "unnecessarily.",
+        "startTime": 100.14,
+        "endTime": 101.58
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 102.9,
+    "endTime": 108.2,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 102.9,
+        "endTime": 103.34
+      },
+      {
+        "word": "what",
+        "startTime": 103.34,
+        "endTime": 103.66
+      },
+      {
+        "word": "you",
+        "startTime": 103.66,
+        "endTime": 103.86
+      },
+      {
+        "word": "learn",
+        "startTime": 103.86,
+        "endTime": 104.2
+      },
+      {
+        "word": "in",
+        "startTime": 104.2,
+        "endTime": 104.52
+      },
+      {
+        "word": "this",
+        "startTime": 104.52,
+        "endTime": 104.8
+      },
+      {
+        "word": "lesson",
+        "startTime": 104.8,
+        "endTime": 105.28
+      },
+      {
+        "word": "and",
+        "startTime": 105.28,
+        "endTime": 105.8
+      },
+      {
+        "word": "you",
+        "startTime": 105.8,
+        "endTime": 105.96
+      },
+      {
+        "word": "will",
+        "startTime": 105.96,
+        "endTime": 106.1
+      },
+      {
+        "word": "see",
+        "startTime": 106.1,
+        "endTime": 106.42
+      },
+      {
+        "word": "results",
+        "startTime": 106.42,
+        "endTime": 107.02
+      },
+      {
+        "word": "immediately.",
+        "startTime": 107.02,
+        "endTime": 108.2
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 108.88,
+    "endTime": 110.92,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 108.88,
+        "endTime": 109
+      },
+      {
+        "word": "skills",
+        "startTime": 109,
+        "endTime": 109.62
+      },
+      {
+        "word": "bear",
+        "startTime": 109.62,
+        "endTime": 110.26
+      },
+      {
+        "word": "fruit.",
+        "startTime": 110.26,
+        "endTime": 110.92
+      }
+    ]
+  }
+]

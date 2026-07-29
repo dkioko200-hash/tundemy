@@ -1,0 +1,1061 @@
+[
+  {
+    "text": "A procurement officer at a Nairobi manufacturing company was spending three hours per day processing supplier quotes into comparison reports.",
+    "startTime": 0,
+    "endTime": 8.08,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 0,
+        "endTime": 0.22
+      },
+      {
+        "word": "procurement",
+        "startTime": 0.22,
+        "endTime": 0.62
+      },
+      {
+        "word": "officer",
+        "startTime": 0.62,
+        "endTime": 1.2
+      },
+      {
+        "word": "at",
+        "startTime": 1.2,
+        "endTime": 1.42
+      },
+      {
+        "word": "a",
+        "startTime": 1.42,
+        "endTime": 1.54
+      },
+      {
+        "word": "Nairobi",
+        "startTime": 1.54,
+        "endTime": 1.88
+      },
+      {
+        "word": "manufacturing",
+        "startTime": 1.88,
+        "endTime": 2.52
+      },
+      {
+        "word": "company",
+        "startTime": 2.52,
+        "endTime": 3.14
+      },
+      {
+        "word": "was",
+        "startTime": 3.14,
+        "endTime": 3.38
+      },
+      {
+        "word": "spending",
+        "startTime": 3.38,
+        "endTime": 3.7
+      },
+      {
+        "word": "three",
+        "startTime": 3.7,
+        "endTime": 4.1
+      },
+      {
+        "word": "hours",
+        "startTime": 4.1,
+        "endTime": 4.4
+      },
+      {
+        "word": "per",
+        "startTime": 4.4,
+        "endTime": 4.66
+      },
+      {
+        "word": "day",
+        "startTime": 4.66,
+        "endTime": 4.9
+      },
+      {
+        "word": "processing",
+        "startTime": 4.9,
+        "endTime": 5.78
+      },
+      {
+        "word": "supplier",
+        "startTime": 5.78,
+        "endTime": 6.36
+      },
+      {
+        "word": "quotes",
+        "startTime": 6.36,
+        "endTime": 6.62
+      },
+      {
+        "word": "into",
+        "startTime": 6.62,
+        "endTime": 6.98
+      },
+      {
+        "word": "comparison",
+        "startTime": 6.98,
+        "endTime": 7.46
+      },
+      {
+        "word": "reports.",
+        "startTime": 7.46,
+        "endTime": 8.08
+      }
+    ]
+  },
+  {
+    "text": "One prompt template reduced that to 20 minutes.",
+    "startTime": 8.92,
+    "endTime": 11.32,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "One",
+        "startTime": 8.92,
+        "endTime": 9.12
+      },
+      {
+        "word": "prompt",
+        "startTime": 9.12,
+        "endTime": 9.38
+      },
+      {
+        "word": "template",
+        "startTime": 9.38,
+        "endTime": 9.88
+      },
+      {
+        "word": "reduced",
+        "startTime": 9.88,
+        "endTime": 10.32
+      },
+      {
+        "word": "that",
+        "startTime": 10.32,
+        "endTime": 10.56
+      },
+      {
+        "word": "to",
+        "startTime": 10.56,
+        "endTime": 10.74
+      },
+      {
+        "word": "20",
+        "startTime": 10.74,
+        "endTime": 11.06
+      },
+      {
+        "word": "minutes.",
+        "startTime": 11.06,
+        "endTime": 11.32
+      }
+    ]
+  },
+  {
+    "text": "She did not learn to code.",
+    "startTime": 12.02,
+    "endTime": 13.28,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "She",
+        "startTime": 12.02,
+        "endTime": 12.26
+      },
+      {
+        "word": "did",
+        "startTime": 12.26,
+        "endTime": 12.42
+      },
+      {
+        "word": "not",
+        "startTime": 12.42,
+        "endTime": 12.56
+      },
+      {
+        "word": "learn",
+        "startTime": 12.56,
+        "endTime": 12.8
+      },
+      {
+        "word": "to",
+        "startTime": 12.8,
+        "endTime": 13
+      },
+      {
+        "word": "code.",
+        "startTime": 13,
+        "endTime": 13.28
+      }
+    ]
+  },
+  {
+    "text": "She learned the four components every professional prompt must have.",
+    "startTime": 13.94,
+    "endTime": 17.36,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "She",
+        "startTime": 13.94,
+        "endTime": 14.08
+      },
+      {
+        "word": "learned",
+        "startTime": 14.08,
+        "endTime": 14.3
+      },
+      {
+        "word": "the",
+        "startTime": 14.3,
+        "endTime": 14.5
+      },
+      {
+        "word": "four",
+        "startTime": 14.5,
+        "endTime": 14.74
+      },
+      {
+        "word": "components",
+        "startTime": 14.74,
+        "endTime": 15.24
+      },
+      {
+        "word": "every",
+        "startTime": 15.24,
+        "endTime": 15.7
+      },
+      {
+        "word": "professional",
+        "startTime": 15.7,
+        "endTime": 16.3
+      },
+      {
+        "word": "prompt",
+        "startTime": 16.3,
+        "endTime": 16.64
+      },
+      {
+        "word": "must",
+        "startTime": 16.64,
+        "endTime": 16.94
+      },
+      {
+        "word": "have.",
+        "startTime": 16.94,
+        "endTime": 17.36
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, the four components structure that every effective professional prompt must contain and why missing even one component degrades the output.",
+    "startTime": 17.94,
+    "endTime": 27.04,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 17.94,
+        "endTime": 18.14
+      },
+      {
+        "word": "this",
+        "startTime": 18.14,
+        "endTime": 18.34
+      },
+      {
+        "word": "lesson,",
+        "startTime": 18.34,
+        "endTime": 18.76
+      },
+      {
+        "word": "the",
+        "startTime": 19.32,
+        "endTime": 19.48
+      },
+      {
+        "word": "four",
+        "startTime": 19.48,
+        "endTime": 19.72
+      },
+      {
+        "word": "components",
+        "startTime": 19.72,
+        "endTime": 20.2
+      },
+      {
+        "word": "structure",
+        "startTime": 20.2,
+        "endTime": 20.66
+      },
+      {
+        "word": "that",
+        "startTime": 20.66,
+        "endTime": 20.88
+      },
+      {
+        "word": "every",
+        "startTime": 20.88,
+        "endTime": 21.24
+      },
+      {
+        "word": "effective",
+        "startTime": 21.24,
+        "endTime": 21.66
+      },
+      {
+        "word": "professional",
+        "startTime": 21.66,
+        "endTime": 22.1
+      },
+      {
+        "word": "prompt",
+        "startTime": 22.1,
+        "endTime": 22.7
+      },
+      {
+        "word": "must",
+        "startTime": 22.7,
+        "endTime": 22.96
+      },
+      {
+        "word": "contain",
+        "startTime": 22.96,
+        "endTime": 23.4
+      },
+      {
+        "word": "and",
+        "startTime": 23.4,
+        "endTime": 24.2
+      },
+      {
+        "word": "why",
+        "startTime": 24.2,
+        "endTime": 24.38
+      },
+      {
+        "word": "missing",
+        "startTime": 24.38,
+        "endTime": 24.72
+      },
+      {
+        "word": "even",
+        "startTime": 24.72,
+        "endTime": 25.1
+      },
+      {
+        "word": "one",
+        "startTime": 25.1,
+        "endTime": 25.36
+      },
+      {
+        "word": "component",
+        "startTime": 25.36,
+        "endTime": 26
+      },
+      {
+        "word": "degrades",
+        "startTime": 26,
+        "endTime": 26.48
+      },
+      {
+        "word": "the",
+        "startTime": 26.48,
+        "endTime": 26.74
+      },
+      {
+        "word": "output.",
+        "startTime": 26.74,
+        "endTime": 27.04
+      }
+    ]
+  },
+  {
+    "text": "Every effective prompt has exactly four components.",
+    "startTime": 28.04,
+    "endTime": 30.98,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Every",
+        "startTime": 28.04,
+        "endTime": 28.64
+      },
+      {
+        "word": "effective",
+        "startTime": 28.64,
+        "endTime": 29.1
+      },
+      {
+        "word": "prompt",
+        "startTime": 29.1,
+        "endTime": 29.4
+      },
+      {
+        "word": "has",
+        "startTime": 29.4,
+        "endTime": 29.66
+      },
+      {
+        "word": "exactly",
+        "startTime": 29.66,
+        "endTime": 30.16
+      },
+      {
+        "word": "four",
+        "startTime": 30.16,
+        "endTime": 30.46
+      },
+      {
+        "word": "components.",
+        "startTime": 30.46,
+        "endTime": 30.98
+      }
+    ]
+  },
+  {
+    "text": "Role, who the AI is for this task and what expertise it brings.",
+    "startTime": 31.62,
+    "endTime": 35.94,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Role,",
+        "startTime": 31.62,
+        "endTime": 32.1
+      },
+      {
+        "word": "who",
+        "startTime": 32.26,
+        "endTime": 32.6
+      },
+      {
+        "word": "the",
+        "startTime": 32.6,
+        "endTime": 32.8
+      },
+      {
+        "word": "AI",
+        "startTime": 32.8,
+        "endTime": 33.1
+      },
+      {
+        "word": "is",
+        "startTime": 33.1,
+        "endTime": 33.44
+      },
+      {
+        "word": "for",
+        "startTime": 33.44,
+        "endTime": 33.6
+      },
+      {
+        "word": "this",
+        "startTime": 33.6,
+        "endTime": 33.84
+      },
+      {
+        "word": "task",
+        "startTime": 33.84,
+        "endTime": 34.06
+      },
+      {
+        "word": "and",
+        "startTime": 34.06,
+        "endTime": 34.74
+      },
+      {
+        "word": "what",
+        "startTime": 34.74,
+        "endTime": 34.94
+      },
+      {
+        "word": "expertise",
+        "startTime": 34.94,
+        "endTime": 35.48
+      },
+      {
+        "word": "it",
+        "startTime": 35.48,
+        "endTime": 35.74
+      },
+      {
+        "word": "brings.",
+        "startTime": 35.74,
+        "endTime": 35.94
+      }
+    ]
+  },
+  {
+    "text": "Task, the specific single action you want completed.",
+    "startTime": 36.86,
+    "endTime": 40.2,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Task,",
+        "startTime": 36.86,
+        "endTime": 37.04
+      },
+      {
+        "word": "the",
+        "startTime": 37.68,
+        "endTime": 37.9
+      },
+      {
+        "word": "specific",
+        "startTime": 37.9,
+        "endTime": 38.36
+      },
+      {
+        "word": "single",
+        "startTime": 38.36,
+        "endTime": 38.82
+      },
+      {
+        "word": "action",
+        "startTime": 38.82,
+        "endTime": 39.22
+      },
+      {
+        "word": "you",
+        "startTime": 39.22,
+        "endTime": 39.44
+      },
+      {
+        "word": "want",
+        "startTime": 39.44,
+        "endTime": 39.62
+      },
+      {
+        "word": "completed.",
+        "startTime": 39.62,
+        "endTime": 40.2
+      }
+    ]
+  },
+  {
+    "text": "The four components are not a checklist.",
+    "startTime": 40.9,
+    "endTime": 42.68,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 40.9,
+        "endTime": 41.1
+      },
+      {
+        "word": "four",
+        "startTime": 41.1,
+        "endTime": 41.32
+      },
+      {
+        "word": "components",
+        "startTime": 41.32,
+        "endTime": 41.8
+      },
+      {
+        "word": "are",
+        "startTime": 41.8,
+        "endTime": 42.02
+      },
+      {
+        "word": "not",
+        "startTime": 42.02,
+        "endTime": 42.18
+      },
+      {
+        "word": "a",
+        "startTime": 42.18,
+        "endTime": 42.32
+      },
+      {
+        "word": "checklist.",
+        "startTime": 42.32,
+        "endTime": 42.68
+      }
+    ]
+  },
+  {
+    "text": "They are a quality filter.",
+    "startTime": 43.28,
+    "endTime": 44.48,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "They",
+        "startTime": 43.28,
+        "endTime": 43.4
+      },
+      {
+        "word": "are",
+        "startTime": 43.4,
+        "endTime": 43.52
+      },
+      {
+        "word": "a",
+        "startTime": 43.52,
+        "endTime": 43.6
+      },
+      {
+        "word": "quality",
+        "startTime": 43.6,
+        "endTime": 44.02
+      },
+      {
+        "word": "filter.",
+        "startTime": 44.02,
+        "endTime": 44.48
+      }
+    ]
+  },
+  {
+    "text": "Every time an AI responds misses the mark, the diagnosis is almost always a missing or weak component.",
+    "startTime": 45.16,
+    "endTime": 51.12,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Every",
+        "startTime": 45.16,
+        "endTime": 45.4
+      },
+      {
+        "word": "time",
+        "startTime": 45.4,
+        "endTime": 45.66
+      },
+      {
+        "word": "an",
+        "startTime": 45.66,
+        "endTime": 45.88
+      },
+      {
+        "word": "AI",
+        "startTime": 45.88,
+        "endTime": 46.08
+      },
+      {
+        "word": "responds",
+        "startTime": 46.08,
+        "endTime": 46.52
+      },
+      {
+        "word": "misses",
+        "startTime": 46.52,
+        "endTime": 46.98
+      },
+      {
+        "word": "the",
+        "startTime": 46.98,
+        "endTime": 47.22
+      },
+      {
+        "word": "mark,",
+        "startTime": 47.22,
+        "endTime": 47.58
+      },
+      {
+        "word": "the",
+        "startTime": 47.98,
+        "endTime": 48.06
+      },
+      {
+        "word": "diagnosis",
+        "startTime": 48.06,
+        "endTime": 48.48
+      },
+      {
+        "word": "is",
+        "startTime": 48.48,
+        "endTime": 48.86
+      },
+      {
+        "word": "almost",
+        "startTime": 48.86,
+        "endTime": 49.16
+      },
+      {
+        "word": "always",
+        "startTime": 49.16,
+        "endTime": 49.62
+      },
+      {
+        "word": "a",
+        "startTime": 49.62,
+        "endTime": 49.8
+      },
+      {
+        "word": "missing",
+        "startTime": 49.8,
+        "endTime": 50.08
+      },
+      {
+        "word": "or",
+        "startTime": 50.08,
+        "endTime": 50.36
+      },
+      {
+        "word": "weak",
+        "startTime": 50.36,
+        "endTime": 50.54
+      },
+      {
+        "word": "component.",
+        "startTime": 50.54,
+        "endTime": 51.12
+      }
+    ]
+  },
+  {
+    "text": "Learn to diagnose which component failed and you can fix any prompt in 60 seconds.",
+    "startTime": 51.96,
+    "endTime": 56.94,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Learn",
+        "startTime": 51.96,
+        "endTime": 52.2
+      },
+      {
+        "word": "to",
+        "startTime": 52.2,
+        "endTime": 52.4
+      },
+      {
+        "word": "diagnose",
+        "startTime": 52.4,
+        "endTime": 52.8
+      },
+      {
+        "word": "which",
+        "startTime": 52.8,
+        "endTime": 53.12
+      },
+      {
+        "word": "component",
+        "startTime": 53.12,
+        "endTime": 53.66
+      },
+      {
+        "word": "failed",
+        "startTime": 53.66,
+        "endTime": 54.12
+      },
+      {
+        "word": "and",
+        "startTime": 54.12,
+        "endTime": 54.68
+      },
+      {
+        "word": "you",
+        "startTime": 54.68,
+        "endTime": 54.8
+      },
+      {
+        "word": "can",
+        "startTime": 54.8,
+        "endTime": 54.94
+      },
+      {
+        "word": "fix",
+        "startTime": 54.94,
+        "endTime": 55.16
+      },
+      {
+        "word": "any",
+        "startTime": 55.16,
+        "endTime": 55.5
+      },
+      {
+        "word": "prompt",
+        "startTime": 55.5,
+        "endTime": 55.8
+      },
+      {
+        "word": "in",
+        "startTime": 55.8,
+        "endTime": 56.06
+      },
+      {
+        "word": "60",
+        "startTime": 56.06,
+        "endTime": 56.42
+      },
+      {
+        "word": "seconds.",
+        "startTime": 56.42,
+        "endTime": 56.94
+      }
+    ]
+  },
+  {
+    "text": "Remember this.",
+    "startTime": 57.6,
+    "endTime": 58.42,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Remember",
+        "startTime": 57.6,
+        "endTime": 58.02
+      },
+      {
+        "word": "this.",
+        "startTime": 58.02,
+        "endTime": 58.42
+      }
+    ]
+  },
+  {
+    "text": "Role plus task plus context plus output format.",
+    "startTime": 59,
+    "endTime": 62.24,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Role",
+        "startTime": 59,
+        "endTime": 59.38
+      },
+      {
+        "word": "plus",
+        "startTime": 59.38,
+        "endTime": 59.6
+      },
+      {
+        "word": "task",
+        "startTime": 59.6,
+        "endTime": 59.98
+      },
+      {
+        "word": "plus",
+        "startTime": 59.98,
+        "endTime": 60.4
+      },
+      {
+        "word": "context",
+        "startTime": 60.4,
+        "endTime": 60.92
+      },
+      {
+        "word": "plus",
+        "startTime": 60.92,
+        "endTime": 61.34
+      },
+      {
+        "word": "output",
+        "startTime": 61.34,
+        "endTime": 61.78
+      },
+      {
+        "word": "format.",
+        "startTime": 61.78,
+        "endTime": 62.24
+      }
+    ]
+  },
+  {
+    "text": "All four every time.",
+    "startTime": 62.88,
+    "endTime": 64.4,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "All",
+        "startTime": 62.88,
+        "endTime": 63.1
+      },
+      {
+        "word": "four",
+        "startTime": 63.1,
+        "endTime": 63.44
+      },
+      {
+        "word": "every",
+        "startTime": 63.44,
+        "endTime": 63.98
+      },
+      {
+        "word": "time.",
+        "startTime": 63.98,
+        "endTime": 64.4
+      }
+    ]
+  },
+  {
+    "text": "Missing any one of them is where the mediocre output comes from.",
+    "startTime": 65.04,
+    "endTime": 68.04,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Missing",
+        "startTime": 65.04,
+        "endTime": 65.32
+      },
+      {
+        "word": "any",
+        "startTime": 65.32,
+        "endTime": 65.54
+      },
+      {
+        "word": "one",
+        "startTime": 65.54,
+        "endTime": 65.74
+      },
+      {
+        "word": "of",
+        "startTime": 65.74,
+        "endTime": 65.86
+      },
+      {
+        "word": "them",
+        "startTime": 65.86,
+        "endTime": 66.02
+      },
+      {
+        "word": "is",
+        "startTime": 66.02,
+        "endTime": 66.18
+      },
+      {
+        "word": "where",
+        "startTime": 66.18,
+        "endTime": 66.38
+      },
+      {
+        "word": "the",
+        "startTime": 66.38,
+        "endTime": 66.5
+      },
+      {
+        "word": "mediocre",
+        "startTime": 66.5,
+        "endTime": 66.9
+      },
+      {
+        "word": "output",
+        "startTime": 66.9,
+        "endTime": 67.44
+      },
+      {
+        "word": "comes",
+        "startTime": 67.44,
+        "endTime": 67.8
+      },
+      {
+        "word": "from.",
+        "startTime": 67.8,
+        "endTime": 68.04
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 69.06,
+    "endTime": 72.78,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 69.06,
+        "endTime": 69.34
+      },
+      {
+        "word": "what",
+        "startTime": 69.34,
+        "endTime": 69.58
+      },
+      {
+        "word": "you",
+        "startTime": 69.58,
+        "endTime": 69.72
+      },
+      {
+        "word": "learn",
+        "startTime": 69.72,
+        "endTime": 69.92
+      },
+      {
+        "word": "in",
+        "startTime": 69.92,
+        "endTime": 70.08
+      },
+      {
+        "word": "this",
+        "startTime": 70.08,
+        "endTime": 70.28
+      },
+      {
+        "word": "lesson",
+        "startTime": 70.28,
+        "endTime": 70.6
+      },
+      {
+        "word": "and",
+        "startTime": 70.6,
+        "endTime": 71.22
+      },
+      {
+        "word": "you",
+        "startTime": 71.22,
+        "endTime": 71.38
+      },
+      {
+        "word": "will",
+        "startTime": 71.38,
+        "endTime": 71.48
+      },
+      {
+        "word": "see",
+        "startTime": 71.48,
+        "endTime": 71.7
+      },
+      {
+        "word": "results",
+        "startTime": 71.7,
+        "endTime": 72.08
+      },
+      {
+        "word": "immediately.",
+        "startTime": 72.08,
+        "endTime": 72.78
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 73.54,
+    "endTime": 74.8,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 73.54,
+        "endTime": 73.82
+      },
+      {
+        "word": "skills",
+        "startTime": 73.82,
+        "endTime": 74.22
+      },
+      {
+        "word": "bear",
+        "startTime": 74.22,
+        "endTime": 74.46
+      },
+      {
+        "word": "fruit.",
+        "startTime": 74.46,
+        "endTime": 74.8
+      }
+    ]
+  }
+]

@@ -1,0 +1,1093 @@
+[
+  {
+    "text": "Manual evaluation scales to hundreds of test items.",
+    "startTime": 0,
+    "endTime": 3.72,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "Manual",
+        "startTime": 0,
+        "endTime": 0.4
+      },
+      {
+        "word": "evaluation",
+        "startTime": 0.4,
+        "endTime": 1.2
+      },
+      {
+        "word": "scales",
+        "startTime": 1.2,
+        "endTime": 1.7
+      },
+      {
+        "word": "to",
+        "startTime": 1.7,
+        "endTime": 2.04
+      },
+      {
+        "word": "hundreds",
+        "startTime": 2.04,
+        "endTime": 2.42
+      },
+      {
+        "word": "of",
+        "startTime": 2.42,
+        "endTime": 2.66
+      },
+      {
+        "word": "test",
+        "startTime": 2.66,
+        "endTime": 2.9
+      },
+      {
+        "word": "items.",
+        "startTime": 2.9,
+        "endTime": 3.72
+      }
+    ]
+  },
+  {
+    "text": "Python evaluation pipelines scale to millions.",
+    "startTime": 4.88,
+    "endTime": 8.1,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Python",
+        "startTime": 4.88,
+        "endTime": 5.04
+      },
+      {
+        "word": "evaluation",
+        "startTime": 5.04,
+        "endTime": 5.78
+      },
+      {
+        "word": "pipelines",
+        "startTime": 5.78,
+        "endTime": 6.58
+      },
+      {
+        "word": "scale",
+        "startTime": 6.58,
+        "endTime": 7.44
+      },
+      {
+        "word": "to",
+        "startTime": 7.44,
+        "endTime": 7.7
+      },
+      {
+        "word": "millions.",
+        "startTime": 7.7,
+        "endTime": 8.1
+      }
+    ]
+  },
+  {
+    "text": "The engineers who can build both, who understand the human judgment side and can automate it, are the most valuable people in AI evaluation.",
+    "startTime": 9.32,
+    "endTime": 20.46,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 9.32,
+        "endTime": 9.54
+      },
+      {
+        "word": "engineers",
+        "startTime": 9.54,
+        "endTime": 10.16
+      },
+      {
+        "word": "who",
+        "startTime": 10.16,
+        "endTime": 10.42
+      },
+      {
+        "word": "can",
+        "startTime": 10.42,
+        "endTime": 10.64
+      },
+      {
+        "word": "build",
+        "startTime": 10.64,
+        "endTime": 10.9
+      },
+      {
+        "word": "both,",
+        "startTime": 10.9,
+        "endTime": 11.52
+      },
+      {
+        "word": "who",
+        "startTime": 11.9,
+        "endTime": 12.28
+      },
+      {
+        "word": "understand",
+        "startTime": 12.28,
+        "endTime": 12.86
+      },
+      {
+        "word": "the",
+        "startTime": 12.86,
+        "endTime": 13.14
+      },
+      {
+        "word": "human",
+        "startTime": 13.14,
+        "endTime": 13.48
+      },
+      {
+        "word": "judgment",
+        "startTime": 13.48,
+        "endTime": 13.94
+      },
+      {
+        "word": "side",
+        "startTime": 13.94,
+        "endTime": 14.52
+      },
+      {
+        "word": "and",
+        "startTime": 14.52,
+        "endTime": 15.08
+      },
+      {
+        "word": "can",
+        "startTime": 15.08,
+        "endTime": 15.24
+      },
+      {
+        "word": "automate",
+        "startTime": 15.24,
+        "endTime": 15.84
+      },
+      {
+        "word": "it,",
+        "startTime": 15.84,
+        "endTime": 16.36
+      },
+      {
+        "word": "are",
+        "startTime": 16.7,
+        "endTime": 16.96
+      },
+      {
+        "word": "the",
+        "startTime": 16.96,
+        "endTime": 17.08
+      },
+      {
+        "word": "most",
+        "startTime": 17.08,
+        "endTime": 17.38
+      },
+      {
+        "word": "valuable",
+        "startTime": 17.38,
+        "endTime": 17.92
+      },
+      {
+        "word": "people",
+        "startTime": 17.92,
+        "endTime": 18.52
+      },
+      {
+        "word": "in",
+        "startTime": 18.52,
+        "endTime": 18.94
+      },
+      {
+        "word": "AI",
+        "startTime": 18.94,
+        "endTime": 19.42
+      },
+      {
+        "word": "evaluation.",
+        "startTime": 19.42,
+        "endTime": 20.46
+      }
+    ]
+  },
+  {
+    "text": "This lesson builds the pipeline.",
+    "startTime": 21.42,
+    "endTime": 23.36,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "This",
+        "startTime": 21.42,
+        "endTime": 21.84
+      },
+      {
+        "word": "lesson",
+        "startTime": 21.84,
+        "endTime": 22.28
+      },
+      {
+        "word": "builds",
+        "startTime": 22.28,
+        "endTime": 22.66
+      },
+      {
+        "word": "the",
+        "startTime": 22.66,
+        "endTime": 22.88
+      },
+      {
+        "word": "pipeline.",
+        "startTime": 22.88,
+        "endTime": 23.36
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, a Python evaluation pipeline automates three things.",
+    "startTime": 24.3,
+    "endTime": 30.36,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 24.3,
+        "endTime": 24.86
+      },
+      {
+        "word": "this",
+        "startTime": 24.86,
+        "endTime": 25.1
+      },
+      {
+        "word": "lesson,",
+        "startTime": 25.1,
+        "endTime": 25.66
+      },
+      {
+        "word": "a",
+        "startTime": 26.26,
+        "endTime": 26.44
+      },
+      {
+        "word": "Python",
+        "startTime": 26.44,
+        "endTime": 26.94
+      },
+      {
+        "word": "evaluation",
+        "startTime": 26.94,
+        "endTime": 27.58
+      },
+      {
+        "word": "pipeline",
+        "startTime": 27.58,
+        "endTime": 28.38
+      },
+      {
+        "word": "automates",
+        "startTime": 28.38,
+        "endTime": 29.28
+      },
+      {
+        "word": "three",
+        "startTime": 29.28,
+        "endTime": 29.72
+      },
+      {
+        "word": "things.",
+        "startTime": 29.72,
+        "endTime": 30.36
+      }
+    ]
+  },
+  {
+    "text": "Running the AI against a test set, scoring responses against defined criteria, and aggregating results into a report.",
+    "startTime": 31.14,
+    "endTime": 40.84,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Running",
+        "startTime": 31.14,
+        "endTime": 31.42
+      },
+      {
+        "word": "the",
+        "startTime": 31.42,
+        "endTime": 31.7
+      },
+      {
+        "word": "AI",
+        "startTime": 31.7,
+        "endTime": 32.06
+      },
+      {
+        "word": "against",
+        "startTime": 32.06,
+        "endTime": 32.64
+      },
+      {
+        "word": "a",
+        "startTime": 32.64,
+        "endTime": 32.9
+      },
+      {
+        "word": "test",
+        "startTime": 32.9,
+        "endTime": 33.2
+      },
+      {
+        "word": "set,",
+        "startTime": 33.2,
+        "endTime": 33.7
+      },
+      {
+        "word": "scoring",
+        "startTime": 34.26,
+        "endTime": 34.74
+      },
+      {
+        "word": "responses",
+        "startTime": 34.74,
+        "endTime": 35.48
+      },
+      {
+        "word": "against",
+        "startTime": 35.48,
+        "endTime": 35.96
+      },
+      {
+        "word": "defined",
+        "startTime": 35.96,
+        "endTime": 36.62
+      },
+      {
+        "word": "criteria,",
+        "startTime": 36.62,
+        "endTime": 37.42
+      },
+      {
+        "word": "and",
+        "startTime": 38.04,
+        "endTime": 38.3
+      },
+      {
+        "word": "aggregating",
+        "startTime": 38.3,
+        "endTime": 39.06
+      },
+      {
+        "word": "results",
+        "startTime": 39.06,
+        "endTime": 39.56
+      },
+      {
+        "word": "into",
+        "startTime": 39.56,
+        "endTime": 40.22
+      },
+      {
+        "word": "a",
+        "startTime": 40.22,
+        "endTime": 40.4
+      },
+      {
+        "word": "report.",
+        "startTime": 40.4,
+        "endTime": 40.84
+      }
+    ]
+  },
+  {
+    "text": "At small scale, you do all three manually.",
+    "startTime": 41.98,
+    "endTime": 45.38,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "At",
+        "startTime": 41.98,
+        "endTime": 42.2
+      },
+      {
+        "word": "small",
+        "startTime": 42.2,
+        "endTime": 42.58
+      },
+      {
+        "word": "scale,",
+        "startTime": 42.58,
+        "endTime": 43.06
+      },
+      {
+        "word": "you",
+        "startTime": 43.42,
+        "endTime": 43.72
+      },
+      {
+        "word": "do",
+        "startTime": 43.72,
+        "endTime": 43.9
+      },
+      {
+        "word": "all",
+        "startTime": 43.9,
+        "endTime": 44.32
+      },
+      {
+        "word": "three",
+        "startTime": 44.32,
+        "endTime": 44.74
+      },
+      {
+        "word": "manually.",
+        "startTime": 44.74,
+        "endTime": 45.38
+      }
+    ]
+  },
+  {
+    "text": "At production scale, you use the AI to evaluate itself.",
+    "startTime": 46.02,
+    "endTime": 50.74,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "At",
+        "startTime": 46.02,
+        "endTime": 46.46
+      },
+      {
+        "word": "production",
+        "startTime": 46.46,
+        "endTime": 46.96
+      },
+      {
+        "word": "scale,",
+        "startTime": 46.96,
+        "endTime": 47.54
+      },
+      {
+        "word": "you",
+        "startTime": 47.82,
+        "endTime": 48.12
+      },
+      {
+        "word": "use",
+        "startTime": 48.12,
+        "endTime": 48.54
+      },
+      {
+        "word": "the",
+        "startTime": 48.54,
+        "endTime": 48.7
+      },
+      {
+        "word": "AI",
+        "startTime": 48.7,
+        "endTime": 49.14
+      },
+      {
+        "word": "to",
+        "startTime": 49.14,
+        "endTime": 49.52
+      },
+      {
+        "word": "evaluate",
+        "startTime": 49.52,
+        "endTime": 50.06
+      },
+      {
+        "word": "itself.",
+        "startTime": 50.06,
+        "endTime": 50.74
+      }
+    ]
+  },
+  {
+    "text": "LLM as judge.",
+    "startTime": 51.46,
+    "endTime": 53.1,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "LLM",
+        "startTime": 51.46,
+        "endTime": 52.32
+      },
+      {
+        "word": "as",
+        "startTime": 52.32,
+        "endTime": 52.64
+      },
+      {
+        "word": "judge.",
+        "startTime": 52.64,
+        "endTime": 53.1
+      }
+    ]
+  },
+  {
+    "text": "Validate AI judgments against human spot checks and generates statistical reports across thousands of test items.",
+    "startTime": 53.9,
+    "endTime": 63.06,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Validate",
+        "startTime": 53.9,
+        "endTime": 54.72
+      },
+      {
+        "word": "AI",
+        "startTime": 54.72,
+        "endTime": 55.1
+      },
+      {
+        "word": "judgments",
+        "startTime": 55.1,
+        "endTime": 55.7
+      },
+      {
+        "word": "against",
+        "startTime": 55.7,
+        "endTime": 56.26
+      },
+      {
+        "word": "human",
+        "startTime": 56.26,
+        "endTime": 56.78
+      },
+      {
+        "word": "spot",
+        "startTime": 56.78,
+        "endTime": 57.22
+      },
+      {
+        "word": "checks",
+        "startTime": 57.22,
+        "endTime": 57.68
+      },
+      {
+        "word": "and",
+        "startTime": 57.9,
+        "endTime": 58.42
+      },
+      {
+        "word": "generates",
+        "startTime": 58.42,
+        "endTime": 58.94
+      },
+      {
+        "word": "statistical",
+        "startTime": 58.94,
+        "endTime": 59.68
+      },
+      {
+        "word": "reports",
+        "startTime": 59.68,
+        "endTime": 60.3
+      },
+      {
+        "word": "across",
+        "startTime": 60.3,
+        "endTime": 61.08
+      },
+      {
+        "word": "thousands",
+        "startTime": 61.08,
+        "endTime": 61.78
+      },
+      {
+        "word": "of",
+        "startTime": 61.78,
+        "endTime": 62.06
+      },
+      {
+        "word": "test",
+        "startTime": 62.06,
+        "endTime": 62.3
+      },
+      {
+        "word": "items.",
+        "startTime": 62.3,
+        "endTime": 63.06
+      }
+    ]
+  },
+  {
+    "text": "The LLM as judge pattern is the most important concept in production evaluation.",
+    "startTime": 64.12,
+    "endTime": 70.82,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 64.12,
+        "endTime": 64.34
+      },
+      {
+        "word": "LLM",
+        "startTime": 64.34,
+        "endTime": 65.3
+      },
+      {
+        "word": "as",
+        "startTime": 65.3,
+        "endTime": 65.58
+      },
+      {
+        "word": "judge",
+        "startTime": 65.58,
+        "endTime": 65.82
+      },
+      {
+        "word": "pattern",
+        "startTime": 65.82,
+        "endTime": 66.38
+      },
+      {
+        "word": "is",
+        "startTime": 66.38,
+        "endTime": 67
+      },
+      {
+        "word": "the",
+        "startTime": 67,
+        "endTime": 67.18
+      },
+      {
+        "word": "most",
+        "startTime": 67.18,
+        "endTime": 67.48
+      },
+      {
+        "word": "important",
+        "startTime": 67.48,
+        "endTime": 68.14
+      },
+      {
+        "word": "concept",
+        "startTime": 68.14,
+        "endTime": 68.74
+      },
+      {
+        "word": "in",
+        "startTime": 68.74,
+        "endTime": 69.34
+      },
+      {
+        "word": "production",
+        "startTime": 69.34,
+        "endTime": 69.7
+      },
+      {
+        "word": "evaluation.",
+        "startTime": 69.7,
+        "endTime": 70.82
+      }
+    ]
+  },
+  {
+    "text": "You prompt an AI, typically a larger, more capable model, to score another AI's responses using your rubric.",
+    "startTime": 71.86,
+    "endTime": 81.32,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 71.86,
+        "endTime": 72.16
+      },
+      {
+        "word": "prompt",
+        "startTime": 72.16,
+        "endTime": 72.52
+      },
+      {
+        "word": "an",
+        "startTime": 72.52,
+        "endTime": 72.8
+      },
+      {
+        "word": "AI,",
+        "startTime": 72.8,
+        "endTime": 73.22
+      },
+      {
+        "word": "typically",
+        "startTime": 73.92,
+        "endTime": 74.36
+      },
+      {
+        "word": "a",
+        "startTime": 74.36,
+        "endTime": 74.64
+      },
+      {
+        "word": "larger,",
+        "startTime": 74.64,
+        "endTime": 75.14
+      },
+      {
+        "word": "more",
+        "startTime": 75.32,
+        "endTime": 75.42
+      },
+      {
+        "word": "capable",
+        "startTime": 75.42,
+        "endTime": 75.9
+      },
+      {
+        "word": "model,",
+        "startTime": 75.9,
+        "endTime": 76.44
+      },
+      {
+        "word": "to",
+        "startTime": 76.94,
+        "endTime": 77.24
+      },
+      {
+        "word": "score",
+        "startTime": 77.24,
+        "endTime": 77.6
+      },
+      {
+        "word": "another",
+        "startTime": 77.6,
+        "endTime": 78.1
+      },
+      {
+        "word": "AI's",
+        "startTime": 78.1,
+        "endTime": 78.92
+      },
+      {
+        "word": "responses",
+        "startTime": 78.92,
+        "endTime": 79.52
+      },
+      {
+        "word": "using",
+        "startTime": 79.52,
+        "endTime": 80.46
+      },
+      {
+        "word": "your",
+        "startTime": 80.46,
+        "endTime": 80.74
+      },
+      {
+        "word": "rubric.",
+        "startTime": 80.74,
+        "endTime": 81.32
+      }
+    ]
+  },
+  {
+    "text": "This scales human evaluation criteria to any volume.",
+    "startTime": 81.94,
+    "endTime": 86.42,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "This",
+        "startTime": 81.94,
+        "endTime": 82.34
+      },
+      {
+        "word": "scales",
+        "startTime": 82.34,
+        "endTime": 82.86
+      },
+      {
+        "word": "human",
+        "startTime": 82.86,
+        "endTime": 83.36
+      },
+      {
+        "word": "evaluation",
+        "startTime": 83.36,
+        "endTime": 83.94
+      },
+      {
+        "word": "criteria",
+        "startTime": 83.94,
+        "endTime": 84.94
+      },
+      {
+        "word": "to",
+        "startTime": 84.94,
+        "endTime": 85.48
+      },
+      {
+        "word": "any",
+        "startTime": 85.48,
+        "endTime": 85.84
+      },
+      {
+        "word": "volume.",
+        "startTime": 85.84,
+        "endTime": 86.42
+      }
+    ]
+  },
+  {
+    "text": "The critical validation step, sample 5 % of LLM judge decisions and check them against human judgment.",
+    "startTime": 87.15,
+    "endTime": 96.46,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 87.15,
+        "endTime": 87.56
+      },
+      {
+        "word": "critical",
+        "startTime": 87.56,
+        "endTime": 88.06
+      },
+      {
+        "word": "validation",
+        "startTime": 88.06,
+        "endTime": 88.64
+      },
+      {
+        "word": "step,",
+        "startTime": 88.64,
+        "endTime": 89.42
+      },
+      {
+        "word": "sample",
+        "startTime": 89.68,
+        "endTime": 90.44
+      },
+      {
+        "word": "5",
+        "startTime": 90.44,
+        "endTime": 91.04
+      },
+      {
+        "word": "%",
+        "startTime": 91.04,
+        "endTime": 91.38
+      },
+      {
+        "word": "of",
+        "startTime": 91.38,
+        "endTime": 91.76
+      },
+      {
+        "word": "LLM",
+        "startTime": 91.76,
+        "endTime": 92.72
+      },
+      {
+        "word": "judge",
+        "startTime": 92.72,
+        "endTime": 92.96
+      },
+      {
+        "word": "decisions",
+        "startTime": 92.96,
+        "endTime": 93.62
+      },
+      {
+        "word": "and",
+        "startTime": 93.62,
+        "endTime": 94.42
+      },
+      {
+        "word": "check",
+        "startTime": 94.42,
+        "endTime": 94.72
+      },
+      {
+        "word": "them",
+        "startTime": 94.72,
+        "endTime": 95
+      },
+      {
+        "word": "against",
+        "startTime": 95,
+        "endTime": 95.5
+      },
+      {
+        "word": "human",
+        "startTime": 95.5,
+        "endTime": 95.86
+      },
+      {
+        "word": "judgment.",
+        "startTime": 95.86,
+        "endTime": 96.46
+      }
+    ]
+  },
+  {
+    "text": "If agreement is below 80%, your judge prompt is broken.",
+    "startTime": 97.42,
+    "endTime": 102.12,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "If",
+        "startTime": 97.42,
+        "endTime": 97.68
+      },
+      {
+        "word": "agreement",
+        "startTime": 97.68,
+        "endTime": 98.04
+      },
+      {
+        "word": "is",
+        "startTime": 98.04,
+        "endTime": 98.42
+      },
+      {
+        "word": "below",
+        "startTime": 98.42,
+        "endTime": 98.74
+      },
+      {
+        "word": "80%,",
+        "startTime": 98.74,
+        "endTime": 100.08
+      },
+      {
+        "word": "your",
+        "startTime": 100.08,
+        "endTime": 100.5
+      },
+      {
+        "word": "judge",
+        "startTime": 100.5,
+        "endTime": 100.9
+      },
+      {
+        "word": "prompt",
+        "startTime": 100.9,
+        "endTime": 101.2
+      },
+      {
+        "word": "is",
+        "startTime": 101.2,
+        "endTime": 101.6
+      },
+      {
+        "word": "broken.",
+        "startTime": 101.6,
+        "endTime": 102.12
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson, and you will see results immediately.",
+    "startTime": 103.14,
+    "endTime": 107.78,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 103.14,
+        "endTime": 103.6
+      },
+      {
+        "word": "what",
+        "startTime": 103.6,
+        "endTime": 103.88
+      },
+      {
+        "word": "you",
+        "startTime": 103.88,
+        "endTime": 104.04
+      },
+      {
+        "word": "learn",
+        "startTime": 104.04,
+        "endTime": 104.3
+      },
+      {
+        "word": "in",
+        "startTime": 104.3,
+        "endTime": 104.46
+      },
+      {
+        "word": "this",
+        "startTime": 104.46,
+        "endTime": 104.72
+      },
+      {
+        "word": "lesson,",
+        "startTime": 104.72,
+        "endTime": 105.14
+      },
+      {
+        "word": "and",
+        "startTime": 105.72,
+        "endTime": 105.8
+      },
+      {
+        "word": "you",
+        "startTime": 105.8,
+        "endTime": 105.98
+      },
+      {
+        "word": "will",
+        "startTime": 105.98,
+        "endTime": 106.1
+      },
+      {
+        "word": "see",
+        "startTime": 106.1,
+        "endTime": 106.36
+      },
+      {
+        "word": "results",
+        "startTime": 106.36,
+        "endTime": 106.86
+      },
+      {
+        "word": "immediately.",
+        "startTime": 106.86,
+        "endTime": 107.78
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 108.58,
+    "endTime": 110.4,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 108.58,
+        "endTime": 108.86
+      },
+      {
+        "word": "skills",
+        "startTime": 108.86,
+        "endTime": 109.46
+      },
+      {
+        "word": "bear",
+        "startTime": 109.46,
+        "endTime": 109.98
+      },
+      {
+        "word": "fruit.",
+        "startTime": 109.98,
+        "endTime": 110.4
+      }
+    ]
+  }
+]

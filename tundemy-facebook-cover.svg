@@ -1,0 +1,87 @@
+<svg viewBox="0 0 820 312" xmlns="http://www.w3.org/2000/svg" width="820" height="312">
+
+  <!-- Background -->
+  <rect width="820" height="312" fill="#0A1628"/>
+
+  <!-- Decorative bg hexagons (right side, subtle) -->
+  <polygon points="760,20 740,3 720,20 720,53 740,70 760,53" fill="none" stroke="#1A3060" stroke-width="1.2" opacity="0.5"/>
+  <polygon points="680,230 652,214 624,230 624,262 652,278 680,262" fill="none" stroke="#1A3060" stroke-width="1.2" opacity="0.4"/>
+  <polygon points="790,165 769,153 748,165 748,189 769,201 790,189" fill="none" stroke="#1A3060" stroke-width="1" opacity="0.35"/>
+  <polygon points="440,260 426,252 412,260 412,276 426,284 440,276" fill="none" stroke="#2D7A45" stroke-width="1" opacity="0.3"/>
+  <polygon points="510,38 494,29 478,38 478,56 494,65 510,56" fill="none" stroke="#2D7A45" stroke-width="1" opacity="0.25"/>
+  <polygon points="620,80 606,72 592,80 592,96 606,104 620,96" fill="none" stroke="#1A3060" stroke-width="1" opacity="0.35"/>
+
+  <!-- Outer hex (logo, center 145,156, radius 108) -->
+  <polygon points="253,156 199,62.5 91,62.5 37,156 91,249.5 199,249.5" fill="#0D1B3E" stroke="#1A3060" stroke-width="1.5"/>
+
+  <!-- Inner hex border (radius 96) -->
+  <polygon points="241,156 193,73 97,73 49,156 97,239 193,239" fill="none" stroke="#2A4A7A" stroke-width="1.8" opacity="0.85"/>
+
+  <!-- Constellation lines to berry -->
+  <line x1="97" y1="73" x2="145" y2="108" stroke="#5B7FBB" stroke-width="1.1" opacity="0.7"/>
+  <line x1="193" y1="73" x2="145" y2="108" stroke="#5B7FBB" stroke-width="1.1" opacity="0.7"/>
+  <circle cx="97" cy="73" r="2.8" fill="#5B7FBB" opacity="0.85"/>
+  <circle cx="193" cy="73" r="2.8" fill="#5B7FBB" opacity="0.85"/>
+  <circle cx="49" cy="156" r="2" fill="#5B7FBB" opacity="0.45"/>
+  <circle cx="241" cy="156" r="2" fill="#5B7FBB" opacity="0.45"/>
+
+  <!-- Plant stem -->
+  <rect x="141" y="131" width="8" height="100" fill="#2D7A45" rx="4"/>
+
+  <!-- Left leaf -->
+  <path d="M 143,178 C 131,170 104,160 99,146 C 113,155 136,170 145,176 Z" fill="#2D7A45"/>
+
+  <!-- Right leaf -->
+  <path d="M 147,178 C 159,170 186,160 191,146 C 177,155 154,170 145,176 Z" fill="#2D7A45"/>
+
+  <!-- Berry -->
+  <circle cx="145" cy="108" r="23" fill="#D93A2A"/>
+
+  <!-- Vertical green separator -->
+  <line x1="272" y1="32" x2="272" y2="280" stroke="#2D7A45" stroke-width="1.5" opacity="0.55"/>
+
+  <!-- TUNDEMY wordmark -->
+  <text x="300" y="132"
+        fill="#FFFFFF"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="68"
+        font-weight="700"
+        letter-spacing="8">TUNDEMY</text>
+
+  <!-- Green accent line -->
+  <line x1="300" y1="150" x2="680" y2="150" stroke="#2D7A45" stroke-width="2"/>
+
+  <!-- Platform subtitle -->
+  <text x="300" y="182"
+        fill="#2D7A45"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="21"
+        font-weight="400"
+        letter-spacing="1.5">Africa's AI Skills Platform</text>
+
+  <!-- Tagline -->
+  <text x="300" y="214"
+        fill="#8AACCC"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="13"
+        font-weight="400"
+        letter-spacing="3.5">YOUR SKILLS BEAR FRUIT</text>
+
+  <!-- Feature line -->
+  <text x="300" y="244"
+        fill="#4A6A88"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="12"
+        letter-spacing="1">AI Courses  ·  Talent Pool  ·  Employer Network</text>
+
+  <!-- Website -->
+  <text x="300" y="274"
+        fill="#2D7A45"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="13"
+        letter-spacing="1">www.tundemy.com</text>
+
+  <!-- Bottom accent bar -->
+  <rect x="0" y="306" width="820" height="6" fill="#2D7A45"/>
+
+</svg>

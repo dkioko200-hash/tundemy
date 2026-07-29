@@ -1,0 +1,374 @@
+[
+  {
+    "text": "You now know more about using AI professionally than 90 % of the workforce in Kenya.",
+    "startTime": 0,
+    "endTime": 5.52,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 0,
+        "endTime": 0.26
+      },
+      {
+        "word": "now",
+        "startTime": 0.26,
+        "endTime": 0.5
+      },
+      {
+        "word": "know",
+        "startTime": 0.5,
+        "endTime": 0.72
+      },
+      {
+        "word": "more",
+        "startTime": 0.72,
+        "endTime": 1.02
+      },
+      {
+        "word": "about",
+        "startTime": 1.02,
+        "endTime": 1.28
+      },
+      {
+        "word": "using",
+        "startTime": 1.28,
+        "endTime": 1.7
+      },
+      {
+        "word": "AI",
+        "startTime": 1.7,
+        "endTime": 1.98
+      },
+      {
+        "word": "professionally",
+        "startTime": 1.98,
+        "endTime": 2.8
+      },
+      {
+        "word": "than",
+        "startTime": 2.8,
+        "endTime": 3.44
+      },
+      {
+        "word": "90",
+        "startTime": 3.44,
+        "endTime": 3.86
+      },
+      {
+        "word": "%",
+        "startTime": 3.86,
+        "endTime": 4.2
+      },
+      {
+        "word": "of",
+        "startTime": 4.2,
+        "endTime": 4.4
+      },
+      {
+        "word": "the",
+        "startTime": 4.4,
+        "endTime": 4.54
+      },
+      {
+        "word": "workforce",
+        "startTime": 4.54,
+        "endTime": 4.88
+      },
+      {
+        "word": "in",
+        "startTime": 4.88,
+        "endTime": 5.22
+      },
+      {
+        "word": "Kenya.",
+        "startTime": 5.22,
+        "endTime": 5.52
+      }
+    ]
+  },
+  {
+    "text": "The question is, what you do with it in the next seven days?",
+    "startTime": 6.04,
+    "endTime": 9.16,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 6.04,
+        "endTime": 6.12
+      },
+      {
+        "word": "question",
+        "startTime": 6.12,
+        "endTime": 6.46
+      },
+      {
+        "word": "is,",
+        "startTime": 6.46,
+        "endTime": 6.8
+      },
+      {
+        "word": "what",
+        "startTime": 7.18,
+        "endTime": 7.32
+      },
+      {
+        "word": "you",
+        "startTime": 7.32,
+        "endTime": 7.48
+      },
+      {
+        "word": "do",
+        "startTime": 7.48,
+        "endTime": 7.68
+      },
+      {
+        "word": "with",
+        "startTime": 7.68,
+        "endTime": 7.9
+      },
+      {
+        "word": "it",
+        "startTime": 7.9,
+        "endTime": 8.02
+      },
+      {
+        "word": "in",
+        "startTime": 8.02,
+        "endTime": 8.22
+      },
+      {
+        "word": "the",
+        "startTime": 8.22,
+        "endTime": 8.34
+      },
+      {
+        "word": "next",
+        "startTime": 8.34,
+        "endTime": 8.52
+      },
+      {
+        "word": "seven",
+        "startTime": 8.52,
+        "endTime": 8.86
+      },
+      {
+        "word": "days?",
+        "startTime": 8.86,
+        "endTime": 9.16
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, the complete AI tools landscape, how to choose the right tool for each task and your personal action plan.",
+    "startTime": 9.9,
+    "endTime": 17.54,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 9.9,
+        "endTime": 10.04
+      },
+      {
+        "word": "this",
+        "startTime": 10.04,
+        "endTime": 10.26
+      },
+      {
+        "word": "lesson,",
+        "startTime": 10.26,
+        "endTime": 10.6
+      },
+      {
+        "word": "the",
+        "startTime": 11.06,
+        "endTime": 11.18
+      },
+      {
+        "word": "complete",
+        "startTime": 11.18,
+        "endTime": 11.56
+      },
+      {
+        "word": "AI",
+        "startTime": 11.56,
+        "endTime": 11.94
+      },
+      {
+        "word": "tools",
+        "startTime": 11.94,
+        "endTime": 12.38
+      },
+      {
+        "word": "landscape,",
+        "startTime": 12.38,
+        "endTime": 12.92
+      },
+      {
+        "word": "how",
+        "startTime": 13.4,
+        "endTime": 13.62
+      },
+      {
+        "word": "to",
+        "startTime": 13.62,
+        "endTime": 13.78
+      },
+      {
+        "word": "choose",
+        "startTime": 13.78,
+        "endTime": 14.02
+      },
+      {
+        "word": "the",
+        "startTime": 14.02,
+        "endTime": 14.22
+      },
+      {
+        "word": "right",
+        "startTime": 14.22,
+        "endTime": 14.38
+      },
+      {
+        "word": "tool",
+        "startTime": 14.38,
+        "endTime": 14.66
+      },
+      {
+        "word": "for",
+        "startTime": 14.66,
+        "endTime": 14.88
+      },
+      {
+        "word": "each",
+        "startTime": 14.88,
+        "endTime": 15.12
+      },
+      {
+        "word": "task",
+        "startTime": 15.12,
+        "endTime": 15.52
+      },
+      {
+        "word": "and",
+        "startTime": 15.52,
+        "endTime": 16.12
+      },
+      {
+        "word": "your",
+        "startTime": 16.12,
+        "endTime": 16.28
+      },
+      {
+        "word": "personal",
+        "startTime": 16.28,
+        "endTime": 16.72
+      },
+      {
+        "word": "action",
+        "startTime": 16.72,
+        "endTime": 17.12
+      },
+      {
+        "word": "plan.",
+        "startTime": 17.12,
+        "endTime": 17.54
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately, your skills bear fruit.",
+    "startTime": 18.28,
+    "endTime": 23.68,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 18.28,
+        "endTime": 18.58
+      },
+      {
+        "word": "what",
+        "startTime": 18.58,
+        "endTime": 18.82
+      },
+      {
+        "word": "you",
+        "startTime": 18.82,
+        "endTime": 18.98
+      },
+      {
+        "word": "learn",
+        "startTime": 18.98,
+        "endTime": 19.18
+      },
+      {
+        "word": "in",
+        "startTime": 19.18,
+        "endTime": 19.34
+      },
+      {
+        "word": "this",
+        "startTime": 19.34,
+        "endTime": 19.54
+      },
+      {
+        "word": "lesson",
+        "startTime": 19.54,
+        "endTime": 19.9
+      },
+      {
+        "word": "and",
+        "startTime": 19.9,
+        "endTime": 20.44
+      },
+      {
+        "word": "you",
+        "startTime": 20.44,
+        "endTime": 20.58
+      },
+      {
+        "word": "will",
+        "startTime": 20.58,
+        "endTime": 20.7
+      },
+      {
+        "word": "see",
+        "startTime": 20.7,
+        "endTime": 20.92
+      },
+      {
+        "word": "results",
+        "startTime": 20.92,
+        "endTime": 21.28
+      },
+      {
+        "word": "immediately,",
+        "startTime": 21.28,
+        "endTime": 21.94
+      },
+      {
+        "word": "your",
+        "startTime": 22.36,
+        "endTime": 22.72
+      },
+      {
+        "word": "skills",
+        "startTime": 22.72,
+        "endTime": 23.12
+      },
+      {
+        "word": "bear",
+        "startTime": 23.12,
+        "endTime": 23.38
+      },
+      {
+        "word": "fruit.",
+        "startTime": 23.38,
+        "endTime": 23.68
+      }
+    ]
+  }
+]

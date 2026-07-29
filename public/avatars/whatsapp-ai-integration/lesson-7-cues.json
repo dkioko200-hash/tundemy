@@ -1,0 +1,679 @@
+[
+  {
+    "text": "Single -turn bots answer questions.",
+    "startTime": 0,
+    "endTime": 2.08,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "Single",
+        "startTime": 0,
+        "endTime": 0.36
+      },
+      {
+        "word": "-turn",
+        "startTime": 0.36,
+        "endTime": 0.66
+      },
+      {
+        "word": "bots",
+        "startTime": 0.66,
+        "endTime": 0.96
+      },
+      {
+        "word": "answer",
+        "startTime": 0.96,
+        "endTime": 1.4
+      },
+      {
+        "word": "questions.",
+        "startTime": 1.4,
+        "endTime": 2.08
+      }
+    ]
+  },
+  {
+    "text": "Multiturn bots complete entire transactions.",
+    "startTime": 2.74,
+    "endTime": 5.28,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Multiturn",
+        "startTime": 2.74,
+        "endTime": 3.26
+      },
+      {
+        "word": "bots",
+        "startTime": 3.26,
+        "endTime": 3.52
+      },
+      {
+        "word": "complete",
+        "startTime": 3.52,
+        "endTime": 4.04
+      },
+      {
+        "word": "entire",
+        "startTime": 4.04,
+        "endTime": 4.6
+      },
+      {
+        "word": "transactions.",
+        "startTime": 4.6,
+        "endTime": 5.28
+      }
+    ]
+  },
+  {
+    "text": "A bot that books a viewing, takes a food order, or qualifies a sales lead through a natural WhatsApp conversation generates 10 times more value than a bot that just answers FAQs.",
+    "startTime": 5.98,
+    "endTime": 16.98,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 5.98,
+        "endTime": 6.2
+      },
+      {
+        "word": "bot",
+        "startTime": 6.2,
+        "endTime": 6.38
+      },
+      {
+        "word": "that",
+        "startTime": 6.38,
+        "endTime": 6.6
+      },
+      {
+        "word": "books",
+        "startTime": 6.6,
+        "endTime": 6.9
+      },
+      {
+        "word": "a",
+        "startTime": 6.9,
+        "endTime": 7
+      },
+      {
+        "word": "viewing,",
+        "startTime": 7,
+        "endTime": 7.32
+      },
+      {
+        "word": "takes",
+        "startTime": 7.68,
+        "endTime": 7.8
+      },
+      {
+        "word": "a",
+        "startTime": 7.8,
+        "endTime": 8
+      },
+      {
+        "word": "food",
+        "startTime": 8,
+        "endTime": 8.24
+      },
+      {
+        "word": "order,",
+        "startTime": 8.24,
+        "endTime": 8.58
+      },
+      {
+        "word": "or",
+        "startTime": 9.08,
+        "endTime": 9.16
+      },
+      {
+        "word": "qualifies",
+        "startTime": 9.16,
+        "endTime": 9.64
+      },
+      {
+        "word": "a",
+        "startTime": 9.64,
+        "endTime": 9.88
+      },
+      {
+        "word": "sales",
+        "startTime": 9.88,
+        "endTime": 10.18
+      },
+      {
+        "word": "lead",
+        "startTime": 10.18,
+        "endTime": 10.4
+      },
+      {
+        "word": "through",
+        "startTime": 10.4,
+        "endTime": 10.64
+      },
+      {
+        "word": "a",
+        "startTime": 10.64,
+        "endTime": 10.74
+      },
+      {
+        "word": "natural",
+        "startTime": 10.74,
+        "endTime": 11.08
+      },
+      {
+        "word": "WhatsApp",
+        "startTime": 11.08,
+        "endTime": 11.44
+      },
+      {
+        "word": "conversation",
+        "startTime": 11.44,
+        "endTime": 12.2
+      },
+      {
+        "word": "generates",
+        "startTime": 12.72,
+        "endTime": 13.18
+      },
+      {
+        "word": "10",
+        "startTime": 13.18,
+        "endTime": 13.62
+      },
+      {
+        "word": "times",
+        "startTime": 13.62,
+        "endTime": 13.94
+      },
+      {
+        "word": "more",
+        "startTime": 13.94,
+        "endTime": 14.14
+      },
+      {
+        "word": "value",
+        "startTime": 14.14,
+        "endTime": 14.52
+      },
+      {
+        "word": "than",
+        "startTime": 14.52,
+        "endTime": 14.72
+      },
+      {
+        "word": "a",
+        "startTime": 14.72,
+        "endTime": 14.82
+      },
+      {
+        "word": "bot",
+        "startTime": 14.82,
+        "endTime": 15.02
+      },
+      {
+        "word": "that",
+        "startTime": 15.02,
+        "endTime": 15.24
+      },
+      {
+        "word": "just",
+        "startTime": 15.24,
+        "endTime": 15.44
+      },
+      {
+        "word": "answers",
+        "startTime": 15.44,
+        "endTime": 15.94
+      },
+      {
+        "word": "FAQs.",
+        "startTime": 15.94,
+        "endTime": 16.98
+      }
+    ]
+  },
+  {
+    "text": "This is the lesson that separates the developers who get the big projects.",
+    "startTime": 17.44,
+    "endTime": 20.86,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "This",
+        "startTime": 17.44,
+        "endTime": 17.7
+      },
+      {
+        "word": "is",
+        "startTime": 17.7,
+        "endTime": 17.82
+      },
+      {
+        "word": "the",
+        "startTime": 17.82,
+        "endTime": 17.98
+      },
+      {
+        "word": "lesson",
+        "startTime": 17.98,
+        "endTime": 18.26
+      },
+      {
+        "word": "that",
+        "startTime": 18.26,
+        "endTime": 18.48
+      },
+      {
+        "word": "separates",
+        "startTime": 18.48,
+        "endTime": 18.94
+      },
+      {
+        "word": "the",
+        "startTime": 18.94,
+        "endTime": 19.18
+      },
+      {
+        "word": "developers",
+        "startTime": 19.18,
+        "endTime": 19.62
+      },
+      {
+        "word": "who",
+        "startTime": 19.62,
+        "endTime": 19.9
+      },
+      {
+        "word": "get",
+        "startTime": 19.9,
+        "endTime": 20.06
+      },
+      {
+        "word": "the",
+        "startTime": 20.06,
+        "endTime": 20.22
+      },
+      {
+        "word": "big",
+        "startTime": 20.22,
+        "endTime": 20.38
+      },
+      {
+        "word": "projects.",
+        "startTime": 20.38,
+        "endTime": 20.86
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, build a multi -step conversation flow for a Nairobi dental clinic appointment booking system.",
+    "startTime": 21.58,
+    "endTime": 27.48,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 21.58,
+        "endTime": 21.72
+      },
+      {
+        "word": "this",
+        "startTime": 21.72,
+        "endTime": 21.9
+      },
+      {
+        "word": "lesson,",
+        "startTime": 21.9,
+        "endTime": 22.3
+      },
+      {
+        "word": "build",
+        "startTime": 22.8,
+        "endTime": 23.12
+      },
+      {
+        "word": "a",
+        "startTime": 23.12,
+        "endTime": 23.26
+      },
+      {
+        "word": "multi",
+        "startTime": 23.26,
+        "endTime": 23.52
+      },
+      {
+        "word": "-step",
+        "startTime": 23.52,
+        "endTime": 23.78
+      },
+      {
+        "word": "conversation",
+        "startTime": 23.78,
+        "endTime": 24.42
+      },
+      {
+        "word": "flow",
+        "startTime": 24.42,
+        "endTime": 24.74
+      },
+      {
+        "word": "for",
+        "startTime": 24.74,
+        "endTime": 25
+      },
+      {
+        "word": "a",
+        "startTime": 25,
+        "endTime": 25.08
+      },
+      {
+        "word": "Nairobi",
+        "startTime": 25.08,
+        "endTime": 25.48
+      },
+      {
+        "word": "dental",
+        "startTime": 25.48,
+        "endTime": 25.78
+      },
+      {
+        "word": "clinic",
+        "startTime": 25.78,
+        "endTime": 26.16
+      },
+      {
+        "word": "appointment",
+        "startTime": 26.16,
+        "endTime": 26.6
+      },
+      {
+        "word": "booking",
+        "startTime": 26.6,
+        "endTime": 26.96
+      },
+      {
+        "word": "system.",
+        "startTime": 26.96,
+        "endTime": 27.48
+      }
+    ]
+  },
+  {
+    "text": "The bot collects service type, preferred date, patient name and phone number, validates each input, confirms the appointment, and sends a WhatsApp confirmation.",
+    "startTime": 28.16,
+    "endTime": 37.78,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 28.16,
+        "endTime": 28.32
+      },
+      {
+        "word": "bot",
+        "startTime": 28.32,
+        "endTime": 28.54
+      },
+      {
+        "word": "collects",
+        "startTime": 28.54,
+        "endTime": 28.8
+      },
+      {
+        "word": "service",
+        "startTime": 28.8,
+        "endTime": 29.24
+      },
+      {
+        "word": "type,",
+        "startTime": 29.24,
+        "endTime": 29.56
+      },
+      {
+        "word": "preferred",
+        "startTime": 30.02,
+        "endTime": 30.28
+      },
+      {
+        "word": "date,",
+        "startTime": 30.28,
+        "endTime": 30.56
+      },
+      {
+        "word": "patient",
+        "startTime": 31.1,
+        "endTime": 31.4
+      },
+      {
+        "word": "name",
+        "startTime": 31.4,
+        "endTime": 31.68
+      },
+      {
+        "word": "and",
+        "startTime": 31.68,
+        "endTime": 32.04
+      },
+      {
+        "word": "phone",
+        "startTime": 32.04,
+        "endTime": 32.3
+      },
+      {
+        "word": "number,",
+        "startTime": 32.3,
+        "endTime": 32.68
+      },
+      {
+        "word": "validates",
+        "startTime": 33.28,
+        "endTime": 33.74
+      },
+      {
+        "word": "each",
+        "startTime": 33.74,
+        "endTime": 33.94
+      },
+      {
+        "word": "input,",
+        "startTime": 33.94,
+        "endTime": 34.34
+      },
+      {
+        "word": "confirms",
+        "startTime": 34.84,
+        "endTime": 35.28
+      },
+      {
+        "word": "the",
+        "startTime": 35.28,
+        "endTime": 35.42
+      },
+      {
+        "word": "appointment,",
+        "startTime": 35.42,
+        "endTime": 35.82
+      },
+      {
+        "word": "and",
+        "startTime": 36.34,
+        "endTime": 36.4
+      },
+      {
+        "word": "sends",
+        "startTime": 36.4,
+        "endTime": 36.64
+      },
+      {
+        "word": "a",
+        "startTime": 36.64,
+        "endTime": 36.82
+      },
+      {
+        "word": "WhatsApp",
+        "startTime": 36.82,
+        "endTime": 37.14
+      },
+      {
+        "word": "confirmation.",
+        "startTime": 37.14,
+        "endTime": 37.78
+      }
+    ]
+  },
+  {
+    "text": "Uses the state machine pattern for managing conversation context.",
+    "startTime": 38.56,
+    "endTime": 42.06,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Uses",
+        "startTime": 38.56,
+        "endTime": 38.9
+      },
+      {
+        "word": "the",
+        "startTime": 38.9,
+        "endTime": 39.06
+      },
+      {
+        "word": "state",
+        "startTime": 39.06,
+        "endTime": 39.32
+      },
+      {
+        "word": "machine",
+        "startTime": 39.32,
+        "endTime": 39.64
+      },
+      {
+        "word": "pattern",
+        "startTime": 39.64,
+        "endTime": 40.06
+      },
+      {
+        "word": "for",
+        "startTime": 40.06,
+        "endTime": 40.32
+      },
+      {
+        "word": "managing",
+        "startTime": 40.32,
+        "endTime": 40.64
+      },
+      {
+        "word": "conversation",
+        "startTime": 40.64,
+        "endTime": 41.32
+      },
+      {
+        "word": "context.",
+        "startTime": 41.32,
+        "endTime": 42.06
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 42.66,
+    "endTime": 46.14,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 42.66,
+        "endTime": 42.94
+      },
+      {
+        "word": "what",
+        "startTime": 42.94,
+        "endTime": 43.16
+      },
+      {
+        "word": "you",
+        "startTime": 43.16,
+        "endTime": 43.3
+      },
+      {
+        "word": "learn",
+        "startTime": 43.3,
+        "endTime": 43.5
+      },
+      {
+        "word": "in",
+        "startTime": 43.5,
+        "endTime": 43.62
+      },
+      {
+        "word": "this",
+        "startTime": 43.62,
+        "endTime": 43.8
+      },
+      {
+        "word": "lesson",
+        "startTime": 43.8,
+        "endTime": 44.14
+      },
+      {
+        "word": "and",
+        "startTime": 44.14,
+        "endTime": 44.66
+      },
+      {
+        "word": "you",
+        "startTime": 44.66,
+        "endTime": 44.82
+      },
+      {
+        "word": "will",
+        "startTime": 44.82,
+        "endTime": 44.92
+      },
+      {
+        "word": "see",
+        "startTime": 44.92,
+        "endTime": 45.12
+      },
+      {
+        "word": "results",
+        "startTime": 45.12,
+        "endTime": 45.48
+      },
+      {
+        "word": "immediately.",
+        "startTime": 45.48,
+        "endTime": 46.14
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 46.76,
+    "endTime": 47.86,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 46.76,
+        "endTime": 46.9
+      },
+      {
+        "word": "skills",
+        "startTime": 46.9,
+        "endTime": 47.28
+      },
+      {
+        "word": "bear",
+        "startTime": 47.28,
+        "endTime": 47.54
+      },
+      {
+        "word": "fruit.",
+        "startTime": 47.54,
+        "endTime": 47.86
+      }
+    ]
+  }
+]

@@ -1,0 +1,564 @@
+[
+  {
+    "text": "Descriptive analysis is the foundation of every business decision made from data.",
+    "startTime": 0,
+    "endTime": 4.68,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "Descriptive",
+        "startTime": 0,
+        "endTime": 0.76
+      },
+      {
+        "word": "analysis",
+        "startTime": 0.76,
+        "endTime": 1.12
+      },
+      {
+        "word": "is",
+        "startTime": 1.12,
+        "endTime": 1.62
+      },
+      {
+        "word": "the",
+        "startTime": 1.62,
+        "endTime": 1.76
+      },
+      {
+        "word": "foundation",
+        "startTime": 1.76,
+        "endTime": 2.2
+      },
+      {
+        "word": "of",
+        "startTime": 2.2,
+        "endTime": 2.5
+      },
+      {
+        "word": "every",
+        "startTime": 2.5,
+        "endTime": 2.78
+      },
+      {
+        "word": "business",
+        "startTime": 2.78,
+        "endTime": 3.14
+      },
+      {
+        "word": "decision",
+        "startTime": 3.14,
+        "endTime": 3.7
+      },
+      {
+        "word": "made",
+        "startTime": 3.7,
+        "endTime": 4.1
+      },
+      {
+        "word": "from",
+        "startTime": 4.1,
+        "endTime": 4.3
+      },
+      {
+        "word": "data.",
+        "startTime": 4.3,
+        "endTime": 4.68
+      }
+    ]
+  },
+  {
+    "text": "Before you can predict or recommend, you must accurately describe.",
+    "startTime": 5.2,
+    "endTime": 9.02,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Before",
+        "startTime": 5.2,
+        "endTime": 5.56
+      },
+      {
+        "word": "you",
+        "startTime": 5.56,
+        "endTime": 5.76
+      },
+      {
+        "word": "can",
+        "startTime": 5.76,
+        "endTime": 5.92
+      },
+      {
+        "word": "predict",
+        "startTime": 5.92,
+        "endTime": 6.26
+      },
+      {
+        "word": "or",
+        "startTime": 6.26,
+        "endTime": 6.6
+      },
+      {
+        "word": "recommend,",
+        "startTime": 6.6,
+        "endTime": 7.02
+      },
+      {
+        "word": "you",
+        "startTime": 7.66,
+        "endTime": 7.76
+      },
+      {
+        "word": "must",
+        "startTime": 7.76,
+        "endTime": 7.92
+      },
+      {
+        "word": "accurately",
+        "startTime": 7.92,
+        "endTime": 8.42
+      },
+      {
+        "word": "describe.",
+        "startTime": 8.42,
+        "endTime": 9.02
+      }
+    ]
+  },
+  {
+    "text": "Most people skip this step and jump to conclusions.",
+    "startTime": 9.76,
+    "endTime": 12.5,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Most",
+        "startTime": 9.76,
+        "endTime": 10.08
+      },
+      {
+        "word": "people",
+        "startTime": 10.08,
+        "endTime": 10.4
+      },
+      {
+        "word": "skip",
+        "startTime": 10.4,
+        "endTime": 10.7
+      },
+      {
+        "word": "this",
+        "startTime": 10.7,
+        "endTime": 10.96
+      },
+      {
+        "word": "step",
+        "startTime": 10.96,
+        "endTime": 11.3
+      },
+      {
+        "word": "and",
+        "startTime": 11.3,
+        "endTime": 11.56
+      },
+      {
+        "word": "jump",
+        "startTime": 11.56,
+        "endTime": 11.8
+      },
+      {
+        "word": "to",
+        "startTime": 11.8,
+        "endTime": 12.02
+      },
+      {
+        "word": "conclusions.",
+        "startTime": 12.02,
+        "endTime": 12.5
+      }
+    ]
+  },
+  {
+    "text": "This is where the most expensive analytical mistakes begin.",
+    "startTime": 13.28,
+    "endTime": 16.36,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "This",
+        "startTime": 13.28,
+        "endTime": 13.54
+      },
+      {
+        "word": "is",
+        "startTime": 13.54,
+        "endTime": 13.66
+      },
+      {
+        "word": "where",
+        "startTime": 13.66,
+        "endTime": 13.88
+      },
+      {
+        "word": "the",
+        "startTime": 13.88,
+        "endTime": 14.02
+      },
+      {
+        "word": "most",
+        "startTime": 14.02,
+        "endTime": 14.2
+      },
+      {
+        "word": "expensive",
+        "startTime": 14.2,
+        "endTime": 14.84
+      },
+      {
+        "word": "analytical",
+        "startTime": 14.84,
+        "endTime": 15.24
+      },
+      {
+        "word": "mistakes",
+        "startTime": 15.24,
+        "endTime": 15.9
+      },
+      {
+        "word": "begin.",
+        "startTime": 15.9,
+        "endTime": 16.36
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, descriptive analysis answers what happened.",
+    "startTime": 16.96,
+    "endTime": 20.76,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 16.96,
+        "endTime": 17.18
+      },
+      {
+        "word": "this",
+        "startTime": 17.18,
+        "endTime": 17.36
+      },
+      {
+        "word": "lesson,",
+        "startTime": 17.36,
+        "endTime": 17.72
+      },
+      {
+        "word": "descriptive",
+        "startTime": 18.26,
+        "endTime": 18.7
+      },
+      {
+        "word": "analysis",
+        "startTime": 18.7,
+        "endTime": 19.14
+      },
+      {
+        "word": "answers",
+        "startTime": 19.14,
+        "endTime": 19.66
+      },
+      {
+        "word": "what",
+        "startTime": 19.66,
+        "endTime": 20.34
+      },
+      {
+        "word": "happened.",
+        "startTime": 20.34,
+        "endTime": 20.76
+      }
+    ]
+  },
+  {
+    "text": "It uses counts, averages, medians, distributions, and breakdowns to paint an accurate picture of a period of business activity.",
+    "startTime": 21.3,
+    "endTime": 29.86,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "It",
+        "startTime": 21.3,
+        "endTime": 21.5
+      },
+      {
+        "word": "uses",
+        "startTime": 21.5,
+        "endTime": 21.8
+      },
+      {
+        "word": "counts,",
+        "startTime": 21.8,
+        "endTime": 22.28
+      },
+      {
+        "word": "averages,",
+        "startTime": 22.76,
+        "endTime": 23.1
+      },
+      {
+        "word": "medians,",
+        "startTime": 23.6,
+        "endTime": 23.96
+      },
+      {
+        "word": "distributions,",
+        "startTime": 24.46,
+        "endTime": 25
+      },
+      {
+        "word": "and",
+        "startTime": 25.66,
+        "endTime": 25.74
+      },
+      {
+        "word": "breakdowns",
+        "startTime": 25.74,
+        "endTime": 26.36
+      },
+      {
+        "word": "to",
+        "startTime": 26.36,
+        "endTime": 26.44
+      },
+      {
+        "word": "paint",
+        "startTime": 26.44,
+        "endTime": 26.64
+      },
+      {
+        "word": "an",
+        "startTime": 26.64,
+        "endTime": 26.86
+      },
+      {
+        "word": "accurate",
+        "startTime": 26.86,
+        "endTime": 27.24
+      },
+      {
+        "word": "picture",
+        "startTime": 27.24,
+        "endTime": 27.72
+      },
+      {
+        "word": "of",
+        "startTime": 27.72,
+        "endTime": 28.24
+      },
+      {
+        "word": "a",
+        "startTime": 28.24,
+        "endTime": 28.38
+      },
+      {
+        "word": "period",
+        "startTime": 28.38,
+        "endTime": 28.7
+      },
+      {
+        "word": "of",
+        "startTime": 28.7,
+        "endTime": 28.88
+      },
+      {
+        "word": "business",
+        "startTime": 28.88,
+        "endTime": 29.16
+      },
+      {
+        "word": "activity.",
+        "startTime": 29.16,
+        "endTime": 29.86
+      }
+    ]
+  },
+  {
+    "text": "Master this layer and every subsequent analysis, patterns, predictions, recommendations, becomes far more reliable.",
+    "startTime": 30.52,
+    "endTime": 37.66,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Master",
+        "startTime": 30.52,
+        "endTime": 30.84
+      },
+      {
+        "word": "this",
+        "startTime": 30.84,
+        "endTime": 31.1
+      },
+      {
+        "word": "layer",
+        "startTime": 31.1,
+        "endTime": 31.38
+      },
+      {
+        "word": "and",
+        "startTime": 31.38,
+        "endTime": 31.66
+      },
+      {
+        "word": "every",
+        "startTime": 31.66,
+        "endTime": 31.98
+      },
+      {
+        "word": "subsequent",
+        "startTime": 31.98,
+        "endTime": 32.5
+      },
+      {
+        "word": "analysis,",
+        "startTime": 32.5,
+        "endTime": 33.24
+      },
+      {
+        "word": "patterns,",
+        "startTime": 33.66,
+        "endTime": 34.02
+      },
+      {
+        "word": "predictions,",
+        "startTime": 34.38,
+        "endTime": 34.72
+      },
+      {
+        "word": "recommendations,",
+        "startTime": 35,
+        "endTime": 35.58
+      },
+      {
+        "word": "becomes",
+        "startTime": 36.26,
+        "endTime": 36.48
+      },
+      {
+        "word": "far",
+        "startTime": 36.48,
+        "endTime": 36.94
+      },
+      {
+        "word": "more",
+        "startTime": 36.94,
+        "endTime": 37.14
+      },
+      {
+        "word": "reliable.",
+        "startTime": 37.14,
+        "endTime": 37.66
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 38.44,
+    "endTime": 42,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 38.44,
+        "endTime": 38.72
+      },
+      {
+        "word": "what",
+        "startTime": 38.72,
+        "endTime": 38.94
+      },
+      {
+        "word": "you",
+        "startTime": 38.94,
+        "endTime": 39.08
+      },
+      {
+        "word": "learn",
+        "startTime": 39.08,
+        "endTime": 39.28
+      },
+      {
+        "word": "in",
+        "startTime": 39.28,
+        "endTime": 39.42
+      },
+      {
+        "word": "this",
+        "startTime": 39.42,
+        "endTime": 39.62
+      },
+      {
+        "word": "lesson",
+        "startTime": 39.62,
+        "endTime": 39.96
+      },
+      {
+        "word": "and",
+        "startTime": 39.96,
+        "endTime": 40.46
+      },
+      {
+        "word": "you",
+        "startTime": 40.46,
+        "endTime": 40.64
+      },
+      {
+        "word": "will",
+        "startTime": 40.64,
+        "endTime": 40.74
+      },
+      {
+        "word": "see",
+        "startTime": 40.74,
+        "endTime": 40.96
+      },
+      {
+        "word": "results",
+        "startTime": 40.96,
+        "endTime": 41.32
+      },
+      {
+        "word": "immediately.",
+        "startTime": 41.32,
+        "endTime": 42
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 42.62,
+    "endTime": 43.8,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 42.62,
+        "endTime": 42.86
+      },
+      {
+        "word": "skills",
+        "startTime": 42.86,
+        "endTime": 43.26
+      },
+      {
+        "word": "bear",
+        "startTime": 43.26,
+        "endTime": 43.5
+      },
+      {
+        "word": "fruit.",
+        "startTime": 43.5,
+        "endTime": 43.8
+      }
+    ]
+  }
+]

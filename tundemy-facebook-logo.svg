@@ -1,0 +1,60 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" width="500" height="500">
+
+  <!-- White background -->
+  <rect width="500" height="500" fill="white"/>
+
+  <!-- Outer navy hexagon (circumradius 118, center 250,178) -->
+  <polygon points="368,178 309,76 191,76 132,178 191,280 309,280" fill="#0D1B3E"/>
+
+  <!-- Inner border hexagon (circumradius 105, top y≈87, bottom y≈269) -->
+  <polygon points="355,178 302.5,87 197.5,87 145,178 197.5,269 302.5,269"
+           fill="none" stroke="#2A4A7A" stroke-width="2" opacity="0.8"/>
+
+  <!-- Constellation lines from inner top corners to berry -->
+  <line x1="197.5" y1="87" x2="250" y2="126" stroke="#5B7FBB" stroke-width="1.2" opacity="0.65"/>
+  <line x1="302.5" y1="87" x2="250" y2="126" stroke="#5B7FBB" stroke-width="1.2" opacity="0.65"/>
+  <circle cx="197.5" cy="87" r="3" fill="#5B7FBB" opacity="0.85"/>
+  <circle cx="302.5" cy="87" r="3" fill="#5B7FBB" opacity="0.85"/>
+  <circle cx="145" cy="178" r="2" fill="#5B7FBB" opacity="0.45"/>
+  <circle cx="355" cy="178" r="2" fill="#5B7FBB" opacity="0.45"/>
+
+  <!-- Plant stem (y=153 to y=263, within inner hex boundaries) -->
+  <rect x="246" y="153" width="8" height="110" fill="#2D7A45" rx="4"/>
+
+  <!-- Left leaf -->
+  <path d="M 249,210 C 235,202 204,190 198,174 C 214,183 238,202 250,208 Z"
+        fill="#2D7A45"/>
+
+  <!-- Right leaf (mirrored) -->
+  <path d="M 251,210 C 265,202 296,190 302,174 C 286,183 262,202 250,208 Z"
+        fill="#2D7A45"/>
+
+  <!-- Red berry (center y=126, radius 26 — near inner hex top) -->
+  <circle cx="250" cy="126" r="26" fill="#D93A2A"/>
+
+  <!-- TUNDEMY wordmark -->
+  <text x="250" y="356"
+        text-anchor="middle"
+        fill="#0D1B3E"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="54"
+        font-weight="700"
+        letter-spacing="6">TUNDEMY</text>
+
+  <!-- Green underline -->
+  <line x1="143" y1="370" x2="357" y2="370" stroke="#2D7A45" stroke-width="3"/>
+
+  <!-- Tagline -->
+  <text x="250" y="396"
+        text-anchor="middle"
+        fill="#555555"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="13.5"
+        letter-spacing="3.5">YOUR SKILLS BEAR FRUIT</text>
+
+  <!-- Three brand dots -->
+  <circle cx="226" cy="426" r="7" fill="#2D7A45"/>
+  <circle cx="250" cy="426" r="7" fill="#0D1B3E"/>
+  <circle cx="274" cy="426" r="7" fill="#D93A2A"/>
+
+</svg>

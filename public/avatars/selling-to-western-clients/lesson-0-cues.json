@@ -1,0 +1,698 @@
+[
+  {
+    "text": "Welcome to Introduction, the Western Client Opportunity.",
+    "startTime": 0,
+    "endTime": 4.66,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "Welcome",
+        "startTime": 0,
+        "endTime": 0.48
+      },
+      {
+        "word": "to",
+        "startTime": 0.48,
+        "endTime": 0.8
+      },
+      {
+        "word": "Introduction,",
+        "startTime": 0.8,
+        "endTime": 1.72
+      },
+      {
+        "word": "the",
+        "startTime": 2.22,
+        "endTime": 2.34
+      },
+      {
+        "word": "Western",
+        "startTime": 2.34,
+        "endTime": 2.86
+      },
+      {
+        "word": "Client",
+        "startTime": 2.86,
+        "endTime": 3.54
+      },
+      {
+        "word": "Opportunity.",
+        "startTime": 3.54,
+        "endTime": 4.66
+      }
+    ]
+  },
+  {
+    "text": "I am so glad you are here.",
+    "startTime": 5.28,
+    "endTime": 7.5,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "I",
+        "startTime": 5.28,
+        "endTime": 6
+      },
+      {
+        "word": "am",
+        "startTime": 6,
+        "endTime": 6.1
+      },
+      {
+        "word": "so",
+        "startTime": 6.1,
+        "endTime": 6.42
+      },
+      {
+        "word": "glad",
+        "startTime": 6.42,
+        "endTime": 6.76
+      },
+      {
+        "word": "you",
+        "startTime": 6.76,
+        "endTime": 7.04
+      },
+      {
+        "word": "are",
+        "startTime": 7.04,
+        "endTime": 7.18
+      },
+      {
+        "word": "here.",
+        "startTime": 7.18,
+        "endTime": 7.5
+      }
+    ]
+  },
+  {
+    "text": "Western companies have two problems you can solve.",
+    "startTime": 8.7,
+    "endTime": 11.54,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Western",
+        "startTime": 8.7,
+        "endTime": 9.02
+      },
+      {
+        "word": "companies",
+        "startTime": 9.02,
+        "endTime": 9.54
+      },
+      {
+        "word": "have",
+        "startTime": 9.54,
+        "endTime": 9.82
+      },
+      {
+        "word": "two",
+        "startTime": 9.82,
+        "endTime": 10.16
+      },
+      {
+        "word": "problems",
+        "startTime": 10.16,
+        "endTime": 10.62
+      },
+      {
+        "word": "you",
+        "startTime": 10.62,
+        "endTime": 10.92
+      },
+      {
+        "word": "can",
+        "startTime": 10.92,
+        "endTime": 11.14
+      },
+      {
+        "word": "solve.",
+        "startTime": 11.14,
+        "endTime": 11.54
+      }
+    ]
+  },
+  {
+    "text": "They need AI skills and they are paying too much for them locally.",
+    "startTime": 12.3,
+    "endTime": 17.4,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "They",
+        "startTime": 12.3,
+        "endTime": 12.62
+      },
+      {
+        "word": "need",
+        "startTime": 12.62,
+        "endTime": 13.02
+      },
+      {
+        "word": "AI",
+        "startTime": 13.02,
+        "endTime": 13.4
+      },
+      {
+        "word": "skills",
+        "startTime": 13.4,
+        "endTime": 14.02
+      },
+      {
+        "word": "and",
+        "startTime": 14.02,
+        "endTime": 14.88
+      },
+      {
+        "word": "they",
+        "startTime": 14.88,
+        "endTime": 15.04
+      },
+      {
+        "word": "are",
+        "startTime": 15.04,
+        "endTime": 15.14
+      },
+      {
+        "word": "paying",
+        "startTime": 15.14,
+        "endTime": 15.46
+      },
+      {
+        "word": "too",
+        "startTime": 15.46,
+        "endTime": 15.82
+      },
+      {
+        "word": "much",
+        "startTime": 15.82,
+        "endTime": 16.2
+      },
+      {
+        "word": "for",
+        "startTime": 16.2,
+        "endTime": 16.42
+      },
+      {
+        "word": "them",
+        "startTime": 16.42,
+        "endTime": 16.64
+      },
+      {
+        "word": "locally.",
+        "startTime": 16.64,
+        "endTime": 17.4
+      }
+    ]
+  },
+  {
+    "text": "A Californian AI consultant charges $150 per hour.",
+    "startTime": 18.62,
+    "endTime": 24.52,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 18.62,
+        "endTime": 18.8
+      },
+      {
+        "word": "Californian",
+        "startTime": 18.8,
+        "endTime": 19.62
+      },
+      {
+        "word": "AI",
+        "startTime": 19.62,
+        "endTime": 20.02
+      },
+      {
+        "word": "consultant",
+        "startTime": 20.02,
+        "endTime": 20.86
+      },
+      {
+        "word": "charges",
+        "startTime": 20.86,
+        "endTime": 21.76
+      },
+      {
+        "word": "$150",
+        "startTime": 21.76,
+        "endTime": 22.96
+      },
+      {
+        "word": "per",
+        "startTime": 22.96,
+        "endTime": 24.02
+      },
+      {
+        "word": "hour.",
+        "startTime": 24.02,
+        "endTime": 24.52
+      }
+    ]
+  },
+  {
+    "text": "You can deliver the same quality at $60 per hour and make more than most Kenyan professionals while they save 60 % on their AI budget.",
+    "startTime": 25.259999999999998,
+    "endTime": 36.82,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 25.259999999999998,
+        "endTime": 25.68
+      },
+      {
+        "word": "can",
+        "startTime": 25.68,
+        "endTime": 25.86
+      },
+      {
+        "word": "deliver",
+        "startTime": 25.86,
+        "endTime": 26.18
+      },
+      {
+        "word": "the",
+        "startTime": 26.18,
+        "endTime": 26.44
+      },
+      {
+        "word": "same",
+        "startTime": 26.44,
+        "endTime": 26.76
+      },
+      {
+        "word": "quality",
+        "startTime": 26.76,
+        "endTime": 27.46
+      },
+      {
+        "word": "at",
+        "startTime": 27.46,
+        "endTime": 27.96
+      },
+      {
+        "word": "$60",
+        "startTime": 27.96,
+        "endTime": 28.54
+      },
+      {
+        "word": "per",
+        "startTime": 28.54,
+        "endTime": 29.14
+      },
+      {
+        "word": "hour",
+        "startTime": 29.14,
+        "endTime": 29.56
+      },
+      {
+        "word": "and",
+        "startTime": 29.56,
+        "endTime": 30.18
+      },
+      {
+        "word": "make",
+        "startTime": 30.18,
+        "endTime": 30.36
+      },
+      {
+        "word": "more",
+        "startTime": 30.36,
+        "endTime": 30.84
+      },
+      {
+        "word": "than",
+        "startTime": 30.84,
+        "endTime": 31.08
+      },
+      {
+        "word": "most",
+        "startTime": 31.08,
+        "endTime": 31.52
+      },
+      {
+        "word": "Kenyan",
+        "startTime": 31.52,
+        "endTime": 31.94
+      },
+      {
+        "word": "professionals",
+        "startTime": 31.94,
+        "endTime": 32.82
+      },
+      {
+        "word": "while",
+        "startTime": 32.82,
+        "endTime": 33.5
+      },
+      {
+        "word": "they",
+        "startTime": 33.5,
+        "endTime": 33.72
+      },
+      {
+        "word": "save",
+        "startTime": 33.72,
+        "endTime": 34.14
+      },
+      {
+        "word": "60",
+        "startTime": 34.14,
+        "endTime": 34.62
+      },
+      {
+        "word": "%",
+        "startTime": 34.62,
+        "endTime": 35.04
+      },
+      {
+        "word": "on",
+        "startTime": 35.04,
+        "endTime": 35.58
+      },
+      {
+        "word": "their",
+        "startTime": 35.58,
+        "endTime": 35.82
+      },
+      {
+        "word": "AI",
+        "startTime": 35.82,
+        "endTime": 36.26
+      },
+      {
+        "word": "budget.",
+        "startTime": 36.26,
+        "endTime": 36.82
+      }
+    ]
+  },
+  {
+    "text": "This course shows you how to close that deal.",
+    "startTime": 37.66,
+    "endTime": 41.3,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "This",
+        "startTime": 37.66,
+        "endTime": 38.32
+      },
+      {
+        "word": "course",
+        "startTime": 38.32,
+        "endTime": 38.78
+      },
+      {
+        "word": "shows",
+        "startTime": 38.78,
+        "endTime": 39.32
+      },
+      {
+        "word": "you",
+        "startTime": 39.32,
+        "endTime": 39.56
+      },
+      {
+        "word": "how",
+        "startTime": 39.56,
+        "endTime": 39.8
+      },
+      {
+        "word": "to",
+        "startTime": 39.8,
+        "endTime": 40
+      },
+      {
+        "word": "close",
+        "startTime": 40,
+        "endTime": 40.4
+      },
+      {
+        "word": "that",
+        "startTime": 40.4,
+        "endTime": 40.88
+      },
+      {
+        "word": "deal.",
+        "startTime": 40.88,
+        "endTime": 41.3
+      }
+    ]
+  },
+  {
+    "text": "You do not need to code.",
+    "startTime": 42.52,
+    "endTime": 43.86,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 42.52,
+        "endTime": 42.6
+      },
+      {
+        "word": "do",
+        "startTime": 42.6,
+        "endTime": 42.76
+      },
+      {
+        "word": "not",
+        "startTime": 42.76,
+        "endTime": 42.96
+      },
+      {
+        "word": "need",
+        "startTime": 42.96,
+        "endTime": 43.24
+      },
+      {
+        "word": "to",
+        "startTime": 43.24,
+        "endTime": 43.5
+      },
+      {
+        "word": "code.",
+        "startTime": 43.5,
+        "endTime": 43.86
+      }
+    ]
+  },
+  {
+    "text": "You do not need a technology background.",
+    "startTime": 44.7,
+    "endTime": 47.1,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 44.7,
+        "endTime": 44.8
+      },
+      {
+        "word": "do",
+        "startTime": 44.8,
+        "endTime": 44.96
+      },
+      {
+        "word": "not",
+        "startTime": 44.96,
+        "endTime": 45.16
+      },
+      {
+        "word": "need",
+        "startTime": 45.16,
+        "endTime": 45.48
+      },
+      {
+        "word": "a",
+        "startTime": 45.48,
+        "endTime": 45.76
+      },
+      {
+        "word": "technology",
+        "startTime": 45.76,
+        "endTime": 46.36
+      },
+      {
+        "word": "background.",
+        "startTime": 46.36,
+        "endTime": 47.1
+      }
+    ]
+  },
+  {
+    "text": "All you need is the willingness to learn and I will guide you every step of the way.",
+    "startTime": 47.870000000000005,
+    "endTime": 54.78,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "All",
+        "startTime": 47.870000000000005,
+        "endTime": 48.24
+      },
+      {
+        "word": "you",
+        "startTime": 48.24,
+        "endTime": 48.58
+      },
+      {
+        "word": "need",
+        "startTime": 48.58,
+        "endTime": 48.94
+      },
+      {
+        "word": "is",
+        "startTime": 48.94,
+        "endTime": 49.44
+      },
+      {
+        "word": "the",
+        "startTime": 49.44,
+        "endTime": 49.64
+      },
+      {
+        "word": "willingness",
+        "startTime": 49.64,
+        "endTime": 50.06
+      },
+      {
+        "word": "to",
+        "startTime": 50.06,
+        "endTime": 50.58
+      },
+      {
+        "word": "learn",
+        "startTime": 50.58,
+        "endTime": 50.96
+      },
+      {
+        "word": "and",
+        "startTime": 50.96,
+        "endTime": 51.72
+      },
+      {
+        "word": "I",
+        "startTime": 51.72,
+        "endTime": 51.9
+      },
+      {
+        "word": "will",
+        "startTime": 51.9,
+        "endTime": 52.06
+      },
+      {
+        "word": "guide",
+        "startTime": 52.06,
+        "endTime": 52.42
+      },
+      {
+        "word": "you",
+        "startTime": 52.42,
+        "endTime": 52.74
+      },
+      {
+        "word": "every",
+        "startTime": 52.74,
+        "endTime": 53.38
+      },
+      {
+        "word": "step",
+        "startTime": 53.38,
+        "endTime": 53.86
+      },
+      {
+        "word": "of",
+        "startTime": 53.86,
+        "endTime": 54.26
+      },
+      {
+        "word": "the",
+        "startTime": 54.26,
+        "endTime": 54.48
+      },
+      {
+        "word": "way.",
+        "startTime": 54.48,
+        "endTime": 54.78
+      }
+    ]
+  },
+  {
+    "text": "I will see you in lesson one.",
+    "startTime": 55.42,
+    "endTime": 57.76,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "I",
+        "startTime": 55.42,
+        "endTime": 56.16
+      },
+      {
+        "word": "will",
+        "startTime": 56.16,
+        "endTime": 56.28
+      },
+      {
+        "word": "see",
+        "startTime": 56.28,
+        "endTime": 56.58
+      },
+      {
+        "word": "you",
+        "startTime": 56.58,
+        "endTime": 56.8
+      },
+      {
+        "word": "in",
+        "startTime": 56.8,
+        "endTime": 56.94
+      },
+      {
+        "word": "lesson",
+        "startTime": 56.94,
+        "endTime": 57.24
+      },
+      {
+        "word": "one.",
+        "startTime": 57.24,
+        "endTime": 57.76
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 58.36,
+    "endTime": 60.46,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 58.36,
+        "endTime": 58.64
+      },
+      {
+        "word": "skills",
+        "startTime": 58.64,
+        "endTime": 59.26
+      },
+      {
+        "word": "bear",
+        "startTime": 59.26,
+        "endTime": 60.02
+      },
+      {
+        "word": "fruit.",
+        "startTime": 60.02,
+        "endTime": 60.46
+      }
+    ]
+  }
+]

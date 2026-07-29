@@ -1,0 +1,618 @@
+[
+  {
+    "text": "Welcome to Introduction.",
+    "startTime": 0,
+    "endTime": 1.86,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "Welcome",
+        "startTime": 0,
+        "endTime": 0.52
+      },
+      {
+        "word": "to",
+        "startTime": 0.52,
+        "endTime": 0.88
+      },
+      {
+        "word": "Introduction.",
+        "startTime": 0.88,
+        "endTime": 1.86
+      }
+    ]
+  },
+  {
+    "text": "Your AI skills are worth more than you think.",
+    "startTime": 2.14,
+    "endTime": 5.82,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 2.14,
+        "endTime": 2.56
+      },
+      {
+        "word": "AI",
+        "startTime": 2.56,
+        "endTime": 3.04
+      },
+      {
+        "word": "skills",
+        "startTime": 3.04,
+        "endTime": 3.64
+      },
+      {
+        "word": "are",
+        "startTime": 3.64,
+        "endTime": 4.12
+      },
+      {
+        "word": "worth",
+        "startTime": 4.12,
+        "endTime": 4.56
+      },
+      {
+        "word": "more",
+        "startTime": 4.56,
+        "endTime": 4.82
+      },
+      {
+        "word": "than",
+        "startTime": 4.82,
+        "endTime": 5.04
+      },
+      {
+        "word": "you",
+        "startTime": 5.04,
+        "endTime": 5.28
+      },
+      {
+        "word": "think.",
+        "startTime": 5.28,
+        "endTime": 5.82
+      }
+    ]
+  },
+  {
+    "text": "I am so glad you are here.",
+    "startTime": 7.1,
+    "endTime": 8.74,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "I",
+        "startTime": 7.1,
+        "endTime": 7.22
+      },
+      {
+        "word": "am",
+        "startTime": 7.22,
+        "endTime": 7.34
+      },
+      {
+        "word": "so",
+        "startTime": 7.34,
+        "endTime": 7.68
+      },
+      {
+        "word": "glad",
+        "startTime": 7.68,
+        "endTime": 8
+      },
+      {
+        "word": "you",
+        "startTime": 8,
+        "endTime": 8.26
+      },
+      {
+        "word": "are",
+        "startTime": 8.26,
+        "endTime": 8.4
+      },
+      {
+        "word": "here.",
+        "startTime": 8.4,
+        "endTime": 8.74
+      }
+    ]
+  },
+  {
+    "text": "A university graduate in Nairobi with strong AI skills can earn more per hour on upwork than a mid -level manager at a Kenyan bank earns per month.",
+    "startTime": 9.38,
+    "endTime": 21.94,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 9.38,
+        "endTime": 9.5
+      },
+      {
+        "word": "university",
+        "startTime": 9.5,
+        "endTime": 10.28
+      },
+      {
+        "word": "graduate",
+        "startTime": 10.28,
+        "endTime": 10.84
+      },
+      {
+        "word": "in",
+        "startTime": 10.84,
+        "endTime": 11.18
+      },
+      {
+        "word": "Nairobi",
+        "startTime": 11.18,
+        "endTime": 11.82
+      },
+      {
+        "word": "with",
+        "startTime": 11.82,
+        "endTime": 12.36
+      },
+      {
+        "word": "strong",
+        "startTime": 12.36,
+        "endTime": 12.76
+      },
+      {
+        "word": "AI",
+        "startTime": 12.76,
+        "endTime": 13.24
+      },
+      {
+        "word": "skills",
+        "startTime": 13.24,
+        "endTime": 14.12
+      },
+      {
+        "word": "can",
+        "startTime": 14.12,
+        "endTime": 14.62
+      },
+      {
+        "word": "earn",
+        "startTime": 14.62,
+        "endTime": 14.94
+      },
+      {
+        "word": "more",
+        "startTime": 14.94,
+        "endTime": 15.3
+      },
+      {
+        "word": "per",
+        "startTime": 15.3,
+        "endTime": 15.64
+      },
+      {
+        "word": "hour",
+        "startTime": 15.64,
+        "endTime": 16.1
+      },
+      {
+        "word": "on",
+        "startTime": 16.1,
+        "endTime": 16.4
+      },
+      {
+        "word": "upwork",
+        "startTime": 16.4,
+        "endTime": 17.04
+      },
+      {
+        "word": "than",
+        "startTime": 17.04,
+        "endTime": 17.66
+      },
+      {
+        "word": "a",
+        "startTime": 17.66,
+        "endTime": 17.84
+      },
+      {
+        "word": "mid",
+        "startTime": 17.84,
+        "endTime": 18.18
+      },
+      {
+        "word": "-level",
+        "startTime": 18.18,
+        "endTime": 18.5
+      },
+      {
+        "word": "manager",
+        "startTime": 18.5,
+        "endTime": 19.18
+      },
+      {
+        "word": "at",
+        "startTime": 19.18,
+        "endTime": 19.74
+      },
+      {
+        "word": "a",
+        "startTime": 19.74,
+        "endTime": 19.88
+      },
+      {
+        "word": "Kenyan",
+        "startTime": 19.88,
+        "endTime": 20.3
+      },
+      {
+        "word": "bank",
+        "startTime": 20.3,
+        "endTime": 20.72
+      },
+      {
+        "word": "earns",
+        "startTime": 20.72,
+        "endTime": 21.28
+      },
+      {
+        "word": "per",
+        "startTime": 21.28,
+        "endTime": 21.54
+      },
+      {
+        "word": "month.",
+        "startTime": 21.54,
+        "endTime": 21.94
+      }
+    ]
+  },
+  {
+    "text": "This is not theoretical.",
+    "startTime": 22.730000000000004,
+    "endTime": 24.18,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "This",
+        "startTime": 22.730000000000004,
+        "endTime": 23.12
+      },
+      {
+        "word": "is",
+        "startTime": 23.12,
+        "endTime": 23.28
+      },
+      {
+        "word": "not",
+        "startTime": 23.28,
+        "endTime": 23.52
+      },
+      {
+        "word": "theoretical.",
+        "startTime": 23.52,
+        "endTime": 24.18
+      }
+    ]
+  },
+  {
+    "text": "It is happening right now.",
+    "startTime": 24.92,
+    "endTime": 27,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "It",
+        "startTime": 24.92,
+        "endTime": 25.04
+      },
+      {
+        "word": "is",
+        "startTime": 25.04,
+        "endTime": 25.26
+      },
+      {
+        "word": "happening",
+        "startTime": 25.26,
+        "endTime": 25.76
+      },
+      {
+        "word": "right",
+        "startTime": 25.76,
+        "endTime": 26.48
+      },
+      {
+        "word": "now.",
+        "startTime": 26.48,
+        "endTime": 27
+      }
+    ]
+  },
+  {
+    "text": "This course shows you exactly how.",
+    "startTime": 27.86,
+    "endTime": 31.24,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "This",
+        "startTime": 27.86,
+        "endTime": 28.18
+      },
+      {
+        "word": "course",
+        "startTime": 28.18,
+        "endTime": 28.7
+      },
+      {
+        "word": "shows",
+        "startTime": 28.7,
+        "endTime": 29.24
+      },
+      {
+        "word": "you",
+        "startTime": 29.24,
+        "endTime": 29.6
+      },
+      {
+        "word": "exactly",
+        "startTime": 29.6,
+        "endTime": 30.52
+      },
+      {
+        "word": "how.",
+        "startTime": 30.52,
+        "endTime": 31.24
+      }
+    ]
+  },
+  {
+    "text": "You do not need to code.",
+    "startTime": 32.48,
+    "endTime": 33.98,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 32.48,
+        "endTime": 32.56
+      },
+      {
+        "word": "do",
+        "startTime": 32.56,
+        "endTime": 32.74
+      },
+      {
+        "word": "not",
+        "startTime": 32.74,
+        "endTime": 32.96
+      },
+      {
+        "word": "need",
+        "startTime": 32.96,
+        "endTime": 33.3
+      },
+      {
+        "word": "to",
+        "startTime": 33.3,
+        "endTime": 33.56
+      },
+      {
+        "word": "code.",
+        "startTime": 33.56,
+        "endTime": 33.98
+      }
+    ]
+  },
+  {
+    "text": "You do not need a technology background.",
+    "startTime": 34.6,
+    "endTime": 37.26,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 34.6,
+        "endTime": 34.7
+      },
+      {
+        "word": "do",
+        "startTime": 34.7,
+        "endTime": 34.88
+      },
+      {
+        "word": "not",
+        "startTime": 34.88,
+        "endTime": 35.14
+      },
+      {
+        "word": "need",
+        "startTime": 35.14,
+        "endTime": 35.56
+      },
+      {
+        "word": "a",
+        "startTime": 35.56,
+        "endTime": 35.86
+      },
+      {
+        "word": "technology",
+        "startTime": 35.86,
+        "endTime": 36.48
+      },
+      {
+        "word": "background.",
+        "startTime": 36.48,
+        "endTime": 37.26
+      }
+    ]
+  },
+  {
+    "text": "All you need is the willingness to learn and I will guide you every step of the way.",
+    "startTime": 38.12,
+    "endTime": 45,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "All",
+        "startTime": 38.12,
+        "endTime": 38.44
+      },
+      {
+        "word": "you",
+        "startTime": 38.44,
+        "endTime": 38.74
+      },
+      {
+        "word": "need",
+        "startTime": 38.74,
+        "endTime": 39.14
+      },
+      {
+        "word": "is",
+        "startTime": 39.14,
+        "endTime": 39.74
+      },
+      {
+        "word": "the",
+        "startTime": 39.74,
+        "endTime": 39.92
+      },
+      {
+        "word": "willingness",
+        "startTime": 39.92,
+        "endTime": 40.38
+      },
+      {
+        "word": "to",
+        "startTime": 40.38,
+        "endTime": 40.84
+      },
+      {
+        "word": "learn",
+        "startTime": 40.84,
+        "endTime": 41.26
+      },
+      {
+        "word": "and",
+        "startTime": 41.26,
+        "endTime": 42.02
+      },
+      {
+        "word": "I",
+        "startTime": 42.02,
+        "endTime": 42.2
+      },
+      {
+        "word": "will",
+        "startTime": 42.2,
+        "endTime": 42.38
+      },
+      {
+        "word": "guide",
+        "startTime": 42.38,
+        "endTime": 42.76
+      },
+      {
+        "word": "you",
+        "startTime": 42.76,
+        "endTime": 43.14
+      },
+      {
+        "word": "every",
+        "startTime": 43.14,
+        "endTime": 43.86
+      },
+      {
+        "word": "step",
+        "startTime": 43.86,
+        "endTime": 44.3
+      },
+      {
+        "word": "of",
+        "startTime": 44.3,
+        "endTime": 44.56
+      },
+      {
+        "word": "the",
+        "startTime": 44.56,
+        "endTime": 44.74
+      },
+      {
+        "word": "way.",
+        "startTime": 44.74,
+        "endTime": 45
+      }
+    ]
+  },
+  {
+    "text": "I will see you in lesson one.",
+    "startTime": 45.78,
+    "endTime": 48.3,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "I",
+        "startTime": 45.78,
+        "endTime": 46.3
+      },
+      {
+        "word": "will",
+        "startTime": 46.3,
+        "endTime": 46.46
+      },
+      {
+        "word": "see",
+        "startTime": 46.46,
+        "endTime": 46.78
+      },
+      {
+        "word": "you",
+        "startTime": 46.78,
+        "endTime": 47.06
+      },
+      {
+        "word": "in",
+        "startTime": 47.06,
+        "endTime": 47.36
+      },
+      {
+        "word": "lesson",
+        "startTime": 47.36,
+        "endTime": 47.72
+      },
+      {
+        "word": "one.",
+        "startTime": 47.72,
+        "endTime": 48.3
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 49.04,
+    "endTime": 51.48,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 49.04,
+        "endTime": 49.32
+      },
+      {
+        "word": "skills",
+        "startTime": 49.32,
+        "endTime": 50.12
+      },
+      {
+        "word": "bear",
+        "startTime": 50.12,
+        "endTime": 50.7
+      },
+      {
+        "word": "fruit.",
+        "startTime": 50.7,
+        "endTime": 51.48
+      }
+    ]
+  }
+]

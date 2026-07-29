@@ -1,0 +1,1161 @@
+[
+  {
+    "text": "A financial analyst spent 45 minutes reformatting an AI -generated report before it was usable.",
+    "startTime": 0,
+    "endTime": 6.4,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 0,
+        "endTime": 0.24
+      },
+      {
+        "word": "financial",
+        "startTime": 0.24,
+        "endTime": 0.68
+      },
+      {
+        "word": "analyst",
+        "startTime": 0.68,
+        "endTime": 1.22
+      },
+      {
+        "word": "spent",
+        "startTime": 1.22,
+        "endTime": 1.58
+      },
+      {
+        "word": "45",
+        "startTime": 1.58,
+        "endTime": 2.16
+      },
+      {
+        "word": "minutes",
+        "startTime": 2.16,
+        "endTime": 2.58
+      },
+      {
+        "word": "reformatting",
+        "startTime": 2.58,
+        "endTime": 3.38
+      },
+      {
+        "word": "an",
+        "startTime": 3.38,
+        "endTime": 3.58
+      },
+      {
+        "word": "AI",
+        "startTime": 3.58,
+        "endTime": 3.82
+      },
+      {
+        "word": "-generated",
+        "startTime": 3.82,
+        "endTime": 4.44
+      },
+      {
+        "word": "report",
+        "startTime": 4.44,
+        "endTime": 4.86
+      },
+      {
+        "word": "before",
+        "startTime": 4.86,
+        "endTime": 5.66
+      },
+      {
+        "word": "it",
+        "startTime": 5.66,
+        "endTime": 5.88
+      },
+      {
+        "word": "was",
+        "startTime": 5.88,
+        "endTime": 6
+      },
+      {
+        "word": "usable.",
+        "startTime": 6,
+        "endTime": 6.4
+      }
+    ]
+  },
+  {
+    "text": "She had not specified the output format.",
+    "startTime": 7.1,
+    "endTime": 9.34,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "She",
+        "startTime": 7.1,
+        "endTime": 7.38
+      },
+      {
+        "word": "had",
+        "startTime": 7.38,
+        "endTime": 7.52
+      },
+      {
+        "word": "not",
+        "startTime": 7.52,
+        "endTime": 7.68
+      },
+      {
+        "word": "specified",
+        "startTime": 7.68,
+        "endTime": 8.24
+      },
+      {
+        "word": "the",
+        "startTime": 8.24,
+        "endTime": 8.5
+      },
+      {
+        "word": "output",
+        "startTime": 8.5,
+        "endTime": 8.86
+      },
+      {
+        "word": "format.",
+        "startTime": 8.86,
+        "endTime": 9.34
+      }
+    ]
+  },
+  {
+    "text": "After adding one format specification to her prompt, she never reformatted an AI output again.",
+    "startTime": 9.94,
+    "endTime": 15.56,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "After",
+        "startTime": 9.94,
+        "endTime": 10.24
+      },
+      {
+        "word": "adding",
+        "startTime": 10.24,
+        "endTime": 10.52
+      },
+      {
+        "word": "one",
+        "startTime": 10.52,
+        "endTime": 10.8
+      },
+      {
+        "word": "format",
+        "startTime": 10.8,
+        "endTime": 11.18
+      },
+      {
+        "word": "specification",
+        "startTime": 11.18,
+        "endTime": 11.76
+      },
+      {
+        "word": "to",
+        "startTime": 11.76,
+        "endTime": 12.18
+      },
+      {
+        "word": "her",
+        "startTime": 12.18,
+        "endTime": 12.32
+      },
+      {
+        "word": "prompt,",
+        "startTime": 12.32,
+        "endTime": 12.68
+      },
+      {
+        "word": "she",
+        "startTime": 13.28,
+        "endTime": 13.36
+      },
+      {
+        "word": "never",
+        "startTime": 13.36,
+        "endTime": 13.66
+      },
+      {
+        "word": "reformatted",
+        "startTime": 13.66,
+        "endTime": 14.34
+      },
+      {
+        "word": "an",
+        "startTime": 14.34,
+        "endTime": 14.54
+      },
+      {
+        "word": "AI",
+        "startTime": 14.54,
+        "endTime": 14.76
+      },
+      {
+        "word": "output",
+        "startTime": 14.76,
+        "endTime": 15.18
+      },
+      {
+        "word": "again.",
+        "startTime": 15.18,
+        "endTime": 15.56
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, the five output formats professionals use and exactly how to specify each one so the response is immediately usable without any restructuring.",
+    "startTime": 16.14,
+    "endTime": 26.84,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 16.14,
+        "endTime": 16.34
+      },
+      {
+        "word": "this",
+        "startTime": 16.34,
+        "endTime": 16.52
+      },
+      {
+        "word": "lesson,",
+        "startTime": 16.52,
+        "endTime": 16.9
+      },
+      {
+        "word": "the",
+        "startTime": 17.4,
+        "endTime": 17.52
+      },
+      {
+        "word": "five",
+        "startTime": 17.52,
+        "endTime": 17.86
+      },
+      {
+        "word": "output",
+        "startTime": 17.86,
+        "endTime": 18.3
+      },
+      {
+        "word": "formats",
+        "startTime": 18.3,
+        "endTime": 18.76
+      },
+      {
+        "word": "professionals",
+        "startTime": 18.76,
+        "endTime": 19.34
+      },
+      {
+        "word": "use",
+        "startTime": 19.34,
+        "endTime": 19.88
+      },
+      {
+        "word": "and",
+        "startTime": 19.88,
+        "endTime": 20.42
+      },
+      {
+        "word": "exactly",
+        "startTime": 20.42,
+        "endTime": 20.9
+      },
+      {
+        "word": "how",
+        "startTime": 20.9,
+        "endTime": 21.16
+      },
+      {
+        "word": "to",
+        "startTime": 21.16,
+        "endTime": 21.34
+      },
+      {
+        "word": "specify",
+        "startTime": 21.34,
+        "endTime": 21.8
+      },
+      {
+        "word": "each",
+        "startTime": 21.8,
+        "endTime": 22.2
+      },
+      {
+        "word": "one",
+        "startTime": 22.2,
+        "endTime": 22.5
+      },
+      {
+        "word": "so",
+        "startTime": 22.5,
+        "endTime": 23.08
+      },
+      {
+        "word": "the",
+        "startTime": 23.08,
+        "endTime": 23.24
+      },
+      {
+        "word": "response",
+        "startTime": 23.24,
+        "endTime": 23.58
+      },
+      {
+        "word": "is",
+        "startTime": 23.58,
+        "endTime": 23.9
+      },
+      {
+        "word": "immediately",
+        "startTime": 23.9,
+        "endTime": 24.32
+      },
+      {
+        "word": "usable",
+        "startTime": 24.32,
+        "endTime": 24.98
+      },
+      {
+        "word": "without",
+        "startTime": 24.98,
+        "endTime": 25.7
+      },
+      {
+        "word": "any",
+        "startTime": 25.7,
+        "endTime": 26.06
+      },
+      {
+        "word": "restructuring.",
+        "startTime": 26.06,
+        "endTime": 26.84
+      }
+    ]
+  },
+  {
+    "text": "Output format specification is the most consistently underused component of professional prompts.",
+    "startTime": 27.9,
+    "endTime": 33.62,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Output",
+        "startTime": 27.9,
+        "endTime": 28.36
+      },
+      {
+        "word": "format",
+        "startTime": 28.36,
+        "endTime": 28.72
+      },
+      {
+        "word": "specification",
+        "startTime": 28.72,
+        "endTime": 29.34
+      },
+      {
+        "word": "is",
+        "startTime": 29.34,
+        "endTime": 29.86
+      },
+      {
+        "word": "the",
+        "startTime": 29.86,
+        "endTime": 30
+      },
+      {
+        "word": "most",
+        "startTime": 30,
+        "endTime": 30.26
+      },
+      {
+        "word": "consistently",
+        "startTime": 30.26,
+        "endTime": 31.1
+      },
+      {
+        "word": "underused",
+        "startTime": 31.1,
+        "endTime": 31.84
+      },
+      {
+        "word": "component",
+        "startTime": 31.84,
+        "endTime": 32.38
+      },
+      {
+        "word": "of",
+        "startTime": 32.38,
+        "endTime": 32.66
+      },
+      {
+        "word": "professional",
+        "startTime": 32.66,
+        "endTime": 33.14
+      },
+      {
+        "word": "prompts.",
+        "startTime": 33.14,
+        "endTime": 33.62
+      }
+    ]
+  },
+  {
+    "text": "When you do not specify format, AI makes its own structural decisions, which may produce paragraphs when you needed a table or bullets when you needed pros.",
+    "startTime": 34.24,
+    "endTime": 44.5,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "When",
+        "startTime": 34.24,
+        "endTime": 34.46
+      },
+      {
+        "word": "you",
+        "startTime": 34.46,
+        "endTime": 34.6
+      },
+      {
+        "word": "do",
+        "startTime": 34.6,
+        "endTime": 34.7
+      },
+      {
+        "word": "not",
+        "startTime": 34.7,
+        "endTime": 34.88
+      },
+      {
+        "word": "specify",
+        "startTime": 34.88,
+        "endTime": 35.38
+      },
+      {
+        "word": "format,",
+        "startTime": 35.38,
+        "endTime": 35.92
+      },
+      {
+        "word": "AI",
+        "startTime": 36.6,
+        "endTime": 36.74
+      },
+      {
+        "word": "makes",
+        "startTime": 36.74,
+        "endTime": 37.14
+      },
+      {
+        "word": "its",
+        "startTime": 37.14,
+        "endTime": 37.4
+      },
+      {
+        "word": "own",
+        "startTime": 37.4,
+        "endTime": 37.66
+      },
+      {
+        "word": "structural",
+        "startTime": 37.66,
+        "endTime": 38.2
+      },
+      {
+        "word": "decisions,",
+        "startTime": 38.2,
+        "endTime": 38.88
+      },
+      {
+        "word": "which",
+        "startTime": 39.26,
+        "endTime": 39.54
+      },
+      {
+        "word": "may",
+        "startTime": 39.54,
+        "endTime": 39.74
+      },
+      {
+        "word": "produce",
+        "startTime": 39.74,
+        "endTime": 40.16
+      },
+      {
+        "word": "paragraphs",
+        "startTime": 40.16,
+        "endTime": 40.7
+      },
+      {
+        "word": "when",
+        "startTime": 40.7,
+        "endTime": 41.34
+      },
+      {
+        "word": "you",
+        "startTime": 41.34,
+        "endTime": 41.48
+      },
+      {
+        "word": "needed",
+        "startTime": 41.48,
+        "endTime": 41.74
+      },
+      {
+        "word": "a",
+        "startTime": 41.74,
+        "endTime": 41.92
+      },
+      {
+        "word": "table",
+        "startTime": 41.92,
+        "endTime": 42.3
+      },
+      {
+        "word": "or",
+        "startTime": 42.3,
+        "endTime": 42.98
+      },
+      {
+        "word": "bullets",
+        "startTime": 42.98,
+        "endTime": 43.32
+      },
+      {
+        "word": "when",
+        "startTime": 43.32,
+        "endTime": 43.8
+      },
+      {
+        "word": "you",
+        "startTime": 43.8,
+        "endTime": 43.92
+      },
+      {
+        "word": "needed",
+        "startTime": 43.92,
+        "endTime": 44.2
+      },
+      {
+        "word": "pros.",
+        "startTime": 44.2,
+        "endTime": 44.5
+      }
+    ]
+  },
+  {
+    "text": "Specifying format does not constrain the AI's thinking.",
+    "startTime": 45.44,
+    "endTime": 48.58,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Specifying",
+        "startTime": 45.44,
+        "endTime": 46.04
+      },
+      {
+        "word": "format",
+        "startTime": 46.04,
+        "endTime": 46.56
+      },
+      {
+        "word": "does",
+        "startTime": 46.56,
+        "endTime": 46.78
+      },
+      {
+        "word": "not",
+        "startTime": 46.78,
+        "endTime": 46.98
+      },
+      {
+        "word": "constrain",
+        "startTime": 46.98,
+        "endTime": 47.54
+      },
+      {
+        "word": "the",
+        "startTime": 47.54,
+        "endTime": 47.76
+      },
+      {
+        "word": "AI's",
+        "startTime": 47.76,
+        "endTime": 48.28
+      },
+      {
+        "word": "thinking.",
+        "startTime": 48.28,
+        "endTime": 48.58
+      }
+    ]
+  },
+  {
+    "text": "The five formats and when to use them.",
+    "startTime": 49.36,
+    "endTime": 51.38,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 49.36,
+        "endTime": 49.54
+      },
+      {
+        "word": "five",
+        "startTime": 49.54,
+        "endTime": 49.82
+      },
+      {
+        "word": "formats",
+        "startTime": 49.82,
+        "endTime": 50.28
+      },
+      {
+        "word": "and",
+        "startTime": 50.28,
+        "endTime": 50.6
+      },
+      {
+        "word": "when",
+        "startTime": 50.6,
+        "endTime": 50.76
+      },
+      {
+        "word": "to",
+        "startTime": 50.76,
+        "endTime": 50.94
+      },
+      {
+        "word": "use",
+        "startTime": 50.94,
+        "endTime": 51.18
+      },
+      {
+        "word": "them.",
+        "startTime": 51.18,
+        "endTime": 51.38
+      }
+    ]
+  },
+  {
+    "text": "Pros for narrative reports and communications.",
+    "startTime": 52.22,
+    "endTime": 54.64,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Pros",
+        "startTime": 52.22,
+        "endTime": 52.6
+      },
+      {
+        "word": "for",
+        "startTime": 52.6,
+        "endTime": 52.92
+      },
+      {
+        "word": "narrative",
+        "startTime": 52.92,
+        "endTime": 53.2
+      },
+      {
+        "word": "reports",
+        "startTime": 53.2,
+        "endTime": 53.68
+      },
+      {
+        "word": "and",
+        "startTime": 53.68,
+        "endTime": 53.94
+      },
+      {
+        "word": "communications.",
+        "startTime": 53.94,
+        "endTime": 54.64
+      }
+    ]
+  },
+  {
+    "text": "Bulleted lists for recommendations, actions and requirements.",
+    "startTime": 55.46,
+    "endTime": 58.9,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Bulleted",
+        "startTime": 55.46,
+        "endTime": 55.98
+      },
+      {
+        "word": "lists",
+        "startTime": 55.98,
+        "endTime": 56.26
+      },
+      {
+        "word": "for",
+        "startTime": 56.26,
+        "endTime": 56.64
+      },
+      {
+        "word": "recommendations,",
+        "startTime": 56.64,
+        "endTime": 57.16
+      },
+      {
+        "word": "actions",
+        "startTime": 57.72,
+        "endTime": 57.96
+      },
+      {
+        "word": "and",
+        "startTime": 57.96,
+        "endTime": 58.32
+      },
+      {
+        "word": "requirements.",
+        "startTime": 58.32,
+        "endTime": 58.9
+      }
+    ]
+  },
+  {
+    "text": "Tables for comparisons and structured data.",
+    "startTime": 59.92,
+    "endTime": 62.36,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Tables",
+        "startTime": 59.92,
+        "endTime": 60.28
+      },
+      {
+        "word": "for",
+        "startTime": 60.28,
+        "endTime": 60.56
+      },
+      {
+        "word": "comparisons",
+        "startTime": 60.56,
+        "endTime": 61.14
+      },
+      {
+        "word": "and",
+        "startTime": 61.14,
+        "endTime": 61.46
+      },
+      {
+        "word": "structured",
+        "startTime": 61.46,
+        "endTime": 61.84
+      },
+      {
+        "word": "data.",
+        "startTime": 61.84,
+        "endTime": 62.36
+      }
+    ]
+  },
+  {
+    "text": "JSON for content that will be processed programmatically.",
+    "startTime": 63.18,
+    "endTime": 66.22,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "JSON",
+        "startTime": 63.18,
+        "endTime": 63.82
+      },
+      {
+        "word": "for",
+        "startTime": 63.82,
+        "endTime": 63.98
+      },
+      {
+        "word": "content",
+        "startTime": 63.98,
+        "endTime": 64.36
+      },
+      {
+        "word": "that",
+        "startTime": 64.36,
+        "endTime": 64.56
+      },
+      {
+        "word": "will",
+        "startTime": 64.56,
+        "endTime": 64.68
+      },
+      {
+        "word": "be",
+        "startTime": 64.68,
+        "endTime": 64.8
+      },
+      {
+        "word": "processed",
+        "startTime": 64.8,
+        "endTime": 65.22
+      },
+      {
+        "word": "programmatically.",
+        "startTime": 65.22,
+        "endTime": 66.22
+      }
+    ]
+  },
+  {
+    "text": "Structured documents with headings for formal reports, proposals and briefings.",
+    "startTime": 66.88,
+    "endTime": 71.48,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Structured",
+        "startTime": 66.88,
+        "endTime": 67.36
+      },
+      {
+        "word": "documents",
+        "startTime": 67.36,
+        "endTime": 67.84
+      },
+      {
+        "word": "with",
+        "startTime": 67.84,
+        "endTime": 68.16
+      },
+      {
+        "word": "headings",
+        "startTime": 68.16,
+        "endTime": 68.54
+      },
+      {
+        "word": "for",
+        "startTime": 68.54,
+        "endTime": 68.72
+      },
+      {
+        "word": "formal",
+        "startTime": 68.72,
+        "endTime": 69.04
+      },
+      {
+        "word": "reports,",
+        "startTime": 69.04,
+        "endTime": 69.48
+      },
+      {
+        "word": "proposals",
+        "startTime": 70.1,
+        "endTime": 70.5
+      },
+      {
+        "word": "and",
+        "startTime": 70.5,
+        "endTime": 70.86
+      },
+      {
+        "word": "briefings.",
+        "startTime": 70.86,
+        "endTime": 71.48
+      }
+    ]
+  },
+  {
+    "text": "Remember this.",
+    "startTime": 72.06,
+    "endTime": 72.82,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Remember",
+        "startTime": 72.06,
+        "endTime": 72.44
+      },
+      {
+        "word": "this.",
+        "startTime": 72.44,
+        "endTime": 72.82
+      }
+    ]
+  },
+  {
+    "text": "Always specify the output format before you need to reformat the output.",
+    "startTime": 73.36,
+    "endTime": 77.44,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Always",
+        "startTime": 73.36,
+        "endTime": 73.82
+      },
+      {
+        "word": "specify",
+        "startTime": 73.82,
+        "endTime": 74.36
+      },
+      {
+        "word": "the",
+        "startTime": 74.36,
+        "endTime": 74.66
+      },
+      {
+        "word": "output",
+        "startTime": 74.66,
+        "endTime": 75
+      },
+      {
+        "word": "format",
+        "startTime": 75,
+        "endTime": 75.44
+      },
+      {
+        "word": "before",
+        "startTime": 75.44,
+        "endTime": 75.8
+      },
+      {
+        "word": "you",
+        "startTime": 75.8,
+        "endTime": 76.02
+      },
+      {
+        "word": "need",
+        "startTime": 76.02,
+        "endTime": 76.18
+      },
+      {
+        "word": "to",
+        "startTime": 76.18,
+        "endTime": 76.34
+      },
+      {
+        "word": "reformat",
+        "startTime": 76.34,
+        "endTime": 76.96
+      },
+      {
+        "word": "the",
+        "startTime": 76.96,
+        "endTime": 77.08
+      },
+      {
+        "word": "output.",
+        "startTime": 77.08,
+        "endTime": 77.44
+      }
+    ]
+  },
+  {
+    "text": "If you have ever copy -pasted AI output into a different structure, you missed the output format component.",
+    "startTime": 78.07,
+    "endTime": 84.16,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "If",
+        "startTime": 78.07,
+        "endTime": 78.38
+      },
+      {
+        "word": "you",
+        "startTime": 78.38,
+        "endTime": 78.52
+      },
+      {
+        "word": "have",
+        "startTime": 78.52,
+        "endTime": 78.64
+      },
+      {
+        "word": "ever",
+        "startTime": 78.64,
+        "endTime": 78.92
+      },
+      {
+        "word": "copy",
+        "startTime": 78.92,
+        "endTime": 79.22
+      },
+      {
+        "word": "-pasted",
+        "startTime": 79.22,
+        "endTime": 79.66
+      },
+      {
+        "word": "AI",
+        "startTime": 79.66,
+        "endTime": 79.98
+      },
+      {
+        "word": "output",
+        "startTime": 79.98,
+        "endTime": 80.5
+      },
+      {
+        "word": "into",
+        "startTime": 80.5,
+        "endTime": 80.8
+      },
+      {
+        "word": "a",
+        "startTime": 80.8,
+        "endTime": 80.94
+      },
+      {
+        "word": "different",
+        "startTime": 80.94,
+        "endTime": 81.18
+      },
+      {
+        "word": "structure,",
+        "startTime": 81.18,
+        "endTime": 81.72
+      },
+      {
+        "word": "you",
+        "startTime": 82.32,
+        "endTime": 82.4
+      },
+      {
+        "word": "missed",
+        "startTime": 82.4,
+        "endTime": 82.72
+      },
+      {
+        "word": "the",
+        "startTime": 82.72,
+        "endTime": 82.9
+      },
+      {
+        "word": "output",
+        "startTime": 82.9,
+        "endTime": 83.22
+      },
+      {
+        "word": "format",
+        "startTime": 83.22,
+        "endTime": 83.62
+      },
+      {
+        "word": "component.",
+        "startTime": 83.62,
+        "endTime": 84.16
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 85.04,
+    "endTime": 88.84,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 85.04,
+        "endTime": 85.46
+      },
+      {
+        "word": "what",
+        "startTime": 85.46,
+        "endTime": 85.68
+      },
+      {
+        "word": "you",
+        "startTime": 85.68,
+        "endTime": 85.82
+      },
+      {
+        "word": "learn",
+        "startTime": 85.82,
+        "endTime": 86.06
+      },
+      {
+        "word": "in",
+        "startTime": 86.06,
+        "endTime": 86.2
+      },
+      {
+        "word": "this",
+        "startTime": 86.2,
+        "endTime": 86.42
+      },
+      {
+        "word": "lesson",
+        "startTime": 86.42,
+        "endTime": 86.78
+      },
+      {
+        "word": "and",
+        "startTime": 86.78,
+        "endTime": 87.3
+      },
+      {
+        "word": "you",
+        "startTime": 87.3,
+        "endTime": 87.44
+      },
+      {
+        "word": "will",
+        "startTime": 87.44,
+        "endTime": 87.54
+      },
+      {
+        "word": "see",
+        "startTime": 87.54,
+        "endTime": 87.76
+      },
+      {
+        "word": "results",
+        "startTime": 87.76,
+        "endTime": 88.14
+      },
+      {
+        "word": "immediately.",
+        "startTime": 88.14,
+        "endTime": 88.84
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 89.46,
+    "endTime": 90.72,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 89.46,
+        "endTime": 89.74
+      },
+      {
+        "word": "skills",
+        "startTime": 89.74,
+        "endTime": 90.14
+      },
+      {
+        "word": "bear",
+        "startTime": 90.14,
+        "endTime": 90.4
+      },
+      {
+        "word": "fruit.",
+        "startTime": 90.4,
+        "endTime": 90.72
+      }
+    ]
+  }
+]

@@ -1,0 +1,481 @@
+[
+  {
+    "text": "The people who get the most from AI are not the ones with the best individual prompts.",
+    "startTime": 0,
+    "endTime": 4.78,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 0,
+        "endTime": 0.2
+      },
+      {
+        "word": "people",
+        "startTime": 0.2,
+        "endTime": 0.48
+      },
+      {
+        "word": "who",
+        "startTime": 0.48,
+        "endTime": 0.68
+      },
+      {
+        "word": "get",
+        "startTime": 0.68,
+        "endTime": 0.82
+      },
+      {
+        "word": "the",
+        "startTime": 0.82,
+        "endTime": 1
+      },
+      {
+        "word": "most",
+        "startTime": 1,
+        "endTime": 1.22
+      },
+      {
+        "word": "from",
+        "startTime": 1.22,
+        "endTime": 1.54
+      },
+      {
+        "word": "AI",
+        "startTime": 1.54,
+        "endTime": 1.86
+      },
+      {
+        "word": "are",
+        "startTime": 1.86,
+        "endTime": 2.52
+      },
+      {
+        "word": "not",
+        "startTime": 2.52,
+        "endTime": 2.7
+      },
+      {
+        "word": "the",
+        "startTime": 2.7,
+        "endTime": 2.9
+      },
+      {
+        "word": "ones",
+        "startTime": 2.9,
+        "endTime": 3.1
+      },
+      {
+        "word": "with",
+        "startTime": 3.1,
+        "endTime": 3.38
+      },
+      {
+        "word": "the",
+        "startTime": 3.38,
+        "endTime": 3.52
+      },
+      {
+        "word": "best",
+        "startTime": 3.52,
+        "endTime": 3.78
+      },
+      {
+        "word": "individual",
+        "startTime": 3.78,
+        "endTime": 4.3
+      },
+      {
+        "word": "prompts.",
+        "startTime": 4.3,
+        "endTime": 4.78
+      }
+    ]
+  },
+  {
+    "text": "They are the ones with the best systems.",
+    "startTime": 5.36,
+    "endTime": 7.24,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "They",
+        "startTime": 5.36,
+        "endTime": 5.58
+      },
+      {
+        "word": "are",
+        "startTime": 5.58,
+        "endTime": 5.66
+      },
+      {
+        "word": "the",
+        "startTime": 5.66,
+        "endTime": 5.76
+      },
+      {
+        "word": "ones",
+        "startTime": 5.76,
+        "endTime": 5.96
+      },
+      {
+        "word": "with",
+        "startTime": 5.96,
+        "endTime": 6.2
+      },
+      {
+        "word": "the",
+        "startTime": 6.2,
+        "endTime": 6.32
+      },
+      {
+        "word": "best",
+        "startTime": 6.32,
+        "endTime": 6.52
+      },
+      {
+        "word": "systems.",
+        "startTime": 6.52,
+        "endTime": 7.24
+      }
+    ]
+  },
+  {
+    "text": "A workflow is a system.",
+    "startTime": 7.98,
+    "endTime": 9.3,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 7.98,
+        "endTime": 8.1
+      },
+      {
+        "word": "workflow",
+        "startTime": 8.1,
+        "endTime": 8.36
+      },
+      {
+        "word": "is",
+        "startTime": 8.36,
+        "endTime": 8.8
+      },
+      {
+        "word": "a",
+        "startTime": 8.8,
+        "endTime": 8.88
+      },
+      {
+        "word": "system.",
+        "startTime": 8.88,
+        "endTime": 9.3
+      }
+    ]
+  },
+  {
+    "text": "A system produces consistent results.",
+    "startTime": 9.82,
+    "endTime": 11.96,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 9.82,
+        "endTime": 10.02
+      },
+      {
+        "word": "system",
+        "startTime": 10.02,
+        "endTime": 10.32
+      },
+      {
+        "word": "produces",
+        "startTime": 10.32,
+        "endTime": 10.84
+      },
+      {
+        "word": "consistent",
+        "startTime": 10.84,
+        "endTime": 11.48
+      },
+      {
+        "word": "results.",
+        "startTime": 11.48,
+        "endTime": 11.96
+      }
+    ]
+  },
+  {
+    "text": "This lesson is where you build your first one.",
+    "startTime": 12.78,
+    "endTime": 14.84,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "This",
+        "startTime": 12.78,
+        "endTime": 12.98
+      },
+      {
+        "word": "lesson",
+        "startTime": 12.98,
+        "endTime": 13.32
+      },
+      {
+        "word": "is",
+        "startTime": 13.32,
+        "endTime": 13.5
+      },
+      {
+        "word": "where",
+        "startTime": 13.5,
+        "endTime": 13.7
+      },
+      {
+        "word": "you",
+        "startTime": 13.7,
+        "endTime": 13.84
+      },
+      {
+        "word": "build",
+        "startTime": 13.84,
+        "endTime": 14.04
+      },
+      {
+        "word": "your",
+        "startTime": 14.04,
+        "endTime": 14.26
+      },
+      {
+        "word": "first",
+        "startTime": 14.26,
+        "endTime": 14.58
+      },
+      {
+        "word": "one.",
+        "startTime": 14.58,
+        "endTime": 14.84
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, build a complete reusable AI workflow using the three -part structure that professional AI practitioners use every single day.",
+    "startTime": 15.44,
+    "endTime": 24.48,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 15.44,
+        "endTime": 15.6
+      },
+      {
+        "word": "this",
+        "startTime": 15.6,
+        "endTime": 15.8
+      },
+      {
+        "word": "lesson,",
+        "startTime": 15.8,
+        "endTime": 16.22
+      },
+      {
+        "word": "build",
+        "startTime": 16.7,
+        "endTime": 17
+      },
+      {
+        "word": "a",
+        "startTime": 17,
+        "endTime": 17.12
+      },
+      {
+        "word": "complete",
+        "startTime": 17.12,
+        "endTime": 17.52
+      },
+      {
+        "word": "reusable",
+        "startTime": 17.52,
+        "endTime": 18.26
+      },
+      {
+        "word": "AI",
+        "startTime": 18.26,
+        "endTime": 18.66
+      },
+      {
+        "word": "workflow",
+        "startTime": 18.66,
+        "endTime": 19.3
+      },
+      {
+        "word": "using",
+        "startTime": 19.3,
+        "endTime": 20.02
+      },
+      {
+        "word": "the",
+        "startTime": 20.02,
+        "endTime": 20.26
+      },
+      {
+        "word": "three",
+        "startTime": 20.26,
+        "endTime": 20.52
+      },
+      {
+        "word": "-part",
+        "startTime": 20.52,
+        "endTime": 20.8
+      },
+      {
+        "word": "structure",
+        "startTime": 20.8,
+        "endTime": 21.3
+      },
+      {
+        "word": "that",
+        "startTime": 21.3,
+        "endTime": 21.48
+      },
+      {
+        "word": "professional",
+        "startTime": 21.48,
+        "endTime": 22
+      },
+      {
+        "word": "AI",
+        "startTime": 22,
+        "endTime": 22.34
+      },
+      {
+        "word": "practitioners",
+        "startTime": 22.34,
+        "endTime": 22.94
+      },
+      {
+        "word": "use",
+        "startTime": 22.94,
+        "endTime": 23.32
+      },
+      {
+        "word": "every",
+        "startTime": 23.32,
+        "endTime": 23.8
+      },
+      {
+        "word": "single",
+        "startTime": 23.8,
+        "endTime": 24.16
+      },
+      {
+        "word": "day.",
+        "startTime": 24.16,
+        "endTime": 24.48
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 25.240000000000002,
+    "endTime": 29.2,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 25.240000000000002,
+        "endTime": 25.76
+      },
+      {
+        "word": "what",
+        "startTime": 25.76,
+        "endTime": 26.02
+      },
+      {
+        "word": "you",
+        "startTime": 26.02,
+        "endTime": 26.16
+      },
+      {
+        "word": "learn",
+        "startTime": 26.16,
+        "endTime": 26.38
+      },
+      {
+        "word": "in",
+        "startTime": 26.38,
+        "endTime": 26.52
+      },
+      {
+        "word": "this",
+        "startTime": 26.52,
+        "endTime": 26.72
+      },
+      {
+        "word": "lesson",
+        "startTime": 26.72,
+        "endTime": 27.08
+      },
+      {
+        "word": "and",
+        "startTime": 27.08,
+        "endTime": 27.66
+      },
+      {
+        "word": "you",
+        "startTime": 27.66,
+        "endTime": 27.8
+      },
+      {
+        "word": "will",
+        "startTime": 27.8,
+        "endTime": 27.92
+      },
+      {
+        "word": "see",
+        "startTime": 27.92,
+        "endTime": 28.12
+      },
+      {
+        "word": "results",
+        "startTime": 28.12,
+        "endTime": 28.48
+      },
+      {
+        "word": "immediately.",
+        "startTime": 28.48,
+        "endTime": 29.2
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 29.7,
+    "endTime": 31,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 29.7,
+        "endTime": 29.98
+      },
+      {
+        "word": "skills",
+        "startTime": 29.98,
+        "endTime": 30.38
+      },
+      {
+        "word": "bear",
+        "startTime": 30.38,
+        "endTime": 30.64
+      },
+      {
+        "word": "fruit.",
+        "startTime": 30.64,
+        "endTime": 31
+      }
+    ]
+  }
+]

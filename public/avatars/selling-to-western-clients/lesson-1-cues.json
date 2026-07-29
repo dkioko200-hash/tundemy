@@ -1,0 +1,2837 @@
+[
+  {
+    "text": "Western clients approach AI vendors differently from how Kenyan SMS approach them.",
+    "startTime": 0,
+    "endTime": 5.48,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "Western",
+        "startTime": 0,
+        "endTime": 0.44
+      },
+      {
+        "word": "clients",
+        "startTime": 0.44,
+        "endTime": 0.9
+      },
+      {
+        "word": "approach",
+        "startTime": 0.9,
+        "endTime": 1.5
+      },
+      {
+        "word": "AI",
+        "startTime": 1.5,
+        "endTime": 1.8
+      },
+      {
+        "word": "vendors",
+        "startTime": 1.8,
+        "endTime": 2.22
+      },
+      {
+        "word": "differently",
+        "startTime": 2.22,
+        "endTime": 2.74
+      },
+      {
+        "word": "from",
+        "startTime": 2.74,
+        "endTime": 3.18
+      },
+      {
+        "word": "how",
+        "startTime": 3.18,
+        "endTime": 3.42
+      },
+      {
+        "word": "Kenyan",
+        "startTime": 3.42,
+        "endTime": 3.86
+      },
+      {
+        "word": "SMS",
+        "startTime": 3.86,
+        "endTime": 4.7
+      },
+      {
+        "word": "approach",
+        "startTime": 4.7,
+        "endTime": 5.1
+      },
+      {
+        "word": "them.",
+        "startTime": 5.1,
+        "endTime": 5.48
+      }
+    ]
+  },
+  {
+    "text": "They have larger budgets, higher standards and deeper fear of wasted money, understanding their psychology is the first step to closing them.",
+    "startTime": 5.92,
+    "endTime": 14.52,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "They",
+        "startTime": 5.92,
+        "endTime": 6.16
+      },
+      {
+        "word": "have",
+        "startTime": 6.16,
+        "endTime": 6.34
+      },
+      {
+        "word": "larger",
+        "startTime": 6.34,
+        "endTime": 6.72
+      },
+      {
+        "word": "budgets,",
+        "startTime": 6.72,
+        "endTime": 7.2
+      },
+      {
+        "word": "higher",
+        "startTime": 7.6,
+        "endTime": 7.8
+      },
+      {
+        "word": "standards",
+        "startTime": 7.8,
+        "endTime": 8.34
+      },
+      {
+        "word": "and",
+        "startTime": 8.34,
+        "endTime": 8.76
+      },
+      {
+        "word": "deeper",
+        "startTime": 8.76,
+        "endTime": 9.16
+      },
+      {
+        "word": "fear",
+        "startTime": 9.16,
+        "endTime": 9.46
+      },
+      {
+        "word": "of",
+        "startTime": 9.46,
+        "endTime": 9.7
+      },
+      {
+        "word": "wasted",
+        "startTime": 9.7,
+        "endTime": 10.08
+      },
+      {
+        "word": "money,",
+        "startTime": 10.08,
+        "endTime": 10.54
+      },
+      {
+        "word": "understanding",
+        "startTime": 11.1,
+        "endTime": 11.68
+      },
+      {
+        "word": "their",
+        "startTime": 11.68,
+        "endTime": 12
+      },
+      {
+        "word": "psychology",
+        "startTime": 12,
+        "endTime": 12.72
+      },
+      {
+        "word": "is",
+        "startTime": 12.72,
+        "endTime": 12.98
+      },
+      {
+        "word": "the",
+        "startTime": 12.98,
+        "endTime": 13.1
+      },
+      {
+        "word": "first",
+        "startTime": 13.1,
+        "endTime": 13.38
+      },
+      {
+        "word": "step",
+        "startTime": 13.38,
+        "endTime": 13.62
+      },
+      {
+        "word": "to",
+        "startTime": 13.62,
+        "endTime": 13.84
+      },
+      {
+        "word": "closing",
+        "startTime": 13.84,
+        "endTime": 14.22
+      },
+      {
+        "word": "them.",
+        "startTime": 14.22,
+        "endTime": 14.52
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, Western AI buyers, typically product managers, heads of operations, or CTOs at SMBs, $1 million, $50 million revenue, are making a purchase decision, not a hiring decision.",
+    "startTime": 15.14,
+    "endTime": 31.3,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 15.14,
+        "endTime": 15.26
+      },
+      {
+        "word": "this",
+        "startTime": 15.26,
+        "endTime": 15.52
+      },
+      {
+        "word": "lesson,",
+        "startTime": 15.52,
+        "endTime": 15.96
+      },
+      {
+        "word": "Western",
+        "startTime": 16.5,
+        "endTime": 16.84
+      },
+      {
+        "word": "AI",
+        "startTime": 16.84,
+        "endTime": 17.24
+      },
+      {
+        "word": "buyers,",
+        "startTime": 17.24,
+        "endTime": 17.92
+      },
+      {
+        "word": "typically",
+        "startTime": 18.4,
+        "endTime": 18.8
+      },
+      {
+        "word": "product",
+        "startTime": 18.8,
+        "endTime": 19.28
+      },
+      {
+        "word": "managers,",
+        "startTime": 19.28,
+        "endTime": 19.8
+      },
+      {
+        "word": "heads",
+        "startTime": 20.32,
+        "endTime": 20.48
+      },
+      {
+        "word": "of",
+        "startTime": 20.48,
+        "endTime": 20.62
+      },
+      {
+        "word": "operations,",
+        "startTime": 20.62,
+        "endTime": 21.2
+      },
+      {
+        "word": "or",
+        "startTime": 21.92,
+        "endTime": 22.02
+      },
+      {
+        "word": "CTOs",
+        "startTime": 22.02,
+        "endTime": 22.88
+      },
+      {
+        "word": "at",
+        "startTime": 22.88,
+        "endTime": 23.16
+      },
+      {
+        "word": "SMBs,",
+        "startTime": 23.16,
+        "endTime": 24.04
+      },
+      {
+        "word": "$1",
+        "startTime": 24.44,
+        "endTime": 24.64
+      },
+      {
+        "word": "million,",
+        "startTime": 24.64,
+        "endTime": 24.88
+      },
+      {
+        "word": "$50",
+        "startTime": 25.48,
+        "endTime": 25.9
+      },
+      {
+        "word": "million",
+        "startTime": 25.9,
+        "endTime": 26.24
+      },
+      {
+        "word": "revenue,",
+        "startTime": 26.24,
+        "endTime": 27.14
+      },
+      {
+        "word": "are",
+        "startTime": 27.14,
+        "endTime": 27.88
+      },
+      {
+        "word": "making",
+        "startTime": 27.88,
+        "endTime": 28.2
+      },
+      {
+        "word": "a",
+        "startTime": 28.2,
+        "endTime": 28.44
+      },
+      {
+        "word": "purchase",
+        "startTime": 28.44,
+        "endTime": 28.76
+      },
+      {
+        "word": "decision,",
+        "startTime": 28.76,
+        "endTime": 29.42
+      },
+      {
+        "word": "not",
+        "startTime": 29.96,
+        "endTime": 30.04
+      },
+      {
+        "word": "a",
+        "startTime": 30.04,
+        "endTime": 30.22
+      },
+      {
+        "word": "hiring",
+        "startTime": 30.22,
+        "endTime": 30.58
+      },
+      {
+        "word": "decision.",
+        "startTime": 30.58,
+        "endTime": 31.3
+      }
+    ]
+  },
+  {
+    "text": "They think in terms of one, risk, will this person deliver or disappear with my money?",
+    "startTime": 31.66,
+    "endTime": 38.4,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "They",
+        "startTime": 31.66,
+        "endTime": 32.28
+      },
+      {
+        "word": "think",
+        "startTime": 32.28,
+        "endTime": 32.6
+      },
+      {
+        "word": "in",
+        "startTime": 32.6,
+        "endTime": 32.74
+      },
+      {
+        "word": "terms",
+        "startTime": 32.74,
+        "endTime": 33.06
+      },
+      {
+        "word": "of",
+        "startTime": 33.06,
+        "endTime": 33.46
+      },
+      {
+        "word": "one,",
+        "startTime": 33.46,
+        "endTime": 33.98
+      },
+      {
+        "word": "risk,",
+        "startTime": 34.64,
+        "endTime": 34.92
+      },
+      {
+        "word": "will",
+        "startTime": 35.4,
+        "endTime": 35.62
+      },
+      {
+        "word": "this",
+        "startTime": 35.62,
+        "endTime": 35.82
+      },
+      {
+        "word": "person",
+        "startTime": 35.82,
+        "endTime": 36.22
+      },
+      {
+        "word": "deliver",
+        "startTime": 36.22,
+        "endTime": 36.64
+      },
+      {
+        "word": "or",
+        "startTime": 36.64,
+        "endTime": 37.06
+      },
+      {
+        "word": "disappear",
+        "startTime": 37.06,
+        "endTime": 37.4
+      },
+      {
+        "word": "with",
+        "startTime": 37.4,
+        "endTime": 37.86
+      },
+      {
+        "word": "my",
+        "startTime": 37.86,
+        "endTime": 38.06
+      },
+      {
+        "word": "money?",
+        "startTime": 38.06,
+        "endTime": 38.4
+      }
+    ]
+  },
+  {
+    "text": "Two, R, O, I, will I get more than I paid for?",
+    "startTime": 39.44,
+    "endTime": 43.66,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Two,",
+        "startTime": 39.44,
+        "endTime": 39.76
+      },
+      {
+        "word": "R,",
+        "startTime": 40.36,
+        "endTime": 40.54
+      },
+      {
+        "word": "O,",
+        "startTime": 40.84,
+        "endTime": 40.98
+      },
+      {
+        "word": "I,",
+        "startTime": 41.26,
+        "endTime": 41.44
+      },
+      {
+        "word": "will",
+        "startTime": 41.98,
+        "endTime": 42.08
+      },
+      {
+        "word": "I",
+        "startTime": 42.08,
+        "endTime": 42.24
+      },
+      {
+        "word": "get",
+        "startTime": 42.24,
+        "endTime": 42.44
+      },
+      {
+        "word": "more",
+        "startTime": 42.44,
+        "endTime": 42.74
+      },
+      {
+        "word": "than",
+        "startTime": 42.74,
+        "endTime": 42.92
+      },
+      {
+        "word": "I",
+        "startTime": 42.92,
+        "endTime": 43.08
+      },
+      {
+        "word": "paid",
+        "startTime": 43.08,
+        "endTime": 43.34
+      },
+      {
+        "word": "for?",
+        "startTime": 43.34,
+        "endTime": 43.66
+      }
+    ]
+  },
+  {
+    "text": "Three, communication, will I be able to work with someone eight times zones away?",
+    "startTime": 44.38,
+    "endTime": 49.64,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Three,",
+        "startTime": 44.38,
+        "endTime": 44.8
+      },
+      {
+        "word": "communication,",
+        "startTime": 45.54,
+        "endTime": 46.08
+      },
+      {
+        "word": "will",
+        "startTime": 46.72,
+        "endTime": 46.8
+      },
+      {
+        "word": "I",
+        "startTime": 46.8,
+        "endTime": 46.94
+      },
+      {
+        "word": "be",
+        "startTime": 46.94,
+        "endTime": 47.08
+      },
+      {
+        "word": "able",
+        "startTime": 47.08,
+        "endTime": 47.38
+      },
+      {
+        "word": "to",
+        "startTime": 47.38,
+        "endTime": 47.58
+      },
+      {
+        "word": "work",
+        "startTime": 47.58,
+        "endTime": 47.8
+      },
+      {
+        "word": "with",
+        "startTime": 47.8,
+        "endTime": 48.04
+      },
+      {
+        "word": "someone",
+        "startTime": 48.04,
+        "endTime": 48.32
+      },
+      {
+        "word": "eight",
+        "startTime": 48.32,
+        "endTime": 48.66
+      },
+      {
+        "word": "times",
+        "startTime": 48.66,
+        "endTime": 48.96
+      },
+      {
+        "word": "zones",
+        "startTime": 48.96,
+        "endTime": 49.28
+      },
+      {
+        "word": "away?",
+        "startTime": 49.28,
+        "endTime": 49.64
+      }
+    ]
+  },
+  {
+    "text": "And four, quality is the work professionally enough to show internally or to clients.",
+    "startTime": 50.28,
+    "endTime": 56.28,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "And",
+        "startTime": 50.28,
+        "endTime": 50.44
+      },
+      {
+        "word": "four,",
+        "startTime": 50.44,
+        "endTime": 50.8
+      },
+      {
+        "word": "quality",
+        "startTime": 51.78,
+        "endTime": 51.78
+      },
+      {
+        "word": "is",
+        "startTime": 51.78,
+        "endTime": 52.48
+      },
+      {
+        "word": "the",
+        "startTime": 52.48,
+        "endTime": 52.64
+      },
+      {
+        "word": "work",
+        "startTime": 52.64,
+        "endTime": 52.88
+      },
+      {
+        "word": "professionally",
+        "startTime": 52.88,
+        "endTime": 53.5
+      },
+      {
+        "word": "enough",
+        "startTime": 53.5,
+        "endTime": 53.86
+      },
+      {
+        "word": "to",
+        "startTime": 53.86,
+        "endTime": 54.08
+      },
+      {
+        "word": "show",
+        "startTime": 54.08,
+        "endTime": 54.32
+      },
+      {
+        "word": "internally",
+        "startTime": 54.32,
+        "endTime": 55.06
+      },
+      {
+        "word": "or",
+        "startTime": 55.06,
+        "endTime": 55.62
+      },
+      {
+        "word": "to",
+        "startTime": 55.62,
+        "endTime": 55.8
+      },
+      {
+        "word": "clients.",
+        "startTime": 55.8,
+        "endTime": 56.28
+      }
+    ]
+  },
+  {
+    "text": "They are not thinking about your country of origin unless you make it an issue.",
+    "startTime": 57.14,
+    "endTime": 61.5,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "They",
+        "startTime": 57.14,
+        "endTime": 57.48
+      },
+      {
+        "word": "are",
+        "startTime": 57.48,
+        "endTime": 57.6
+      },
+      {
+        "word": "not",
+        "startTime": 57.6,
+        "endTime": 57.8
+      },
+      {
+        "word": "thinking",
+        "startTime": 57.8,
+        "endTime": 58.24
+      },
+      {
+        "word": "about",
+        "startTime": 58.24,
+        "endTime": 58.58
+      },
+      {
+        "word": "your",
+        "startTime": 58.58,
+        "endTime": 58.82
+      },
+      {
+        "word": "country",
+        "startTime": 58.82,
+        "endTime": 59.18
+      },
+      {
+        "word": "of",
+        "startTime": 59.18,
+        "endTime": 59.4
+      },
+      {
+        "word": "origin",
+        "startTime": 59.4,
+        "endTime": 59.9
+      },
+      {
+        "word": "unless",
+        "startTime": 59.9,
+        "endTime": 60.3
+      },
+      {
+        "word": "you",
+        "startTime": 60.3,
+        "endTime": 60.56
+      },
+      {
+        "word": "make",
+        "startTime": 60.56,
+        "endTime": 60.74
+      },
+      {
+        "word": "it",
+        "startTime": 60.74,
+        "endTime": 60.98
+      },
+      {
+        "word": "an",
+        "startTime": 60.98,
+        "endTime": 61.12
+      },
+      {
+        "word": "issue.",
+        "startTime": 61.12,
+        "endTime": 61.5
+      }
+    ]
+  },
+  {
+    "text": "The risk problem is the largest barrier.",
+    "startTime": 62.12,
+    "endTime": 64.64,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 62.12,
+        "endTime": 62.3
+      },
+      {
+        "word": "risk",
+        "startTime": 62.3,
+        "endTime": 62.54
+      },
+      {
+        "word": "problem",
+        "startTime": 62.54,
+        "endTime": 63.06
+      },
+      {
+        "word": "is",
+        "startTime": 63.06,
+        "endTime": 63.5
+      },
+      {
+        "word": "the",
+        "startTime": 63.5,
+        "endTime": 63.7
+      },
+      {
+        "word": "largest",
+        "startTime": 63.7,
+        "endTime": 64.1
+      },
+      {
+        "word": "barrier.",
+        "startTime": 64.1,
+        "endTime": 64.64
+      }
+    ]
+  },
+  {
+    "text": "A Western SMB owner, who has never hired internationally before, has typically heard stories about offshore work going wrong.",
+    "startTime": 65.26,
+    "endTime": 74.84,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 65.26,
+        "endTime": 65.4
+      },
+      {
+        "word": "Western",
+        "startTime": 65.4,
+        "endTime": 65.84
+      },
+      {
+        "word": "SMB",
+        "startTime": 65.84,
+        "endTime": 66.66
+      },
+      {
+        "word": "owner,",
+        "startTime": 66.66,
+        "endTime": 67.1
+      },
+      {
+        "word": "who",
+        "startTime": 67.1,
+        "endTime": 67.76
+      },
+      {
+        "word": "has",
+        "startTime": 67.76,
+        "endTime": 67.96
+      },
+      {
+        "word": "never",
+        "startTime": 67.96,
+        "endTime": 68.34
+      },
+      {
+        "word": "hired",
+        "startTime": 68.34,
+        "endTime": 68.74
+      },
+      {
+        "word": "internationally",
+        "startTime": 68.74,
+        "endTime": 69.6
+      },
+      {
+        "word": "before,",
+        "startTime": 69.6,
+        "endTime": 70.24
+      },
+      {
+        "word": "has",
+        "startTime": 70.84,
+        "endTime": 70.94
+      },
+      {
+        "word": "typically",
+        "startTime": 70.94,
+        "endTime": 71.36
+      },
+      {
+        "word": "heard",
+        "startTime": 71.36,
+        "endTime": 71.9
+      },
+      {
+        "word": "stories",
+        "startTime": 71.9,
+        "endTime": 72.58
+      },
+      {
+        "word": "about",
+        "startTime": 72.58,
+        "endTime": 72.88
+      },
+      {
+        "word": "offshore",
+        "startTime": 72.88,
+        "endTime": 73.48
+      },
+      {
+        "word": "work",
+        "startTime": 73.48,
+        "endTime": 74.02
+      },
+      {
+        "word": "going",
+        "startTime": 74.02,
+        "endTime": 74.34
+      },
+      {
+        "word": "wrong.",
+        "startTime": 74.34,
+        "endTime": 74.84
+      }
+    ]
+  },
+  {
+    "text": "The contractor who disappeared, the code that did not work, the communication problems, your job in every interaction before the contract is signed, is to reduce perceived risk not to pitch your skills.",
+    "startTime": 75.28,
+    "endTime": 90.6,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 75.28,
+        "endTime": 75.46
+      },
+      {
+        "word": "contractor",
+        "startTime": 75.46,
+        "endTime": 75.98
+      },
+      {
+        "word": "who",
+        "startTime": 75.98,
+        "endTime": 76.46
+      },
+      {
+        "word": "disappeared,",
+        "startTime": 76.46,
+        "endTime": 77.08
+      },
+      {
+        "word": "the",
+        "startTime": 77.62,
+        "endTime": 77.72
+      },
+      {
+        "word": "code",
+        "startTime": 77.72,
+        "endTime": 78.08
+      },
+      {
+        "word": "that",
+        "startTime": 78.08,
+        "endTime": 78.4
+      },
+      {
+        "word": "did",
+        "startTime": 78.4,
+        "endTime": 78.64
+      },
+      {
+        "word": "not",
+        "startTime": 78.64,
+        "endTime": 78.84
+      },
+      {
+        "word": "work,",
+        "startTime": 78.84,
+        "endTime": 79.28
+      },
+      {
+        "word": "the",
+        "startTime": 79.84,
+        "endTime": 79.96
+      },
+      {
+        "word": "communication",
+        "startTime": 79.96,
+        "endTime": 80.64
+      },
+      {
+        "word": "problems,",
+        "startTime": 80.64,
+        "endTime": 81.52
+      },
+      {
+        "word": "your",
+        "startTime": 82.3,
+        "endTime": 82.52
+      },
+      {
+        "word": "job",
+        "startTime": 82.52,
+        "endTime": 82.94
+      },
+      {
+        "word": "in",
+        "startTime": 82.94,
+        "endTime": 83.2
+      },
+      {
+        "word": "every",
+        "startTime": 83.2,
+        "endTime": 83.6
+      },
+      {
+        "word": "interaction",
+        "startTime": 83.6,
+        "endTime": 84.36
+      },
+      {
+        "word": "before",
+        "startTime": 84.36,
+        "endTime": 84.78
+      },
+      {
+        "word": "the",
+        "startTime": 84.78,
+        "endTime": 84.98
+      },
+      {
+        "word": "contract",
+        "startTime": 84.98,
+        "endTime": 85.5
+      },
+      {
+        "word": "is",
+        "startTime": 85.5,
+        "endTime": 85.84
+      },
+      {
+        "word": "signed,",
+        "startTime": 85.84,
+        "endTime": 86.4
+      },
+      {
+        "word": "is",
+        "startTime": 86.4,
+        "endTime": 86.98
+      },
+      {
+        "word": "to",
+        "startTime": 86.98,
+        "endTime": 87.22
+      },
+      {
+        "word": "reduce",
+        "startTime": 87.22,
+        "endTime": 87.66
+      },
+      {
+        "word": "perceived",
+        "startTime": 87.66,
+        "endTime": 88.42
+      },
+      {
+        "word": "risk",
+        "startTime": 88.42,
+        "endTime": 88.9
+      },
+      {
+        "word": "not",
+        "startTime": 88.9,
+        "endTime": 89.3
+      },
+      {
+        "word": "to",
+        "startTime": 89.3,
+        "endTime": 89.56
+      },
+      {
+        "word": "pitch",
+        "startTime": 89.56,
+        "endTime": 89.76
+      },
+      {
+        "word": "your",
+        "startTime": 89.76,
+        "endTime": 90.02
+      },
+      {
+        "word": "skills.",
+        "startTime": 90.02,
+        "endTime": 90.6
+      }
+    ]
+  },
+  {
+    "text": "Risk reduction tactics, one, provides specific portfolio examples with named outcomes, automated 200 daily WhatsApp inquiries, reducing response time from four hours to under one minute.",
+    "startTime": 91.26,
+    "endTime": 105.38,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Risk",
+        "startTime": 91.26,
+        "endTime": 91.42
+      },
+      {
+        "word": "reduction",
+        "startTime": 91.42,
+        "endTime": 92.02
+      },
+      {
+        "word": "tactics,",
+        "startTime": 92.02,
+        "endTime": 92.52
+      },
+      {
+        "word": "one,",
+        "startTime": 93.06,
+        "endTime": 93.42
+      },
+      {
+        "word": "provides",
+        "startTime": 93.96,
+        "endTime": 94.34
+      },
+      {
+        "word": "specific",
+        "startTime": 94.34,
+        "endTime": 95.02
+      },
+      {
+        "word": "portfolio",
+        "startTime": 95.02,
+        "endTime": 95.62
+      },
+      {
+        "word": "examples",
+        "startTime": 95.62,
+        "endTime": 96.38
+      },
+      {
+        "word": "with",
+        "startTime": 96.38,
+        "endTime": 96.76
+      },
+      {
+        "word": "named",
+        "startTime": 96.76,
+        "endTime": 97.1
+      },
+      {
+        "word": "outcomes,",
+        "startTime": 97.1,
+        "endTime": 97.98
+      },
+      {
+        "word": "automated",
+        "startTime": 98.52,
+        "endTime": 98.98
+      },
+      {
+        "word": "200",
+        "startTime": 98.98,
+        "endTime": 99.68
+      },
+      {
+        "word": "daily",
+        "startTime": 99.68,
+        "endTime": 100.14
+      },
+      {
+        "word": "WhatsApp",
+        "startTime": 100.14,
+        "endTime": 100.54
+      },
+      {
+        "word": "inquiries,",
+        "startTime": 100.54,
+        "endTime": 101.3
+      },
+      {
+        "word": "reducing",
+        "startTime": 101.8,
+        "endTime": 102.04
+      },
+      {
+        "word": "response",
+        "startTime": 102.04,
+        "endTime": 102.68
+      },
+      {
+        "word": "time",
+        "startTime": 102.68,
+        "endTime": 103.08
+      },
+      {
+        "word": "from",
+        "startTime": 103.08,
+        "endTime": 103.34
+      },
+      {
+        "word": "four",
+        "startTime": 103.34,
+        "endTime": 103.74
+      },
+      {
+        "word": "hours",
+        "startTime": 103.74,
+        "endTime": 104.1
+      },
+      {
+        "word": "to",
+        "startTime": 104.1,
+        "endTime": 104.46
+      },
+      {
+        "word": "under",
+        "startTime": 104.46,
+        "endTime": 104.72
+      },
+      {
+        "word": "one",
+        "startTime": 104.72,
+        "endTime": 104.96
+      },
+      {
+        "word": "minute.",
+        "startTime": 104.96,
+        "endTime": 105.38
+      }
+    ]
+  },
+  {
+    "text": "Two, show your process, a brief document or loom video showing how you scope, build, test and deliver.",
+    "startTime": 106.14,
+    "endTime": 114.72,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Two,",
+        "startTime": 106.14,
+        "endTime": 106.68
+      },
+      {
+        "word": "show",
+        "startTime": 107.44,
+        "endTime": 107.7
+      },
+      {
+        "word": "your",
+        "startTime": 107.7,
+        "endTime": 107.92
+      },
+      {
+        "word": "process,",
+        "startTime": 107.92,
+        "endTime": 108.42
+      },
+      {
+        "word": "a",
+        "startTime": 109.1,
+        "endTime": 109.18
+      },
+      {
+        "word": "brief",
+        "startTime": 109.18,
+        "endTime": 109.44
+      },
+      {
+        "word": "document",
+        "startTime": 109.44,
+        "endTime": 110.04
+      },
+      {
+        "word": "or",
+        "startTime": 110.04,
+        "endTime": 110.46
+      },
+      {
+        "word": "loom",
+        "startTime": 110.46,
+        "endTime": 110.82
+      },
+      {
+        "word": "video",
+        "startTime": 110.82,
+        "endTime": 111.1
+      },
+      {
+        "word": "showing",
+        "startTime": 111.1,
+        "endTime": 111.54
+      },
+      {
+        "word": "how",
+        "startTime": 111.54,
+        "endTime": 111.84
+      },
+      {
+        "word": "you",
+        "startTime": 111.84,
+        "endTime": 112.04
+      },
+      {
+        "word": "scope,",
+        "startTime": 112.04,
+        "endTime": 112.36
+      },
+      {
+        "word": "build,",
+        "startTime": 112.36,
+        "endTime": 113.08
+      },
+      {
+        "word": "test",
+        "startTime": 113.48,
+        "endTime": 113.94
+      },
+      {
+        "word": "and",
+        "startTime": 113.94,
+        "endTime": 114.3
+      },
+      {
+        "word": "deliver.",
+        "startTime": 114.3,
+        "endTime": 114.72
+      }
+    ]
+  },
+  {
+    "text": "Three, propose milestones and escrow, clients who see a structured payment flow feel protected.",
+    "startTime": 115.28,
+    "endTime": 122.02,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Three,",
+        "startTime": 115.28,
+        "endTime": 115.58
+      },
+      {
+        "word": "propose",
+        "startTime": 116.34,
+        "endTime": 116.46
+      },
+      {
+        "word": "milestones",
+        "startTime": 116.46,
+        "endTime": 117.18
+      },
+      {
+        "word": "and",
+        "startTime": 117.18,
+        "endTime": 117.64
+      },
+      {
+        "word": "escrow,",
+        "startTime": 117.64,
+        "endTime": 118.2
+      },
+      {
+        "word": "clients",
+        "startTime": 118.78,
+        "endTime": 119.12
+      },
+      {
+        "word": "who",
+        "startTime": 119.12,
+        "endTime": 119.34
+      },
+      {
+        "word": "see",
+        "startTime": 119.34,
+        "endTime": 119.58
+      },
+      {
+        "word": "a",
+        "startTime": 119.58,
+        "endTime": 119.74
+      },
+      {
+        "word": "structured",
+        "startTime": 119.74,
+        "endTime": 120.24
+      },
+      {
+        "word": "payment",
+        "startTime": 120.24,
+        "endTime": 120.7
+      },
+      {
+        "word": "flow",
+        "startTime": 120.7,
+        "endTime": 121.04
+      },
+      {
+        "word": "feel",
+        "startTime": 121.04,
+        "endTime": 121.42
+      },
+      {
+        "word": "protected.",
+        "startTime": 121.42,
+        "endTime": 122.02
+      }
+    ]
+  },
+  {
+    "text": "Four, respond to every message within two hours during business hours.",
+    "startTime": 122.62,
+    "endTime": 127.76,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Four,",
+        "startTime": 122.62,
+        "endTime": 122.98
+      },
+      {
+        "word": "respond",
+        "startTime": 123.72,
+        "endTime": 123.9
+      },
+      {
+        "word": "to",
+        "startTime": 123.9,
+        "endTime": 124.2
+      },
+      {
+        "word": "every",
+        "startTime": 124.2,
+        "endTime": 124.5
+      },
+      {
+        "word": "message",
+        "startTime": 124.5,
+        "endTime": 124.94
+      },
+      {
+        "word": "within",
+        "startTime": 124.94,
+        "endTime": 125.38
+      },
+      {
+        "word": "two",
+        "startTime": 125.38,
+        "endTime": 125.72
+      },
+      {
+        "word": "hours",
+        "startTime": 125.72,
+        "endTime": 126.16
+      },
+      {
+        "word": "during",
+        "startTime": 126.16,
+        "endTime": 126.76
+      },
+      {
+        "word": "business",
+        "startTime": 126.76,
+        "endTime": 127.18
+      },
+      {
+        "word": "hours.",
+        "startTime": 127.18,
+        "endTime": 127.76
+      }
+    ]
+  },
+  {
+    "text": "Communication speed is the single biggest signal of professionalism to Western clients.",
+    "startTime": 128.32,
+    "endTime": 133.66,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Communication",
+        "startTime": 128.32,
+        "endTime": 128.8
+      },
+      {
+        "word": "speed",
+        "startTime": 128.8,
+        "endTime": 129.48
+      },
+      {
+        "word": "is",
+        "startTime": 129.48,
+        "endTime": 129.86
+      },
+      {
+        "word": "the",
+        "startTime": 129.86,
+        "endTime": 130
+      },
+      {
+        "word": "single",
+        "startTime": 130,
+        "endTime": 130.38
+      },
+      {
+        "word": "biggest",
+        "startTime": 130.38,
+        "endTime": 130.8
+      },
+      {
+        "word": "signal",
+        "startTime": 130.8,
+        "endTime": 131.24
+      },
+      {
+        "word": "of",
+        "startTime": 131.24,
+        "endTime": 131.52
+      },
+      {
+        "word": "professionalism",
+        "startTime": 131.52,
+        "endTime": 132.48
+      },
+      {
+        "word": "to",
+        "startTime": 132.48,
+        "endTime": 132.68
+      },
+      {
+        "word": "Western",
+        "startTime": 132.68,
+        "endTime": 133.06
+      },
+      {
+        "word": "clients.",
+        "startTime": 133.06,
+        "endTime": 133.66
+      }
+    ]
+  },
+  {
+    "text": "Five, write in flawless English, grammatical errors in proposal signal broader quality issues to Western clients who rely heavily on written communication.",
+    "startTime": 134.4,
+    "endTime": 145.86,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Five,",
+        "startTime": 134.4,
+        "endTime": 134.78
+      },
+      {
+        "word": "write",
+        "startTime": 135.4,
+        "endTime": 135.5
+      },
+      {
+        "word": "in",
+        "startTime": 135.5,
+        "endTime": 135.72
+      },
+      {
+        "word": "flawless",
+        "startTime": 135.72,
+        "endTime": 136.06
+      },
+      {
+        "word": "English,",
+        "startTime": 136.06,
+        "endTime": 136.84
+      },
+      {
+        "word": "grammatical",
+        "startTime": 137.3,
+        "endTime": 137.88
+      },
+      {
+        "word": "errors",
+        "startTime": 137.88,
+        "endTime": 138.3
+      },
+      {
+        "word": "in",
+        "startTime": 138.3,
+        "endTime": 138.7
+      },
+      {
+        "word": "proposal",
+        "startTime": 138.7,
+        "endTime": 139.12
+      },
+      {
+        "word": "signal",
+        "startTime": 139.12,
+        "endTime": 139.82
+      },
+      {
+        "word": "broader",
+        "startTime": 139.82,
+        "endTime": 140.2
+      },
+      {
+        "word": "quality",
+        "startTime": 140.2,
+        "endTime": 140.8
+      },
+      {
+        "word": "issues",
+        "startTime": 140.8,
+        "endTime": 141.32
+      },
+      {
+        "word": "to",
+        "startTime": 141.32,
+        "endTime": 141.62
+      },
+      {
+        "word": "Western",
+        "startTime": 141.62,
+        "endTime": 142.02
+      },
+      {
+        "word": "clients",
+        "startTime": 142.02,
+        "endTime": 142.6
+      },
+      {
+        "word": "who",
+        "startTime": 142.6,
+        "endTime": 143.18
+      },
+      {
+        "word": "rely",
+        "startTime": 143.18,
+        "endTime": 143.5
+      },
+      {
+        "word": "heavily",
+        "startTime": 143.5,
+        "endTime": 144.04
+      },
+      {
+        "word": "on",
+        "startTime": 144.04,
+        "endTime": 144.66
+      },
+      {
+        "word": "written",
+        "startTime": 144.66,
+        "endTime": 145
+      },
+      {
+        "word": "communication.",
+        "startTime": 145,
+        "endTime": 145.86
+      }
+    ]
+  },
+  {
+    "text": "The ROI framing, Western SMB owners calculate cost by outcome, a $2 ,000 AI automation project that saves them $800 per month, pays back in 2 .5 months, and then generates $9 ,600 per year in savings.",
+    "startTime": 146.6,
+    "endTime": 166.06,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 146.6,
+        "endTime": 146.74
+      },
+      {
+        "word": "ROI",
+        "startTime": 146.74,
+        "endTime": 147.3
+      },
+      {
+        "word": "framing,",
+        "startTime": 147.3,
+        "endTime": 147.96
+      },
+      {
+        "word": "Western",
+        "startTime": 148.48,
+        "endTime": 148.92
+      },
+      {
+        "word": "SMB",
+        "startTime": 148.92,
+        "endTime": 149.74
+      },
+      {
+        "word": "owners",
+        "startTime": 149.74,
+        "endTime": 150.28
+      },
+      {
+        "word": "calculate",
+        "startTime": 150.28,
+        "endTime": 150.92
+      },
+      {
+        "word": "cost",
+        "startTime": 150.92,
+        "endTime": 151.38
+      },
+      {
+        "word": "by",
+        "startTime": 151.38,
+        "endTime": 151.66
+      },
+      {
+        "word": "outcome,",
+        "startTime": 151.66,
+        "endTime": 152.22
+      },
+      {
+        "word": "a",
+        "startTime": 152.9,
+        "endTime": 153
+      },
+      {
+        "word": "$2",
+        "startTime": 153,
+        "endTime": 153.36
+      },
+      {
+        "word": ",000",
+        "startTime": 153.36,
+        "endTime": 154.08
+      },
+      {
+        "word": "AI",
+        "startTime": 154.08,
+        "endTime": 154.5
+      },
+      {
+        "word": "automation",
+        "startTime": 154.5,
+        "endTime": 155.34
+      },
+      {
+        "word": "project",
+        "startTime": 155.34,
+        "endTime": 155.94
+      },
+      {
+        "word": "that",
+        "startTime": 155.94,
+        "endTime": 156.5
+      },
+      {
+        "word": "saves",
+        "startTime": 156.5,
+        "endTime": 156.88
+      },
+      {
+        "word": "them",
+        "startTime": 156.88,
+        "endTime": 157.1
+      },
+      {
+        "word": "$800",
+        "startTime": 157.1,
+        "endTime": 157.96
+      },
+      {
+        "word": "per",
+        "startTime": 157.96,
+        "endTime": 158.62
+      },
+      {
+        "word": "month,",
+        "startTime": 158.62,
+        "endTime": 158.94
+      },
+      {
+        "word": "pays",
+        "startTime": 159.22,
+        "endTime": 159.36
+      },
+      {
+        "word": "back",
+        "startTime": 159.36,
+        "endTime": 159.66
+      },
+      {
+        "word": "in",
+        "startTime": 159.66,
+        "endTime": 159.9
+      },
+      {
+        "word": "2",
+        "startTime": 159.9,
+        "endTime": 160.16
+      },
+      {
+        "word": ".5",
+        "startTime": 160.16,
+        "endTime": 160.74
+      },
+      {
+        "word": "months,",
+        "startTime": 160.74,
+        "endTime": 161.08
+      },
+      {
+        "word": "and",
+        "startTime": 161.68,
+        "endTime": 161.78
+      },
+      {
+        "word": "then",
+        "startTime": 161.78,
+        "endTime": 161.94
+      },
+      {
+        "word": "generates",
+        "startTime": 161.94,
+        "endTime": 162.46
+      },
+      {
+        "word": "$9",
+        "startTime": 162.46,
+        "endTime": 163.06
+      },
+      {
+        "word": ",600",
+        "startTime": 163.06,
+        "endTime": 164.22
+      },
+      {
+        "word": "per",
+        "startTime": 164.22,
+        "endTime": 164.86
+      },
+      {
+        "word": "year",
+        "startTime": 164.86,
+        "endTime": 165.24
+      },
+      {
+        "word": "in",
+        "startTime": 165.24,
+        "endTime": 165.6
+      },
+      {
+        "word": "savings.",
+        "startTime": 165.6,
+        "endTime": 166.06
+      }
+    ]
+  },
+  {
+    "text": "Frame your proposals in these terms, what will the client have, save or earn because of your work?",
+    "startTime": 166.92000000000002,
+    "endTime": 174.42,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Frame",
+        "startTime": 166.92000000000002,
+        "endTime": 167.28
+      },
+      {
+        "word": "your",
+        "startTime": 167.28,
+        "endTime": 167.52
+      },
+      {
+        "word": "proposals",
+        "startTime": 167.52,
+        "endTime": 168.08
+      },
+      {
+        "word": "in",
+        "startTime": 168.08,
+        "endTime": 168.42
+      },
+      {
+        "word": "these",
+        "startTime": 168.42,
+        "endTime": 168.7
+      },
+      {
+        "word": "terms,",
+        "startTime": 168.7,
+        "endTime": 169.2
+      },
+      {
+        "word": "what",
+        "startTime": 169.64,
+        "endTime": 169.88
+      },
+      {
+        "word": "will",
+        "startTime": 169.88,
+        "endTime": 170.12
+      },
+      {
+        "word": "the",
+        "startTime": 170.12,
+        "endTime": 170.3
+      },
+      {
+        "word": "client",
+        "startTime": 170.3,
+        "endTime": 170.6
+      },
+      {
+        "word": "have,",
+        "startTime": 170.6,
+        "endTime": 171.04
+      },
+      {
+        "word": "save",
+        "startTime": 171.68,
+        "endTime": 171.82
+      },
+      {
+        "word": "or",
+        "startTime": 171.82,
+        "endTime": 172.52
+      },
+      {
+        "word": "earn",
+        "startTime": 172.52,
+        "endTime": 173.04
+      },
+      {
+        "word": "because",
+        "startTime": 173.04,
+        "endTime": 173.54
+      },
+      {
+        "word": "of",
+        "startTime": 173.54,
+        "endTime": 173.8
+      },
+      {
+        "word": "your",
+        "startTime": 173.8,
+        "endTime": 173.94
+      },
+      {
+        "word": "work?",
+        "startTime": 173.94,
+        "endTime": 174.42
+      }
+    ]
+  },
+  {
+    "text": "The client who thinks of your fee as a cost reacts to price.",
+    "startTime": 174.92,
+    "endTime": 178.98,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 174.92,
+        "endTime": 175.14
+      },
+      {
+        "word": "client",
+        "startTime": 175.14,
+        "endTime": 175.54
+      },
+      {
+        "word": "who",
+        "startTime": 175.54,
+        "endTime": 175.82
+      },
+      {
+        "word": "thinks",
+        "startTime": 175.82,
+        "endTime": 176.14
+      },
+      {
+        "word": "of",
+        "startTime": 176.14,
+        "endTime": 176.34
+      },
+      {
+        "word": "your",
+        "startTime": 176.34,
+        "endTime": 176.52
+      },
+      {
+        "word": "fee",
+        "startTime": 176.52,
+        "endTime": 176.84
+      },
+      {
+        "word": "as",
+        "startTime": 176.84,
+        "endTime": 177.2
+      },
+      {
+        "word": "a",
+        "startTime": 177.2,
+        "endTime": 177.3
+      },
+      {
+        "word": "cost",
+        "startTime": 177.3,
+        "endTime": 177.7
+      },
+      {
+        "word": "reacts",
+        "startTime": 177.7,
+        "endTime": 178.28
+      },
+      {
+        "word": "to",
+        "startTime": 178.28,
+        "endTime": 178.64
+      },
+      {
+        "word": "price.",
+        "startTime": 178.64,
+        "endTime": 178.98
+      }
+    ]
+  },
+  {
+    "text": "The client who thinks of your fee as an investment in $9 ,600 per year of savings negotiates on terms, not price.",
+    "startTime": 179.6,
+    "endTime": 190.04,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 179.6,
+        "endTime": 179.88
+      },
+      {
+        "word": "client",
+        "startTime": 179.88,
+        "endTime": 180.26
+      },
+      {
+        "word": "who",
+        "startTime": 180.26,
+        "endTime": 180.5
+      },
+      {
+        "word": "thinks",
+        "startTime": 180.5,
+        "endTime": 180.76
+      },
+      {
+        "word": "of",
+        "startTime": 180.76,
+        "endTime": 180.96
+      },
+      {
+        "word": "your",
+        "startTime": 180.96,
+        "endTime": 181.12
+      },
+      {
+        "word": "fee",
+        "startTime": 181.12,
+        "endTime": 181.48
+      },
+      {
+        "word": "as",
+        "startTime": 181.48,
+        "endTime": 181.78
+      },
+      {
+        "word": "an",
+        "startTime": 181.78,
+        "endTime": 181.96
+      },
+      {
+        "word": "investment",
+        "startTime": 181.96,
+        "endTime": 182.58
+      },
+      {
+        "word": "in",
+        "startTime": 182.58,
+        "endTime": 183.14
+      },
+      {
+        "word": "$9",
+        "startTime": 183.14,
+        "endTime": 183.6
+      },
+      {
+        "word": ",600",
+        "startTime": 183.6,
+        "endTime": 184.72
+      },
+      {
+        "word": "per",
+        "startTime": 184.72,
+        "endTime": 185.4
+      },
+      {
+        "word": "year",
+        "startTime": 185.4,
+        "endTime": 185.64
+      },
+      {
+        "word": "of",
+        "startTime": 185.64,
+        "endTime": 185.82
+      },
+      {
+        "word": "savings",
+        "startTime": 185.82,
+        "endTime": 186.42
+      },
+      {
+        "word": "negotiates",
+        "startTime": 187.16,
+        "endTime": 187.88
+      },
+      {
+        "word": "on",
+        "startTime": 187.88,
+        "endTime": 188.2
+      },
+      {
+        "word": "terms,",
+        "startTime": 188.2,
+        "endTime": 188.8
+      },
+      {
+        "word": "not",
+        "startTime": 189.34,
+        "endTime": 189.6
+      },
+      {
+        "word": "price.",
+        "startTime": 189.6,
+        "endTime": 190.04
+      }
+    ]
+  },
+  {
+    "text": "Western buyers buy risk reduction, not technical capability.",
+    "startTime": 190.84,
+    "endTime": 195.26,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Western",
+        "startTime": 190.84,
+        "endTime": 191.26
+      },
+      {
+        "word": "buyers",
+        "startTime": 191.26,
+        "endTime": 191.74
+      },
+      {
+        "word": "buy",
+        "startTime": 191.74,
+        "endTime": 192.14
+      },
+      {
+        "word": "risk",
+        "startTime": 192.14,
+        "endTime": 192.54
+      },
+      {
+        "word": "reduction,",
+        "startTime": 192.54,
+        "endTime": 193.24
+      },
+      {
+        "word": "not",
+        "startTime": 193.5,
+        "endTime": 193.86
+      },
+      {
+        "word": "technical",
+        "startTime": 193.86,
+        "endTime": 194.48
+      },
+      {
+        "word": "capability.",
+        "startTime": 194.48,
+        "endTime": 195.26
+      }
+    ]
+  },
+  {
+    "text": "Your technical skills are assumed, they hired you to the proposal stage because your profile suggested you can do the work.",
+    "startTime": 196,
+    "endTime": 203.46,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 196,
+        "endTime": 196.1
+      },
+      {
+        "word": "technical",
+        "startTime": 196.1,
+        "endTime": 196.46
+      },
+      {
+        "word": "skills",
+        "startTime": 196.46,
+        "endTime": 196.98
+      },
+      {
+        "word": "are",
+        "startTime": 196.98,
+        "endTime": 197.22
+      },
+      {
+        "word": "assumed,",
+        "startTime": 197.22,
+        "endTime": 197.78
+      },
+      {
+        "word": "they",
+        "startTime": 198.22,
+        "endTime": 198.32
+      },
+      {
+        "word": "hired",
+        "startTime": 198.32,
+        "endTime": 198.74
+      },
+      {
+        "word": "you",
+        "startTime": 198.74,
+        "endTime": 199.02
+      },
+      {
+        "word": "to",
+        "startTime": 199.02,
+        "endTime": 199.22
+      },
+      {
+        "word": "the",
+        "startTime": 199.22,
+        "endTime": 199.36
+      },
+      {
+        "word": "proposal",
+        "startTime": 199.36,
+        "endTime": 199.82
+      },
+      {
+        "word": "stage",
+        "startTime": 199.82,
+        "endTime": 200.32
+      },
+      {
+        "word": "because",
+        "startTime": 200.32,
+        "endTime": 200.74
+      },
+      {
+        "word": "your",
+        "startTime": 200.74,
+        "endTime": 200.98
+      },
+      {
+        "word": "profile",
+        "startTime": 200.98,
+        "endTime": 201.46
+      },
+      {
+        "word": "suggested",
+        "startTime": 201.46,
+        "endTime": 202.26
+      },
+      {
+        "word": "you",
+        "startTime": 202.26,
+        "endTime": 202.5
+      },
+      {
+        "word": "can",
+        "startTime": 202.5,
+        "endTime": 202.68
+      },
+      {
+        "word": "do",
+        "startTime": 202.68,
+        "endTime": 202.88
+      },
+      {
+        "word": "the",
+        "startTime": 202.88,
+        "endTime": 203.04
+      },
+      {
+        "word": "work.",
+        "startTime": 203.04,
+        "endTime": 203.46
+      }
+    ]
+  },
+  {
+    "text": "What they are evaluating in the proposal and call is whether you are safe to work with.",
+    "startTime": 203.88,
+    "endTime": 209.12,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "What",
+        "startTime": 203.88,
+        "endTime": 204.14
+      },
+      {
+        "word": "they",
+        "startTime": 204.14,
+        "endTime": 204.38
+      },
+      {
+        "word": "are",
+        "startTime": 204.38,
+        "endTime": 204.52
+      },
+      {
+        "word": "evaluating",
+        "startTime": 204.52,
+        "endTime": 205.3
+      },
+      {
+        "word": "in",
+        "startTime": 205.3,
+        "endTime": 205.68
+      },
+      {
+        "word": "the",
+        "startTime": 205.68,
+        "endTime": 205.8
+      },
+      {
+        "word": "proposal",
+        "startTime": 205.8,
+        "endTime": 206.32
+      },
+      {
+        "word": "and",
+        "startTime": 206.32,
+        "endTime": 206.66
+      },
+      {
+        "word": "call",
+        "startTime": 206.66,
+        "endTime": 206.9
+      },
+      {
+        "word": "is",
+        "startTime": 206.9,
+        "endTime": 207.3
+      },
+      {
+        "word": "whether",
+        "startTime": 207.3,
+        "endTime": 207.6
+      },
+      {
+        "word": "you",
+        "startTime": 207.6,
+        "endTime": 207.84
+      },
+      {
+        "word": "are",
+        "startTime": 207.84,
+        "endTime": 207.96
+      },
+      {
+        "word": "safe",
+        "startTime": 207.96,
+        "endTime": 208.28
+      },
+      {
+        "word": "to",
+        "startTime": 208.28,
+        "endTime": 208.56
+      },
+      {
+        "word": "work",
+        "startTime": 208.56,
+        "endTime": 208.8
+      },
+      {
+        "word": "with.",
+        "startTime": 208.8,
+        "endTime": 209.12
+      }
+    ]
+  },
+  {
+    "text": "The first message is not a pitch, it is an opening to a conversation.",
+    "startTime": 209.76,
+    "endTime": 214.44,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 209.76,
+        "endTime": 209.86
+      },
+      {
+        "word": "first",
+        "startTime": 209.86,
+        "endTime": 210.26
+      },
+      {
+        "word": "message",
+        "startTime": 210.26,
+        "endTime": 210.74
+      },
+      {
+        "word": "is",
+        "startTime": 210.74,
+        "endTime": 211.16
+      },
+      {
+        "word": "not",
+        "startTime": 211.16,
+        "endTime": 211.34
+      },
+      {
+        "word": "a",
+        "startTime": 211.34,
+        "endTime": 211.5
+      },
+      {
+        "word": "pitch,",
+        "startTime": 211.5,
+        "endTime": 211.92
+      },
+      {
+        "word": "it",
+        "startTime": 212.36,
+        "endTime": 212.48
+      },
+      {
+        "word": "is",
+        "startTime": 212.48,
+        "endTime": 212.62
+      },
+      {
+        "word": "an",
+        "startTime": 212.62,
+        "endTime": 212.76
+      },
+      {
+        "word": "opening",
+        "startTime": 212.76,
+        "endTime": 213.2
+      },
+      {
+        "word": "to",
+        "startTime": 213.2,
+        "endTime": 213.52
+      },
+      {
+        "word": "a",
+        "startTime": 213.52,
+        "endTime": 213.64
+      },
+      {
+        "word": "conversation.",
+        "startTime": 213.64,
+        "endTime": 214.44
+      }
+    ]
+  },
+  {
+    "text": "Its only job is to get a reply, it does that by being relevant, specific, and low pressure.",
+    "startTime": 214.92,
+    "endTime": 222.36,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Its",
+        "startTime": 214.92,
+        "endTime": 215.32
+      },
+      {
+        "word": "only",
+        "startTime": 215.32,
+        "endTime": 215.74
+      },
+      {
+        "word": "job",
+        "startTime": 215.74,
+        "endTime": 216.1
+      },
+      {
+        "word": "is",
+        "startTime": 216.1,
+        "endTime": 216.56
+      },
+      {
+        "word": "to",
+        "startTime": 216.56,
+        "endTime": 216.72
+      },
+      {
+        "word": "get",
+        "startTime": 216.72,
+        "endTime": 216.92
+      },
+      {
+        "word": "a",
+        "startTime": 216.92,
+        "endTime": 217.12
+      },
+      {
+        "word": "reply,",
+        "startTime": 217.12,
+        "endTime": 217.56
+      },
+      {
+        "word": "it",
+        "startTime": 218.2,
+        "endTime": 218.3
+      },
+      {
+        "word": "does",
+        "startTime": 218.3,
+        "endTime": 218.58
+      },
+      {
+        "word": "that",
+        "startTime": 218.58,
+        "endTime": 218.86
+      },
+      {
+        "word": "by",
+        "startTime": 218.86,
+        "endTime": 219.1
+      },
+      {
+        "word": "being",
+        "startTime": 219.1,
+        "endTime": 219.38
+      },
+      {
+        "word": "relevant,",
+        "startTime": 219.38,
+        "endTime": 219.84
+      },
+      {
+        "word": "specific,",
+        "startTime": 220.34,
+        "endTime": 220.86
+      },
+      {
+        "word": "and",
+        "startTime": 221.56,
+        "endTime": 221.64
+      },
+      {
+        "word": "low",
+        "startTime": 221.64,
+        "endTime": 221.88
+      },
+      {
+        "word": "pressure.",
+        "startTime": 221.88,
+        "endTime": 222.36
+      }
+    ]
+  },
+  {
+    "text": "Save the pitch for the discovery call.",
+    "startTime": 223.08,
+    "endTime": 225.12,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Save",
+        "startTime": 223.08,
+        "endTime": 223.3
+      },
+      {
+        "word": "the",
+        "startTime": 223.3,
+        "endTime": 223.5
+      },
+      {
+        "word": "pitch",
+        "startTime": 223.5,
+        "endTime": 223.88
+      },
+      {
+        "word": "for",
+        "startTime": 223.88,
+        "endTime": 224.06
+      },
+      {
+        "word": "the",
+        "startTime": 224.06,
+        "endTime": 224.2
+      },
+      {
+        "word": "discovery",
+        "startTime": 224.2,
+        "endTime": 224.7
+      },
+      {
+        "word": "call.",
+        "startTime": 224.7,
+        "endTime": 225.12
+      }
+    ]
+  },
+  {
+    "text": "Remember this, never mention your location, your rate, or your years of experience in a cold outreach message.",
+    "startTime": 225.7,
+    "endTime": 233.94,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Remember",
+        "startTime": 225.7,
+        "endTime": 226.1
+      },
+      {
+        "word": "this,",
+        "startTime": 226.1,
+        "endTime": 226.58
+      },
+      {
+        "word": "never",
+        "startTime": 227.1,
+        "endTime": 227.42
+      },
+      {
+        "word": "mention",
+        "startTime": 227.42,
+        "endTime": 227.94
+      },
+      {
+        "word": "your",
+        "startTime": 227.94,
+        "endTime": 228.18
+      },
+      {
+        "word": "location,",
+        "startTime": 228.18,
+        "endTime": 228.76
+      },
+      {
+        "word": "your",
+        "startTime": 229.14,
+        "endTime": 229.26
+      },
+      {
+        "word": "rate,",
+        "startTime": 229.26,
+        "endTime": 229.66
+      },
+      {
+        "word": "or",
+        "startTime": 230.16,
+        "endTime": 230.26
+      },
+      {
+        "word": "your",
+        "startTime": 230.26,
+        "endTime": 230.48
+      },
+      {
+        "word": "years",
+        "startTime": 230.48,
+        "endTime": 230.84
+      },
+      {
+        "word": "of",
+        "startTime": 230.84,
+        "endTime": 231.06
+      },
+      {
+        "word": "experience",
+        "startTime": 231.06,
+        "endTime": 231.74
+      },
+      {
+        "word": "in",
+        "startTime": 231.74,
+        "endTime": 232.12
+      },
+      {
+        "word": "a",
+        "startTime": 232.12,
+        "endTime": 232.26
+      },
+      {
+        "word": "cold",
+        "startTime": 232.26,
+        "endTime": 232.56
+      },
+      {
+        "word": "outreach",
+        "startTime": 232.56,
+        "endTime": 233.12
+      },
+      {
+        "word": "message.",
+        "startTime": 233.12,
+        "endTime": 233.94
+      }
+    ]
+  },
+  {
+    "text": "Mention their specific situation, your specific result, and an invitation to talk.",
+    "startTime": 234.54,
+    "endTime": 240.8,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Mention",
+        "startTime": 234.54,
+        "endTime": 234.88
+      },
+      {
+        "word": "their",
+        "startTime": 234.88,
+        "endTime": 235.18
+      },
+      {
+        "word": "specific",
+        "startTime": 235.18,
+        "endTime": 235.72
+      },
+      {
+        "word": "situation,",
+        "startTime": 235.72,
+        "endTime": 236.66
+      },
+      {
+        "word": "your",
+        "startTime": 237.22,
+        "endTime": 237.34
+      },
+      {
+        "word": "specific",
+        "startTime": 237.34,
+        "endTime": 237.92
+      },
+      {
+        "word": "result,",
+        "startTime": 237.92,
+        "endTime": 238.5
+      },
+      {
+        "word": "and",
+        "startTime": 239.12,
+        "endTime": 239.26
+      },
+      {
+        "word": "an",
+        "startTime": 239.26,
+        "endTime": 239.44
+      },
+      {
+        "word": "invitation",
+        "startTime": 239.44,
+        "endTime": 239.98
+      },
+      {
+        "word": "to",
+        "startTime": 239.98,
+        "endTime": 240.44
+      },
+      {
+        "word": "talk.",
+        "startTime": 240.44,
+        "endTime": 240.8
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately, your skills bare fruit.",
+    "startTime": 240.8,
+    "endTime": 247.68,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 240.8,
+        "endTime": 241.92
+      },
+      {
+        "word": "what",
+        "startTime": 241.92,
+        "endTime": 242.22
+      },
+      {
+        "word": "you",
+        "startTime": 242.22,
+        "endTime": 242.4
+      },
+      {
+        "word": "learn",
+        "startTime": 242.4,
+        "endTime": 242.7
+      },
+      {
+        "word": "in",
+        "startTime": 242.7,
+        "endTime": 243
+      },
+      {
+        "word": "this",
+        "startTime": 243,
+        "endTime": 243.3
+      },
+      {
+        "word": "lesson",
+        "startTime": 243.3,
+        "endTime": 243.7
+      },
+      {
+        "word": "and",
+        "startTime": 243.7,
+        "endTime": 244.3
+      },
+      {
+        "word": "you",
+        "startTime": 244.3,
+        "endTime": 244.48
+      },
+      {
+        "word": "will",
+        "startTime": 244.48,
+        "endTime": 244.64
+      },
+      {
+        "word": "see",
+        "startTime": 244.64,
+        "endTime": 244.86
+      },
+      {
+        "word": "results",
+        "startTime": 244.86,
+        "endTime": 245.34
+      },
+      {
+        "word": "immediately,",
+        "startTime": 245.34,
+        "endTime": 246.02
+      },
+      {
+        "word": "your",
+        "startTime": 246.48,
+        "endTime": 246.66
+      },
+      {
+        "word": "skills",
+        "startTime": 246.66,
+        "endTime": 247.04
+      },
+      {
+        "word": "bare",
+        "startTime": 247.04,
+        "endTime": 247.32
+      },
+      {
+        "word": "fruit.",
+        "startTime": 247.32,
+        "endTime": 247.68
+      }
+    ]
+  }
+]

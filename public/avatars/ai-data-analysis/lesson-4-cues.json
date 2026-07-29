@@ -1,0 +1,2103 @@
+[
+  {
+    "text": "A treasury analyst at a Nairobi bank noticed something odd.",
+    "startTime": 0,
+    "endTime": 5.38,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 0,
+        "endTime": 0.22
+      },
+      {
+        "word": "treasury",
+        "startTime": 0.22,
+        "endTime": 0.72
+      },
+      {
+        "word": "analyst",
+        "startTime": 0.72,
+        "endTime": 1.6
+      },
+      {
+        "word": "at",
+        "startTime": 1.6,
+        "endTime": 1.92
+      },
+      {
+        "word": "a",
+        "startTime": 1.92,
+        "endTime": 2.08
+      },
+      {
+        "word": "Nairobi",
+        "startTime": 2.08,
+        "endTime": 2.6
+      },
+      {
+        "word": "bank",
+        "startTime": 2.6,
+        "endTime": 3.28
+      },
+      {
+        "word": "noticed",
+        "startTime": 3.28,
+        "endTime": 4.22
+      },
+      {
+        "word": "something",
+        "startTime": 4.22,
+        "endTime": 4.92
+      },
+      {
+        "word": "odd.",
+        "startTime": 4.92,
+        "endTime": 5.38
+      }
+    ]
+  },
+  {
+    "text": "Empessa reversals in one branch were occurring at exactly three times the rate of every other branch.",
+    "startTime": 6.36,
+    "endTime": 15,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Empessa",
+        "startTime": 6.36,
+        "endTime": 6.86
+      },
+      {
+        "word": "reversals",
+        "startTime": 6.86,
+        "endTime": 7.74
+      },
+      {
+        "word": "in",
+        "startTime": 7.74,
+        "endTime": 8.04
+      },
+      {
+        "word": "one",
+        "startTime": 8.04,
+        "endTime": 8.36
+      },
+      {
+        "word": "branch",
+        "startTime": 8.36,
+        "endTime": 8.84
+      },
+      {
+        "word": "were",
+        "startTime": 8.84,
+        "endTime": 9.5
+      },
+      {
+        "word": "occurring",
+        "startTime": 9.5,
+        "endTime": 10.08
+      },
+      {
+        "word": "at",
+        "startTime": 10.08,
+        "endTime": 10.3
+      },
+      {
+        "word": "exactly",
+        "startTime": 10.3,
+        "endTime": 11.02
+      },
+      {
+        "word": "three",
+        "startTime": 11.02,
+        "endTime": 11.46
+      },
+      {
+        "word": "times",
+        "startTime": 11.46,
+        "endTime": 11.9
+      },
+      {
+        "word": "the",
+        "startTime": 11.9,
+        "endTime": 12.16
+      },
+      {
+        "word": "rate",
+        "startTime": 12.16,
+        "endTime": 12.54
+      },
+      {
+        "word": "of",
+        "startTime": 12.54,
+        "endTime": 13.2
+      },
+      {
+        "word": "every",
+        "startTime": 13.2,
+        "endTime": 13.84
+      },
+      {
+        "word": "other",
+        "startTime": 13.84,
+        "endTime": 14.32
+      },
+      {
+        "word": "branch.",
+        "startTime": 14.32,
+        "endTime": 15
+      }
+    ]
+  },
+  {
+    "text": "Manual review would have taken six weeks to find this in 400 ,000 transactions.",
+    "startTime": 15.9,
+    "endTime": 22.9,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Manual",
+        "startTime": 15.9,
+        "endTime": 16.5
+      },
+      {
+        "word": "review",
+        "startTime": 16.5,
+        "endTime": 17.06
+      },
+      {
+        "word": "would",
+        "startTime": 17.06,
+        "endTime": 17.66
+      },
+      {
+        "word": "have",
+        "startTime": 17.66,
+        "endTime": 17.82
+      },
+      {
+        "word": "taken",
+        "startTime": 17.82,
+        "endTime": 18.2
+      },
+      {
+        "word": "six",
+        "startTime": 18.2,
+        "endTime": 18.64
+      },
+      {
+        "word": "weeks",
+        "startTime": 18.64,
+        "endTime": 19
+      },
+      {
+        "word": "to",
+        "startTime": 19,
+        "endTime": 19.32
+      },
+      {
+        "word": "find",
+        "startTime": 19.32,
+        "endTime": 19.64
+      },
+      {
+        "word": "this",
+        "startTime": 19.64,
+        "endTime": 20.1
+      },
+      {
+        "word": "in",
+        "startTime": 20.1,
+        "endTime": 20.58
+      },
+      {
+        "word": "400",
+        "startTime": 20.58,
+        "endTime": 21.48
+      },
+      {
+        "word": ",000",
+        "startTime": 21.48,
+        "endTime": 22.08
+      },
+      {
+        "word": "transactions.",
+        "startTime": 22.08,
+        "endTime": 22.9
+      }
+    ]
+  },
+  {
+    "text": "An AI prompt found it in eight minutes.",
+    "startTime": 23.8,
+    "endTime": 28.34,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "An",
+        "startTime": 23.8,
+        "endTime": 24.4
+      },
+      {
+        "word": "AI",
+        "startTime": 24.4,
+        "endTime": 24.74
+      },
+      {
+        "word": "prompt",
+        "startTime": 24.74,
+        "endTime": 25.4
+      },
+      {
+        "word": "found",
+        "startTime": 25.4,
+        "endTime": 26.2
+      },
+      {
+        "word": "it",
+        "startTime": 26.2,
+        "endTime": 26.64
+      },
+      {
+        "word": "in",
+        "startTime": 26.64,
+        "endTime": 26.98
+      },
+      {
+        "word": "eight",
+        "startTime": 26.98,
+        "endTime": 27.64
+      },
+      {
+        "word": "minutes.",
+        "startTime": 27.64,
+        "endTime": 28.34
+      }
+    ]
+  },
+  {
+    "text": "The branch manager had been approving fictitious reversals.",
+    "startTime": 28.34,
+    "endTime": 33.98,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 28.34,
+        "endTime": 29.9
+      },
+      {
+        "word": "branch",
+        "startTime": 29.9,
+        "endTime": 30.24
+      },
+      {
+        "word": "manager",
+        "startTime": 30.24,
+        "endTime": 30.82
+      },
+      {
+        "word": "had",
+        "startTime": 30.82,
+        "endTime": 31.24
+      },
+      {
+        "word": "been",
+        "startTime": 31.24,
+        "endTime": 31.44
+      },
+      {
+        "word": "approving",
+        "startTime": 31.44,
+        "endTime": 32.08
+      },
+      {
+        "word": "fictitious",
+        "startTime": 32.08,
+        "endTime": 32.92
+      },
+      {
+        "word": "reversals.",
+        "startTime": 32.92,
+        "endTime": 33.98
+      }
+    ]
+  },
+  {
+    "text": "The loss to that point was 3 .4 million Kenyan shillings.",
+    "startTime": 34.58,
+    "endTime": 39.88,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 34.58,
+        "endTime": 34.78
+      },
+      {
+        "word": "loss",
+        "startTime": 34.78,
+        "endTime": 35.08
+      },
+      {
+        "word": "to",
+        "startTime": 35.08,
+        "endTime": 35.34
+      },
+      {
+        "word": "that",
+        "startTime": 35.34,
+        "endTime": 35.54
+      },
+      {
+        "word": "point",
+        "startTime": 35.54,
+        "endTime": 35.96
+      },
+      {
+        "word": "was",
+        "startTime": 35.96,
+        "endTime": 36.54
+      },
+      {
+        "word": "3",
+        "startTime": 36.54,
+        "endTime": 37.02
+      },
+      {
+        "word": ".4",
+        "startTime": 37.02,
+        "endTime": 37.82
+      },
+      {
+        "word": "million",
+        "startTime": 37.82,
+        "endTime": 38.44
+      },
+      {
+        "word": "Kenyan",
+        "startTime": 38.44,
+        "endTime": 39.1
+      },
+      {
+        "word": "shillings.",
+        "startTime": 39.1,
+        "endTime": 39.88
+      }
+    ]
+  },
+  {
+    "text": "In this lesson pattern find in asks what is the trend and what breaks the trend.",
+    "startTime": 40.86,
+    "endTime": 48,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 40.86,
+        "endTime": 41.1
+      },
+      {
+        "word": "this",
+        "startTime": 41.1,
+        "endTime": 41.38
+      },
+      {
+        "word": "lesson",
+        "startTime": 41.38,
+        "endTime": 41.92
+      },
+      {
+        "word": "pattern",
+        "startTime": 41.92,
+        "endTime": 42.88
+      },
+      {
+        "word": "find",
+        "startTime": 42.88,
+        "endTime": 43.26
+      },
+      {
+        "word": "in",
+        "startTime": 43.26,
+        "endTime": 43.6
+      },
+      {
+        "word": "asks",
+        "startTime": 43.6,
+        "endTime": 44.08
+      },
+      {
+        "word": "what",
+        "startTime": 44.08,
+        "endTime": 44.88
+      },
+      {
+        "word": "is",
+        "startTime": 44.88,
+        "endTime": 45.16
+      },
+      {
+        "word": "the",
+        "startTime": 45.16,
+        "endTime": 45.34
+      },
+      {
+        "word": "trend",
+        "startTime": 45.34,
+        "endTime": 45.72
+      },
+      {
+        "word": "and",
+        "startTime": 45.72,
+        "endTime": 46.4
+      },
+      {
+        "word": "what",
+        "startTime": 46.4,
+        "endTime": 46.7
+      },
+      {
+        "word": "breaks",
+        "startTime": 46.7,
+        "endTime": 47.24
+      },
+      {
+        "word": "the",
+        "startTime": 47.24,
+        "endTime": 47.48
+      },
+      {
+        "word": "trend.",
+        "startTime": 47.48,
+        "endTime": 48
+      }
+    ]
+  },
+  {
+    "text": "Anomaly detection asks which data points fall outside the expected range and what do they indicate.",
+    "startTime": 48.72,
+    "endTime": 57.56,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Anomaly",
+        "startTime": 48.72,
+        "endTime": 49.44
+      },
+      {
+        "word": "detection",
+        "startTime": 49.44,
+        "endTime": 49.9
+      },
+      {
+        "word": "asks",
+        "startTime": 49.9,
+        "endTime": 50.84
+      },
+      {
+        "word": "which",
+        "startTime": 50.84,
+        "endTime": 51.64
+      },
+      {
+        "word": "data",
+        "startTime": 51.64,
+        "endTime": 52.1
+      },
+      {
+        "word": "points",
+        "startTime": 52.1,
+        "endTime": 52.56
+      },
+      {
+        "word": "fall",
+        "startTime": 52.56,
+        "endTime": 52.94
+      },
+      {
+        "word": "outside",
+        "startTime": 52.94,
+        "endTime": 53.72
+      },
+      {
+        "word": "the",
+        "startTime": 53.72,
+        "endTime": 54.02
+      },
+      {
+        "word": "expected",
+        "startTime": 54.02,
+        "endTime": 54.62
+      },
+      {
+        "word": "range",
+        "startTime": 54.62,
+        "endTime": 55.1
+      },
+      {
+        "word": "and",
+        "startTime": 55.1,
+        "endTime": 55.86
+      },
+      {
+        "word": "what",
+        "startTime": 55.86,
+        "endTime": 56.22
+      },
+      {
+        "word": "do",
+        "startTime": 56.22,
+        "endTime": 56.5
+      },
+      {
+        "word": "they",
+        "startTime": 56.5,
+        "endTime": 56.7
+      },
+      {
+        "word": "indicate.",
+        "startTime": 56.7,
+        "endTime": 57.56
+      }
+    ]
+  },
+  {
+    "text": "Together they transform raw data into early warning systems and opportunity signals.",
+    "startTime": 58.64,
+    "endTime": 66.64,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Together",
+        "startTime": 58.64,
+        "endTime": 59.26
+      },
+      {
+        "word": "they",
+        "startTime": 59.26,
+        "endTime": 59.92
+      },
+      {
+        "word": "transform",
+        "startTime": 59.92,
+        "endTime": 60.7
+      },
+      {
+        "word": "raw",
+        "startTime": 60.7,
+        "endTime": 61.18
+      },
+      {
+        "word": "data",
+        "startTime": 61.18,
+        "endTime": 61.9
+      },
+      {
+        "word": "into",
+        "startTime": 61.9,
+        "endTime": 62.62
+      },
+      {
+        "word": "early",
+        "startTime": 62.62,
+        "endTime": 63.18
+      },
+      {
+        "word": "warning",
+        "startTime": 63.18,
+        "endTime": 63.7
+      },
+      {
+        "word": "systems",
+        "startTime": 63.7,
+        "endTime": 64.3
+      },
+      {
+        "word": "and",
+        "startTime": 64.3,
+        "endTime": 64.98
+      },
+      {
+        "word": "opportunity",
+        "startTime": 64.98,
+        "endTime": 65.7
+      },
+      {
+        "word": "signals.",
+        "startTime": 65.7,
+        "endTime": 66.64
+      }
+    ]
+  },
+  {
+    "text": "The two things every Kenyan business decision maker needs most.",
+    "startTime": 67.28,
+    "endTime": 72.8,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 67.28,
+        "endTime": 67.46
+      },
+      {
+        "word": "two",
+        "startTime": 67.46,
+        "endTime": 67.82
+      },
+      {
+        "word": "things",
+        "startTime": 67.82,
+        "endTime": 68.3
+      },
+      {
+        "word": "every",
+        "startTime": 68.3,
+        "endTime": 69.06
+      },
+      {
+        "word": "Kenyan",
+        "startTime": 69.06,
+        "endTime": 69.64
+      },
+      {
+        "word": "business",
+        "startTime": 69.64,
+        "endTime": 70.02
+      },
+      {
+        "word": "decision",
+        "startTime": 70.02,
+        "endTime": 70.78
+      },
+      {
+        "word": "maker",
+        "startTime": 70.78,
+        "endTime": 71.24
+      },
+      {
+        "word": "needs",
+        "startTime": 71.24,
+        "endTime": 72.06
+      },
+      {
+        "word": "most.",
+        "startTime": 72.06,
+        "endTime": 72.8
+      }
+    ]
+  },
+  {
+    "text": "We cover the four types of patterns every business analyst must be able to identify.",
+    "startTime": 73.94,
+    "endTime": 80.9,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "We",
+        "startTime": 73.94,
+        "endTime": 74.24
+      },
+      {
+        "word": "cover",
+        "startTime": 74.24,
+        "endTime": 74.72
+      },
+      {
+        "word": "the",
+        "startTime": 74.72,
+        "endTime": 75.38
+      },
+      {
+        "word": "four",
+        "startTime": 75.38,
+        "endTime": 75.74
+      },
+      {
+        "word": "types",
+        "startTime": 75.74,
+        "endTime": 76.18
+      },
+      {
+        "word": "of",
+        "startTime": 76.18,
+        "endTime": 76.34
+      },
+      {
+        "word": "patterns",
+        "startTime": 76.34,
+        "endTime": 76.76
+      },
+      {
+        "word": "every",
+        "startTime": 76.76,
+        "endTime": 77.48
+      },
+      {
+        "word": "business",
+        "startTime": 77.48,
+        "endTime": 77.94
+      },
+      {
+        "word": "analyst",
+        "startTime": 77.94,
+        "endTime": 78.58
+      },
+      {
+        "word": "must",
+        "startTime": 78.58,
+        "endTime": 79.16
+      },
+      {
+        "word": "be",
+        "startTime": 79.16,
+        "endTime": 79.48
+      },
+      {
+        "word": "able",
+        "startTime": 79.48,
+        "endTime": 79.76
+      },
+      {
+        "word": "to",
+        "startTime": 79.76,
+        "endTime": 79.98
+      },
+      {
+        "word": "identify.",
+        "startTime": 79.98,
+        "endTime": 80.9
+      }
+    ]
+  },
+  {
+    "text": "Trend, seasonal, cyclical and irregular.",
+    "startTime": 81.68,
+    "endTime": 85.84,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Trend,",
+        "startTime": 81.68,
+        "endTime": 82.04
+      },
+      {
+        "word": "seasonal,",
+        "startTime": 82.54,
+        "endTime": 83.38
+      },
+      {
+        "word": "cyclical",
+        "startTime": 84.08,
+        "endTime": 84.62
+      },
+      {
+        "word": "and",
+        "startTime": 84.62,
+        "endTime": 85.26
+      },
+      {
+        "word": "irregular.",
+        "startTime": 85.26,
+        "endTime": 85.84
+      }
+    ]
+  },
+  {
+    "text": "How to write AI prompts that separate normal variation from meaningful patterns.",
+    "startTime": 87.14,
+    "endTime": 93.4,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "How",
+        "startTime": 87.14,
+        "endTime": 87.3
+      },
+      {
+        "word": "to",
+        "startTime": 87.3,
+        "endTime": 87.54
+      },
+      {
+        "word": "write",
+        "startTime": 87.54,
+        "endTime": 87.92
+      },
+      {
+        "word": "AI",
+        "startTime": 87.92,
+        "endTime": 88.2
+      },
+      {
+        "word": "prompts",
+        "startTime": 88.2,
+        "endTime": 88.86
+      },
+      {
+        "word": "that",
+        "startTime": 88.86,
+        "endTime": 89.12
+      },
+      {
+        "word": "separate",
+        "startTime": 89.12,
+        "endTime": 89.68
+      },
+      {
+        "word": "normal",
+        "startTime": 89.68,
+        "endTime": 90.24
+      },
+      {
+        "word": "variation",
+        "startTime": 90.24,
+        "endTime": 91.24
+      },
+      {
+        "word": "from",
+        "startTime": 91.24,
+        "endTime": 91.9
+      },
+      {
+        "word": "meaningful",
+        "startTime": 91.9,
+        "endTime": 92.38
+      },
+      {
+        "word": "patterns.",
+        "startTime": 92.38,
+        "endTime": 93.4
+      }
+    ]
+  },
+  {
+    "text": "Anomaly detection defining your expected range and flagging deviations and the Kenyan business calendar understanding seasonal patterns specific to the East African market.",
+    "startTime": 94.08,
+    "endTime": 110.28,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Anomaly",
+        "startTime": 94.08,
+        "endTime": 94.88
+      },
+      {
+        "word": "detection",
+        "startTime": 94.88,
+        "endTime": 95.62
+      },
+      {
+        "word": "defining",
+        "startTime": 95.62,
+        "endTime": 96.8
+      },
+      {
+        "word": "your",
+        "startTime": 96.8,
+        "endTime": 97.2
+      },
+      {
+        "word": "expected",
+        "startTime": 97.2,
+        "endTime": 97.86
+      },
+      {
+        "word": "range",
+        "startTime": 97.86,
+        "endTime": 98.36
+      },
+      {
+        "word": "and",
+        "startTime": 98.36,
+        "endTime": 98.96
+      },
+      {
+        "word": "flagging",
+        "startTime": 98.96,
+        "endTime": 99.68
+      },
+      {
+        "word": "deviations",
+        "startTime": 99.68,
+        "endTime": 100.64
+      },
+      {
+        "word": "and",
+        "startTime": 100.64,
+        "endTime": 101.68
+      },
+      {
+        "word": "the",
+        "startTime": 101.68,
+        "endTime": 102.42
+      },
+      {
+        "word": "Kenyan",
+        "startTime": 102.42,
+        "endTime": 103.04
+      },
+      {
+        "word": "business",
+        "startTime": 103.04,
+        "endTime": 103.54
+      },
+      {
+        "word": "calendar",
+        "startTime": 103.54,
+        "endTime": 104.32
+      },
+      {
+        "word": "understanding",
+        "startTime": 104.32,
+        "endTime": 105.58
+      },
+      {
+        "word": "seasonal",
+        "startTime": 105.58,
+        "endTime": 106.42
+      },
+      {
+        "word": "patterns",
+        "startTime": 106.42,
+        "endTime": 106.92
+      },
+      {
+        "word": "specific",
+        "startTime": 106.92,
+        "endTime": 108.08
+      },
+      {
+        "word": "to",
+        "startTime": 108.08,
+        "endTime": 108.58
+      },
+      {
+        "word": "the",
+        "startTime": 108.58,
+        "endTime": 108.76
+      },
+      {
+        "word": "East",
+        "startTime": 108.76,
+        "endTime": 109.16
+      },
+      {
+        "word": "African",
+        "startTime": 109.16,
+        "endTime": 109.6
+      },
+      {
+        "word": "market.",
+        "startTime": 109.6,
+        "endTime": 110.28
+      }
+    ]
+  },
+  {
+    "text": "Business data contains four types of patterns.",
+    "startTime": 111.58,
+    "endTime": 115.12,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Business",
+        "startTime": 111.58,
+        "endTime": 112.06
+      },
+      {
+        "word": "data",
+        "startTime": 112.06,
+        "endTime": 112.64
+      },
+      {
+        "word": "contains",
+        "startTime": 112.64,
+        "endTime": 113.18
+      },
+      {
+        "word": "four",
+        "startTime": 113.18,
+        "endTime": 113.78
+      },
+      {
+        "word": "types",
+        "startTime": 113.78,
+        "endTime": 114.3
+      },
+      {
+        "word": "of",
+        "startTime": 114.3,
+        "endTime": 114.6
+      },
+      {
+        "word": "patterns.",
+        "startTime": 114.6,
+        "endTime": 115.12
+      }
+    ]
+  },
+  {
+    "text": "Trend is a long run increase or decrease over time.",
+    "startTime": 116.22,
+    "endTime": 120.92,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Trend",
+        "startTime": 116.22,
+        "endTime": 116.44
+      },
+      {
+        "word": "is",
+        "startTime": 116.44,
+        "endTime": 117.1
+      },
+      {
+        "word": "a",
+        "startTime": 117.1,
+        "endTime": 117.24
+      },
+      {
+        "word": "long",
+        "startTime": 117.24,
+        "endTime": 117.7
+      },
+      {
+        "word": "run",
+        "startTime": 117.7,
+        "endTime": 117.98
+      },
+      {
+        "word": "increase",
+        "startTime": 117.98,
+        "endTime": 118.68
+      },
+      {
+        "word": "or",
+        "startTime": 118.68,
+        "endTime": 119.12
+      },
+      {
+        "word": "decrease",
+        "startTime": 119.12,
+        "endTime": 119.7
+      },
+      {
+        "word": "over",
+        "startTime": 119.7,
+        "endTime": 120.42
+      },
+      {
+        "word": "time.",
+        "startTime": 120.42,
+        "endTime": 120.92
+      }
+    ]
+  },
+  {
+    "text": "Monthly revenue growing 8 % quarter on quarter.",
+    "startTime": 122.12,
+    "endTime": 126.56,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Monthly",
+        "startTime": 122.12,
+        "endTime": 122.46
+      },
+      {
+        "word": "revenue",
+        "startTime": 122.46,
+        "endTime": 123
+      },
+      {
+        "word": "growing",
+        "startTime": 123,
+        "endTime": 123.42
+      },
+      {
+        "word": "8",
+        "startTime": 123.42,
+        "endTime": 124.08
+      },
+      {
+        "word": "%",
+        "startTime": 124.08,
+        "endTime": 124.5
+      },
+      {
+        "word": "quarter",
+        "startTime": 124.5,
+        "endTime": 125.5
+      },
+      {
+        "word": "on",
+        "startTime": 125.5,
+        "endTime": 125.96
+      },
+      {
+        "word": "quarter.",
+        "startTime": 125.96,
+        "endTime": 126.56
+      }
+    ]
+  },
+  {
+    "text": "Seasonal patterns repeat on a predictable calendar cycle.",
+    "startTime": 127.52,
+    "endTime": 132.26,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Seasonal",
+        "startTime": 127.52,
+        "endTime": 128.4
+      },
+      {
+        "word": "patterns",
+        "startTime": 128.4,
+        "endTime": 128.8
+      },
+      {
+        "word": "repeat",
+        "startTime": 128.8,
+        "endTime": 129.42
+      },
+      {
+        "word": "on",
+        "startTime": 129.42,
+        "endTime": 129.96
+      },
+      {
+        "word": "a",
+        "startTime": 129.96,
+        "endTime": 130.1
+      },
+      {
+        "word": "predictable",
+        "startTime": 130.1,
+        "endTime": 130.8
+      },
+      {
+        "word": "calendar",
+        "startTime": 130.8,
+        "endTime": 131.44
+      },
+      {
+        "word": "cycle.",
+        "startTime": 131.44,
+        "endTime": 132.26
+      }
+    ]
+  },
+  {
+    "text": "Empessa transaction volumes spike in January as school fees are paid.",
+    "startTime": 133.22,
+    "endTime": 139.22,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Empessa",
+        "startTime": 133.22,
+        "endTime": 133.72
+      },
+      {
+        "word": "transaction",
+        "startTime": 133.72,
+        "endTime": 134.48
+      },
+      {
+        "word": "volumes",
+        "startTime": 134.48,
+        "endTime": 135.2
+      },
+      {
+        "word": "spike",
+        "startTime": 135.2,
+        "endTime": 135.92
+      },
+      {
+        "word": "in",
+        "startTime": 135.92,
+        "endTime": 136.4
+      },
+      {
+        "word": "January",
+        "startTime": 136.4,
+        "endTime": 137.12
+      },
+      {
+        "word": "as",
+        "startTime": 137.12,
+        "endTime": 137.62
+      },
+      {
+        "word": "school",
+        "startTime": 137.62,
+        "endTime": 137.96
+      },
+      {
+        "word": "fees",
+        "startTime": 137.96,
+        "endTime": 138.34
+      },
+      {
+        "word": "are",
+        "startTime": 138.34,
+        "endTime": 138.62
+      },
+      {
+        "word": "paid.",
+        "startTime": 138.62,
+        "endTime": 139.22
+      }
+    ]
+  },
+  {
+    "text": "Drop in August during agricultural offseason peak again in December.",
+    "startTime": 140,
+    "endTime": 146.56,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Drop",
+        "startTime": 140,
+        "endTime": 140.2
+      },
+      {
+        "word": "in",
+        "startTime": 140.2,
+        "endTime": 140.62
+      },
+      {
+        "word": "August",
+        "startTime": 140.62,
+        "endTime": 141.32
+      },
+      {
+        "word": "during",
+        "startTime": 141.32,
+        "endTime": 142
+      },
+      {
+        "word": "agricultural",
+        "startTime": 142,
+        "endTime": 142.72
+      },
+      {
+        "word": "offseason",
+        "startTime": 142.72,
+        "endTime": 143.88
+      },
+      {
+        "word": "peak",
+        "startTime": 143.88,
+        "endTime": 144.66
+      },
+      {
+        "word": "again",
+        "startTime": 144.66,
+        "endTime": 145.34
+      },
+      {
+        "word": "in",
+        "startTime": 145.34,
+        "endTime": 145.88
+      },
+      {
+        "word": "December.",
+        "startTime": 145.88,
+        "endTime": 146.56
+      }
+    ]
+  },
+  {
+    "text": "The Kenyan business calendar has patterns that standard global analytics tools do not know about.",
+    "startTime": 147.8,
+    "endTime": 155.24,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 147.8,
+        "endTime": 148.04
+      },
+      {
+        "word": "Kenyan",
+        "startTime": 148.04,
+        "endTime": 148.52
+      },
+      {
+        "word": "business",
+        "startTime": 148.52,
+        "endTime": 148.96
+      },
+      {
+        "word": "calendar",
+        "startTime": 148.96,
+        "endTime": 149.66
+      },
+      {
+        "word": "has",
+        "startTime": 149.66,
+        "endTime": 150.14
+      },
+      {
+        "word": "patterns",
+        "startTime": 150.14,
+        "endTime": 150.6
+      },
+      {
+        "word": "that",
+        "startTime": 150.6,
+        "endTime": 150.94
+      },
+      {
+        "word": "standard",
+        "startTime": 150.94,
+        "endTime": 151.5
+      },
+      {
+        "word": "global",
+        "startTime": 151.5,
+        "endTime": 152.06
+      },
+      {
+        "word": "analytics",
+        "startTime": 152.06,
+        "endTime": 152.76
+      },
+      {
+        "word": "tools",
+        "startTime": 152.76,
+        "endTime": 153.42
+      },
+      {
+        "word": "do",
+        "startTime": 153.42,
+        "endTime": 153.94
+      },
+      {
+        "word": "not",
+        "startTime": 153.94,
+        "endTime": 154.24
+      },
+      {
+        "word": "know",
+        "startTime": 154.24,
+        "endTime": 154.6
+      },
+      {
+        "word": "about.",
+        "startTime": 154.6,
+        "endTime": 155.24
+      }
+    ]
+  },
+  {
+    "text": "School fee payment months January September.",
+    "startTime": 155.98,
+    "endTime": 159.86,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "School",
+        "startTime": 155.98,
+        "endTime": 156.24
+      },
+      {
+        "word": "fee",
+        "startTime": 156.24,
+        "endTime": 156.72
+      },
+      {
+        "word": "payment",
+        "startTime": 156.72,
+        "endTime": 157.16
+      },
+      {
+        "word": "months",
+        "startTime": 157.16,
+        "endTime": 157.78
+      },
+      {
+        "word": "January",
+        "startTime": 157.78,
+        "endTime": 158.66
+      },
+      {
+        "word": "September.",
+        "startTime": 158.66,
+        "endTime": 159.86
+      }
+    ]
+  },
+  {
+    "text": "Salary payment dates 25th to 31st of month.",
+    "startTime": 160.82,
+    "endTime": 165.86,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Salary",
+        "startTime": 160.82,
+        "endTime": 161.32
+      },
+      {
+        "word": "payment",
+        "startTime": 161.32,
+        "endTime": 161.86
+      },
+      {
+        "word": "dates",
+        "startTime": 161.86,
+        "endTime": 162.28
+      },
+      {
+        "word": "25th",
+        "startTime": 162.28,
+        "endTime": 163.86
+      },
+      {
+        "word": "to",
+        "startTime": 163.86,
+        "endTime": 164.18
+      },
+      {
+        "word": "31st",
+        "startTime": 164.18,
+        "endTime": 165.24
+      },
+      {
+        "word": "of",
+        "startTime": 165.24,
+        "endTime": 165.52
+      },
+      {
+        "word": "month.",
+        "startTime": 165.52,
+        "endTime": 165.86
+      }
+    ]
+  },
+  {
+    "text": "Agricultural seasons, long rains march to May, short rains October to December and public holiday clusters all create predictable patterns in East African business data.",
+    "startTime": 166.88,
+    "endTime": 182.74,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Agricultural",
+        "startTime": 166.88,
+        "endTime": 167.62
+      },
+      {
+        "word": "seasons,",
+        "startTime": 167.62,
+        "endTime": 168.34
+      },
+      {
+        "word": "long",
+        "startTime": 168.98,
+        "endTime": 169.14
+      },
+      {
+        "word": "rains",
+        "startTime": 169.14,
+        "endTime": 169.58
+      },
+      {
+        "word": "march",
+        "startTime": 169.58,
+        "endTime": 170.26
+      },
+      {
+        "word": "to",
+        "startTime": 170.26,
+        "endTime": 170.64
+      },
+      {
+        "word": "May,",
+        "startTime": 170.64,
+        "endTime": 170.94
+      },
+      {
+        "word": "short",
+        "startTime": 171.66,
+        "endTime": 171.8
+      },
+      {
+        "word": "rains",
+        "startTime": 171.8,
+        "endTime": 172.22
+      },
+      {
+        "word": "October",
+        "startTime": 172.22,
+        "endTime": 173.08
+      },
+      {
+        "word": "to",
+        "startTime": 173.08,
+        "endTime": 173.76
+      },
+      {
+        "word": "December",
+        "startTime": 173.76,
+        "endTime": 174.38
+      },
+      {
+        "word": "and",
+        "startTime": 174.38,
+        "endTime": 175.24
+      },
+      {
+        "word": "public",
+        "startTime": 175.24,
+        "endTime": 175.76
+      },
+      {
+        "word": "holiday",
+        "startTime": 175.76,
+        "endTime": 176.4
+      },
+      {
+        "word": "clusters",
+        "startTime": 176.4,
+        "endTime": 177.08
+      },
+      {
+        "word": "all",
+        "startTime": 177.08,
+        "endTime": 177.96
+      },
+      {
+        "word": "create",
+        "startTime": 177.96,
+        "endTime": 178.54
+      },
+      {
+        "word": "predictable",
+        "startTime": 178.54,
+        "endTime": 179.42
+      },
+      {
+        "word": "patterns",
+        "startTime": 179.42,
+        "endTime": 179.98
+      },
+      {
+        "word": "in",
+        "startTime": 179.98,
+        "endTime": 180.62
+      },
+      {
+        "word": "East",
+        "startTime": 180.62,
+        "endTime": 181.08
+      },
+      {
+        "word": "African",
+        "startTime": 181.08,
+        "endTime": 181.44
+      },
+      {
+        "word": "business",
+        "startTime": 181.44,
+        "endTime": 182.04
+      },
+      {
+        "word": "data.",
+        "startTime": 182.04,
+        "endTime": 182.74
+      }
+    ]
+  },
+  {
+    "text": "Build these into every pattern analysis prompt as context and your AI output will be far more accurate than any generic analysis tool.",
+    "startTime": 183.68,
+    "endTime": 195.72,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Build",
+        "startTime": 183.68,
+        "endTime": 183.94
+      },
+      {
+        "word": "these",
+        "startTime": 183.94,
+        "endTime": 184.28
+      },
+      {
+        "word": "into",
+        "startTime": 184.28,
+        "endTime": 184.8
+      },
+      {
+        "word": "every",
+        "startTime": 184.8,
+        "endTime": 185.44
+      },
+      {
+        "word": "pattern",
+        "startTime": 185.44,
+        "endTime": 185.94
+      },
+      {
+        "word": "analysis",
+        "startTime": 185.94,
+        "endTime": 186.64
+      },
+      {
+        "word": "prompt",
+        "startTime": 186.64,
+        "endTime": 187.26
+      },
+      {
+        "word": "as",
+        "startTime": 187.26,
+        "endTime": 187.7
+      },
+      {
+        "word": "context",
+        "startTime": 187.7,
+        "endTime": 188.32
+      },
+      {
+        "word": "and",
+        "startTime": 188.32,
+        "endTime": 189.12
+      },
+      {
+        "word": "your",
+        "startTime": 189.12,
+        "endTime": 189.38
+      },
+      {
+        "word": "AI",
+        "startTime": 189.38,
+        "endTime": 189.7
+      },
+      {
+        "word": "output",
+        "startTime": 189.7,
+        "endTime": 190.48
+      },
+      {
+        "word": "will",
+        "startTime": 190.48,
+        "endTime": 191.04
+      },
+      {
+        "word": "be",
+        "startTime": 191.04,
+        "endTime": 191.22
+      },
+      {
+        "word": "far",
+        "startTime": 191.22,
+        "endTime": 191.66
+      },
+      {
+        "word": "more",
+        "startTime": 191.66,
+        "endTime": 191.9
+      },
+      {
+        "word": "accurate",
+        "startTime": 191.9,
+        "endTime": 192.64
+      },
+      {
+        "word": "than",
+        "startTime": 192.64,
+        "endTime": 193.24
+      },
+      {
+        "word": "any",
+        "startTime": 193.24,
+        "endTime": 193.8
+      },
+      {
+        "word": "generic",
+        "startTime": 193.8,
+        "endTime": 194.46
+      },
+      {
+        "word": "analysis",
+        "startTime": 194.46,
+        "endTime": 195.14
+      },
+      {
+        "word": "tool.",
+        "startTime": 195.14,
+        "endTime": 195.72
+      }
+    ]
+  },
+  {
+    "text": "Remember this, never report an anomaly without a hypothesis about its cause.",
+    "startTime": 196.96,
+    "endTime": 204.32,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Remember",
+        "startTime": 196.96,
+        "endTime": 197.7
+      },
+      {
+        "word": "this,",
+        "startTime": 197.7,
+        "endTime": 198.24
+      },
+      {
+        "word": "never",
+        "startTime": 198.78,
+        "endTime": 199.38
+      },
+      {
+        "word": "report",
+        "startTime": 199.38,
+        "endTime": 200.08
+      },
+      {
+        "word": "an",
+        "startTime": 200.08,
+        "endTime": 200.48
+      },
+      {
+        "word": "anomaly",
+        "startTime": 200.48,
+        "endTime": 201.04
+      },
+      {
+        "word": "without",
+        "startTime": 201.04,
+        "endTime": 201.76
+      },
+      {
+        "word": "a",
+        "startTime": 201.76,
+        "endTime": 202.04
+      },
+      {
+        "word": "hypothesis",
+        "startTime": 202.04,
+        "endTime": 202.78
+      },
+      {
+        "word": "about",
+        "startTime": 202.78,
+        "endTime": 203.44
+      },
+      {
+        "word": "its",
+        "startTime": 203.44,
+        "endTime": 203.88
+      },
+      {
+        "word": "cause.",
+        "startTime": 203.88,
+        "endTime": 204.32
+      }
+    ]
+  },
+  {
+    "text": "A spike or drop without an explanation is not a finding.",
+    "startTime": 205.02,
+    "endTime": 210.34,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 205.02,
+        "endTime": 205.24
+      },
+      {
+        "word": "spike",
+        "startTime": 205.24,
+        "endTime": 205.68
+      },
+      {
+        "word": "or",
+        "startTime": 205.68,
+        "endTime": 206.12
+      },
+      {
+        "word": "drop",
+        "startTime": 206.12,
+        "endTime": 206.56
+      },
+      {
+        "word": "without",
+        "startTime": 206.56,
+        "endTime": 207.1
+      },
+      {
+        "word": "an",
+        "startTime": 207.1,
+        "endTime": 207.4
+      },
+      {
+        "word": "explanation",
+        "startTime": 207.4,
+        "endTime": 208.3
+      },
+      {
+        "word": "is",
+        "startTime": 208.3,
+        "endTime": 208.9
+      },
+      {
+        "word": "not",
+        "startTime": 208.9,
+        "endTime": 209.28
+      },
+      {
+        "word": "a",
+        "startTime": 209.28,
+        "endTime": 209.76
+      },
+      {
+        "word": "finding.",
+        "startTime": 209.76,
+        "endTime": 210.34
+      }
+    ]
+  },
+  {
+    "text": "It is a starting point for investigation.",
+    "startTime": 211.02,
+    "endTime": 214.08,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "It",
+        "startTime": 211.02,
+        "endTime": 211.14
+      },
+      {
+        "word": "is",
+        "startTime": 211.14,
+        "endTime": 211.32
+      },
+      {
+        "word": "a",
+        "startTime": 211.32,
+        "endTime": 211.46
+      },
+      {
+        "word": "starting",
+        "startTime": 211.46,
+        "endTime": 212
+      },
+      {
+        "word": "point",
+        "startTime": 212,
+        "endTime": 212.48
+      },
+      {
+        "word": "for",
+        "startTime": 212.48,
+        "endTime": 213.02
+      },
+      {
+        "word": "investigation.",
+        "startTime": 213.02,
+        "endTime": 214.08
+      }
+    ]
+  },
+  {
+    "text": "The pattern tells you where to look.",
+    "startTime": 215.44,
+    "endTime": 217.96,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 215.44,
+        "endTime": 215.58
+      },
+      {
+        "word": "pattern",
+        "startTime": 215.58,
+        "endTime": 216.1
+      },
+      {
+        "word": "tells",
+        "startTime": 216.1,
+        "endTime": 216.76
+      },
+      {
+        "word": "you",
+        "startTime": 216.76,
+        "endTime": 217
+      },
+      {
+        "word": "where",
+        "startTime": 217,
+        "endTime": 217.36
+      },
+      {
+        "word": "to",
+        "startTime": 217.36,
+        "endTime": 217.64
+      },
+      {
+        "word": "look.",
+        "startTime": 217.64,
+        "endTime": 217.96
+      }
+    ]
+  },
+  {
+    "text": "The investigation tells you what actually happened.",
+    "startTime": 218.68,
+    "endTime": 222.74,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 218.68,
+        "endTime": 218.88
+      },
+      {
+        "word": "investigation",
+        "startTime": 218.88,
+        "endTime": 219.9
+      },
+      {
+        "word": "tells",
+        "startTime": 219.9,
+        "endTime": 220.6
+      },
+      {
+        "word": "you",
+        "startTime": 220.6,
+        "endTime": 220.86
+      },
+      {
+        "word": "what",
+        "startTime": 220.86,
+        "endTime": 221.14
+      },
+      {
+        "word": "actually",
+        "startTime": 221.14,
+        "endTime": 221.96
+      },
+      {
+        "word": "happened.",
+        "startTime": 221.96,
+        "endTime": 222.74
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 223.92,
+    "endTime": 229.1,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 223.92,
+        "endTime": 224.34
+      },
+      {
+        "word": "what",
+        "startTime": 224.34,
+        "endTime": 224.64
+      },
+      {
+        "word": "you",
+        "startTime": 224.64,
+        "endTime": 224.82
+      },
+      {
+        "word": "learn",
+        "startTime": 224.82,
+        "endTime": 225.12
+      },
+      {
+        "word": "in",
+        "startTime": 225.12,
+        "endTime": 225.3
+      },
+      {
+        "word": "this",
+        "startTime": 225.3,
+        "endTime": 225.6
+      },
+      {
+        "word": "lesson",
+        "startTime": 225.6,
+        "endTime": 226.06
+      },
+      {
+        "word": "and",
+        "startTime": 226.06,
+        "endTime": 226.64
+      },
+      {
+        "word": "you",
+        "startTime": 226.64,
+        "endTime": 226.82
+      },
+      {
+        "word": "will",
+        "startTime": 226.82,
+        "endTime": 226.98
+      },
+      {
+        "word": "see",
+        "startTime": 226.98,
+        "endTime": 227.28
+      },
+      {
+        "word": "results",
+        "startTime": 227.28,
+        "endTime": 227.86
+      },
+      {
+        "word": "immediately.",
+        "startTime": 227.86,
+        "endTime": 229.1
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 229.94,
+    "endTime": 231.96,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 229.94,
+        "endTime": 230.08
+      },
+      {
+        "word": "skills",
+        "startTime": 230.08,
+        "endTime": 230.76
+      },
+      {
+        "word": "bear",
+        "startTime": 230.76,
+        "endTime": 231.4
+      },
+      {
+        "word": "fruit.",
+        "startTime": 231.4,
+        "endTime": 231.96
+      }
+    ]
+  }
+]

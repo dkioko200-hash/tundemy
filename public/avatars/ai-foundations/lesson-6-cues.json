@@ -1,0 +1,527 @@
+[
+  {
+    "text": "An AI hiring tool used by a major company rejected 76 % of qualified female candidates for technical roles.",
+    "startTime": 0,
+    "endTime": 10.14,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "An",
+        "startTime": 0,
+        "endTime": 0.34
+      },
+      {
+        "word": "AI",
+        "startTime": 0.34,
+        "endTime": 0.68
+      },
+      {
+        "word": "hiring",
+        "startTime": 0.68,
+        "endTime": 1.3
+      },
+      {
+        "word": "tool",
+        "startTime": 1.3,
+        "endTime": 1.82
+      },
+      {
+        "word": "used",
+        "startTime": 1.82,
+        "endTime": 2.42
+      },
+      {
+        "word": "by",
+        "startTime": 2.42,
+        "endTime": 2.64
+      },
+      {
+        "word": "a",
+        "startTime": 2.64,
+        "endTime": 2.78
+      },
+      {
+        "word": "major",
+        "startTime": 2.78,
+        "endTime": 3.14
+      },
+      {
+        "word": "company",
+        "startTime": 3.14,
+        "endTime": 3.8
+      },
+      {
+        "word": "rejected",
+        "startTime": 3.8,
+        "endTime": 4.6
+      },
+      {
+        "word": "76",
+        "startTime": 4.6,
+        "endTime": 5.72
+      },
+      {
+        "word": "%",
+        "startTime": 5.72,
+        "endTime": 6.22
+      },
+      {
+        "word": "of",
+        "startTime": 6.22,
+        "endTime": 6.58
+      },
+      {
+        "word": "qualified",
+        "startTime": 6.58,
+        "endTime": 7.12
+      },
+      {
+        "word": "female",
+        "startTime": 7.12,
+        "endTime": 7.64
+      },
+      {
+        "word": "candidates",
+        "startTime": 7.64,
+        "endTime": 8.24
+      },
+      {
+        "word": "for",
+        "startTime": 8.24,
+        "endTime": 8.9
+      },
+      {
+        "word": "technical",
+        "startTime": 8.9,
+        "endTime": 9.3
+      },
+      {
+        "word": "roles.",
+        "startTime": 9.3,
+        "endTime": 10.14
+      }
+    ]
+  },
+  {
+    "text": "The company did not program discrimination.",
+    "startTime": 10.84,
+    "endTime": 13.52,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 10.84,
+        "endTime": 11.06
+      },
+      {
+        "word": "company",
+        "startTime": 11.06,
+        "endTime": 11.5
+      },
+      {
+        "word": "did",
+        "startTime": 11.5,
+        "endTime": 11.84
+      },
+      {
+        "word": "not",
+        "startTime": 11.84,
+        "endTime": 12.08
+      },
+      {
+        "word": "program",
+        "startTime": 12.08,
+        "endTime": 12.68
+      },
+      {
+        "word": "discrimination.",
+        "startTime": 12.68,
+        "endTime": 13.52
+      }
+    ]
+  },
+  {
+    "text": "The training data did.",
+    "startTime": 14.38,
+    "endTime": 16.38,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 14.38,
+        "endTime": 14.68
+      },
+      {
+        "word": "training",
+        "startTime": 14.68,
+        "endTime": 15.3
+      },
+      {
+        "word": "data",
+        "startTime": 15.3,
+        "endTime": 15.74
+      },
+      {
+        "word": "did.",
+        "startTime": 15.74,
+        "endTime": 16.38
+      }
+    ]
+  },
+  {
+    "text": "Someone built that system.",
+    "startTime": 16.96,
+    "endTime": 19.02,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Someone",
+        "startTime": 16.96,
+        "endTime": 17.5
+      },
+      {
+        "word": "built",
+        "startTime": 17.5,
+        "endTime": 18.04
+      },
+      {
+        "word": "that",
+        "startTime": 18.04,
+        "endTime": 18.38
+      },
+      {
+        "word": "system.",
+        "startTime": 18.38,
+        "endTime": 19.02
+      }
+    ]
+  },
+  {
+    "text": "Someone deployed it.",
+    "startTime": 19.74,
+    "endTime": 21.48,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Someone",
+        "startTime": 19.74,
+        "endTime": 20.18
+      },
+      {
+        "word": "deployed",
+        "startTime": 20.18,
+        "endTime": 21
+      },
+      {
+        "word": "it.",
+        "startTime": 21,
+        "endTime": 21.48
+      }
+    ]
+  },
+  {
+    "text": "Someone is responsible.",
+    "startTime": 22,
+    "endTime": 23.98,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Someone",
+        "startTime": 22,
+        "endTime": 22.58
+      },
+      {
+        "word": "is",
+        "startTime": 22.58,
+        "endTime": 23.22
+      },
+      {
+        "word": "responsible.",
+        "startTime": 23.22,
+        "endTime": 23.98
+      }
+    ]
+  },
+  {
+    "text": "This lesson is about making sure that someone is never you.",
+    "startTime": 23.98,
+    "endTime": 30.26,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "This",
+        "startTime": 23.98,
+        "endTime": 25.7
+      },
+      {
+        "word": "lesson",
+        "startTime": 25.7,
+        "endTime": 26.26
+      },
+      {
+        "word": "is",
+        "startTime": 26.26,
+        "endTime": 26.52
+      },
+      {
+        "word": "about",
+        "startTime": 26.52,
+        "endTime": 26.74
+      },
+      {
+        "word": "making",
+        "startTime": 26.74,
+        "endTime": 27.14
+      },
+      {
+        "word": "sure",
+        "startTime": 27.14,
+        "endTime": 27.58
+      },
+      {
+        "word": "that",
+        "startTime": 27.58,
+        "endTime": 27.84
+      },
+      {
+        "word": "someone",
+        "startTime": 27.84,
+        "endTime": 28.48
+      },
+      {
+        "word": "is",
+        "startTime": 28.48,
+        "endTime": 28.98
+      },
+      {
+        "word": "never",
+        "startTime": 28.98,
+        "endTime": 29.5
+      },
+      {
+        "word": "you.",
+        "startTime": 29.5,
+        "endTime": 30.26
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, bias, accountability, privacy and the professional standards every AI practitioner must understand before deploying AI in any professional context.",
+    "startTime": 31.34,
+    "endTime": 46.58,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 31.34,
+        "endTime": 31.54
+      },
+      {
+        "word": "this",
+        "startTime": 31.54,
+        "endTime": 31.8
+      },
+      {
+        "word": "lesson,",
+        "startTime": 31.8,
+        "endTime": 32.42
+      },
+      {
+        "word": "bias,",
+        "startTime": 32.9,
+        "endTime": 33.38
+      },
+      {
+        "word": "accountability,",
+        "startTime": 34.14,
+        "endTime": 34.82
+      },
+      {
+        "word": "privacy",
+        "startTime": 35.76,
+        "endTime": 36.34
+      },
+      {
+        "word": "and",
+        "startTime": 36.34,
+        "endTime": 36.92
+      },
+      {
+        "word": "the",
+        "startTime": 36.92,
+        "endTime": 37.04
+      },
+      {
+        "word": "professional",
+        "startTime": 37.04,
+        "endTime": 37.52
+      },
+      {
+        "word": "standards",
+        "startTime": 37.52,
+        "endTime": 38.3
+      },
+      {
+        "word": "every",
+        "startTime": 38.3,
+        "endTime": 39
+      },
+      {
+        "word": "AI",
+        "startTime": 39,
+        "endTime": 39.44
+      },
+      {
+        "word": "practitioner",
+        "startTime": 39.44,
+        "endTime": 40.28
+      },
+      {
+        "word": "must",
+        "startTime": 40.28,
+        "endTime": 40.9
+      },
+      {
+        "word": "understand",
+        "startTime": 40.9,
+        "endTime": 41.68
+      },
+      {
+        "word": "before",
+        "startTime": 41.68,
+        "endTime": 42.42
+      },
+      {
+        "word": "deploying",
+        "startTime": 42.42,
+        "endTime": 43.06
+      },
+      {
+        "word": "AI",
+        "startTime": 43.06,
+        "endTime": 43.66
+      },
+      {
+        "word": "in",
+        "startTime": 43.66,
+        "endTime": 44.3
+      },
+      {
+        "word": "any",
+        "startTime": 44.3,
+        "endTime": 44.8
+      },
+      {
+        "word": "professional",
+        "startTime": 44.8,
+        "endTime": 45.52
+      },
+      {
+        "word": "context.",
+        "startTime": 45.52,
+        "endTime": 46.58
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 47.9,
+    "endTime": 52.96,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 47.9,
+        "endTime": 48.36
+      },
+      {
+        "word": "what",
+        "startTime": 48.36,
+        "endTime": 48.66
+      },
+      {
+        "word": "you",
+        "startTime": 48.66,
+        "endTime": 48.82
+      },
+      {
+        "word": "learn",
+        "startTime": 48.82,
+        "endTime": 49.08
+      },
+      {
+        "word": "in",
+        "startTime": 49.08,
+        "endTime": 49.26
+      },
+      {
+        "word": "this",
+        "startTime": 49.26,
+        "endTime": 49.52
+      },
+      {
+        "word": "lesson",
+        "startTime": 49.52,
+        "endTime": 49.98
+      },
+      {
+        "word": "and",
+        "startTime": 49.98,
+        "endTime": 50.54
+      },
+      {
+        "word": "you",
+        "startTime": 50.54,
+        "endTime": 50.78
+      },
+      {
+        "word": "will",
+        "startTime": 50.78,
+        "endTime": 50.96
+      },
+      {
+        "word": "see",
+        "startTime": 50.96,
+        "endTime": 51.3
+      },
+      {
+        "word": "results",
+        "startTime": 51.3,
+        "endTime": 51.88
+      },
+      {
+        "word": "immediately.",
+        "startTime": 51.88,
+        "endTime": 52.96
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 52.96,
+    "endTime": 55.74,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 52.96,
+        "endTime": 53.88
+      },
+      {
+        "word": "skills",
+        "startTime": 53.88,
+        "endTime": 54.56
+      },
+      {
+        "word": "bear",
+        "startTime": 54.56,
+        "endTime": 55.22
+      },
+      {
+        "word": "fruit.",
+        "startTime": 55.22,
+        "endTime": 55.74
+      }
+    ]
+  }
+]

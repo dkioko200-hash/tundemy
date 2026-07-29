@@ -1,0 +1,1430 @@
+[
+  {
+    "text": "Welcome to Welcome to Impesadaraja API.",
+    "startTime": 0,
+    "endTime": 3.8,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "Welcome",
+        "startTime": 0,
+        "endTime": 0.48
+      },
+      {
+        "word": "to",
+        "startTime": 0.48,
+        "endTime": 0.96
+      },
+      {
+        "word": "Welcome",
+        "startTime": 0.96,
+        "endTime": 1.74
+      },
+      {
+        "word": "to",
+        "startTime": 1.74,
+        "endTime": 2.02
+      },
+      {
+        "word": "Impesadaraja",
+        "startTime": 2.02,
+        "endTime": 3.04
+      },
+      {
+        "word": "API.",
+        "startTime": 3.04,
+        "endTime": 3.8
+      }
+    ]
+  },
+  {
+    "text": "I am so glad you are here.",
+    "startTime": 4.88,
+    "endTime": 6.82,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "I",
+        "startTime": 4.88,
+        "endTime": 5.08
+      },
+      {
+        "word": "am",
+        "startTime": 5.08,
+        "endTime": 5.2
+      },
+      {
+        "word": "so",
+        "startTime": 5.2,
+        "endTime": 5.64
+      },
+      {
+        "word": "glad",
+        "startTime": 5.64,
+        "endTime": 6
+      },
+      {
+        "word": "you",
+        "startTime": 6,
+        "endTime": 6.3
+      },
+      {
+        "word": "are",
+        "startTime": 6.3,
+        "endTime": 6.46
+      },
+      {
+        "word": "here.",
+        "startTime": 6.46,
+        "endTime": 6.82
+      }
+    ]
+  },
+  {
+    "text": "An Nairobi e -commerce startup was losing 35 % of sales because customers abandoned checkout when they could not pay with Impesadar.",
+    "startTime": 8.08,
+    "endTime": 18.78,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "An",
+        "startTime": 8.08,
+        "endTime": 8.26
+      },
+      {
+        "word": "Nairobi",
+        "startTime": 8.26,
+        "endTime": 8.78
+      },
+      {
+        "word": "e",
+        "startTime": 8.78,
+        "endTime": 9.3
+      },
+      {
+        "word": "-commerce",
+        "startTime": 9.3,
+        "endTime": 9.58
+      },
+      {
+        "word": "startup",
+        "startTime": 9.58,
+        "endTime": 10.28
+      },
+      {
+        "word": "was",
+        "startTime": 10.28,
+        "endTime": 10.88
+      },
+      {
+        "word": "losing",
+        "startTime": 10.88,
+        "endTime": 11.38
+      },
+      {
+        "word": "35",
+        "startTime": 11.38,
+        "endTime": 12.28
+      },
+      {
+        "word": "%",
+        "startTime": 12.28,
+        "endTime": 12.76
+      },
+      {
+        "word": "of",
+        "startTime": 12.76,
+        "endTime": 13.06
+      },
+      {
+        "word": "sales",
+        "startTime": 13.06,
+        "endTime": 13.58
+      },
+      {
+        "word": "because",
+        "startTime": 13.58,
+        "endTime": 14.16
+      },
+      {
+        "word": "customers",
+        "startTime": 14.16,
+        "endTime": 14.74
+      },
+      {
+        "word": "abandoned",
+        "startTime": 14.74,
+        "endTime": 15.38
+      },
+      {
+        "word": "checkout",
+        "startTime": 15.38,
+        "endTime": 16.02
+      },
+      {
+        "word": "when",
+        "startTime": 16.02,
+        "endTime": 16.64
+      },
+      {
+        "word": "they",
+        "startTime": 16.64,
+        "endTime": 16.84
+      },
+      {
+        "word": "could",
+        "startTime": 16.84,
+        "endTime": 17.04
+      },
+      {
+        "word": "not",
+        "startTime": 17.04,
+        "endTime": 17.28
+      },
+      {
+        "word": "pay",
+        "startTime": 17.28,
+        "endTime": 17.6
+      },
+      {
+        "word": "with",
+        "startTime": 17.6,
+        "endTime": 17.9
+      },
+      {
+        "word": "Impesadar.",
+        "startTime": 17.9,
+        "endTime": 18.78
+      }
+    ]
+  },
+  {
+    "text": "A developer integrated STK push in four days.",
+    "startTime": 19.52,
+    "endTime": 24.6,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 19.52,
+        "endTime": 19.9
+      },
+      {
+        "word": "developer",
+        "startTime": 19.9,
+        "endTime": 20.5
+      },
+      {
+        "word": "integrated",
+        "startTime": 20.5,
+        "endTime": 21.76
+      },
+      {
+        "word": "STK",
+        "startTime": 21.76,
+        "endTime": 22.72
+      },
+      {
+        "word": "push",
+        "startTime": 22.72,
+        "endTime": 23.08
+      },
+      {
+        "word": "in",
+        "startTime": 23.08,
+        "endTime": 23.72
+      },
+      {
+        "word": "four",
+        "startTime": 23.72,
+        "endTime": 24.12
+      },
+      {
+        "word": "days.",
+        "startTime": 24.12,
+        "endTime": 24.6
+      }
+    ]
+  },
+  {
+    "text": "Check out abandonment dropped to 8%.",
+    "startTime": 25.3,
+    "endTime": 29.28,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Check",
+        "startTime": 25.3,
+        "endTime": 25.74
+      },
+      {
+        "word": "out",
+        "startTime": 25.74,
+        "endTime": 26.1
+      },
+      {
+        "word": "abandonment",
+        "startTime": 26.1,
+        "endTime": 27
+      },
+      {
+        "word": "dropped",
+        "startTime": 27,
+        "endTime": 27.54
+      },
+      {
+        "word": "to",
+        "startTime": 27.54,
+        "endTime": 27.92
+      },
+      {
+        "word": "8%.",
+        "startTime": 27.92,
+        "endTime": 29.28
+      }
+    ]
+  },
+  {
+    "text": "Revenue increased by KSH 2 .4 million in the first month.",
+    "startTime": 29.28,
+    "endTime": 36.2,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Revenue",
+        "startTime": 29.28,
+        "endTime": 30.38
+      },
+      {
+        "word": "increased",
+        "startTime": 30.38,
+        "endTime": 31.36
+      },
+      {
+        "word": "by",
+        "startTime": 31.36,
+        "endTime": 31.6
+      },
+      {
+        "word": "KSH",
+        "startTime": 31.6,
+        "endTime": 32.58
+      },
+      {
+        "word": "2",
+        "startTime": 32.58,
+        "endTime": 33.5
+      },
+      {
+        "word": ".4",
+        "startTime": 33.5,
+        "endTime": 34.08
+      },
+      {
+        "word": "million",
+        "startTime": 34.08,
+        "endTime": 34.58
+      },
+      {
+        "word": "in",
+        "startTime": 34.58,
+        "endTime": 35.12
+      },
+      {
+        "word": "the",
+        "startTime": 35.12,
+        "endTime": 35.28
+      },
+      {
+        "word": "first",
+        "startTime": 35.28,
+        "endTime": 35.66
+      },
+      {
+        "word": "month.",
+        "startTime": 35.66,
+        "endTime": 36.2
+      }
+    ]
+  },
+  {
+    "text": "Impesad integration is not a nice to have for Kenyan businesses.",
+    "startTime": 37.26,
+    "endTime": 42.18,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Impesad",
+        "startTime": 37.26,
+        "endTime": 37.96
+      },
+      {
+        "word": "integration",
+        "startTime": 37.96,
+        "endTime": 38.74
+      },
+      {
+        "word": "is",
+        "startTime": 38.74,
+        "endTime": 39.34
+      },
+      {
+        "word": "not",
+        "startTime": 39.34,
+        "endTime": 39.6
+      },
+      {
+        "word": "a",
+        "startTime": 39.6,
+        "endTime": 39.8
+      },
+      {
+        "word": "nice",
+        "startTime": 39.8,
+        "endTime": 40.12
+      },
+      {
+        "word": "to",
+        "startTime": 40.12,
+        "endTime": 40.4
+      },
+      {
+        "word": "have",
+        "startTime": 40.4,
+        "endTime": 40.82
+      },
+      {
+        "word": "for",
+        "startTime": 40.82,
+        "endTime": 41.14
+      },
+      {
+        "word": "Kenyan",
+        "startTime": 41.14,
+        "endTime": 41.52
+      },
+      {
+        "word": "businesses.",
+        "startTime": 41.52,
+        "endTime": 42.18
+      }
+    ]
+  },
+  {
+    "text": "It is the payment system.",
+    "startTime": 42.94,
+    "endTime": 44.7,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "It",
+        "startTime": 42.94,
+        "endTime": 43.1
+      },
+      {
+        "word": "is",
+        "startTime": 43.1,
+        "endTime": 43.3
+      },
+      {
+        "word": "the",
+        "startTime": 43.3,
+        "endTime": 43.48
+      },
+      {
+        "word": "payment",
+        "startTime": 43.48,
+        "endTime": 44.02
+      },
+      {
+        "word": "system.",
+        "startTime": 44.02,
+        "endTime": 44.7
+      }
+    ]
+  },
+  {
+    "text": "By the end of this course you will set up Darajas sandbox credentials and make your first authenticated API call in lesson two.",
+    "startTime": 45.48,
+    "endTime": 55.84,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "By",
+        "startTime": 45.48,
+        "endTime": 45.82
+      },
+      {
+        "word": "the",
+        "startTime": 45.82,
+        "endTime": 46
+      },
+      {
+        "word": "end",
+        "startTime": 46,
+        "endTime": 46.28
+      },
+      {
+        "word": "of",
+        "startTime": 46.28,
+        "endTime": 46.44
+      },
+      {
+        "word": "this",
+        "startTime": 46.44,
+        "endTime": 46.7
+      },
+      {
+        "word": "course",
+        "startTime": 46.7,
+        "endTime": 47.04
+      },
+      {
+        "word": "you",
+        "startTime": 47.04,
+        "endTime": 47.74
+      },
+      {
+        "word": "will",
+        "startTime": 47.74,
+        "endTime": 47.88
+      },
+      {
+        "word": "set",
+        "startTime": 47.88,
+        "endTime": 48.18
+      },
+      {
+        "word": "up",
+        "startTime": 48.18,
+        "endTime": 48.42
+      },
+      {
+        "word": "Darajas",
+        "startTime": 48.42,
+        "endTime": 49.06
+      },
+      {
+        "word": "sandbox",
+        "startTime": 49.06,
+        "endTime": 49.5
+      },
+      {
+        "word": "credentials",
+        "startTime": 49.5,
+        "endTime": 50.36
+      },
+      {
+        "word": "and",
+        "startTime": 50.36,
+        "endTime": 51.12
+      },
+      {
+        "word": "make",
+        "startTime": 51.12,
+        "endTime": 51.36
+      },
+      {
+        "word": "your",
+        "startTime": 51.36,
+        "endTime": 51.66
+      },
+      {
+        "word": "first",
+        "startTime": 51.66,
+        "endTime": 52.18
+      },
+      {
+        "word": "authenticated",
+        "startTime": 52.18,
+        "endTime": 53.32
+      },
+      {
+        "word": "API",
+        "startTime": 53.32,
+        "endTime": 54
+      },
+      {
+        "word": "call",
+        "startTime": 54,
+        "endTime": 54.48
+      },
+      {
+        "word": "in",
+        "startTime": 54.48,
+        "endTime": 55.12
+      },
+      {
+        "word": "lesson",
+        "startTime": 55.12,
+        "endTime": 55.42
+      },
+      {
+        "word": "two.",
+        "startTime": 55.42,
+        "endTime": 55.84
+      }
+    ]
+  },
+  {
+    "text": "You will build a complete STK push flow from initiation through callback to payment confirmation and database record.",
+    "startTime": 56.62,
+    "endTime": 66.96,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 56.62,
+        "endTime": 57.06
+      },
+      {
+        "word": "will",
+        "startTime": 57.06,
+        "endTime": 57.2
+      },
+      {
+        "word": "build",
+        "startTime": 57.2,
+        "endTime": 57.56
+      },
+      {
+        "word": "a",
+        "startTime": 57.56,
+        "endTime": 57.76
+      },
+      {
+        "word": "complete",
+        "startTime": 57.76,
+        "endTime": 58.42
+      },
+      {
+        "word": "STK",
+        "startTime": 58.42,
+        "endTime": 59.54
+      },
+      {
+        "word": "push",
+        "startTime": 59.54,
+        "endTime": 59.94
+      },
+      {
+        "word": "flow",
+        "startTime": 59.94,
+        "endTime": 60.32
+      },
+      {
+        "word": "from",
+        "startTime": 60.32,
+        "endTime": 60.92
+      },
+      {
+        "word": "initiation",
+        "startTime": 60.92,
+        "endTime": 61.64
+      },
+      {
+        "word": "through",
+        "startTime": 62.04,
+        "endTime": 62.64
+      },
+      {
+        "word": "callback",
+        "startTime": 62.64,
+        "endTime": 63.3
+      },
+      {
+        "word": "to",
+        "startTime": 63.3,
+        "endTime": 63.84
+      },
+      {
+        "word": "payment",
+        "startTime": 63.84,
+        "endTime": 64.22
+      },
+      {
+        "word": "confirmation",
+        "startTime": 64.22,
+        "endTime": 65.12
+      },
+      {
+        "word": "and",
+        "startTime": 65.12,
+        "endTime": 65.74
+      },
+      {
+        "word": "database",
+        "startTime": 65.74,
+        "endTime": 66.26
+      },
+      {
+        "word": "record.",
+        "startTime": 66.26,
+        "endTime": 66.96
+      }
+    ]
+  },
+  {
+    "text": "You will implement C2B for incoming payments and B2C for programmatic disbursements to customers and suppliers.",
+    "startTime": 67.52,
+    "endTime": 77.98,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 67.52,
+        "endTime": 68.38
+      },
+      {
+        "word": "will",
+        "startTime": 68.38,
+        "endTime": 68.52
+      },
+      {
+        "word": "implement",
+        "startTime": 68.52,
+        "endTime": 69.12
+      },
+      {
+        "word": "C2B",
+        "startTime": 69.12,
+        "endTime": 70.12
+      },
+      {
+        "word": "for",
+        "startTime": 70.12,
+        "endTime": 70.72
+      },
+      {
+        "word": "incoming",
+        "startTime": 70.72,
+        "endTime": 71.2
+      },
+      {
+        "word": "payments",
+        "startTime": 71.2,
+        "endTime": 71.94
+      },
+      {
+        "word": "and",
+        "startTime": 71.94,
+        "endTime": 72.64
+      },
+      {
+        "word": "B2C",
+        "startTime": 72.64,
+        "endTime": 73.54
+      },
+      {
+        "word": "for",
+        "startTime": 73.54,
+        "endTime": 74.14
+      },
+      {
+        "word": "programmatic",
+        "startTime": 74.14,
+        "endTime": 74.92
+      },
+      {
+        "word": "disbursements",
+        "startTime": 74.92,
+        "endTime": 75.84
+      },
+      {
+        "word": "to",
+        "startTime": 75.84,
+        "endTime": 76.28
+      },
+      {
+        "word": "customers",
+        "startTime": 76.28,
+        "endTime": 76.82
+      },
+      {
+        "word": "and",
+        "startTime": 76.82,
+        "endTime": 77.36
+      },
+      {
+        "word": "suppliers.",
+        "startTime": 77.36,
+        "endTime": 77.98
+      }
+    ]
+  },
+  {
+    "text": "You will handle all Darajas error codes, implement exponential back -off retries and prevent duplicate payments with idempotency keys.",
+    "startTime": 78.82000000000001,
+    "endTime": 90.14,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 78.82000000000001,
+        "endTime": 79.34
+      },
+      {
+        "word": "will",
+        "startTime": 79.34,
+        "endTime": 79.48
+      },
+      {
+        "word": "handle",
+        "startTime": 79.48,
+        "endTime": 79.92
+      },
+      {
+        "word": "all",
+        "startTime": 79.92,
+        "endTime": 80.52
+      },
+      {
+        "word": "Darajas",
+        "startTime": 80.52,
+        "endTime": 81.36
+      },
+      {
+        "word": "error",
+        "startTime": 81.36,
+        "endTime": 81.66
+      },
+      {
+        "word": "codes,",
+        "startTime": 81.66,
+        "endTime": 82.18
+      },
+      {
+        "word": "implement",
+        "startTime": 82.72,
+        "endTime": 83.3
+      },
+      {
+        "word": "exponential",
+        "startTime": 83.3,
+        "endTime": 84.26
+      },
+      {
+        "word": "back",
+        "startTime": 84.26,
+        "endTime": 84.58
+      },
+      {
+        "word": "-off",
+        "startTime": 84.58,
+        "endTime": 84.82
+      },
+      {
+        "word": "retries",
+        "startTime": 84.82,
+        "endTime": 85.5
+      },
+      {
+        "word": "and",
+        "startTime": 85.5,
+        "endTime": 86.2
+      },
+      {
+        "word": "prevent",
+        "startTime": 86.2,
+        "endTime": 86.7
+      },
+      {
+        "word": "duplicate",
+        "startTime": 86.7,
+        "endTime": 87.24
+      },
+      {
+        "word": "payments",
+        "startTime": 87.24,
+        "endTime": 87.76
+      },
+      {
+        "word": "with",
+        "startTime": 87.76,
+        "endTime": 88.4
+      },
+      {
+        "word": "idempotency",
+        "startTime": 88.4,
+        "endTime": 89.54
+      },
+      {
+        "word": "keys.",
+        "startTime": 89.54,
+        "endTime": 90.14
+      }
+    ]
+  },
+  {
+    "text": "And you will deploy a production payment system on railway with full audit logging, receipt generation and a reconciliation report.",
+    "startTime": 90.92,
+    "endTime": 100.84,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "And",
+        "startTime": 90.92,
+        "endTime": 91.14
+      },
+      {
+        "word": "you",
+        "startTime": 91.14,
+        "endTime": 91.3
+      },
+      {
+        "word": "will",
+        "startTime": 91.3,
+        "endTime": 91.42
+      },
+      {
+        "word": "deploy",
+        "startTime": 91.42,
+        "endTime": 91.86
+      },
+      {
+        "word": "a",
+        "startTime": 91.86,
+        "endTime": 92.22
+      },
+      {
+        "word": "production",
+        "startTime": 92.22,
+        "endTime": 92.68
+      },
+      {
+        "word": "payment",
+        "startTime": 92.68,
+        "endTime": 93.3
+      },
+      {
+        "word": "system",
+        "startTime": 93.3,
+        "endTime": 93.82
+      },
+      {
+        "word": "on",
+        "startTime": 93.82,
+        "endTime": 94.16
+      },
+      {
+        "word": "railway",
+        "startTime": 94.16,
+        "endTime": 94.66
+      },
+      {
+        "word": "with",
+        "startTime": 94.66,
+        "endTime": 95.42
+      },
+      {
+        "word": "full",
+        "startTime": 95.42,
+        "endTime": 95.82
+      },
+      {
+        "word": "audit",
+        "startTime": 95.82,
+        "endTime": 96.36
+      },
+      {
+        "word": "logging,",
+        "startTime": 96.36,
+        "endTime": 96.84
+      },
+      {
+        "word": "receipt",
+        "startTime": 97.36,
+        "endTime": 97.6
+      },
+      {
+        "word": "generation",
+        "startTime": 97.6,
+        "endTime": 98.44
+      },
+      {
+        "word": "and",
+        "startTime": 98.44,
+        "endTime": 99.1
+      },
+      {
+        "word": "a",
+        "startTime": 99.1,
+        "endTime": 99.24
+      },
+      {
+        "word": "reconciliation",
+        "startTime": 99.24,
+        "endTime": 100.04
+      },
+      {
+        "word": "report.",
+        "startTime": 100.04,
+        "endTime": 100.84
+      }
+    ]
+  },
+  {
+    "text": "This course has nine lessons and seven hours of content with five hands -on sandboxes.",
+    "startTime": 100.84,
+    "endTime": 109.66,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "This",
+        "startTime": 100.84,
+        "endTime": 102.48
+      },
+      {
+        "word": "course",
+        "startTime": 102.48,
+        "endTime": 102.9
+      },
+      {
+        "word": "has",
+        "startTime": 102.9,
+        "endTime": 103.52
+      },
+      {
+        "word": "nine",
+        "startTime": 103.52,
+        "endTime": 103.86
+      },
+      {
+        "word": "lessons",
+        "startTime": 103.86,
+        "endTime": 104.38
+      },
+      {
+        "word": "and",
+        "startTime": 104.38,
+        "endTime": 105
+      },
+      {
+        "word": "seven",
+        "startTime": 105,
+        "endTime": 105.46
+      },
+      {
+        "word": "hours",
+        "startTime": 105.46,
+        "endTime": 105.88
+      },
+      {
+        "word": "of",
+        "startTime": 105.88,
+        "endTime": 106.1
+      },
+      {
+        "word": "content",
+        "startTime": 106.1,
+        "endTime": 106.66
+      },
+      {
+        "word": "with",
+        "startTime": 106.66,
+        "endTime": 107.32
+      },
+      {
+        "word": "five",
+        "startTime": 107.32,
+        "endTime": 107.82
+      },
+      {
+        "word": "hands",
+        "startTime": 107.82,
+        "endTime": 108.26
+      },
+      {
+        "word": "-on",
+        "startTime": 108.26,
+        "endTime": 108.56
+      },
+      {
+        "word": "sandboxes.",
+        "startTime": 108.56,
+        "endTime": 109.66
+      }
+    ]
+  },
+  {
+    "text": "Your final project is complete Impesad payment system for Duke Asmart, a fictional Kenyan e -commerce platform.",
+    "startTime": 110.36,
+    "endTime": 119.9,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 110.36,
+        "endTime": 110.64
+      },
+      {
+        "word": "final",
+        "startTime": 110.64,
+        "endTime": 111.12
+      },
+      {
+        "word": "project",
+        "startTime": 111.12,
+        "endTime": 111.68
+      },
+      {
+        "word": "is",
+        "startTime": 111.68,
+        "endTime": 112.18
+      },
+      {
+        "word": "complete",
+        "startTime": 112.18,
+        "endTime": 113.24
+      },
+      {
+        "word": "Impesad",
+        "startTime": 113.24,
+        "endTime": 114.12
+      },
+      {
+        "word": "payment",
+        "startTime": 114.12,
+        "endTime": 114.52
+      },
+      {
+        "word": "system",
+        "startTime": 114.52,
+        "endTime": 115.1
+      },
+      {
+        "word": "for",
+        "startTime": 115.1,
+        "endTime": 115.56
+      },
+      {
+        "word": "Duke",
+        "startTime": 115.56,
+        "endTime": 115.84
+      },
+      {
+        "word": "Asmart,",
+        "startTime": 115.84,
+        "endTime": 116.42
+      },
+      {
+        "word": "a",
+        "startTime": 117.06,
+        "endTime": 117.16
+      },
+      {
+        "word": "fictional",
+        "startTime": 117.16,
+        "endTime": 117.72
+      },
+      {
+        "word": "Kenyan",
+        "startTime": 117.72,
+        "endTime": 118.4
+      },
+      {
+        "word": "e",
+        "startTime": 118.4,
+        "endTime": 118.86
+      },
+      {
+        "word": "-commerce",
+        "startTime": 118.86,
+        "endTime": 119.16
+      },
+      {
+        "word": "platform.",
+        "startTime": 119.16,
+        "endTime": 119.9
+      }
+    ]
+  },
+  {
+    "text": "You do not need to code.",
+    "startTime": 120.84,
+    "endTime": 122.42,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 120.84,
+        "endTime": 121.18
+      },
+      {
+        "word": "do",
+        "startTime": 121.18,
+        "endTime": 121.32
+      },
+      {
+        "word": "not",
+        "startTime": 121.32,
+        "endTime": 121.52
+      },
+      {
+        "word": "need",
+        "startTime": 121.52,
+        "endTime": 121.8
+      },
+      {
+        "word": "to",
+        "startTime": 121.8,
+        "endTime": 122.06
+      },
+      {
+        "word": "code.",
+        "startTime": 122.06,
+        "endTime": 122.42
+      }
+    ]
+  },
+  {
+    "text": "You do not need a technology background.",
+    "startTime": 123.16,
+    "endTime": 125.54,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 123.16,
+        "endTime": 123.24
+      },
+      {
+        "word": "do",
+        "startTime": 123.24,
+        "endTime": 123.38
+      },
+      {
+        "word": "not",
+        "startTime": 123.38,
+        "endTime": 123.6
+      },
+      {
+        "word": "need",
+        "startTime": 123.6,
+        "endTime": 123.98
+      },
+      {
+        "word": "a",
+        "startTime": 123.98,
+        "endTime": 124.22
+      },
+      {
+        "word": "technology",
+        "startTime": 124.22,
+        "endTime": 124.82
+      },
+      {
+        "word": "background.",
+        "startTime": 124.82,
+        "endTime": 125.54
+      }
+    ]
+  },
+  {
+    "text": "All you need is the willingness to learn and I will guide you every step of the way.",
+    "startTime": 126.32,
+    "endTime": 132.72,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "All",
+        "startTime": 126.32,
+        "endTime": 126.66
+      },
+      {
+        "word": "you",
+        "startTime": 126.66,
+        "endTime": 126.86
+      },
+      {
+        "word": "need",
+        "startTime": 126.86,
+        "endTime": 127.22
+      },
+      {
+        "word": "is",
+        "startTime": 127.22,
+        "endTime": 127.74
+      },
+      {
+        "word": "the",
+        "startTime": 127.74,
+        "endTime": 127.9
+      },
+      {
+        "word": "willingness",
+        "startTime": 127.9,
+        "endTime": 128.34
+      },
+      {
+        "word": "to",
+        "startTime": 128.34,
+        "endTime": 128.76
+      },
+      {
+        "word": "learn",
+        "startTime": 128.76,
+        "endTime": 129.18
+      },
+      {
+        "word": "and",
+        "startTime": 129.18,
+        "endTime": 129.78
+      },
+      {
+        "word": "I",
+        "startTime": 129.78,
+        "endTime": 129.96
+      },
+      {
+        "word": "will",
+        "startTime": 129.96,
+        "endTime": 130.1
+      },
+      {
+        "word": "guide",
+        "startTime": 130.1,
+        "endTime": 130.46
+      },
+      {
+        "word": "you",
+        "startTime": 130.46,
+        "endTime": 130.8
+      },
+      {
+        "word": "every",
+        "startTime": 130.8,
+        "endTime": 131.38
+      },
+      {
+        "word": "step",
+        "startTime": 131.38,
+        "endTime": 131.82
+      },
+      {
+        "word": "of",
+        "startTime": 131.82,
+        "endTime": 132.24
+      },
+      {
+        "word": "the",
+        "startTime": 132.24,
+        "endTime": 132.46
+      },
+      {
+        "word": "way.",
+        "startTime": 132.46,
+        "endTime": 132.72
+      }
+    ]
+  },
+  {
+    "text": "Your first task is waiting below.",
+    "startTime": 133.62,
+    "endTime": 135.94,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 133.62,
+        "endTime": 133.88
+      },
+      {
+        "word": "first",
+        "startTime": 133.88,
+        "endTime": 134.32
+      },
+      {
+        "word": "task",
+        "startTime": 134.32,
+        "endTime": 134.78
+      },
+      {
+        "word": "is",
+        "startTime": 134.78,
+        "endTime": 135.08
+      },
+      {
+        "word": "waiting",
+        "startTime": 135.08,
+        "endTime": 135.5
+      },
+      {
+        "word": "below.",
+        "startTime": 135.5,
+        "endTime": 135.94
+      }
+    ]
+  },
+  {
+    "text": "I will see you in lesson one.",
+    "startTime": 136.7,
+    "endTime": 138.88,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "I",
+        "startTime": 136.7,
+        "endTime": 136.94
+      },
+      {
+        "word": "will",
+        "startTime": 136.94,
+        "endTime": 137.06
+      },
+      {
+        "word": "see",
+        "startTime": 137.06,
+        "endTime": 137.38
+      },
+      {
+        "word": "you",
+        "startTime": 137.38,
+        "endTime": 137.7
+      },
+      {
+        "word": "in",
+        "startTime": 137.7,
+        "endTime": 138.08
+      },
+      {
+        "word": "lesson",
+        "startTime": 138.08,
+        "endTime": 138.42
+      },
+      {
+        "word": "one.",
+        "startTime": 138.42,
+        "endTime": 138.88
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 139.64,
+    "endTime": 141.4,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 139.64,
+        "endTime": 139.9
+      },
+      {
+        "word": "skills",
+        "startTime": 139.9,
+        "endTime": 140.48
+      },
+      {
+        "word": "bear",
+        "startTime": 140.48,
+        "endTime": 140.98
+      },
+      {
+        "word": "fruit.",
+        "startTime": 140.98,
+        "endTime": 141.4
+      }
+    ]
+  }
+]

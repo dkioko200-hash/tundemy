@@ -1,0 +1,612 @@
+[
+  {
+    "text": "Theory without code is a job interview answer.",
+    "startTime": 0,
+    "endTime": 3.74,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "Theory",
+        "startTime": 0,
+        "endTime": 0.42
+      },
+      {
+        "word": "without",
+        "startTime": 0.42,
+        "endTime": 0.86
+      },
+      {
+        "word": "code",
+        "startTime": 0.86,
+        "endTime": 1.28
+      },
+      {
+        "word": "is",
+        "startTime": 1.28,
+        "endTime": 2.1
+      },
+      {
+        "word": "a",
+        "startTime": 2.1,
+        "endTime": 2.26
+      },
+      {
+        "word": "job",
+        "startTime": 2.26,
+        "endTime": 2.6
+      },
+      {
+        "word": "interview",
+        "startTime": 2.6,
+        "endTime": 3.12
+      },
+      {
+        "word": "answer.",
+        "startTime": 3.12,
+        "endTime": 3.74
+      }
+    ]
+  },
+  {
+    "text": "Code without theory is copy -paste engineering.",
+    "startTime": 4.8,
+    "endTime": 8.92,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Code",
+        "startTime": 4.8,
+        "endTime": 5.08
+      },
+      {
+        "word": "without",
+        "startTime": 5.08,
+        "endTime": 5.48
+      },
+      {
+        "word": "theory",
+        "startTime": 5.48,
+        "endTime": 6.2
+      },
+      {
+        "word": "is",
+        "startTime": 6.2,
+        "endTime": 6.9
+      },
+      {
+        "word": "copy",
+        "startTime": 6.9,
+        "endTime": 7.34
+      },
+      {
+        "word": "-paste",
+        "startTime": 7.34,
+        "endTime": 8
+      },
+      {
+        "word": "engineering.",
+        "startTime": 8,
+        "endTime": 8.92
+      }
+    ]
+  },
+  {
+    "text": "This lesson builds a working RAG pipeline from scratch.",
+    "startTime": 9.940000000000001,
+    "endTime": 15.04,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "This",
+        "startTime": 9.940000000000001,
+        "endTime": 10.52
+      },
+      {
+        "word": "lesson",
+        "startTime": 10.52,
+        "endTime": 10.86
+      },
+      {
+        "word": "builds",
+        "startTime": 10.86,
+        "endTime": 11.26
+      },
+      {
+        "word": "a",
+        "startTime": 11.26,
+        "endTime": 11.56
+      },
+      {
+        "word": "working",
+        "startTime": 11.56,
+        "endTime": 12.16
+      },
+      {
+        "word": "RAG",
+        "startTime": 12.16,
+        "endTime": 13.12
+      },
+      {
+        "word": "pipeline",
+        "startTime": 13.12,
+        "endTime": 13.78
+      },
+      {
+        "word": "from",
+        "startTime": 13.78,
+        "endTime": 14.48
+      },
+      {
+        "word": "scratch.",
+        "startTime": 14.48,
+        "endTime": 15.04
+      }
+    ]
+  },
+  {
+    "text": "Every line explained, every design decision justified.",
+    "startTime": 15.8,
+    "endTime": 20.72,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Every",
+        "startTime": 15.8,
+        "endTime": 16.32
+      },
+      {
+        "word": "line",
+        "startTime": 16.32,
+        "endTime": 16.66
+      },
+      {
+        "word": "explained,",
+        "startTime": 16.66,
+        "endTime": 17.46
+      },
+      {
+        "word": "every",
+        "startTime": 17.9,
+        "endTime": 18.42
+      },
+      {
+        "word": "design",
+        "startTime": 18.42,
+        "endTime": 18.92
+      },
+      {
+        "word": "decision",
+        "startTime": 18.92,
+        "endTime": 19.66
+      },
+      {
+        "word": "justified.",
+        "startTime": 19.66,
+        "endTime": 20.72
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, a minimal RAG pipeline has four components in code.",
+    "startTime": 21.880000000000003,
+    "endTime": 29.1,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 21.880000000000003,
+        "endTime": 22.46
+      },
+      {
+        "word": "this",
+        "startTime": 22.46,
+        "endTime": 22.7
+      },
+      {
+        "word": "lesson,",
+        "startTime": 22.7,
+        "endTime": 23.16
+      },
+      {
+        "word": "a",
+        "startTime": 23.96,
+        "endTime": 24.28
+      },
+      {
+        "word": "minimal",
+        "startTime": 24.28,
+        "endTime": 24.86
+      },
+      {
+        "word": "RAG",
+        "startTime": 24.86,
+        "endTime": 25.74
+      },
+      {
+        "word": "pipeline",
+        "startTime": 25.74,
+        "endTime": 26.4
+      },
+      {
+        "word": "has",
+        "startTime": 26.4,
+        "endTime": 26.98
+      },
+      {
+        "word": "four",
+        "startTime": 26.98,
+        "endTime": 27.38
+      },
+      {
+        "word": "components",
+        "startTime": 27.38,
+        "endTime": 28.16
+      },
+      {
+        "word": "in",
+        "startTime": 28.16,
+        "endTime": 28.66
+      },
+      {
+        "word": "code.",
+        "startTime": 28.66,
+        "endTime": 29.1
+      }
+    ]
+  },
+  {
+    "text": "Document loader reads your source files, text splitter, chunks documents into segments, embedding plus vector store converts chunks to vectors and stores them, and retrieval chain.",
+    "startTime": 30,
+    "endTime": 46.58,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Document",
+        "startTime": 30,
+        "endTime": 30.54
+      },
+      {
+        "word": "loader",
+        "startTime": 30.54,
+        "endTime": 31.26
+      },
+      {
+        "word": "reads",
+        "startTime": 31.26,
+        "endTime": 31.9
+      },
+      {
+        "word": "your",
+        "startTime": 31.9,
+        "endTime": 32.26
+      },
+      {
+        "word": "source",
+        "startTime": 32.26,
+        "endTime": 32.72
+      },
+      {
+        "word": "files,",
+        "startTime": 32.72,
+        "endTime": 33.2
+      },
+      {
+        "word": "text",
+        "startTime": 33.82,
+        "endTime": 34.38
+      },
+      {
+        "word": "splitter,",
+        "startTime": 34.38,
+        "endTime": 35.12
+      },
+      {
+        "word": "chunks",
+        "startTime": 35.82,
+        "endTime": 36.08
+      },
+      {
+        "word": "documents",
+        "startTime": 36.08,
+        "endTime": 36.66
+      },
+      {
+        "word": "into",
+        "startTime": 36.66,
+        "endTime": 37.1
+      },
+      {
+        "word": "segments,",
+        "startTime": 37.1,
+        "endTime": 37.66
+      },
+      {
+        "word": "embedding",
+        "startTime": 38.64,
+        "endTime": 39.32
+      },
+      {
+        "word": "plus",
+        "startTime": 39.32,
+        "endTime": 39.7
+      },
+      {
+        "word": "vector",
+        "startTime": 39.7,
+        "endTime": 40.1
+      },
+      {
+        "word": "store",
+        "startTime": 40.1,
+        "endTime": 40.64
+      },
+      {
+        "word": "converts",
+        "startTime": 40.64,
+        "endTime": 41.5
+      },
+      {
+        "word": "chunks",
+        "startTime": 41.5,
+        "endTime": 42.08
+      },
+      {
+        "word": "to",
+        "startTime": 42.08,
+        "endTime": 42.42
+      },
+      {
+        "word": "vectors",
+        "startTime": 42.42,
+        "endTime": 42.84
+      },
+      {
+        "word": "and",
+        "startTime": 42.84,
+        "endTime": 43.26
+      },
+      {
+        "word": "stores",
+        "startTime": 43.26,
+        "endTime": 43.74
+      },
+      {
+        "word": "them,",
+        "startTime": 43.74,
+        "endTime": 44.12
+      },
+      {
+        "word": "and",
+        "startTime": 44.84,
+        "endTime": 45.26
+      },
+      {
+        "word": "retrieval",
+        "startTime": 45.26,
+        "endTime": 46.18
+      },
+      {
+        "word": "chain.",
+        "startTime": 46.18,
+        "endTime": 46.58
+      }
+    ]
+  },
+  {
+    "text": "Takes queries, finds relevant chunks, generates responses.",
+    "startTime": 47.4,
+    "endTime": 52.82,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Takes",
+        "startTime": 47.4,
+        "endTime": 47.76
+      },
+      {
+        "word": "queries,",
+        "startTime": 47.76,
+        "endTime": 48.42
+      },
+      {
+        "word": "finds",
+        "startTime": 49.12,
+        "endTime": 49.38
+      },
+      {
+        "word": "relevant",
+        "startTime": 49.38,
+        "endTime": 49.88
+      },
+      {
+        "word": "chunks,",
+        "startTime": 49.88,
+        "endTime": 50.46
+      },
+      {
+        "word": "generates",
+        "startTime": 51.24,
+        "endTime": 51.66
+      },
+      {
+        "word": "responses.",
+        "startTime": 51.66,
+        "endTime": 52.82
+      }
+    ]
+  },
+  {
+    "text": "This lesson builds all four using Python, Langchain, Chroma, and the Anthropic API.",
+    "startTime": 53.78,
+    "endTime": 62.2,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "This",
+        "startTime": 53.78,
+        "endTime": 54.36
+      },
+      {
+        "word": "lesson",
+        "startTime": 54.36,
+        "endTime": 54.86
+      },
+      {
+        "word": "builds",
+        "startTime": 54.86,
+        "endTime": 55.22
+      },
+      {
+        "word": "all",
+        "startTime": 55.22,
+        "endTime": 55.7
+      },
+      {
+        "word": "four",
+        "startTime": 55.7,
+        "endTime": 56.14
+      },
+      {
+        "word": "using",
+        "startTime": 56.14,
+        "endTime": 56.84
+      },
+      {
+        "word": "Python,",
+        "startTime": 56.84,
+        "endTime": 57.48
+      },
+      {
+        "word": "Langchain,",
+        "startTime": 58.22,
+        "endTime": 58.72
+      },
+      {
+        "word": "Chroma,",
+        "startTime": 59.46,
+        "endTime": 59.84
+      },
+      {
+        "word": "and",
+        "startTime": 60.34,
+        "endTime": 60.42
+      },
+      {
+        "word": "the",
+        "startTime": 60.42,
+        "endTime": 60.56
+      },
+      {
+        "word": "Anthropic",
+        "startTime": 60.56,
+        "endTime": 61.22
+      },
+      {
+        "word": "API.",
+        "startTime": 61.22,
+        "endTime": 62.2
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 63.42,
+    "endTime": 68.58,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 63.42,
+        "endTime": 63.9
+      },
+      {
+        "word": "what",
+        "startTime": 63.9,
+        "endTime": 64.18
+      },
+      {
+        "word": "you",
+        "startTime": 64.18,
+        "endTime": 64.36
+      },
+      {
+        "word": "learn",
+        "startTime": 64.36,
+        "endTime": 64.72
+      },
+      {
+        "word": "in",
+        "startTime": 64.72,
+        "endTime": 64.92
+      },
+      {
+        "word": "this",
+        "startTime": 64.92,
+        "endTime": 65.2
+      },
+      {
+        "word": "lesson",
+        "startTime": 65.2,
+        "endTime": 65.64
+      },
+      {
+        "word": "and",
+        "startTime": 65.64,
+        "endTime": 66.22
+      },
+      {
+        "word": "you",
+        "startTime": 66.22,
+        "endTime": 66.4
+      },
+      {
+        "word": "will",
+        "startTime": 66.4,
+        "endTime": 66.5
+      },
+      {
+        "word": "see",
+        "startTime": 66.5,
+        "endTime": 66.8
+      },
+      {
+        "word": "results",
+        "startTime": 66.8,
+        "endTime": 67.36
+      },
+      {
+        "word": "immediately.",
+        "startTime": 67.36,
+        "endTime": 68.58
+      }
+    ]
+  },
+  {
+    "text": "Your skills bare fruit.",
+    "startTime": 69.22,
+    "endTime": 71,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 69.22,
+        "endTime": 69.38
+      },
+      {
+        "word": "skills",
+        "startTime": 69.38,
+        "endTime": 69.96
+      },
+      {
+        "word": "bare",
+        "startTime": 69.96,
+        "endTime": 70.42
+      },
+      {
+        "word": "fruit.",
+        "startTime": 70.42,
+        "endTime": 71
+      }
+    ]
+  }
+]

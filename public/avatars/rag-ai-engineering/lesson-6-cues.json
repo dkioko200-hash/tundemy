@@ -1,0 +1,782 @@
+[
+  {
+    "text": "A RAG system running on your laptop is not a product.",
+    "startTime": 0,
+    "endTime": 4.88,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 0,
+        "endTime": 0.22
+      },
+      {
+        "word": "RAG",
+        "startTime": 0.22,
+        "endTime": 0.68
+      },
+      {
+        "word": "system",
+        "startTime": 0.68,
+        "endTime": 1.18
+      },
+      {
+        "word": "running",
+        "startTime": 1.18,
+        "endTime": 1.8
+      },
+      {
+        "word": "on",
+        "startTime": 1.8,
+        "endTime": 2
+      },
+      {
+        "word": "your",
+        "startTime": 2,
+        "endTime": 2.22
+      },
+      {
+        "word": "laptop",
+        "startTime": 2.22,
+        "endTime": 2.78
+      },
+      {
+        "word": "is",
+        "startTime": 2.78,
+        "endTime": 3.42
+      },
+      {
+        "word": "not",
+        "startTime": 3.42,
+        "endTime": 3.76
+      },
+      {
+        "word": "a",
+        "startTime": 3.76,
+        "endTime": 4.26
+      },
+      {
+        "word": "product.",
+        "startTime": 4.26,
+        "endTime": 4.88
+      }
+    ]
+  },
+  {
+    "text": "A RAG system that handles 1000 queries per day, maintains low latency, keeps costs under control and does not leak one user's documents to another user, that is a product.",
+    "startTime": 5.68,
+    "endTime": 20.96,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 5.68,
+        "endTime": 6.12
+      },
+      {
+        "word": "RAG",
+        "startTime": 6.12,
+        "endTime": 6.48
+      },
+      {
+        "word": "system",
+        "startTime": 6.48,
+        "endTime": 6.92
+      },
+      {
+        "word": "that",
+        "startTime": 6.92,
+        "endTime": 7.14
+      },
+      {
+        "word": "handles",
+        "startTime": 7.14,
+        "endTime": 7.64
+      },
+      {
+        "word": "1000",
+        "startTime": 7.64,
+        "endTime": 8.52
+      },
+      {
+        "word": "queries",
+        "startTime": 8.52,
+        "endTime": 9.04
+      },
+      {
+        "word": "per",
+        "startTime": 9.04,
+        "endTime": 9.38
+      },
+      {
+        "word": "day,",
+        "startTime": 9.38,
+        "endTime": 9.78
+      },
+      {
+        "word": "maintains",
+        "startTime": 10.3,
+        "endTime": 10.9
+      },
+      {
+        "word": "low",
+        "startTime": 10.9,
+        "endTime": 11.2
+      },
+      {
+        "word": "latency,",
+        "startTime": 11.2,
+        "endTime": 11.86
+      },
+      {
+        "word": "keeps",
+        "startTime": 12.64,
+        "endTime": 12.84
+      },
+      {
+        "word": "costs",
+        "startTime": 12.84,
+        "endTime": 13.3
+      },
+      {
+        "word": "under",
+        "startTime": 13.3,
+        "endTime": 13.76
+      },
+      {
+        "word": "control",
+        "startTime": 13.76,
+        "endTime": 14.38
+      },
+      {
+        "word": "and",
+        "startTime": 14.38,
+        "endTime": 15
+      },
+      {
+        "word": "does",
+        "startTime": 15,
+        "endTime": 15.22
+      },
+      {
+        "word": "not",
+        "startTime": 15.22,
+        "endTime": 15.44
+      },
+      {
+        "word": "leak",
+        "startTime": 15.44,
+        "endTime": 15.82
+      },
+      {
+        "word": "one",
+        "startTime": 15.82,
+        "endTime": 16.28
+      },
+      {
+        "word": "user's",
+        "startTime": 16.28,
+        "endTime": 16.96
+      },
+      {
+        "word": "documents",
+        "startTime": 16.96,
+        "endTime": 17.4
+      },
+      {
+        "word": "to",
+        "startTime": 17.4,
+        "endTime": 17.72
+      },
+      {
+        "word": "another",
+        "startTime": 17.72,
+        "endTime": 18.08
+      },
+      {
+        "word": "user,",
+        "startTime": 18.08,
+        "endTime": 18.64
+      },
+      {
+        "word": "that",
+        "startTime": 19.18,
+        "endTime": 19.62
+      },
+      {
+        "word": "is",
+        "startTime": 19.62,
+        "endTime": 20.34
+      },
+      {
+        "word": "a",
+        "startTime": 20.34,
+        "endTime": 20.48
+      },
+      {
+        "word": "product.",
+        "startTime": 20.48,
+        "endTime": 20.96
+      }
+    ]
+  },
+  {
+    "text": "This lesson builds the production version.",
+    "startTime": 22.46,
+    "endTime": 25.68,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "This",
+        "startTime": 22.46,
+        "endTime": 23.02
+      },
+      {
+        "word": "lesson",
+        "startTime": 23.02,
+        "endTime": 23.54
+      },
+      {
+        "word": "builds",
+        "startTime": 23.54,
+        "endTime": 24.26
+      },
+      {
+        "word": "the",
+        "startTime": 24.26,
+        "endTime": 24.56
+      },
+      {
+        "word": "production",
+        "startTime": 24.56,
+        "endTime": 25.06
+      },
+      {
+        "word": "version.",
+        "startTime": 25.06,
+        "endTime": 25.68
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, production RAG systems add four concerns that development rag ignores.",
+    "startTime": 26.4,
+    "endTime": 35.54,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 26.4,
+        "endTime": 26.96
+      },
+      {
+        "word": "this",
+        "startTime": 26.96,
+        "endTime": 27.26
+      },
+      {
+        "word": "lesson,",
+        "startTime": 27.26,
+        "endTime": 27.9
+      },
+      {
+        "word": "production",
+        "startTime": 28.66,
+        "endTime": 29.24
+      },
+      {
+        "word": "RAG",
+        "startTime": 29.24,
+        "endTime": 30.24
+      },
+      {
+        "word": "systems",
+        "startTime": 30.24,
+        "endTime": 31.08
+      },
+      {
+        "word": "add",
+        "startTime": 31.08,
+        "endTime": 31.64
+      },
+      {
+        "word": "four",
+        "startTime": 31.64,
+        "endTime": 32.06
+      },
+      {
+        "word": "concerns",
+        "startTime": 32.06,
+        "endTime": 32.62
+      },
+      {
+        "word": "that",
+        "startTime": 32.62,
+        "endTime": 33.32
+      },
+      {
+        "word": "development",
+        "startTime": 33.32,
+        "endTime": 34.02
+      },
+      {
+        "word": "rag",
+        "startTime": 34.02,
+        "endTime": 34.44
+      },
+      {
+        "word": "ignores.",
+        "startTime": 34.44,
+        "endTime": 35.54
+      }
+    ]
+  },
+  {
+    "text": "Latency queries must return in under two seconds for good UX.",
+    "startTime": 36.48,
+    "endTime": 41.66,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Latency",
+        "startTime": 36.48,
+        "endTime": 37.12
+      },
+      {
+        "word": "queries",
+        "startTime": 37.12,
+        "endTime": 38.08
+      },
+      {
+        "word": "must",
+        "startTime": 38.08,
+        "endTime": 38.4
+      },
+      {
+        "word": "return",
+        "startTime": 38.4,
+        "endTime": 38.9
+      },
+      {
+        "word": "in",
+        "startTime": 38.9,
+        "endTime": 39.24
+      },
+      {
+        "word": "under",
+        "startTime": 39.24,
+        "endTime": 39.6
+      },
+      {
+        "word": "two",
+        "startTime": 39.6,
+        "endTime": 39.96
+      },
+      {
+        "word": "seconds",
+        "startTime": 39.96,
+        "endTime": 40.4
+      },
+      {
+        "word": "for",
+        "startTime": 40.4,
+        "endTime": 40.74
+      },
+      {
+        "word": "good",
+        "startTime": 40.74,
+        "endTime": 41.1
+      },
+      {
+        "word": "UX.",
+        "startTime": 41.1,
+        "endTime": 41.66
+      }
+    ]
+  },
+  {
+    "text": "Cost, at scale, embedding and LLMAPI calls add up, $0 .05 per query times $10 ,000 daily queries equals $500 per month.",
+    "startTime": 42.62,
+    "endTime": 58.8,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Cost,",
+        "startTime": 42.62,
+        "endTime": 43.24
+      },
+      {
+        "word": "at",
+        "startTime": 43.86,
+        "endTime": 44.28
+      },
+      {
+        "word": "scale,",
+        "startTime": 44.28,
+        "endTime": 44.86
+      },
+      {
+        "word": "embedding",
+        "startTime": 45.48,
+        "endTime": 46.12
+      },
+      {
+        "word": "and",
+        "startTime": 46.12,
+        "endTime": 46.48
+      },
+      {
+        "word": "LLMAPI",
+        "startTime": 46.48,
+        "endTime": 47.82
+      },
+      {
+        "word": "calls",
+        "startTime": 47.82,
+        "endTime": 48.4
+      },
+      {
+        "word": "add",
+        "startTime": 48.4,
+        "endTime": 48.9
+      },
+      {
+        "word": "up,",
+        "startTime": 48.9,
+        "endTime": 49.24
+      },
+      {
+        "word": "$0",
+        "startTime": 49.66,
+        "endTime": 50.14
+      },
+      {
+        "word": ".05",
+        "startTime": 50.14,
+        "endTime": 51.32
+      },
+      {
+        "word": "per",
+        "startTime": 51.32,
+        "endTime": 52.1
+      },
+      {
+        "word": "query",
+        "startTime": 52.1,
+        "endTime": 52.64
+      },
+      {
+        "word": "times",
+        "startTime": 52.64,
+        "endTime": 53.4
+      },
+      {
+        "word": "$10",
+        "startTime": 53.4,
+        "endTime": 53.92
+      },
+      {
+        "word": ",000",
+        "startTime": 53.92,
+        "endTime": 54.42
+      },
+      {
+        "word": "daily",
+        "startTime": 54.42,
+        "endTime": 54.76
+      },
+      {
+        "word": "queries",
+        "startTime": 54.76,
+        "endTime": 55.38
+      },
+      {
+        "word": "equals",
+        "startTime": 55.38,
+        "endTime": 56.26
+      },
+      {
+        "word": "$500",
+        "startTime": 56.26,
+        "endTime": 57.38
+      },
+      {
+        "word": "per",
+        "startTime": 57.38,
+        "endTime": 58.22
+      },
+      {
+        "word": "month.",
+        "startTime": 58.22,
+        "endTime": 58.8
+      }
+    ]
+  },
+  {
+    "text": "Security, multi -tenant systems must ensure users only retrieve documents they own, and observability.",
+    "startTime": 59.74,
+    "endTime": 69.78,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Security,",
+        "startTime": 59.74,
+        "endTime": 60.94
+      },
+      {
+        "word": "multi",
+        "startTime": 61.6,
+        "endTime": 62.02
+      },
+      {
+        "word": "-tenant",
+        "startTime": 62.02,
+        "endTime": 62.42
+      },
+      {
+        "word": "systems",
+        "startTime": 62.42,
+        "endTime": 63.14
+      },
+      {
+        "word": "must",
+        "startTime": 63.14,
+        "endTime": 63.64
+      },
+      {
+        "word": "ensure",
+        "startTime": 63.64,
+        "endTime": 64.04
+      },
+      {
+        "word": "users",
+        "startTime": 64.04,
+        "endTime": 64.68
+      },
+      {
+        "word": "only",
+        "startTime": 64.68,
+        "endTime": 65.3
+      },
+      {
+        "word": "retrieve",
+        "startTime": 65.3,
+        "endTime": 65.78
+      },
+      {
+        "word": "documents",
+        "startTime": 65.78,
+        "endTime": 66.48
+      },
+      {
+        "word": "they",
+        "startTime": 66.48,
+        "endTime": 66.9
+      },
+      {
+        "word": "own,",
+        "startTime": 66.9,
+        "endTime": 67.38
+      },
+      {
+        "word": "and",
+        "startTime": 67.96,
+        "endTime": 68.38
+      },
+      {
+        "word": "observability.",
+        "startTime": 68.38,
+        "endTime": 69.78
+      }
+    ]
+  },
+  {
+    "text": "You need to know when the system is failing in production without waiting for user complaints.",
+    "startTime": 70.28,
+    "endTime": 77.2,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 70.28,
+        "endTime": 70.72
+      },
+      {
+        "word": "need",
+        "startTime": 70.72,
+        "endTime": 71.04
+      },
+      {
+        "word": "to",
+        "startTime": 71.04,
+        "endTime": 71.32
+      },
+      {
+        "word": "know",
+        "startTime": 71.32,
+        "endTime": 71.64
+      },
+      {
+        "word": "when",
+        "startTime": 71.64,
+        "endTime": 71.98
+      },
+      {
+        "word": "the",
+        "startTime": 71.98,
+        "endTime": 72.14
+      },
+      {
+        "word": "system",
+        "startTime": 72.14,
+        "endTime": 72.56
+      },
+      {
+        "word": "is",
+        "startTime": 72.56,
+        "endTime": 72.88
+      },
+      {
+        "word": "failing",
+        "startTime": 72.88,
+        "endTime": 73.4
+      },
+      {
+        "word": "in",
+        "startTime": 73.4,
+        "endTime": 73.74
+      },
+      {
+        "word": "production",
+        "startTime": 73.74,
+        "endTime": 74.34
+      },
+      {
+        "word": "without",
+        "startTime": 74.34,
+        "endTime": 75.18
+      },
+      {
+        "word": "waiting",
+        "startTime": 75.18,
+        "endTime": 75.8
+      },
+      {
+        "word": "for",
+        "startTime": 75.8,
+        "endTime": 76.12
+      },
+      {
+        "word": "user",
+        "startTime": 76.12,
+        "endTime": 76.52
+      },
+      {
+        "word": "complaints.",
+        "startTime": 76.52,
+        "endTime": 77.2
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 78.68,
+    "endTime": 84.1,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 78.68,
+        "endTime": 79.16
+      },
+      {
+        "word": "what",
+        "startTime": 79.16,
+        "endTime": 79.5
+      },
+      {
+        "word": "you",
+        "startTime": 79.5,
+        "endTime": 79.7
+      },
+      {
+        "word": "learn",
+        "startTime": 79.7,
+        "endTime": 80.08
+      },
+      {
+        "word": "in",
+        "startTime": 80.08,
+        "endTime": 80.38
+      },
+      {
+        "word": "this",
+        "startTime": 80.38,
+        "endTime": 80.66
+      },
+      {
+        "word": "lesson",
+        "startTime": 80.66,
+        "endTime": 81.16
+      },
+      {
+        "word": "and",
+        "startTime": 81.16,
+        "endTime": 81.74
+      },
+      {
+        "word": "you",
+        "startTime": 81.74,
+        "endTime": 81.94
+      },
+      {
+        "word": "will",
+        "startTime": 81.94,
+        "endTime": 82.1
+      },
+      {
+        "word": "see",
+        "startTime": 82.1,
+        "endTime": 82.4
+      },
+      {
+        "word": "results",
+        "startTime": 82.4,
+        "endTime": 82.96
+      },
+      {
+        "word": "immediately.",
+        "startTime": 82.96,
+        "endTime": 84.1
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 84.76,
+    "endTime": 86.66,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 84.76,
+        "endTime": 84.94
+      },
+      {
+        "word": "skills",
+        "startTime": 84.94,
+        "endTime": 85.58
+      },
+      {
+        "word": "bear",
+        "startTime": 85.58,
+        "endTime": 86.22
+      },
+      {
+        "word": "fruit.",
+        "startTime": 86.22,
+        "endTime": 86.66
+      }
+    ]
+  }
+]

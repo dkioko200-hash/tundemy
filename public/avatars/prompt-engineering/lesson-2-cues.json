@@ -1,0 +1,1442 @@
+[
+  {
+    "text": "The same task briefed two different ways to the same AI model produces outputs so different they look like they came from different tools.",
+    "startTime": 0,
+    "endTime": 11.48,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 0,
+        "endTime": 0.28
+      },
+      {
+        "word": "same",
+        "startTime": 0.28,
+        "endTime": 0.8
+      },
+      {
+        "word": "task",
+        "startTime": 0.8,
+        "endTime": 1.26
+      },
+      {
+        "word": "briefed",
+        "startTime": 1.26,
+        "endTime": 2.14
+      },
+      {
+        "word": "two",
+        "startTime": 2.14,
+        "endTime": 2.52
+      },
+      {
+        "word": "different",
+        "startTime": 2.52,
+        "endTime": 2.9
+      },
+      {
+        "word": "ways",
+        "startTime": 2.9,
+        "endTime": 3.32
+      },
+      {
+        "word": "to",
+        "startTime": 3.32,
+        "endTime": 3.9
+      },
+      {
+        "word": "the",
+        "startTime": 3.9,
+        "endTime": 4.04
+      },
+      {
+        "word": "same",
+        "startTime": 4.04,
+        "endTime": 4.58
+      },
+      {
+        "word": "AI",
+        "startTime": 4.58,
+        "endTime": 4.96
+      },
+      {
+        "word": "model",
+        "startTime": 4.96,
+        "endTime": 5.58
+      },
+      {
+        "word": "produces",
+        "startTime": 5.58,
+        "endTime": 6.6
+      },
+      {
+        "word": "outputs",
+        "startTime": 6.6,
+        "endTime": 7.36
+      },
+      {
+        "word": "so",
+        "startTime": 7.36,
+        "endTime": 7.88
+      },
+      {
+        "word": "different",
+        "startTime": 7.88,
+        "endTime": 8.48
+      },
+      {
+        "word": "they",
+        "startTime": 8.48,
+        "endTime": 9.08
+      },
+      {
+        "word": "look",
+        "startTime": 9.08,
+        "endTime": 9.34
+      },
+      {
+        "word": "like",
+        "startTime": 9.34,
+        "endTime": 9.6
+      },
+      {
+        "word": "they",
+        "startTime": 9.6,
+        "endTime": 9.82
+      },
+      {
+        "word": "came",
+        "startTime": 9.82,
+        "endTime": 10.12
+      },
+      {
+        "word": "from",
+        "startTime": 10.12,
+        "endTime": 10.42
+      },
+      {
+        "word": "different",
+        "startTime": 10.42,
+        "endTime": 10.88
+      },
+      {
+        "word": "tools.",
+        "startTime": 10.88,
+        "endTime": 11.48
+      }
+    ]
+  },
+  {
+    "text": "The only variable is context and role.",
+    "startTime": 12.68,
+    "endTime": 16.08,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 12.68,
+        "endTime": 12.74
+      },
+      {
+        "word": "only",
+        "startTime": 12.74,
+        "endTime": 13.28
+      },
+      {
+        "word": "variable",
+        "startTime": 13.28,
+        "endTime": 14.04
+      },
+      {
+        "word": "is",
+        "startTime": 14.04,
+        "endTime": 14.48
+      },
+      {
+        "word": "context",
+        "startTime": 14.48,
+        "endTime": 15.06
+      },
+      {
+        "word": "and",
+        "startTime": 15.06,
+        "endTime": 15.66
+      },
+      {
+        "word": "role.",
+        "startTime": 15.66,
+        "endTime": 16.08
+      }
+    ]
+  },
+  {
+    "text": "This lesson shows you exactly how to use both.",
+    "startTime": 17.06,
+    "endTime": 20.9,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "This",
+        "startTime": 17.06,
+        "endTime": 17.46
+      },
+      {
+        "word": "lesson",
+        "startTime": 17.46,
+        "endTime": 17.9
+      },
+      {
+        "word": "shows",
+        "startTime": 17.9,
+        "endTime": 18.24
+      },
+      {
+        "word": "you",
+        "startTime": 18.24,
+        "endTime": 18.52
+      },
+      {
+        "word": "exactly",
+        "startTime": 18.52,
+        "endTime": 19.14
+      },
+      {
+        "word": "how",
+        "startTime": 19.14,
+        "endTime": 19.68
+      },
+      {
+        "word": "to",
+        "startTime": 19.68,
+        "endTime": 19.9
+      },
+      {
+        "word": "use",
+        "startTime": 19.9,
+        "endTime": 20.28
+      },
+      {
+        "word": "both.",
+        "startTime": 20.28,
+        "endTime": 20.9
+      }
+    ]
+  },
+  {
+    "text": "In this lesson how role calibrates vocabulary expertise and perspective and how context eliminates the assumptions that produce generic useless output.",
+    "startTime": 22.28,
+    "endTime": 35.78,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 22.28,
+        "endTime": 22.6
+      },
+      {
+        "word": "this",
+        "startTime": 22.6,
+        "endTime": 22.86
+      },
+      {
+        "word": "lesson",
+        "startTime": 22.86,
+        "endTime": 23.34
+      },
+      {
+        "word": "how",
+        "startTime": 23.34,
+        "endTime": 24.22
+      },
+      {
+        "word": "role",
+        "startTime": 24.22,
+        "endTime": 24.74
+      },
+      {
+        "word": "calibrates",
+        "startTime": 24.74,
+        "endTime": 25.54
+      },
+      {
+        "word": "vocabulary",
+        "startTime": 25.54,
+        "endTime": 26.14
+      },
+      {
+        "word": "expertise",
+        "startTime": 26.14,
+        "endTime": 26.96
+      },
+      {
+        "word": "and",
+        "startTime": 26.96,
+        "endTime": 27.24
+      },
+      {
+        "word": "perspective",
+        "startTime": 27.24,
+        "endTime": 27.92
+      },
+      {
+        "word": "and",
+        "startTime": 27.92,
+        "endTime": 29.18
+      },
+      {
+        "word": "how",
+        "startTime": 29.18,
+        "endTime": 29.44
+      },
+      {
+        "word": "context",
+        "startTime": 29.44,
+        "endTime": 30.14
+      },
+      {
+        "word": "eliminates",
+        "startTime": 30.14,
+        "endTime": 31.1
+      },
+      {
+        "word": "the",
+        "startTime": 31.1,
+        "endTime": 31.6
+      },
+      {
+        "word": "assumptions",
+        "startTime": 31.6,
+        "endTime": 32.3
+      },
+      {
+        "word": "that",
+        "startTime": 32.3,
+        "endTime": 32.84
+      },
+      {
+        "word": "produce",
+        "startTime": 32.84,
+        "endTime": 33.26
+      },
+      {
+        "word": "generic",
+        "startTime": 33.26,
+        "endTime": 34.06
+      },
+      {
+        "word": "useless",
+        "startTime": 34.06,
+        "endTime": 34.86
+      },
+      {
+        "word": "output.",
+        "startTime": 34.86,
+        "endTime": 35.78
+      }
+    ]
+  },
+  {
+    "text": "We cover why role is the highest leverage component in any prompt.",
+    "startTime": 37.06,
+    "endTime": 43.06,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "We",
+        "startTime": 37.06,
+        "endTime": 37.36
+      },
+      {
+        "word": "cover",
+        "startTime": 37.36,
+        "endTime": 37.82
+      },
+      {
+        "word": "why",
+        "startTime": 37.82,
+        "endTime": 38.68
+      },
+      {
+        "word": "role",
+        "startTime": 38.68,
+        "endTime": 39.12
+      },
+      {
+        "word": "is",
+        "startTime": 39.12,
+        "endTime": 39.58
+      },
+      {
+        "word": "the",
+        "startTime": 39.58,
+        "endTime": 39.76
+      },
+      {
+        "word": "highest",
+        "startTime": 39.76,
+        "endTime": 40.22
+      },
+      {
+        "word": "leverage",
+        "startTime": 40.22,
+        "endTime": 40.66
+      },
+      {
+        "word": "component",
+        "startTime": 40.66,
+        "endTime": 41.4
+      },
+      {
+        "word": "in",
+        "startTime": 41.4,
+        "endTime": 41.98
+      },
+      {
+        "word": "any",
+        "startTime": 41.98,
+        "endTime": 42.5
+      },
+      {
+        "word": "prompt.",
+        "startTime": 42.5,
+        "endTime": 43.06
+      }
+    ]
+  },
+  {
+    "text": "How to write a role that actually changes the output quality?",
+    "startTime": 43.82,
+    "endTime": 48.62,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "How",
+        "startTime": 43.82,
+        "endTime": 44.12
+      },
+      {
+        "word": "to",
+        "startTime": 44.12,
+        "endTime": 44.34
+      },
+      {
+        "word": "write",
+        "startTime": 44.34,
+        "endTime": 44.58
+      },
+      {
+        "word": "a",
+        "startTime": 44.58,
+        "endTime": 44.88
+      },
+      {
+        "word": "role",
+        "startTime": 44.88,
+        "endTime": 45.28
+      },
+      {
+        "word": "that",
+        "startTime": 45.28,
+        "endTime": 45.72
+      },
+      {
+        "word": "actually",
+        "startTime": 45.72,
+        "endTime": 46.4
+      },
+      {
+        "word": "changes",
+        "startTime": 46.4,
+        "endTime": 47.1
+      },
+      {
+        "word": "the",
+        "startTime": 47.1,
+        "endTime": 47.38
+      },
+      {
+        "word": "output",
+        "startTime": 47.38,
+        "endTime": 47.86
+      },
+      {
+        "word": "quality?",
+        "startTime": 47.86,
+        "endTime": 48.62
+      }
+    ]
+  },
+  {
+    "text": "What context does that task description alone cannot?",
+    "startTime": 49.54,
+    "endTime": 54,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "What",
+        "startTime": 49.54,
+        "endTime": 49.86
+      },
+      {
+        "word": "context",
+        "startTime": 49.86,
+        "endTime": 50.64
+      },
+      {
+        "word": "does",
+        "startTime": 50.64,
+        "endTime": 51.12
+      },
+      {
+        "word": "that",
+        "startTime": 51.12,
+        "endTime": 51.42
+      },
+      {
+        "word": "task",
+        "startTime": 51.42,
+        "endTime": 51.82
+      },
+      {
+        "word": "description",
+        "startTime": 51.82,
+        "endTime": 52.44
+      },
+      {
+        "word": "alone",
+        "startTime": 52.44,
+        "endTime": 53.06
+      },
+      {
+        "word": "cannot?",
+        "startTime": 53.06,
+        "endTime": 54
+      }
+    ]
+  },
+  {
+    "text": "And the assumption problem why AI always fills gaps with the average.",
+    "startTime": 55.1,
+    "endTime": 61.52,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "And",
+        "startTime": 55.1,
+        "endTime": 55.36
+      },
+      {
+        "word": "the",
+        "startTime": 55.36,
+        "endTime": 55.56
+      },
+      {
+        "word": "assumption",
+        "startTime": 55.56,
+        "endTime": 56.14
+      },
+      {
+        "word": "problem",
+        "startTime": 56.14,
+        "endTime": 56.86
+      },
+      {
+        "word": "why",
+        "startTime": 56.86,
+        "endTime": 57.68
+      },
+      {
+        "word": "AI",
+        "startTime": 57.68,
+        "endTime": 58.34
+      },
+      {
+        "word": "always",
+        "startTime": 58.34,
+        "endTime": 59.32
+      },
+      {
+        "word": "fills",
+        "startTime": 59.32,
+        "endTime": 59.72
+      },
+      {
+        "word": "gaps",
+        "startTime": 59.72,
+        "endTime": 60.18
+      },
+      {
+        "word": "with",
+        "startTime": 60.18,
+        "endTime": 60.82
+      },
+      {
+        "word": "the",
+        "startTime": 60.82,
+        "endTime": 61.08
+      },
+      {
+        "word": "average.",
+        "startTime": 61.08,
+        "endTime": 61.52
+      }
+    ]
+  },
+  {
+    "text": "Role and context work together to eliminate the two biggest sources of poor AI output.",
+    "startTime": 63.24,
+    "endTime": 71.24,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Role",
+        "startTime": 63.24,
+        "endTime": 63.58
+      },
+      {
+        "word": "and",
+        "startTime": 63.58,
+        "endTime": 63.84
+      },
+      {
+        "word": "context",
+        "startTime": 63.84,
+        "endTime": 64.42
+      },
+      {
+        "word": "work",
+        "startTime": 64.42,
+        "endTime": 64.84
+      },
+      {
+        "word": "together",
+        "startTime": 64.84,
+        "endTime": 65.52
+      },
+      {
+        "word": "to",
+        "startTime": 65.52,
+        "endTime": 66.08
+      },
+      {
+        "word": "eliminate",
+        "startTime": 66.08,
+        "endTime": 66.54
+      },
+      {
+        "word": "the",
+        "startTime": 66.54,
+        "endTime": 66.96
+      },
+      {
+        "word": "two",
+        "startTime": 66.96,
+        "endTime": 67.38
+      },
+      {
+        "word": "biggest",
+        "startTime": 67.38,
+        "endTime": 67.86
+      },
+      {
+        "word": "sources",
+        "startTime": 67.86,
+        "endTime": 68.6
+      },
+      {
+        "word": "of",
+        "startTime": 68.6,
+        "endTime": 69.2
+      },
+      {
+        "word": "poor",
+        "startTime": 69.2,
+        "endTime": 69.64
+      },
+      {
+        "word": "AI",
+        "startTime": 69.64,
+        "endTime": 70.34
+      },
+      {
+        "word": "output.",
+        "startTime": 70.34,
+        "endTime": 71.24
+      }
+    ]
+  },
+  {
+    "text": "Role eliminates expertise ambiguity.",
+    "startTime": 72.4,
+    "endTime": 75.68,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Role",
+        "startTime": 72.4,
+        "endTime": 73.06
+      },
+      {
+        "word": "eliminates",
+        "startTime": 73.06,
+        "endTime": 73.72
+      },
+      {
+        "word": "expertise",
+        "startTime": 73.72,
+        "endTime": 74.76
+      },
+      {
+        "word": "ambiguity.",
+        "startTime": 74.76,
+        "endTime": 75.68
+      }
+    ]
+  },
+  {
+    "text": "It tells AI exactly what knowledge base, vocabulary and perspective to draw from.",
+    "startTime": 76.24,
+    "endTime": 83.6,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "It",
+        "startTime": 76.24,
+        "endTime": 76.5
+      },
+      {
+        "word": "tells",
+        "startTime": 76.5,
+        "endTime": 76.86
+      },
+      {
+        "word": "AI",
+        "startTime": 76.86,
+        "endTime": 77.5
+      },
+      {
+        "word": "exactly",
+        "startTime": 77.5,
+        "endTime": 78.4
+      },
+      {
+        "word": "what",
+        "startTime": 78.4,
+        "endTime": 78.96
+      },
+      {
+        "word": "knowledge",
+        "startTime": 78.96,
+        "endTime": 79.44
+      },
+      {
+        "word": "base,",
+        "startTime": 79.44,
+        "endTime": 79.88
+      },
+      {
+        "word": "vocabulary",
+        "startTime": 79.88,
+        "endTime": 80.88
+      },
+      {
+        "word": "and",
+        "startTime": 80.88,
+        "endTime": 81.5
+      },
+      {
+        "word": "perspective",
+        "startTime": 81.5,
+        "endTime": 82.2
+      },
+      {
+        "word": "to",
+        "startTime": 82.2,
+        "endTime": 82.78
+      },
+      {
+        "word": "draw",
+        "startTime": 82.78,
+        "endTime": 83.12
+      },
+      {
+        "word": "from.",
+        "startTime": 83.12,
+        "endTime": 83.6
+      }
+    ]
+  },
+  {
+    "text": "Context eliminates situation ambiguity.",
+    "startTime": 84.74,
+    "endTime": 88.16,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Context",
+        "startTime": 84.74,
+        "endTime": 85.46
+      },
+      {
+        "word": "eliminates",
+        "startTime": 85.46,
+        "endTime": 86.18
+      },
+      {
+        "word": "situation",
+        "startTime": 86.18,
+        "endTime": 87.18
+      },
+      {
+        "word": "ambiguity.",
+        "startTime": 87.18,
+        "endTime": 88.16
+      }
+    ]
+  },
+  {
+    "text": "It tells AI the specific circumstances, constraints and objectives that make this task different from the generic version.",
+    "startTime": 88.88,
+    "endTime": 99.12,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "It",
+        "startTime": 88.88,
+        "endTime": 89.04
+      },
+      {
+        "word": "tells",
+        "startTime": 89.04,
+        "endTime": 89.46
+      },
+      {
+        "word": "AI",
+        "startTime": 89.46,
+        "endTime": 90.1
+      },
+      {
+        "word": "the",
+        "startTime": 90.1,
+        "endTime": 90.62
+      },
+      {
+        "word": "specific",
+        "startTime": 90.62,
+        "endTime": 91.14
+      },
+      {
+        "word": "circumstances,",
+        "startTime": 91.14,
+        "endTime": 92.3
+      },
+      {
+        "word": "constraints",
+        "startTime": 92.82,
+        "endTime": 93.4
+      },
+      {
+        "word": "and",
+        "startTime": 93.4,
+        "endTime": 94.16
+      },
+      {
+        "word": "objectives",
+        "startTime": 94.16,
+        "endTime": 94.84
+      },
+      {
+        "word": "that",
+        "startTime": 94.84,
+        "endTime": 95.42
+      },
+      {
+        "word": "make",
+        "startTime": 95.42,
+        "endTime": 95.68
+      },
+      {
+        "word": "this",
+        "startTime": 95.68,
+        "endTime": 96.02
+      },
+      {
+        "word": "task",
+        "startTime": 96.02,
+        "endTime": 96.32
+      },
+      {
+        "word": "different",
+        "startTime": 96.32,
+        "endTime": 97.1
+      },
+      {
+        "word": "from",
+        "startTime": 97.1,
+        "endTime": 97.7
+      },
+      {
+        "word": "the",
+        "startTime": 97.7,
+        "endTime": 97.9
+      },
+      {
+        "word": "generic",
+        "startTime": 97.9,
+        "endTime": 98.36
+      },
+      {
+        "word": "version.",
+        "startTime": 98.36,
+        "endTime": 99.12
+      }
+    ]
+  },
+  {
+    "text": "Before writing any prompt ask yourself two questions.",
+    "startTime": 100.08,
+    "endTime": 105.72,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Before",
+        "startTime": 100.08,
+        "endTime": 100.78
+      },
+      {
+        "word": "writing",
+        "startTime": 100.78,
+        "endTime": 101.4
+      },
+      {
+        "word": "any",
+        "startTime": 101.4,
+        "endTime": 102.02
+      },
+      {
+        "word": "prompt",
+        "startTime": 102.02,
+        "endTime": 102.54
+      },
+      {
+        "word": "ask",
+        "startTime": 102.54,
+        "endTime": 103.42
+      },
+      {
+        "word": "yourself",
+        "startTime": 103.42,
+        "endTime": 103.94
+      },
+      {
+        "word": "two",
+        "startTime": 103.94,
+        "endTime": 104.52
+      },
+      {
+        "word": "questions.",
+        "startTime": 104.52,
+        "endTime": 105.72
+      }
+    ]
+  },
+  {
+    "text": "First, what specific expert would produce the best response to this task?",
+    "startTime": 106.7,
+    "endTime": 113.08,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "First,",
+        "startTime": 106.7,
+        "endTime": 106.94
+      },
+      {
+        "word": "what",
+        "startTime": 107.78,
+        "endTime": 108
+      },
+      {
+        "word": "specific",
+        "startTime": 108,
+        "endTime": 108.72
+      },
+      {
+        "word": "expert",
+        "startTime": 108.72,
+        "endTime": 109.54
+      },
+      {
+        "word": "would",
+        "startTime": 109.54,
+        "endTime": 110.02
+      },
+      {
+        "word": "produce",
+        "startTime": 110.02,
+        "endTime": 110.44
+      },
+      {
+        "word": "the",
+        "startTime": 110.44,
+        "endTime": 110.78
+      },
+      {
+        "word": "best",
+        "startTime": 110.78,
+        "endTime": 111.2
+      },
+      {
+        "word": "response",
+        "startTime": 111.2,
+        "endTime": 111.7
+      },
+      {
+        "word": "to",
+        "startTime": 111.7,
+        "endTime": 112.16
+      },
+      {
+        "word": "this",
+        "startTime": 112.16,
+        "endTime": 112.48
+      },
+      {
+        "word": "task?",
+        "startTime": 112.48,
+        "endTime": 113.08
+      }
+    ]
+  },
+  {
+    "text": "Make that your role.",
+    "startTime": 113.74,
+    "endTime": 115.18,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Make",
+        "startTime": 113.74,
+        "endTime": 113.92
+      },
+      {
+        "word": "that",
+        "startTime": 113.92,
+        "endTime": 114.28
+      },
+      {
+        "word": "your",
+        "startTime": 114.28,
+        "endTime": 114.64
+      },
+      {
+        "word": "role.",
+        "startTime": 114.64,
+        "endTime": 115.18
+      }
+    ]
+  },
+  {
+    "text": "Second, what does that expert need to know about my specific situation that they could not know by default?",
+    "startTime": 116.2,
+    "endTime": 124.94,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Second,",
+        "startTime": 116.2,
+        "endTime": 116.66
+      },
+      {
+        "word": "what",
+        "startTime": 117.54,
+        "endTime": 117.76
+      },
+      {
+        "word": "does",
+        "startTime": 117.76,
+        "endTime": 117.96
+      },
+      {
+        "word": "that",
+        "startTime": 117.96,
+        "endTime": 118.18
+      },
+      {
+        "word": "expert",
+        "startTime": 118.18,
+        "endTime": 118.68
+      },
+      {
+        "word": "need",
+        "startTime": 118.68,
+        "endTime": 119.08
+      },
+      {
+        "word": "to",
+        "startTime": 119.08,
+        "endTime": 119.34
+      },
+      {
+        "word": "know",
+        "startTime": 119.34,
+        "endTime": 119.7
+      },
+      {
+        "word": "about",
+        "startTime": 119.7,
+        "endTime": 120.36
+      },
+      {
+        "word": "my",
+        "startTime": 120.36,
+        "endTime": 120.62
+      },
+      {
+        "word": "specific",
+        "startTime": 120.62,
+        "endTime": 121.14
+      },
+      {
+        "word": "situation",
+        "startTime": 121.14,
+        "endTime": 122.14
+      },
+      {
+        "word": "that",
+        "startTime": 122.14,
+        "endTime": 122.68
+      },
+      {
+        "word": "they",
+        "startTime": 122.68,
+        "endTime": 122.9
+      },
+      {
+        "word": "could",
+        "startTime": 122.9,
+        "endTime": 123.14
+      },
+      {
+        "word": "not",
+        "startTime": 123.14,
+        "endTime": 123.44
+      },
+      {
+        "word": "know",
+        "startTime": 123.44,
+        "endTime": 123.88
+      },
+      {
+        "word": "by",
+        "startTime": 123.88,
+        "endTime": 124.32
+      },
+      {
+        "word": "default?",
+        "startTime": 124.32,
+        "endTime": 124.94
+      }
+    ]
+  },
+  {
+    "text": "Make that your context.",
+    "startTime": 125.76,
+    "endTime": 127.48,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Make",
+        "startTime": 125.76,
+        "endTime": 126.06
+      },
+      {
+        "word": "that",
+        "startTime": 126.06,
+        "endTime": 126.42
+      },
+      {
+        "word": "your",
+        "startTime": 126.42,
+        "endTime": 126.8
+      },
+      {
+        "word": "context.",
+        "startTime": 126.8,
+        "endTime": 127.48
+      }
+    ]
+  },
+  {
+    "text": "Remember this.",
+    "startTime": 128.44,
+    "endTime": 129.96,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Remember",
+        "startTime": 128.44,
+        "endTime": 129.3
+      },
+      {
+        "word": "this.",
+        "startTime": 129.3,
+        "endTime": 129.96
+      }
+    ]
+  },
+  {
+    "text": "Role sets the expertise level.",
+    "startTime": 130.58,
+    "endTime": 132.96,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Role",
+        "startTime": 130.58,
+        "endTime": 131.1
+      },
+      {
+        "word": "sets",
+        "startTime": 131.1,
+        "endTime": 131.4
+      },
+      {
+        "word": "the",
+        "startTime": 131.4,
+        "endTime": 131.72
+      },
+      {
+        "word": "expertise",
+        "startTime": 131.72,
+        "endTime": 132.32
+      },
+      {
+        "word": "level.",
+        "startTime": 132.32,
+        "endTime": 132.96
+      }
+    ]
+  },
+  {
+    "text": "Context sets the situation.",
+    "startTime": 133.52,
+    "endTime": 136.14,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Context",
+        "startTime": 133.52,
+        "endTime": 134.42
+      },
+      {
+        "word": "sets",
+        "startTime": 134.42,
+        "endTime": 134.94
+      },
+      {
+        "word": "the",
+        "startTime": 134.94,
+        "endTime": 135.24
+      },
+      {
+        "word": "situation.",
+        "startTime": 135.24,
+        "endTime": 136.14
+      }
+    ]
+  },
+  {
+    "text": "Together they eliminate the two biggest sources of generic output.",
+    "startTime": 136.88,
+    "endTime": 142.46,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Together",
+        "startTime": 136.88,
+        "endTime": 137.52
+      },
+      {
+        "word": "they",
+        "startTime": 137.52,
+        "endTime": 138.12
+      },
+      {
+        "word": "eliminate",
+        "startTime": 138.12,
+        "endTime": 138.68
+      },
+      {
+        "word": "the",
+        "startTime": 138.68,
+        "endTime": 139.02
+      },
+      {
+        "word": "two",
+        "startTime": 139.02,
+        "endTime": 139.42
+      },
+      {
+        "word": "biggest",
+        "startTime": 139.42,
+        "endTime": 139.9
+      },
+      {
+        "word": "sources",
+        "startTime": 139.9,
+        "endTime": 140.58
+      },
+      {
+        "word": "of",
+        "startTime": 140.58,
+        "endTime": 141.1
+      },
+      {
+        "word": "generic",
+        "startTime": 141.1,
+        "endTime": 141.6
+      },
+      {
+        "word": "output.",
+        "startTime": 141.6,
+        "endTime": 142.46
+      }
+    ]
+  },
+  {
+    "text": "Neither works without the other.",
+    "startTime": 143.48,
+    "endTime": 145.92,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Neither",
+        "startTime": 143.48,
+        "endTime": 143.9
+      },
+      {
+        "word": "works",
+        "startTime": 143.9,
+        "endTime": 144.72
+      },
+      {
+        "word": "without",
+        "startTime": 144.72,
+        "endTime": 145.26
+      },
+      {
+        "word": "the",
+        "startTime": 145.26,
+        "endTime": 145.6
+      },
+      {
+        "word": "other.",
+        "startTime": 145.6,
+        "endTime": 145.92
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 147.46,
+    "endTime": 152.7,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 147.46,
+        "endTime": 147.92
+      },
+      {
+        "word": "what",
+        "startTime": 147.92,
+        "endTime": 148.26
+      },
+      {
+        "word": "you",
+        "startTime": 148.26,
+        "endTime": 148.44
+      },
+      {
+        "word": "learn",
+        "startTime": 148.44,
+        "endTime": 148.72
+      },
+      {
+        "word": "in",
+        "startTime": 148.72,
+        "endTime": 148.9
+      },
+      {
+        "word": "this",
+        "startTime": 148.9,
+        "endTime": 149.16
+      },
+      {
+        "word": "lesson",
+        "startTime": 149.16,
+        "endTime": 149.62
+      },
+      {
+        "word": "and",
+        "startTime": 149.62,
+        "endTime": 150.24
+      },
+      {
+        "word": "you",
+        "startTime": 150.24,
+        "endTime": 150.42
+      },
+      {
+        "word": "will",
+        "startTime": 150.42,
+        "endTime": 150.52
+      },
+      {
+        "word": "see",
+        "startTime": 150.52,
+        "endTime": 150.86
+      },
+      {
+        "word": "results",
+        "startTime": 150.86,
+        "endTime": 151.46
+      },
+      {
+        "word": "immediately.",
+        "startTime": 151.46,
+        "endTime": 152.7
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 153.52,
+    "endTime": 155.62,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 153.52,
+        "endTime": 153.7
+      },
+      {
+        "word": "skills",
+        "startTime": 153.7,
+        "endTime": 154.44
+      },
+      {
+        "word": "bear",
+        "startTime": 154.44,
+        "endTime": 154.98
+      },
+      {
+        "word": "fruit.",
+        "startTime": 154.98,
+        "endTime": 155.62
+      }
+    ]
+  }
+]

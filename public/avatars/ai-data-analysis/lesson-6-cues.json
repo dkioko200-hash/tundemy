@@ -1,0 +1,1483 @@
+[
+  {
+    "text": "The best data analysts in any Kenyan organisation are not the ones who produce the most reports.",
+    "startTime": 0,
+    "endTime": 7.8,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 0,
+        "endTime": 0.3
+      },
+      {
+        "word": "best",
+        "startTime": 0.3,
+        "endTime": 0.8
+      },
+      {
+        "word": "data",
+        "startTime": 0.8,
+        "endTime": 1.22
+      },
+      {
+        "word": "analysts",
+        "startTime": 1.22,
+        "endTime": 1.82
+      },
+      {
+        "word": "in",
+        "startTime": 1.82,
+        "endTime": 2.24
+      },
+      {
+        "word": "any",
+        "startTime": 2.24,
+        "endTime": 2.7
+      },
+      {
+        "word": "Kenyan",
+        "startTime": 2.7,
+        "endTime": 3.1
+      },
+      {
+        "word": "organisation",
+        "startTime": 3.1,
+        "endTime": 4.18
+      },
+      {
+        "word": "are",
+        "startTime": 4.18,
+        "endTime": 4.94
+      },
+      {
+        "word": "not",
+        "startTime": 4.94,
+        "endTime": 5.2
+      },
+      {
+        "word": "the",
+        "startTime": 5.2,
+        "endTime": 5.42
+      },
+      {
+        "word": "ones",
+        "startTime": 5.42,
+        "endTime": 5.66
+      },
+      {
+        "word": "who",
+        "startTime": 5.66,
+        "endTime": 5.9
+      },
+      {
+        "word": "produce",
+        "startTime": 5.9,
+        "endTime": 6.32
+      },
+      {
+        "word": "the",
+        "startTime": 6.32,
+        "endTime": 6.66
+      },
+      {
+        "word": "most",
+        "startTime": 6.66,
+        "endTime": 7.12
+      },
+      {
+        "word": "reports.",
+        "startTime": 7.12,
+        "endTime": 7.8
+      }
+    ]
+  },
+  {
+    "text": "They are the ones who have stopped producing reports manually.",
+    "startTime": 8.42,
+    "endTime": 12.72,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "They",
+        "startTime": 8.42,
+        "endTime": 8.78
+      },
+      {
+        "word": "are",
+        "startTime": 8.78,
+        "endTime": 8.9
+      },
+      {
+        "word": "the",
+        "startTime": 8.9,
+        "endTime": 9.04
+      },
+      {
+        "word": "ones",
+        "startTime": 9.04,
+        "endTime": 9.42
+      },
+      {
+        "word": "who",
+        "startTime": 9.42,
+        "endTime": 9.66
+      },
+      {
+        "word": "have",
+        "startTime": 9.66,
+        "endTime": 9.86
+      },
+      {
+        "word": "stopped",
+        "startTime": 9.86,
+        "endTime": 10.22
+      },
+      {
+        "word": "producing",
+        "startTime": 10.22,
+        "endTime": 10.94
+      },
+      {
+        "word": "reports",
+        "startTime": 10.94,
+        "endTime": 11.48
+      },
+      {
+        "word": "manually.",
+        "startTime": 11.48,
+        "endTime": 12.72
+      }
+    ]
+  },
+  {
+    "text": "A report that requires a human to build every week is a workflow waiting to be automated.",
+    "startTime": 13.42,
+    "endTime": 21.24,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 13.42,
+        "endTime": 14.04
+      },
+      {
+        "word": "report",
+        "startTime": 14.04,
+        "endTime": 14.4
+      },
+      {
+        "word": "that",
+        "startTime": 14.4,
+        "endTime": 14.68
+      },
+      {
+        "word": "requires",
+        "startTime": 14.68,
+        "endTime": 15.14
+      },
+      {
+        "word": "a",
+        "startTime": 15.14,
+        "endTime": 15.38
+      },
+      {
+        "word": "human",
+        "startTime": 15.38,
+        "endTime": 15.86
+      },
+      {
+        "word": "to",
+        "startTime": 15.86,
+        "endTime": 16.14
+      },
+      {
+        "word": "build",
+        "startTime": 16.14,
+        "endTime": 16.38
+      },
+      {
+        "word": "every",
+        "startTime": 16.38,
+        "endTime": 17.06
+      },
+      {
+        "word": "week",
+        "startTime": 17.06,
+        "endTime": 17.56
+      },
+      {
+        "word": "is",
+        "startTime": 17.56,
+        "endTime": 18.24
+      },
+      {
+        "word": "a",
+        "startTime": 18.24,
+        "endTime": 18.38
+      },
+      {
+        "word": "workflow",
+        "startTime": 18.38,
+        "endTime": 19.02
+      },
+      {
+        "word": "waiting",
+        "startTime": 19.02,
+        "endTime": 19.8
+      },
+      {
+        "word": "to",
+        "startTime": 19.8,
+        "endTime": 20.14
+      },
+      {
+        "word": "be",
+        "startTime": 20.14,
+        "endTime": 20.32
+      },
+      {
+        "word": "automated.",
+        "startTime": 20.32,
+        "endTime": 21.24
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, automated reporting means defining the report structure once, creating the AI prompts that generate the narrative commentary, and building the workflow so the next analyst or even a non -analyst can run the same report from fresh data in 15 minutes instead of 3 hours.",
+    "startTime": 22.24,
+    "endTime": 47.48,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 22.24,
+        "endTime": 22.74
+      },
+      {
+        "word": "this",
+        "startTime": 22.74,
+        "endTime": 23.04
+      },
+      {
+        "word": "lesson,",
+        "startTime": 23.04,
+        "endTime": 23.5
+      },
+      {
+        "word": "automated",
+        "startTime": 24.1,
+        "endTime": 24.62
+      },
+      {
+        "word": "reporting",
+        "startTime": 24.62,
+        "endTime": 25.46
+      },
+      {
+        "word": "means",
+        "startTime": 25.46,
+        "endTime": 26.16
+      },
+      {
+        "word": "defining",
+        "startTime": 26.16,
+        "endTime": 26.96
+      },
+      {
+        "word": "the",
+        "startTime": 26.96,
+        "endTime": 27.26
+      },
+      {
+        "word": "report",
+        "startTime": 27.26,
+        "endTime": 27.6
+      },
+      {
+        "word": "structure",
+        "startTime": 27.6,
+        "endTime": 28.28
+      },
+      {
+        "word": "once,",
+        "startTime": 28.28,
+        "endTime": 28.74
+      },
+      {
+        "word": "creating",
+        "startTime": 29.46,
+        "endTime": 30.12
+      },
+      {
+        "word": "the",
+        "startTime": 30.12,
+        "endTime": 30.42
+      },
+      {
+        "word": "AI",
+        "startTime": 30.42,
+        "endTime": 30.84
+      },
+      {
+        "word": "prompts",
+        "startTime": 30.84,
+        "endTime": 31.48
+      },
+      {
+        "word": "that",
+        "startTime": 31.48,
+        "endTime": 31.7
+      },
+      {
+        "word": "generate",
+        "startTime": 31.7,
+        "endTime": 32.26
+      },
+      {
+        "word": "the",
+        "startTime": 32.26,
+        "endTime": 32.5
+      },
+      {
+        "word": "narrative",
+        "startTime": 32.5,
+        "endTime": 32.98
+      },
+      {
+        "word": "commentary,",
+        "startTime": 32.98,
+        "endTime": 33.84
+      },
+      {
+        "word": "and",
+        "startTime": 34.3,
+        "endTime": 34.56
+      },
+      {
+        "word": "building",
+        "startTime": 34.56,
+        "endTime": 35.02
+      },
+      {
+        "word": "the",
+        "startTime": 35.02,
+        "endTime": 35.36
+      },
+      {
+        "word": "workflow",
+        "startTime": 35.36,
+        "endTime": 36.04
+      },
+      {
+        "word": "so",
+        "startTime": 36.04,
+        "endTime": 36.64
+      },
+      {
+        "word": "the",
+        "startTime": 36.64,
+        "endTime": 36.88
+      },
+      {
+        "word": "next",
+        "startTime": 36.88,
+        "endTime": 37.26
+      },
+      {
+        "word": "analyst",
+        "startTime": 37.26,
+        "endTime": 37.88
+      },
+      {
+        "word": "or",
+        "startTime": 37.88,
+        "endTime": 38.52
+      },
+      {
+        "word": "even",
+        "startTime": 38.52,
+        "endTime": 39.04
+      },
+      {
+        "word": "a",
+        "startTime": 39.04,
+        "endTime": 39.36
+      },
+      {
+        "word": "non",
+        "startTime": 39.36,
+        "endTime": 39.68
+      },
+      {
+        "word": "-analyst",
+        "startTime": 39.68,
+        "endTime": 40.38
+      },
+      {
+        "word": "can",
+        "startTime": 40.38,
+        "endTime": 41
+      },
+      {
+        "word": "run",
+        "startTime": 41,
+        "endTime": 41.3
+      },
+      {
+        "word": "the",
+        "startTime": 41.3,
+        "endTime": 41.56
+      },
+      {
+        "word": "same",
+        "startTime": 41.56,
+        "endTime": 41.96
+      },
+      {
+        "word": "report",
+        "startTime": 41.96,
+        "endTime": 42.48
+      },
+      {
+        "word": "from",
+        "startTime": 42.48,
+        "endTime": 42.88
+      },
+      {
+        "word": "fresh",
+        "startTime": 42.88,
+        "endTime": 43.26
+      },
+      {
+        "word": "data",
+        "startTime": 43.26,
+        "endTime": 43.88
+      },
+      {
+        "word": "in",
+        "startTime": 43.88,
+        "endTime": 44.44
+      },
+      {
+        "word": "15",
+        "startTime": 44.44,
+        "endTime": 44.98
+      },
+      {
+        "word": "minutes",
+        "startTime": 44.98,
+        "endTime": 45.46
+      },
+      {
+        "word": "instead",
+        "startTime": 45.46,
+        "endTime": 46.42
+      },
+      {
+        "word": "of",
+        "startTime": 46.42,
+        "endTime": 46.62
+      },
+      {
+        "word": "3",
+        "startTime": 46.62,
+        "endTime": 47
+      },
+      {
+        "word": "hours.",
+        "startTime": 47,
+        "endTime": 47.48
+      }
+    ]
+  },
+  {
+    "text": "Every manual report contains three layers.",
+    "startTime": 48.48,
+    "endTime": 52.94,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Every",
+        "startTime": 48.48,
+        "endTime": 49.32
+      },
+      {
+        "word": "manual",
+        "startTime": 49.32,
+        "endTime": 49.94
+      },
+      {
+        "word": "report",
+        "startTime": 49.94,
+        "endTime": 50.52
+      },
+      {
+        "word": "contains",
+        "startTime": 50.52,
+        "endTime": 51.32
+      },
+      {
+        "word": "three",
+        "startTime": 51.32,
+        "endTime": 52.24
+      },
+      {
+        "word": "layers.",
+        "startTime": 52.24,
+        "endTime": 52.94
+      }
+    ]
+  },
+  {
+    "text": "One, data assembly, pulling numbers from systems and putting them in the right cells.",
+    "startTime": 53.78,
+    "endTime": 60.76,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "One,",
+        "startTime": 53.78,
+        "endTime": 54.12
+      },
+      {
+        "word": "data",
+        "startTime": 54.74,
+        "endTime": 55.24
+      },
+      {
+        "word": "assembly,",
+        "startTime": 55.24,
+        "endTime": 56.02
+      },
+      {
+        "word": "pulling",
+        "startTime": 56.64,
+        "endTime": 56.84
+      },
+      {
+        "word": "numbers",
+        "startTime": 56.84,
+        "endTime": 57.3
+      },
+      {
+        "word": "from",
+        "startTime": 57.3,
+        "endTime": 57.6
+      },
+      {
+        "word": "systems",
+        "startTime": 57.6,
+        "endTime": 58.16
+      },
+      {
+        "word": "and",
+        "startTime": 58.16,
+        "endTime": 58.74
+      },
+      {
+        "word": "putting",
+        "startTime": 58.74,
+        "endTime": 59.08
+      },
+      {
+        "word": "them",
+        "startTime": 59.08,
+        "endTime": 59.38
+      },
+      {
+        "word": "in",
+        "startTime": 59.38,
+        "endTime": 59.7
+      },
+      {
+        "word": "the",
+        "startTime": 59.7,
+        "endTime": 59.84
+      },
+      {
+        "word": "right",
+        "startTime": 59.84,
+        "endTime": 60.16
+      },
+      {
+        "word": "cells.",
+        "startTime": 60.16,
+        "endTime": 60.76
+      }
+    ]
+  },
+  {
+    "text": "Two, calculation, computing ratios, growth rates and comparisons.",
+    "startTime": 61.74,
+    "endTime": 68.22,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Two,",
+        "startTime": 61.74,
+        "endTime": 62.06
+      },
+      {
+        "word": "calculation,",
+        "startTime": 63.24,
+        "endTime": 63.24
+      },
+      {
+        "word": "computing",
+        "startTime": 64.32,
+        "endTime": 64.76
+      },
+      {
+        "word": "ratios,",
+        "startTime": 64.76,
+        "endTime": 65.52
+      },
+      {
+        "word": "growth",
+        "startTime": 66.2,
+        "endTime": 66.4
+      },
+      {
+        "word": "rates",
+        "startTime": 66.4,
+        "endTime": 66.82
+      },
+      {
+        "word": "and",
+        "startTime": 66.82,
+        "endTime": 67.44
+      },
+      {
+        "word": "comparisons.",
+        "startTime": 67.44,
+        "endTime": 68.22
+      }
+    ]
+  },
+  {
+    "text": "Three, commentary, writing the narrative explanation of what the numbers mean.",
+    "startTime": 69.22,
+    "endTime": 76.68,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Three,",
+        "startTime": 69.22,
+        "endTime": 69.74
+      },
+      {
+        "word": "commentary,",
+        "startTime": 70.42,
+        "endTime": 71.26
+      },
+      {
+        "word": "writing",
+        "startTime": 71.88,
+        "endTime": 72.38
+      },
+      {
+        "word": "the",
+        "startTime": 72.38,
+        "endTime": 72.66
+      },
+      {
+        "word": "narrative",
+        "startTime": 72.66,
+        "endTime": 73.16
+      },
+      {
+        "word": "explanation",
+        "startTime": 73.16,
+        "endTime": 74.32
+      },
+      {
+        "word": "of",
+        "startTime": 74.32,
+        "endTime": 74.96
+      },
+      {
+        "word": "what",
+        "startTime": 74.96,
+        "endTime": 75.28
+      },
+      {
+        "word": "the",
+        "startTime": 75.28,
+        "endTime": 75.54
+      },
+      {
+        "word": "numbers",
+        "startTime": 75.54,
+        "endTime": 75.94
+      },
+      {
+        "word": "mean.",
+        "startTime": 75.94,
+        "endTime": 76.68
+      }
+    ]
+  },
+  {
+    "text": "The value of automated reporting is not just time -saved, it is consistency.",
+    "startTime": 77.8,
+    "endTime": 84.24,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 77.8,
+        "endTime": 77.9
+      },
+      {
+        "word": "value",
+        "startTime": 77.9,
+        "endTime": 78.36
+      },
+      {
+        "word": "of",
+        "startTime": 78.36,
+        "endTime": 78.64
+      },
+      {
+        "word": "automated",
+        "startTime": 78.64,
+        "endTime": 79.28
+      },
+      {
+        "word": "reporting",
+        "startTime": 79.28,
+        "endTime": 80.1
+      },
+      {
+        "word": "is",
+        "startTime": 80.1,
+        "endTime": 80.76
+      },
+      {
+        "word": "not",
+        "startTime": 80.76,
+        "endTime": 81.06
+      },
+      {
+        "word": "just",
+        "startTime": 81.06,
+        "endTime": 81.4
+      },
+      {
+        "word": "time",
+        "startTime": 81.4,
+        "endTime": 81.78
+      },
+      {
+        "word": "-saved,",
+        "startTime": 81.78,
+        "endTime": 82.56
+      },
+      {
+        "word": "it",
+        "startTime": 82.9,
+        "endTime": 83.16
+      },
+      {
+        "word": "is",
+        "startTime": 83.16,
+        "endTime": 83.42
+      },
+      {
+        "word": "consistency.",
+        "startTime": 83.42,
+        "endTime": 84.24
+      }
+    ]
+  },
+  {
+    "text": "A manual report reflects the analyst's judgement about what to emphasise each week.",
+    "startTime": 85.2,
+    "endTime": 92.36,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 85.2,
+        "endTime": 85.62
+      },
+      {
+        "word": "manual",
+        "startTime": 85.62,
+        "endTime": 86.1
+      },
+      {
+        "word": "report",
+        "startTime": 86.1,
+        "endTime": 86.88
+      },
+      {
+        "word": "reflects",
+        "startTime": 86.88,
+        "endTime": 87.66
+      },
+      {
+        "word": "the",
+        "startTime": 87.66,
+        "endTime": 87.96
+      },
+      {
+        "word": "analyst's",
+        "startTime": 87.96,
+        "endTime": 88.9
+      },
+      {
+        "word": "judgement",
+        "startTime": 88.9,
+        "endTime": 89.34
+      },
+      {
+        "word": "about",
+        "startTime": 89.34,
+        "endTime": 90.04
+      },
+      {
+        "word": "what",
+        "startTime": 90.04,
+        "endTime": 90.4
+      },
+      {
+        "word": "to",
+        "startTime": 90.4,
+        "endTime": 90.66
+      },
+      {
+        "word": "emphasise",
+        "startTime": 90.66,
+        "endTime": 91.62
+      },
+      {
+        "word": "each",
+        "startTime": 91.62,
+        "endTime": 92
+      },
+      {
+        "word": "week.",
+        "startTime": 92,
+        "endTime": 92.36
+      }
+    ]
+  },
+  {
+    "text": "An automated report applies the same standards every week, the same RAG thresholds, the same comparison baseline, the same escalation rules.",
+    "startTime": 92.87,
+    "endTime": 105.9,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "An",
+        "startTime": 92.87,
+        "endTime": 93.4
+      },
+      {
+        "word": "automated",
+        "startTime": 93.4,
+        "endTime": 94.1
+      },
+      {
+        "word": "report",
+        "startTime": 94.1,
+        "endTime": 94.7
+      },
+      {
+        "word": "applies",
+        "startTime": 94.7,
+        "endTime": 95.58
+      },
+      {
+        "word": "the",
+        "startTime": 95.58,
+        "endTime": 95.94
+      },
+      {
+        "word": "same",
+        "startTime": 95.94,
+        "endTime": 96.32
+      },
+      {
+        "word": "standards",
+        "startTime": 96.32,
+        "endTime": 96.96
+      },
+      {
+        "word": "every",
+        "startTime": 96.96,
+        "endTime": 97.56
+      },
+      {
+        "word": "week,",
+        "startTime": 97.56,
+        "endTime": 98.14
+      },
+      {
+        "word": "the",
+        "startTime": 98.56,
+        "endTime": 98.72
+      },
+      {
+        "word": "same",
+        "startTime": 98.72,
+        "endTime": 99.24
+      },
+      {
+        "word": "RAG",
+        "startTime": 99.24,
+        "endTime": 100.04
+      },
+      {
+        "word": "thresholds,",
+        "startTime": 100.04,
+        "endTime": 101.08
+      },
+      {
+        "word": "the",
+        "startTime": 101.38,
+        "endTime": 101.46
+      },
+      {
+        "word": "same",
+        "startTime": 101.46,
+        "endTime": 101.9
+      },
+      {
+        "word": "comparison",
+        "startTime": 101.9,
+        "endTime": 102.5
+      },
+      {
+        "word": "baseline,",
+        "startTime": 102.5,
+        "endTime": 103.32
+      },
+      {
+        "word": "the",
+        "startTime": 103.9,
+        "endTime": 103.98
+      },
+      {
+        "word": "same",
+        "startTime": 103.98,
+        "endTime": 104.54
+      },
+      {
+        "word": "escalation",
+        "startTime": 104.54,
+        "endTime": 105.46
+      },
+      {
+        "word": "rules.",
+        "startTime": 105.46,
+        "endTime": 105.9
+      }
+    ]
+  },
+  {
+    "text": "This consistency means management can trust the report to flag the same things the same way every time.",
+    "startTime": 106.78,
+    "endTime": 115.4,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "This",
+        "startTime": 106.78,
+        "endTime": 107.16
+      },
+      {
+        "word": "consistency",
+        "startTime": 107.16,
+        "endTime": 108.18
+      },
+      {
+        "word": "means",
+        "startTime": 108.18,
+        "endTime": 108.74
+      },
+      {
+        "word": "management",
+        "startTime": 108.74,
+        "endTime": 109.44
+      },
+      {
+        "word": "can",
+        "startTime": 109.44,
+        "endTime": 109.74
+      },
+      {
+        "word": "trust",
+        "startTime": 109.74,
+        "endTime": 110.16
+      },
+      {
+        "word": "the",
+        "startTime": 110.16,
+        "endTime": 110.4
+      },
+      {
+        "word": "report",
+        "startTime": 110.4,
+        "endTime": 110.84
+      },
+      {
+        "word": "to",
+        "startTime": 110.84,
+        "endTime": 111.5
+      },
+      {
+        "word": "flag",
+        "startTime": 111.5,
+        "endTime": 111.82
+      },
+      {
+        "word": "the",
+        "startTime": 111.82,
+        "endTime": 112.08
+      },
+      {
+        "word": "same",
+        "startTime": 112.08,
+        "endTime": 112.5
+      },
+      {
+        "word": "things",
+        "startTime": 112.5,
+        "endTime": 112.96
+      },
+      {
+        "word": "the",
+        "startTime": 112.96,
+        "endTime": 113.22
+      },
+      {
+        "word": "same",
+        "startTime": 113.22,
+        "endTime": 113.74
+      },
+      {
+        "word": "way",
+        "startTime": 113.74,
+        "endTime": 114
+      },
+      {
+        "word": "every",
+        "startTime": 114,
+        "endTime": 114.86
+      },
+      {
+        "word": "time.",
+        "startTime": 114.86,
+        "endTime": 115.4
+      }
+    ]
+  },
+  {
+    "text": "That trust is what makes a report actually used in decisions rather than just filed.",
+    "startTime": 116.08,
+    "endTime": 123.02,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "That",
+        "startTime": 116.08,
+        "endTime": 116.56
+      },
+      {
+        "word": "trust",
+        "startTime": 116.56,
+        "endTime": 116.96
+      },
+      {
+        "word": "is",
+        "startTime": 116.96,
+        "endTime": 117.56
+      },
+      {
+        "word": "what",
+        "startTime": 117.56,
+        "endTime": 117.76
+      },
+      {
+        "word": "makes",
+        "startTime": 117.76,
+        "endTime": 118
+      },
+      {
+        "word": "a",
+        "startTime": 118,
+        "endTime": 118.22
+      },
+      {
+        "word": "report",
+        "startTime": 118.22,
+        "endTime": 118.58
+      },
+      {
+        "word": "actually",
+        "startTime": 118.58,
+        "endTime": 119.3
+      },
+      {
+        "word": "used",
+        "startTime": 119.3,
+        "endTime": 119.9
+      },
+      {
+        "word": "in",
+        "startTime": 119.9,
+        "endTime": 120.1
+      },
+      {
+        "word": "decisions",
+        "startTime": 120.1,
+        "endTime": 120.88
+      },
+      {
+        "word": "rather",
+        "startTime": 120.88,
+        "endTime": 121.56
+      },
+      {
+        "word": "than",
+        "startTime": 121.56,
+        "endTime": 121.92
+      },
+      {
+        "word": "just",
+        "startTime": 121.92,
+        "endTime": 122.2
+      },
+      {
+        "word": "filed.",
+        "startTime": 122.2,
+        "endTime": 123.02
+      }
+    ]
+  },
+  {
+    "text": "Remember this, build the prompt once, test it for three consecutive weeks, document it, then hand it to anyone in the team.",
+    "startTime": 124.02,
+    "endTime": 136,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Remember",
+        "startTime": 124.02,
+        "endTime": 124.62
+      },
+      {
+        "word": "this,",
+        "startTime": 124.62,
+        "endTime": 125.1
+      },
+      {
+        "word": "build",
+        "startTime": 125.62,
+        "endTime": 126.1
+      },
+      {
+        "word": "the",
+        "startTime": 126.1,
+        "endTime": 126.3
+      },
+      {
+        "word": "prompt",
+        "startTime": 126.3,
+        "endTime": 126.7
+      },
+      {
+        "word": "once,",
+        "startTime": 126.7,
+        "endTime": 127.54
+      },
+      {
+        "word": "test",
+        "startTime": 128.18,
+        "endTime": 128.46
+      },
+      {
+        "word": "it",
+        "startTime": 128.46,
+        "endTime": 128.68
+      },
+      {
+        "word": "for",
+        "startTime": 128.68,
+        "endTime": 128.88
+      },
+      {
+        "word": "three",
+        "startTime": 128.88,
+        "endTime": 129.42
+      },
+      {
+        "word": "consecutive",
+        "startTime": 129.42,
+        "endTime": 130.24
+      },
+      {
+        "word": "weeks,",
+        "startTime": 130.24,
+        "endTime": 130.86
+      },
+      {
+        "word": "document",
+        "startTime": 131.68,
+        "endTime": 132.2
+      },
+      {
+        "word": "it,",
+        "startTime": 132.2,
+        "endTime": 132.8
+      },
+      {
+        "word": "then",
+        "startTime": 133.02,
+        "endTime": 133.38
+      },
+      {
+        "word": "hand",
+        "startTime": 133.38,
+        "endTime": 133.68
+      },
+      {
+        "word": "it",
+        "startTime": 133.68,
+        "endTime": 133.96
+      },
+      {
+        "word": "to",
+        "startTime": 133.96,
+        "endTime": 134.14
+      },
+      {
+        "word": "anyone",
+        "startTime": 134.14,
+        "endTime": 134.82
+      },
+      {
+        "word": "in",
+        "startTime": 134.82,
+        "endTime": 135.38
+      },
+      {
+        "word": "the",
+        "startTime": 135.38,
+        "endTime": 135.56
+      },
+      {
+        "word": "team.",
+        "startTime": 135.56,
+        "endTime": 136
+      }
+    ]
+  },
+  {
+    "text": "If only you can run it, it is not automated, it is just a workflow that depends on you.",
+    "startTime": 136.83999999999997,
+    "endTime": 145.24,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "If",
+        "startTime": 136.83999999999997,
+        "endTime": 137.2
+      },
+      {
+        "word": "only",
+        "startTime": 137.2,
+        "endTime": 137.74
+      },
+      {
+        "word": "you",
+        "startTime": 137.74,
+        "endTime": 138.04
+      },
+      {
+        "word": "can",
+        "startTime": 138.04,
+        "endTime": 138.28
+      },
+      {
+        "word": "run",
+        "startTime": 138.28,
+        "endTime": 138.56
+      },
+      {
+        "word": "it,",
+        "startTime": 138.56,
+        "endTime": 138.94
+      },
+      {
+        "word": "it",
+        "startTime": 139.14,
+        "endTime": 139.38
+      },
+      {
+        "word": "is",
+        "startTime": 139.38,
+        "endTime": 139.56
+      },
+      {
+        "word": "not",
+        "startTime": 139.56,
+        "endTime": 139.88
+      },
+      {
+        "word": "automated,",
+        "startTime": 139.88,
+        "endTime": 141.06
+      },
+      {
+        "word": "it",
+        "startTime": 141.62,
+        "endTime": 141.8
+      },
+      {
+        "word": "is",
+        "startTime": 141.8,
+        "endTime": 141.96
+      },
+      {
+        "word": "just",
+        "startTime": 141.96,
+        "endTime": 142.2
+      },
+      {
+        "word": "a",
+        "startTime": 142.2,
+        "endTime": 142.42
+      },
+      {
+        "word": "workflow",
+        "startTime": 142.42,
+        "endTime": 143.08
+      },
+      {
+        "word": "that",
+        "startTime": 143.08,
+        "endTime": 143.62
+      },
+      {
+        "word": "depends",
+        "startTime": 143.62,
+        "endTime": 144.08
+      },
+      {
+        "word": "on",
+        "startTime": 144.08,
+        "endTime": 144.7
+      },
+      {
+        "word": "you.",
+        "startTime": 144.7,
+        "endTime": 145.24
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 146.32,
+    "endTime": 151.44,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 146.32,
+        "endTime": 146.7
+      },
+      {
+        "word": "what",
+        "startTime": 146.7,
+        "endTime": 147.02
+      },
+      {
+        "word": "you",
+        "startTime": 147.02,
+        "endTime": 147.22
+      },
+      {
+        "word": "learn",
+        "startTime": 147.22,
+        "endTime": 147.52
+      },
+      {
+        "word": "in",
+        "startTime": 147.52,
+        "endTime": 147.68
+      },
+      {
+        "word": "this",
+        "startTime": 147.68,
+        "endTime": 147.96
+      },
+      {
+        "word": "lesson",
+        "startTime": 147.96,
+        "endTime": 148.46
+      },
+      {
+        "word": "and",
+        "startTime": 148.46,
+        "endTime": 149.04
+      },
+      {
+        "word": "you",
+        "startTime": 149.04,
+        "endTime": 149.24
+      },
+      {
+        "word": "will",
+        "startTime": 149.24,
+        "endTime": 149.38
+      },
+      {
+        "word": "see",
+        "startTime": 149.38,
+        "endTime": 149.7
+      },
+      {
+        "word": "results",
+        "startTime": 149.7,
+        "endTime": 150.26
+      },
+      {
+        "word": "immediately.",
+        "startTime": 150.26,
+        "endTime": 151.44
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 152.1,
+    "endTime": 154.24,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 152.1,
+        "endTime": 152.46
+      },
+      {
+        "word": "skills",
+        "startTime": 152.46,
+        "endTime": 153.06
+      },
+      {
+        "word": "bear",
+        "startTime": 153.06,
+        "endTime": 153.74
+      },
+      {
+        "word": "fruit.",
+        "startTime": 153.74,
+        "endTime": 154.24
+      }
+    ]
+  }
+]

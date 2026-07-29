@@ -1,0 +1,1402 @@
+[
+  {
+    "text": "A lawyer in the US submitted AI -generated court cases to a judge.",
+    "startTime": 0,
+    "endTime": 5.96,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 0,
+        "endTime": 0.18
+      },
+      {
+        "word": "lawyer",
+        "startTime": 0.18,
+        "endTime": 0.52
+      },
+      {
+        "word": "in",
+        "startTime": 0.52,
+        "endTime": 0.8
+      },
+      {
+        "word": "the",
+        "startTime": 0.8,
+        "endTime": 0.94
+      },
+      {
+        "word": "US",
+        "startTime": 0.94,
+        "endTime": 1.3
+      },
+      {
+        "word": "submitted",
+        "startTime": 1.3,
+        "endTime": 2.3
+      },
+      {
+        "word": "AI",
+        "startTime": 2.3,
+        "endTime": 2.84
+      },
+      {
+        "word": "-generated",
+        "startTime": 2.84,
+        "endTime": 3.82
+      },
+      {
+        "word": "court",
+        "startTime": 3.82,
+        "endTime": 4.22
+      },
+      {
+        "word": "cases",
+        "startTime": 4.22,
+        "endTime": 4.78
+      },
+      {
+        "word": "to",
+        "startTime": 4.78,
+        "endTime": 5.36
+      },
+      {
+        "word": "a",
+        "startTime": 5.36,
+        "endTime": 5.5
+      },
+      {
+        "word": "judge.",
+        "startTime": 5.5,
+        "endTime": 5.96
+      }
+    ]
+  },
+  {
+    "text": "None of them existed.",
+    "startTime": 6.58,
+    "endTime": 8.22,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "None",
+        "startTime": 6.58,
+        "endTime": 6.88
+      },
+      {
+        "word": "of",
+        "startTime": 6.88,
+        "endTime": 7.14
+      },
+      {
+        "word": "them",
+        "startTime": 7.14,
+        "endTime": 7.4
+      },
+      {
+        "word": "existed.",
+        "startTime": 7.4,
+        "endTime": 8.22
+      }
+    ]
+  },
+  {
+    "text": "He nearly lost his license.",
+    "startTime": 8.76,
+    "endTime": 10.74,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "He",
+        "startTime": 8.76,
+        "endTime": 8.98
+      },
+      {
+        "word": "nearly",
+        "startTime": 8.98,
+        "endTime": 9.38
+      },
+      {
+        "word": "lost",
+        "startTime": 9.38,
+        "endTime": 9.9
+      },
+      {
+        "word": "his",
+        "startTime": 9.9,
+        "endTime": 10.2
+      },
+      {
+        "word": "license.",
+        "startTime": 10.2,
+        "endTime": 10.74
+      }
+    ]
+  },
+  {
+    "text": "The AI did not lie.",
+    "startTime": 11.7,
+    "endTime": 13.68,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 11.7,
+        "endTime": 11.86
+      },
+      {
+        "word": "AI",
+        "startTime": 11.86,
+        "endTime": 12.4
+      },
+      {
+        "word": "did",
+        "startTime": 12.4,
+        "endTime": 13.02
+      },
+      {
+        "word": "not",
+        "startTime": 13.02,
+        "endTime": 13.3
+      },
+      {
+        "word": "lie.",
+        "startTime": 13.3,
+        "endTime": 13.68
+      }
+    ]
+  },
+  {
+    "text": "It did exactly what it was designed to do.",
+    "startTime": 14.26,
+    "endTime": 17.4,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "It",
+        "startTime": 14.26,
+        "endTime": 14.4
+      },
+      {
+        "word": "did",
+        "startTime": 14.4,
+        "endTime": 14.6
+      },
+      {
+        "word": "exactly",
+        "startTime": 14.6,
+        "endTime": 15.34
+      },
+      {
+        "word": "what",
+        "startTime": 15.34,
+        "endTime": 15.86
+      },
+      {
+        "word": "it",
+        "startTime": 15.86,
+        "endTime": 16
+      },
+      {
+        "word": "was",
+        "startTime": 16,
+        "endTime": 16.14
+      },
+      {
+        "word": "designed",
+        "startTime": 16.14,
+        "endTime": 16.64
+      },
+      {
+        "word": "to",
+        "startTime": 16.64,
+        "endTime": 17.08
+      },
+      {
+        "word": "do.",
+        "startTime": 17.08,
+        "endTime": 17.4
+      }
+    ]
+  },
+  {
+    "text": "This lesson explains why and how to make sure it never happens to you.",
+    "startTime": 18.28,
+    "endTime": 24,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "This",
+        "startTime": 18.28,
+        "endTime": 18.5
+      },
+      {
+        "word": "lesson",
+        "startTime": 18.5,
+        "endTime": 18.94
+      },
+      {
+        "word": "explains",
+        "startTime": 18.94,
+        "endTime": 19.48
+      },
+      {
+        "word": "why",
+        "startTime": 19.48,
+        "endTime": 20.04
+      },
+      {
+        "word": "and",
+        "startTime": 20.04,
+        "endTime": 20.42
+      },
+      {
+        "word": "how",
+        "startTime": 20.42,
+        "endTime": 20.86
+      },
+      {
+        "word": "to",
+        "startTime": 20.86,
+        "endTime": 21.36
+      },
+      {
+        "word": "make",
+        "startTime": 21.36,
+        "endTime": 21.56
+      },
+      {
+        "word": "sure",
+        "startTime": 21.56,
+        "endTime": 21.98
+      },
+      {
+        "word": "it",
+        "startTime": 21.98,
+        "endTime": 22.38
+      },
+      {
+        "word": "never",
+        "startTime": 22.38,
+        "endTime": 22.84
+      },
+      {
+        "word": "happens",
+        "startTime": 22.84,
+        "endTime": 23.3
+      },
+      {
+        "word": "to",
+        "startTime": 23.3,
+        "endTime": 23.68
+      },
+      {
+        "word": "you.",
+        "startTime": 23.68,
+        "endTime": 24
+      }
+    ]
+  },
+  {
+    "text": "In this lesson Tolkien's hallucination and the verification habit that separates professionals from people who embarrass themselves with AI.",
+    "startTime": 24.53,
+    "endTime": 35.68,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 24.53,
+        "endTime": 25.06
+      },
+      {
+        "word": "this",
+        "startTime": 25.06,
+        "endTime": 25.32
+      },
+      {
+        "word": "lesson",
+        "startTime": 25.32,
+        "endTime": 25.88
+      },
+      {
+        "word": "Tolkien's",
+        "startTime": 25.88,
+        "endTime": 26.88
+      },
+      {
+        "word": "hallucination",
+        "startTime": 26.88,
+        "endTime": 27.8
+      },
+      {
+        "word": "and",
+        "startTime": 27.8,
+        "endTime": 28.46
+      },
+      {
+        "word": "the",
+        "startTime": 28.46,
+        "endTime": 28.64
+      },
+      {
+        "word": "verification",
+        "startTime": 28.64,
+        "endTime": 29.32
+      },
+      {
+        "word": "habit",
+        "startTime": 29.32,
+        "endTime": 30.1
+      },
+      {
+        "word": "that",
+        "startTime": 30.1,
+        "endTime": 30.6
+      },
+      {
+        "word": "separates",
+        "startTime": 30.6,
+        "endTime": 31.14
+      },
+      {
+        "word": "professionals",
+        "startTime": 31.14,
+        "endTime": 32.04
+      },
+      {
+        "word": "from",
+        "startTime": 32.04,
+        "endTime": 32.62
+      },
+      {
+        "word": "people",
+        "startTime": 32.62,
+        "endTime": 33.04
+      },
+      {
+        "word": "who",
+        "startTime": 33.04,
+        "endTime": 33.3
+      },
+      {
+        "word": "embarrass",
+        "startTime": 33.3,
+        "endTime": 33.82
+      },
+      {
+        "word": "themselves",
+        "startTime": 33.82,
+        "endTime": 34.44
+      },
+      {
+        "word": "with",
+        "startTime": 34.44,
+        "endTime": 35.16
+      },
+      {
+        "word": "AI.",
+        "startTime": 35.16,
+        "endTime": 35.68
+      }
+    ]
+  },
+  {
+    "text": "We cover the Tolkien prediction system.",
+    "startTime": 36.58,
+    "endTime": 39.98,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "We",
+        "startTime": 36.58,
+        "endTime": 37.12
+      },
+      {
+        "word": "cover",
+        "startTime": 37.12,
+        "endTime": 37.54
+      },
+      {
+        "word": "the",
+        "startTime": 37.54,
+        "endTime": 38.14
+      },
+      {
+        "word": "Tolkien",
+        "startTime": 38.14,
+        "endTime": 38.58
+      },
+      {
+        "word": "prediction",
+        "startTime": 38.58,
+        "endTime": 39.24
+      },
+      {
+        "word": "system.",
+        "startTime": 39.24,
+        "endTime": 39.98
+      }
+    ]
+  },
+  {
+    "text": "Why AI generates one word at a time?",
+    "startTime": 40.58,
+    "endTime": 44.08,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Why",
+        "startTime": 40.58,
+        "endTime": 40.78
+      },
+      {
+        "word": "AI",
+        "startTime": 40.78,
+        "endTime": 41.26
+      },
+      {
+        "word": "generates",
+        "startTime": 41.26,
+        "endTime": 42.24
+      },
+      {
+        "word": "one",
+        "startTime": 42.24,
+        "endTime": 42.68
+      },
+      {
+        "word": "word",
+        "startTime": 42.68,
+        "endTime": 43.06
+      },
+      {
+        "word": "at",
+        "startTime": 43.06,
+        "endTime": 43.48
+      },
+      {
+        "word": "a",
+        "startTime": 43.48,
+        "endTime": 43.64
+      },
+      {
+        "word": "time?",
+        "startTime": 43.64,
+        "endTime": 44.08
+      }
+    ]
+  },
+  {
+    "text": "What hallucination is and why it happens by design, not by accident?",
+    "startTime": 44.74,
+    "endTime": 50.54,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "What",
+        "startTime": 44.74,
+        "endTime": 44.98
+      },
+      {
+        "word": "hallucination",
+        "startTime": 44.98,
+        "endTime": 45.98
+      },
+      {
+        "word": "is",
+        "startTime": 45.98,
+        "endTime": 46.46
+      },
+      {
+        "word": "and",
+        "startTime": 46.46,
+        "endTime": 47.04
+      },
+      {
+        "word": "why",
+        "startTime": 47.04,
+        "endTime": 47.34
+      },
+      {
+        "word": "it",
+        "startTime": 47.34,
+        "endTime": 47.6
+      },
+      {
+        "word": "happens",
+        "startTime": 47.6,
+        "endTime": 47.98
+      },
+      {
+        "word": "by",
+        "startTime": 47.98,
+        "endTime": 48.2
+      },
+      {
+        "word": "design,",
+        "startTime": 48.2,
+        "endTime": 48.82
+      },
+      {
+        "word": "not",
+        "startTime": 49.28,
+        "endTime": 49.6
+      },
+      {
+        "word": "by",
+        "startTime": 49.6,
+        "endTime": 49.88
+      },
+      {
+        "word": "accident?",
+        "startTime": 49.88,
+        "endTime": 50.54
+      }
+    ]
+  },
+  {
+    "text": "The verification habit that every professional AI user must have.",
+    "startTime": 50.980000000000004,
+    "endTime": 57.38,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 50.980000000000004,
+        "endTime": 51.54
+      },
+      {
+        "word": "verification",
+        "startTime": 51.54,
+        "endTime": 52.1
+      },
+      {
+        "word": "habit",
+        "startTime": 52.1,
+        "endTime": 53.02
+      },
+      {
+        "word": "that",
+        "startTime": 53.02,
+        "endTime": 53.6
+      },
+      {
+        "word": "every",
+        "startTime": 53.6,
+        "endTime": 54.16
+      },
+      {
+        "word": "professional",
+        "startTime": 54.16,
+        "endTime": 54.92
+      },
+      {
+        "word": "AI",
+        "startTime": 54.92,
+        "endTime": 55.3
+      },
+      {
+        "word": "user",
+        "startTime": 55.3,
+        "endTime": 56.08
+      },
+      {
+        "word": "must",
+        "startTime": 56.08,
+        "endTime": 56.76
+      },
+      {
+        "word": "have.",
+        "startTime": 56.76,
+        "endTime": 57.38
+      }
+    ]
+  },
+  {
+    "text": "And when to trust AI output completely and when to always verify.",
+    "startTime": 57.84,
+    "endTime": 64.82,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "And",
+        "startTime": 57.84,
+        "endTime": 58.4
+      },
+      {
+        "word": "when",
+        "startTime": 58.4,
+        "endTime": 58.98
+      },
+      {
+        "word": "to",
+        "startTime": 58.98,
+        "endTime": 59.24
+      },
+      {
+        "word": "trust",
+        "startTime": 59.24,
+        "endTime": 59.72
+      },
+      {
+        "word": "AI",
+        "startTime": 59.72,
+        "endTime": 60.18
+      },
+      {
+        "word": "output",
+        "startTime": 60.18,
+        "endTime": 60.86
+      },
+      {
+        "word": "completely",
+        "startTime": 60.86,
+        "endTime": 61.7
+      },
+      {
+        "word": "and",
+        "startTime": 61.7,
+        "endTime": 62.5
+      },
+      {
+        "word": "when",
+        "startTime": 62.5,
+        "endTime": 62.9
+      },
+      {
+        "word": "to",
+        "startTime": 62.9,
+        "endTime": 63.28
+      },
+      {
+        "word": "always",
+        "startTime": 63.28,
+        "endTime": 63.94
+      },
+      {
+        "word": "verify.",
+        "startTime": 63.94,
+        "endTime": 64.82
+      }
+    ]
+  },
+  {
+    "text": "Every word you read from an AI was predicted one Tolkien at a time.",
+    "startTime": 66.28,
+    "endTime": 72.24,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Every",
+        "startTime": 66.28,
+        "endTime": 66.86
+      },
+      {
+        "word": "word",
+        "startTime": 66.86,
+        "endTime": 67.26
+      },
+      {
+        "word": "you",
+        "startTime": 67.26,
+        "endTime": 67.5
+      },
+      {
+        "word": "read",
+        "startTime": 67.5,
+        "endTime": 67.84
+      },
+      {
+        "word": "from",
+        "startTime": 67.84,
+        "endTime": 68.1
+      },
+      {
+        "word": "an",
+        "startTime": 68.1,
+        "endTime": 68.38
+      },
+      {
+        "word": "AI",
+        "startTime": 68.38,
+        "endTime": 68.84
+      },
+      {
+        "word": "was",
+        "startTime": 68.84,
+        "endTime": 69.42
+      },
+      {
+        "word": "predicted",
+        "startTime": 69.42,
+        "endTime": 70.1
+      },
+      {
+        "word": "one",
+        "startTime": 70.1,
+        "endTime": 70.6
+      },
+      {
+        "word": "Tolkien",
+        "startTime": 70.6,
+        "endTime": 71.06
+      },
+      {
+        "word": "at",
+        "startTime": 71.06,
+        "endTime": 71.64
+      },
+      {
+        "word": "a",
+        "startTime": 71.64,
+        "endTime": 71.82
+      },
+      {
+        "word": "time.",
+        "startTime": 71.82,
+        "endTime": 72.24
+      }
+    ]
+  },
+  {
+    "text": "A Tolkien is roughly one word or word fragment.",
+    "startTime": 72.82,
+    "endTime": 76.94,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 72.82,
+        "endTime": 73.02
+      },
+      {
+        "word": "Tolkien",
+        "startTime": 73.02,
+        "endTime": 73.56
+      },
+      {
+        "word": "is",
+        "startTime": 73.56,
+        "endTime": 74.14
+      },
+      {
+        "word": "roughly",
+        "startTime": 74.14,
+        "endTime": 74.58
+      },
+      {
+        "word": "one",
+        "startTime": 74.58,
+        "endTime": 74.98
+      },
+      {
+        "word": "word",
+        "startTime": 74.98,
+        "endTime": 75.34
+      },
+      {
+        "word": "or",
+        "startTime": 75.34,
+        "endTime": 75.9
+      },
+      {
+        "word": "word",
+        "startTime": 75.9,
+        "endTime": 76.38
+      },
+      {
+        "word": "fragment.",
+        "startTime": 76.38,
+        "endTime": 76.94
+      }
+    ]
+  },
+  {
+    "text": "The model looks at everything written before it and asks what is the most statistically likely word to come next.",
+    "startTime": 77.64,
+    "endTime": 86.64,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 77.64,
+        "endTime": 78.16
+      },
+      {
+        "word": "model",
+        "startTime": 78.16,
+        "endTime": 78.52
+      },
+      {
+        "word": "looks",
+        "startTime": 78.52,
+        "endTime": 78.88
+      },
+      {
+        "word": "at",
+        "startTime": 78.88,
+        "endTime": 79.02
+      },
+      {
+        "word": "everything",
+        "startTime": 79.02,
+        "endTime": 79.72
+      },
+      {
+        "word": "written",
+        "startTime": 79.72,
+        "endTime": 80.12
+      },
+      {
+        "word": "before",
+        "startTime": 80.12,
+        "endTime": 80.64
+      },
+      {
+        "word": "it",
+        "startTime": 80.64,
+        "endTime": 81.08
+      },
+      {
+        "word": "and",
+        "startTime": 81.08,
+        "endTime": 81.52
+      },
+      {
+        "word": "asks",
+        "startTime": 81.52,
+        "endTime": 82.06
+      },
+      {
+        "word": "what",
+        "startTime": 82.06,
+        "endTime": 82.62
+      },
+      {
+        "word": "is",
+        "startTime": 82.62,
+        "endTime": 82.84
+      },
+      {
+        "word": "the",
+        "startTime": 82.84,
+        "endTime": 83
+      },
+      {
+        "word": "most",
+        "startTime": 83,
+        "endTime": 83.36
+      },
+      {
+        "word": "statistically",
+        "startTime": 83.36,
+        "endTime": 84.02
+      },
+      {
+        "word": "likely",
+        "startTime": 84.02,
+        "endTime": 84.72
+      },
+      {
+        "word": "word",
+        "startTime": 84.72,
+        "endTime": 85.3
+      },
+      {
+        "word": "to",
+        "startTime": 85.3,
+        "endTime": 85.78
+      },
+      {
+        "word": "come",
+        "startTime": 85.78,
+        "endTime": 86.02
+      },
+      {
+        "word": "next.",
+        "startTime": 86.02,
+        "endTime": 86.64
+      }
+    ]
+  },
+  {
+    "text": "AI hallucination is not a bug.",
+    "startTime": 87.82,
+    "endTime": 90.8,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "AI",
+        "startTime": 87.82,
+        "endTime": 88.12
+      },
+      {
+        "word": "hallucination",
+        "startTime": 88.12,
+        "endTime": 89.32
+      },
+      {
+        "word": "is",
+        "startTime": 89.32,
+        "endTime": 89.88
+      },
+      {
+        "word": "not",
+        "startTime": 89.88,
+        "endTime": 90.18
+      },
+      {
+        "word": "a",
+        "startTime": 90.18,
+        "endTime": 90.44
+      },
+      {
+        "word": "bug.",
+        "startTime": 90.44,
+        "endTime": 90.8
+      }
+    ]
+  },
+  {
+    "text": "It is the model working exactly as designed.",
+    "startTime": 91.34,
+    "endTime": 95.18,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "It",
+        "startTime": 91.34,
+        "endTime": 91.56
+      },
+      {
+        "word": "is",
+        "startTime": 91.56,
+        "endTime": 91.72
+      },
+      {
+        "word": "the",
+        "startTime": 91.72,
+        "endTime": 91.9
+      },
+      {
+        "word": "model",
+        "startTime": 91.9,
+        "endTime": 92.36
+      },
+      {
+        "word": "working",
+        "startTime": 92.36,
+        "endTime": 92.98
+      },
+      {
+        "word": "exactly",
+        "startTime": 92.98,
+        "endTime": 93.76
+      },
+      {
+        "word": "as",
+        "startTime": 93.76,
+        "endTime": 94.5
+      },
+      {
+        "word": "designed.",
+        "startTime": 94.5,
+        "endTime": 95.18
+      }
+    ]
+  },
+  {
+    "text": "The model is optimized to produce fluent plausible text, not verified facts.",
+    "startTime": 95.94,
+    "endTime": 102.9,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 95.94,
+        "endTime": 96.12
+      },
+      {
+        "word": "model",
+        "startTime": 96.12,
+        "endTime": 96.5
+      },
+      {
+        "word": "is",
+        "startTime": 96.5,
+        "endTime": 96.82
+      },
+      {
+        "word": "optimized",
+        "startTime": 96.82,
+        "endTime": 97.54
+      },
+      {
+        "word": "to",
+        "startTime": 97.54,
+        "endTime": 97.9
+      },
+      {
+        "word": "produce",
+        "startTime": 97.9,
+        "endTime": 98.42
+      },
+      {
+        "word": "fluent",
+        "startTime": 98.42,
+        "endTime": 99
+      },
+      {
+        "word": "plausible",
+        "startTime": 99,
+        "endTime": 99.7
+      },
+      {
+        "word": "text,",
+        "startTime": 99.7,
+        "endTime": 100.6
+      },
+      {
+        "word": "not",
+        "startTime": 100.96,
+        "endTime": 101.38
+      },
+      {
+        "word": "verified",
+        "startTime": 101.38,
+        "endTime": 102.08
+      },
+      {
+        "word": "facts.",
+        "startTime": 102.08,
+        "endTime": 102.9
+      }
+    ]
+  },
+  {
+    "text": "Use AI for structure drafting, brainstorming and speed.",
+    "startTime": 103.46,
+    "endTime": 109.06,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Use",
+        "startTime": 103.46,
+        "endTime": 104.08
+      },
+      {
+        "word": "AI",
+        "startTime": 104.08,
+        "endTime": 104.78
+      },
+      {
+        "word": "for",
+        "startTime": 104.78,
+        "endTime": 105.24
+      },
+      {
+        "word": "structure",
+        "startTime": 105.24,
+        "endTime": 105.76
+      },
+      {
+        "word": "drafting,",
+        "startTime": 105.76,
+        "endTime": 106.38
+      },
+      {
+        "word": "brainstorming",
+        "startTime": 106.98,
+        "endTime": 107.98
+      },
+      {
+        "word": "and",
+        "startTime": 107.98,
+        "endTime": 108.38
+      },
+      {
+        "word": "speed.",
+        "startTime": 108.38,
+        "endTime": 109.06
+      }
+    ]
+  },
+  {
+    "text": "Verify anything that will be relied upon professionally.",
+    "startTime": 109.88,
+    "endTime": 113.72,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Verify",
+        "startTime": 109.88,
+        "endTime": 110.34
+      },
+      {
+        "word": "anything",
+        "startTime": 110.34,
+        "endTime": 111.1
+      },
+      {
+        "word": "that",
+        "startTime": 111.1,
+        "endTime": 111.36
+      },
+      {
+        "word": "will",
+        "startTime": 111.36,
+        "endTime": 111.54
+      },
+      {
+        "word": "be",
+        "startTime": 111.54,
+        "endTime": 111.72
+      },
+      {
+        "word": "relied",
+        "startTime": 111.72,
+        "endTime": 112.16
+      },
+      {
+        "word": "upon",
+        "startTime": 112.16,
+        "endTime": 112.68
+      },
+      {
+        "word": "professionally.",
+        "startTime": 112.68,
+        "endTime": 113.72
+      }
+    ]
+  },
+  {
+    "text": "Remember this.",
+    "startTime": 114.78,
+    "endTime": 115.68,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Remember",
+        "startTime": 114.78,
+        "endTime": 115.2
+      },
+      {
+        "word": "this.",
+        "startTime": 115.2,
+        "endTime": 115.68
+      }
+    ]
+  },
+  {
+    "text": "Never publish AI generated statistics, case citations, names or specific facts without independent verification.",
+    "startTime": 116.26,
+    "endTime": 127.98,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Never",
+        "startTime": 116.26,
+        "endTime": 116.7
+      },
+      {
+        "word": "publish",
+        "startTime": 116.7,
+        "endTime": 117.32
+      },
+      {
+        "word": "AI",
+        "startTime": 117.32,
+        "endTime": 117.9
+      },
+      {
+        "word": "generated",
+        "startTime": 117.9,
+        "endTime": 119
+      },
+      {
+        "word": "statistics,",
+        "startTime": 119,
+        "endTime": 119.98
+      },
+      {
+        "word": "case",
+        "startTime": 120.48,
+        "endTime": 120.68
+      },
+      {
+        "word": "citations,",
+        "startTime": 120.68,
+        "endTime": 122.04
+      },
+      {
+        "word": "names",
+        "startTime": 122.72,
+        "endTime": 122.88
+      },
+      {
+        "word": "or",
+        "startTime": 122.88,
+        "endTime": 123.6
+      },
+      {
+        "word": "specific",
+        "startTime": 123.6,
+        "endTime": 124.24
+      },
+      {
+        "word": "facts",
+        "startTime": 124.24,
+        "endTime": 124.96
+      },
+      {
+        "word": "without",
+        "startTime": 124.96,
+        "endTime": 125.6
+      },
+      {
+        "word": "independent",
+        "startTime": 125.6,
+        "endTime": 126.7
+      },
+      {
+        "word": "verification.",
+        "startTime": 126.7,
+        "endTime": 127.98
+      }
+    ]
+  },
+  {
+    "text": "AI drafts you verify always.",
+    "startTime": 128.88,
+    "endTime": 133.3,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "AI",
+        "startTime": 128.88,
+        "endTime": 129.38
+      },
+      {
+        "word": "drafts",
+        "startTime": 129.38,
+        "endTime": 130.72
+      },
+      {
+        "word": "you",
+        "startTime": 130.72,
+        "endTime": 131.26
+      },
+      {
+        "word": "verify",
+        "startTime": 131.26,
+        "endTime": 131.96
+      },
+      {
+        "word": "always.",
+        "startTime": 131.96,
+        "endTime": 133.3
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 134.6,
+    "endTime": 140,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 134.6,
+        "endTime": 135.1
+      },
+      {
+        "word": "what",
+        "startTime": 135.1,
+        "endTime": 135.44
+      },
+      {
+        "word": "you",
+        "startTime": 135.44,
+        "endTime": 135.62
+      },
+      {
+        "word": "learn",
+        "startTime": 135.62,
+        "endTime": 135.98
+      },
+      {
+        "word": "in",
+        "startTime": 135.98,
+        "endTime": 136.28
+      },
+      {
+        "word": "this",
+        "startTime": 136.28,
+        "endTime": 136.56
+      },
+      {
+        "word": "lesson",
+        "startTime": 136.56,
+        "endTime": 137
+      },
+      {
+        "word": "and",
+        "startTime": 137,
+        "endTime": 137.58
+      },
+      {
+        "word": "you",
+        "startTime": 137.58,
+        "endTime": 137.74
+      },
+      {
+        "word": "will",
+        "startTime": 137.74,
+        "endTime": 137.88
+      },
+      {
+        "word": "see",
+        "startTime": 137.88,
+        "endTime": 138.22
+      },
+      {
+        "word": "results",
+        "startTime": 138.22,
+        "endTime": 138.82
+      },
+      {
+        "word": "immediately.",
+        "startTime": 138.82,
+        "endTime": 140
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 140.54,
+    "endTime": 142.54,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 140.54,
+        "endTime": 140.88
+      },
+      {
+        "word": "skills",
+        "startTime": 140.88,
+        "endTime": 141.54
+      },
+      {
+        "word": "bear",
+        "startTime": 141.54,
+        "endTime": 142.06
+      },
+      {
+        "word": "fruit.",
+        "startTime": 142.06,
+        "endTime": 142.54
+      }
+    ]
+  }
+]

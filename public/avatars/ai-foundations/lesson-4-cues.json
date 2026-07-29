@@ -1,0 +1,1065 @@
+[
+  {
+    "text": "A sales manager at an Nairobi distributor was spending three hours per day writing emails, reports and proposals.",
+    "startTime": 0,
+    "endTime": 9.82,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 0,
+        "endTime": 0.24
+      },
+      {
+        "word": "sales",
+        "startTime": 0.24,
+        "endTime": 0.66
+      },
+      {
+        "word": "manager",
+        "startTime": 0.66,
+        "endTime": 1.18
+      },
+      {
+        "word": "at",
+        "startTime": 1.18,
+        "endTime": 1.5
+      },
+      {
+        "word": "an",
+        "startTime": 1.5,
+        "endTime": 1.68
+      },
+      {
+        "word": "Nairobi",
+        "startTime": 1.68,
+        "endTime": 2.08
+      },
+      {
+        "word": "distributor",
+        "startTime": 2.08,
+        "endTime": 2.94
+      },
+      {
+        "word": "was",
+        "startTime": 2.94,
+        "endTime": 3.76
+      },
+      {
+        "word": "spending",
+        "startTime": 3.76,
+        "endTime": 4.2
+      },
+      {
+        "word": "three",
+        "startTime": 4.2,
+        "endTime": 4.74
+      },
+      {
+        "word": "hours",
+        "startTime": 4.74,
+        "endTime": 5.14
+      },
+      {
+        "word": "per",
+        "startTime": 5.14,
+        "endTime": 5.46
+      },
+      {
+        "word": "day",
+        "startTime": 5.46,
+        "endTime": 5.82
+      },
+      {
+        "word": "writing",
+        "startTime": 5.82,
+        "endTime": 6.8
+      },
+      {
+        "word": "emails,",
+        "startTime": 6.8,
+        "endTime": 7.52
+      },
+      {
+        "word": "reports",
+        "startTime": 8.18,
+        "endTime": 8.5
+      },
+      {
+        "word": "and",
+        "startTime": 8.5,
+        "endTime": 9.04
+      },
+      {
+        "word": "proposals.",
+        "startTime": 9.04,
+        "endTime": 9.82
+      }
+    ]
+  },
+  {
+    "text": "After building one AI workflow, she now spends 40 minutes on the same work.",
+    "startTime": 10.76,
+    "endTime": 18.42,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "After",
+        "startTime": 10.76,
+        "endTime": 11.64
+      },
+      {
+        "word": "building",
+        "startTime": 11.64,
+        "endTime": 12.08
+      },
+      {
+        "word": "one",
+        "startTime": 12.08,
+        "endTime": 12.66
+      },
+      {
+        "word": "AI",
+        "startTime": 12.66,
+        "endTime": 13
+      },
+      {
+        "word": "workflow,",
+        "startTime": 13,
+        "endTime": 13.84
+      },
+      {
+        "word": "she",
+        "startTime": 14.44,
+        "endTime": 14.72
+      },
+      {
+        "word": "now",
+        "startTime": 14.72,
+        "endTime": 15
+      },
+      {
+        "word": "spends",
+        "startTime": 15,
+        "endTime": 15.38
+      },
+      {
+        "word": "40",
+        "startTime": 15.38,
+        "endTime": 16.12
+      },
+      {
+        "word": "minutes",
+        "startTime": 16.12,
+        "endTime": 16.62
+      },
+      {
+        "word": "on",
+        "startTime": 16.62,
+        "endTime": 17.16
+      },
+      {
+        "word": "the",
+        "startTime": 17.16,
+        "endTime": 17.34
+      },
+      {
+        "word": "same",
+        "startTime": 17.34,
+        "endTime": 17.76
+      },
+      {
+        "word": "work.",
+        "startTime": 17.76,
+        "endTime": 18.42
+      }
+    ]
+  },
+  {
+    "text": "The extra two hours and 20 minutes go to things that actually require her judgment.",
+    "startTime": 19.48,
+    "endTime": 25.88,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 19.48,
+        "endTime": 19.72
+      },
+      {
+        "word": "extra",
+        "startTime": 19.72,
+        "endTime": 20.14
+      },
+      {
+        "word": "two",
+        "startTime": 20.14,
+        "endTime": 20.5
+      },
+      {
+        "word": "hours",
+        "startTime": 20.5,
+        "endTime": 20.78
+      },
+      {
+        "word": "and",
+        "startTime": 20.78,
+        "endTime": 21.02
+      },
+      {
+        "word": "20",
+        "startTime": 21.02,
+        "endTime": 21.46
+      },
+      {
+        "word": "minutes",
+        "startTime": 21.46,
+        "endTime": 22.1
+      },
+      {
+        "word": "go",
+        "startTime": 22.1,
+        "endTime": 22.62
+      },
+      {
+        "word": "to",
+        "startTime": 22.62,
+        "endTime": 22.88
+      },
+      {
+        "word": "things",
+        "startTime": 22.88,
+        "endTime": 23.16
+      },
+      {
+        "word": "that",
+        "startTime": 23.16,
+        "endTime": 23.4
+      },
+      {
+        "word": "actually",
+        "startTime": 23.4,
+        "endTime": 24.1
+      },
+      {
+        "word": "require",
+        "startTime": 24.1,
+        "endTime": 24.7
+      },
+      {
+        "word": "her",
+        "startTime": 24.7,
+        "endTime": 25.28
+      },
+      {
+        "word": "judgment.",
+        "startTime": 25.28,
+        "endTime": 25.88
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, how to use AI for professional writing tasks, emails, reports, proposals and content without losing your voice or your professional accountability?",
+    "startTime": 25.88,
+    "endTime": 42.98,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 25.88,
+        "endTime": 27.72
+      },
+      {
+        "word": "this",
+        "startTime": 27.72,
+        "endTime": 27.98
+      },
+      {
+        "word": "lesson,",
+        "startTime": 27.98,
+        "endTime": 28.48
+      },
+      {
+        "word": "how",
+        "startTime": 29.32,
+        "endTime": 29.44
+      },
+      {
+        "word": "to",
+        "startTime": 29.44,
+        "endTime": 29.7
+      },
+      {
+        "word": "use",
+        "startTime": 29.7,
+        "endTime": 30.08
+      },
+      {
+        "word": "AI",
+        "startTime": 30.08,
+        "endTime": 30.52
+      },
+      {
+        "word": "for",
+        "startTime": 30.52,
+        "endTime": 31.1
+      },
+      {
+        "word": "professional",
+        "startTime": 31.1,
+        "endTime": 31.7
+      },
+      {
+        "word": "writing",
+        "startTime": 31.7,
+        "endTime": 32.26
+      },
+      {
+        "word": "tasks,",
+        "startTime": 32.26,
+        "endTime": 32.74
+      },
+      {
+        "word": "emails,",
+        "startTime": 33.5,
+        "endTime": 33.88
+      },
+      {
+        "word": "reports,",
+        "startTime": 34.66,
+        "endTime": 35
+      },
+      {
+        "word": "proposals",
+        "startTime": 35.7,
+        "endTime": 36.22
+      },
+      {
+        "word": "and",
+        "startTime": 36.22,
+        "endTime": 36.7
+      },
+      {
+        "word": "content",
+        "startTime": 36.7,
+        "endTime": 37.36
+      },
+      {
+        "word": "without",
+        "startTime": 37.36,
+        "endTime": 38.38
+      },
+      {
+        "word": "losing",
+        "startTime": 38.38,
+        "endTime": 38.94
+      },
+      {
+        "word": "your",
+        "startTime": 38.94,
+        "endTime": 39.24
+      },
+      {
+        "word": "voice",
+        "startTime": 39.24,
+        "endTime": 39.74
+      },
+      {
+        "word": "or",
+        "startTime": 39.74,
+        "endTime": 40.58
+      },
+      {
+        "word": "your",
+        "startTime": 40.58,
+        "endTime": 40.86
+      },
+      {
+        "word": "professional",
+        "startTime": 40.86,
+        "endTime": 41.66
+      },
+      {
+        "word": "accountability?",
+        "startTime": 41.66,
+        "endTime": 42.98
+      }
+    ]
+  },
+  {
+    "text": "AI does not replace your communication judgement.",
+    "startTime": 44.24,
+    "endTime": 48.66,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "AI",
+        "startTime": 44.24,
+        "endTime": 45.34
+      },
+      {
+        "word": "does",
+        "startTime": 45.34,
+        "endTime": 45.86
+      },
+      {
+        "word": "not",
+        "startTime": 45.86,
+        "endTime": 46.22
+      },
+      {
+        "word": "replace",
+        "startTime": 46.22,
+        "endTime": 46.72
+      },
+      {
+        "word": "your",
+        "startTime": 46.72,
+        "endTime": 47.06
+      },
+      {
+        "word": "communication",
+        "startTime": 47.06,
+        "endTime": 47.74
+      },
+      {
+        "word": "judgement.",
+        "startTime": 47.74,
+        "endTime": 48.66
+      }
+    ]
+  },
+  {
+    "text": "It eliminates the friction between your thinking and the finished document.",
+    "startTime": 49.42,
+    "endTime": 55.16,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "It",
+        "startTime": 49.42,
+        "endTime": 49.52
+      },
+      {
+        "word": "eliminates",
+        "startTime": 49.52,
+        "endTime": 50.14
+      },
+      {
+        "word": "the",
+        "startTime": 50.14,
+        "endTime": 50.54
+      },
+      {
+        "word": "friction",
+        "startTime": 50.54,
+        "endTime": 51.16
+      },
+      {
+        "word": "between",
+        "startTime": 51.16,
+        "endTime": 51.9
+      },
+      {
+        "word": "your",
+        "startTime": 51.9,
+        "endTime": 52.26
+      },
+      {
+        "word": "thinking",
+        "startTime": 52.26,
+        "endTime": 52.8
+      },
+      {
+        "word": "and",
+        "startTime": 52.8,
+        "endTime": 53.42
+      },
+      {
+        "word": "the",
+        "startTime": 53.42,
+        "endTime": 53.6
+      },
+      {
+        "word": "finished",
+        "startTime": 53.6,
+        "endTime": 54.18
+      },
+      {
+        "word": "document.",
+        "startTime": 54.18,
+        "endTime": 55.16
+      }
+    ]
+  },
+  {
+    "text": "The professional model is this.",
+    "startTime": 56.58,
+    "endTime": 58.32,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 56.58,
+        "endTime": 56.62
+      },
+      {
+        "word": "professional",
+        "startTime": 56.62,
+        "endTime": 57.14
+      },
+      {
+        "word": "model",
+        "startTime": 57.14,
+        "endTime": 57.6
+      },
+      {
+        "word": "is",
+        "startTime": 57.6,
+        "endTime": 58
+      },
+      {
+        "word": "this.",
+        "startTime": 58,
+        "endTime": 58.32
+      }
+    ]
+  },
+  {
+    "text": "You own the thinking, the key points, the audience, the objective, the tone.",
+    "startTime": 59.16,
+    "endTime": 65.86,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 59.16,
+        "endTime": 59.52
+      },
+      {
+        "word": "own",
+        "startTime": 59.52,
+        "endTime": 59.86
+      },
+      {
+        "word": "the",
+        "startTime": 59.86,
+        "endTime": 60.04
+      },
+      {
+        "word": "thinking,",
+        "startTime": 60.04,
+        "endTime": 60.54
+      },
+      {
+        "word": "the",
+        "startTime": 61.08,
+        "endTime": 61.16
+      },
+      {
+        "word": "key",
+        "startTime": 61.16,
+        "endTime": 61.48
+      },
+      {
+        "word": "points,",
+        "startTime": 61.48,
+        "endTime": 62
+      },
+      {
+        "word": "the",
+        "startTime": 62.54,
+        "endTime": 62.68
+      },
+      {
+        "word": "audience,",
+        "startTime": 62.68,
+        "endTime": 63.3
+      },
+      {
+        "word": "the",
+        "startTime": 63.8,
+        "endTime": 63.92
+      },
+      {
+        "word": "objective,",
+        "startTime": 63.92,
+        "endTime": 64.66
+      },
+      {
+        "word": "the",
+        "startTime": 65.24,
+        "endTime": 65.36
+      },
+      {
+        "word": "tone.",
+        "startTime": 65.36,
+        "endTime": 65.86
+      }
+    ]
+  },
+  {
+    "text": "The professional model for AI writing, you think AI types you approve.",
+    "startTime": 67.4,
+    "endTime": 74.54,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 67.4,
+        "endTime": 67.5
+      },
+      {
+        "word": "professional",
+        "startTime": 67.5,
+        "endTime": 68.02
+      },
+      {
+        "word": "model",
+        "startTime": 68.02,
+        "endTime": 68.48
+      },
+      {
+        "word": "for",
+        "startTime": 68.48,
+        "endTime": 68.82
+      },
+      {
+        "word": "AI",
+        "startTime": 68.82,
+        "endTime": 69.2
+      },
+      {
+        "word": "writing,",
+        "startTime": 69.2,
+        "endTime": 69.96
+      },
+      {
+        "word": "you",
+        "startTime": 70.52,
+        "endTime": 70.98
+      },
+      {
+        "word": "think",
+        "startTime": 70.98,
+        "endTime": 71.58
+      },
+      {
+        "word": "AI",
+        "startTime": 71.58,
+        "endTime": 72.38
+      },
+      {
+        "word": "types",
+        "startTime": 72.38,
+        "endTime": 73.3
+      },
+      {
+        "word": "you",
+        "startTime": 73.3,
+        "endTime": 74.04
+      },
+      {
+        "word": "approve.",
+        "startTime": 74.04,
+        "endTime": 74.54
+      }
+    ]
+  },
+  {
+    "text": "Every minute you spend specifying context saves five minutes of editing a generic draft.",
+    "startTime": 75.74,
+    "endTime": 83.28,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Every",
+        "startTime": 75.74,
+        "endTime": 76.34
+      },
+      {
+        "word": "minute",
+        "startTime": 76.34,
+        "endTime": 76.68
+      },
+      {
+        "word": "you",
+        "startTime": 76.68,
+        "endTime": 76.96
+      },
+      {
+        "word": "spend",
+        "startTime": 76.96,
+        "endTime": 77.36
+      },
+      {
+        "word": "specifying",
+        "startTime": 77.36,
+        "endTime": 78.12
+      },
+      {
+        "word": "context",
+        "startTime": 78.12,
+        "endTime": 78.9
+      },
+      {
+        "word": "saves",
+        "startTime": 78.9,
+        "endTime": 79.84
+      },
+      {
+        "word": "five",
+        "startTime": 79.84,
+        "endTime": 80.52
+      },
+      {
+        "word": "minutes",
+        "startTime": 80.52,
+        "endTime": 80.88
+      },
+      {
+        "word": "of",
+        "startTime": 80.88,
+        "endTime": 81.24
+      },
+      {
+        "word": "editing",
+        "startTime": 81.24,
+        "endTime": 81.76
+      },
+      {
+        "word": "a",
+        "startTime": 81.76,
+        "endTime": 82.18
+      },
+      {
+        "word": "generic",
+        "startTime": 82.18,
+        "endTime": 82.72
+      },
+      {
+        "word": "draft.",
+        "startTime": 82.72,
+        "endTime": 83.28
+      }
+    ]
+  },
+  {
+    "text": "The more specific you're briefing, the less editing you do afterwards.",
+    "startTime": 84.42,
+    "endTime": 89.66,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 84.42,
+        "endTime": 84.5
+      },
+      {
+        "word": "more",
+        "startTime": 84.5,
+        "endTime": 84.74
+      },
+      {
+        "word": "specific",
+        "startTime": 84.74,
+        "endTime": 85.34
+      },
+      {
+        "word": "you're",
+        "startTime": 85.34,
+        "endTime": 85.74
+      },
+      {
+        "word": "briefing,",
+        "startTime": 85.74,
+        "endTime": 86.28
+      },
+      {
+        "word": "the",
+        "startTime": 87.02,
+        "endTime": 87.08
+      },
+      {
+        "word": "less",
+        "startTime": 87.08,
+        "endTime": 87.38
+      },
+      {
+        "word": "editing",
+        "startTime": 87.38,
+        "endTime": 88.06
+      },
+      {
+        "word": "you",
+        "startTime": 88.06,
+        "endTime": 88.42
+      },
+      {
+        "word": "do",
+        "startTime": 88.42,
+        "endTime": 88.74
+      },
+      {
+        "word": "afterwards.",
+        "startTime": 88.74,
+        "endTime": 89.66
+      }
+    ]
+  },
+  {
+    "text": "Remember this.",
+    "startTime": 91.14,
+    "endTime": 92.2,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Remember",
+        "startTime": 91.14,
+        "endTime": 91.84
+      },
+      {
+        "word": "this.",
+        "startTime": 91.84,
+        "endTime": 92.2
+      }
+    ]
+  },
+  {
+    "text": "Always review AI drafted communications before sending.",
+    "startTime": 92.94,
+    "endTime": 98.32,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Always",
+        "startTime": 92.94,
+        "endTime": 93.48
+      },
+      {
+        "word": "review",
+        "startTime": 93.48,
+        "endTime": 94.16
+      },
+      {
+        "word": "AI",
+        "startTime": 94.16,
+        "endTime": 94.7
+      },
+      {
+        "word": "drafted",
+        "startTime": 94.7,
+        "endTime": 95.34
+      },
+      {
+        "word": "communications",
+        "startTime": 95.34,
+        "endTime": 96.44
+      },
+      {
+        "word": "before",
+        "startTime": 96.44,
+        "endTime": 97.44
+      },
+      {
+        "word": "sending.",
+        "startTime": 97.44,
+        "endTime": 98.32
+      }
+    ]
+  },
+  {
+    "text": "AI cannot verify your specific facts, your relationship history or the organizational context that only you hold.",
+    "startTime": 99.42,
+    "endTime": 109.98,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "AI",
+        "startTime": 99.42,
+        "endTime": 99.74
+      },
+      {
+        "word": "cannot",
+        "startTime": 99.74,
+        "endTime": 100.32
+      },
+      {
+        "word": "verify",
+        "startTime": 100.32,
+        "endTime": 101
+      },
+      {
+        "word": "your",
+        "startTime": 101,
+        "endTime": 101.3
+      },
+      {
+        "word": "specific",
+        "startTime": 101.3,
+        "endTime": 101.94
+      },
+      {
+        "word": "facts,",
+        "startTime": 101.94,
+        "endTime": 102.56
+      },
+      {
+        "word": "your",
+        "startTime": 103.02,
+        "endTime": 103.18
+      },
+      {
+        "word": "relationship",
+        "startTime": 103.18,
+        "endTime": 103.8
+      },
+      {
+        "word": "history",
+        "startTime": 103.8,
+        "endTime": 104.64
+      },
+      {
+        "word": "or",
+        "startTime": 104.64,
+        "endTime": 105.34
+      },
+      {
+        "word": "the",
+        "startTime": 105.34,
+        "endTime": 105.66
+      },
+      {
+        "word": "organizational",
+        "startTime": 105.66,
+        "endTime": 106.58
+      },
+      {
+        "word": "context",
+        "startTime": 106.58,
+        "endTime": 107.26
+      },
+      {
+        "word": "that",
+        "startTime": 107.26,
+        "endTime": 107.98
+      },
+      {
+        "word": "only",
+        "startTime": 107.98,
+        "endTime": 108.58
+      },
+      {
+        "word": "you",
+        "startTime": 108.58,
+        "endTime": 109.04
+      },
+      {
+        "word": "hold.",
+        "startTime": 109.04,
+        "endTime": 109.98
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 111.26,
+    "endTime": 116.54,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 111.26,
+        "endTime": 111.72
+      },
+      {
+        "word": "what",
+        "startTime": 111.72,
+        "endTime": 112.04
+      },
+      {
+        "word": "you",
+        "startTime": 112.04,
+        "endTime": 112.22
+      },
+      {
+        "word": "learn",
+        "startTime": 112.22,
+        "endTime": 112.52
+      },
+      {
+        "word": "in",
+        "startTime": 112.52,
+        "endTime": 112.7
+      },
+      {
+        "word": "this",
+        "startTime": 112.7,
+        "endTime": 112.96
+      },
+      {
+        "word": "lesson",
+        "startTime": 112.96,
+        "endTime": 113.44
+      },
+      {
+        "word": "and",
+        "startTime": 113.44,
+        "endTime": 114.04
+      },
+      {
+        "word": "you",
+        "startTime": 114.04,
+        "endTime": 114.28
+      },
+      {
+        "word": "will",
+        "startTime": 114.28,
+        "endTime": 114.46
+      },
+      {
+        "word": "see",
+        "startTime": 114.46,
+        "endTime": 114.76
+      },
+      {
+        "word": "results",
+        "startTime": 114.76,
+        "endTime": 115.32
+      },
+      {
+        "word": "immediately.",
+        "startTime": 115.32,
+        "endTime": 116.54
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 117.38,
+    "endTime": 119.38,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 117.38,
+        "endTime": 117.54
+      },
+      {
+        "word": "skills",
+        "startTime": 117.54,
+        "endTime": 118.2
+      },
+      {
+        "word": "bear",
+        "startTime": 118.2,
+        "endTime": 118.72
+      },
+      {
+        "word": "fruit.",
+        "startTime": 118.72,
+        "endTime": 119.38
+      }
+    ]
+  }
+]

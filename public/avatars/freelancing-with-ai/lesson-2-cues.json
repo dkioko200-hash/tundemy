@@ -1,0 +1,712 @@
+[
+  {
+    "text": "Client spend an average of 90 seconds reading an Upwork Profile before deciding whether to send an interview invitation.",
+    "startTime": 0,
+    "endTime": 8.88,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "Client",
+        "startTime": 0,
+        "endTime": 0.52
+      },
+      {
+        "word": "spend",
+        "startTime": 0.52,
+        "endTime": 0.9
+      },
+      {
+        "word": "an",
+        "startTime": 0.9,
+        "endTime": 1.18
+      },
+      {
+        "word": "average",
+        "startTime": 1.18,
+        "endTime": 1.42
+      },
+      {
+        "word": "of",
+        "startTime": 1.42,
+        "endTime": 1.72
+      },
+      {
+        "word": "90",
+        "startTime": 1.72,
+        "endTime": 2.3
+      },
+      {
+        "word": "seconds",
+        "startTime": 2.3,
+        "endTime": 3.1
+      },
+      {
+        "word": "reading",
+        "startTime": 3.1,
+        "endTime": 3.74
+      },
+      {
+        "word": "an",
+        "startTime": 3.74,
+        "endTime": 4.06
+      },
+      {
+        "word": "Upwork",
+        "startTime": 4.06,
+        "endTime": 4.38
+      },
+      {
+        "word": "Profile",
+        "startTime": 4.38,
+        "endTime": 5.14
+      },
+      {
+        "word": "before",
+        "startTime": 5.14,
+        "endTime": 5.72
+      },
+      {
+        "word": "deciding",
+        "startTime": 5.72,
+        "endTime": 6.36
+      },
+      {
+        "word": "whether",
+        "startTime": 6.36,
+        "endTime": 6.78
+      },
+      {
+        "word": "to",
+        "startTime": 6.78,
+        "endTime": 7.02
+      },
+      {
+        "word": "send",
+        "startTime": 7.02,
+        "endTime": 7.26
+      },
+      {
+        "word": "an",
+        "startTime": 7.26,
+        "endTime": 7.52
+      },
+      {
+        "word": "interview",
+        "startTime": 7.52,
+        "endTime": 8.02
+      },
+      {
+        "word": "invitation.",
+        "startTime": 8.02,
+        "endTime": 8.88
+      }
+    ]
+  },
+  {
+    "text": "Your profile must do three things in those 90 seconds.",
+    "startTime": 9.54,
+    "endTime": 13.92,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 9.54,
+        "endTime": 9.8
+      },
+      {
+        "word": "profile",
+        "startTime": 9.8,
+        "endTime": 10.36
+      },
+      {
+        "word": "must",
+        "startTime": 10.36,
+        "endTime": 10.7
+      },
+      {
+        "word": "do",
+        "startTime": 10.7,
+        "endTime": 10.96
+      },
+      {
+        "word": "three",
+        "startTime": 10.96,
+        "endTime": 11.5
+      },
+      {
+        "word": "things",
+        "startTime": 11.5,
+        "endTime": 12.1
+      },
+      {
+        "word": "in",
+        "startTime": 12.1,
+        "endTime": 12.38
+      },
+      {
+        "word": "those",
+        "startTime": 12.38,
+        "endTime": 12.6
+      },
+      {
+        "word": "90",
+        "startTime": 12.6,
+        "endTime": 13.12
+      },
+      {
+        "word": "seconds.",
+        "startTime": 13.12,
+        "endTime": 13.92
+      }
+    ]
+  },
+  {
+    "text": "Establish credibility, demonstrate that you understand their specific problem and show proof that you can solve it.",
+    "startTime": 14.52,
+    "endTime": 23.5,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Establish",
+        "startTime": 14.52,
+        "endTime": 15.2
+      },
+      {
+        "word": "credibility,",
+        "startTime": 15.2,
+        "endTime": 15.88
+      },
+      {
+        "word": "demonstrate",
+        "startTime": 16.8,
+        "endTime": 17.5
+      },
+      {
+        "word": "that",
+        "startTime": 17.5,
+        "endTime": 17.78
+      },
+      {
+        "word": "you",
+        "startTime": 17.78,
+        "endTime": 17.96
+      },
+      {
+        "word": "understand",
+        "startTime": 17.96,
+        "endTime": 18.48
+      },
+      {
+        "word": "their",
+        "startTime": 18.48,
+        "endTime": 18.8
+      },
+      {
+        "word": "specific",
+        "startTime": 18.8,
+        "endTime": 19.38
+      },
+      {
+        "word": "problem",
+        "startTime": 19.38,
+        "endTime": 20.06
+      },
+      {
+        "word": "and",
+        "startTime": 20.06,
+        "endTime": 20.78
+      },
+      {
+        "word": "show",
+        "startTime": 20.78,
+        "endTime": 21.1
+      },
+      {
+        "word": "proof",
+        "startTime": 21.1,
+        "endTime": 21.6
+      },
+      {
+        "word": "that",
+        "startTime": 21.6,
+        "endTime": 22.16
+      },
+      {
+        "word": "you",
+        "startTime": 22.16,
+        "endTime": 22.4
+      },
+      {
+        "word": "can",
+        "startTime": 22.4,
+        "endTime": 22.64
+      },
+      {
+        "word": "solve",
+        "startTime": 22.64,
+        "endTime": 23.02
+      },
+      {
+        "word": "it.",
+        "startTime": 23.02,
+        "endTime": 23.5
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, an Upwork Profile has five components that determine higher rate, headline who you are for.",
+    "startTime": 23.88,
+    "endTime": 34.02,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 23.88,
+        "endTime": 24.48
+      },
+      {
+        "word": "this",
+        "startTime": 24.48,
+        "endTime": 24.76
+      },
+      {
+        "word": "lesson,",
+        "startTime": 24.76,
+        "endTime": 25.28
+      },
+      {
+        "word": "an",
+        "startTime": 25.86,
+        "endTime": 26.1
+      },
+      {
+        "word": "Upwork",
+        "startTime": 26.1,
+        "endTime": 26.6
+      },
+      {
+        "word": "Profile",
+        "startTime": 26.6,
+        "endTime": 27.34
+      },
+      {
+        "word": "has",
+        "startTime": 27.34,
+        "endTime": 27.66
+      },
+      {
+        "word": "five",
+        "startTime": 27.66,
+        "endTime": 28.1
+      },
+      {
+        "word": "components",
+        "startTime": 28.1,
+        "endTime": 28.88
+      },
+      {
+        "word": "that",
+        "startTime": 28.88,
+        "endTime": 29.5
+      },
+      {
+        "word": "determine",
+        "startTime": 29.5,
+        "endTime": 30.16
+      },
+      {
+        "word": "higher",
+        "startTime": 30.16,
+        "endTime": 30.64
+      },
+      {
+        "word": "rate,",
+        "startTime": 30.64,
+        "endTime": 31.2
+      },
+      {
+        "word": "headline",
+        "startTime": 31.86,
+        "endTime": 32.24
+      },
+      {
+        "word": "who",
+        "startTime": 32.24,
+        "endTime": 33.14
+      },
+      {
+        "word": "you",
+        "startTime": 33.14,
+        "endTime": 33.38
+      },
+      {
+        "word": "are",
+        "startTime": 33.38,
+        "endTime": 33.6
+      },
+      {
+        "word": "for.",
+        "startTime": 33.6,
+        "endTime": 34.02
+      }
+    ]
+  },
+  {
+    "text": "Overview why hire you over others?",
+    "startTime": 35.16,
+    "endTime": 38.98,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Overview",
+        "startTime": 35.16,
+        "endTime": 35.86
+      },
+      {
+        "word": "why",
+        "startTime": 35.86,
+        "endTime": 36.74
+      },
+      {
+        "word": "hire",
+        "startTime": 36.74,
+        "endTime": 37.24
+      },
+      {
+        "word": "you",
+        "startTime": 37.24,
+        "endTime": 37.62
+      },
+      {
+        "word": "over",
+        "startTime": 37.62,
+        "endTime": 38.36
+      },
+      {
+        "word": "others?",
+        "startTime": 38.36,
+        "endTime": 38.98
+      }
+    ]
+  },
+  {
+    "text": "Portfolio, proof you can do the work.",
+    "startTime": 39.9,
+    "endTime": 43.62,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Portfolio,",
+        "startTime": 39.9,
+        "endTime": 40.88
+      },
+      {
+        "word": "proof",
+        "startTime": 41.52,
+        "endTime": 41.88
+      },
+      {
+        "word": "you",
+        "startTime": 41.88,
+        "endTime": 42.2
+      },
+      {
+        "word": "can",
+        "startTime": 42.2,
+        "endTime": 42.42
+      },
+      {
+        "word": "do",
+        "startTime": 42.42,
+        "endTime": 42.72
+      },
+      {
+        "word": "the",
+        "startTime": 42.72,
+        "endTime": 43.02
+      },
+      {
+        "word": "work.",
+        "startTime": 43.02,
+        "endTime": 43.62
+      }
+    ]
+  },
+  {
+    "text": "Skill section, search match keywords and hourly rate expectation setting.",
+    "startTime": 44.28,
+    "endTime": 52.12,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Skill",
+        "startTime": 44.28,
+        "endTime": 44.78
+      },
+      {
+        "word": "section,",
+        "startTime": 44.78,
+        "endTime": 45.46
+      },
+      {
+        "word": "search",
+        "startTime": 46.28,
+        "endTime": 46.64
+      },
+      {
+        "word": "match",
+        "startTime": 46.64,
+        "endTime": 46.96
+      },
+      {
+        "word": "keywords",
+        "startTime": 46.96,
+        "endTime": 47.78
+      },
+      {
+        "word": "and",
+        "startTime": 47.78,
+        "endTime": 48.88
+      },
+      {
+        "word": "hourly",
+        "startTime": 48.88,
+        "endTime": 49.42
+      },
+      {
+        "word": "rate",
+        "startTime": 49.42,
+        "endTime": 50.12
+      },
+      {
+        "word": "expectation",
+        "startTime": 50.12,
+        "endTime": 51.14
+      },
+      {
+        "word": "setting.",
+        "startTime": 51.14,
+        "endTime": 52.12
+      }
+    ]
+  },
+  {
+    "text": "The overview is the highest leverage component, 90 % of freelancers write a generic biography, write a client -focused problem statement instead.",
+    "startTime": 53.019999999999996,
+    "endTime": 66.4,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 53.019999999999996,
+        "endTime": 53.48
+      },
+      {
+        "word": "overview",
+        "startTime": 53.48,
+        "endTime": 53.9
+      },
+      {
+        "word": "is",
+        "startTime": 53.9,
+        "endTime": 54.68
+      },
+      {
+        "word": "the",
+        "startTime": 54.68,
+        "endTime": 54.88
+      },
+      {
+        "word": "highest",
+        "startTime": 54.88,
+        "endTime": 55.34
+      },
+      {
+        "word": "leverage",
+        "startTime": 55.34,
+        "endTime": 55.94
+      },
+      {
+        "word": "component,",
+        "startTime": 55.94,
+        "endTime": 56.8
+      },
+      {
+        "word": "90",
+        "startTime": 57.56,
+        "endTime": 57.98
+      },
+      {
+        "word": "%",
+        "startTime": 57.98,
+        "endTime": 58.36
+      },
+      {
+        "word": "of",
+        "startTime": 58.36,
+        "endTime": 58.58
+      },
+      {
+        "word": "freelancers",
+        "startTime": 58.58,
+        "endTime": 59.52
+      },
+      {
+        "word": "write",
+        "startTime": 59.52,
+        "endTime": 59.98
+      },
+      {
+        "word": "a",
+        "startTime": 59.98,
+        "endTime": 60.22
+      },
+      {
+        "word": "generic",
+        "startTime": 60.22,
+        "endTime": 60.74
+      },
+      {
+        "word": "biography,",
+        "startTime": 60.74,
+        "endTime": 61.74
+      },
+      {
+        "word": "write",
+        "startTime": 62.4,
+        "endTime": 62.76
+      },
+      {
+        "word": "a",
+        "startTime": 62.76,
+        "endTime": 63.04
+      },
+      {
+        "word": "client",
+        "startTime": 63.04,
+        "endTime": 63.54
+      },
+      {
+        "word": "-focused",
+        "startTime": 63.54,
+        "endTime": 64.2
+      },
+      {
+        "word": "problem",
+        "startTime": 64.2,
+        "endTime": 64.78
+      },
+      {
+        "word": "statement",
+        "startTime": 64.78,
+        "endTime": 65.42
+      },
+      {
+        "word": "instead.",
+        "startTime": 65.42,
+        "endTime": 66.4
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 67,
+    "endTime": 72.6,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 67,
+        "endTime": 67.92
+      },
+      {
+        "word": "what",
+        "startTime": 67.92,
+        "endTime": 68.22
+      },
+      {
+        "word": "you",
+        "startTime": 68.22,
+        "endTime": 68.38
+      },
+      {
+        "word": "learn",
+        "startTime": 68.38,
+        "endTime": 68.68
+      },
+      {
+        "word": "in",
+        "startTime": 68.68,
+        "endTime": 68.88
+      },
+      {
+        "word": "this",
+        "startTime": 68.88,
+        "endTime": 69.12
+      },
+      {
+        "word": "lesson",
+        "startTime": 69.12,
+        "endTime": 69.58
+      },
+      {
+        "word": "and",
+        "startTime": 69.58,
+        "endTime": 70.12
+      },
+      {
+        "word": "you",
+        "startTime": 70.12,
+        "endTime": 70.3
+      },
+      {
+        "word": "will",
+        "startTime": 70.3,
+        "endTime": 70.44
+      },
+      {
+        "word": "see",
+        "startTime": 70.44,
+        "endTime": 70.74
+      },
+      {
+        "word": "results",
+        "startTime": 70.74,
+        "endTime": 71.28
+      },
+      {
+        "word": "immediately.",
+        "startTime": 71.28,
+        "endTime": 72.6
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 73.32,
+    "endTime": 75.5,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 73.32,
+        "endTime": 73.82
+      },
+      {
+        "word": "skills",
+        "startTime": 73.82,
+        "endTime": 74.44
+      },
+      {
+        "word": "bear",
+        "startTime": 74.44,
+        "endTime": 75.04
+      },
+      {
+        "word": "fruit.",
+        "startTime": 75.04,
+        "endTime": 75.5
+      }
+    ]
+  }
+]

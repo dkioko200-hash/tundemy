@@ -1,0 +1,574 @@
+[
+  {
+    "text": "KRA requires payment records.",
+    "startTime": 0,
+    "endTime": 3.14,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "KRA",
+        "startTime": 0,
+        "endTime": 0.9
+      },
+      {
+        "word": "requires",
+        "startTime": 0.9,
+        "endTime": 1.8
+      },
+      {
+        "word": "payment",
+        "startTime": 1.8,
+        "endTime": 2.54
+      },
+      {
+        "word": "records.",
+        "startTime": 2.54,
+        "endTime": 3.14
+      }
+    ]
+  },
+  {
+    "text": "Your business requires an audit trail.",
+    "startTime": 3.9,
+    "endTime": 7.02,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 3.9,
+        "endTime": 4.26
+      },
+      {
+        "word": "business",
+        "startTime": 4.26,
+        "endTime": 4.78
+      },
+      {
+        "word": "requires",
+        "startTime": 4.78,
+        "endTime": 5.54
+      },
+      {
+        "word": "an",
+        "startTime": 5.54,
+        "endTime": 5.98
+      },
+      {
+        "word": "audit",
+        "startTime": 5.98,
+        "endTime": 6.48
+      },
+      {
+        "word": "trail.",
+        "startTime": 6.48,
+        "endTime": 7.02
+      }
+    ]
+  },
+  {
+    "text": "Your customers require receipts.",
+    "startTime": 7.8,
+    "endTime": 10.68,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 7.8,
+        "endTime": 7.92
+      },
+      {
+        "word": "customers",
+        "startTime": 7.92,
+        "endTime": 8.6
+      },
+      {
+        "word": "require",
+        "startTime": 8.6,
+        "endTime": 9.52
+      },
+      {
+        "word": "receipts.",
+        "startTime": 9.52,
+        "endTime": 10.68
+      }
+    ]
+  },
+  {
+    "text": "A well -built logging system satisfies all three simultaneously and takes a developer four hours to build once versus days of manual reconciliation every month.",
+    "startTime": 11.46,
+    "endTime": 25.54,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 11.46,
+        "endTime": 11.64
+      },
+      {
+        "word": "well",
+        "startTime": 11.64,
+        "endTime": 11.92
+      },
+      {
+        "word": "-built",
+        "startTime": 11.92,
+        "endTime": 12.18
+      },
+      {
+        "word": "logging",
+        "startTime": 12.18,
+        "endTime": 12.66
+      },
+      {
+        "word": "system",
+        "startTime": 12.66,
+        "endTime": 13.26
+      },
+      {
+        "word": "satisfies",
+        "startTime": 13.26,
+        "endTime": 14.24
+      },
+      {
+        "word": "all",
+        "startTime": 14.24,
+        "endTime": 14.9
+      },
+      {
+        "word": "three",
+        "startTime": 14.9,
+        "endTime": 15.32
+      },
+      {
+        "word": "simultaneously",
+        "startTime": 15.32,
+        "endTime": 16.34
+      },
+      {
+        "word": "and",
+        "startTime": 16.34,
+        "endTime": 17.26
+      },
+      {
+        "word": "takes",
+        "startTime": 17.26,
+        "endTime": 17.62
+      },
+      {
+        "word": "a",
+        "startTime": 17.62,
+        "endTime": 17.78
+      },
+      {
+        "word": "developer",
+        "startTime": 17.78,
+        "endTime": 18.18
+      },
+      {
+        "word": "four",
+        "startTime": 18.18,
+        "endTime": 18.78
+      },
+      {
+        "word": "hours",
+        "startTime": 18.78,
+        "endTime": 19.28
+      },
+      {
+        "word": "to",
+        "startTime": 19.28,
+        "endTime": 19.58
+      },
+      {
+        "word": "build",
+        "startTime": 19.58,
+        "endTime": 19.94
+      },
+      {
+        "word": "once",
+        "startTime": 19.94,
+        "endTime": 20.44
+      },
+      {
+        "word": "versus",
+        "startTime": 20.44,
+        "endTime": 21.58
+      },
+      {
+        "word": "days",
+        "startTime": 21.58,
+        "endTime": 22.14
+      },
+      {
+        "word": "of",
+        "startTime": 22.14,
+        "endTime": 22.46
+      },
+      {
+        "word": "manual",
+        "startTime": 22.46,
+        "endTime": 22.92
+      },
+      {
+        "word": "reconciliation",
+        "startTime": 22.92,
+        "endTime": 23.9
+      },
+      {
+        "word": "every",
+        "startTime": 23.9,
+        "endTime": 25.12
+      },
+      {
+        "word": "month.",
+        "startTime": 25.12,
+        "endTime": 25.54
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, design a comprehensive payment logging schema for Superbase.",
+    "startTime": 25.54,
+    "endTime": 33.16,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 25.54,
+        "endTime": 27.14
+      },
+      {
+        "word": "this",
+        "startTime": 27.14,
+        "endTime": 27.4
+      },
+      {
+        "word": "lesson,",
+        "startTime": 27.4,
+        "endTime": 27.96
+      },
+      {
+        "word": "design",
+        "startTime": 28.7,
+        "endTime": 29.08
+      },
+      {
+        "word": "a",
+        "startTime": 29.08,
+        "endTime": 29.48
+      },
+      {
+        "word": "comprehensive",
+        "startTime": 29.48,
+        "endTime": 30.26
+      },
+      {
+        "word": "payment",
+        "startTime": 30.26,
+        "endTime": 30.84
+      },
+      {
+        "word": "logging",
+        "startTime": 30.84,
+        "endTime": 31.26
+      },
+      {
+        "word": "schema",
+        "startTime": 31.26,
+        "endTime": 31.92
+      },
+      {
+        "word": "for",
+        "startTime": 31.92,
+        "endTime": 32.4
+      },
+      {
+        "word": "Superbase.",
+        "startTime": 32.4,
+        "endTime": 33.16
+      }
+    ]
+  },
+  {
+    "text": "Generate customer facing empecary seats as formatted text for WhatsApp delivery.",
+    "startTime": 34,
+    "endTime": 40.98,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Generate",
+        "startTime": 34,
+        "endTime": 34.84
+      },
+      {
+        "word": "customer",
+        "startTime": 34.84,
+        "endTime": 35.4
+      },
+      {
+        "word": "facing",
+        "startTime": 35.4,
+        "endTime": 35.96
+      },
+      {
+        "word": "empecary",
+        "startTime": 35.96,
+        "endTime": 36.94
+      },
+      {
+        "word": "seats",
+        "startTime": 36.94,
+        "endTime": 37.5
+      },
+      {
+        "word": "as",
+        "startTime": 37.5,
+        "endTime": 38
+      },
+      {
+        "word": "formatted",
+        "startTime": 38,
+        "endTime": 38.66
+      },
+      {
+        "word": "text",
+        "startTime": 38.66,
+        "endTime": 39.34
+      },
+      {
+        "word": "for",
+        "startTime": 39.34,
+        "endTime": 39.82
+      },
+      {
+        "word": "WhatsApp",
+        "startTime": 39.82,
+        "endTime": 40.26
+      },
+      {
+        "word": "delivery.",
+        "startTime": 40.26,
+        "endTime": 40.98
+      }
+    ]
+  },
+  {
+    "text": "Build a daily reconciliation report that matches system records against the empecest statement and expose a simple admin API for finance teams.",
+    "startTime": 41.74,
+    "endTime": 55.24,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Build",
+        "startTime": 41.74,
+        "endTime": 42.26
+      },
+      {
+        "word": "a",
+        "startTime": 42.26,
+        "endTime": 42.62
+      },
+      {
+        "word": "daily",
+        "startTime": 42.62,
+        "endTime": 43
+      },
+      {
+        "word": "reconciliation",
+        "startTime": 43,
+        "endTime": 43.68
+      },
+      {
+        "word": "report",
+        "startTime": 43.68,
+        "endTime": 44.74
+      },
+      {
+        "word": "that",
+        "startTime": 44.74,
+        "endTime": 45.36
+      },
+      {
+        "word": "matches",
+        "startTime": 45.36,
+        "endTime": 45.86
+      },
+      {
+        "word": "system",
+        "startTime": 45.86,
+        "endTime": 46.42
+      },
+      {
+        "word": "records",
+        "startTime": 46.42,
+        "endTime": 47.02
+      },
+      {
+        "word": "against",
+        "startTime": 47.02,
+        "endTime": 47.82
+      },
+      {
+        "word": "the",
+        "startTime": 47.82,
+        "endTime": 48.16
+      },
+      {
+        "word": "empecest",
+        "startTime": 48.16,
+        "endTime": 48.82
+      },
+      {
+        "word": "statement",
+        "startTime": 48.82,
+        "endTime": 49.34
+      },
+      {
+        "word": "and",
+        "startTime": 49.34,
+        "endTime": 50.16
+      },
+      {
+        "word": "expose",
+        "startTime": 50.16,
+        "endTime": 50.7
+      },
+      {
+        "word": "a",
+        "startTime": 50.7,
+        "endTime": 51.16
+      },
+      {
+        "word": "simple",
+        "startTime": 51.16,
+        "endTime": 51.7
+      },
+      {
+        "word": "admin",
+        "startTime": 51.7,
+        "endTime": 52.32
+      },
+      {
+        "word": "API",
+        "startTime": 52.32,
+        "endTime": 53.08
+      },
+      {
+        "word": "for",
+        "startTime": 53.08,
+        "endTime": 53.9
+      },
+      {
+        "word": "finance",
+        "startTime": 53.9,
+        "endTime": 54.44
+      },
+      {
+        "word": "teams.",
+        "startTime": 54.44,
+        "endTime": 55.24
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 56.66,
+    "endTime": 61.82,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 56.66,
+        "endTime": 57.06
+      },
+      {
+        "word": "what",
+        "startTime": 57.06,
+        "endTime": 57.36
+      },
+      {
+        "word": "you",
+        "startTime": 57.36,
+        "endTime": 57.56
+      },
+      {
+        "word": "learn",
+        "startTime": 57.56,
+        "endTime": 57.88
+      },
+      {
+        "word": "in",
+        "startTime": 57.88,
+        "endTime": 58.08
+      },
+      {
+        "word": "this",
+        "startTime": 58.08,
+        "endTime": 58.34
+      },
+      {
+        "word": "lesson",
+        "startTime": 58.34,
+        "endTime": 58.82
+      },
+      {
+        "word": "and",
+        "startTime": 58.82,
+        "endTime": 59.34
+      },
+      {
+        "word": "you",
+        "startTime": 59.34,
+        "endTime": 59.56
+      },
+      {
+        "word": "will",
+        "startTime": 59.56,
+        "endTime": 59.72
+      },
+      {
+        "word": "see",
+        "startTime": 59.72,
+        "endTime": 60.04
+      },
+      {
+        "word": "results",
+        "startTime": 60.04,
+        "endTime": 60.62
+      },
+      {
+        "word": "immediately.",
+        "startTime": 60.62,
+        "endTime": 61.82
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 62.54,
+    "endTime": 64.64,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 62.54,
+        "endTime": 62.66
+      },
+      {
+        "word": "skills",
+        "startTime": 62.66,
+        "endTime": 63.36
+      },
+      {
+        "word": "bear",
+        "startTime": 63.36,
+        "endTime": 63.92
+      },
+      {
+        "word": "fruit.",
+        "startTime": 63.92,
+        "endTime": 64.64
+      }
+    ]
+  }
+]

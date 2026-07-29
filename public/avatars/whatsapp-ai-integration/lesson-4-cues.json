@@ -1,0 +1,535 @@
+[
+  {
+    "text": "Sending messages is 20 % of build in a bot, receiving messages, passing them and responding intelligently is the other 80%.",
+    "startTime": 0,
+    "endTime": 12.16,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "Sending",
+        "startTime": 0,
+        "endTime": 0.44
+      },
+      {
+        "word": "messages",
+        "startTime": 0.44,
+        "endTime": 0.98
+      },
+      {
+        "word": "is",
+        "startTime": 0.98,
+        "endTime": 1.42
+      },
+      {
+        "word": "20",
+        "startTime": 1.42,
+        "endTime": 2
+      },
+      {
+        "word": "%",
+        "startTime": 2,
+        "endTime": 2.38
+      },
+      {
+        "word": "of",
+        "startTime": 2.38,
+        "endTime": 2.66
+      },
+      {
+        "word": "build",
+        "startTime": 2.66,
+        "endTime": 2.9
+      },
+      {
+        "word": "in",
+        "startTime": 2.9,
+        "endTime": 3.2
+      },
+      {
+        "word": "a",
+        "startTime": 3.2,
+        "endTime": 3.28
+      },
+      {
+        "word": "bot,",
+        "startTime": 3.28,
+        "endTime": 3.62
+      },
+      {
+        "word": "receiving",
+        "startTime": 4.36,
+        "endTime": 5
+      },
+      {
+        "word": "messages,",
+        "startTime": 5,
+        "endTime": 5.72
+      },
+      {
+        "word": "passing",
+        "startTime": 6.28,
+        "endTime": 6.72
+      },
+      {
+        "word": "them",
+        "startTime": 6.72,
+        "endTime": 7.08
+      },
+      {
+        "word": "and",
+        "startTime": 7.08,
+        "endTime": 7.6
+      },
+      {
+        "word": "responding",
+        "startTime": 7.6,
+        "endTime": 8.2
+      },
+      {
+        "word": "intelligently",
+        "startTime": 8.2,
+        "endTime": 9.52
+      },
+      {
+        "word": "is",
+        "startTime": 9.52,
+        "endTime": 10.1
+      },
+      {
+        "word": "the",
+        "startTime": 10.1,
+        "endTime": 10.3
+      },
+      {
+        "word": "other",
+        "startTime": 10.3,
+        "endTime": 10.6
+      },
+      {
+        "word": "80%.",
+        "startTime": 10.6,
+        "endTime": 12.16
+      }
+    ]
+  },
+  {
+    "text": "This is where the real engineering happens.",
+    "startTime": 12.16,
+    "endTime": 15.92,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "This",
+        "startTime": 12.16,
+        "endTime": 13.02
+      },
+      {
+        "word": "is",
+        "startTime": 13.02,
+        "endTime": 13.2
+      },
+      {
+        "word": "where",
+        "startTime": 13.2,
+        "endTime": 13.48
+      },
+      {
+        "word": "the",
+        "startTime": 13.48,
+        "endTime": 13.66
+      },
+      {
+        "word": "real",
+        "startTime": 13.66,
+        "endTime": 14.16
+      },
+      {
+        "word": "engineering",
+        "startTime": 14.16,
+        "endTime": 14.9
+      },
+      {
+        "word": "happens.",
+        "startTime": 14.9,
+        "endTime": 15.92
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, build a complete webhook server that receives all WhatsApp message types, verifies requests from meta, pauses the payload structure and routes messages to the correct handler.",
+    "startTime": 16.84,
+    "endTime": 32.36,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 16.84,
+        "endTime": 17.42
+      },
+      {
+        "word": "this",
+        "startTime": 17.42,
+        "endTime": 17.68
+      },
+      {
+        "word": "lesson,",
+        "startTime": 17.68,
+        "endTime": 18.12
+      },
+      {
+        "word": "build",
+        "startTime": 18.82,
+        "endTime": 19.06
+      },
+      {
+        "word": "a",
+        "startTime": 19.06,
+        "endTime": 19.36
+      },
+      {
+        "word": "complete",
+        "startTime": 19.36,
+        "endTime": 19.82
+      },
+      {
+        "word": "webhook",
+        "startTime": 19.82,
+        "endTime": 20.54
+      },
+      {
+        "word": "server",
+        "startTime": 20.54,
+        "endTime": 21.06
+      },
+      {
+        "word": "that",
+        "startTime": 21.06,
+        "endTime": 21.54
+      },
+      {
+        "word": "receives",
+        "startTime": 21.54,
+        "endTime": 21.98
+      },
+      {
+        "word": "all",
+        "startTime": 21.98,
+        "endTime": 22.62
+      },
+      {
+        "word": "WhatsApp",
+        "startTime": 22.62,
+        "endTime": 23.22
+      },
+      {
+        "word": "message",
+        "startTime": 23.22,
+        "endTime": 23.66
+      },
+      {
+        "word": "types,",
+        "startTime": 23.66,
+        "endTime": 24.32
+      },
+      {
+        "word": "verifies",
+        "startTime": 24.32,
+        "endTime": 25.22
+      },
+      {
+        "word": "requests",
+        "startTime": 25.22,
+        "endTime": 25.78
+      },
+      {
+        "word": "from",
+        "startTime": 25.78,
+        "endTime": 26.28
+      },
+      {
+        "word": "meta,",
+        "startTime": 26.28,
+        "endTime": 26.78
+      },
+      {
+        "word": "pauses",
+        "startTime": 27.4,
+        "endTime": 27.76
+      },
+      {
+        "word": "the",
+        "startTime": 27.76,
+        "endTime": 28
+      },
+      {
+        "word": "payload",
+        "startTime": 28,
+        "endTime": 28.4
+      },
+      {
+        "word": "structure",
+        "startTime": 28.4,
+        "endTime": 29.1
+      },
+      {
+        "word": "and",
+        "startTime": 29.1,
+        "endTime": 29.74
+      },
+      {
+        "word": "routes",
+        "startTime": 29.74,
+        "endTime": 30.08
+      },
+      {
+        "word": "messages",
+        "startTime": 30.08,
+        "endTime": 30.64
+      },
+      {
+        "word": "to",
+        "startTime": 30.64,
+        "endTime": 31
+      },
+      {
+        "word": "the",
+        "startTime": 31,
+        "endTime": 31.16
+      },
+      {
+        "word": "correct",
+        "startTime": 31.16,
+        "endTime": 31.54
+      },
+      {
+        "word": "handler.",
+        "startTime": 31.54,
+        "endTime": 32.36
+      }
+    ]
+  },
+  {
+    "text": "Then, add AI -powered intent detection using the Claude API so the bot understands free form Kenyan business messages in Swahili and English.",
+    "startTime": 33.06,
+    "endTime": 45.84,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Then,",
+        "startTime": 33.06,
+        "endTime": 33.54
+      },
+      {
+        "word": "add",
+        "startTime": 33.92,
+        "endTime": 34.28
+      },
+      {
+        "word": "AI",
+        "startTime": 34.28,
+        "endTime": 34.72
+      },
+      {
+        "word": "-powered",
+        "startTime": 34.72,
+        "endTime": 35.24
+      },
+      {
+        "word": "intent",
+        "startTime": 35.24,
+        "endTime": 35.74
+      },
+      {
+        "word": "detection",
+        "startTime": 35.74,
+        "endTime": 36.5
+      },
+      {
+        "word": "using",
+        "startTime": 36.5,
+        "endTime": 37.22
+      },
+      {
+        "word": "the",
+        "startTime": 37.22,
+        "endTime": 37.48
+      },
+      {
+        "word": "Claude",
+        "startTime": 37.48,
+        "endTime": 38.06
+      },
+      {
+        "word": "API",
+        "startTime": 38.06,
+        "endTime": 38.7
+      },
+      {
+        "word": "so",
+        "startTime": 38.7,
+        "endTime": 39.58
+      },
+      {
+        "word": "the",
+        "startTime": 39.58,
+        "endTime": 39.78
+      },
+      {
+        "word": "bot",
+        "startTime": 39.78,
+        "endTime": 40
+      },
+      {
+        "word": "understands",
+        "startTime": 40,
+        "endTime": 40.78
+      },
+      {
+        "word": "free",
+        "startTime": 40.78,
+        "endTime": 41.32
+      },
+      {
+        "word": "form",
+        "startTime": 41.32,
+        "endTime": 41.9
+      },
+      {
+        "word": "Kenyan",
+        "startTime": 41.9,
+        "endTime": 42.36
+      },
+      {
+        "word": "business",
+        "startTime": 42.36,
+        "endTime": 42.8
+      },
+      {
+        "word": "messages",
+        "startTime": 42.8,
+        "endTime": 43.46
+      },
+      {
+        "word": "in",
+        "startTime": 43.46,
+        "endTime": 44
+      },
+      {
+        "word": "Swahili",
+        "startTime": 44,
+        "endTime": 44.74
+      },
+      {
+        "word": "and",
+        "startTime": 44.74,
+        "endTime": 45.36
+      },
+      {
+        "word": "English.",
+        "startTime": 45.36,
+        "endTime": 45.84
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 46.96,
+    "endTime": 52,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 46.96,
+        "endTime": 47.46
+      },
+      {
+        "word": "what",
+        "startTime": 47.46,
+        "endTime": 47.76
+      },
+      {
+        "word": "you",
+        "startTime": 47.76,
+        "endTime": 47.94
+      },
+      {
+        "word": "learn",
+        "startTime": 47.94,
+        "endTime": 48.22
+      },
+      {
+        "word": "in",
+        "startTime": 48.22,
+        "endTime": 48.38
+      },
+      {
+        "word": "this",
+        "startTime": 48.38,
+        "endTime": 48.64
+      },
+      {
+        "word": "lesson",
+        "startTime": 48.64,
+        "endTime": 49.12
+      },
+      {
+        "word": "and",
+        "startTime": 49.12,
+        "endTime": 49.68
+      },
+      {
+        "word": "you",
+        "startTime": 49.68,
+        "endTime": 49.84
+      },
+      {
+        "word": "will",
+        "startTime": 49.84,
+        "endTime": 49.98
+      },
+      {
+        "word": "see",
+        "startTime": 49.98,
+        "endTime": 50.24
+      },
+      {
+        "word": "results",
+        "startTime": 50.24,
+        "endTime": 50.72
+      },
+      {
+        "word": "immediately.",
+        "startTime": 50.72,
+        "endTime": 52
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 52.66,
+    "endTime": 54.66,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 52.66,
+        "endTime": 53.06
+      },
+      {
+        "word": "skills",
+        "startTime": 53.06,
+        "endTime": 53.66
+      },
+      {
+        "word": "bear",
+        "startTime": 53.66,
+        "endTime": 54.24
+      },
+      {
+        "word": "fruit.",
+        "startTime": 54.24,
+        "endTime": 54.66
+      }
+    ]
+  }
+]

@@ -1,0 +1,3219 @@
+[
+  {
+    "text": "The core limitation of every large language model is the same.",
+    "startTime": 0,
+    "endTime": 3.66,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 0,
+        "endTime": 0.22
+      },
+      {
+        "word": "core",
+        "startTime": 0.22,
+        "endTime": 0.52
+      },
+      {
+        "word": "limitation",
+        "startTime": 0.52,
+        "endTime": 0.92
+      },
+      {
+        "word": "of",
+        "startTime": 0.92,
+        "endTime": 1.38
+      },
+      {
+        "word": "every",
+        "startTime": 1.38,
+        "endTime": 1.7
+      },
+      {
+        "word": "large",
+        "startTime": 1.7,
+        "endTime": 2.02
+      },
+      {
+        "word": "language",
+        "startTime": 2.02,
+        "endTime": 2.34
+      },
+      {
+        "word": "model",
+        "startTime": 2.34,
+        "endTime": 2.82
+      },
+      {
+        "word": "is",
+        "startTime": 2.82,
+        "endTime": 3.14
+      },
+      {
+        "word": "the",
+        "startTime": 3.14,
+        "endTime": 3.3
+      },
+      {
+        "word": "same.",
+        "startTime": 3.3,
+        "endTime": 3.66
+      }
+    ]
+  },
+  {
+    "text": "It was trained on data up to a cutoff date and it has no access to your specific data.",
+    "startTime": 4.2,
+    "endTime": 10.1,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "It",
+        "startTime": 4.2,
+        "endTime": 4.38
+      },
+      {
+        "word": "was",
+        "startTime": 4.38,
+        "endTime": 4.54
+      },
+      {
+        "word": "trained",
+        "startTime": 4.54,
+        "endTime": 4.94
+      },
+      {
+        "word": "on",
+        "startTime": 4.94,
+        "endTime": 5.18
+      },
+      {
+        "word": "data",
+        "startTime": 5.18,
+        "endTime": 5.6
+      },
+      {
+        "word": "up",
+        "startTime": 5.6,
+        "endTime": 6
+      },
+      {
+        "word": "to",
+        "startTime": 6,
+        "endTime": 6.18
+      },
+      {
+        "word": "a",
+        "startTime": 6.18,
+        "endTime": 6.26
+      },
+      {
+        "word": "cutoff",
+        "startTime": 6.26,
+        "endTime": 6.6
+      },
+      {
+        "word": "date",
+        "startTime": 6.6,
+        "endTime": 6.98
+      },
+      {
+        "word": "and",
+        "startTime": 6.98,
+        "endTime": 7.56
+      },
+      {
+        "word": "it",
+        "startTime": 7.56,
+        "endTime": 7.72
+      },
+      {
+        "word": "has",
+        "startTime": 7.72,
+        "endTime": 7.86
+      },
+      {
+        "word": "no",
+        "startTime": 7.86,
+        "endTime": 8.14
+      },
+      {
+        "word": "access",
+        "startTime": 8.14,
+        "endTime": 8.56
+      },
+      {
+        "word": "to",
+        "startTime": 8.56,
+        "endTime": 8.88
+      },
+      {
+        "word": "your",
+        "startTime": 8.88,
+        "endTime": 9.02
+      },
+      {
+        "word": "specific",
+        "startTime": 9.02,
+        "endTime": 9.52
+      },
+      {
+        "word": "data.",
+        "startTime": 9.52,
+        "endTime": 10.1
+      }
+    ]
+  },
+  {
+    "text": "RAG solves both problems simultaneously.",
+    "startTime": 10.84,
+    "endTime": 14.02,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "RAG",
+        "startTime": 10.84,
+        "endTime": 11.4
+      },
+      {
+        "word": "solves",
+        "startTime": 11.4,
+        "endTime": 11.96
+      },
+      {
+        "word": "both",
+        "startTime": 11.96,
+        "endTime": 12.34
+      },
+      {
+        "word": "problems",
+        "startTime": 12.34,
+        "endTime": 12.88
+      },
+      {
+        "word": "simultaneously.",
+        "startTime": 12.88,
+        "endTime": 14.02
+      }
+    ]
+  },
+  {
+    "text": "Understanding exactly how it solves them and where it can fail is what separates AI engineers from AI users.",
+    "startTime": 14.74,
+    "endTime": 22.88,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Understanding",
+        "startTime": 14.74,
+        "endTime": 15.18
+      },
+      {
+        "word": "exactly",
+        "startTime": 15.18,
+        "endTime": 15.96
+      },
+      {
+        "word": "how",
+        "startTime": 15.96,
+        "endTime": 16.36
+      },
+      {
+        "word": "it",
+        "startTime": 16.36,
+        "endTime": 16.54
+      },
+      {
+        "word": "solves",
+        "startTime": 16.54,
+        "endTime": 16.94
+      },
+      {
+        "word": "them",
+        "startTime": 16.94,
+        "endTime": 17.22
+      },
+      {
+        "word": "and",
+        "startTime": 17.22,
+        "endTime": 17.86
+      },
+      {
+        "word": "where",
+        "startTime": 17.86,
+        "endTime": 18.08
+      },
+      {
+        "word": "it",
+        "startTime": 18.08,
+        "endTime": 18.24
+      },
+      {
+        "word": "can",
+        "startTime": 18.24,
+        "endTime": 18.36
+      },
+      {
+        "word": "fail",
+        "startTime": 18.36,
+        "endTime": 18.76
+      },
+      {
+        "word": "is",
+        "startTime": 18.76,
+        "endTime": 19.44
+      },
+      {
+        "word": "what",
+        "startTime": 19.44,
+        "endTime": 19.68
+      },
+      {
+        "word": "separates",
+        "startTime": 19.68,
+        "endTime": 20.5
+      },
+      {
+        "word": "AI",
+        "startTime": 20.5,
+        "endTime": 20.84
+      },
+      {
+        "word": "engineers",
+        "startTime": 20.84,
+        "endTime": 21.54
+      },
+      {
+        "word": "from",
+        "startTime": 21.54,
+        "endTime": 21.98
+      },
+      {
+        "word": "AI",
+        "startTime": 21.98,
+        "endTime": 22.38
+      },
+      {
+        "word": "users.",
+        "startTime": 22.38,
+        "endTime": 22.88
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, RAG retrieval augmented generation is an architecture that combines a retrieval system.",
+    "startTime": 23.18,
+    "endTime": 32.2,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 23.18,
+        "endTime": 23.66
+      },
+      {
+        "word": "this",
+        "startTime": 23.66,
+        "endTime": 23.9
+      },
+      {
+        "word": "lesson,",
+        "startTime": 23.9,
+        "endTime": 24.36
+      },
+      {
+        "word": "RAG",
+        "startTime": 25.02,
+        "endTime": 25.8
+      },
+      {
+        "word": "retrieval",
+        "startTime": 25.8,
+        "endTime": 27.04
+      },
+      {
+        "word": "augmented",
+        "startTime": 27.04,
+        "endTime": 27.64
+      },
+      {
+        "word": "generation",
+        "startTime": 27.64,
+        "endTime": 28.48
+      },
+      {
+        "word": "is",
+        "startTime": 28.48,
+        "endTime": 29.22
+      },
+      {
+        "word": "an",
+        "startTime": 29.22,
+        "endTime": 29.38
+      },
+      {
+        "word": "architecture",
+        "startTime": 29.38,
+        "endTime": 29.92
+      },
+      {
+        "word": "that",
+        "startTime": 29.92,
+        "endTime": 30.36
+      },
+      {
+        "word": "combines",
+        "startTime": 30.36,
+        "endTime": 30.86
+      },
+      {
+        "word": "a",
+        "startTime": 30.86,
+        "endTime": 31.12
+      },
+      {
+        "word": "retrieval",
+        "startTime": 31.12,
+        "endTime": 31.7
+      },
+      {
+        "word": "system.",
+        "startTime": 31.7,
+        "endTime": 32.2
+      }
+    ]
+  },
+  {
+    "text": "Finds relevant information from a knowledge base with a generation system, the LLM that produces the final response.",
+    "startTime": 32.7,
+    "endTime": 40.92,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Finds",
+        "startTime": 32.7,
+        "endTime": 33.2
+      },
+      {
+        "word": "relevant",
+        "startTime": 33.2,
+        "endTime": 33.56
+      },
+      {
+        "word": "information",
+        "startTime": 33.56,
+        "endTime": 34.32
+      },
+      {
+        "word": "from",
+        "startTime": 34.32,
+        "endTime": 34.6
+      },
+      {
+        "word": "a",
+        "startTime": 34.6,
+        "endTime": 34.74
+      },
+      {
+        "word": "knowledge",
+        "startTime": 34.74,
+        "endTime": 35
+      },
+      {
+        "word": "base",
+        "startTime": 35,
+        "endTime": 35.44
+      },
+      {
+        "word": "with",
+        "startTime": 35.44,
+        "endTime": 36.1
+      },
+      {
+        "word": "a",
+        "startTime": 36.1,
+        "endTime": 36.24
+      },
+      {
+        "word": "generation",
+        "startTime": 36.24,
+        "endTime": 36.68
+      },
+      {
+        "word": "system,",
+        "startTime": 36.68,
+        "endTime": 37.44
+      },
+      {
+        "word": "the",
+        "startTime": 37.8,
+        "endTime": 37.9
+      },
+      {
+        "word": "LLM",
+        "startTime": 37.9,
+        "endTime": 38.94
+      },
+      {
+        "word": "that",
+        "startTime": 38.94,
+        "endTime": 39.26
+      },
+      {
+        "word": "produces",
+        "startTime": 39.26,
+        "endTime": 39.78
+      },
+      {
+        "word": "the",
+        "startTime": 39.78,
+        "endTime": 40.02
+      },
+      {
+        "word": "final",
+        "startTime": 40.02,
+        "endTime": 40.4
+      },
+      {
+        "word": "response.",
+        "startTime": 40.4,
+        "endTime": 40.92
+      }
+    ]
+  },
+  {
+    "text": "The basic flow user asks the question arrow retriever finds relevant documents.",
+    "startTime": 41.76,
+    "endTime": 47.2,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 41.76,
+        "endTime": 41.88
+      },
+      {
+        "word": "basic",
+        "startTime": 41.88,
+        "endTime": 42.3
+      },
+      {
+        "word": "flow",
+        "startTime": 42.3,
+        "endTime": 42.7
+      },
+      {
+        "word": "user",
+        "startTime": 42.7,
+        "endTime": 43.4
+      },
+      {
+        "word": "asks",
+        "startTime": 43.4,
+        "endTime": 43.88
+      },
+      {
+        "word": "the",
+        "startTime": 43.88,
+        "endTime": 44.1
+      },
+      {
+        "word": "question",
+        "startTime": 44.1,
+        "endTime": 44.58
+      },
+      {
+        "word": "arrow",
+        "startTime": 44.58,
+        "endTime": 44.92
+      },
+      {
+        "word": "retriever",
+        "startTime": 44.92,
+        "endTime": 45.6
+      },
+      {
+        "word": "finds",
+        "startTime": 45.6,
+        "endTime": 45.98
+      },
+      {
+        "word": "relevant",
+        "startTime": 45.98,
+        "endTime": 46.5
+      },
+      {
+        "word": "documents.",
+        "startTime": 46.5,
+        "endTime": 47.2
+      }
+    ]
+  },
+  {
+    "text": "Arrow documents are added to the LLM context, window arrow LLM generates a response grounded in retrieved documents.",
+    "startTime": 47.68,
+    "endTime": 57.32,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Arrow",
+        "startTime": 47.68,
+        "endTime": 47.96
+      },
+      {
+        "word": "documents",
+        "startTime": 47.96,
+        "endTime": 48.54
+      },
+      {
+        "word": "are",
+        "startTime": 48.54,
+        "endTime": 48.78
+      },
+      {
+        "word": "added",
+        "startTime": 48.78,
+        "endTime": 49.1
+      },
+      {
+        "word": "to",
+        "startTime": 49.1,
+        "endTime": 49.32
+      },
+      {
+        "word": "the",
+        "startTime": 49.32,
+        "endTime": 49.48
+      },
+      {
+        "word": "LLM",
+        "startTime": 49.48,
+        "endTime": 50.38
+      },
+      {
+        "word": "context,",
+        "startTime": 50.38,
+        "endTime": 50.98
+      },
+      {
+        "word": "window",
+        "startTime": 51.54,
+        "endTime": 52
+      },
+      {
+        "word": "arrow",
+        "startTime": 52,
+        "endTime": 52.52
+      },
+      {
+        "word": "LLM",
+        "startTime": 52.52,
+        "endTime": 53.76
+      },
+      {
+        "word": "generates",
+        "startTime": 53.76,
+        "endTime": 54.38
+      },
+      {
+        "word": "a",
+        "startTime": 54.38,
+        "endTime": 54.62
+      },
+      {
+        "word": "response",
+        "startTime": 54.62,
+        "endTime": 55.06
+      },
+      {
+        "word": "grounded",
+        "startTime": 55.06,
+        "endTime": 55.66
+      },
+      {
+        "word": "in",
+        "startTime": 55.66,
+        "endTime": 55.98
+      },
+      {
+        "word": "retrieved",
+        "startTime": 55.98,
+        "endTime": 56.6
+      },
+      {
+        "word": "documents.",
+        "startTime": 56.6,
+        "endTime": 57.32
+      }
+    ]
+  },
+  {
+    "text": "The retrieval step uses vector embeddings.",
+    "startTime": 57.96,
+    "endTime": 61.06,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 57.96,
+        "endTime": 58.2
+      },
+      {
+        "word": "retrieval",
+        "startTime": 58.2,
+        "endTime": 58.74
+      },
+      {
+        "word": "step",
+        "startTime": 58.74,
+        "endTime": 59.12
+      },
+      {
+        "word": "uses",
+        "startTime": 59.12,
+        "endTime": 59.68
+      },
+      {
+        "word": "vector",
+        "startTime": 59.68,
+        "endTime": 60.22
+      },
+      {
+        "word": "embeddings.",
+        "startTime": 60.22,
+        "endTime": 61.06
+      }
+    ]
+  },
+  {
+    "text": "Every document in your knowledge base is converted into a vector, a list of numbers that represents its meaning in high -dimensional space.",
+    "startTime": 61.64,
+    "endTime": 71.58,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Every",
+        "startTime": 61.64,
+        "endTime": 61.9
+      },
+      {
+        "word": "document",
+        "startTime": 61.9,
+        "endTime": 62.46
+      },
+      {
+        "word": "in",
+        "startTime": 62.46,
+        "endTime": 62.72
+      },
+      {
+        "word": "your",
+        "startTime": 62.72,
+        "endTime": 62.92
+      },
+      {
+        "word": "knowledge",
+        "startTime": 62.92,
+        "endTime": 63.3
+      },
+      {
+        "word": "base",
+        "startTime": 63.3,
+        "endTime": 63.7
+      },
+      {
+        "word": "is",
+        "startTime": 63.7,
+        "endTime": 64.08
+      },
+      {
+        "word": "converted",
+        "startTime": 64.08,
+        "endTime": 64.62
+      },
+      {
+        "word": "into",
+        "startTime": 64.62,
+        "endTime": 65.14
+      },
+      {
+        "word": "a",
+        "startTime": 65.14,
+        "endTime": 65.36
+      },
+      {
+        "word": "vector,",
+        "startTime": 65.36,
+        "endTime": 65.82
+      },
+      {
+        "word": "a",
+        "startTime": 66.38,
+        "endTime": 66.52
+      },
+      {
+        "word": "list",
+        "startTime": 66.52,
+        "endTime": 66.78
+      },
+      {
+        "word": "of",
+        "startTime": 66.78,
+        "endTime": 67.04
+      },
+      {
+        "word": "numbers",
+        "startTime": 67.04,
+        "endTime": 67.42
+      },
+      {
+        "word": "that",
+        "startTime": 67.42,
+        "endTime": 67.72
+      },
+      {
+        "word": "represents",
+        "startTime": 67.72,
+        "endTime": 68.32
+      },
+      {
+        "word": "its",
+        "startTime": 68.32,
+        "endTime": 68.8
+      },
+      {
+        "word": "meaning",
+        "startTime": 68.8,
+        "endTime": 69.3
+      },
+      {
+        "word": "in",
+        "startTime": 69.3,
+        "endTime": 69.86
+      },
+      {
+        "word": "high",
+        "startTime": 69.86,
+        "endTime": 70.14
+      },
+      {
+        "word": "-dimensional",
+        "startTime": 70.14,
+        "endTime": 70.6
+      },
+      {
+        "word": "space.",
+        "startTime": 70.6,
+        "endTime": 71.58
+      }
+    ]
+  },
+  {
+    "text": "When a user asks a question, the question is also converted into a vector.",
+    "startTime": 72.14,
+    "endTime": 77.26,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "When",
+        "startTime": 72.14,
+        "endTime": 72.4
+      },
+      {
+        "word": "a",
+        "startTime": 72.4,
+        "endTime": 72.54
+      },
+      {
+        "word": "user",
+        "startTime": 72.54,
+        "endTime": 72.9
+      },
+      {
+        "word": "asks",
+        "startTime": 72.9,
+        "endTime": 73.36
+      },
+      {
+        "word": "a",
+        "startTime": 73.36,
+        "endTime": 73.58
+      },
+      {
+        "word": "question,",
+        "startTime": 73.58,
+        "endTime": 74.12
+      },
+      {
+        "word": "the",
+        "startTime": 74.54,
+        "endTime": 74.6
+      },
+      {
+        "word": "question",
+        "startTime": 74.6,
+        "endTime": 75
+      },
+      {
+        "word": "is",
+        "startTime": 75,
+        "endTime": 75.22
+      },
+      {
+        "word": "also",
+        "startTime": 75.22,
+        "endTime": 75.6
+      },
+      {
+        "word": "converted",
+        "startTime": 75.6,
+        "endTime": 76.22
+      },
+      {
+        "word": "into",
+        "startTime": 76.22,
+        "endTime": 76.66
+      },
+      {
+        "word": "a",
+        "startTime": 76.66,
+        "endTime": 76.86
+      },
+      {
+        "word": "vector.",
+        "startTime": 76.86,
+        "endTime": 77.26
+      }
+    ]
+  },
+  {
+    "text": "The retriever finds documents whose vectors are nearest to the question vector.",
+    "startTime": 77.72,
+    "endTime": 83.12,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 77.72,
+        "endTime": 78.14
+      },
+      {
+        "word": "retriever",
+        "startTime": 78.14,
+        "endTime": 78.72
+      },
+      {
+        "word": "finds",
+        "startTime": 78.72,
+        "endTime": 79.1
+      },
+      {
+        "word": "documents",
+        "startTime": 79.1,
+        "endTime": 79.68
+      },
+      {
+        "word": "whose",
+        "startTime": 79.68,
+        "endTime": 80.16
+      },
+      {
+        "word": "vectors",
+        "startTime": 80.16,
+        "endTime": 80.54
+      },
+      {
+        "word": "are",
+        "startTime": 80.54,
+        "endTime": 81.08
+      },
+      {
+        "word": "nearest",
+        "startTime": 81.08,
+        "endTime": 81.48
+      },
+      {
+        "word": "to",
+        "startTime": 81.48,
+        "endTime": 82.02
+      },
+      {
+        "word": "the",
+        "startTime": 82.02,
+        "endTime": 82.14
+      },
+      {
+        "word": "question",
+        "startTime": 82.14,
+        "endTime": 82.58
+      },
+      {
+        "word": "vector.",
+        "startTime": 82.58,
+        "endTime": 83.12
+      }
+    ]
+  },
+  {
+    "text": "nearest vectors equals similar meaning.",
+    "startTime": 83.76,
+    "endTime": 86.24,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "nearest",
+        "startTime": 83.76,
+        "endTime": 84.06
+      },
+      {
+        "word": "vectors",
+        "startTime": 84.06,
+        "endTime": 84.62
+      },
+      {
+        "word": "equals",
+        "startTime": 84.62,
+        "endTime": 85.26
+      },
+      {
+        "word": "similar",
+        "startTime": 85.26,
+        "endTime": 85.8
+      },
+      {
+        "word": "meaning.",
+        "startTime": 85.8,
+        "endTime": 86.24
+      }
+    ]
+  },
+  {
+    "text": "This is semantic search.",
+    "startTime": 86.82,
+    "endTime": 88.22,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "This",
+        "startTime": 86.82,
+        "endTime": 86.92
+      },
+      {
+        "word": "is",
+        "startTime": 86.92,
+        "endTime": 87.1
+      },
+      {
+        "word": "semantic",
+        "startTime": 87.1,
+        "endTime": 87.56
+      },
+      {
+        "word": "search.",
+        "startTime": 87.56,
+        "endTime": 88.22
+      }
+    ]
+  },
+  {
+    "text": "Finding documents that mean the same thing as the question, not just documents that contain the same words.",
+    "startTime": 88.78,
+    "endTime": 95.38,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Finding",
+        "startTime": 88.78,
+        "endTime": 89.1
+      },
+      {
+        "word": "documents",
+        "startTime": 89.1,
+        "endTime": 89.72
+      },
+      {
+        "word": "that",
+        "startTime": 89.72,
+        "endTime": 90.04
+      },
+      {
+        "word": "mean",
+        "startTime": 90.04,
+        "endTime": 90.3
+      },
+      {
+        "word": "the",
+        "startTime": 90.3,
+        "endTime": 90.54
+      },
+      {
+        "word": "same",
+        "startTime": 90.54,
+        "endTime": 90.8
+      },
+      {
+        "word": "thing",
+        "startTime": 90.8,
+        "endTime": 91.08
+      },
+      {
+        "word": "as",
+        "startTime": 91.08,
+        "endTime": 91.44
+      },
+      {
+        "word": "the",
+        "startTime": 91.44,
+        "endTime": 91.6
+      },
+      {
+        "word": "question,",
+        "startTime": 91.6,
+        "endTime": 92.08
+      },
+      {
+        "word": "not",
+        "startTime": 92.56,
+        "endTime": 92.78
+      },
+      {
+        "word": "just",
+        "startTime": 92.78,
+        "endTime": 93.08
+      },
+      {
+        "word": "documents",
+        "startTime": 93.08,
+        "endTime": 93.62
+      },
+      {
+        "word": "that",
+        "startTime": 93.62,
+        "endTime": 94
+      },
+      {
+        "word": "contain",
+        "startTime": 94,
+        "endTime": 94.4
+      },
+      {
+        "word": "the",
+        "startTime": 94.4,
+        "endTime": 94.7
+      },
+      {
+        "word": "same",
+        "startTime": 94.7,
+        "endTime": 95
+      },
+      {
+        "word": "words.",
+        "startTime": 95,
+        "endTime": 95.38
+      }
+    ]
+  },
+  {
+    "text": "The embedding model converts text to vectors, common choices, open AI text dash embedding dash 3, dash small, high quality paid API, sentence transformers, all dash mini LM dash L6 dash V2 free runs locally good for English, paraphrase dash multilingual dash mini LM dash L12 dash V2 free supports Wahili and other African languages.",
+    "startTime": 96.06,
+    "endTime": 125.76,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 96.06,
+        "endTime": 96.18
+      },
+      {
+        "word": "embedding",
+        "startTime": 96.18,
+        "endTime": 96.66
+      },
+      {
+        "word": "model",
+        "startTime": 96.66,
+        "endTime": 97.04
+      },
+      {
+        "word": "converts",
+        "startTime": 97.04,
+        "endTime": 97.72
+      },
+      {
+        "word": "text",
+        "startTime": 97.72,
+        "endTime": 98.16
+      },
+      {
+        "word": "to",
+        "startTime": 98.16,
+        "endTime": 98.42
+      },
+      {
+        "word": "vectors,",
+        "startTime": 98.42,
+        "endTime": 98.84
+      },
+      {
+        "word": "common",
+        "startTime": 99.58,
+        "endTime": 99.84
+      },
+      {
+        "word": "choices,",
+        "startTime": 99.84,
+        "endTime": 100.42
+      },
+      {
+        "word": "open",
+        "startTime": 101.14,
+        "endTime": 101.4
+      },
+      {
+        "word": "AI",
+        "startTime": 101.4,
+        "endTime": 101.68
+      },
+      {
+        "word": "text",
+        "startTime": 101.68,
+        "endTime": 102.12
+      },
+      {
+        "word": "dash",
+        "startTime": 102.12,
+        "endTime": 102.46
+      },
+      {
+        "word": "embedding",
+        "startTime": 102.46,
+        "endTime": 103.44
+      },
+      {
+        "word": "dash",
+        "startTime": 103.44,
+        "endTime": 103.78
+      },
+      {
+        "word": "3,",
+        "startTime": 103.78,
+        "endTime": 104.2
+      },
+      {
+        "word": "dash",
+        "startTime": 104.6,
+        "endTime": 104.94
+      },
+      {
+        "word": "small,",
+        "startTime": 104.94,
+        "endTime": 105.4
+      },
+      {
+        "word": "high",
+        "startTime": 105.4,
+        "endTime": 105.98
+      },
+      {
+        "word": "quality",
+        "startTime": 105.98,
+        "endTime": 106.56
+      },
+      {
+        "word": "paid",
+        "startTime": 106.56,
+        "endTime": 107
+      },
+      {
+        "word": "API,",
+        "startTime": 107,
+        "endTime": 107.6
+      },
+      {
+        "word": "sentence",
+        "startTime": 108.14,
+        "endTime": 108.42
+      },
+      {
+        "word": "transformers,",
+        "startTime": 108.42,
+        "endTime": 109.44
+      },
+      {
+        "word": "all",
+        "startTime": 109.8,
+        "endTime": 109.88
+      },
+      {
+        "word": "dash",
+        "startTime": 109.88,
+        "endTime": 110.14
+      },
+      {
+        "word": "mini",
+        "startTime": 110.14,
+        "endTime": 110.5
+      },
+      {
+        "word": "LM",
+        "startTime": 110.5,
+        "endTime": 111.1
+      },
+      {
+        "word": "dash",
+        "startTime": 111.1,
+        "endTime": 111.6
+      },
+      {
+        "word": "L6",
+        "startTime": 111.6,
+        "endTime": 112.26
+      },
+      {
+        "word": "dash",
+        "startTime": 112.26,
+        "endTime": 112.62
+      },
+      {
+        "word": "V2",
+        "startTime": 112.62,
+        "endTime": 113.16
+      },
+      {
+        "word": "free",
+        "startTime": 113.16,
+        "endTime": 113.8
+      },
+      {
+        "word": "runs",
+        "startTime": 113.8,
+        "endTime": 114.48
+      },
+      {
+        "word": "locally",
+        "startTime": 114.48,
+        "endTime": 114.88
+      },
+      {
+        "word": "good",
+        "startTime": 114.88,
+        "endTime": 115.46
+      },
+      {
+        "word": "for",
+        "startTime": 115.46,
+        "endTime": 115.66
+      },
+      {
+        "word": "English,",
+        "startTime": 115.66,
+        "endTime": 116.08
+      },
+      {
+        "word": "paraphrase",
+        "startTime": 116.58,
+        "endTime": 117.12
+      },
+      {
+        "word": "dash",
+        "startTime": 117.12,
+        "endTime": 117.7
+      },
+      {
+        "word": "multilingual",
+        "startTime": 117.7,
+        "endTime": 118.48
+      },
+      {
+        "word": "dash",
+        "startTime": 118.48,
+        "endTime": 119.02
+      },
+      {
+        "word": "mini",
+        "startTime": 119.02,
+        "endTime": 119.34
+      },
+      {
+        "word": "LM",
+        "startTime": 119.34,
+        "endTime": 119.94
+      },
+      {
+        "word": "dash",
+        "startTime": 119.94,
+        "endTime": 120.44
+      },
+      {
+        "word": "L12",
+        "startTime": 120.44,
+        "endTime": 121.1
+      },
+      {
+        "word": "dash",
+        "startTime": 121.1,
+        "endTime": 121.54
+      },
+      {
+        "word": "V2",
+        "startTime": 121.54,
+        "endTime": 122.1
+      },
+      {
+        "word": "free",
+        "startTime": 122.1,
+        "endTime": 122.76
+      },
+      {
+        "word": "supports",
+        "startTime": 122.76,
+        "endTime": 123.48
+      },
+      {
+        "word": "Wahili",
+        "startTime": 123.48,
+        "endTime": 124.06
+      },
+      {
+        "word": "and",
+        "startTime": 124.06,
+        "endTime": 124.44
+      },
+      {
+        "word": "other",
+        "startTime": 124.44,
+        "endTime": 124.74
+      },
+      {
+        "word": "African",
+        "startTime": 124.74,
+        "endTime": 125.22
+      },
+      {
+        "word": "languages.",
+        "startTime": 125.22,
+        "endTime": 125.76
+      }
+    ]
+  },
+  {
+    "text": "The vector database stores embeddings and enables fast similarity search, common choices, pine cone, managed cloud, scales to billions of vectors, chroma, local development, open source, super base, PG vector, postgres extension, excellent for production apps that already use super base.",
+    "startTime": 126.66,
+    "endTime": 148.9,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 126.66,
+        "endTime": 126.9
+      },
+      {
+        "word": "vector",
+        "startTime": 126.9,
+        "endTime": 127.22
+      },
+      {
+        "word": "database",
+        "startTime": 127.22,
+        "endTime": 127.76
+      },
+      {
+        "word": "stores",
+        "startTime": 127.76,
+        "endTime": 128.14
+      },
+      {
+        "word": "embeddings",
+        "startTime": 128.14,
+        "endTime": 128.74
+      },
+      {
+        "word": "and",
+        "startTime": 128.74,
+        "endTime": 128.94
+      },
+      {
+        "word": "enables",
+        "startTime": 128.94,
+        "endTime": 129.32
+      },
+      {
+        "word": "fast",
+        "startTime": 129.32,
+        "endTime": 129.8
+      },
+      {
+        "word": "similarity",
+        "startTime": 129.8,
+        "endTime": 130.38
+      },
+      {
+        "word": "search,",
+        "startTime": 130.38,
+        "endTime": 131.08
+      },
+      {
+        "word": "common",
+        "startTime": 131.64,
+        "endTime": 131.82
+      },
+      {
+        "word": "choices,",
+        "startTime": 131.82,
+        "endTime": 132.38
+      },
+      {
+        "word": "pine",
+        "startTime": 133.04,
+        "endTime": 133.28
+      },
+      {
+        "word": "cone,",
+        "startTime": 133.28,
+        "endTime": 133.58
+      },
+      {
+        "word": "managed",
+        "startTime": 134.18,
+        "endTime": 134.52
+      },
+      {
+        "word": "cloud,",
+        "startTime": 134.52,
+        "endTime": 134.92
+      },
+      {
+        "word": "scales",
+        "startTime": 135.46,
+        "endTime": 135.7
+      },
+      {
+        "word": "to",
+        "startTime": 135.7,
+        "endTime": 135.9
+      },
+      {
+        "word": "billions",
+        "startTime": 135.9,
+        "endTime": 136.22
+      },
+      {
+        "word": "of",
+        "startTime": 136.22,
+        "endTime": 136.46
+      },
+      {
+        "word": "vectors,",
+        "startTime": 136.46,
+        "endTime": 136.92
+      },
+      {
+        "word": "chroma,",
+        "startTime": 137.72,
+        "endTime": 138.1
+      },
+      {
+        "word": "local",
+        "startTime": 138.56,
+        "endTime": 138.82
+      },
+      {
+        "word": "development,",
+        "startTime": 138.82,
+        "endTime": 139.44
+      },
+      {
+        "word": "open",
+        "startTime": 140,
+        "endTime": 140.24
+      },
+      {
+        "word": "source,",
+        "startTime": 140.24,
+        "endTime": 140.6
+      },
+      {
+        "word": "super",
+        "startTime": 141.54,
+        "endTime": 141.76
+      },
+      {
+        "word": "base,",
+        "startTime": 141.76,
+        "endTime": 141.96
+      },
+      {
+        "word": "PG",
+        "startTime": 142.56,
+        "endTime": 142.78
+      },
+      {
+        "word": "vector,",
+        "startTime": 142.78,
+        "endTime": 143.3
+      },
+      {
+        "word": "postgres",
+        "startTime": 143.96,
+        "endTime": 144.38
+      },
+      {
+        "word": "extension,",
+        "startTime": 144.38,
+        "endTime": 145.02
+      },
+      {
+        "word": "excellent",
+        "startTime": 145.66,
+        "endTime": 146.04
+      },
+      {
+        "word": "for",
+        "startTime": 146.04,
+        "endTime": 146.34
+      },
+      {
+        "word": "production",
+        "startTime": 146.34,
+        "endTime": 146.74
+      },
+      {
+        "word": "apps",
+        "startTime": 146.74,
+        "endTime": 147.22
+      },
+      {
+        "word": "that",
+        "startTime": 147.22,
+        "endTime": 147.42
+      },
+      {
+        "word": "already",
+        "startTime": 147.42,
+        "endTime": 147.86
+      },
+      {
+        "word": "use",
+        "startTime": 147.86,
+        "endTime": 148.22
+      },
+      {
+        "word": "super",
+        "startTime": 148.22,
+        "endTime": 148.62
+      },
+      {
+        "word": "base.",
+        "startTime": 148.62,
+        "endTime": 148.9
+      }
+    ]
+  },
+  {
+    "text": "The critical design decisions, chunk size, how large are the document segments you embed, chunk overlap, do chunk share content at boundaries, top k retrieval, how many chunks do you retrieve per query and re -ranking, do you apply a second pass model to reorder retrieved chunks by relevance.",
+    "startTime": 150.02,
+    "endTime": 171.42,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 150.02,
+        "endTime": 150.3
+      },
+      {
+        "word": "critical",
+        "startTime": 150.3,
+        "endTime": 150.62
+      },
+      {
+        "word": "design",
+        "startTime": 150.62,
+        "endTime": 151.1
+      },
+      {
+        "word": "decisions,",
+        "startTime": 151.1,
+        "endTime": 151.96
+      },
+      {
+        "word": "chunk",
+        "startTime": 152.48,
+        "endTime": 152.66
+      },
+      {
+        "word": "size,",
+        "startTime": 152.66,
+        "endTime": 153.08
+      },
+      {
+        "word": "how",
+        "startTime": 153.66,
+        "endTime": 153.84
+      },
+      {
+        "word": "large",
+        "startTime": 153.84,
+        "endTime": 154.24
+      },
+      {
+        "word": "are",
+        "startTime": 154.24,
+        "endTime": 154.34
+      },
+      {
+        "word": "the",
+        "startTime": 154.34,
+        "endTime": 154.48
+      },
+      {
+        "word": "document",
+        "startTime": 154.48,
+        "endTime": 154.92
+      },
+      {
+        "word": "segments",
+        "startTime": 154.92,
+        "endTime": 155.38
+      },
+      {
+        "word": "you",
+        "startTime": 155.38,
+        "endTime": 155.7
+      },
+      {
+        "word": "embed,",
+        "startTime": 155.7,
+        "endTime": 156.04
+      },
+      {
+        "word": "chunk",
+        "startTime": 156.04,
+        "endTime": 156.84
+      },
+      {
+        "word": "overlap,",
+        "startTime": 156.84,
+        "endTime": 157.52
+      },
+      {
+        "word": "do",
+        "startTime": 158.04,
+        "endTime": 158.34
+      },
+      {
+        "word": "chunk",
+        "startTime": 158.34,
+        "endTime": 158.64
+      },
+      {
+        "word": "share",
+        "startTime": 158.64,
+        "endTime": 158.94
+      },
+      {
+        "word": "content",
+        "startTime": 158.94,
+        "endTime": 159.4
+      },
+      {
+        "word": "at",
+        "startTime": 159.4,
+        "endTime": 159.7
+      },
+      {
+        "word": "boundaries,",
+        "startTime": 159.7,
+        "endTime": 160.2
+      },
+      {
+        "word": "top",
+        "startTime": 160.88,
+        "endTime": 161.14
+      },
+      {
+        "word": "k",
+        "startTime": 161.14,
+        "endTime": 161.44
+      },
+      {
+        "word": "retrieval,",
+        "startTime": 161.44,
+        "endTime": 162.14
+      },
+      {
+        "word": "how",
+        "startTime": 162.7,
+        "endTime": 162.82
+      },
+      {
+        "word": "many",
+        "startTime": 162.82,
+        "endTime": 163.08
+      },
+      {
+        "word": "chunks",
+        "startTime": 163.08,
+        "endTime": 163.48
+      },
+      {
+        "word": "do",
+        "startTime": 163.48,
+        "endTime": 163.7
+      },
+      {
+        "word": "you",
+        "startTime": 163.7,
+        "endTime": 163.78
+      },
+      {
+        "word": "retrieve",
+        "startTime": 163.78,
+        "endTime": 164.22
+      },
+      {
+        "word": "per",
+        "startTime": 164.22,
+        "endTime": 164.48
+      },
+      {
+        "word": "query",
+        "startTime": 164.48,
+        "endTime": 164.9
+      },
+      {
+        "word": "and",
+        "startTime": 164.9,
+        "endTime": 165.5
+      },
+      {
+        "word": "re",
+        "startTime": 165.5,
+        "endTime": 165.72
+      },
+      {
+        "word": "-ranking,",
+        "startTime": 165.72,
+        "endTime": 166.42
+      },
+      {
+        "word": "do",
+        "startTime": 166.82,
+        "endTime": 166.94
+      },
+      {
+        "word": "you",
+        "startTime": 166.94,
+        "endTime": 167.06
+      },
+      {
+        "word": "apply",
+        "startTime": 167.06,
+        "endTime": 167.44
+      },
+      {
+        "word": "a",
+        "startTime": 167.44,
+        "endTime": 167.68
+      },
+      {
+        "word": "second",
+        "startTime": 167.68,
+        "endTime": 168
+      },
+      {
+        "word": "pass",
+        "startTime": 168,
+        "endTime": 168.34
+      },
+      {
+        "word": "model",
+        "startTime": 168.34,
+        "endTime": 168.8
+      },
+      {
+        "word": "to",
+        "startTime": 168.8,
+        "endTime": 169.06
+      },
+      {
+        "word": "reorder",
+        "startTime": 169.06,
+        "endTime": 169.6
+      },
+      {
+        "word": "retrieved",
+        "startTime": 169.6,
+        "endTime": 170.28
+      },
+      {
+        "word": "chunks",
+        "startTime": 170.28,
+        "endTime": 170.6
+      },
+      {
+        "word": "by",
+        "startTime": 170.6,
+        "endTime": 170.98
+      },
+      {
+        "word": "relevance.",
+        "startTime": 170.98,
+        "endTime": 171.42
+      }
+    ]
+  },
+  {
+    "text": "Each decision affects answer quality and latency, where r a g fails, one retrieval failure.",
+    "startTime": 172.26,
+    "endTime": 180.28,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Each",
+        "startTime": 172.26,
+        "endTime": 172.56
+      },
+      {
+        "word": "decision",
+        "startTime": 172.56,
+        "endTime": 173.1
+      },
+      {
+        "word": "affects",
+        "startTime": 173.1,
+        "endTime": 173.68
+      },
+      {
+        "word": "answer",
+        "startTime": 173.68,
+        "endTime": 174.12
+      },
+      {
+        "word": "quality",
+        "startTime": 174.12,
+        "endTime": 174.66
+      },
+      {
+        "word": "and",
+        "startTime": 174.66,
+        "endTime": 175.06
+      },
+      {
+        "word": "latency,",
+        "startTime": 175.06,
+        "endTime": 175.66
+      },
+      {
+        "word": "where",
+        "startTime": 176.14,
+        "endTime": 176.36
+      },
+      {
+        "word": "r",
+        "startTime": 176.36,
+        "endTime": 176.62
+      },
+      {
+        "word": "a",
+        "startTime": 176.62,
+        "endTime": 176.94
+      },
+      {
+        "word": "g",
+        "startTime": 176.94,
+        "endTime": 177.22
+      },
+      {
+        "word": "fails,",
+        "startTime": 177.22,
+        "endTime": 177.72
+      },
+      {
+        "word": "one",
+        "startTime": 178.26,
+        "endTime": 178.64
+      },
+      {
+        "word": "retrieval",
+        "startTime": 178.64,
+        "endTime": 179.79999999999998
+      },
+      {
+        "word": "failure.",
+        "startTime": 179.8,
+        "endTime": 180.28
+      }
+    ]
+  },
+  {
+    "text": "The right document exists but is not retrieved because the query and document use different words for the same concept.",
+    "startTime": 180.8,
+    "endTime": 188.3,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 180.8,
+        "endTime": 180.9
+      },
+      {
+        "word": "right",
+        "startTime": 180.9,
+        "endTime": 181.16
+      },
+      {
+        "word": "document",
+        "startTime": 181.16,
+        "endTime": 181.72
+      },
+      {
+        "word": "exists",
+        "startTime": 181.72,
+        "endTime": 182.28
+      },
+      {
+        "word": "but",
+        "startTime": 182.28,
+        "endTime": 183
+      },
+      {
+        "word": "is",
+        "startTime": 183,
+        "endTime": 183.24
+      },
+      {
+        "word": "not",
+        "startTime": 183.24,
+        "endTime": 183.4
+      },
+      {
+        "word": "retrieved",
+        "startTime": 183.4,
+        "endTime": 184.08
+      },
+      {
+        "word": "because",
+        "startTime": 184.08,
+        "endTime": 184.36
+      },
+      {
+        "word": "the",
+        "startTime": 184.36,
+        "endTime": 184.6
+      },
+      {
+        "word": "query",
+        "startTime": 184.6,
+        "endTime": 184.92
+      },
+      {
+        "word": "and",
+        "startTime": 184.92,
+        "endTime": 185.18
+      },
+      {
+        "word": "document",
+        "startTime": 185.18,
+        "endTime": 185.66
+      },
+      {
+        "word": "use",
+        "startTime": 185.66,
+        "endTime": 186.1
+      },
+      {
+        "word": "different",
+        "startTime": 186.1,
+        "endTime": 186.54
+      },
+      {
+        "word": "words",
+        "startTime": 186.54,
+        "endTime": 186.98
+      },
+      {
+        "word": "for",
+        "startTime": 186.98,
+        "endTime": 187.22
+      },
+      {
+        "word": "the",
+        "startTime": 187.22,
+        "endTime": 187.36
+      },
+      {
+        "word": "same",
+        "startTime": 187.36,
+        "endTime": 187.64
+      },
+      {
+        "word": "concept.",
+        "startTime": 187.64,
+        "endTime": 188.3
+      }
+    ]
+  },
+  {
+    "text": "Two, context window overflow, too many retrieved chunks push important content out of the LLM context.",
+    "startTime": 188.98,
+    "endTime": 196.54,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Two,",
+        "startTime": 188.98,
+        "endTime": 189.12
+      },
+      {
+        "word": "context",
+        "startTime": 189.56,
+        "endTime": 189.88
+      },
+      {
+        "word": "window",
+        "startTime": 189.88,
+        "endTime": 190.46
+      },
+      {
+        "word": "overflow,",
+        "startTime": 190.46,
+        "endTime": 191.12
+      },
+      {
+        "word": "too",
+        "startTime": 191.7,
+        "endTime": 191.8
+      },
+      {
+        "word": "many",
+        "startTime": 191.8,
+        "endTime": 192.06
+      },
+      {
+        "word": "retrieved",
+        "startTime": 192.06,
+        "endTime": 192.68
+      },
+      {
+        "word": "chunks",
+        "startTime": 192.68,
+        "endTime": 192.92
+      },
+      {
+        "word": "push",
+        "startTime": 192.92,
+        "endTime": 193.34
+      },
+      {
+        "word": "important",
+        "startTime": 193.34,
+        "endTime": 193.96
+      },
+      {
+        "word": "content",
+        "startTime": 193.96,
+        "endTime": 194.46
+      },
+      {
+        "word": "out",
+        "startTime": 194.46,
+        "endTime": 194.82
+      },
+      {
+        "word": "of",
+        "startTime": 194.82,
+        "endTime": 195
+      },
+      {
+        "word": "the",
+        "startTime": 195,
+        "endTime": 195.16
+      },
+      {
+        "word": "LLM",
+        "startTime": 195.16,
+        "endTime": 196.08
+      },
+      {
+        "word": "context.",
+        "startTime": 196.08,
+        "endTime": 196.54
+      }
+    ]
+  },
+  {
+    "text": "Three, hallucination on retrieved content, the LLM generates plausible sounding content that slightly misrepresent the retrieved documents.",
+    "startTime": 197.22,
+    "endTime": 206.64,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Three,",
+        "startTime": 197.22,
+        "endTime": 197.56
+      },
+      {
+        "word": "hallucination",
+        "startTime": 198.12,
+        "endTime": 198.8
+      },
+      {
+        "word": "on",
+        "startTime": 198.8,
+        "endTime": 199
+      },
+      {
+        "word": "retrieved",
+        "startTime": 199,
+        "endTime": 199.54
+      },
+      {
+        "word": "content,",
+        "startTime": 199.54,
+        "endTime": 200.02
+      },
+      {
+        "word": "the",
+        "startTime": 200.64,
+        "endTime": 200.72
+      },
+      {
+        "word": "LLM",
+        "startTime": 200.72,
+        "endTime": 201.66
+      },
+      {
+        "word": "generates",
+        "startTime": 201.66,
+        "endTime": 202.2
+      },
+      {
+        "word": "plausible",
+        "startTime": 202.2,
+        "endTime": 202.72
+      },
+      {
+        "word": "sounding",
+        "startTime": 202.72,
+        "endTime": 203.34
+      },
+      {
+        "word": "content",
+        "startTime": 203.34,
+        "endTime": 203.82
+      },
+      {
+        "word": "that",
+        "startTime": 203.82,
+        "endTime": 204.12
+      },
+      {
+        "word": "slightly",
+        "startTime": 204.12,
+        "endTime": 204.64
+      },
+      {
+        "word": "misrepresent",
+        "startTime": 204.64,
+        "endTime": 205.46
+      },
+      {
+        "word": "the",
+        "startTime": 205.46,
+        "endTime": 205.76
+      },
+      {
+        "word": "retrieved",
+        "startTime": 205.76,
+        "endTime": 206.2
+      },
+      {
+        "word": "documents.",
+        "startTime": 206.2,
+        "endTime": 206.64
+      }
+    ]
+  },
+  {
+    "text": "Four, stale data, the knowledge base is not updated frequently enough.",
+    "startTime": 207.24,
+    "endTime": 212.5,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Four,",
+        "startTime": 207.24,
+        "endTime": 207.68
+      },
+      {
+        "word": "stale",
+        "startTime": 208.1,
+        "endTime": 208.58
+      },
+      {
+        "word": "data,",
+        "startTime": 208.58,
+        "endTime": 208.96
+      },
+      {
+        "word": "the",
+        "startTime": 209.5,
+        "endTime": 209.62
+      },
+      {
+        "word": "knowledge",
+        "startTime": 209.62,
+        "endTime": 209.94
+      },
+      {
+        "word": "base",
+        "startTime": 209.94,
+        "endTime": 210.28
+      },
+      {
+        "word": "is",
+        "startTime": 210.28,
+        "endTime": 210.52
+      },
+      {
+        "word": "not",
+        "startTime": 210.52,
+        "endTime": 210.7
+      },
+      {
+        "word": "updated",
+        "startTime": 210.7,
+        "endTime": 211.3
+      },
+      {
+        "word": "frequently",
+        "startTime": 211.3,
+        "endTime": 211.82
+      },
+      {
+        "word": "enough.",
+        "startTime": 211.82,
+        "endTime": 212.5
+      }
+    ]
+  },
+  {
+    "text": "Five, language mismatch, African language documents embedded with English optimized models produce poor retrieval quality.",
+    "startTime": 213.2,
+    "endTime": 222.48,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Five,",
+        "startTime": 213.2,
+        "endTime": 213.44
+      },
+      {
+        "word": "language",
+        "startTime": 214.2,
+        "endTime": 214.5
+      },
+      {
+        "word": "mismatch,",
+        "startTime": 214.5,
+        "endTime": 215.46
+      },
+      {
+        "word": "African",
+        "startTime": 216.1,
+        "endTime": 216.5
+      },
+      {
+        "word": "language",
+        "startTime": 216.5,
+        "endTime": 216.92
+      },
+      {
+        "word": "documents",
+        "startTime": 216.92,
+        "endTime": 217.52
+      },
+      {
+        "word": "embedded",
+        "startTime": 217.52,
+        "endTime": 218.2
+      },
+      {
+        "word": "with",
+        "startTime": 218.2,
+        "endTime": 218.52
+      },
+      {
+        "word": "English",
+        "startTime": 218.52,
+        "endTime": 218.88
+      },
+      {
+        "word": "optimized",
+        "startTime": 218.88,
+        "endTime": 219.54
+      },
+      {
+        "word": "models",
+        "startTime": 219.54,
+        "endTime": 220.24
+      },
+      {
+        "word": "produce",
+        "startTime": 220.24,
+        "endTime": 220.9
+      },
+      {
+        "word": "poor",
+        "startTime": 220.9,
+        "endTime": 221.34
+      },
+      {
+        "word": "retrieval",
+        "startTime": 221.34,
+        "endTime": 221.9
+      },
+      {
+        "word": "quality.",
+        "startTime": 221.9,
+        "endTime": 222.48
+      }
+    ]
+  },
+  {
+    "text": "The quality of a r a g system is determined by two independent failure modes, retrieval failure, finding the wrong documents, and generation failure, misrepresenting the right documents.",
+    "startTime": 223.04,
+    "endTime": 237.88,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 223.04,
+        "endTime": 223.34
+      },
+      {
+        "word": "quality",
+        "startTime": 223.34,
+        "endTime": 223.76
+      },
+      {
+        "word": "of",
+        "startTime": 223.76,
+        "endTime": 224
+      },
+      {
+        "word": "a",
+        "startTime": 224,
+        "endTime": 224.16
+      },
+      {
+        "word": "r",
+        "startTime": 224.16,
+        "endTime": 224.38
+      },
+      {
+        "word": "a",
+        "startTime": 224.38,
+        "endTime": 224.6
+      },
+      {
+        "word": "g",
+        "startTime": 224.6,
+        "endTime": 224.88
+      },
+      {
+        "word": "system",
+        "startTime": 224.88,
+        "endTime": 225.46
+      },
+      {
+        "word": "is",
+        "startTime": 225.46,
+        "endTime": 226.08
+      },
+      {
+        "word": "determined",
+        "startTime": 226.08,
+        "endTime": 226.62
+      },
+      {
+        "word": "by",
+        "startTime": 226.62,
+        "endTime": 226.92
+      },
+      {
+        "word": "two",
+        "startTime": 226.92,
+        "endTime": 227.3
+      },
+      {
+        "word": "independent",
+        "startTime": 227.3,
+        "endTime": 228.04
+      },
+      {
+        "word": "failure",
+        "startTime": 228.04,
+        "endTime": 228.52
+      },
+      {
+        "word": "modes,",
+        "startTime": 228.52,
+        "endTime": 229.1
+      },
+      {
+        "word": "retrieval",
+        "startTime": 229.52,
+        "endTime": 230.28
+      },
+      {
+        "word": "failure,",
+        "startTime": 230.28,
+        "endTime": 230.82
+      },
+      {
+        "word": "finding",
+        "startTime": 231.34,
+        "endTime": 231.86
+      },
+      {
+        "word": "the",
+        "startTime": 231.86,
+        "endTime": 232.1
+      },
+      {
+        "word": "wrong",
+        "startTime": 232.1,
+        "endTime": 232.32
+      },
+      {
+        "word": "documents,",
+        "startTime": 232.32,
+        "endTime": 232.92
+      },
+      {
+        "word": "and",
+        "startTime": 233.58,
+        "endTime": 233.7
+      },
+      {
+        "word": "generation",
+        "startTime": 233.7,
+        "endTime": 234.18
+      },
+      {
+        "word": "failure,",
+        "startTime": 234.18,
+        "endTime": 235.16
+      },
+      {
+        "word": "misrepresenting",
+        "startTime": 235.74,
+        "endTime": 236.94
+      },
+      {
+        "word": "the",
+        "startTime": 236.94,
+        "endTime": 237.04
+      },
+      {
+        "word": "right",
+        "startTime": 237.04,
+        "endTime": 237.26
+      },
+      {
+        "word": "documents.",
+        "startTime": 237.26,
+        "endTime": 237.88
+      }
+    ]
+  },
+  {
+    "text": "You can have perfect retrieval and terrible generation, or perfect generation on terrible retrieved documents.",
+    "startTime": 238.56,
+    "endTime": 246.6,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 238.56,
+        "endTime": 238.76
+      },
+      {
+        "word": "can",
+        "startTime": 238.76,
+        "endTime": 238.96
+      },
+      {
+        "word": "have",
+        "startTime": 238.96,
+        "endTime": 239.28
+      },
+      {
+        "word": "perfect",
+        "startTime": 239.28,
+        "endTime": 239.72
+      },
+      {
+        "word": "retrieval",
+        "startTime": 239.72,
+        "endTime": 240.62
+      },
+      {
+        "word": "and",
+        "startTime": 240.62,
+        "endTime": 240.94
+      },
+      {
+        "word": "terrible",
+        "startTime": 240.94,
+        "endTime": 241.44
+      },
+      {
+        "word": "generation,",
+        "startTime": 241.44,
+        "endTime": 242.28
+      },
+      {
+        "word": "or",
+        "startTime": 242.78,
+        "endTime": 243.08
+      },
+      {
+        "word": "perfect",
+        "startTime": 243.08,
+        "endTime": 243.46
+      },
+      {
+        "word": "generation",
+        "startTime": 243.46,
+        "endTime": 244.26
+      },
+      {
+        "word": "on",
+        "startTime": 244.26,
+        "endTime": 244.58
+      },
+      {
+        "word": "terrible",
+        "startTime": 244.58,
+        "endTime": 245.16
+      },
+      {
+        "word": "retrieved",
+        "startTime": 245.16,
+        "endTime": 245.96
+      },
+      {
+        "word": "documents.",
+        "startTime": 245.96,
+        "endTime": 246.6
+      }
+    ]
+  },
+  {
+    "text": "Debugging requires isolating which component is failing.",
+    "startTime": 247.36,
+    "endTime": 251.22,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Debugging",
+        "startTime": 247.36,
+        "endTime": 247.94
+      },
+      {
+        "word": "requires",
+        "startTime": 247.94,
+        "endTime": 248.5
+      },
+      {
+        "word": "isolating",
+        "startTime": 248.5,
+        "endTime": 249.28
+      },
+      {
+        "word": "which",
+        "startTime": 249.28,
+        "endTime": 249.78
+      },
+      {
+        "word": "component",
+        "startTime": 249.78,
+        "endTime": 250.32
+      },
+      {
+        "word": "is",
+        "startTime": 250.32,
+        "endTime": 250.76
+      },
+      {
+        "word": "failing.",
+        "startTime": 250.76,
+        "endTime": 251.22
+      }
+    ]
+  },
+  {
+    "text": "Vocabulary, mismatch between user queries and document language is the most common retrieval failure in real world r a g systems.",
+    "startTime": 251.92,
+    "endTime": 261.08,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Vocabulary,",
+        "startTime": 251.92,
+        "endTime": 252.66
+      },
+      {
+        "word": "mismatch",
+        "startTime": 253.24,
+        "endTime": 253.64
+      },
+      {
+        "word": "between",
+        "startTime": 253.64,
+        "endTime": 254.06
+      },
+      {
+        "word": "user",
+        "startTime": 254.06,
+        "endTime": 254.46
+      },
+      {
+        "word": "queries",
+        "startTime": 254.46,
+        "endTime": 254.92
+      },
+      {
+        "word": "and",
+        "startTime": 254.92,
+        "endTime": 255.32
+      },
+      {
+        "word": "document",
+        "startTime": 255.32,
+        "endTime": 255.78
+      },
+      {
+        "word": "language",
+        "startTime": 255.78,
+        "endTime": 256.28
+      },
+      {
+        "word": "is",
+        "startTime": 256.28,
+        "endTime": 256.84
+      },
+      {
+        "word": "the",
+        "startTime": 256.84,
+        "endTime": 257.02
+      },
+      {
+        "word": "most",
+        "startTime": 257.02,
+        "endTime": 257.32
+      },
+      {
+        "word": "common",
+        "startTime": 257.32,
+        "endTime": 257.66
+      },
+      {
+        "word": "retrieval",
+        "startTime": 257.66,
+        "endTime": 258.28
+      },
+      {
+        "word": "failure",
+        "startTime": 258.28,
+        "endTime": 258.72
+      },
+      {
+        "word": "in",
+        "startTime": 258.72,
+        "endTime": 258.96
+      },
+      {
+        "word": "real",
+        "startTime": 258.96,
+        "endTime": 259.2
+      },
+      {
+        "word": "world",
+        "startTime": 259.2,
+        "endTime": 259.68
+      },
+      {
+        "word": "r",
+        "startTime": 259.68,
+        "endTime": 259.96
+      },
+      {
+        "word": "a",
+        "startTime": 259.96,
+        "endTime": 260.16
+      },
+      {
+        "word": "g",
+        "startTime": 260.16,
+        "endTime": 260.38
+      },
+      {
+        "word": "systems.",
+        "startTime": 260.38,
+        "endTime": 261.08
+      }
+    ]
+  },
+  {
+    "text": "Hybrid retrieval, semantic plus keyword, handles it better than pure vector search alone.",
+    "startTime": 261.64,
+    "endTime": 267.88,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Hybrid",
+        "startTime": 261.64,
+        "endTime": 261.96
+      },
+      {
+        "word": "retrieval,",
+        "startTime": 261.96,
+        "endTime": 262.66
+      },
+      {
+        "word": "semantic",
+        "startTime": 263.08,
+        "endTime": 263.46
+      },
+      {
+        "word": "plus",
+        "startTime": 263.46,
+        "endTime": 263.84
+      },
+      {
+        "word": "keyword,",
+        "startTime": 263.84,
+        "endTime": 264.34
+      },
+      {
+        "word": "handles",
+        "startTime": 264.94,
+        "endTime": 265.26
+      },
+      {
+        "word": "it",
+        "startTime": 265.26,
+        "endTime": 265.56
+      },
+      {
+        "word": "better",
+        "startTime": 265.56,
+        "endTime": 265.92
+      },
+      {
+        "word": "than",
+        "startTime": 265.92,
+        "endTime": 266.22
+      },
+      {
+        "word": "pure",
+        "startTime": 266.22,
+        "endTime": 266.54
+      },
+      {
+        "word": "vector",
+        "startTime": 266.54,
+        "endTime": 266.9
+      },
+      {
+        "word": "search",
+        "startTime": 266.9,
+        "endTime": 267.48
+      },
+      {
+        "word": "alone.",
+        "startTime": 267.48,
+        "endTime": 267.88
+      }
+    ]
+  },
+  {
+    "text": "Always test your retrieval with queries that use different words from those in your source documents.",
+    "startTime": 268.82,
+    "endTime": 274.8,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Always",
+        "startTime": 268.82,
+        "endTime": 269.24
+      },
+      {
+        "word": "test",
+        "startTime": 269.24,
+        "endTime": 269.68
+      },
+      {
+        "word": "your",
+        "startTime": 269.68,
+        "endTime": 269.98
+      },
+      {
+        "word": "retrieval",
+        "startTime": 269.98,
+        "endTime": 270.64
+      },
+      {
+        "word": "with",
+        "startTime": 270.64,
+        "endTime": 270.9
+      },
+      {
+        "word": "queries",
+        "startTime": 270.9,
+        "endTime": 271.36
+      },
+      {
+        "word": "that",
+        "startTime": 271.36,
+        "endTime": 271.7
+      },
+      {
+        "word": "use",
+        "startTime": 271.7,
+        "endTime": 271.98
+      },
+      {
+        "word": "different",
+        "startTime": 271.98,
+        "endTime": 272.38
+      },
+      {
+        "word": "words",
+        "startTime": 272.38,
+        "endTime": 272.9
+      },
+      {
+        "word": "from",
+        "startTime": 272.9,
+        "endTime": 273.14
+      },
+      {
+        "word": "those",
+        "startTime": 273.14,
+        "endTime": 273.44
+      },
+      {
+        "word": "in",
+        "startTime": 273.44,
+        "endTime": 273.72
+      },
+      {
+        "word": "your",
+        "startTime": 273.72,
+        "endTime": 273.9
+      },
+      {
+        "word": "source",
+        "startTime": 273.9,
+        "endTime": 274.14
+      },
+      {
+        "word": "documents.",
+        "startTime": 274.14,
+        "endTime": 274.8
+      }
+    ]
+  },
+  {
+    "text": "Remember this, test r a g retrieval before testing r a g generation.",
+    "startTime": 275.5,
+    "endTime": 282.24,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Remember",
+        "startTime": 275.5,
+        "endTime": 276.02
+      },
+      {
+        "word": "this,",
+        "startTime": 276.02,
+        "endTime": 276.52
+      },
+      {
+        "word": "test",
+        "startTime": 277.14,
+        "endTime": 277.56
+      },
+      {
+        "word": "r",
+        "startTime": 277.56,
+        "endTime": 278.04
+      },
+      {
+        "word": "a",
+        "startTime": 278.04,
+        "endTime": 278.72
+      },
+      {
+        "word": "g",
+        "startTime": 278.72,
+        "endTime": 278.98
+      },
+      {
+        "word": "retrieval",
+        "startTime": 278.98,
+        "endTime": 279.7
+      },
+      {
+        "word": "before",
+        "startTime": 279.7,
+        "endTime": 280.1
+      },
+      {
+        "word": "testing",
+        "startTime": 280.1,
+        "endTime": 280.7
+      },
+      {
+        "word": "r",
+        "startTime": 280.7,
+        "endTime": 281.1
+      },
+      {
+        "word": "a",
+        "startTime": 281.1,
+        "endTime": 281.4
+      },
+      {
+        "word": "g",
+        "startTime": 281.4,
+        "endTime": 281.66
+      },
+      {
+        "word": "generation.",
+        "startTime": 281.66,
+        "endTime": 282.24
+      }
+    ]
+  },
+  {
+    "text": "If you cannot confirm that the right documents are being retrieved for your test queries, you are debugging the wrong component.",
+    "startTime": 283,
+    "endTime": 290.68,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "If",
+        "startTime": 283,
+        "endTime": 283.74
+      },
+      {
+        "word": "you",
+        "startTime": 283.74,
+        "endTime": 283.88
+      },
+      {
+        "word": "cannot",
+        "startTime": 283.88,
+        "endTime": 284.18
+      },
+      {
+        "word": "confirm",
+        "startTime": 284.18,
+        "endTime": 284.68
+      },
+      {
+        "word": "that",
+        "startTime": 284.68,
+        "endTime": 285
+      },
+      {
+        "word": "the",
+        "startTime": 285,
+        "endTime": 285.16
+      },
+      {
+        "word": "right",
+        "startTime": 285.16,
+        "endTime": 285.44
+      },
+      {
+        "word": "documents",
+        "startTime": 285.44,
+        "endTime": 286
+      },
+      {
+        "word": "are",
+        "startTime": 286,
+        "endTime": 286.26
+      },
+      {
+        "word": "being",
+        "startTime": 286.26,
+        "endTime": 286.48
+      },
+      {
+        "word": "retrieved",
+        "startTime": 286.48,
+        "endTime": 287.14
+      },
+      {
+        "word": "for",
+        "startTime": 287.14,
+        "endTime": 287.36
+      },
+      {
+        "word": "your",
+        "startTime": 287.36,
+        "endTime": 287.5
+      },
+      {
+        "word": "test",
+        "startTime": 287.5,
+        "endTime": 287.76
+      },
+      {
+        "word": "queries,",
+        "startTime": 287.76,
+        "endTime": 288.22
+      },
+      {
+        "word": "you",
+        "startTime": 288.72,
+        "endTime": 288.82
+      },
+      {
+        "word": "are",
+        "startTime": 288.82,
+        "endTime": 288.96
+      },
+      {
+        "word": "debugging",
+        "startTime": 288.96,
+        "endTime": 289.52
+      },
+      {
+        "word": "the",
+        "startTime": 289.52,
+        "endTime": 289.8
+      },
+      {
+        "word": "wrong",
+        "startTime": 289.8,
+        "endTime": 290.02
+      },
+      {
+        "word": "component.",
+        "startTime": 290.02,
+        "endTime": 290.68
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson, and you will see results immediately.",
+    "startTime": 291.5,
+    "endTime": 295.8,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 291.5,
+        "endTime": 291.86
+      },
+      {
+        "word": "what",
+        "startTime": 291.86,
+        "endTime": 292.16
+      },
+      {
+        "word": "you",
+        "startTime": 292.16,
+        "endTime": 292.32
+      },
+      {
+        "word": "learn",
+        "startTime": 292.32,
+        "endTime": 292.56
+      },
+      {
+        "word": "in",
+        "startTime": 292.56,
+        "endTime": 292.74
+      },
+      {
+        "word": "this",
+        "startTime": 292.74,
+        "endTime": 292.98
+      },
+      {
+        "word": "lesson,",
+        "startTime": 292.98,
+        "endTime": 293.36
+      },
+      {
+        "word": "and",
+        "startTime": 293.8,
+        "endTime": 293.94
+      },
+      {
+        "word": "you",
+        "startTime": 293.94,
+        "endTime": 294.1
+      },
+      {
+        "word": "will",
+        "startTime": 294.1,
+        "endTime": 294.22
+      },
+      {
+        "word": "see",
+        "startTime": 294.22,
+        "endTime": 294.46
+      },
+      {
+        "word": "results",
+        "startTime": 294.46,
+        "endTime": 294.94
+      },
+      {
+        "word": "immediately.",
+        "startTime": 294.94,
+        "endTime": 295.8
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 296.46,
+    "endTime": 297.64,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 296.46,
+        "endTime": 296.58
+      },
+      {
+        "word": "skills",
+        "startTime": 296.58,
+        "endTime": 297.02
+      },
+      {
+        "word": "bear",
+        "startTime": 297.02,
+        "endTime": 297.26
+      },
+      {
+        "word": "fruit.",
+        "startTime": 297.26,
+        "endTime": 297.64
+      }
+    ]
+  }
+]

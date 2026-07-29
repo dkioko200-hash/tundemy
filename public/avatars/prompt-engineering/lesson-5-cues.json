@@ -1,0 +1,1049 @@
+[
+  {
+    "text": "Complex tasks are not one prompt.",
+    "startTime": 0,
+    "endTime": 1.96,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "Complex",
+        "startTime": 0,
+        "endTime": 0.38
+      },
+      {
+        "word": "tasks",
+        "startTime": 0.38,
+        "endTime": 0.72
+      },
+      {
+        "word": "are",
+        "startTime": 0.72,
+        "endTime": 1.16
+      },
+      {
+        "word": "not",
+        "startTime": 1.16,
+        "endTime": 1.32
+      },
+      {
+        "word": "one",
+        "startTime": 1.32,
+        "endTime": 1.58
+      },
+      {
+        "word": "prompt.",
+        "startTime": 1.58,
+        "endTime": 1.96
+      }
+    ]
+  },
+  {
+    "text": "They are a conversation where each response feeds the next.",
+    "startTime": 2.36,
+    "endTime": 5.3,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "They",
+        "startTime": 2.36,
+        "endTime": 2.62
+      },
+      {
+        "word": "are",
+        "startTime": 2.62,
+        "endTime": 2.72
+      },
+      {
+        "word": "a",
+        "startTime": 2.72,
+        "endTime": 2.82
+      },
+      {
+        "word": "conversation",
+        "startTime": 2.82,
+        "endTime": 3.38
+      },
+      {
+        "word": "where",
+        "startTime": 3.38,
+        "endTime": 3.68
+      },
+      {
+        "word": "each",
+        "startTime": 3.68,
+        "endTime": 3.9
+      },
+      {
+        "word": "response",
+        "startTime": 3.9,
+        "endTime": 4.32
+      },
+      {
+        "word": "feeds",
+        "startTime": 4.32,
+        "endTime": 4.7
+      },
+      {
+        "word": "the",
+        "startTime": 4.7,
+        "endTime": 4.92
+      },
+      {
+        "word": "next.",
+        "startTime": 4.92,
+        "endTime": 5.3
+      }
+    ]
+  },
+  {
+    "text": "Master this and you can automate entire workflows.",
+    "startTime": 5.84,
+    "endTime": 8.36,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Master",
+        "startTime": 5.84,
+        "endTime": 6.1
+      },
+      {
+        "word": "this",
+        "startTime": 6.1,
+        "endTime": 6.34
+      },
+      {
+        "word": "and",
+        "startTime": 6.34,
+        "endTime": 6.62
+      },
+      {
+        "word": "you",
+        "startTime": 6.62,
+        "endTime": 6.76
+      },
+      {
+        "word": "can",
+        "startTime": 6.76,
+        "endTime": 6.9
+      },
+      {
+        "word": "automate",
+        "startTime": 6.9,
+        "endTime": 7.34
+      },
+      {
+        "word": "entire",
+        "startTime": 7.34,
+        "endTime": 7.8
+      },
+      {
+        "word": "workflows.",
+        "startTime": 7.8,
+        "endTime": 8.36
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, building multi -step prompt chains where output from step one becomes input for step two, design patterns for research to analysis to writing chains and how to handle errors between steps.",
+    "startTime": 9.1,
+    "endTime": 21.52,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 9.1,
+        "endTime": 9.26
+      },
+      {
+        "word": "this",
+        "startTime": 9.26,
+        "endTime": 9.46
+      },
+      {
+        "word": "lesson,",
+        "startTime": 9.46,
+        "endTime": 9.88
+      },
+      {
+        "word": "building",
+        "startTime": 10.44,
+        "endTime": 10.7
+      },
+      {
+        "word": "multi",
+        "startTime": 10.7,
+        "endTime": 11.1
+      },
+      {
+        "word": "-step",
+        "startTime": 11.1,
+        "endTime": 11.38
+      },
+      {
+        "word": "prompt",
+        "startTime": 11.38,
+        "endTime": 11.68
+      },
+      {
+        "word": "chains",
+        "startTime": 11.68,
+        "endTime": 12.06
+      },
+      {
+        "word": "where",
+        "startTime": 12.06,
+        "endTime": 12.38
+      },
+      {
+        "word": "output",
+        "startTime": 12.38,
+        "endTime": 12.76
+      },
+      {
+        "word": "from",
+        "startTime": 12.76,
+        "endTime": 13
+      },
+      {
+        "word": "step",
+        "startTime": 13,
+        "endTime": 13.24
+      },
+      {
+        "word": "one",
+        "startTime": 13.24,
+        "endTime": 13.5
+      },
+      {
+        "word": "becomes",
+        "startTime": 13.5,
+        "endTime": 13.82
+      },
+      {
+        "word": "input",
+        "startTime": 13.82,
+        "endTime": 14.3
+      },
+      {
+        "word": "for",
+        "startTime": 14.3,
+        "endTime": 14.52
+      },
+      {
+        "word": "step",
+        "startTime": 14.52,
+        "endTime": 14.74
+      },
+      {
+        "word": "two,",
+        "startTime": 14.74,
+        "endTime": 15.12
+      },
+      {
+        "word": "design",
+        "startTime": 15.68,
+        "endTime": 16.02
+      },
+      {
+        "word": "patterns",
+        "startTime": 16.02,
+        "endTime": 16.46
+      },
+      {
+        "word": "for",
+        "startTime": 16.46,
+        "endTime": 16.7
+      },
+      {
+        "word": "research",
+        "startTime": 16.7,
+        "endTime": 17.1
+      },
+      {
+        "word": "to",
+        "startTime": 17.1,
+        "endTime": 17.42
+      },
+      {
+        "word": "analysis",
+        "startTime": 17.42,
+        "endTime": 17.8
+      },
+      {
+        "word": "to",
+        "startTime": 17.8,
+        "endTime": 18.2
+      },
+      {
+        "word": "writing",
+        "startTime": 18.2,
+        "endTime": 18.48
+      },
+      {
+        "word": "chains",
+        "startTime": 18.48,
+        "endTime": 18.92
+      },
+      {
+        "word": "and",
+        "startTime": 18.92,
+        "endTime": 19.62
+      },
+      {
+        "word": "how",
+        "startTime": 19.62,
+        "endTime": 19.8
+      },
+      {
+        "word": "to",
+        "startTime": 19.8,
+        "endTime": 19.94
+      },
+      {
+        "word": "handle",
+        "startTime": 19.94,
+        "endTime": 20.26
+      },
+      {
+        "word": "errors",
+        "startTime": 20.26,
+        "endTime": 20.62
+      },
+      {
+        "word": "between",
+        "startTime": 20.62,
+        "endTime": 21
+      },
+      {
+        "word": "steps.",
+        "startTime": 21,
+        "endTime": 21.52
+      }
+    ]
+  },
+  {
+    "text": "A single prompt can only do so much reliably.",
+    "startTime": 22.66,
+    "endTime": 25.24,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 22.66,
+        "endTime": 22.96
+      },
+      {
+        "word": "single",
+        "startTime": 22.96,
+        "endTime": 23.18
+      },
+      {
+        "word": "prompt",
+        "startTime": 23.18,
+        "endTime": 23.58
+      },
+      {
+        "word": "can",
+        "startTime": 23.58,
+        "endTime": 23.76
+      },
+      {
+        "word": "only",
+        "startTime": 23.76,
+        "endTime": 24
+      },
+      {
+        "word": "do",
+        "startTime": 24,
+        "endTime": 24.18
+      },
+      {
+        "word": "so",
+        "startTime": 24.18,
+        "endTime": 24.38
+      },
+      {
+        "word": "much",
+        "startTime": 24.38,
+        "endTime": 24.64
+      },
+      {
+        "word": "reliably.",
+        "startTime": 24.64,
+        "endTime": 25.24
+      }
+    ]
+  },
+  {
+    "text": "Complex tasks, research synthesis, multi -step analysis, document creation, produce inconsistent results when attempted in one shot.",
+    "startTime": 25.8,
+    "endTime": 33.94,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Complex",
+        "startTime": 25.8,
+        "endTime": 26.12
+      },
+      {
+        "word": "tasks,",
+        "startTime": 26.12,
+        "endTime": 26.54
+      },
+      {
+        "word": "research",
+        "startTime": 27.02,
+        "endTime": 27.28
+      },
+      {
+        "word": "synthesis,",
+        "startTime": 27.28,
+        "endTime": 27.9
+      },
+      {
+        "word": "multi",
+        "startTime": 28.48,
+        "endTime": 28.66
+      },
+      {
+        "word": "-step",
+        "startTime": 28.66,
+        "endTime": 28.92
+      },
+      {
+        "word": "analysis,",
+        "startTime": 28.92,
+        "endTime": 29.38
+      },
+      {
+        "word": "document",
+        "startTime": 29.76,
+        "endTime": 30.04
+      },
+      {
+        "word": "creation,",
+        "startTime": 30.04,
+        "endTime": 30.64
+      },
+      {
+        "word": "produce",
+        "startTime": 31.04,
+        "endTime": 31.4
+      },
+      {
+        "word": "inconsistent",
+        "startTime": 31.4,
+        "endTime": 32.16
+      },
+      {
+        "word": "results",
+        "startTime": 32.16,
+        "endTime": 32.52
+      },
+      {
+        "word": "when",
+        "startTime": 32.52,
+        "endTime": 32.8
+      },
+      {
+        "word": "attempted",
+        "startTime": 32.8,
+        "endTime": 33.18
+      },
+      {
+        "word": "in",
+        "startTime": 33.18,
+        "endTime": 33.4
+      },
+      {
+        "word": "one",
+        "startTime": 33.4,
+        "endTime": 33.56
+      },
+      {
+        "word": "shot.",
+        "startTime": 33.56,
+        "endTime": 33.94
+      }
+    ]
+  },
+  {
+    "text": "Prompt chaining breaks complex tasks into a sequence of focused prompts where the output of each step becomes the input of the next.",
+    "startTime": 34.68,
+    "endTime": 41.72,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Prompt",
+        "startTime": 34.68,
+        "endTime": 35.04
+      },
+      {
+        "word": "chaining",
+        "startTime": 35.04,
+        "endTime": 35.38
+      },
+      {
+        "word": "breaks",
+        "startTime": 35.38,
+        "endTime": 35.68
+      },
+      {
+        "word": "complex",
+        "startTime": 35.68,
+        "endTime": 36.16
+      },
+      {
+        "word": "tasks",
+        "startTime": 36.16,
+        "endTime": 36.6
+      },
+      {
+        "word": "into",
+        "startTime": 36.6,
+        "endTime": 37.04
+      },
+      {
+        "word": "a",
+        "startTime": 37.04,
+        "endTime": 37.2
+      },
+      {
+        "word": "sequence",
+        "startTime": 37.2,
+        "endTime": 37.54
+      },
+      {
+        "word": "of",
+        "startTime": 37.54,
+        "endTime": 37.76
+      },
+      {
+        "word": "focused",
+        "startTime": 37.76,
+        "endTime": 38.14
+      },
+      {
+        "word": "prompts",
+        "startTime": 38.14,
+        "endTime": 38.58
+      },
+      {
+        "word": "where",
+        "startTime": 38.58,
+        "endTime": 39.24
+      },
+      {
+        "word": "the",
+        "startTime": 39.24,
+        "endTime": 39.38
+      },
+      {
+        "word": "output",
+        "startTime": 39.38,
+        "endTime": 39.66
+      },
+      {
+        "word": "of",
+        "startTime": 39.66,
+        "endTime": 39.84
+      },
+      {
+        "word": "each",
+        "startTime": 39.84,
+        "endTime": 40.02
+      },
+      {
+        "word": "step",
+        "startTime": 40.02,
+        "endTime": 40.28
+      },
+      {
+        "word": "becomes",
+        "startTime": 40.28,
+        "endTime": 40.62
+      },
+      {
+        "word": "the",
+        "startTime": 40.62,
+        "endTime": 40.84
+      },
+      {
+        "word": "input",
+        "startTime": 40.84,
+        "endTime": 41.14
+      },
+      {
+        "word": "of",
+        "startTime": 41.14,
+        "endTime": 41.32
+      },
+      {
+        "word": "the",
+        "startTime": 41.32,
+        "endTime": 41.46
+      },
+      {
+        "word": "next.",
+        "startTime": 41.46,
+        "endTime": 41.72
+      }
+    ]
+  },
+  {
+    "text": "Prompt chaining turns AI from a one -shot tool into a systematic analytical process.",
+    "startTime": 42.48,
+    "endTime": 47.72,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Prompt",
+        "startTime": 42.48,
+        "endTime": 42.86
+      },
+      {
+        "word": "chaining",
+        "startTime": 42.86,
+        "endTime": 43.16
+      },
+      {
+        "word": "turns",
+        "startTime": 43.16,
+        "endTime": 43.52
+      },
+      {
+        "word": "AI",
+        "startTime": 43.52,
+        "endTime": 43.9
+      },
+      {
+        "word": "from",
+        "startTime": 43.9,
+        "endTime": 44.2
+      },
+      {
+        "word": "a",
+        "startTime": 44.2,
+        "endTime": 44.32
+      },
+      {
+        "word": "one",
+        "startTime": 44.32,
+        "endTime": 44.52
+      },
+      {
+        "word": "-shot",
+        "startTime": 44.52,
+        "endTime": 44.72
+      },
+      {
+        "word": "tool",
+        "startTime": 44.72,
+        "endTime": 45.12
+      },
+      {
+        "word": "into",
+        "startTime": 45.12,
+        "endTime": 45.8
+      },
+      {
+        "word": "a",
+        "startTime": 45.8,
+        "endTime": 45.94
+      },
+      {
+        "word": "systematic",
+        "startTime": 45.94,
+        "endTime": 46.46
+      },
+      {
+        "word": "analytical",
+        "startTime": 46.46,
+        "endTime": 46.92
+      },
+      {
+        "word": "process.",
+        "startTime": 46.92,
+        "endTime": 47.72
+      }
+    ]
+  },
+  {
+    "text": "The quality of each step determines the quality of the final output, which is why verification between steps is essential.",
+    "startTime": 48.42,
+    "endTime": 55.08,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 48.42,
+        "endTime": 48.58
+      },
+      {
+        "word": "quality",
+        "startTime": 48.58,
+        "endTime": 48.96
+      },
+      {
+        "word": "of",
+        "startTime": 48.96,
+        "endTime": 49.16
+      },
+      {
+        "word": "each",
+        "startTime": 49.16,
+        "endTime": 49.32
+      },
+      {
+        "word": "step",
+        "startTime": 49.32,
+        "endTime": 49.6
+      },
+      {
+        "word": "determines",
+        "startTime": 49.6,
+        "endTime": 50.08
+      },
+      {
+        "word": "the",
+        "startTime": 50.08,
+        "endTime": 50.3
+      },
+      {
+        "word": "quality",
+        "startTime": 50.3,
+        "endTime": 50.64
+      },
+      {
+        "word": "of",
+        "startTime": 50.64,
+        "endTime": 50.84
+      },
+      {
+        "word": "the",
+        "startTime": 50.84,
+        "endTime": 50.96
+      },
+      {
+        "word": "final",
+        "startTime": 50.96,
+        "endTime": 51.28
+      },
+      {
+        "word": "output,",
+        "startTime": 51.28,
+        "endTime": 51.72
+      },
+      {
+        "word": "which",
+        "startTime": 52.14,
+        "endTime": 52.48
+      },
+      {
+        "word": "is",
+        "startTime": 52.48,
+        "endTime": 52.62
+      },
+      {
+        "word": "why",
+        "startTime": 52.62,
+        "endTime": 52.8
+      },
+      {
+        "word": "verification",
+        "startTime": 52.8,
+        "endTime": 53.54
+      },
+      {
+        "word": "between",
+        "startTime": 53.54,
+        "endTime": 53.92
+      },
+      {
+        "word": "steps",
+        "startTime": 53.92,
+        "endTime": 54.3
+      },
+      {
+        "word": "is",
+        "startTime": 54.3,
+        "endTime": 54.56
+      },
+      {
+        "word": "essential.",
+        "startTime": 54.56,
+        "endTime": 55.08
+      }
+    ]
+  },
+  {
+    "text": "Remember this.",
+    "startTime": 55.74,
+    "endTime": 56.42,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Remember",
+        "startTime": 55.74,
+        "endTime": 56.06
+      },
+      {
+        "word": "this.",
+        "startTime": 56.06,
+        "endTime": 56.42
+      }
+    ]
+  },
+  {
+    "text": "For any task with more than three distinct sub -tasks, break it into a chain.",
+    "startTime": 56.82,
+    "endTime": 61.14,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "For",
+        "startTime": 56.82,
+        "endTime": 57.04
+      },
+      {
+        "word": "any",
+        "startTime": 57.04,
+        "endTime": 57.26
+      },
+      {
+        "word": "task",
+        "startTime": 57.26,
+        "endTime": 57.58
+      },
+      {
+        "word": "with",
+        "startTime": 57.58,
+        "endTime": 57.8
+      },
+      {
+        "word": "more",
+        "startTime": 57.8,
+        "endTime": 58.02
+      },
+      {
+        "word": "than",
+        "startTime": 58.02,
+        "endTime": 58.18
+      },
+      {
+        "word": "three",
+        "startTime": 58.18,
+        "endTime": 58.5
+      },
+      {
+        "word": "distinct",
+        "startTime": 58.5,
+        "endTime": 58.92
+      },
+      {
+        "word": "sub",
+        "startTime": 58.92,
+        "endTime": 59.26
+      },
+      {
+        "word": "-tasks,",
+        "startTime": 59.26,
+        "endTime": 59.8
+      },
+      {
+        "word": "break",
+        "startTime": 60.18,
+        "endTime": 60.32
+      },
+      {
+        "word": "it",
+        "startTime": 60.32,
+        "endTime": 60.5
+      },
+      {
+        "word": "into",
+        "startTime": 60.5,
+        "endTime": 60.72
+      },
+      {
+        "word": "a",
+        "startTime": 60.72,
+        "endTime": 60.84
+      },
+      {
+        "word": "chain.",
+        "startTime": 60.84,
+        "endTime": 61.14
+      }
+    ]
+  },
+  {
+    "text": "Verify each output before using it as input for the next step.",
+    "startTime": 62.02,
+    "endTime": 65.5,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Verify",
+        "startTime": 62.02,
+        "endTime": 62.38
+      },
+      {
+        "word": "each",
+        "startTime": 62.38,
+        "endTime": 62.7
+      },
+      {
+        "word": "output",
+        "startTime": 62.7,
+        "endTime": 63.1
+      },
+      {
+        "word": "before",
+        "startTime": 63.1,
+        "endTime": 63.46
+      },
+      {
+        "word": "using",
+        "startTime": 63.46,
+        "endTime": 63.82
+      },
+      {
+        "word": "it",
+        "startTime": 63.82,
+        "endTime": 64.02
+      },
+      {
+        "word": "as",
+        "startTime": 64.02,
+        "endTime": 64.16
+      },
+      {
+        "word": "input",
+        "startTime": 64.16,
+        "endTime": 64.46
+      },
+      {
+        "word": "for",
+        "startTime": 64.46,
+        "endTime": 64.72
+      },
+      {
+        "word": "the",
+        "startTime": 64.72,
+        "endTime": 64.84
+      },
+      {
+        "word": "next",
+        "startTime": 64.84,
+        "endTime": 65.04
+      },
+      {
+        "word": "step.",
+        "startTime": 65.04,
+        "endTime": 65.5
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 66.58,
+    "endTime": 69.82,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 66.58,
+        "endTime": 66.84
+      },
+      {
+        "word": "what",
+        "startTime": 66.84,
+        "endTime": 67.04
+      },
+      {
+        "word": "you",
+        "startTime": 67.04,
+        "endTime": 67.18
+      },
+      {
+        "word": "learn",
+        "startTime": 67.18,
+        "endTime": 67.4
+      },
+      {
+        "word": "in",
+        "startTime": 67.4,
+        "endTime": 67.54
+      },
+      {
+        "word": "this",
+        "startTime": 67.54,
+        "endTime": 67.74
+      },
+      {
+        "word": "lesson",
+        "startTime": 67.74,
+        "endTime": 68.06
+      },
+      {
+        "word": "and",
+        "startTime": 68.06,
+        "endTime": 68.28
+      },
+      {
+        "word": "you",
+        "startTime": 68.28,
+        "endTime": 68.42
+      },
+      {
+        "word": "will",
+        "startTime": 68.42,
+        "endTime": 68.54
+      },
+      {
+        "word": "see",
+        "startTime": 68.54,
+        "endTime": 68.72
+      },
+      {
+        "word": "results",
+        "startTime": 68.72,
+        "endTime": 69.12
+      },
+      {
+        "word": "immediately.",
+        "startTime": 69.12,
+        "endTime": 69.82
+      }
+    ]
+  },
+  {
+    "text": "Your skills bare fruit.",
+    "startTime": 70.44,
+    "endTime": 71.62,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 70.44,
+        "endTime": 70.64
+      },
+      {
+        "word": "skills",
+        "startTime": 70.64,
+        "endTime": 71.04
+      },
+      {
+        "word": "bare",
+        "startTime": 71.04,
+        "endTime": 71.3
+      },
+      {
+        "word": "fruit.",
+        "startTime": 71.3,
+        "endTime": 71.62
+      }
+    ]
+  }
+]

@@ -1,0 +1,1493 @@
+[
+  {
+    "text": "MPESA processes over one trillion Kenyan shillings per month across 30 million active users.",
+    "startTime": 0,
+    "endTime": 6.12,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "MPESA",
+        "startTime": 0,
+        "endTime": 0.58
+      },
+      {
+        "word": "processes",
+        "startTime": 0.58,
+        "endTime": 1.08
+      },
+      {
+        "word": "over",
+        "startTime": 1.08,
+        "endTime": 1.5
+      },
+      {
+        "word": "one",
+        "startTime": 1.5,
+        "endTime": 1.82
+      },
+      {
+        "word": "trillion",
+        "startTime": 1.82,
+        "endTime": 2.22
+      },
+      {
+        "word": "Kenyan",
+        "startTime": 2.22,
+        "endTime": 2.64
+      },
+      {
+        "word": "shillings",
+        "startTime": 2.64,
+        "endTime": 3.08
+      },
+      {
+        "word": "per",
+        "startTime": 3.08,
+        "endTime": 3.32
+      },
+      {
+        "word": "month",
+        "startTime": 3.32,
+        "endTime": 3.66
+      },
+      {
+        "word": "across",
+        "startTime": 3.66,
+        "endTime": 4.38
+      },
+      {
+        "word": "30",
+        "startTime": 4.38,
+        "endTime": 4.92
+      },
+      {
+        "word": "million",
+        "startTime": 4.92,
+        "endTime": 5.22
+      },
+      {
+        "word": "active",
+        "startTime": 5.22,
+        "endTime": 5.62
+      },
+      {
+        "word": "users.",
+        "startTime": 5.62,
+        "endTime": 6.12
+      }
+    ]
+  },
+  {
+    "text": "Every pay bill payment, every till number transaction, every SDK push prompt on every Kenyan's phone is powered by the same API you are about to learn.",
+    "startTime": 6.86,
+    "endTime": 16.8,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Every",
+        "startTime": 6.86,
+        "endTime": 7.12
+      },
+      {
+        "word": "pay",
+        "startTime": 7.12,
+        "endTime": 7.4
+      },
+      {
+        "word": "bill",
+        "startTime": 7.4,
+        "endTime": 7.62
+      },
+      {
+        "word": "payment,",
+        "startTime": 7.62,
+        "endTime": 8.02
+      },
+      {
+        "word": "every",
+        "startTime": 8.56,
+        "endTime": 8.82
+      },
+      {
+        "word": "till",
+        "startTime": 8.82,
+        "endTime": 9.06
+      },
+      {
+        "word": "number",
+        "startTime": 9.06,
+        "endTime": 9.38
+      },
+      {
+        "word": "transaction,",
+        "startTime": 9.38,
+        "endTime": 9.96
+      },
+      {
+        "word": "every",
+        "startTime": 10.56,
+        "endTime": 10.84
+      },
+      {
+        "word": "SDK",
+        "startTime": 10.84,
+        "endTime": 11.34
+      },
+      {
+        "word": "push",
+        "startTime": 11.34,
+        "endTime": 11.78
+      },
+      {
+        "word": "prompt",
+        "startTime": 11.78,
+        "endTime": 12.12
+      },
+      {
+        "word": "on",
+        "startTime": 12.12,
+        "endTime": 12.26
+      },
+      {
+        "word": "every",
+        "startTime": 12.26,
+        "endTime": 12.58
+      },
+      {
+        "word": "Kenyan's",
+        "startTime": 12.58,
+        "endTime": 13.08
+      },
+      {
+        "word": "phone",
+        "startTime": 13.08,
+        "endTime": 13.3
+      },
+      {
+        "word": "is",
+        "startTime": 13.3,
+        "endTime": 13.94
+      },
+      {
+        "word": "powered",
+        "startTime": 13.94,
+        "endTime": 14.26
+      },
+      {
+        "word": "by",
+        "startTime": 14.26,
+        "endTime": 14.44
+      },
+      {
+        "word": "the",
+        "startTime": 14.44,
+        "endTime": 14.6
+      },
+      {
+        "word": "same",
+        "startTime": 14.6,
+        "endTime": 14.86
+      },
+      {
+        "word": "API",
+        "startTime": 14.86,
+        "endTime": 15.42
+      },
+      {
+        "word": "you",
+        "startTime": 15.42,
+        "endTime": 16
+      },
+      {
+        "word": "are",
+        "startTime": 16,
+        "endTime": 16.14
+      },
+      {
+        "word": "about",
+        "startTime": 16.14,
+        "endTime": 16.34
+      },
+      {
+        "word": "to",
+        "startTime": 16.34,
+        "endTime": 16.56
+      },
+      {
+        "word": "learn.",
+        "startTime": 16.56,
+        "endTime": 16.8
+      }
+    ]
+  },
+  {
+    "text": "This is not a niche skill, this is the infrastructure of the Kenyan economy.",
+    "startTime": 17.42,
+    "endTime": 21.28,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "This",
+        "startTime": 17.42,
+        "endTime": 17.58
+      },
+      {
+        "word": "is",
+        "startTime": 17.58,
+        "endTime": 17.68
+      },
+      {
+        "word": "not",
+        "startTime": 17.68,
+        "endTime": 17.88
+      },
+      {
+        "word": "a",
+        "startTime": 17.88,
+        "endTime": 18.04
+      },
+      {
+        "word": "niche",
+        "startTime": 18.04,
+        "endTime": 18.32
+      },
+      {
+        "word": "skill,",
+        "startTime": 18.32,
+        "endTime": 18.7
+      },
+      {
+        "word": "this",
+        "startTime": 19.14,
+        "endTime": 19.28
+      },
+      {
+        "word": "is",
+        "startTime": 19.28,
+        "endTime": 19.4
+      },
+      {
+        "word": "the",
+        "startTime": 19.4,
+        "endTime": 19.56
+      },
+      {
+        "word": "infrastructure",
+        "startTime": 19.56,
+        "endTime": 20.08
+      },
+      {
+        "word": "of",
+        "startTime": 20.08,
+        "endTime": 20.42
+      },
+      {
+        "word": "the",
+        "startTime": 20.42,
+        "endTime": 20.52
+      },
+      {
+        "word": "Kenyan",
+        "startTime": 20.52,
+        "endTime": 20.8
+      },
+      {
+        "word": "economy.",
+        "startTime": 20.8,
+        "endTime": 21.28
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, the MPESA business ecosystem, till numbers versus pay bill versus head office numbers, the Daraja API product suite, SDK push, C2B, B2C, account balance, transaction status, and reversal.",
+    "startTime": 21.94,
+    "endTime": 39.14,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 21.94,
+        "endTime": 22.08
+      },
+      {
+        "word": "this",
+        "startTime": 22.08,
+        "endTime": 22.28
+      },
+      {
+        "word": "lesson,",
+        "startTime": 22.28,
+        "endTime": 22.66
+      },
+      {
+        "word": "the",
+        "startTime": 23.18,
+        "endTime": 23.26
+      },
+      {
+        "word": "MPESA",
+        "startTime": 23.26,
+        "endTime": 23.88
+      },
+      {
+        "word": "business",
+        "startTime": 23.88,
+        "endTime": 24.26
+      },
+      {
+        "word": "ecosystem,",
+        "startTime": 24.26,
+        "endTime": 25.08
+      },
+      {
+        "word": "till",
+        "startTime": 25.76,
+        "endTime": 25.98
+      },
+      {
+        "word": "numbers",
+        "startTime": 25.98,
+        "endTime": 26.4
+      },
+      {
+        "word": "versus",
+        "startTime": 26.4,
+        "endTime": 26.82
+      },
+      {
+        "word": "pay",
+        "startTime": 26.82,
+        "endTime": 27.14
+      },
+      {
+        "word": "bill",
+        "startTime": 27.14,
+        "endTime": 27.38
+      },
+      {
+        "word": "versus",
+        "startTime": 27.38,
+        "endTime": 27.72
+      },
+      {
+        "word": "head",
+        "startTime": 27.72,
+        "endTime": 28.04
+      },
+      {
+        "word": "office",
+        "startTime": 28.04,
+        "endTime": 28.26
+      },
+      {
+        "word": "numbers,",
+        "startTime": 28.26,
+        "endTime": 28.74
+      },
+      {
+        "word": "the",
+        "startTime": 29.5,
+        "endTime": 29.58
+      },
+      {
+        "word": "Daraja",
+        "startTime": 29.58,
+        "endTime": 30
+      },
+      {
+        "word": "API",
+        "startTime": 30,
+        "endTime": 30.44
+      },
+      {
+        "word": "product",
+        "startTime": 30.44,
+        "endTime": 30.94
+      },
+      {
+        "word": "suite,",
+        "startTime": 30.94,
+        "endTime": 31.34
+      },
+      {
+        "word": "SDK",
+        "startTime": 31.96,
+        "endTime": 32.36
+      },
+      {
+        "word": "push,",
+        "startTime": 32.36,
+        "endTime": 32.9
+      },
+      {
+        "word": "C2B,",
+        "startTime": 33.42,
+        "endTime": 33.94
+      },
+      {
+        "word": "B2C,",
+        "startTime": 34.58,
+        "endTime": 35.22
+      },
+      {
+        "word": "account",
+        "startTime": 35.86,
+        "endTime": 36.08
+      },
+      {
+        "word": "balance,",
+        "startTime": 36.08,
+        "endTime": 36.52
+      },
+      {
+        "word": "transaction",
+        "startTime": 37.12,
+        "endTime": 37.44
+      },
+      {
+        "word": "status,",
+        "startTime": 37.44,
+        "endTime": 38.04
+      },
+      {
+        "word": "and",
+        "startTime": 38.6,
+        "endTime": 38.7
+      },
+      {
+        "word": "reversal.",
+        "startTime": 38.7,
+        "endTime": 39.14
+      }
+    ]
+  },
+  {
+    "text": "Which endpoint solves which business problem?",
+    "startTime": 39.82,
+    "endTime": 42.1,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Which",
+        "startTime": 39.82,
+        "endTime": 40.14
+      },
+      {
+        "word": "endpoint",
+        "startTime": 40.14,
+        "endTime": 40.6
+      },
+      {
+        "word": "solves",
+        "startTime": 40.6,
+        "endTime": 41.06
+      },
+      {
+        "word": "which",
+        "startTime": 41.06,
+        "endTime": 41.3
+      },
+      {
+        "word": "business",
+        "startTime": 41.3,
+        "endTime": 41.68
+      },
+      {
+        "word": "problem?",
+        "startTime": 41.68,
+        "endTime": 42.1
+      }
+    ]
+  },
+  {
+    "text": "The sandbox environment and test credentials, how the production go live process works.",
+    "startTime": 42.7,
+    "endTime": 47.56,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 42.7,
+        "endTime": 42.8
+      },
+      {
+        "word": "sandbox",
+        "startTime": 42.8,
+        "endTime": 43.14
+      },
+      {
+        "word": "environment",
+        "startTime": 43.14,
+        "endTime": 43.78
+      },
+      {
+        "word": "and",
+        "startTime": 43.78,
+        "endTime": 43.98
+      },
+      {
+        "word": "test",
+        "startTime": 43.98,
+        "endTime": 44.24
+      },
+      {
+        "word": "credentials,",
+        "startTime": 44.24,
+        "endTime": 44.74
+      },
+      {
+        "word": "how",
+        "startTime": 45.28,
+        "endTime": 45.66
+      },
+      {
+        "word": "the",
+        "startTime": 45.66,
+        "endTime": 45.8
+      },
+      {
+        "word": "production",
+        "startTime": 45.8,
+        "endTime": 46.2
+      },
+      {
+        "word": "go",
+        "startTime": 46.2,
+        "endTime": 46.44
+      },
+      {
+        "word": "live",
+        "startTime": 46.44,
+        "endTime": 46.66
+      },
+      {
+        "word": "process",
+        "startTime": 46.66,
+        "endTime": 47.06
+      },
+      {
+        "word": "works.",
+        "startTime": 47.06,
+        "endTime": 47.56
+      }
+    ]
+  },
+  {
+    "text": "Daraja, Swahili for Bridge, is the API that connects your application to MPESA's payment infrastructure.",
+    "startTime": 48.3,
+    "endTime": 54.6,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Daraja,",
+        "startTime": 48.3,
+        "endTime": 48.76
+      },
+      {
+        "word": "Swahili",
+        "startTime": 49.24,
+        "endTime": 49.68
+      },
+      {
+        "word": "for",
+        "startTime": 49.68,
+        "endTime": 49.9
+      },
+      {
+        "word": "Bridge,",
+        "startTime": 49.9,
+        "endTime": 50.16
+      },
+      {
+        "word": "is",
+        "startTime": 50.78,
+        "endTime": 50.9
+      },
+      {
+        "word": "the",
+        "startTime": 50.9,
+        "endTime": 51.06
+      },
+      {
+        "word": "API",
+        "startTime": 51.06,
+        "endTime": 51.48
+      },
+      {
+        "word": "that",
+        "startTime": 51.48,
+        "endTime": 51.74
+      },
+      {
+        "word": "connects",
+        "startTime": 51.74,
+        "endTime": 52.02
+      },
+      {
+        "word": "your",
+        "startTime": 52.02,
+        "endTime": 52.26
+      },
+      {
+        "word": "application",
+        "startTime": 52.26,
+        "endTime": 52.78
+      },
+      {
+        "word": "to",
+        "startTime": 52.78,
+        "endTime": 53.04
+      },
+      {
+        "word": "MPESA's",
+        "startTime": 53.04,
+        "endTime": 53.64
+      },
+      {
+        "word": "payment",
+        "startTime": 53.64,
+        "endTime": 53.92
+      },
+      {
+        "word": "infrastructure.",
+        "startTime": 53.92,
+        "endTime": 54.6
+      }
+    ]
+  },
+  {
+    "text": "It has six core endpoints, SDK push, Lipana MPESA online, sends a payment prompt to a customer's phone, they enter their PIN and the money moves.",
+    "startTime": 55.02,
+    "endTime": 66.32,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "It",
+        "startTime": 55.02,
+        "endTime": 55.38
+      },
+      {
+        "word": "has",
+        "startTime": 55.38,
+        "endTime": 55.56
+      },
+      {
+        "word": "six",
+        "startTime": 55.56,
+        "endTime": 55.84
+      },
+      {
+        "word": "core",
+        "startTime": 55.84,
+        "endTime": 56.2
+      },
+      {
+        "word": "endpoints,",
+        "startTime": 56.2,
+        "endTime": 56.78
+      },
+      {
+        "word": "SDK",
+        "startTime": 57.46,
+        "endTime": 57.96
+      },
+      {
+        "word": "push,",
+        "startTime": 57.96,
+        "endTime": 58.64
+      },
+      {
+        "word": "Lipana",
+        "startTime": 59.26,
+        "endTime": 59.62
+      },
+      {
+        "word": "MPESA",
+        "startTime": 59.62,
+        "endTime": 60.18
+      },
+      {
+        "word": "online,",
+        "startTime": 60.18,
+        "endTime": 60.56
+      },
+      {
+        "word": "sends",
+        "startTime": 61.26,
+        "endTime": 61.52
+      },
+      {
+        "word": "a",
+        "startTime": 61.52,
+        "endTime": 61.68
+      },
+      {
+        "word": "payment",
+        "startTime": 61.68,
+        "endTime": 61.98
+      },
+      {
+        "word": "prompt",
+        "startTime": 61.98,
+        "endTime": 62.3
+      },
+      {
+        "word": "to",
+        "startTime": 62.3,
+        "endTime": 62.58
+      },
+      {
+        "word": "a",
+        "startTime": 62.58,
+        "endTime": 62.66
+      },
+      {
+        "word": "customer's",
+        "startTime": 62.66,
+        "endTime": 63.2
+      },
+      {
+        "word": "phone,",
+        "startTime": 63.2,
+        "endTime": 63.42
+      },
+      {
+        "word": "they",
+        "startTime": 64.1,
+        "endTime": 64.18
+      },
+      {
+        "word": "enter",
+        "startTime": 64.18,
+        "endTime": 64.42
+      },
+      {
+        "word": "their",
+        "startTime": 64.42,
+        "endTime": 64.64
+      },
+      {
+        "word": "PIN",
+        "startTime": 64.64,
+        "endTime": 65.1
+      },
+      {
+        "word": "and",
+        "startTime": 65.1,
+        "endTime": 65.58
+      },
+      {
+        "word": "the",
+        "startTime": 65.58,
+        "endTime": 65.7
+      },
+      {
+        "word": "money",
+        "startTime": 65.7,
+        "endTime": 65.9
+      },
+      {
+        "word": "moves.",
+        "startTime": 65.9,
+        "endTime": 66.32
+      }
+    ]
+  },
+  {
+    "text": "The most common Daraja integration mistake is not understanding the callback model.",
+    "startTime": 66.96,
+    "endTime": 71.3,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 66.96,
+        "endTime": 67.08
+      },
+      {
+        "word": "most",
+        "startTime": 67.08,
+        "endTime": 67.28
+      },
+      {
+        "word": "common",
+        "startTime": 67.28,
+        "endTime": 67.66
+      },
+      {
+        "word": "Daraja",
+        "startTime": 67.66,
+        "endTime": 68.06
+      },
+      {
+        "word": "integration",
+        "startTime": 68.06,
+        "endTime": 68.54
+      },
+      {
+        "word": "mistake",
+        "startTime": 68.54,
+        "endTime": 69.1
+      },
+      {
+        "word": "is",
+        "startTime": 69.1,
+        "endTime": 69.44
+      },
+      {
+        "word": "not",
+        "startTime": 69.44,
+        "endTime": 69.7
+      },
+      {
+        "word": "understanding",
+        "startTime": 69.7,
+        "endTime": 70.32
+      },
+      {
+        "word": "the",
+        "startTime": 70.32,
+        "endTime": 70.56
+      },
+      {
+        "word": "callback",
+        "startTime": 70.56,
+        "endTime": 70.94
+      },
+      {
+        "word": "model.",
+        "startTime": 70.94,
+        "endTime": 71.3
+      }
+    ]
+  },
+  {
+    "text": "Daraja is asynchronous, the SDK push initiation response tells you the prompt was sent, not that the customer paid.",
+    "startTime": 72.04,
+    "endTime": 79.42,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Daraja",
+        "startTime": 72.04,
+        "endTime": 72.44
+      },
+      {
+        "word": "is",
+        "startTime": 72.44,
+        "endTime": 72.7
+      },
+      {
+        "word": "asynchronous,",
+        "startTime": 72.7,
+        "endTime": 73.28
+      },
+      {
+        "word": "the",
+        "startTime": 74.08,
+        "endTime": 74.16
+      },
+      {
+        "word": "SDK",
+        "startTime": 74.16,
+        "endTime": 74.62
+      },
+      {
+        "word": "push",
+        "startTime": 74.62,
+        "endTime": 75.02
+      },
+      {
+        "word": "initiation",
+        "startTime": 75.02,
+        "endTime": 75.56
+      },
+      {
+        "word": "response",
+        "startTime": 75.56,
+        "endTime": 76.1
+      },
+      {
+        "word": "tells",
+        "startTime": 76.1,
+        "endTime": 76.5
+      },
+      {
+        "word": "you",
+        "startTime": 76.5,
+        "endTime": 76.7
+      },
+      {
+        "word": "the",
+        "startTime": 76.7,
+        "endTime": 76.82
+      },
+      {
+        "word": "prompt",
+        "startTime": 76.82,
+        "endTime": 77.1
+      },
+      {
+        "word": "was",
+        "startTime": 77.1,
+        "endTime": 77.32
+      },
+      {
+        "word": "sent,",
+        "startTime": 77.32,
+        "endTime": 77.66
+      },
+      {
+        "word": "not",
+        "startTime": 78.1,
+        "endTime": 78.36
+      },
+      {
+        "word": "that",
+        "startTime": 78.36,
+        "endTime": 78.54
+      },
+      {
+        "word": "the",
+        "startTime": 78.54,
+        "endTime": 78.66
+      },
+      {
+        "word": "customer",
+        "startTime": 78.66,
+        "endTime": 79.04
+      },
+      {
+        "word": "paid.",
+        "startTime": 79.04,
+        "endTime": 79.42
+      }
+    ]
+  },
+  {
+    "text": "The actual payment result arrives 10 to 30 seconds later in a completely separate HTTP post to your callback URL.",
+    "startTime": 80,
+    "endTime": 87.98,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 80,
+        "endTime": 80.2
+      },
+      {
+        "word": "actual",
+        "startTime": 80.2,
+        "endTime": 80.54
+      },
+      {
+        "word": "payment",
+        "startTime": 80.54,
+        "endTime": 80.88
+      },
+      {
+        "word": "result",
+        "startTime": 80.88,
+        "endTime": 81.24
+      },
+      {
+        "word": "arrives",
+        "startTime": 81.24,
+        "endTime": 81.74
+      },
+      {
+        "word": "10",
+        "startTime": 81.74,
+        "endTime": 82.06
+      },
+      {
+        "word": "to",
+        "startTime": 82.06,
+        "endTime": 82.26
+      },
+      {
+        "word": "30",
+        "startTime": 82.26,
+        "endTime": 82.58
+      },
+      {
+        "word": "seconds",
+        "startTime": 82.58,
+        "endTime": 82.98
+      },
+      {
+        "word": "later",
+        "startTime": 82.98,
+        "endTime": 83.34
+      },
+      {
+        "word": "in",
+        "startTime": 83.34,
+        "endTime": 83.9
+      },
+      {
+        "word": "a",
+        "startTime": 83.9,
+        "endTime": 84
+      },
+      {
+        "word": "completely",
+        "startTime": 84,
+        "endTime": 84.42
+      },
+      {
+        "word": "separate",
+        "startTime": 84.42,
+        "endTime": 85.18
+      },
+      {
+        "word": "HTTP",
+        "startTime": 85.18,
+        "endTime": 85.64
+      },
+      {
+        "word": "post",
+        "startTime": 85.64,
+        "endTime": 86.48
+      },
+      {
+        "word": "to",
+        "startTime": 86.48,
+        "endTime": 86.96
+      },
+      {
+        "word": "your",
+        "startTime": 86.96,
+        "endTime": 87.12
+      },
+      {
+        "word": "callback",
+        "startTime": 87.12,
+        "endTime": 87.56
+      },
+      {
+        "word": "URL.",
+        "startTime": 87.56,
+        "endTime": 87.98
+      }
+    ]
+  },
+  {
+    "text": "Building as if the initiation response is the payment confirmation is the architectural mistake that breaks every production deployment.",
+    "startTime": 88.9,
+    "endTime": 96.04,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Building",
+        "startTime": 88.9,
+        "endTime": 89.24
+      },
+      {
+        "word": "as",
+        "startTime": 89.24,
+        "endTime": 89.46
+      },
+      {
+        "word": "if",
+        "startTime": 89.46,
+        "endTime": 89.58
+      },
+      {
+        "word": "the",
+        "startTime": 89.58,
+        "endTime": 89.74
+      },
+      {
+        "word": "initiation",
+        "startTime": 89.74,
+        "endTime": 90.26
+      },
+      {
+        "word": "response",
+        "startTime": 90.26,
+        "endTime": 90.68
+      },
+      {
+        "word": "is",
+        "startTime": 90.68,
+        "endTime": 91.04
+      },
+      {
+        "word": "the",
+        "startTime": 91.04,
+        "endTime": 91.16
+      },
+      {
+        "word": "payment",
+        "startTime": 91.16,
+        "endTime": 91.46
+      },
+      {
+        "word": "confirmation",
+        "startTime": 91.46,
+        "endTime": 92.18
+      },
+      {
+        "word": "is",
+        "startTime": 92.18,
+        "endTime": 92.86
+      },
+      {
+        "word": "the",
+        "startTime": 92.86,
+        "endTime": 93
+      },
+      {
+        "word": "architectural",
+        "startTime": 93,
+        "endTime": 93.6
+      },
+      {
+        "word": "mistake",
+        "startTime": 93.6,
+        "endTime": 94.02
+      },
+      {
+        "word": "that",
+        "startTime": 94.02,
+        "endTime": 94.3
+      },
+      {
+        "word": "breaks",
+        "startTime": 94.3,
+        "endTime": 94.56
+      },
+      {
+        "word": "every",
+        "startTime": 94.56,
+        "endTime": 95.02
+      },
+      {
+        "word": "production",
+        "startTime": 95.02,
+        "endTime": 95.44
+      },
+      {
+        "word": "deployment.",
+        "startTime": 95.44,
+        "endTime": 96.04
+      }
+    ]
+  },
+  {
+    "text": "Remember this, SDK push initiation equals, I asked the customer to pay.",
+    "startTime": 96.7,
+    "endTime": 102.22,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Remember",
+        "startTime": 96.7,
+        "endTime": 97.18
+      },
+      {
+        "word": "this,",
+        "startTime": 97.18,
+        "endTime": 97.58
+      },
+      {
+        "word": "SDK",
+        "startTime": 98.08,
+        "endTime": 98.48
+      },
+      {
+        "word": "push",
+        "startTime": 98.48,
+        "endTime": 98.92
+      },
+      {
+        "word": "initiation",
+        "startTime": 98.92,
+        "endTime": 99.6
+      },
+      {
+        "word": "equals,",
+        "startTime": 99.6,
+        "endTime": 100.4
+      },
+      {
+        "word": "I",
+        "startTime": 100.76,
+        "endTime": 101
+      },
+      {
+        "word": "asked",
+        "startTime": 101,
+        "endTime": 101.28
+      },
+      {
+        "word": "the",
+        "startTime": 101.28,
+        "endTime": 101.42
+      },
+      {
+        "word": "customer",
+        "startTime": 101.42,
+        "endTime": 101.76
+      },
+      {
+        "word": "to",
+        "startTime": 101.76,
+        "endTime": 101.96
+      },
+      {
+        "word": "pay.",
+        "startTime": 101.96,
+        "endTime": 102.22
+      }
+    ]
+  },
+  {
+    "text": "SDK push callback equals, the customer actually paid or cancelled.",
+    "startTime": 102.9,
+    "endTime": 107.52,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "SDK",
+        "startTime": 102.9,
+        "endTime": 103.22
+      },
+      {
+        "word": "push",
+        "startTime": 103.22,
+        "endTime": 103.66
+      },
+      {
+        "word": "callback",
+        "startTime": 103.66,
+        "endTime": 104.18
+      },
+      {
+        "word": "equals,",
+        "startTime": 104.18,
+        "endTime": 104.58
+      },
+      {
+        "word": "the",
+        "startTime": 105.1,
+        "endTime": 105.18
+      },
+      {
+        "word": "customer",
+        "startTime": 105.18,
+        "endTime": 105.58
+      },
+      {
+        "word": "actually",
+        "startTime": 105.58,
+        "endTime": 106.04
+      },
+      {
+        "word": "paid",
+        "startTime": 106.04,
+        "endTime": 106.4
+      },
+      {
+        "word": "or",
+        "startTime": 106.4,
+        "endTime": 107.1
+      },
+      {
+        "word": "cancelled.",
+        "startTime": 107.1,
+        "endTime": 107.52
+      }
+    ]
+  },
+  {
+    "text": "Never act on the initiation response as if money has moved, always wait for the callback.",
+    "startTime": 108.08,
+    "endTime": 113.54,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Never",
+        "startTime": 108.08,
+        "endTime": 108.6
+      },
+      {
+        "word": "act",
+        "startTime": 108.6,
+        "endTime": 108.92
+      },
+      {
+        "word": "on",
+        "startTime": 108.92,
+        "endTime": 109.06
+      },
+      {
+        "word": "the",
+        "startTime": 109.06,
+        "endTime": 109.2
+      },
+      {
+        "word": "initiation",
+        "startTime": 109.2,
+        "endTime": 109.7
+      },
+      {
+        "word": "response",
+        "startTime": 109.7,
+        "endTime": 110.14
+      },
+      {
+        "word": "as",
+        "startTime": 110.14,
+        "endTime": 110.46
+      },
+      {
+        "word": "if",
+        "startTime": 110.46,
+        "endTime": 110.6
+      },
+      {
+        "word": "money",
+        "startTime": 110.6,
+        "endTime": 110.86
+      },
+      {
+        "word": "has",
+        "startTime": 110.86,
+        "endTime": 111.08
+      },
+      {
+        "word": "moved,",
+        "startTime": 111.08,
+        "endTime": 111.48
+      },
+      {
+        "word": "always",
+        "startTime": 112.02,
+        "endTime": 112.32
+      },
+      {
+        "word": "wait",
+        "startTime": 112.32,
+        "endTime": 112.64
+      },
+      {
+        "word": "for",
+        "startTime": 112.64,
+        "endTime": 112.82
+      },
+      {
+        "word": "the",
+        "startTime": 112.82,
+        "endTime": 112.98
+      },
+      {
+        "word": "callback.",
+        "startTime": 112.98,
+        "endTime": 113.54
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 114.18,
+    "endTime": 117.4,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 114.18,
+        "endTime": 114.46
+      },
+      {
+        "word": "what",
+        "startTime": 114.46,
+        "endTime": 114.68
+      },
+      {
+        "word": "you",
+        "startTime": 114.68,
+        "endTime": 114.82
+      },
+      {
+        "word": "learn",
+        "startTime": 114.82,
+        "endTime": 115
+      },
+      {
+        "word": "in",
+        "startTime": 115,
+        "endTime": 115.14
+      },
+      {
+        "word": "this",
+        "startTime": 115.14,
+        "endTime": 115.34
+      },
+      {
+        "word": "lesson",
+        "startTime": 115.34,
+        "endTime": 115.68
+      },
+      {
+        "word": "and",
+        "startTime": 115.68,
+        "endTime": 115.94
+      },
+      {
+        "word": "you",
+        "startTime": 115.94,
+        "endTime": 116.1
+      },
+      {
+        "word": "will",
+        "startTime": 116.1,
+        "endTime": 116.2
+      },
+      {
+        "word": "see",
+        "startTime": 116.2,
+        "endTime": 116.4
+      },
+      {
+        "word": "results",
+        "startTime": 116.4,
+        "endTime": 116.76
+      },
+      {
+        "word": "immediately.",
+        "startTime": 116.76,
+        "endTime": 117.4
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 118.06,
+    "endTime": 119.16,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 118.06,
+        "endTime": 118.2
+      },
+      {
+        "word": "skills",
+        "startTime": 118.2,
+        "endTime": 118.58
+      },
+      {
+        "word": "bear",
+        "startTime": 118.58,
+        "endTime": 118.84
+      },
+      {
+        "word": "fruit.",
+        "startTime": 118.84,
+        "endTime": 119.16
+      }
+    ]
+  }
+]

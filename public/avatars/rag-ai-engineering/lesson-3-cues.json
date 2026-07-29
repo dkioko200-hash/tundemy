@@ -1,0 +1,2297 @@
+[
+  {
+    "text": "The choice of vector database determines your RAG system's scale, cost, and operational complexity.",
+    "startTime": 0,
+    "endTime": 6.08,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 0,
+        "endTime": 0.24
+      },
+      {
+        "word": "choice",
+        "startTime": 0.24,
+        "endTime": 0.46
+      },
+      {
+        "word": "of",
+        "startTime": 0.46,
+        "endTime": 0.72
+      },
+      {
+        "word": "vector",
+        "startTime": 0.72,
+        "endTime": 0.96
+      },
+      {
+        "word": "database",
+        "startTime": 0.96,
+        "endTime": 1.44
+      },
+      {
+        "word": "determines",
+        "startTime": 1.44,
+        "endTime": 2
+      },
+      {
+        "word": "your",
+        "startTime": 2,
+        "endTime": 2.34
+      },
+      {
+        "word": "RAG",
+        "startTime": 2.34,
+        "endTime": 2.58
+      },
+      {
+        "word": "system's",
+        "startTime": 2.58,
+        "endTime": 3.22
+      },
+      {
+        "word": "scale,",
+        "startTime": 3.22,
+        "endTime": 3.44
+      },
+      {
+        "word": "cost,",
+        "startTime": 4.04,
+        "endTime": 4.4
+      },
+      {
+        "word": "and",
+        "startTime": 4.64,
+        "endTime": 4.92
+      },
+      {
+        "word": "operational",
+        "startTime": 4.92,
+        "endTime": 5.38
+      },
+      {
+        "word": "complexity.",
+        "startTime": 5.38,
+        "endTime": 6.08
+      }
+    ]
+  },
+  {
+    "text": "A system that works perfectly with Chroma on your laptop may need fundamental redesign when you move to production with 100 ,000 users.",
+    "startTime": 6.6,
+    "endTime": 14.6,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "A",
+        "startTime": 6.6,
+        "endTime": 6.88
+      },
+      {
+        "word": "system",
+        "startTime": 6.88,
+        "endTime": 7.2
+      },
+      {
+        "word": "that",
+        "startTime": 7.2,
+        "endTime": 7.42
+      },
+      {
+        "word": "works",
+        "startTime": 7.42,
+        "endTime": 7.66
+      },
+      {
+        "word": "perfectly",
+        "startTime": 7.66,
+        "endTime": 8.14
+      },
+      {
+        "word": "with",
+        "startTime": 8.14,
+        "endTime": 8.48
+      },
+      {
+        "word": "Chroma",
+        "startTime": 8.48,
+        "endTime": 8.8
+      },
+      {
+        "word": "on",
+        "startTime": 8.8,
+        "endTime": 8.98
+      },
+      {
+        "word": "your",
+        "startTime": 8.98,
+        "endTime": 9.1
+      },
+      {
+        "word": "laptop",
+        "startTime": 9.1,
+        "endTime": 9.44
+      },
+      {
+        "word": "may",
+        "startTime": 9.44,
+        "endTime": 10.06
+      },
+      {
+        "word": "need",
+        "startTime": 10.06,
+        "endTime": 10.3
+      },
+      {
+        "word": "fundamental",
+        "startTime": 10.3,
+        "endTime": 10.72
+      },
+      {
+        "word": "redesign",
+        "startTime": 10.72,
+        "endTime": 11.38
+      },
+      {
+        "word": "when",
+        "startTime": 11.38,
+        "endTime": 11.7
+      },
+      {
+        "word": "you",
+        "startTime": 11.7,
+        "endTime": 11.82
+      },
+      {
+        "word": "move",
+        "startTime": 11.82,
+        "endTime": 12.04
+      },
+      {
+        "word": "to",
+        "startTime": 12.04,
+        "endTime": 12.18
+      },
+      {
+        "word": "production",
+        "startTime": 12.18,
+        "endTime": 12.6
+      },
+      {
+        "word": "with",
+        "startTime": 12.6,
+        "endTime": 13.2
+      },
+      {
+        "word": "100",
+        "startTime": 13.2,
+        "endTime": 13.76
+      },
+      {
+        "word": ",000",
+        "startTime": 13.76,
+        "endTime": 14.22
+      },
+      {
+        "word": "users.",
+        "startTime": 14.22,
+        "endTime": 14.6
+      }
+    ]
+  },
+  {
+    "text": "This lesson prevents that mistake.",
+    "startTime": 15.2,
+    "endTime": 16.74,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "This",
+        "startTime": 15.2,
+        "endTime": 15.38
+      },
+      {
+        "word": "lesson",
+        "startTime": 15.38,
+        "endTime": 15.7
+      },
+      {
+        "word": "prevents",
+        "startTime": 15.7,
+        "endTime": 16.04
+      },
+      {
+        "word": "that",
+        "startTime": 16.04,
+        "endTime": 16.34
+      },
+      {
+        "word": "mistake.",
+        "startTime": 16.34,
+        "endTime": 16.74
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, vector database is store embeddings and enable fast approximate nearest neighbor, ANN Search, finding the top -k closest vectors to a query vector out of millions or billions of stored vectors.",
+    "startTime": 17.44,
+    "endTime": 29.88,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 17.44,
+        "endTime": 17.56
+      },
+      {
+        "word": "this",
+        "startTime": 17.56,
+        "endTime": 17.74
+      },
+      {
+        "word": "lesson,",
+        "startTime": 17.74,
+        "endTime": 18.1
+      },
+      {
+        "word": "vector",
+        "startTime": 18.64,
+        "endTime": 18.86
+      },
+      {
+        "word": "database",
+        "startTime": 18.86,
+        "endTime": 19.28
+      },
+      {
+        "word": "is",
+        "startTime": 19.28,
+        "endTime": 19.5
+      },
+      {
+        "word": "store",
+        "startTime": 19.5,
+        "endTime": 19.76
+      },
+      {
+        "word": "embeddings",
+        "startTime": 19.76,
+        "endTime": 20.3
+      },
+      {
+        "word": "and",
+        "startTime": 20.3,
+        "endTime": 20.56
+      },
+      {
+        "word": "enable",
+        "startTime": 20.56,
+        "endTime": 20.9
+      },
+      {
+        "word": "fast",
+        "startTime": 20.9,
+        "endTime": 21.28
+      },
+      {
+        "word": "approximate",
+        "startTime": 21.28,
+        "endTime": 21.84
+      },
+      {
+        "word": "nearest",
+        "startTime": 21.84,
+        "endTime": 22.18
+      },
+      {
+        "word": "neighbor,",
+        "startTime": 22.18,
+        "endTime": 22.7
+      },
+      {
+        "word": "ANN",
+        "startTime": 23.06,
+        "endTime": 23.64
+      },
+      {
+        "word": "Search,",
+        "startTime": 23.64,
+        "endTime": 23.96
+      },
+      {
+        "word": "finding",
+        "startTime": 24.47,
+        "endTime": 24.82
+      },
+      {
+        "word": "the",
+        "startTime": 24.82,
+        "endTime": 25.04
+      },
+      {
+        "word": "top",
+        "startTime": 25.04,
+        "endTime": 25.28
+      },
+      {
+        "word": "-k",
+        "startTime": 25.28,
+        "endTime": 25.5
+      },
+      {
+        "word": "closest",
+        "startTime": 25.5,
+        "endTime": 25.96
+      },
+      {
+        "word": "vectors",
+        "startTime": 25.96,
+        "endTime": 26.36
+      },
+      {
+        "word": "to",
+        "startTime": 26.36,
+        "endTime": 26.62
+      },
+      {
+        "word": "a",
+        "startTime": 26.62,
+        "endTime": 26.72
+      },
+      {
+        "word": "query",
+        "startTime": 26.72,
+        "endTime": 26.98
+      },
+      {
+        "word": "vector",
+        "startTime": 26.98,
+        "endTime": 27.38
+      },
+      {
+        "word": "out",
+        "startTime": 27.38,
+        "endTime": 27.66
+      },
+      {
+        "word": "of",
+        "startTime": 27.66,
+        "endTime": 27.8
+      },
+      {
+        "word": "millions",
+        "startTime": 27.8,
+        "endTime": 28.1
+      },
+      {
+        "word": "or",
+        "startTime": 28.1,
+        "endTime": 28.48
+      },
+      {
+        "word": "billions",
+        "startTime": 28.48,
+        "endTime": 28.86
+      },
+      {
+        "word": "of",
+        "startTime": 28.86,
+        "endTime": 29.14
+      },
+      {
+        "word": "stored",
+        "startTime": 29.14,
+        "endTime": 29.44
+      },
+      {
+        "word": "vectors.",
+        "startTime": 29.44,
+        "endTime": 29.88
+      }
+    ]
+  },
+  {
+    "text": "The three most common choices for production RAG systems each have a different profile.",
+    "startTime": 30.42,
+    "endTime": 35.22,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 30.42,
+        "endTime": 30.66
+      },
+      {
+        "word": "three",
+        "startTime": 30.66,
+        "endTime": 30.92
+      },
+      {
+        "word": "most",
+        "startTime": 30.92,
+        "endTime": 31.2
+      },
+      {
+        "word": "common",
+        "startTime": 31.2,
+        "endTime": 31.48
+      },
+      {
+        "word": "choices",
+        "startTime": 31.48,
+        "endTime": 31.86
+      },
+      {
+        "word": "for",
+        "startTime": 31.86,
+        "endTime": 32.12
+      },
+      {
+        "word": "production",
+        "startTime": 32.12,
+        "endTime": 32.5
+      },
+      {
+        "word": "RAG",
+        "startTime": 32.5,
+        "endTime": 33.14
+      },
+      {
+        "word": "systems",
+        "startTime": 33.14,
+        "endTime": 33.62
+      },
+      {
+        "word": "each",
+        "startTime": 33.62,
+        "endTime": 34.04
+      },
+      {
+        "word": "have",
+        "startTime": 34.04,
+        "endTime": 34.24
+      },
+      {
+        "word": "a",
+        "startTime": 34.24,
+        "endTime": 34.34
+      },
+      {
+        "word": "different",
+        "startTime": 34.34,
+        "endTime": 34.62
+      },
+      {
+        "word": "profile.",
+        "startTime": 34.62,
+        "endTime": 35.22
+      }
+    ]
+  },
+  {
+    "text": "Chroma is open source, runs locally with no API key, and requires zero infrastructure to start.",
+    "startTime": 35.84,
+    "endTime": 42.1,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Chroma",
+        "startTime": 35.84,
+        "endTime": 36.18
+      },
+      {
+        "word": "is",
+        "startTime": 36.18,
+        "endTime": 36.34
+      },
+      {
+        "word": "open",
+        "startTime": 36.34,
+        "endTime": 36.58
+      },
+      {
+        "word": "source,",
+        "startTime": 36.58,
+        "endTime": 36.98
+      },
+      {
+        "word": "runs",
+        "startTime": 37.5,
+        "endTime": 37.7
+      },
+      {
+        "word": "locally",
+        "startTime": 37.7,
+        "endTime": 38.14
+      },
+      {
+        "word": "with",
+        "startTime": 38.14,
+        "endTime": 38.42
+      },
+      {
+        "word": "no",
+        "startTime": 38.42,
+        "endTime": 38.62
+      },
+      {
+        "word": "API",
+        "startTime": 38.62,
+        "endTime": 39.04
+      },
+      {
+        "word": "key,",
+        "startTime": 39.04,
+        "endTime": 39.48
+      },
+      {
+        "word": "and",
+        "startTime": 39.96,
+        "endTime": 40.1
+      },
+      {
+        "word": "requires",
+        "startTime": 40.1,
+        "endTime": 40.46
+      },
+      {
+        "word": "zero",
+        "startTime": 40.46,
+        "endTime": 40.88
+      },
+      {
+        "word": "infrastructure",
+        "startTime": 40.88,
+        "endTime": 41.44
+      },
+      {
+        "word": "to",
+        "startTime": 41.44,
+        "endTime": 41.8
+      },
+      {
+        "word": "start.",
+        "startTime": 41.8,
+        "endTime": 42.1
+      }
+    ]
+  },
+  {
+    "text": "It stores data on disk or in memory.",
+    "startTime": 42.7,
+    "endTime": 44.76,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "It",
+        "startTime": 42.7,
+        "endTime": 42.82
+      },
+      {
+        "word": "stores",
+        "startTime": 42.82,
+        "endTime": 43.1
+      },
+      {
+        "word": "data",
+        "startTime": 43.1,
+        "endTime": 43.5
+      },
+      {
+        "word": "on",
+        "startTime": 43.5,
+        "endTime": 43.72
+      },
+      {
+        "word": "disk",
+        "startTime": 43.72,
+        "endTime": 44.08
+      },
+      {
+        "word": "or",
+        "startTime": 44.08,
+        "endTime": 44.32
+      },
+      {
+        "word": "in",
+        "startTime": 44.32,
+        "endTime": 44.48
+      },
+      {
+        "word": "memory.",
+        "startTime": 44.48,
+        "endTime": 44.76
+      }
+    ]
+  },
+  {
+    "text": "Perfect for development, prototyping, and applications with up to approximately one million vectors.",
+    "startTime": 45.34,
+    "endTime": 50.96,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Perfect",
+        "startTime": 45.34,
+        "endTime": 45.72
+      },
+      {
+        "word": "for",
+        "startTime": 45.72,
+        "endTime": 45.94
+      },
+      {
+        "word": "development,",
+        "startTime": 45.94,
+        "endTime": 46.4
+      },
+      {
+        "word": "prototyping,",
+        "startTime": 46.96,
+        "endTime": 47.58
+      },
+      {
+        "word": "and",
+        "startTime": 48,
+        "endTime": 48.12
+      },
+      {
+        "word": "applications",
+        "startTime": 48.12,
+        "endTime": 48.58
+      },
+      {
+        "word": "with",
+        "startTime": 48.58,
+        "endTime": 48.9
+      },
+      {
+        "word": "up",
+        "startTime": 48.9,
+        "endTime": 49.04
+      },
+      {
+        "word": "to",
+        "startTime": 49.04,
+        "endTime": 49.18
+      },
+      {
+        "word": "approximately",
+        "startTime": 49.18,
+        "endTime": 49.74
+      },
+      {
+        "word": "one",
+        "startTime": 49.74,
+        "endTime": 50.16
+      },
+      {
+        "word": "million",
+        "startTime": 50.16,
+        "endTime": 50.52
+      },
+      {
+        "word": "vectors.",
+        "startTime": 50.52,
+        "endTime": 50.96
+      }
+    ]
+  },
+  {
+    "text": "Weakness, no built -in replication, backup, or multi -tenant isolation.",
+    "startTime": 51.8,
+    "endTime": 56.98,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Weakness,",
+        "startTime": 51.8,
+        "endTime": 52.2
+      },
+      {
+        "word": "no",
+        "startTime": 52.86,
+        "endTime": 53.14
+      },
+      {
+        "word": "built",
+        "startTime": 53.14,
+        "endTime": 53.36
+      },
+      {
+        "word": "-in",
+        "startTime": 53.36,
+        "endTime": 53.56
+      },
+      {
+        "word": "replication,",
+        "startTime": 53.56,
+        "endTime": 54
+      },
+      {
+        "word": "backup,",
+        "startTime": 54.76,
+        "endTime": 55.06
+      },
+      {
+        "word": "or",
+        "startTime": 55.54,
+        "endTime": 55.64
+      },
+      {
+        "word": "multi",
+        "startTime": 55.64,
+        "endTime": 55.98
+      },
+      {
+        "word": "-tenant",
+        "startTime": 55.98,
+        "endTime": 56.32
+      },
+      {
+        "word": "isolation.",
+        "startTime": 56.32,
+        "endTime": 56.98
+      }
+    ]
+  },
+  {
+    "text": "Running Chroma in production requires operational work, managing the server, backups, restarts.",
+    "startTime": 57.88,
+    "endTime": 63.9,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Running",
+        "startTime": 57.88,
+        "endTime": 58.12
+      },
+      {
+        "word": "Chroma",
+        "startTime": 58.12,
+        "endTime": 58.52
+      },
+      {
+        "word": "in",
+        "startTime": 58.52,
+        "endTime": 58.66
+      },
+      {
+        "word": "production",
+        "startTime": 58.66,
+        "endTime": 58.96
+      },
+      {
+        "word": "requires",
+        "startTime": 58.96,
+        "endTime": 59.48
+      },
+      {
+        "word": "operational",
+        "startTime": 59.48,
+        "endTime": 60.2
+      },
+      {
+        "word": "work,",
+        "startTime": 60.2,
+        "endTime": 60.7
+      },
+      {
+        "word": "managing",
+        "startTime": 61.16,
+        "endTime": 61.48
+      },
+      {
+        "word": "the",
+        "startTime": 61.48,
+        "endTime": 61.68
+      },
+      {
+        "word": "server,",
+        "startTime": 61.68,
+        "endTime": 62.06
+      },
+      {
+        "word": "backups,",
+        "startTime": 62.48,
+        "endTime": 62.78
+      },
+      {
+        "word": "restarts.",
+        "startTime": 63.34,
+        "endTime": 63.9
+      }
+    ]
+  },
+  {
+    "text": "For teams without dedicated DevOps, this becomes a maintenance burden.",
+    "startTime": 64.56,
+    "endTime": 68.28,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "For",
+        "startTime": 64.56,
+        "endTime": 64.78
+      },
+      {
+        "word": "teams",
+        "startTime": 64.78,
+        "endTime": 65.1
+      },
+      {
+        "word": "without",
+        "startTime": 65.1,
+        "endTime": 65.44
+      },
+      {
+        "word": "dedicated",
+        "startTime": 65.44,
+        "endTime": 65.86
+      },
+      {
+        "word": "DevOps,",
+        "startTime": 65.86,
+        "endTime": 66.4
+      },
+      {
+        "word": "this",
+        "startTime": 66.82,
+        "endTime": 66.92
+      },
+      {
+        "word": "becomes",
+        "startTime": 66.92,
+        "endTime": 67.26
+      },
+      {
+        "word": "a",
+        "startTime": 67.26,
+        "endTime": 67.46
+      },
+      {
+        "word": "maintenance",
+        "startTime": 67.46,
+        "endTime": 67.88
+      },
+      {
+        "word": "burden.",
+        "startTime": 67.88,
+        "endTime": 68.28
+      }
+    ]
+  },
+  {
+    "text": "Pinecone is a fully managed cloud vector database.",
+    "startTime": 69.04,
+    "endTime": 71.8,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Pinecone",
+        "startTime": 69.04,
+        "endTime": 69.5
+      },
+      {
+        "word": "is",
+        "startTime": 69.5,
+        "endTime": 69.72
+      },
+      {
+        "word": "a",
+        "startTime": 69.72,
+        "endTime": 69.82
+      },
+      {
+        "word": "fully",
+        "startTime": 69.82,
+        "endTime": 70.12
+      },
+      {
+        "word": "managed",
+        "startTime": 70.12,
+        "endTime": 70.56
+      },
+      {
+        "word": "cloud",
+        "startTime": 70.56,
+        "endTime": 70.9
+      },
+      {
+        "word": "vector",
+        "startTime": 70.9,
+        "endTime": 71.32
+      },
+      {
+        "word": "database.",
+        "startTime": 71.32,
+        "endTime": 71.8
+      }
+    ]
+  },
+  {
+    "text": "You create an index via API, absurd vectors, and query, no server management.",
+    "startTime": 72.46,
+    "endTime": 78.24,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "You",
+        "startTime": 72.46,
+        "endTime": 72.66
+      },
+      {
+        "word": "create",
+        "startTime": 72.66,
+        "endTime": 72.96
+      },
+      {
+        "word": "an",
+        "startTime": 72.96,
+        "endTime": 73.2
+      },
+      {
+        "word": "index",
+        "startTime": 73.2,
+        "endTime": 73.54
+      },
+      {
+        "word": "via",
+        "startTime": 73.54,
+        "endTime": 73.8
+      },
+      {
+        "word": "API,",
+        "startTime": 73.8,
+        "endTime": 74.44
+      },
+      {
+        "word": "absurd",
+        "startTime": 74.44,
+        "endTime": 75.24
+      },
+      {
+        "word": "vectors,",
+        "startTime": 75.24,
+        "endTime": 75.74
+      },
+      {
+        "word": "and",
+        "startTime": 76.22,
+        "endTime": 76.3
+      },
+      {
+        "word": "query,",
+        "startTime": 76.3,
+        "endTime": 76.62
+      },
+      {
+        "word": "no",
+        "startTime": 77.26,
+        "endTime": 77.38
+      },
+      {
+        "word": "server",
+        "startTime": 77.38,
+        "endTime": 77.7
+      },
+      {
+        "word": "management.",
+        "startTime": 77.7,
+        "endTime": 78.24
+      }
+    ]
+  },
+  {
+    "text": "Scales to billions of vectors, paid service.",
+    "startTime": 79,
+    "endTime": 82.14,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Scales",
+        "startTime": 79,
+        "endTime": 79.44
+      },
+      {
+        "word": "to",
+        "startTime": 79.44,
+        "endTime": 79.66
+      },
+      {
+        "word": "billions",
+        "startTime": 79.66,
+        "endTime": 80.06
+      },
+      {
+        "word": "of",
+        "startTime": 80.06,
+        "endTime": 80.32
+      },
+      {
+        "word": "vectors,",
+        "startTime": 80.32,
+        "endTime": 80.68
+      },
+      {
+        "word": "paid",
+        "startTime": 81.38,
+        "endTime": 81.64
+      },
+      {
+        "word": "service.",
+        "startTime": 81.64,
+        "endTime": 82.14
+      }
+    ]
+  },
+  {
+    "text": "Start a tier is free with limits, one index, 100 megabyte storage, 100 ,000 vectors.",
+    "startTime": 82.8,
+    "endTime": 89.2,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Start",
+        "startTime": 82.8,
+        "endTime": 83.18
+      },
+      {
+        "word": "a",
+        "startTime": 83.18,
+        "endTime": 83.3
+      },
+      {
+        "word": "tier",
+        "startTime": 83.3,
+        "endTime": 83.5
+      },
+      {
+        "word": "is",
+        "startTime": 83.5,
+        "endTime": 83.7
+      },
+      {
+        "word": "free",
+        "startTime": 83.7,
+        "endTime": 83.96
+      },
+      {
+        "word": "with",
+        "startTime": 83.96,
+        "endTime": 84.16
+      },
+      {
+        "word": "limits,",
+        "startTime": 84.16,
+        "endTime": 84.42
+      },
+      {
+        "word": "one",
+        "startTime": 85.06,
+        "endTime": 85.2
+      },
+      {
+        "word": "index,",
+        "startTime": 85.2,
+        "endTime": 85.48
+      },
+      {
+        "word": "100",
+        "startTime": 86.02,
+        "endTime": 86.42
+      },
+      {
+        "word": "megabyte",
+        "startTime": 86.42,
+        "endTime": 86.86
+      },
+      {
+        "word": "storage,",
+        "startTime": 86.86,
+        "endTime": 87.36
+      },
+      {
+        "word": "100",
+        "startTime": 87.98,
+        "endTime": 88.38
+      },
+      {
+        "word": ",000",
+        "startTime": 88.38,
+        "endTime": 88.78
+      },
+      {
+        "word": "vectors.",
+        "startTime": 88.78,
+        "endTime": 89.2
+      }
+    ]
+  },
+  {
+    "text": "Production tier costs scale with vector count and query volume.",
+    "startTime": 89.9,
+    "endTime": 93.42,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Production",
+        "startTime": 89.9,
+        "endTime": 90.36
+      },
+      {
+        "word": "tier",
+        "startTime": 90.36,
+        "endTime": 90.68
+      },
+      {
+        "word": "costs",
+        "startTime": 90.68,
+        "endTime": 91.08
+      },
+      {
+        "word": "scale",
+        "startTime": 91.08,
+        "endTime": 91.6
+      },
+      {
+        "word": "with",
+        "startTime": 91.6,
+        "endTime": 91.86
+      },
+      {
+        "word": "vector",
+        "startTime": 91.86,
+        "endTime": 92.1
+      },
+      {
+        "word": "count",
+        "startTime": 92.1,
+        "endTime": 92.48
+      },
+      {
+        "word": "and",
+        "startTime": 92.48,
+        "endTime": 92.66
+      },
+      {
+        "word": "query",
+        "startTime": 92.66,
+        "endTime": 92.92
+      },
+      {
+        "word": "volume.",
+        "startTime": 92.92,
+        "endTime": 93.42
+      }
+    ]
+  },
+  {
+    "text": "The main advantage, Pinecone handles all operational concerns, availability, backups, scaling, so your team focuses on the application.",
+    "startTime": 94.06,
+    "endTime": 103.72,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 94.06,
+        "endTime": 94.22
+      },
+      {
+        "word": "main",
+        "startTime": 94.22,
+        "endTime": 94.4
+      },
+      {
+        "word": "advantage,",
+        "startTime": 94.4,
+        "endTime": 94.96
+      },
+      {
+        "word": "Pinecone",
+        "startTime": 95.68,
+        "endTime": 96.08
+      },
+      {
+        "word": "handles",
+        "startTime": 96.08,
+        "endTime": 96.46
+      },
+      {
+        "word": "all",
+        "startTime": 96.46,
+        "endTime": 96.8
+      },
+      {
+        "word": "operational",
+        "startTime": 96.8,
+        "endTime": 97.36
+      },
+      {
+        "word": "concerns,",
+        "startTime": 97.36,
+        "endTime": 98.12
+      },
+      {
+        "word": "availability,",
+        "startTime": 98.68,
+        "endTime": 99.12
+      },
+      {
+        "word": "backups,",
+        "startTime": 99.94,
+        "endTime": 100.3
+      },
+      {
+        "word": "scaling,",
+        "startTime": 100.3,
+        "endTime": 101.26
+      },
+      {
+        "word": "so",
+        "startTime": 101.66,
+        "endTime": 101.9
+      },
+      {
+        "word": "your",
+        "startTime": 101.9,
+        "endTime": 102.06
+      },
+      {
+        "word": "team",
+        "startTime": 102.06,
+        "endTime": 102.34
+      },
+      {
+        "word": "focuses",
+        "startTime": 102.34,
+        "endTime": 102.74
+      },
+      {
+        "word": "on",
+        "startTime": 102.74,
+        "endTime": 103.04
+      },
+      {
+        "word": "the",
+        "startTime": 103.04,
+        "endTime": 103.16
+      },
+      {
+        "word": "application.",
+        "startTime": 103.16,
+        "endTime": 103.72
+      }
+    ]
+  },
+  {
+    "text": "The main disadvantage, cost and data leaving your infrastructure.",
+    "startTime": 104.5,
+    "endTime": 108.46,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "The",
+        "startTime": 104.5,
+        "endTime": 104.6
+      },
+      {
+        "word": "main",
+        "startTime": 104.6,
+        "endTime": 104.82
+      },
+      {
+        "word": "disadvantage,",
+        "startTime": 104.82,
+        "endTime": 105.5
+      },
+      {
+        "word": "cost",
+        "startTime": 106.22,
+        "endTime": 106.52
+      },
+      {
+        "word": "and",
+        "startTime": 106.52,
+        "endTime": 106.74
+      },
+      {
+        "word": "data",
+        "startTime": 106.74,
+        "endTime": 107.1
+      },
+      {
+        "word": "leaving",
+        "startTime": 107.1,
+        "endTime": 107.54
+      },
+      {
+        "word": "your",
+        "startTime": 107.54,
+        "endTime": 107.82
+      },
+      {
+        "word": "infrastructure.",
+        "startTime": 107.82,
+        "endTime": 108.46
+      }
+    ]
+  },
+  {
+    "text": "SuperBase PGVector is a PostgreSQL extension that adds a vector data type and ANN search operators to a standard PostgreSQL database.",
+    "startTime": 109.3,
+    "endTime": 118.56,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "SuperBase",
+        "startTime": 109.3,
+        "endTime": 109.96
+      },
+      {
+        "word": "PGVector",
+        "startTime": 109.96,
+        "endTime": 110.78
+      },
+      {
+        "word": "is",
+        "startTime": 110.78,
+        "endTime": 111.26
+      },
+      {
+        "word": "a",
+        "startTime": 111.26,
+        "endTime": 111.4
+      },
+      {
+        "word": "PostgreSQL",
+        "startTime": 111.4,
+        "endTime": 112
+      },
+      {
+        "word": "extension",
+        "startTime": 112,
+        "endTime": 112.78
+      },
+      {
+        "word": "that",
+        "startTime": 112.78,
+        "endTime": 113.46
+      },
+      {
+        "word": "adds",
+        "startTime": 113.46,
+        "endTime": 113.72
+      },
+      {
+        "word": "a",
+        "startTime": 113.72,
+        "endTime": 113.86
+      },
+      {
+        "word": "vector",
+        "startTime": 113.86,
+        "endTime": 114.1
+      },
+      {
+        "word": "data",
+        "startTime": 114.1,
+        "endTime": 114.42
+      },
+      {
+        "word": "type",
+        "startTime": 114.42,
+        "endTime": 114.78
+      },
+      {
+        "word": "and",
+        "startTime": 114.78,
+        "endTime": 115.3
+      },
+      {
+        "word": "ANN",
+        "startTime": 115.3,
+        "endTime": 115.86
+      },
+      {
+        "word": "search",
+        "startTime": 115.86,
+        "endTime": 116.16
+      },
+      {
+        "word": "operators",
+        "startTime": 116.16,
+        "endTime": 116.76
+      },
+      {
+        "word": "to",
+        "startTime": 116.76,
+        "endTime": 117.04
+      },
+      {
+        "word": "a",
+        "startTime": 117.04,
+        "endTime": 117.14
+      },
+      {
+        "word": "standard",
+        "startTime": 117.14,
+        "endTime": 117.48
+      },
+      {
+        "word": "PostgreSQL",
+        "startTime": 117.48,
+        "endTime": 118.12
+      },
+      {
+        "word": "database.",
+        "startTime": 118.12,
+        "endTime": 118.56
+      }
+    ]
+  },
+  {
+    "text": "If your application already uses SuperBase for user authentication, data storage, and row level security, adding vector search costs nothing extra and keeps all data in one place.",
+    "startTime": 119.26,
+    "endTime": 130.92,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "If",
+        "startTime": 119.26,
+        "endTime": 119.58
+      },
+      {
+        "word": "your",
+        "startTime": 119.58,
+        "endTime": 119.68
+      },
+      {
+        "word": "application",
+        "startTime": 119.68,
+        "endTime": 120.2
+      },
+      {
+        "word": "already",
+        "startTime": 120.2,
+        "endTime": 120.6
+      },
+      {
+        "word": "uses",
+        "startTime": 120.6,
+        "endTime": 121
+      },
+      {
+        "word": "SuperBase",
+        "startTime": 121,
+        "endTime": 121.64
+      },
+      {
+        "word": "for",
+        "startTime": 121.64,
+        "endTime": 121.8
+      },
+      {
+        "word": "user",
+        "startTime": 121.8,
+        "endTime": 122.08
+      },
+      {
+        "word": "authentication,",
+        "startTime": 122.08,
+        "endTime": 122.7
+      },
+      {
+        "word": "data",
+        "startTime": 123.5,
+        "endTime": 123.64
+      },
+      {
+        "word": "storage,",
+        "startTime": 123.64,
+        "endTime": 124.1
+      },
+      {
+        "word": "and",
+        "startTime": 124.62,
+        "endTime": 124.72
+      },
+      {
+        "word": "row",
+        "startTime": 124.72,
+        "endTime": 124.94
+      },
+      {
+        "word": "level",
+        "startTime": 124.94,
+        "endTime": 125.2
+      },
+      {
+        "word": "security,",
+        "startTime": 125.2,
+        "endTime": 125.82
+      },
+      {
+        "word": "adding",
+        "startTime": 126.46,
+        "endTime": 126.7
+      },
+      {
+        "word": "vector",
+        "startTime": 126.7,
+        "endTime": 126.96
+      },
+      {
+        "word": "search",
+        "startTime": 126.96,
+        "endTime": 127.42
+      },
+      {
+        "word": "costs",
+        "startTime": 127.42,
+        "endTime": 127.76
+      },
+      {
+        "word": "nothing",
+        "startTime": 127.76,
+        "endTime": 128.18
+      },
+      {
+        "word": "extra",
+        "startTime": 128.18,
+        "endTime": 128.64
+      },
+      {
+        "word": "and",
+        "startTime": 128.64,
+        "endTime": 129.14
+      },
+      {
+        "word": "keeps",
+        "startTime": 129.14,
+        "endTime": 129.4
+      },
+      {
+        "word": "all",
+        "startTime": 129.4,
+        "endTime": 129.7
+      },
+      {
+        "word": "data",
+        "startTime": 129.7,
+        "endTime": 129.96
+      },
+      {
+        "word": "in",
+        "startTime": 129.96,
+        "endTime": 130.26
+      },
+      {
+        "word": "one",
+        "startTime": 130.26,
+        "endTime": 130.44
+      },
+      {
+        "word": "place.",
+        "startTime": 130.44,
+        "endTime": 130.92
+      }
+    ]
+  },
+  {
+    "text": "PGVector supports up to approximately 2 ,000 vector dimensions and handles millions of vectors efficiently.",
+    "startTime": 131.82,
+    "endTime": 138.08,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "PGVector",
+        "startTime": 131.82,
+        "endTime": 132.5
+      },
+      {
+        "word": "supports",
+        "startTime": 132.5,
+        "endTime": 132.82
+      },
+      {
+        "word": "up",
+        "startTime": 132.82,
+        "endTime": 133.12
+      },
+      {
+        "word": "to",
+        "startTime": 133.12,
+        "endTime": 133.28
+      },
+      {
+        "word": "approximately",
+        "startTime": 133.28,
+        "endTime": 133.8
+      },
+      {
+        "word": "2",
+        "startTime": 133.8,
+        "endTime": 134.28
+      },
+      {
+        "word": ",000",
+        "startTime": 134.28,
+        "endTime": 134.66
+      },
+      {
+        "word": "vector",
+        "startTime": 134.66,
+        "endTime": 134.98
+      },
+      {
+        "word": "dimensions",
+        "startTime": 134.98,
+        "endTime": 135.42
+      },
+      {
+        "word": "and",
+        "startTime": 135.42,
+        "endTime": 136.18
+      },
+      {
+        "word": "handles",
+        "startTime": 136.18,
+        "endTime": 136.5
+      },
+      {
+        "word": "millions",
+        "startTime": 136.5,
+        "endTime": 136.96
+      },
+      {
+        "word": "of",
+        "startTime": 136.96,
+        "endTime": 137.22
+      },
+      {
+        "word": "vectors",
+        "startTime": 137.22,
+        "endTime": 137.5
+      },
+      {
+        "word": "efficiently.",
+        "startTime": 137.5,
+        "endTime": 138.08
+      }
+    ]
+  },
+  {
+    "text": "For African startups building on SuperBase, the most common back end is a service used by Kenyan indie developers.",
+    "startTime": 138.82,
+    "endTime": 144.86,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "For",
+        "startTime": 138.82,
+        "endTime": 139
+      },
+      {
+        "word": "African",
+        "startTime": 139,
+        "endTime": 139.34
+      },
+      {
+        "word": "startups",
+        "startTime": 139.34,
+        "endTime": 139.8
+      },
+      {
+        "word": "building",
+        "startTime": 139.8,
+        "endTime": 140.22
+      },
+      {
+        "word": "on",
+        "startTime": 140.22,
+        "endTime": 140.42
+      },
+      {
+        "word": "SuperBase,",
+        "startTime": 140.42,
+        "endTime": 141.04
+      },
+      {
+        "word": "the",
+        "startTime": 141.56,
+        "endTime": 141.66
+      },
+      {
+        "word": "most",
+        "startTime": 141.66,
+        "endTime": 141.86
+      },
+      {
+        "word": "common",
+        "startTime": 141.86,
+        "endTime": 142.14
+      },
+      {
+        "word": "back",
+        "startTime": 142.14,
+        "endTime": 142.44
+      },
+      {
+        "word": "end",
+        "startTime": 142.44,
+        "endTime": 142.66
+      },
+      {
+        "word": "is",
+        "startTime": 142.66,
+        "endTime": 142.82
+      },
+      {
+        "word": "a",
+        "startTime": 142.82,
+        "endTime": 142.88
+      },
+      {
+        "word": "service",
+        "startTime": 142.88,
+        "endTime": 143.22
+      },
+      {
+        "word": "used",
+        "startTime": 143.22,
+        "endTime": 143.52
+      },
+      {
+        "word": "by",
+        "startTime": 143.52,
+        "endTime": 143.72
+      },
+      {
+        "word": "Kenyan",
+        "startTime": 143.72,
+        "endTime": 144.1
+      },
+      {
+        "word": "indie",
+        "startTime": 144.1,
+        "endTime": 144.38
+      },
+      {
+        "word": "developers.",
+        "startTime": 144.38,
+        "endTime": 144.86
+      }
+    ]
+  },
+  {
+    "text": "PGVector is often the best first choice.",
+    "startTime": 145.54,
+    "endTime": 147.78,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "PGVector",
+        "startTime": 145.54,
+        "endTime": 146.2
+      },
+      {
+        "word": "is",
+        "startTime": 146.2,
+        "endTime": 146.34
+      },
+      {
+        "word": "often",
+        "startTime": 146.34,
+        "endTime": 146.58
+      },
+      {
+        "word": "the",
+        "startTime": 146.58,
+        "endTime": 146.72
+      },
+      {
+        "word": "best",
+        "startTime": 146.72,
+        "endTime": 147.02
+      },
+      {
+        "word": "first",
+        "startTime": 147.02,
+        "endTime": 147.28
+      },
+      {
+        "word": "choice.",
+        "startTime": 147.28,
+        "endTime": 147.78
+      }
+    ]
+  },
+  {
+    "text": "Zero additional infrastructure, familiar SQL interface, and SuperBase's row level security handles multi -tenant data isolation out of the box.",
+    "startTime": 148.34,
+    "endTime": 157.28,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Zero",
+        "startTime": 148.34,
+        "endTime": 148.74
+      },
+      {
+        "word": "additional",
+        "startTime": 148.74,
+        "endTime": 149.18
+      },
+      {
+        "word": "infrastructure,",
+        "startTime": 149.18,
+        "endTime": 149.98
+      },
+      {
+        "word": "familiar",
+        "startTime": 150.6,
+        "endTime": 150.88
+      },
+      {
+        "word": "SQL",
+        "startTime": 150.88,
+        "endTime": 151.4
+      },
+      {
+        "word": "interface,",
+        "startTime": 151.4,
+        "endTime": 151.98
+      },
+      {
+        "word": "and",
+        "startTime": 152.6,
+        "endTime": 152.68
+      },
+      {
+        "word": "SuperBase's",
+        "startTime": 152.68,
+        "endTime": 153.44
+      },
+      {
+        "word": "row",
+        "startTime": 153.44,
+        "endTime": 153.62
+      },
+      {
+        "word": "level",
+        "startTime": 153.62,
+        "endTime": 153.82
+      },
+      {
+        "word": "security",
+        "startTime": 153.82,
+        "endTime": 154.24
+      },
+      {
+        "word": "handles",
+        "startTime": 154.24,
+        "endTime": 154.8
+      },
+      {
+        "word": "multi",
+        "startTime": 154.8,
+        "endTime": 155.22
+      },
+      {
+        "word": "-tenant",
+        "startTime": 155.22,
+        "endTime": 155.54
+      },
+      {
+        "word": "data",
+        "startTime": 155.54,
+        "endTime": 155.88
+      },
+      {
+        "word": "isolation",
+        "startTime": 155.88,
+        "endTime": 156.36
+      },
+      {
+        "word": "out",
+        "startTime": 156.36,
+        "endTime": 156.82
+      },
+      {
+        "word": "of",
+        "startTime": 156.82,
+        "endTime": 156.94
+      },
+      {
+        "word": "the",
+        "startTime": 156.94,
+        "endTime": 157.04
+      },
+      {
+        "word": "box.",
+        "startTime": 157.04,
+        "endTime": 157.28
+      }
+    ]
+  },
+  {
+    "text": "Key decision framework.",
+    "startTime": 157.76,
+    "endTime": 159.16,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Key",
+        "startTime": 157.76,
+        "endTime": 158.28
+      },
+      {
+        "word": "decision",
+        "startTime": 158.28,
+        "endTime": 158.64
+      },
+      {
+        "word": "framework.",
+        "startTime": 158.64,
+        "endTime": 159.16
+      }
+    ]
+  },
+  {
+    "text": "Use Chroma for development.",
+    "startTime": 159.8,
+    "endTime": 161.16,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "Use",
+        "startTime": 159.8,
+        "endTime": 160.2
+      },
+      {
+        "word": "Chroma",
+        "startTime": 160.2,
+        "endTime": 160.56
+      },
+      {
+        "word": "for",
+        "startTime": 160.56,
+        "endTime": 160.72
+      },
+      {
+        "word": "development.",
+        "startTime": 160.72,
+        "endTime": 161.16
+      }
+    ]
+  },
+  {
+    "text": "Use SuperBase PGVector if you are already on SuperBase or want a single database for all your data.",
+    "startTime": 161.88,
+    "endTime": 168.08,
+    "slideType": "point",
+    "words": [
+      {
+        "word": "Use",
+        "startTime": 161.88,
+        "endTime": 162.14
+      },
+      {
+        "word": "SuperBase",
+        "startTime": 162.14,
+        "endTime": 162.78
+      },
+      {
+        "word": "PGVector",
+        "startTime": 162.78,
+        "endTime": 163.58
+      },
+      {
+        "word": "if",
+        "startTime": 163.58,
+        "endTime": 164.08
+      },
+      {
+        "word": "you",
+        "startTime": 164.08,
+        "endTime": 164.24
+      },
+      {
+        "word": "are",
+        "startTime": 164.24,
+        "endTime": 164.34
+      },
+      {
+        "word": "already",
+        "startTime": 164.34,
+        "endTime": 164.68
+      },
+      {
+        "word": "on",
+        "startTime": 164.68,
+        "endTime": 164.86
+      },
+      {
+        "word": "SuperBase",
+        "startTime": 164.86,
+        "endTime": 165.56
+      },
+      {
+        "word": "or",
+        "startTime": 165.56,
+        "endTime": 166.04
+      },
+      {
+        "word": "want",
+        "startTime": 166.04,
+        "endTime": 166.22
+      },
+      {
+        "word": "a",
+        "startTime": 166.22,
+        "endTime": 166.34
+      },
+      {
+        "word": "single",
+        "startTime": 166.34,
+        "endTime": 166.62
+      },
+      {
+        "word": "database",
+        "startTime": 166.62,
+        "endTime": 166.94
+      },
+      {
+        "word": "for",
+        "startTime": 166.94,
+        "endTime": 167.36
+      },
+      {
+        "word": "all",
+        "startTime": 167.36,
+        "endTime": 167.56
+      },
+      {
+        "word": "your",
+        "startTime": 167.56,
+        "endTime": 167.7
+      },
+      {
+        "word": "data.",
+        "startTime": 167.7,
+        "endTime": 168.08
+      }
+    ]
+  },
+  {
+    "text": "Use Pinecone when you need guaranteed SLA are managing more than 5 million vectors or need enterprise multi -region deployment.",
+    "startTime": 168.72,
+    "endTime": 177.02,
+    "slideType": "example",
+    "words": [
+      {
+        "word": "Use",
+        "startTime": 168.72,
+        "endTime": 169.04
+      },
+      {
+        "word": "Pinecone",
+        "startTime": 169.04,
+        "endTime": 169.62
+      },
+      {
+        "word": "when",
+        "startTime": 169.62,
+        "endTime": 170.12
+      },
+      {
+        "word": "you",
+        "startTime": 170.12,
+        "endTime": 170.26
+      },
+      {
+        "word": "need",
+        "startTime": 170.26,
+        "endTime": 170.48
+      },
+      {
+        "word": "guaranteed",
+        "startTime": 170.48,
+        "endTime": 170.94
+      },
+      {
+        "word": "SLA",
+        "startTime": 170.94,
+        "endTime": 171.6
+      },
+      {
+        "word": "are",
+        "startTime": 171.6,
+        "endTime": 172.18
+      },
+      {
+        "word": "managing",
+        "startTime": 172.18,
+        "endTime": 172.52
+      },
+      {
+        "word": "more",
+        "startTime": 172.52,
+        "endTime": 172.82
+      },
+      {
+        "word": "than",
+        "startTime": 172.82,
+        "endTime": 172.96
+      },
+      {
+        "word": "5",
+        "startTime": 172.96,
+        "endTime": 173.38
+      },
+      {
+        "word": "million",
+        "startTime": 173.38,
+        "endTime": 173.68
+      },
+      {
+        "word": "vectors",
+        "startTime": 173.68,
+        "endTime": 174.14
+      },
+      {
+        "word": "or",
+        "startTime": 174.14,
+        "endTime": 174.92
+      },
+      {
+        "word": "need",
+        "startTime": 174.92,
+        "endTime": 175.12
+      },
+      {
+        "word": "enterprise",
+        "startTime": 175.12,
+        "endTime": 175.66
+      },
+      {
+        "word": "multi",
+        "startTime": 175.66,
+        "endTime": 176.1
+      },
+      {
+        "word": "-region",
+        "startTime": 176.1,
+        "endTime": 176.46
+      },
+      {
+        "word": "deployment.",
+        "startTime": 176.46,
+        "endTime": 177.02
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately.",
+    "startTime": 177.74,
+    "endTime": 181.28,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 177.74,
+        "endTime": 178.06
+      },
+      {
+        "word": "what",
+        "startTime": 178.06,
+        "endTime": 178.28
+      },
+      {
+        "word": "you",
+        "startTime": 178.28,
+        "endTime": 178.42
+      },
+      {
+        "word": "learn",
+        "startTime": 178.42,
+        "endTime": 178.64
+      },
+      {
+        "word": "in",
+        "startTime": 178.64,
+        "endTime": 178.78
+      },
+      {
+        "word": "this",
+        "startTime": 178.78,
+        "endTime": 178.98
+      },
+      {
+        "word": "lesson",
+        "startTime": 178.98,
+        "endTime": 179.3
+      },
+      {
+        "word": "and",
+        "startTime": 179.3,
+        "endTime": 179.86
+      },
+      {
+        "word": "you",
+        "startTime": 179.86,
+        "endTime": 180
+      },
+      {
+        "word": "will",
+        "startTime": 180,
+        "endTime": 180.1
+      },
+      {
+        "word": "see",
+        "startTime": 180.1,
+        "endTime": 180.28
+      },
+      {
+        "word": "results",
+        "startTime": 180.28,
+        "endTime": 180.64
+      },
+      {
+        "word": "immediately.",
+        "startTime": 180.64,
+        "endTime": 181.28
+      }
+    ]
+  },
+  {
+    "text": "Your skills bear fruit.",
+    "startTime": 181.94,
+    "endTime": 183.16,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Your",
+        "startTime": 181.94,
+        "endTime": 182.18
+      },
+      {
+        "word": "skills",
+        "startTime": 182.18,
+        "endTime": 182.58
+      },
+      {
+        "word": "bear",
+        "startTime": 182.58,
+        "endTime": 182.84
+      },
+      {
+        "word": "fruit.",
+        "startTime": 182.84,
+        "endTime": 183.16
+      }
+    ]
+  }
+]

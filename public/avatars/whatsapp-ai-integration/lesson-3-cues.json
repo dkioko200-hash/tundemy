@@ -1,0 +1,519 @@
+[
+  {
+    "text": "Most developers only ever send plain text messages, the businesses that pay the most for WhatsApp bots, want buttons, lists, images and document attachments, learn all of them and you immediately separate yourself from 80 % of developers in the market.",
+    "startTime": 0,
+    "endTime": 16.22,
+    "slideType": "title",
+    "words": [
+      {
+        "word": "Most",
+        "startTime": 0,
+        "endTime": 0.3
+      },
+      {
+        "word": "developers",
+        "startTime": 0.3,
+        "endTime": 0.82
+      },
+      {
+        "word": "only",
+        "startTime": 0.82,
+        "endTime": 1.22
+      },
+      {
+        "word": "ever",
+        "startTime": 1.22,
+        "endTime": 1.5
+      },
+      {
+        "word": "send",
+        "startTime": 1.5,
+        "endTime": 1.78
+      },
+      {
+        "word": "plain",
+        "startTime": 1.78,
+        "endTime": 2.16
+      },
+      {
+        "word": "text",
+        "startTime": 2.16,
+        "endTime": 2.52
+      },
+      {
+        "word": "messages,",
+        "startTime": 2.52,
+        "endTime": 3.04
+      },
+      {
+        "word": "the",
+        "startTime": 3.56,
+        "endTime": 3.8
+      },
+      {
+        "word": "businesses",
+        "startTime": 3.8,
+        "endTime": 4.22
+      },
+      {
+        "word": "that",
+        "startTime": 4.22,
+        "endTime": 4.54
+      },
+      {
+        "word": "pay",
+        "startTime": 4.54,
+        "endTime": 4.78
+      },
+      {
+        "word": "the",
+        "startTime": 4.78,
+        "endTime": 4.96
+      },
+      {
+        "word": "most",
+        "startTime": 4.96,
+        "endTime": 5.28
+      },
+      {
+        "word": "for",
+        "startTime": 5.28,
+        "endTime": 5.48
+      },
+      {
+        "word": "WhatsApp",
+        "startTime": 5.48,
+        "endTime": 5.84
+      },
+      {
+        "word": "bots,",
+        "startTime": 5.84,
+        "endTime": 6.28
+      },
+      {
+        "word": "want",
+        "startTime": 6.64,
+        "endTime": 6.76
+      },
+      {
+        "word": "buttons,",
+        "startTime": 6.76,
+        "endTime": 7.22
+      },
+      {
+        "word": "lists,",
+        "startTime": 7.88,
+        "endTime": 8.04
+      },
+      {
+        "word": "images",
+        "startTime": 8.58,
+        "endTime": 8.9
+      },
+      {
+        "word": "and",
+        "startTime": 8.9,
+        "endTime": 9.24
+      },
+      {
+        "word": "document",
+        "startTime": 9.24,
+        "endTime": 9.66
+      },
+      {
+        "word": "attachments,",
+        "startTime": 9.66,
+        "endTime": 10.2
+      },
+      {
+        "word": "learn",
+        "startTime": 11.12,
+        "endTime": 11.26
+      },
+      {
+        "word": "all",
+        "startTime": 11.26,
+        "endTime": 11.6
+      },
+      {
+        "word": "of",
+        "startTime": 11.6,
+        "endTime": 11.76
+      },
+      {
+        "word": "them",
+        "startTime": 11.76,
+        "endTime": 11.92
+      },
+      {
+        "word": "and",
+        "startTime": 11.92,
+        "endTime": 12.44
+      },
+      {
+        "word": "you",
+        "startTime": 12.44,
+        "endTime": 12.6
+      },
+      {
+        "word": "immediately",
+        "startTime": 12.6,
+        "endTime": 12.98
+      },
+      {
+        "word": "separate",
+        "startTime": 12.98,
+        "endTime": 13.52
+      },
+      {
+        "word": "yourself",
+        "startTime": 13.52,
+        "endTime": 13.92
+      },
+      {
+        "word": "from",
+        "startTime": 13.92,
+        "endTime": 14.22
+      },
+      {
+        "word": "80",
+        "startTime": 14.22,
+        "endTime": 14.56
+      },
+      {
+        "word": "%",
+        "startTime": 14.56,
+        "endTime": 14.9
+      },
+      {
+        "word": "of",
+        "startTime": 14.9,
+        "endTime": 15.1
+      },
+      {
+        "word": "developers",
+        "startTime": 15.1,
+        "endTime": 15.56
+      },
+      {
+        "word": "in",
+        "startTime": 15.56,
+        "endTime": 15.78
+      },
+      {
+        "word": "the",
+        "startTime": 15.78,
+        "endTime": 15.9
+      },
+      {
+        "word": "market.",
+        "startTime": 15.9,
+        "endTime": 16.22
+      }
+    ]
+  },
+  {
+    "text": "In this lesson, complete guide to every message type in the WhatsApp Cloud API, text, image, document, audio, video, location, interactive list messages, interactive reply buttons and pre -approved message templates.",
+    "startTime": 16.96,
+    "endTime": 33.34,
+    "slideType": "concept",
+    "words": [
+      {
+        "word": "In",
+        "startTime": 16.96,
+        "endTime": 17.22
+      },
+      {
+        "word": "this",
+        "startTime": 17.22,
+        "endTime": 17.4
+      },
+      {
+        "word": "lesson,",
+        "startTime": 17.4,
+        "endTime": 17.78
+      },
+      {
+        "word": "complete",
+        "startTime": 18.26,
+        "endTime": 18.68
+      },
+      {
+        "word": "guide",
+        "startTime": 18.68,
+        "endTime": 19.04
+      },
+      {
+        "word": "to",
+        "startTime": 19.04,
+        "endTime": 19.26
+      },
+      {
+        "word": "every",
+        "startTime": 19.26,
+        "endTime": 19.54
+      },
+      {
+        "word": "message",
+        "startTime": 19.54,
+        "endTime": 19.9
+      },
+      {
+        "word": "type",
+        "startTime": 19.9,
+        "endTime": 20.24
+      },
+      {
+        "word": "in",
+        "startTime": 20.24,
+        "endTime": 20.48
+      },
+      {
+        "word": "the",
+        "startTime": 20.48,
+        "endTime": 20.58
+      },
+      {
+        "word": "WhatsApp",
+        "startTime": 20.58,
+        "endTime": 20.94
+      },
+      {
+        "word": "Cloud",
+        "startTime": 20.94,
+        "endTime": 21.3
+      },
+      {
+        "word": "API,",
+        "startTime": 21.3,
+        "endTime": 21.86
+      },
+      {
+        "word": "text,",
+        "startTime": 22.58,
+        "endTime": 23.02
+      },
+      {
+        "word": "image,",
+        "startTime": 23.36,
+        "endTime": 23.6
+      },
+      {
+        "word": "document,",
+        "startTime": 24.14,
+        "endTime": 24.52
+      },
+      {
+        "word": "audio,",
+        "startTime": 25.08,
+        "endTime": 25.4
+      },
+      {
+        "word": "video,",
+        "startTime": 26,
+        "endTime": 26.22
+      },
+      {
+        "word": "location,",
+        "startTime": 26.88,
+        "endTime": 27.28
+      },
+      {
+        "word": "interactive",
+        "startTime": 27.88,
+        "endTime": 28.36
+      },
+      {
+        "word": "list",
+        "startTime": 28.36,
+        "endTime": 28.64
+      },
+      {
+        "word": "messages,",
+        "startTime": 28.64,
+        "endTime": 29.2
+      },
+      {
+        "word": "interactive",
+        "startTime": 29.78,
+        "endTime": 30.28
+      },
+      {
+        "word": "reply",
+        "startTime": 30.28,
+        "endTime": 30.66
+      },
+      {
+        "word": "buttons",
+        "startTime": 30.66,
+        "endTime": 31.08
+      },
+      {
+        "word": "and",
+        "startTime": 31.08,
+        "endTime": 31.8
+      },
+      {
+        "word": "pre",
+        "startTime": 31.8,
+        "endTime": 32.08
+      },
+      {
+        "word": "-approved",
+        "startTime": 32.08,
+        "endTime": 32.5
+      },
+      {
+        "word": "message",
+        "startTime": 32.5,
+        "endTime": 32.8
+      },
+      {
+        "word": "templates.",
+        "startTime": 32.8,
+        "endTime": 33.34
+      }
+    ]
+  },
+  {
+    "text": "Includes working node .js code for each type.",
+    "startTime": 34.04,
+    "endTime": 37.16,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Includes",
+        "startTime": 34.04,
+        "endTime": 34.62
+      },
+      {
+        "word": "working",
+        "startTime": 34.62,
+        "endTime": 34.92
+      },
+      {
+        "word": "node",
+        "startTime": 34.92,
+        "endTime": 35.22
+      },
+      {
+        "word": ".js",
+        "startTime": 35.22,
+        "endTime": 35.92
+      },
+      {
+        "word": "code",
+        "startTime": 35.92,
+        "endTime": 36.3
+      },
+      {
+        "word": "for",
+        "startTime": 36.3,
+        "endTime": 36.54
+      },
+      {
+        "word": "each",
+        "startTime": 36.54,
+        "endTime": 36.76
+      },
+      {
+        "word": "type.",
+        "startTime": 36.76,
+        "endTime": 37.16
+      }
+    ]
+  },
+  {
+    "text": "Apply what you learn in this lesson and you will see results immediately, your skills bare fruit.",
+    "startTime": 37.96,
+    "endTime": 43.18,
+    "slideType": "summary",
+    "words": [
+      {
+        "word": "Apply",
+        "startTime": 37.96,
+        "endTime": 38.26
+      },
+      {
+        "word": "what",
+        "startTime": 38.26,
+        "endTime": 38.48
+      },
+      {
+        "word": "you",
+        "startTime": 38.48,
+        "endTime": 38.62
+      },
+      {
+        "word": "learn",
+        "startTime": 38.62,
+        "endTime": 38.82
+      },
+      {
+        "word": "in",
+        "startTime": 38.82,
+        "endTime": 38.96
+      },
+      {
+        "word": "this",
+        "startTime": 38.96,
+        "endTime": 39.14
+      },
+      {
+        "word": "lesson",
+        "startTime": 39.14,
+        "endTime": 39.46
+      },
+      {
+        "word": "and",
+        "startTime": 39.46,
+        "endTime": 39.98
+      },
+      {
+        "word": "you",
+        "startTime": 39.98,
+        "endTime": 40.14
+      },
+      {
+        "word": "will",
+        "startTime": 40.14,
+        "endTime": 40.24
+      },
+      {
+        "word": "see",
+        "startTime": 40.24,
+        "endTime": 40.46
+      },
+      {
+        "word": "results",
+        "startTime": 40.46,
+        "endTime": 40.88
+      },
+      {
+        "word": "immediately,",
+        "startTime": 40.88,
+        "endTime": 41.46
+      },
+      {
+        "word": "your",
+        "startTime": 42.08,
+        "endTime": 42.2
+      },
+      {
+        "word": "skills",
+        "startTime": 42.2,
+        "endTime": 42.62
+      },
+      {
+        "word": "bare",
+        "startTime": 42.62,
+        "endTime": 42.88
+      },
+      {
+        "word": "fruit.",
+        "startTime": 42.88,
+        "endTime": 43.18
+      }
+    ]
+  }
+]
